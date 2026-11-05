@@ -1,6 +1,20 @@
 # Onde paramos
 > Último turno: Claude (2026-11-05)
 
+## DevConductor open source (DEV-49) — pronto, falta o Neemias tornar público (05/11)
+
+- `neemiasjls/DevConductor` recriado com **histórico novo** (1 commit, ainda PRIVADO). CI Linux e Windows no GitHub.
+- Histórico antigo (189 commits, todas as branches): o repositório antigo foi **renomeado** para
+  `neemiasjls/DevConductor-historico` (privado). Remoto local `revisoes` aponta para ele; o `vigia-codex.ps1` envia
+  as revisões para lá (assim a branch `codex/revisoes`, feita sobre o histórico antigo, nunca vai para o público).
+- Pilotos de clientes (transportadora v1/v2, salão), capturas de comparação e o `continuar.md` antigo inteiro:
+  `neemiasjls/devconductor-clientes` (privado), pasta irmã `PROJETOS/devconductor-clientes` (com o launch.json deles).
+- Aqui: nomes de cliente generalizados, caminhos da máquina trocados por `<usuario>`, `.claude/settings.json` usa o
+  marketplace do GitHub (o caminho local foi para `settings.local.json`), sem `vitrine.json` (não gera mais vitrine).
+  README da raiz é o público; o antigo virou `docs/guia-completo.md`. gitleaks sem achados no repositório novo.
+- **Falta (Neemias):** `gh repo edit neemiasjls/DevConductor --visibility public --accept-visibility-change-consequences`
+  e dizer se pode apagar o `neemiasjls/DevConductor-vitrine` (engano de rota).
+
 ## Mapas no README (05/11)
 
 - README do DevConductor com dois mapas (peças do kit e fluxo de um pedido), commit `b2659cf`; a vitrine pega na
@@ -25,22 +39,6 @@
 - Vídeos da vitrine (`vitrine/rodada-claude/`) regravados com as versões novas e conferidos (`verificacao-videos.json`
   aprovado). A gravação com o 3D no SwiftShader fica lenta: compensar com menos `--segundos` no `gravar-rolagem`
   (passos = segundos × 20) para manter as durações (~40/23 s Austral, 31/21 s Lúmen, 49/28 s Prumo).
-
-## Vitrine pública do DevConductor (DEV-49) — feita, falta o Neemias revisar e tornar pública (05/11)
-
-- Licenças: `docs/licencas-publicacao.md` (conferidas na origem e refeitas por um 2º agente independente). Tudo
-  MIT/Apache-2.0/OFL, com autor original mantido; nada saiu. LICENSE do kit: MIT, `neemiasjls (DevConductor)`.
-- Skill `subir` (núcleo 0.4.3) ganhou o passo 7: depois do push no privado, se houver `vitrine.json`, roda
-  `skills/subir/scripts/vitrine.mjs --enviar` (gera, varre, commit com a autoria do privado e push). Ideia em
-  `docs/vitrine-publica.md`; exemplo `skills/subir/vitrine.exemplo.json`. Aqui: `vitrine.json` na raiz e o atalho
-  `node scripts/gerar-vitrine.mjs [--conferir|--enviar "msg"]`.
-- `neemiasjls/DevConductor-vitrine` PRIVADO, 2 commits, 772 arquivos, gitleaks sem achados, CI do 1º commit verde.
-  Suíte: 344 no privado (342 passam); 305 na vitrine (280 passam, 25 pulados por usarem `pilotos/`).
-- **Falta:** (1) Neemias revisar e rodar
-  `gh repo edit neemiasjls/DevConductor-vitrine --visibility public --accept-visibility-change-consequences`;
-  (2) skill `subir` global, cópia do Codex e linha "Git" do CLAUDE.md global: FEITO (05/11, com permissão dele).
-  (3) CLAUDE.md/AGENTS.md dos projetos privados: não feito (a skill global já cobre; reforçar por projeto se quiser);
-  (4) vitrines de Sistema_de_Gestao, Agenda e qrcode-manager: não feitas; roteiro em side-session-notes/vitrines-outros-projetos.md (fazer numa sessão nova).
 
 ## Modo autônomo (04/11, noite) — vale para Claude e Codex
 
