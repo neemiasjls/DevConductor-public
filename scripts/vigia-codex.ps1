@@ -13,6 +13,8 @@ $ErrorActionPreference = 'Continue'
 $OutputEncoding = [Text.UTF8Encoding]::new($false)
 
 $Revisoes = 'codex/revisoes'
+# As revisões vão para o remoto 'revisoes' quando existir (ex.: repositório privado), senão para o origin.
+$Remoto = if (git -C $Repo remote | Where-Object { $_ -eq 'revisoes' }) { 'revisoes' } else { 'origin' }
 $Pasta = Join-Path (Split-Path $Repo -Parent) "$(Split-Path $Repo -Leaf)-revisoes"
 $Marca = Join-Path $Pasta 'revisoes\ultimo.txt'
 function Hora { Get-Date -Format 'HH:mm:ss' }
@@ -20,8 +22,8 @@ function Hora { Get-Date -Format 'HH:mm:ss' }
 # Pasta separada (worktree) só para as revisões, na branch codex/revisoes.
 git -C $Repo fetch -q origin $Branch
 if (-not (Test-Path $Pasta)) {
-  if (git -C $Repo ls-remote --heads origin $Revisoes) {
-    git -C $Repo fetch -q origin "${Revisoes}:${Revisoes}"
+  if (git -C $Repo ls-remote --heads $Remoto $Revisoes) {
+    git -C $Repo fetch -q $Remoto "${Revisoes}:${Revisoes}"
     git -C $Repo worktree add $Pasta $Revisoes
   } else {
     git -C $Repo worktree add --no-track -b $Revisoes $Pasta "origin/$Branch"
@@ -37,7 +39,7 @@ New-Item -ItemType Directory -Force (Join-Path $Pasta 'revisoes') -ErrorAction S
 # Envia o que ficou só no computador (push que falhou antes). Push sem nada novo não faz nada.
 $pendente = $true
 function Publicar {
-  git -C $Pasta push -q -u origin $Revisoes 2>&1 | Out-Host
+  git -C $Pasta push -q -u $Remoto $Revisoes 2>&1 | Out-Host
   if ($LASTEXITCODE -eq 0) { $script:pendente = $false; return $true }
   $script:pendente = $true
   Write-Host "[$(Hora)] Push das revisões falhou; tento de novo na próxima volta."
