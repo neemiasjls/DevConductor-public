@@ -21,10 +21,12 @@ tempo, e o que foi público uma vez pode ter sido copiado. Por isso são dois re
 
 1. `vitrine.json` na raiz do privado diz o repositório da vitrine, a pasta local dela, o que entra
    (`incluir`), o que sai (`excluir`), arquivos que trocam de nome (`renomear`, ex.: um README próprio da
-   vitrine) e padrões proibidos do projeto (nomes de clientes). Modelo:
+   vitrine), trocas de texto (`trocar`: padrão → texto, opcionalmente só em alguns arquivos, para generalizar
+   nomes de clientes na cópia sem mexer no privado), padrões proibidos do projeto (nomes de clientes) e
+   exceções conhecidas (`permitidos`, com `arquivo` exato ou glob). Modelo:
    `plugins/devconductor-core/skills/subir/vitrine.exemplo.json`.
 2. O gerador (`plugins/devconductor-core/skills/subir/scripts/vitrine.mjs`) pega só arquivos versionados,
-   aplica a lista e varre o texto atrás de e-mail pessoal, caminho da máquina, CPF/CNPJ, telefone, token,
+   aplica a lista e as trocas e varre o texto atrás de e-mail pessoal, caminho da máquina, CPF/CNPJ, telefone, token,
    chave privada e os padrões do projeto. Com achado, não copia nada.
 3. A skill `subir` roda o gerador com `--enviar` depois do push no privado: commit com a mesma autoria e
    push na vitrine. Quando o usuário diz "sobe", sobem os dois.

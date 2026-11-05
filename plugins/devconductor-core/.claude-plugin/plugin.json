@@ -1,6 +1,6 @@
 {
   "name": "devconductor-core",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Núcleo do DevConductor: roteamento de modelo por custo, integração do método superpowers com os especialistas de stack, memória do projeto, subir para produção e detecção automática de stack e aviso na tela quando o Claude precisa de você.",
   "author": {
     "name": "DevConductor"

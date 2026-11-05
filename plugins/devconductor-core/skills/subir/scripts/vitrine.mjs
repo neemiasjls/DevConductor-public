@@ -3,6 +3,7 @@
 // Usa só arquivos versionados (git ls-files), então nada ignorado (logins, node_modules, .env) entra.
 // Antes de copiar, varre o texto atrás de e-mail pessoal, caminho da máquina, CPF/CNPJ, telefone, token e chave
 // privada (mais os padrões do projeto, como nomes de clientes); com achado, não escreve nada e sai com código 1.
+// "trocar" no vitrine.json generaliza o texto antes da varredura (ex.: nome de cliente → "cliente"); o privado não muda.
 //
 // Uso (na pasta do projeto ou com --projeto):
 //   node vitrine.mjs --conferir                 só varre
@@ -62,6 +63,16 @@ export function selecionar(arquivos, cfg) {
   return saida.sort((x, y) => x.destino.localeCompare(y.destino))
 }
 
+/** Aplica as trocas do vitrine.json ([{ padrao, flags, por, arquivos }]) ao texto de um arquivo. */
+export function aplicarTrocas(arquivo, texto, cfg) {
+  for (const tr of cfg.trocar || []) {
+    if (tr.arquivos && !tr.arquivos.map(globParaRegex).some((r) => r.test(arquivo))) continue
+    const flags = [...new Set(((tr.flags || '') + 'g').split(''))].join('')
+    texto = texto.replace(new RegExp(tr.padrao, flags), tr.por ?? '')
+  }
+  return texto
+}
+
 /** Arquivo binário (imagem, vídeo, fonte): não é varrido. */
 export function ehBinario(buf) {
   return buf.subarray(0, 8000).includes(0)
@@ -71,7 +82,7 @@ export function ehBinario(buf) {
 export function varrer(arquivo, texto, cfg) {
   const achados = []
   const permitidos = (cfg.permitidos || [])
-    .filter((p) => p.arquivo === arquivo)
+    .filter((p) => !p.arquivo || globParaRegex(p.arquivo).test(arquivo))
     .map((p) => new RegExp('^(?:' + p.trecho + ')$'))
   const linhas = texto.split(/\r?\n/)
   for (const regra of [...PROIBIDOS_PADRAO, ...(cfg.proibidos || [])]) {
@@ -113,20 +124,26 @@ export function gerar({ projeto, destino, conferir = false, cfg } = {}) {
   if (r.status !== 0) throw new Error('git ls-files falhou: ' + r.stderr)
   const lista = selecionar(r.stdout.split('\0').filter(Boolean), cfg)
   const achados = []
+  const trocados = new Map()
   for (const { origem } of lista) {
     const buf = fs.readFileSync(path.join(projeto, origem))
-    if (!ehBinario(buf)) achados.push(...varrer(origem, buf.toString('utf8'), cfg))
+    if (ehBinario(buf)) continue
+    const original = buf.toString('utf8')
+    const texto = aplicarTrocas(origem, original, cfg)
+    if (texto !== original) trocados.set(origem, texto)
+    achados.push(...varrer(origem, texto, cfg))
   }
-  if (achados.length || conferir) return { lista, achados, copiados: 0 }
+  if (achados.length || conferir) return { lista, achados, copiados: 0, trocados }
   const alvo = path.resolve(projeto, destino || cfg.pasta || path.join('..', path.basename(projeto) + '-vitrine'))
   if (alvo === projeto || projeto.startsWith(alvo + path.sep)) throw new Error('destino não pode ser o próprio projeto')
   limparDestino(alvo)
   for (const { origem, destino: d } of lista) {
     const f = path.join(alvo, d)
     fs.mkdirSync(path.dirname(f), { recursive: true })
-    fs.copyFileSync(path.join(projeto, origem), f)
+    if (trocados.has(origem)) fs.writeFileSync(f, trocados.get(origem))
+    else fs.copyFileSync(path.join(projeto, origem), f)
   }
-  return { lista, achados, copiados: lista.length, alvo }
+  return { lista, achados, copiados: lista.length, alvo, trocados }
 }
 
 /** Gera e envia: commit com a mesma autoria do repositório privado e push. Clona a vitrine se a pasta não existir. */

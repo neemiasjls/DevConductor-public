@@ -40,7 +40,7 @@ Planos, assets e relatórios locais em pilotos/prova-design/<site>/. Conteúdo e
 
 Barbearia revisou Coral: ajustes de contraste e atalho implementados; cartão Twist tipográfico mantido como decisão do roteiro. Lastro revisou Barbearia: instrução de toque corrigida; suposto defeito do placar descartado após conferir o estado estabilizado aos 5 s. Capturas e justificativas nas pastas revisao/coral-leitura e revisao/critica-barbearia.md.
 
-A revisão principal viu aberturas desktop/celular, cenas e quadros de rolagem, além dos pilotos de clientes (transportadora e salão). Lastro usa uma peça real de carga, evitando a reprodução de caminhão montado em código da Transportadora. Coral muda paleta, tipografia e famílias de movimento em relação ao editorial MB; não se limita a repetir a entrada de fotos. Barbearia explora quinas, P&B e tipografia em vez de copiar o salão. Essa diversidade é evidência de repertório, não certificação de nível Awwwards ou aprovação estética do usuário.
+A revisão principal viu aberturas desktop/celular, cenas e quadros de rolagem, além dos pilotos de clientes (transportadora e salão). Lastro usa uma peça real de carga, evitando a reprodução de caminhão montado em código da Transportadora. Coral muda paleta, tipografia e famílias de movimento em relação ao editorial do salão-cliente; não se limita a repetir a entrada de fotos. Barbearia explora quinas, P&B e tipografia em vez de copiar o salão. Essa diversidade é evidência de repertório, não certificação de nível Awwwards ou aprovação estética do usuário.
 
 ## Crítica independente e correções finais
 

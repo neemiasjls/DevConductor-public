@@ -5,7 +5,7 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { spawnSync } from 'node:child_process'
-import { selecionar, varrer, ehBinario, gerar, enviar } from '../../plugins/devconductor-core/skills/subir/scripts/vitrine.mjs'
+import { selecionar, varrer, ehBinario, gerar, enviar, aplicarTrocas } from '../../plugins/devconductor-core/skills/subir/scripts/vitrine.mjs'
 
 const EMAIL = 'fulano@' + 'gmail.com'
 const git = (cwd, ...a) => {
@@ -52,6 +52,21 @@ test('acusa e-mail pessoal, caminho da máquina, CPF, CNPJ, telefone, token e o 
   const regras = varrer('a.md', texto, cfg).map((a) => a.regra).sort()
   assert.deepEqual(regras, ['caminho da máquina', 'caminho da máquina', 'cliente', 'cnpj', 'cpf', 'e-mail pessoal', 'telefone', 'token'])
   assert.deepEqual(varrer('a.md', "valida('(11) 91234" + "-5678')", { permitidos: [{ arquivo: 'a.md', trecho: '\\(11\\) 9?\\d{4}-\\d{4}' }] }), [])
+})
+
+test('trocar generaliza o texto antes da varredura, só nos arquivos indicados', (t) => {
+  const cfg = {
+    proibidos: [{ nome: 'cliente', padrao: 'empresa x', flags: 'i' }],
+    trocar: [{ padrao: 'Empresa X', flags: 'i', por: 'cliente' }, { padrao: 'segredo', por: '', arquivos: ['docs/**'] }],
+  }
+  assert.equal(aplicarTrocas('docs/a.md', 'site da EMPRESA X, segredo', cfg), 'site da cliente, ')
+  assert.equal(aplicarTrocas('src/a.js', 'segredo', cfg), 'segredo')
+  const { projeto, base } = projetoDeTeste(t, { ...cfg, incluir: ['docs/'] }, { 'docs/a.md': 'Empresa X\n' })
+  const destino = path.join(base, 'saida')
+  const r = gerar({ projeto, destino })
+  assert.deepEqual(r.achados, [])
+  assert.equal(fs.readFileSync(path.join(destino, 'docs', 'a.md'), 'utf8'), 'cliente\n')
+  assert.equal(fs.readFileSync(path.join(projeto, 'docs', 'a.md'), 'utf8'), 'Empresa X\n', 'o privado não muda')
 })
 
 test('binário não é varrido', () => {

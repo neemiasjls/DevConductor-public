@@ -18,7 +18,7 @@
       "name": "devconductor-core",
       "source": "./plugins/devconductor-core",
       "description": "Núcleo do DevConductor: roteamento de modelo por custo, integração do método superpowers com os especialistas de stack, memória do projeto, subir para produção e detecção automática de stack e aviso na tela quando o Claude precisa de você.",
-      "version": "0.4.3"
+      "version": "0.4.4"
     },
     {
       "name": "estudio-design",
@@ -36,7 +36,7 @@
       "name": "landing-pages",
       "source": "./plugins/landing-pages",
       "description": "Fábrica de landing pages para negócios locais: lp-maestro conduz da coleta à publicação, com arsenal de skills famosas de design (travadas, lidas só na etapa certa) e biblioteca de cenas guiadas pelo scroll.",
-      "version": "0.3.12"
+      "version": "0.3.11"
     },
     {
       "name": "seguranca",
