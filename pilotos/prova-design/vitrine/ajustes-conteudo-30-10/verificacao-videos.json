@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-30T13:42:19.046Z",
+  "aprovado": true,
+  "videos": [
+    {
+      "nome": "lastro-cargas",
+      "duracao": 44.767,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 22715086,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "lastro-cargas-celular",
+      "duracao": 22.733,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 6869071,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "estudio-coral",
+      "duracao": 29,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 23460396,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "estudio-coral-celular",
+      "duracao": 20.033,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 8389354,
+      "buscaNoMeio": true,
+      "quadros": 6
+    }
+  ]
+}

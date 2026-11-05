@@ -1,0 +1,951 @@
+{
+  "data": "2026-11-05T14:15:41.874Z",
+  "url": "http://localhost:5201/",
+  "cenarios": [
+    {
+      "largura": 360,
+      "altura": 640,
+      "toque": true,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 153.59375,
+          "y": 108,
+          "direita": 338.40625,
+          "baixo": 196.875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 153.59375,
+          "y": 204.875,
+          "direita": 338.40625,
+          "baixo": 293.75,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 153.59375,
+          "y": 301.75,
+          "direita": 338.40625,
+          "baixo": 408.5,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 153.59375,
+          "y": 416.5,
+          "direita": 338.40625,
+          "baixo": 523.25,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 153.59375,
+          "y": 531.25,
+          "direita": 338.40625,
+          "baixo": 638,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 21.59375,
+          "y": 287.71875,
+          "direita": 338.40625,
+          "baixo": 351.71875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 153.59375,
+          "y": 531.25,
+          "direita": 338.40625,
+          "baixo": 638,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 153.59375,
+          "y": 416.5,
+          "direita": 338.40625,
+          "baixo": 523.25,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 153.59375,
+          "y": 301.75,
+          "direita": 338.40625,
+          "baixo": 408.5,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 153.59375,
+          "y": 204.875,
+          "direita": 338.40625,
+          "baixo": 293.75,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 153.59375,
+          "y": 108,
+          "direita": 338.40625,
+          "baixo": 196.875,
+          "largura": 360,
+          "altura": 640
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true,
+        true
+      ],
+      "percurso": {
+        "gesto": "toque",
+        "telas": 16.5
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 640,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0.0242, 0, 0, 0.0242, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.60763, 0, 0, 0.723887, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.60763, 0, 0, 0.723887, 0, 0)"
+        }
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 390,
+      "altura": 844,
+      "toque": true,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 155.390625,
+          "y": 108,
+          "direita": 366.609375,
+          "baixo": 196.875,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 155.390625,
+          "y": 204.875,
+          "direita": 366.609375,
+          "baixo": 293.75,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 155.390625,
+          "y": 301.75,
+          "direita": 366.609375,
+          "baixo": 390.625,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 155.390625,
+          "y": 398.625,
+          "direita": 366.609375,
+          "baixo": 505.375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 155.390625,
+          "y": 513.375,
+          "direita": 366.609375,
+          "baixo": 620.125,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 23.390625,
+          "y": 389.765625,
+          "direita": 366.609375,
+          "baixo": 453.765625,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 155.390625,
+          "y": 513.375,
+          "direita": 366.609375,
+          "baixo": 620.125,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 155.390625,
+          "y": 398.625,
+          "direita": 366.609375,
+          "baixo": 505.375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 155.390625,
+          "y": 301.75,
+          "direita": 366.609375,
+          "baixo": 390.625,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 155.390625,
+          "y": 204.875,
+          "direita": 366.609375,
+          "baixo": 293.75,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 155.390625,
+          "y": 108,
+          "direita": 366.609375,
+          "baixo": 196.875,
+          "largura": 390,
+          "altura": 844
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true
+      ],
+      "percurso": {
+        "gesto": "toque",
+        "telas": 13.8
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 844,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.566072, 0, 0, 0.694643, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.566072, 0, 0, 0.694643, 0, 0)"
+        }
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 414,
+      "altura": 736,
+      "toque": true,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 156.828125,
+          "y": 108,
+          "direita": 389.171875,
+          "baixo": 196.875,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 156.828125,
+          "y": 204.875,
+          "direita": 389.171875,
+          "baixo": 293.75,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 156.828125,
+          "y": 301.75,
+          "direita": 389.171875,
+          "baixo": 390.625,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 156.828125,
+          "y": 398.625,
+          "direita": 389.171875,
+          "baixo": 487.5,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 156.828125,
+          "y": 495.5,
+          "direita": 389.171875,
+          "baixo": 584.375,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 24.828125,
+          "y": 336.359375,
+          "direita": 389.171875,
+          "baixo": 400.359375,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 156.828125,
+          "y": 495.5,
+          "direita": 389.171875,
+          "baixo": 584.375,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 156.828125,
+          "y": 398.625,
+          "direita": 389.171875,
+          "baixo": 487.5,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 156.828125,
+          "y": 301.75,
+          "direita": 389.171875,
+          "baixo": 390.625,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 156.828125,
+          "y": 204.875,
+          "direita": 389.171875,
+          "baixo": 293.75,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 156.828125,
+          "y": 108,
+          "direita": 389.171875,
+          "baixo": 196.875,
+          "largura": 414,
+          "altura": 736
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true,
+        true
+      ],
+      "percurso": {
+        "gesto": "toque",
+        "telas": 14.9
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 736,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0.0193, 0, 0, 0.0193, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.581431, 0, 0, 0.705451, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.581431, 0, 0, 0.705451, 0, 0)"
+        }
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 1440,
+      "altura": 900,
+      "toque": false,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 146.390625,
+          "y": 736.25,
+          "direita": 359.828125,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 379.828125,
+          "y": 736.25,
+          "direita": 593.265625,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 613.265625,
+          "y": 736.25,
+          "direita": 826.71875,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 846.71875,
+          "y": 736.25,
+          "direita": 1060.15625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 1080.15625,
+          "y": 736.25,
+          "direita": 1293.609375,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 146.390625,
+          "y": 417.265625,
+          "direita": 696,
+          "baixo": 483.53125,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 hPorta aberta na entregaEm ",
+          "x": 1080.15625,
+          "y": 736.25,
+          "direita": 1293.609375,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 hParada do motoristaPerto d",
+          "x": 846.71875,
+          "y": 736.25,
+          "direita": 1060.15625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 hPedágioNo Paraná, parada cu",
+          "x": 613.265625,
+          "y": 736.25,
+          "direita": 826.71875,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 hColetaPorta aberta 25 min n",
+          "x": 379.828125,
+          "y": 736.25,
+          "direita": 593.265625,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 hPré-resfriamentoEm Chapecó,",
+          "x": 146.390625,
+          "y": 736.25,
+          "direita": 359.828125,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "percurso": {
+        "gesto": "roda",
+        "telas": 12.5
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 900,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0.0221, 0, 0, 0.0221, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.52992, 0, 0, 0.669203, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.52992, 0, 0, 0.669203, 0, 0)"
+        }
+      },
+      "trocaLargura": [
+        {
+          "largura": 390,
+          "hora": "12 h",
+          "tracos": [
+            {
+              "total": 1514.8162841796875,
+              "offset": 1026.53
+            }
+          ],
+          "grafico": "none",
+          "acesos": 3
+        },
+        {
+          "largura": 1440,
+          "hora": "12 h",
+          "tracos": [
+            {
+              "total": 1635.825439453125,
+              "offset": 1108.14
+            }
+          ],
+          "grafico": "none",
+          "acesos": 3
+        }
+      ],
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

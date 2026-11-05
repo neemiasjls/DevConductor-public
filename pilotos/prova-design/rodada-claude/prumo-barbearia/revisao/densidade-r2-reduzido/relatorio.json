@@ -1,0 +1,143 @@
+{
+  "url": "http://localhost:5203/",
+  "data": "2026-11-05T14:19:59.307Z",
+  "reduzido": true,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 123,
+    "celular": 66
+  },
+  "alertas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 123,
+      "limite": 60,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 64,
+      "limite": 45,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 66,
+      "limite": 45,
+      "amostra": "± 16 cm Altura regulada A bomba hidráulica põe a cabeça na linha dos olhos do barbeiro. 15° Encosto que inclina Pescoço exposto para a navalha passar sem estica"
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 123,
+      "palavrasLeitura": 0,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 16,
+      "palavrasLeitura": 0,
+      "amostra": "02 · Manifesto Cada milímetro tem um motivo. Quando a medida está certa, a transição some. tesoura"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 40,
+      "palavrasLeitura": 41,
+      "amostra": "O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1 Foto: Truth678"
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 0,
+      "palavrasLeitura": 83,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 21,
+      "palavrasLeitura": 26,
+      "amostra": "06 · Agendar Sua vez na cadeira. Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 9,
+      "palavrasLeitura": 136,
+      "amostra": "0 mm 0 mm de espera ( frase de demonstração )"
+    },
+    {
+      "modo": "computador",
+      "y": 4565,
+      "palavras": 9,
+      "palavrasLeitura": 148,
+      "amostra": "0 mm 0 mm de espera ( frase de demonstração )"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 64,
+      "palavrasLeitura": 0,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 66,
+      "palavrasLeitura": 0,
+      "amostra": "± 16 cm Altura regulada A bomba hidráulica põe a cabeça na linha dos olhos do barbeiro. 15° Encosto que inclina Pescoço exposto para a navalha passar sem estica"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 44,
+      "palavrasLeitura": 0,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 0,
+      "palavrasLeitura": 71,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 0,
+      "palavrasLeitura": 48,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 21,
+      "palavrasLeitura": 13,
+      "amostra": "06 · Agendar Sua vez na cadeira. Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp"
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 7,
+      "palavrasLeitura": 50,
+      "amostra": "0 mm de espera ( frase de demonstração )"
+    },
+    {
+      "modo": "celular",
+      "y": 5672,
+      "palavras": 0,
+      "palavrasLeitura": 110,
+      "amostra": ""
+    }
+  ]
+}

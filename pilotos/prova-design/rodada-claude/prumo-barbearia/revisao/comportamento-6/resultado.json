@@ -1,0 +1,903 @@
+{
+  "data": "2026-10-30T14:04:29.453Z",
+  "url": "http://127.0.0.1:5203/",
+  "cenarios": [
+    {
+      "caso": "principal",
+      "largura": 390,
+      "tresDPronto": true,
+      "pausaRetomada": true,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte no WhatsApp",
+          "x": 120,
+          "y": 554.203125,
+          "direita": 358,
+          "baixo": 598.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar degradê navalhado no WhatsApp",
+          "x": 120,
+          "y": 674.203125,
+          "direita": 358,
+          "baixo": 718.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "x": 282.203125,
+          "y": 6,
+          "direita": 370,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Prumo Barbearia, início",
+          "x": 20,
+          "y": 6,
+          "direita": 105.09375,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "SPAN.titulo text-[20px] tracking-[-0.01em]",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Pular para o conteúdo",
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.sr-only fixed left-4 top-3 z-[100] bg-papel p-3 text-tinta f",
+          "rolagem": 3981,
+          "opacidadeHero": "1"
+        }
+      ],
+      "paradoForaDaTela": true,
+      "fimAlcancado": true,
+      "topoDepoisDaVolta": {
+        "y": 0,
+        "hero": "1",
+        "legenda": "hidden",
+        "faixa": "0"
+      },
+      "deslocamentos": [
+        {
+          "tempo": 516.3000000007451,
+          "valor": 0.007275628787106517,
+          "entrada": true,
+          "fontes": [
+            "DIV.absolute inset-x-5 bottom-7 md:inset-x-auto md:bottom-[12vh]"
+          ]
+        },
+        {
+          "tempo": 1033.5,
+          "valor": 0.0001503180003213695,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 2846.300000000745,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 2875,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 4799.700000001118,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 4821.10000000149,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 5733.5,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 5737.200000001118,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 7334.5,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 7337.60000000149,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 7813.5,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 7817.700000001118,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 9755,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 9769.900000000373,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 10193.200000001118,
+          "valor": 0.030180946012800643,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 10253.60000000149,
+          "valor": 0.000020866251391593367,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 10390.400000000373,
+          "valor": 0.000020866251391593367,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 11990.10000000149,
+          "valor": 0.03173005651611253,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 14718,
+          "valor": 0.03173005651611253,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 17450.800000000745,
+          "valor": 0.0001503180003213695,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18372.60000000149,
+          "valor": 0.000017885358335651457,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18475.700000001118,
+          "valor": 0.000017885358335651457,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 22954.5,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 22973.800000000745,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 22979.300000000745,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 23004.10000000149,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 23009.300000000745,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 23027.900000000373,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 23033.300000000745,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 23045.800000000745,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 23057.800000000745,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 23088.700000001118,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 29821.900000000373,
+          "valor": 0.000005961786111883819,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 29845.5,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 29895,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        }
+      ],
+      "clsJanela": 0.00020866251391593363,
+      "reduzido": {
+        "lenis": false,
+        "canvas": false,
+        "percurso": 1157,
+        "secao": 1157,
+        "legendas": [
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "medidas": 6,
+        "manifesto": "\"wght\" 720"
+      },
+      "voltaDoReduzido": true,
+      "aprovado": true
+    },
+    {
+      "caso": "glb-bloqueado",
+      "largura": 390,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendaVisivel": true,
+      "erros": [
+        "pageerror: Could not load /modelos/cadeira.glb: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "hdri-bloqueado",
+      "largura": 390,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendaVisivel": true,
+      "erros": [
+        "pageerror: Could not load /ambientes/oficina-256.hdr: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "sem-webgl",
+      "largura": 390,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendaVisivel": true,
+      "erros": [],
+      "aprovado": true
+    },
+    {
+      "caso": "fotos-bloqueadas",
+      "largura": 390,
+      "textos": {
+        "alt": 114,
+        "medidas": 6,
+        "regua": 6
+      },
+      "erros": [],
+      "aprovado": true
+    },
+    {
+      "caso": "principal",
+      "largura": 1440,
+      "tresDPronto": true,
+      "pausaRetomada": true,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "x": 632,
+          "y": 446.875,
+          "direita": 1328,
+          "baixo": 525.875,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte no WhatsApp",
+          "x": 648,
+          "y": 525.875,
+          "direita": 895.140625,
+          "baixo": 569.875,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "x": 632,
+          "y": 526.875,
+          "direita": 1328,
+          "baixo": 605.875,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar degradê navalhado no WhatsApp",
+          "x": 648,
+          "y": 605.875,
+          "direita": 981.125,
+          "baixo": 649.875,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "x": 632,
+          "y": 526.875,
+          "direita": 1328,
+          "baixo": 605.875,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "x": 632,
+          "y": 446.875,
+          "direita": 1328,
+          "baixo": 525.875,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "x": 1240.203125,
+          "y": 6,
+          "direita": 1328,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Horários",
+          "x": 815.671875,
+          "y": 6,
+          "direita": 871.09375,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Serviços",
+          "x": 734.171875,
+          "y": 6,
+          "direita": 787.671875,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5063,
+          "opacidadeHero": "1"
+        }
+      ],
+      "paradoForaDaTela": true,
+      "fimAlcancado": true,
+      "topoDepoisDaVolta": {
+        "y": 0,
+        "hero": "1",
+        "legenda": "hidden",
+        "faixa": "0"
+      },
+      "deslocamentos": [
+        {
+          "tempo": 373.40000000037253,
+          "valor": 0.00014159486454046638,
+          "entrada": false,
+          "fontes": [
+            "NAV.hidden md:block",
+            ".",
+            "."
+          ]
+        },
+        {
+          "tempo": 936.2000000011176,
+          "valor": 0.000022376543209876542,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 7374.10000000149,
+          "valor": 0.000012010111239711936,
+          "entrada": true,
+          "fontes": [
+            "SPAN.hidden text-[13px] text-nevoa md:inline"
+          ]
+        },
+        {
+          "tempo": 10231.10000000149,
+          "valor": 0.000012010111239711936,
+          "entrada": true,
+          "fontes": [
+            "SPAN.hidden text-[13px] text-nevoa md:inline"
+          ]
+        },
+        {
+          "tempo": 13746.900000000373,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 14152.900000000373,
+          "valor": 0.3092037037037037,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.invisible pointer-events-none absolute inset-y-0 right-0 w-[",
+            "DIV.mx-auto flex h-14 max-w-[1360px] items-center justify-betwee",
+            "DIV.invisible absolute inset-x-5 bottom-8 md:inset-x-auto md:bot",
+            "LI.invisible absolute bottom-[196px] left-5 w-[min(62vw,250px)]"
+          ]
+        },
+        {
+          "tempo": 16956.400000000373,
+          "valor": 0.003132716049382716,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 17085,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 17275.900000000373,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18784.300000000745,
+          "valor": 0.003291216563786008,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 18790.800000000745,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18863.400000000373,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 21512.400000000373,
+          "valor": 0.003291216563786008,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 21552.60000000149,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 21561,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        }
+      ],
+      "clsJanela": 0.00014159486454046638,
+      "reduzido": {
+        "lenis": false,
+        "canvas": false,
+        "percurso": 1031,
+        "secao": 1031,
+        "legendas": [
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "medidas": 6,
+        "manifesto": "\"wght\" 720"
+      },
+      "voltaDoReduzido": true,
+      "aprovado": true
+    },
+    {
+      "caso": "glb-bloqueado",
+      "largura": 1440,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendaVisivel": true,
+      "erros": [
+        "pageerror: Could not load /modelos/cadeira-2k.glb: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "hdri-bloqueado",
+      "largura": 1440,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendaVisivel": true,
+      "erros": [
+        "pageerror: Could not load /ambientes/oficina-512.hdr: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "sem-webgl",
+      "largura": 1440,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendaVisivel": true,
+      "erros": [],
+      "aprovado": true
+    },
+    {
+      "caso": "fotos-bloqueadas",
+      "largura": 1440,
+      "textos": {
+        "alt": 114,
+        "medidas": 6,
+        "regua": 6
+      },
+      "erros": [],
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

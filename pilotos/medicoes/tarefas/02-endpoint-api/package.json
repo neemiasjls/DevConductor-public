@@ -1,0 +1,7 @@
+{
+  "name": "medicao-endpoint-api",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test inicial.test.mjs aceitacao.test.mjs", "start": "node servidor.mjs" },
+  "engines": { "node": ">=22" }
+}

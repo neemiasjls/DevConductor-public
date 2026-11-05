@@ -1,0 +1,9 @@
+{
+  "name": "grafo-codigo",
+  "version": "0.2.6",
+  "description": "Mapa do código com o Graphify (só AST, sem LLM e sem tokens): o agente consulta quem chama quem e o impacto de uma mudança em vez de abrir dezenas de arquivos. Ligado sozinho em projetos grandes.",
+  "author": {
+    "name": "DevConductor"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,290 @@
+{
+ "versao": 1,
+ "observacao": "Fotos de banco aberto (Wikimedia Commons) usadas só nesta demonstração fictícia, com crédito no rodapé; autorizacao=confirmada segue o brief da rodada (demonstração com crédito), não é autorização de pessoa fotografada.",
+ "assets": [
+  {
+   "arquivo": "public/img/abertura-480.webp",
+   "tipo": "foto",
+   "autor": "Vladimir Pustovit",
+   "origem": "https://commons.wikimedia.org/wiki/File:Pretty_woman_with_long_hair.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Vladimir Pustovit",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/abertura-960.webp",
+   "tipo": "foto",
+   "autor": "Vladimir Pustovit",
+   "origem": "https://commons.wikimedia.org/wiki/File:Pretty_woman_with_long_hair.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Vladimir Pustovit",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/abertura-1600.webp",
+   "tipo": "foto",
+   "autor": "Vladimir Pustovit",
+   "origem": "https://commons.wikimedia.org/wiki/File:Pretty_woman_with_long_hair.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Vladimir Pustovit",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/resultado-480.webp",
+   "tipo": "foto",
+   "autor": "Alex Neman",
+   "origem": "https://commons.wikimedia.org/wiki/File:Woman_with_shiny_long_black_hair_from_behind_(25_December_2022).jpg",
+   "licenca": "CC-BY-SA-4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "autorizacao": "confirmada",
+   "credito": "Alex Neman",
+   "alteracoes": "a blusa rosa virou ameixa",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/resultado-960.webp",
+   "tipo": "foto",
+   "autor": "Alex Neman",
+   "origem": "https://commons.wikimedia.org/wiki/File:Woman_with_shiny_long_black_hair_from_behind_(25_December_2022).jpg",
+   "licenca": "CC-BY-SA-4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "autorizacao": "confirmada",
+   "credito": "Alex Neman",
+   "alteracoes": "a blusa rosa virou ameixa",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/resultado-991.webp",
+   "tipo": "foto",
+   "autor": "Alex Neman",
+   "origem": "https://commons.wikimedia.org/wiki/File:Woman_with_shiny_long_black_hair_from_behind_(25_December_2022).jpg",
+   "licenca": "CC-BY-SA-4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "autorizacao": "confirmada",
+   "credito": "Alex Neman",
+   "alteracoes": "a blusa rosa virou ameixa",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/hidratacao-480.webp",
+   "tipo": "foto",
+   "autor": "Gee Hair",
+   "origem": "https://commons.wikimedia.org/wiki/File:Woman_With_Wet_Hair_Using_Hairbrush_(51548089114).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Gee Hair",
+   "alteracoes": "a parede clara virou petróleo",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/hidratacao-960.webp",
+   "tipo": "foto",
+   "autor": "Gee Hair",
+   "origem": "https://commons.wikimedia.org/wiki/File:Woman_With_Wet_Hair_Using_Hairbrush_(51548089114).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Gee Hair",
+   "alteracoes": "a parede clara virou petróleo",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/hidratacao-1281.webp",
+   "tipo": "foto",
+   "autor": "Gee Hair",
+   "origem": "https://commons.wikimedia.org/wiki/File:Woman_With_Wet_Hair_Using_Hairbrush_(51548089114).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Gee Hair",
+   "alteracoes": "a parede clara virou petróleo",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/nutricao-480.webp",
+   "tipo": "foto",
+   "autor": "geehairimages",
+   "origem": "https://commons.wikimedia.org/wiki/File:Hair_Oil_Treatment_at_Hair_Salon.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "geehairimages",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/nutricao-960.webp",
+   "tipo": "foto",
+   "autor": "geehairimages",
+   "origem": "https://commons.wikimedia.org/wiki/File:Hair_Oil_Treatment_at_Hair_Salon.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "geehairimages",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/nutricao-1281.webp",
+   "tipo": "foto",
+   "autor": "geehairimages",
+   "origem": "https://commons.wikimedia.org/wiki/File:Hair_Oil_Treatment_at_Hair_Salon.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "geehairimages",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/reconstrucao-480.webp",
+   "tipo": "foto",
+   "autor": "Hair Spies",
+   "origem": "https://commons.wikimedia.org/wiki/File:Hair_conditioner_(51213040376).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Hair Spies",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/reconstrucao-960.webp",
+   "tipo": "foto",
+   "autor": "Hair Spies",
+   "origem": "https://commons.wikimedia.org/wiki/File:Hair_conditioner_(51213040376).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Hair Spies",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/reconstrucao-1080.webp",
+   "tipo": "foto",
+   "autor": "Hair Spies",
+   "origem": "https://commons.wikimedia.org/wiki/File:Hair_conditioner_(51213040376).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Hair Spies",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/cronograma-480.webp",
+   "tipo": "foto",
+   "autor": "geehairimages",
+   "origem": "https://commons.wikimedia.org/wiki/File:Conditioner_-_Hair_treatment.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "geehairimages",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/cronograma-960.webp",
+   "tipo": "foto",
+   "autor": "geehairimages",
+   "origem": "https://commons.wikimedia.org/wiki/File:Conditioner_-_Hair_treatment.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "geehairimages",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/cronograma-1278.webp",
+   "tipo": "foto",
+   "autor": "geehairimages",
+   "origem": "https://commons.wikimedia.org/wiki/File:Conditioner_-_Hair_treatment.jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "geehairimages",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/corte-480.webp",
+   "tipo": "foto",
+   "autor": "Hair Spies",
+   "origem": "https://commons.wikimedia.org/wiki/File:Cutting_hair_with_scissors_(51214105840).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Hair Spies",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/img/corte-720.webp",
+   "tipo": "foto",
+   "autor": "Hair Spies",
+   "origem": "https://commons.wikimedia.org/wiki/File:Cutting_hair_with_scissors_(51214105840).jpg",
+   "licenca": "CC-BY-2.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "autorizacao": "confirmada",
+   "credito": "Hair Spies",
+   "alteracoes": "Todas as fotos foram recortadas e tratadas",
+   "creditoArquivo": "src/data/conteudo.ts"
+  },
+  {
+   "arquivo": "public/favicon.svg",
+   "tipo": "svg",
+   "autor": "Lúmen Salão (demonstração)",
+   "origem": "codigo-local",
+   "licenca": "proprio"
+  }
+ ],
+ "cenas": [
+  {
+   "id": "0-reflexo-abertura",
+   "desktop": [
+    "public/img/abertura-1600.webp"
+   ],
+   "celular": [
+    "public/img/abertura-960.webp"
+   ]
+  },
+  {
+   "id": "4-resultado-arco",
+   "desktop": [
+    "public/img/resultado-991.webp"
+   ],
+   "celular": [
+    "public/img/resultado-960.webp"
+   ]
+  },
+  {
+   "id": "5-servicos-quadro",
+   "desktop": [
+    "public/img/hidratacao-960.webp",
+    "public/img/nutricao-960.webp",
+    "public/img/reconstrucao-960.webp",
+    "public/img/cronograma-960.webp",
+    "public/img/corte-720.webp"
+   ],
+   "celular": [
+    "public/img/hidratacao-480.webp",
+    "public/img/nutricao-480.webp",
+    "public/img/reconstrucao-480.webp",
+    "public/img/cronograma-480.webp",
+    "public/img/corte-480.webp"
+   ]
+  }
+ ]
+}

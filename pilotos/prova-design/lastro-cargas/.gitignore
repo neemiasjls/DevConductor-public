@@ -1,0 +1,14 @@
+node_modules/
+dist/
+revisao/**/.perfil/
+revisao/**/perfil*/
+*.tsbuildinfo
+ferramentas/prints/
+originais/
+coleta/*/
+# Prints de revisão ficam locais; só os relatórios sobem
+revisao/**
+!revisao/**/
+!revisao/**/relatorio.json
+# Original baixado do modelo 3D: fonte e hash em fontes.json; o site usa só o otimizado
+public/modelos/*-original.glb

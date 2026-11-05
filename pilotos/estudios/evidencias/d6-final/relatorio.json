@@ -1,0 +1,589 @@
+{
+  "url": "http://127.0.0.1:5190/?estudo=espiral",
+  "data": "2026-10-16T05:12:27.357Z",
+  "aprovadoTecnico": true,
+  "cenarios": [
+    {
+      "id": "360/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 352,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 704,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 1056,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 1408,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 154913,
+      "bytesDecodificados": 394005,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 324,
+      "problemas": []
+    },
+    {
+      "id": "360/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 352,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 704,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 1056,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 1408,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 144,
+      "problemas": []
+    },
+    {
+      "id": "390/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 352,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 704,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1056,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1408,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-normal-0.jpg",
+        "390-normal-2.jpg",
+        "390-normal-4.jpg"
+      ],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 88,
+      "problemas": []
+    },
+    {
+      "id": "390/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 352,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 704,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1056,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1408,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-reduzido-0.jpg",
+        "390-reduzido-2.jpg",
+        "390-reduzido-4.jpg"
+      ],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 88,
+      "problemas": []
+    },
+    {
+      "id": "414/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 352,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 704,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1056,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1408,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 96,
+      "problemas": []
+    },
+    {
+      "id": "414/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 352,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 704,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1056,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1408,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 88,
+      "problemas": []
+    },
+    {
+      "id": "768/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 372,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 745,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1117,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1489,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0.0020803079989711935,
+      "lcpLaboratorioMs": 88,
+      "problemas": []
+    },
+    {
+      "id": "768/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 372,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 745,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1117,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1489,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0.0020803079989711935,
+      "lcpLaboratorioMs": 80,
+      "problemas": []
+    },
+    {
+      "id": "1024/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 713,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1426,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 2138,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 2851,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 1.7494188981254895,
+      "lcpLaboratorioMs": 96,
+      "problemas": []
+    },
+    {
+      "id": "1024/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 413,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 826,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1238,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1651,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0.008767856458822885,
+      "lcpLaboratorioMs": 92,
+      "problemas": []
+    },
+    {
+      "id": "1440/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 713,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1426,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 2138,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 2851,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-normal-0.jpg",
+        "1440-normal-2.jpg",
+        "1440-normal-4.jpg"
+      ],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 1.5062675872677147,
+      "lcpLaboratorioMs": 96,
+      "problemas": []
+    },
+    {
+      "id": "1440/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 413,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 826,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1238,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1651,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-reduzido-0.jpg",
+        "1440-reduzido-2.jpg",
+        "1440-reduzido-4.jpg"
+      ],
+      "titulo": "Estúdio de movimento",
+      "h1": [
+        "Outra forma\nde ler."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 900,
+      "bytesDecodificados": 393846,
+      "clsLaboratorio": 0.00654536504549254,
+      "lcpLaboratorioMs": 96,
+      "problemas": []
+    }
+  ],
+  "falhas": [],
+  "limites": "Chrome headless local, cache e máquina variáveis. Bytes são do carregamento observado, não tamanho total do build. LCP/CLS são observações de laboratório, não Core Web Vitals de usuários. Prints exigem inspeção visual; fluidez e aprovação estética não são certificadas pelo script."
+}

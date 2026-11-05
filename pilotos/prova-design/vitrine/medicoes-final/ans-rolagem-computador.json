@@ -1,0 +1,15 @@
+{
+  "url": "http://localhost:5191/",
+  "modo": "computador",
+  "cpu": 1,
+  "segundos": 14,
+  "fpsMedio": 158.4,
+  "quadroP95ms": 6.1,
+  "lentos33": 0.1,
+  "travadas100": 2,
+  "alturaPx": 8539,
+  "lcpMs": 440,
+  "cls": 0,
+  "baixadoKB": 422,
+  "jsKB": 358
+}

@@ -1,0 +1,27 @@
+{
+  "data": "2026-11-04T02:24:08.282Z",
+  "url": "http://127.0.0.1:5202/",
+  "cenarios": [
+    {
+      "largura": 390,
+      "reflexo": {
+        "andou": [
+          "-0.026",
+          "0.398"
+        ],
+        "pausado": {
+          "luz": "0.405",
+          "rodando": "false",
+          "estado": "vivo"
+        },
+        "fora": {
+          "luz": "1.174",
+          "rodando": "false",
+          "estado": "vivo"
+        }
+      }
+    }
+  ],
+  "aprovado": false,
+  "erro": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ null\n- '#conteudo'\n\n    at file:///pilotos/prova-design/rodada-claude/lumen-salao/ferramentas/comportamento.mjs:82:12"
+}

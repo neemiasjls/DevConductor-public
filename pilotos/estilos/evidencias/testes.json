@@ -1,0 +1,290 @@
+[
+  {
+    "id": "luxo-editorial",
+    "largura": 360,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 360,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 390,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 390,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 414,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 414,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 768,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 768,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 1024,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 1024,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 1440,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "luxo-editorial",
+    "largura": 1440,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 360,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 360,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 390,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 390,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 414,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 414,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 768,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 768,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 1024,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 1024,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 1440,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "tecnologico-escuro",
+    "largura": 1440,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 360,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 360,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 390,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 390,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 414,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 414,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 768,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 768,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 1024,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 1024,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 1440,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "claro-organico",
+    "largura": 1440,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 360,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 360,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 390,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 390,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 414,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 414,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 768,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 768,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 1024,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 1024,
+    "reduzido": true,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 1440,
+    "reduzido": false,
+    "passou": true
+  },
+  {
+    "id": "editorial-serio",
+    "largura": 1440,
+    "reduzido": true,
+    "passou": true
+  }
+]

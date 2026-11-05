@@ -1,0 +1,14 @@
+{
+  "comentario": "Copiar para a raiz do projeto privado como vitrine.json. Fica só no privado (nunca vai para a vitrine).",
+  "repositorio": "usuario/meu-projeto-vitrine",
+  "pasta": "../meu-projeto-vitrine",
+  "incluir": ["src/", "tests/", "package.json", "LICENSE", ".env.example"],
+  "excluir": ["src/dados-reais/**"],
+  "renomear": { "docs/vitrine/README.md": "README.md" },
+  "proibidos": [
+    { "nome": "cliente", "padrao": "nome do cliente|nome da empresa", "flags": "i" }
+  ],
+  "permitidos": [
+    { "arquivo": "tests/documentos.test.js", "trecho": "529\\.982\\.247-25" }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "aprovado": true,
+  "erros": [],
+  "arquivos": [
+    {
+      "arquivo": "public/img/camara-fria-1600.webp",
+      "bytes": 98604,
+      "sha256": "aefda9e6c487d76f46f827537ddd256b66eae588cc47a80c3cd9e60c43e2d4a5",
+      "autor": "Kopiersperre",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+      "licenca": "CC-BY-SA-3.0"
+    },
+    {
+      "arquivo": "public/img/camara-fria-960.webp",
+      "bytes": 48012,
+      "sha256": "5fd3926d1465febbe15bb6aecc8565165a99dbf0ef283881229cab2be6253c8c",
+      "autor": "Kopiersperre",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+      "licenca": "CC-BY-SA-3.0"
+    },
+    {
+      "arquivo": "public/img/trailer-doca-1600.webp",
+      "bytes": 108434,
+      "sha256": "46eba4255d8f92f4bcf60d34f157bb09fa864580d8500bacbffcbb58d5334bad",
+      "autor": "Rundvald",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ets-Jean-Chereau-Avranches-Manche-Normandie-semi-remorque-vue-av-byRundvald.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/trailer-doca-960.webp",
+      "bytes": 48812,
+      "sha256": "be9115818492990e1ee00c1ca6639070b20c052ded741a1f94ac34ab7df0beed",
+      "autor": "Rundvald",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ets-Jean-Chereau-Avranches-Manche-Normandie-semi-remorque-vue-av-byRundvald.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/trailer-largo-960.webp",
+      "bytes": 26386,
+      "sha256": "75fe751524847b43303aa29e5d3d87242b961e21f1db7208bbcf82dab0fb5647",
+      "autor": "Trevor Marron",
+      "origem": "https://commons.wikimedia.org/wiki/File:Volvo_FM14_Globetrotter_Tractor_with_refrigerated_trailer.jpg",
+      "licenca": "CC-BY-SA-3.0"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "porta-geada",
+      "desktop": 98604,
+      "celular": 48012,
+      "classe": "leve"
+    },
+    {
+      "id": "doca-foto-abre",
+      "desktop": 108434,
+      "celular": 48812,
+      "classe": "leve"
+    },
+    {
+      "id": "cotar-foto",
+      "desktop": 26386,
+      "celular": 26386,
+      "classe": "leve"
+    }
+  ],
+  "observacao": "Valida declarações e integridade; direitos de imagem, termos da fonte e realismo exigem revisão humana."
+}

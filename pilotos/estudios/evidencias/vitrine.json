@@ -1,0 +1,307 @@
+{
+  "videos": [
+    {
+      "arquivo": "area.webm",
+      "duracao": 7.833,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "area-celular.webm",
+      "duracao": 8.4,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "barras.webm",
+      "duracao": 7.967,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "barras-celular.webm",
+      "duracao": 8.433,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "camadas.webm",
+      "duracao": 7.767,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "camadas-celular.webm",
+      "duracao": 8.233,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "circulo.webm",
+      "duracao": 8.4,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "circulo-celular.webm",
+      "duracao": 8.133,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "cortina.webm",
+      "duracao": 11.967,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "cortina-celular.webm",
+      "duracao": 11.3,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "cronologia.webm",
+      "duracao": 7.967,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "cronologia-celular.webm",
+      "duracao": 8.233,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "divisao.webm",
+      "duracao": 7.833,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "divisao-celular.webm",
+      "duracao": 8.033,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "dobradura.webm",
+      "duracao": 7.933,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "dobradura-celular.webm",
+      "duracao": 8.5,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "espiral.webm",
+      "duracao": 7.933,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "espiral-celular.webm",
+      "duracao": 8.133,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "foco.webm",
+      "duracao": 7.833,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "foco-celular.webm",
+      "duracao": 8.1,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "foto.webm",
+      "duracao": 16.633,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "foto-celular.webm",
+      "duracao": 11.333,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "grade.webm",
+      "duracao": 7.8,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "grade-celular.webm",
+      "duracao": 8.167,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "icones.webm",
+      "duracao": 7.7,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "icones-celular.webm",
+      "duracao": 7.5,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "lateral.webm",
+      "duracao": 13.233,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "lateral-celular.webm",
+      "duracao": 10.933,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "letras.webm",
+      "duracao": 11.367,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "letras-celular.webm",
+      "duracao": 11.467,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "linha.webm",
+      "duracao": 11.733,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "linha-celular.webm",
+      "duracao": 11.333,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "mapa.webm",
+      "duracao": 7.967,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "mapa-celular.webm",
+      "duracao": 8.4,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "mascara.webm",
+      "duracao": 7.933,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "mascara-celular.webm",
+      "duracao": 8.433,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "orbitas.webm",
+      "duracao": 7.833,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "orbitas-celular.webm",
+      "duracao": 8.467,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "particulas.webm",
+      "duracao": 7.833,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "particulas-celular.webm",
+      "duracao": 8.367,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "pilha.webm",
+      "duracao": 7.733,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "pilha-celular.webm",
+      "duracao": 8.2,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "ponte.webm",
+      "duracao": 7.8,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "ponte-celular.webm",
+      "duracao": 8.133,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "prisma.webm",
+      "duracao": 8.133,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "prisma-celular.webm",
+      "duracao": 8.467,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "rota.webm",
+      "duracao": 7.933,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "rota-celular.webm",
+      "duracao": 8.467,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "zoom.webm",
+      "duracao": 16.9,
+      "pausado": true,
+      "controles": true
+    },
+    {
+      "arquivo": "zoom-celular.webm",
+      "duracao": 11.267,
+      "pausado": true,
+      "controles": true
+    }
+  ],
+  "selecaoPersistida": true,
+  "favoritoDeTesteRemovido": true,
+  "semVazamento": true
+}

@@ -1,0 +1,10 @@
+/* Pausa/reduzido precisam mostrar todos os capítulos, não uma pilha de texto encoberto. */
+[data-pausado=true] .pilha-extra{gap:18px}
+[data-pausado=true] .plano-extra{grid-area:auto;transform:none}
+[data-pausado=true] .camadas-extra{display:grid;gap:18px;height:auto;max-height:none;padding:24px 0}
+[data-pausado=true] .camada{position:static;width:100%;height:auto;min-height:150px}
+@media(prefers-reduced-motion:reduce){
+  .pilha-extra{gap:18px}.plano-extra{grid-area:auto;transform:none}
+  .camadas-extra{display:grid;gap:18px;height:auto;max-height:none;padding:24px 0}
+  .camada{position:static;width:100%;height:auto;min-height:150px}
+}

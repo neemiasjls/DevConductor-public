@@ -1,0 +1,146 @@
+{
+  "data": "2026-10-30T14:01:22.751Z",
+  "url": "http://127.0.0.1:5203/",
+  "cenarios": [
+    {
+      "caso": "principal",
+      "largura": 390,
+      "tresDPronto": true,
+      "pausaRetomada": true,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Barba com toalha quenteToalha, óleo, navalha e bal",
+          "x": 20,
+          "y": 629.203125,
+          "direita": 370,
+          "baixo": 730.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar barba com toalha quente no WhatsApp",
+          "x": 120,
+          "y": 776.328125,
+          "direita": 358,
+          "baixo": 820.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Barba com toalha quenteToalha, óleo, navalha e bal",
+          "x": 20,
+          "y": 629.203125,
+          "direita": 370,
+          "baixo": 730.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "x": 282.203125,
+          "y": 6,
+          "direita": 370,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Prumo Barbearia, início",
+          "x": 20,
+          "y": 6,
+          "direita": 105.09375,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Pular para o conteúdo",
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true
+        }
+      ]
+    }
+  ],
+  "aprovado": false,
+  "erro": "AssertionError [ERR_ASSERTION]: Foco fora da tela: {\"texto\":\"Pular para o conteúdo\",\"x\":16,\"y\":12,\"direita\":174.25,\"baixo\":36,\"largura\":390,\"altura\":844,\"visivel\":true,\"noCabecalho\":false,\"naFrente\":true}\n    at conferirFoco (file:///pilotos/prova-design/rodada-claude/prumo-barbearia/ferramentas/comportamento.mjs:110:7)\n    at async file:///pilotos/prova-design/rodada-claude/prumo-barbearia/ferramentas/comportamento.mjs:113:33"
+}

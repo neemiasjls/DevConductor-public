@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tsbuildinfo
+originais/
+coleta/*/
+ferramentas/prints/
+# Prints de revisão ficam locais; só os relatórios sobem
+revisao/**
+!revisao/**/
+!revisao/**/relatorio.json
+!revisao/**/resultado.json

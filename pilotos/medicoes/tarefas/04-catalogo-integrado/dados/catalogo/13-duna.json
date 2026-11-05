@@ -1,0 +1,8 @@
+{
+  "nome": "duna",
+  "versao": "2.0.1",
+  "dependeDe": [
+    "boia",
+    "alicerce"
+  ]
+}

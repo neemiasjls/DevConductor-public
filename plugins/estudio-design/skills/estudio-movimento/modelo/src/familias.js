@@ -1,0 +1,22 @@
+// Estudos originais: dados e formas são demonstrativos, não resultados de clientes.
+export const estudosExtras = [
+  ['mascara', 'Ler entre camadas', 'Tipografia', 'O texto atravessa uma máscara sem sair do documento.', 'Toda palavra\ntem espaço.'],
+  ['espiral', 'Uma leitura circular', 'Tipografia', 'Uma assinatura percorre uma linha circular em SVG.', 'Outra forma\nde ler.'],
+  ['dobradura', 'A palavra se desdobra', 'Tipografia', 'Planos tipográficos giram em perspectiva até ficarem legíveis.', 'Abra uma\nnova ideia.'],
+  ['mapa', 'Lugares em conexão', 'Linhas e mapas', 'Regiões abstratas se acendem em sequência; não representam cobertura real.', 'Cada lugar,\num encontro.'],
+  ['rota', 'O ponto em viagem', 'Linhas e mapas', 'Um marcador acompanha exatamente a linha que está sendo desenhada.', 'O caminho\ntambém conta.'],
+  ['icones', 'Um traço essencial', 'Linhas e mapas', 'Três símbolos originais ganham contorno ao avançar a leitura.', 'Comece pelo\nessencial.'],
+  ['cronologia', 'O tempo tem ritmo', 'Números e dados', 'Marcos de uma sequência demonstrativa se conectam sem contador inventado.', 'Uma etapa\nde cada vez.'],
+  ['barras', 'Dados que tomam forma', 'Números e dados', 'Barras SVG crescem a partir da mesma base. Valores apenas demonstrativos.', 'Veja a\nproporção.'],
+  ['area', 'A curva da leitura', 'Números e dados', 'Uma janela revela a área e o traçado de um gráfico demonstrativo.', 'Olhe para\no conjunto.'],
+  ['pilha', 'Histórias sobrepostas', 'Transições', 'Três planos se organizam em uma pilha, mantendo cada título legível.', 'Uma história\nleva à outra.'],
+  ['ponte', 'Passagem de escala', 'Transições', 'Uma moldura cresce e dá lugar à próxima superfície.', 'Atravesse\na moldura.'],
+  ['camadas', 'Um espaço entre planos', 'Profundidade', 'Camadas geométricas se deslocam em velocidades distintas.', 'Encontre\na distância.'],
+  ['prisma', 'Luz em três dimensões', '3D e fundos', 'Um prisma abstrato em CSS gira sem bibliotecas 3D nem promessa de realismo.', 'O espaço\ntambém se move.'],
+  ['orbitas', 'Um centro em comum', '3D e fundos', 'Órbitas SVG giram ao redor de um ponto estável.', 'Tudo encontra\nseu centro.'],
+  ['foco', 'Do contexto ao detalhe', 'Profundidade', 'Uma composição de círculos se separa em planos e converge para um foco.', 'Escolha\nonde olhar.'],
+  ['divisao', 'Dois lados da passagem', 'Transições', 'Dois planos saem em direções verticais opostas e liberam o centro.', 'Há outro\nlado.'],
+  ['grade', 'Compor o conjunto', 'Transições', 'Módulos entram de direções alternadas e encontram uma grade comum.', 'Partes que\nse encontram.'],
+  ['circulo', 'Uma abertura circular', 'Profundidade', 'Um círculo sólido se expande e muda a relação entre figura e fundo.', 'Amplie\no olhar.'],
+  ['particulas', 'O conjunto se forma', '3D e fundos', 'Pontos SVG determinísticos se reúnem numa marca abstrata original.', 'Cada ponto\nfaz parte.'],
+].map(([id, nome, familia, descricao, titulo]) => ({ id, nome, familia, descricao, titulo, receita: id + '-estudo', fase: 'D2' }))

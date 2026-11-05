@@ -1,0 +1,7 @@
+{
+  "name": "medicao-script-automacao",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test inicial.test.mjs aceitacao.test.mjs" },
+  "engines": { "node": ">=22" }
+}

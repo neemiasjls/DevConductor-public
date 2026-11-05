@@ -1,0 +1,123 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cenas-demo",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "pilotos/cenas-demo",
+        "--",
+        "--strictPort"
+      ],
+      "port": 5181
+    },
+    {
+      "name": "estilos",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "pilotos/estilos/servir.mjs"
+      ],
+      "port": 5192
+    },
+    {
+      "name": "prova-lastro",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/lastro-cargas",
+        "--",
+        "--port",
+        "5181",
+        "--strictPort"
+      ],
+      "port": 5181
+    },
+    {
+      "name": "prova-coral",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/estudio-coral",
+        "--",
+        "--port",
+        "5182",
+        "--strictPort"
+      ],
+      "port": 5182
+    },
+    {
+      "name": "prova-seco",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/barbearia-seco",
+        "--",
+        "--port",
+        "5183",
+        "--strictPort"
+      ],
+      "port": 5183
+    },
+    {
+      "name": "prova-design-vitrine",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/estudio-coral",
+        "--",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "5196",
+        "--strictPort",
+        "--outDir",
+        "../vitrine"
+      ],
+      "port": 5196
+    },
+    {
+      "name": "claude-austral",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/rodada-claude/austral-frio"
+      ],
+      "port": 5201
+    },
+    {
+      "name": "claude-lumen",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/rodada-claude/lumen-salao"
+      ],
+      "port": 5202
+    },
+    {
+      "name": "claude-prumo",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/rodada-claude/prumo-barbearia"
+      ],
+      "port": 5203
+    }
+  ]
+}

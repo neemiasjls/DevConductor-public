@@ -1,0 +1,29 @@
+# Configuração local do Claude Code (por máquina)
+**/.claude/settings.local.json
+
+# Dependências e temporários
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Repositório privado (16/10): pilotos e docs de estado sobem; ficam fora só logins, dependências e cópias de teste (26/10: vídeos, referências, sites de cliente e skills sobem)
+dist/
+pilotos/instalacao-real-*/
+pilotos/isolamento-cli/
+pilotos/**/config-claude/
+pilotos/teste-especialista/
+pilotos/integracao-d3-d4/
+pilotos/testes-temporarios/
+
+pilotos/penpot-mcp/
+pilotos/medicoes/execucoes/
+pilotos/**/.perfis/
+pilotos/**/.perfil*/
+pilotos/estudios/perfil-teste/
+# Perfis de navegador dos testes guardam cookies e logins
+pilotos/**/perfil-*/
+pilotos/**/.prerender-perfil/
+
+# Grafo do código gerado a cada sessão (Graphify)
+graphify-out/

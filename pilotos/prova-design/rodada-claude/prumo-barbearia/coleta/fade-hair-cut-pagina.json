@@ -1,0 +1,105 @@
+{
+ "batchcomplete": "",
+ "query": {
+  "normalized": [
+   {
+    "from": "File:Fade_Hair_Cut.jpg",
+    "to": "File:Fade Hair Cut.jpg"
+   }
+  ],
+  "pages": {
+   "70361556": {
+    "pageid": 70361556,
+    "ns": 6,
+    "title": "File:Fade Hair Cut.jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 143854,
+      "width": 1125,
+      "height": 1104,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Fade_Hair_Cut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fade_Hair_Cut.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=70361556",
+      "sha1": "3294f6c3bbbfd86a858260e6097de55e0a426f7d",
+      "extmetadata": {
+       "DateTime": {
+        "value": "2018-06-30 04:58:46",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+       },
+       "ObjectName": {
+        "value": "Fade Hair Cut",
+        "source": "mediawiki-metadata"
+       },
+       "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+       },
+       "Categories": {
+        "value": "Barber shops in New York (state)|Haircuts|Self-published work",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+       },
+       "ImageDescription": {
+        "value": "hair cut",
+        "source": "commons-desc-page"
+       },
+       "DateTimeOriginal": {
+        "value": "2018-06-30",
+        "source": "commons-desc-page"
+       },
+       "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Truth678&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Truth678 (page does not exist)\">Truth678</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+       },
+       "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+       },
+       "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+       }
+      }
+     }
+    ]
+   }
+  }
+ }
+}

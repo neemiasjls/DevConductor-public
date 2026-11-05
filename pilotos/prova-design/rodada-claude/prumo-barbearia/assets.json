@@ -1,0 +1,247 @@
+{
+  "versao": 1,
+  "assets": [
+    {
+      "arquivo": "public/modelos/cadeira-2k.glb",
+      "tipo": "modelo3d",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "texturas reduzidas (2k/1k), WebP e Draco"
+    },
+    {
+      "arquivo": "public/modelos/cadeira.glb",
+      "tipo": "modelo3d",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "texturas reduzidas (2k/1k), WebP e Draco"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-poster.webp",
+      "tipo": "imagem",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "render do modelo CC0 na cena do site (ferramentas/gerar-poster.mjs)"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-abertura.webp",
+      "tipo": "imagem",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "render do modelo CC0 na cena do site (ferramentas/gerar-poster.mjs)"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-abertura-celular.webp",
+      "tipo": "imagem",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "render do modelo CC0 na cena do site (ferramentas/gerar-poster.mjs)"
+    },
+    {
+      "arquivo": "public/og.jpg",
+      "tipo": "imagem",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "captura da abertura com o modelo CC0 (ferramentas/gerar-og.mjs)"
+    },
+    {
+      "arquivo": "public/ambientes/oficina-512.hdr",
+      "tipo": "hdri",
+      "autor": "Poly Haven",
+      "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "reduzida de 1k para 512 e 256 px"
+    },
+    {
+      "arquivo": "public/ambientes/oficina-256.hdr",
+      "tipo": "hdri",
+      "autor": "Poly Haven",
+      "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+      "licenca": "CC0",
+      "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alteracoes": "reduzida de 1k para 512 e 256 px"
+    },
+    {
+      "arquivo": "public/img/degrade-480.webp",
+      "tipo": "foto",
+      "autor": "Truth678",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fade_Hair_Cut.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0",
+      "credito": "Truth678"
+    },
+    {
+      "arquivo": "public/img/degrade-750.webp",
+      "tipo": "foto",
+      "autor": "Truth678",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fade_Hair_Cut.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0",
+      "credito": "Truth678"
+    },
+    {
+      "arquivo": "public/img/tesoura-480.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/img/tesoura-960.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/img/tesoura-1600.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/img/maquina-480.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_18.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/img/maquina-883.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_18.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/img/navalha-480.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_11.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/img/navalha-960.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_11.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/img/navalha-1037.webp",
+      "tipo": "foto",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_11.jpg",
+      "licenca": "CC-BY-SA-4.0",
+      "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada",
+      "creditoArquivo": "src/data/conteudo.ts",
+      "credito": "Mostafameraji",
+      "alteracoes": "recorte e cor tratada; as versões alteradas seguem CC BY-SA 4.0"
+    },
+    {
+      "arquivo": "public/draco/draco_decoder.wasm",
+      "tipo": "codigo",
+      "autor": "Google (Draco), via three.js",
+      "origem": "https://github.com/google/draco",
+      "licenca": "Apache-2.0",
+      "licencaUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "alteracoes": "nenhuma; copiado de three/examples/jsm/libs/draco/gltf"
+    },
+    {
+      "arquivo": "public/draco/draco_wasm_wrapper.js",
+      "tipo": "codigo",
+      "autor": "Google (Draco), via three.js",
+      "origem": "https://github.com/google/draco",
+      "licenca": "Apache-2.0",
+      "licencaUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "alteracoes": "nenhuma; copiado de three/examples/jsm/libs/draco/gltf"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "abertura-cadeira",
+      "desktop": [
+        "public/modelos/cadeira-2k.glb",
+        "public/ambientes/oficina-512.hdr",
+        "public/modelos/cadeira-abertura.webp",
+        "public/draco/draco_decoder.wasm",
+        "public/draco/draco_wasm_wrapper.js"
+      ],
+      "celular": [
+        "public/modelos/cadeira.glb",
+        "public/ambientes/oficina-256.hdr",
+        "public/modelos/cadeira-abertura-celular.webp",
+        "public/draco/draco_decoder.wasm",
+        "public/draco/draco_wasm_wrapper.js"
+      ],
+      "realista": true,
+      "revisaoVisual": "Modelo real do Poly Haven (malha e texturas originais) conferido nos prints de revisao/olhar-1 a olhar-5 e revisao/rodada-3 (390, 768, 1440 e reduzido), com pôster e falha de WebGL em revisao/comportamento-10."
+    },
+    {
+      "id": "degrade",
+      "desktop": [
+        "public/img/degrade-750.webp"
+      ],
+      "celular": [
+        "public/img/degrade-480.webp"
+      ],
+      "realista": true,
+      "revisaoVisual": "Foto real (Fade Hair Cut, Truth678) conferida faixa a faixa sobre o recorte e nos prints de revisao/degrade-telas-4 (12 telas × 4 etapas); as faixas são máscaras sobre a mesma foto, limitadas ao cabelo."
+    }
+  ]
+}

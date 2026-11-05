@@ -1,0 +1,8 @@
+{
+  "nome": "horizonte",
+  "versao": "4.2.0",
+  "dependeDe": [
+    "gaivota",
+    "duna"
+  ]
+}

@@ -1,0 +1,3988 @@
+{
+  "data": "2026-11-05T14:08:18.609Z",
+  "url": "http://localhost:5203/",
+  "cenarios": [
+    {
+      "caso": "principal",
+      "largura": 390,
+      "saltoComEnter": true,
+      "tresDPronto": true,
+      "pausaRetomada": true,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 554.203125,
+          "direita": 358,
+          "baixo": 598.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar degradê navalhado no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 674.203125,
+          "direita": 358,
+          "baixo": 718.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "corpo": false,
+          "x": 282.203125,
+          "y": 6,
+          "direita": 370,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Prumo Barbearia, início",
+          "corpo": false,
+          "x": 20,
+          "y": 6,
+          "direita": 105.09375,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "SPAN.titulo text-[20px] tracking-[-0.01em]",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Pular para o conteúdo",
+          "corpo": false,
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.sr-only fixed left-4 top-3 z-[100] bg-papel p-3 text-tinta f",
+          "rolagem": 3903
+        }
+      ],
+      "paradoForaDaTela": true,
+      "lacoDoCanvas": true,
+      "fimAlcancado": true,
+      "topoDepoisDaVolta": {
+        "y": 0,
+        "hero": "1",
+        "legenda": "hidden",
+        "linha": 72
+      },
+      "deslocamentos": [
+        {
+          "tempo": 510.59999999403954,
+          "valor": 0.007275628787106517,
+          "entrada": true,
+          "fontes": [
+            "DIV.absolute inset-x-5 bottom-7 md:inset-x-auto md:bottom-[12vh]"
+          ]
+        },
+        {
+          "tempo": 1021.0999999940395,
+          "valor": 0.0001503180003213695,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 3705.9000000059605,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 3755.2000000029802,
+          "valor": 0.6716460080204156,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 5788.20000000298,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 5821.4000000059605,
+          "valor": 0.6716460080204156,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 6790.29999999702,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 6805.4000000059605,
+          "valor": 0.6695041924899745,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 8468.79999999702,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 8478.70000000298,
+          "valor": 0.6695041924899745,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 9066.29999999702,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 9085.20000000298,
+          "valor": 0.6695041924899745,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 11169,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 11204.70000000298,
+          "valor": 0.6695041924899745,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 11549.90000000596,
+          "valor": 0.030180946012800643,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 11644.59999999404,
+          "valor": 0.000020866251391593367,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 11695.29999999702,
+          "valor": 0.000020866251391593367,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 13025,
+          "valor": 0.03173005651611253,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 15169.5,
+          "valor": 0.03173005651611253,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 17320.40000000596,
+          "valor": 0.0001503180003213695,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18048.29999999702,
+          "valor": 0.000017885358335651457,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18151.70000000298,
+          "valor": 0.000017885358335651457,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26212,
+          "valor": 0.0001789300741971953,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26291.79999999702,
+          "valor": 0.0012549640755817335,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26316.90000000596,
+          "valor": 0.00127878152358524,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26413.90000000596,
+          "valor": 0.003453918938930577,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26443.20000000298,
+          "valor": 0.0009909973340152358,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26449.5,
+          "valor": 0.00017472611509607391,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26462,
+          "valor": 0.00019215534055090107,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26470.09999999404,
+          "valor": 0.00022482952801299762,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26476.20000000298,
+          "valor": 0.0001758182468198528,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26485.40000000596,
+          "valor": 0.0002354965132055227,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26491.79999999702,
+          "valor": 0.0001739631189602832,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26496,
+          "valor": 0.00017659620366418843,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26506.20000000298,
+          "valor": 0.00017504028997551718,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26512.90000000596,
+          "valor": 0.00020071286583859301,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26518.90000000596,
+          "valor": 0.0001686221460097482,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26526,
+          "valor": 0.00016959459206516774,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26530.59999999404,
+          "valor": 0.00016251817692342248,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26537.09999999404,
+          "valor": 0.00016099218465184104,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26543.40000000596,
+          "valor": 0.00017659620366418843,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26549.5,
+          "valor": 0.00021627200272530568,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26555.59999999404,
+          "valor": 0.00019682308161691488,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26564.5,
+          "valor": 0.00027197072063802794,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26574.09999999404,
+          "valor": 0.000359580629877056,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26582.5,
+          "valor": 0.000335718299747915,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26632.70000000298,
+          "valor": 0.0017921881587211219,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26637.40000000596,
+          "valor": 0.00020927039112628499,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26644.09999999404,
+          "valor": 0.00024580444139296983,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26649.40000000596,
+          "valor": 0.0002553194520275364,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26654.90000000596,
+          "valor": 0.0002188452445950312,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26663.90000000596,
+          "valor": 0.0003514270437200768,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26668.20000000298,
+          "valor": 0.0002217177006356551,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26673.20000000298,
+          "valor": 0.00019969553765753872,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 26849.09999999404,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26867.09999999404,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26873.20000000298,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26891.59999999404,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26896.40000000596,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26928.5,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26933.09999999404,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26952.09999999404,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26957.79999999702,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 26988,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 33909.29999999702,
+          "valor": 0.0000014904465279709548,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 33933.59999999404,
+          "valor": 0.000014904465279709546,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 34000.5,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 34031.09999999404,
+          "valor": 0.0000029808930559419096,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 34191.59999999404,
+          "valor": 0.00027479829455301705,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34195.20000000298,
+          "valor": 0.00012836287931537927,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34217,
+          "valor": 0.0007953860697904591,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34225.40000000596,
+          "valor": 0.0003678090195767598,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34231.5,
+          "valor": 0.0005518706168048613,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34239.09999999404,
+          "valor": 0.00039041465018812784,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34243.5,
+          "valor": 0.0001991569521499218,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34264.40000000596,
+          "valor": 0.001247947503274168,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34273.70000000298,
+          "valor": 0.0005825699907390289,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34280.20000000298,
+          "valor": 0.0003247670610930365,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34286.79999999702,
+          "valor": 0.0003743917313365228,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34296.20000000298,
+          "valor": 0.00036534050266684865,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34300.59999999404,
+          "valor": 0.0003571121129671449,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34307.20000000298,
+          "valor": 0.0003142646436945055,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34313.09999999404,
+          "valor": 0.00032153554804733464,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34319.29999999702,
+          "valor": 0.00031022525238737816,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34328.90000000596,
+          "valor": 0.0005180294940762614,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34334.90000000596,
+          "valor": 0.00039167134970590086,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34341.40000000596,
+          "valor": 0.00033818681665782614,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34346.79999999702,
+          "valor": 0.0003304222089230147,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34352.09999999404,
+          "valor": 0.00027117780308514737,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34358.09999999404,
+          "valor": 0.00032995842695812233,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34366.79999999702,
+          "valor": 0.0004954537848819832,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34374.79999999702,
+          "valor": 0.0003711003754566414,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34381.5,
+          "valor": 0.00036369482472690793,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34390.79999999702,
+          "valor": 0.00040319109528548616,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34395.90000000596,
+          "valor": 0.00034559236738755954,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34403.79999999702,
+          "valor": 0.00030618586108025083,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34411.79999999702,
+          "valor": 0.00032638281761588744,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34421.40000000596,
+          "valor": 0.00046134336939957464,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 34496.70000000298,
+          "valor": 0.001492151148852832,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        }
+      ],
+      "clsJanela": 0.014808548690145643,
+      "antesDaTroca": {
+        "foco": "pausa",
+        "y": 0,
+        "desativado": false
+      },
+      "focoNaTroca": {
+        "foco": "agendar",
+        "tag": "A",
+        "naCadeira": true
+      },
+      "reduzido": {
+        "lenis": false,
+        "canvas": false,
+        "percurso": 698,
+        "secao": 698,
+        "legendas": [
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "marcas": 3,
+        "manifesto": "\"wght\" 720"
+      },
+      "focoNaVolta": {
+        "foco": "agendar",
+        "tag": "A",
+        "naCadeira": true
+      },
+      "voltaDoReduzido": true,
+      "degradeDepoisDaTroca": {
+        "posicao": "sticky",
+        "linha": 38.789961
+      },
+      "aprovado": true
+    },
+    {
+      "caso": "teclado-completo",
+      "largura": 390,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "Pular para o conteúdo",
+          "corpo": false,
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.sr-only fixed left-4 top-3 z-[100] bg-papel p-3 text-tinta f",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Prumo Barbearia, início",
+          "corpo": false,
+          "x": 20,
+          "y": 6,
+          "direita": 105.09375,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "SPAN.titulo text-[20px] tracking-[-0.01em]",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar",
+          "corpo": false,
+          "x": 282.203125,
+          "y": 6,
+          "direita": 370,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar pelo WhatsApp",
+          "corpo": false,
+          "x": 20,
+          "y": 712,
+          "direita": 234.859375,
+          "baixo": 760,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-12 items-center rounded-full bg-cobre px-6 tex",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Pausar giro da cadeira",
+          "corpo": false,
+          "x": 20,
+          "y": 772,
+          "direita": 201.828125,
+          "baixo": 816,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "BUTTON.inline-flex h-11 items-center gap-2 rounded-full border bord",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 554.203125,
+          "direita": 358,
+          "baixo": 598.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar degradê navalhado no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 674.203125,
+          "direita": 358,
+          "baixo": 718.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Barba com toalha quenteToalha, óleo, navalha e bal",
+          "corpo": false,
+          "x": 20,
+          "y": 629.203125,
+          "direita": 370,
+          "baixo": 730.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar barba com toalha quente no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 776.328125,
+          "direita": 358,
+          "baixo": 820.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3903
+        },
+        {
+          "tecla": "Tab",
+          "texto": "PezinhoContorno da nuca e das costeletas entre um ",
+          "corpo": false,
+          "x": 20,
+          "y": 619.328125,
+          "direita": 370,
+          "baixo": 738.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 4015
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar pezinho no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 784.328125,
+          "direita": 358,
+          "baixo": 828.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 4015
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Corte + barbaOs dois serviços na mesma cadeira.80 ",
+          "corpo": false,
+          "x": 20,
+          "y": 301.328125,
+          "direita": 370,
+          "baixo": 402.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 4453
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte + barba no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 448.453125,
+          "direita": 358,
+          "baixo": 492.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 4453
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Terça: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 100.84375,
+          "y": 435.984375,
+          "direita": 145.703125,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Quarta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 145.703125,
+          "y": 435.984375,
+          "direita": 190.5625,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Quinta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 190.5625,
+          "y": 435.984375,
+          "direita": 235.421875,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[10px] md:text-[11px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Sexta: 9h–21h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 235.421875,
+          "y": 435.984375,
+          "direita": 280.28125,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Sábado: 8h–13h · 14h–18h. Perguntar horário pelo W",
+          "corpo": false,
+          "x": 280.28125,
+          "y": 435.984375,
+          "direita": 325.140625,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Chamar no WhatsApp",
+          "corpo": false,
+          "x": 20,
+          "y": 429.703125,
+          "direita": 277.09375,
+          "baixo": 485.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.inline-flex items-center gap-3",
+          "rolagem": 6031
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Ver região no mapa",
+          "corpo": false,
+          "x": 20,
+          "y": 436.203125,
+          "direita": 140.796875,
+          "baixo": 480.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.mt-2 inline-flex min-h-[44px] items-center text-cobre underl",
+          "rolagem": 6689
+        },
+        {
+          "tecla": "Tab",
+          "texto": "WhatsApp +55 41 90000-0000",
+          "corpo": false,
+          "x": 20,
+          "y": 548.703125,
+          "direita": 221.78125,
+          "baixo": 592.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 6689
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Telefone +55 41 90000-0000",
+          "corpo": false,
+          "x": 20,
+          "y": 596.703125,
+          "direita": 208.90625,
+          "baixo": 640.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 6689
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Instagram @prumo.barbearia (fictício)",
+          "corpo": false,
+          "x": 20,
+          "y": 644.703125,
+          "direita": 261.84375,
+          "baixo": 688.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 6689
+        },
+        {
+          "tecla": "Tab",
+          "texto": "ola@prumo.example",
+          "corpo": false,
+          "x": 20,
+          "y": 692.703125,
+          "direita": 150.09375,
+          "baixo": 736.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 6689
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Cadeira 3D “Barber Shop Chair 01”",
+          "corpo": false,
+          "x": 20,
+          "y": 436.453125,
+          "direita": 206.140625,
+          "baixo": 480.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Iluminação “Vintage Measuring Lab”",
+          "corpo": false,
+          "x": 20,
+          "y": 507.953125,
+          "direita": 215.484375,
+          "baixo": 551.953125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Foto “Fade Hair Cut”",
+          "corpo": false,
+          "x": 20,
+          "y": 579.453125,
+          "direita": 131.515625,
+          "baixo": 623.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 192.265625,
+          "y": 579.453125,
+          "direita": 265.875,
+          "baixo": 623.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Fotos “Barber shop iran”, “Barber shop from Iran 1",
+          "corpo": false,
+          "x": 20,
+          "y": 650.953125,
+          "direita": 338.703125,
+          "baixo": 694.953125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 105,
+          "y": 694.953125,
+          "direita": 178.609375,
+          "baixo": 738.953125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Pular para o conteúdoPrumoA cadeiraDegradêServiços",
+          "corpo": true,
+          "x": 0,
+          "y": -7190,
+          "direita": 390,
+          "baixo": 845.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "DIV.mx-auto flex h-14 max-w-[1360px] items-center justify-betwee",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 105,
+          "y": 694.953125,
+          "direita": 178.609375,
+          "baixo": 738.953125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Fotos “Barber shop iran”, “Barber shop from Iran 1",
+          "corpo": false,
+          "x": 20,
+          "y": 650.953125,
+          "direita": 338.703125,
+          "baixo": 694.953125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 192.265625,
+          "y": 579.453125,
+          "direita": 265.875,
+          "baixo": 623.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Foto “Fade Hair Cut”",
+          "corpo": false,
+          "x": 20,
+          "y": 579.453125,
+          "direita": 131.515625,
+          "baixo": 623.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Iluminação “Vintage Measuring Lab”",
+          "corpo": false,
+          "x": 20,
+          "y": 507.953125,
+          "direita": 215.484375,
+          "baixo": 551.953125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Cadeira 3D “Barber Shop Chair 01”",
+          "corpo": false,
+          "x": 20,
+          "y": 436.453125,
+          "direita": 206.140625,
+          "baixo": 480.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "ola@prumo.example",
+          "corpo": false,
+          "x": 20,
+          "y": 191.703125,
+          "direita": 150.09375,
+          "baixo": 235.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Instagram @prumo.barbearia (fictício)",
+          "corpo": false,
+          "x": 20,
+          "y": 143.703125,
+          "direita": 261.84375,
+          "baixo": 187.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Telefone +55 41 90000-0000",
+          "corpo": false,
+          "x": 20,
+          "y": 95.703125,
+          "direita": 208.90625,
+          "baixo": 139.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7190
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "WhatsApp +55 41 90000-0000",
+          "corpo": false,
+          "x": 20,
+          "y": 71.703125,
+          "direita": 221.78125,
+          "baixo": 115.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7166
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Ver região no mapa",
+          "corpo": false,
+          "x": 20,
+          "y": 436.203125,
+          "direita": 140.796875,
+          "baixo": 480.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.mt-2 inline-flex min-h-[44px] items-center text-cobre underl",
+          "rolagem": 6689
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Chamar no WhatsApp",
+          "corpo": false,
+          "x": 20,
+          "y": 429.703125,
+          "direita": 277.09375,
+          "baixo": 485.703125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.inline-flex items-center gap-3",
+          "rolagem": 6031
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Sábado: 8h–13h · 14h–18h. Perguntar horário pelo W",
+          "corpo": false,
+          "x": 280.28125,
+          "y": 435.984375,
+          "direita": 325.140625,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Sexta: 9h–21h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 235.421875,
+          "y": 435.984375,
+          "direita": 280.28125,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Quinta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 190.5625,
+          "y": 435.984375,
+          "direita": 235.421875,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[10px] md:text-[11px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Quarta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 145.703125,
+          "y": 435.984375,
+          "direita": 190.5625,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Terça: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 100.84375,
+          "y": 435.984375,
+          "direita": 145.703125,
+          "baixo": 479.984375,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5294
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar corte + barba no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 436.453125,
+          "direita": 358,
+          "baixo": 480.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 4465
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Corte + barbaOs dois serviços na mesma cadeira.80 ",
+          "corpo": false,
+          "x": 20,
+          "y": 289.328125,
+          "direita": 370,
+          "baixo": 390.453125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 4465
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "PezinhoContorno da nuca e das costeletas entre um ",
+          "corpo": false,
+          "x": 20,
+          "y": 169.328125,
+          "direita": 370,
+          "baixo": 288.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 4465
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Barba com toalha quenteToalha, óleo, navalha e bal",
+          "corpo": false,
+          "x": 20,
+          "y": 72.203125,
+          "direita": 370,
+          "baixo": 173.328125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 4460
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 20,
+          "y": 398.203125,
+          "direita": 370,
+          "baixo": 517.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 4014
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 20,
+          "y": 296.078125,
+          "direita": 370,
+          "baixo": 397.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 4014
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "corpo": false,
+          "x": 282.203125,
+          "y": 6,
+          "direita": 370,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 4014
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Prumo Barbearia, início",
+          "corpo": false,
+          "x": 20,
+          "y": 6,
+          "direita": 105.09375,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "SPAN.titulo text-[20px] tracking-[-0.01em]",
+          "rolagem": 4014
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Pular para o conteúdo",
+          "corpo": false,
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.sr-only fixed left-4 top-3 z-[100] bg-papel p-3 text-tinta f",
+          "rolagem": 4014
+        }
+      ],
+      "paradasIda": 33,
+      "paradasVolta": 26,
+      "aprovado": true
+    },
+    {
+      "caso": "glb-bloqueado",
+      "largura": 390,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendas": [
+        "altura",
+        "encosto",
+        "apoio",
+        "toalha"
+      ],
+      "reguaOpacidade": "0",
+      "erros": [
+        "pageerror: Could not load /modelos/cadeira.glb: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "hdri-bloqueado",
+      "largura": 390,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendas": [
+        "altura",
+        "encosto",
+        "apoio",
+        "toalha"
+      ],
+      "reguaOpacidade": "0",
+      "erros": [
+        "pageerror: Could not load /ambientes/oficina-256.hdr: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "sem-webgl",
+      "largura": 390,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendas": [
+        "altura",
+        "encosto",
+        "apoio",
+        "toalha"
+      ],
+      "reguaOpacidade": "0",
+      "erros": [],
+      "aprovado": true
+    },
+    {
+      "caso": "fotos-bloqueadas",
+      "largura": 390,
+      "textos": {
+        "medidasVisiveis": 3,
+        "listaRecortada": false,
+        "posicao": "relative",
+        "percurso": false,
+        "fotoQuebradaNaTela": false
+      },
+      "erros": [],
+      "aprovado": true
+    },
+    {
+      "caso": "principal",
+      "largura": 1440,
+      "saltoComEnter": true,
+      "tresDPronto": true,
+      "pausaRetomada": true,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 632,
+          "y": 446.375,
+          "direita": 1328,
+          "baixo": 525.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 525.375,
+          "direita": 895.140625,
+          "baixo": 569.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 632,
+          "y": 526.375,
+          "direita": 1328,
+          "baixo": 605.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar degradê navalhado no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 605.375,
+          "direita": 981.125,
+          "baixo": 649.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 632,
+          "y": 526.375,
+          "direita": 1328,
+          "baixo": 605.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 632,
+          "y": 446.375,
+          "direita": 1328,
+          "baixo": 525.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "corpo": false,
+          "x": 1240.203125,
+          "y": 6,
+          "direita": 1328,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Horários",
+          "corpo": false,
+          "x": 815.671875,
+          "y": 6,
+          "direita": 871.09375,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Serviços",
+          "corpo": false,
+          "x": 734.171875,
+          "y": 6,
+          "direita": 787.671875,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5005
+        }
+      ],
+      "paradoForaDaTela": true,
+      "lacoDoCanvas": true,
+      "fimAlcancado": true,
+      "topoDepoisDaVolta": {
+        "y": 0,
+        "hero": "1",
+        "legenda": "hidden",
+        "linha": 72
+      },
+      "deslocamentos": [
+        {
+          "tempo": 303.09999999403954,
+          "valor": 0.00014159486454046638,
+          "entrada": false,
+          "fontes": [
+            "NAV.hidden md:block",
+            ".",
+            "."
+          ]
+        },
+        {
+          "tempo": 872.7999999970198,
+          "valor": 0.000022376543209876542,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 7381.899999991059,
+          "valor": 0.00001714376232424554,
+          "entrada": true,
+          "fontes": [
+            "SPAN.hidden text-[13px] text-nevoa md:inline"
+          ]
+        },
+        {
+          "tempo": 10119.09999999404,
+          "valor": 0.00001714376232424554,
+          "entrada": true,
+          "fontes": [
+            "SPAN.hidden text-[13px] text-nevoa md:inline"
+          ]
+        },
+        {
+          "tempo": 14434.59999999404,
+          "valor": 0.003132716049382716,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 14559.39999999106,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 14680.59999999404,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 15934.89999999106,
+          "valor": 0.003291216563786008,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 15957.79999999702,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 15981.09999999404,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18065.29999999702,
+          "valor": 0.003291216563786008,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 18085.89999999106,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 18102.09999999404,
+          "valor": 0.000004305984224965707,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 30806.59999999404,
+          "valor": 0.00017223508230452674,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30823.59999999404,
+          "valor": 0.00045105452674897115,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30845.19999998808,
+          "valor": 0.0004194958847736626,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30861.5,
+          "valor": 0.0002984182098765432,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30875.59999999404,
+          "valor": 0.00025844907407407403,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30893.59999999404,
+          "valor": 0.00028971193415637856,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30908.79999999702,
+          "valor": 0.00021886574074074074,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30924.5,
+          "valor": 0.00021598936899862824,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30941.19999998808,
+          "valor": 0.00021102109053497943,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30957.89999999106,
+          "valor": 0.00017805212620027435,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30973.19999998808,
+          "valor": 0.00021468192729766803,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 30989.09999999404,
+          "valor": 0.00021755829903978048,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31007,
+          "valor": 0.00027249228395061724,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31024.19999998808,
+          "valor": 0.0002773662551440329,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31037.69999998808,
+          "valor": 0.00019084362139917694,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31053.59999999404,
+          "valor": 0.00022357253086419752,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31070.09999999404,
+          "valor": 0.00021259002057613167,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31084,
+          "valor": 0.0002370713305898491,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31098.59999999404,
+          "valor": 0.00023786865569272976,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31115.39999999106,
+          "valor": 0.0003025977366255144,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31131.5,
+          "valor": 0.00026412037037037034,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31144.89999999106,
+          "valor": 0.0002573688271604938,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31159.69999998808,
+          "valor": 0.00023042695473251027,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31176,
+          "valor": 0.00026412037037037034,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31189.5,
+          "valor": 0.0002360082304526749,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31206.69999998808,
+          "valor": 0.0003301697530864197,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31220.69999998808,
+          "valor": 0.0002562885802469136,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31244.89999999106,
+          "valor": 0.0003369598765432098,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31249.89999999106,
+          "valor": 0.00024710648148148145,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31267.09999999404,
+          "valor": 0.000332716049382716,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31280.19999998808,
+          "valor": 0.00021886574074074074,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 31295.89999999106,
+          "valor": 0.0003062199931412894,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38163.39999999106,
+          "valor": 0.00011667524005486969,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38181.19999998808,
+          "valor": 0.0005574074074074074,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38195.09999999404,
+          "valor": 0.0003584362139917695,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38209.69999998808,
+          "valor": 0.0003987139917695474,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38223.09999999404,
+          "valor": 0.00043370627572016465,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38237.89999999106,
+          "valor": 0.0003827331961591221,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38252.09999999404,
+          "valor": 0.0004608024691358025,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38266.89999999106,
+          "valor": 0.00043629972565157753,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38281.69999998808,
+          "valor": 0.00047870370370370373,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38296,
+          "valor": 0.00043766289437585735,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38310.59999999404,
+          "valor": 0.0004504458161865569,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38326.79999999702,
+          "valor": 0.00046296296296296303,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38342.09999999404,
+          "valor": 0.0004284979423868313,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38355.39999999106,
+          "valor": 0.00047530864197530866,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38369.79999999702,
+          "valor": 0.00043269890260631003,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38399,
+          "valor": 0.0010223765432098766,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38419.5,
+          "valor": 0.000610309499314129,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38455.5,
+          "valor": 0.0010129243827160493,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38470.59999999404,
+          "valor": 0.00028724279835390946,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        },
+        {
+          "tempo": 38483.79999999702,
+          "valor": 0.00023069272976680382,
+          "entrada": false,
+          "fontes": [
+            "DIV.invisible pointer-events-none absolute inset-x-0 top-[calc(v"
+          ]
+        }
+      ],
+      "clsJanela": 0.009474601337448561,
+      "antesDaTroca": {
+        "foco": "pausa",
+        "y": 0,
+        "desativado": false
+      },
+      "focoNaTroca": {
+        "foco": "agendar",
+        "tag": "A",
+        "naCadeira": true
+      },
+      "reduzido": {
+        "lenis": false,
+        "canvas": false,
+        "percurso": 827,
+        "secao": 827,
+        "legendas": [
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "marcas": 3,
+        "manifesto": "\"wght\" 720"
+      },
+      "focoNaVolta": {
+        "foco": "agendar",
+        "tag": "A",
+        "naCadeira": true
+      },
+      "voltaDoReduzido": true,
+      "degradeDepoisDaTroca": {
+        "posicao": "sticky",
+        "linha": 38.829268
+      },
+      "aprovado": true
+    },
+    {
+      "caso": "teclado-completo",
+      "largura": 1440,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "Pular para o conteúdo",
+          "corpo": false,
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.sr-only fixed left-4 top-3 z-[100] bg-papel p-3 text-tinta f",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Prumo Barbearia, início",
+          "corpo": false,
+          "x": 112,
+          "y": 6,
+          "direita": 197.09375,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "SPAN.titulo text-[20px] tracking-[-0.01em]",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "A cadeira",
+          "corpo": false,
+          "x": 566.203125,
+          "y": 6,
+          "direita": 624.640625,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê",
+          "corpo": false,
+          "x": 652.640625,
+          "y": 6,
+          "direita": 706.171875,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Serviços",
+          "corpo": false,
+          "x": 734.171875,
+          "y": 6,
+          "direita": 787.671875,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Horários",
+          "corpo": false,
+          "x": 815.671875,
+          "y": 6,
+          "direita": 871.09375,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar",
+          "corpo": false,
+          "x": 1240.203125,
+          "y": 6,
+          "direita": 1328,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar pelo WhatsApp",
+          "corpo": false,
+          "x": 72,
+          "y": 744,
+          "direita": 286.859375,
+          "baixo": 792,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-12 items-center rounded-full bg-cobre px-6 tex",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Pausar giro da cadeira",
+          "corpo": false,
+          "x": 306.859375,
+          "y": 746,
+          "direita": 488.6875,
+          "baixo": 790,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "BUTTON.inline-flex h-11 items-center gap-2 rounded-full border bord",
+          "rolagem": 0
+        },
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 632,
+          "y": 446.375,
+          "direita": 1328,
+          "baixo": 525.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 525.375,
+          "direita": 895.140625,
+          "baixo": 569.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 632,
+          "y": 526.375,
+          "direita": 1328,
+          "baixo": 605.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar degradê navalhado no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 605.375,
+          "direita": 981.125,
+          "baixo": 649.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Barba com toalha quenteToalha, óleo, navalha e bal",
+          "corpo": false,
+          "x": 632,
+          "y": 606.375,
+          "direita": 1328,
+          "baixo": 685.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar barba com toalha quente no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 685.375,
+          "direita": 1019.046875,
+          "baixo": 729.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "PezinhoContorno da nuca e das costeletas entre um ",
+          "corpo": false,
+          "x": 632,
+          "y": 686.375,
+          "direita": 1328,
+          "baixo": 784.625,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar pezinho no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 784.625,
+          "direita": 912.1875,
+          "baixo": 828.625,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5005
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Corte + barbaOs dois serviços na mesma cadeira.80 ",
+          "corpo": false,
+          "x": 632,
+          "y": 760.625,
+          "direita": 1328,
+          "baixo": 839.625,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5030
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte + barba no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 839.625,
+          "direita": 945.875,
+          "baixo": 883.625,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5030
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Terça: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 772.5625,
+          "y": 464.4375,
+          "direita": 865.140625,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Quarta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 865.140625,
+          "y": 464.4375,
+          "direita": 957.703125,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Quinta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 957.703125,
+          "y": 464.4375,
+          "direita": 1050.28125,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Sexta: 9h–21h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 1050.28125,
+          "y": 464.4375,
+          "direita": 1142.84375,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Sábado: 8h–13h · 14h–18h. Perguntar horário pelo W",
+          "corpo": false,
+          "x": 1142.84375,
+          "y": 464.4375,
+          "direita": 1235.421875,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Chamar no WhatsApp",
+          "corpo": false,
+          "x": 1044.828125,
+          "y": 454.03125,
+          "direita": 1327.984375,
+          "baixo": 518.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.inline-flex items-center gap-3",
+          "rolagem": 6930
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Ver região no mapa",
+          "corpo": false,
+          "x": 530.65625,
+          "y": 473.03125,
+          "direita": 651.453125,
+          "baixo": 517.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.mt-2 inline-flex min-h-[44px] items-center text-cobre underl",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "WhatsApp +55 41 90000-0000",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 419.53125,
+          "direita": 1046.4375,
+          "baixo": 463.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Telefone +55 41 90000-0000",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 467.53125,
+          "direita": 1033.5625,
+          "baixo": 511.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Instagram @prumo.barbearia (fictício)",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 515.53125,
+          "direita": 1086.5,
+          "baixo": 559.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "ola@prumo.example",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 563.53125,
+          "direita": 974.75,
+          "baixo": 607.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Cadeira 3D “Barber Shop Chair 01”",
+          "corpo": false,
+          "x": 112,
+          "y": 717.03125,
+          "direita": 298.140625,
+          "baixo": 761.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Iluminação “Vintage Measuring Lab”",
+          "corpo": false,
+          "x": 724,
+          "y": 717.03125,
+          "direita": 919.484375,
+          "baixo": 761.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Foto “Fade Hair Cut”",
+          "corpo": false,
+          "x": 112,
+          "y": 769.03125,
+          "direita": 223.515625,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 284.265625,
+          "y": 769.03125,
+          "direita": 357.875,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Fotos “Barber shop iran”, “Barber shop from Iran 1",
+          "corpo": false,
+          "x": 724,
+          "y": 769.03125,
+          "direita": 1042.703125,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 1132.765625,
+          "y": 769.03125,
+          "direita": 1206.375,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Pular para o conteúdoPrumoA cadeiraDegradêServiços",
+          "corpo": true,
+          "x": 0,
+          "y": -7492,
+          "direita": 1440,
+          "baixo": 900.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "DIV.mx-auto flex h-14 max-w-[1360px] items-center justify-betwee",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 1132.765625,
+          "y": 769.03125,
+          "direita": 1206.375,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Fotos “Barber shop iran”, “Barber shop from Iran 1",
+          "corpo": false,
+          "x": 724,
+          "y": 769.03125,
+          "direita": 1042.703125,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CC BY-SA 4.0",
+          "corpo": false,
+          "x": 284.265625,
+          "y": 769.03125,
+          "direita": 357.875,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center underline-offset-4 hov",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Foto “Fade Hair Cut”",
+          "corpo": false,
+          "x": 112,
+          "y": 769.03125,
+          "direita": 223.515625,
+          "baixo": 813.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Iluminação “Vintage Measuring Lab”",
+          "corpo": false,
+          "x": 724,
+          "y": 717.03125,
+          "direita": 919.484375,
+          "baixo": 761.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Cadeira 3D “Barber Shop Chair 01”",
+          "corpo": false,
+          "x": 112,
+          "y": 717.03125,
+          "direita": 298.140625,
+          "baixo": 761.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center text-giz underline-off",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "ola@prumo.example",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 563.53125,
+          "direita": 974.75,
+          "baixo": 607.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Instagram @prumo.barbearia (fictício)",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 515.53125,
+          "direita": 1086.5,
+          "baixo": 559.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Telefone +55 41 90000-0000",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 467.53125,
+          "direita": 1033.5625,
+          "baixo": 511.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "WhatsApp +55 41 90000-0000",
+          "corpo": false,
+          "x": 844.65625,
+          "y": 419.53125,
+          "direita": 1046.4375,
+          "baixo": 463.53125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center hover:text-cobre",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Ver região no mapa",
+          "corpo": false,
+          "x": 530.65625,
+          "y": 473.03125,
+          "direita": 651.453125,
+          "baixo": 517.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.mt-2 inline-flex min-h-[44px] items-center text-cobre underl",
+          "rolagem": 7492
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Chamar no WhatsApp",
+          "corpo": false,
+          "x": 1044.828125,
+          "y": 454.03125,
+          "direita": 1327.984375,
+          "baixo": 518.03125,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.inline-flex items-center gap-3",
+          "rolagem": 6930
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Sábado: 8h–13h · 14h–18h. Perguntar horário pelo W",
+          "corpo": false,
+          "x": 1142.84375,
+          "y": 464.4375,
+          "direita": 1235.421875,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Sexta: 9h–21h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 1050.28125,
+          "y": 464.4375,
+          "direita": 1142.84375,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Quinta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 957.703125,
+          "y": 464.4375,
+          "direita": 1050.28125,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Quarta: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 865.140625,
+          "y": 464.4375,
+          "direita": 957.703125,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Terça: 9h–20h. Perguntar horário pelo WhatsApp",
+          "corpo": false,
+          "x": 772.5625,
+          "y": 464.4375,
+          "direita": 865.140625,
+          "baixo": 508.4375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.dado text-[11px] md:text-[13px]",
+          "rolagem": 5908
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar corte + barba no WhatsApp",
+          "corpo": false,
+          "x": 648,
+          "y": 463.625,
+          "direita": 945.875,
+          "baixo": 507.625,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 5406
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Corte + barbaOs dois serviços na mesma cadeira.80 ",
+          "corpo": false,
+          "x": 632,
+          "y": 384.625,
+          "direita": 1328,
+          "baixo": 463.625,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5406
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "PezinhoContorno da nuca e das costeletas entre um ",
+          "corpo": false,
+          "x": 632,
+          "y": 285.375,
+          "direita": 1328,
+          "baixo": 383.625,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 5406
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Barba com toalha quenteToalha, óleo, navalha e bal",
+          "corpo": false,
+          "x": 632,
+          "y": 205.375,
+          "direita": 1328,
+          "baixo": 284.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5406
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 632,
+          "y": 125.375,
+          "direita": 1328,
+          "baixo": 204.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5406
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 632,
+          "y": 72.375,
+          "direita": 1328,
+          "baixo": 151.375,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.block text-[17px] font-semibold leading-tight md:text-[19px]",
+          "rolagem": 5379
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "corpo": false,
+          "x": 1240.203125,
+          "y": 6,
+          "direita": 1328,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 5379
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Horários",
+          "corpo": false,
+          "x": 815.671875,
+          "y": 6,
+          "direita": 871.09375,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5379
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Serviços",
+          "corpo": false,
+          "x": 734.171875,
+          "y": 6,
+          "direita": 787.671875,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5379
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê",
+          "corpo": false,
+          "x": 652.640625,
+          "y": 6,
+          "direita": 706.171875,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5379
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "A cadeira",
+          "corpo": false,
+          "x": 566.203125,
+          "y": 6,
+          "direita": 624.640625,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center transition-colors hove",
+          "rolagem": 5379
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Prumo Barbearia, início",
+          "corpo": false,
+          "x": 112,
+          "y": 6,
+          "direita": 197.09375,
+          "baixo": 50,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "SPAN.titulo text-[20px] tracking-[-0.01em]",
+          "rolagem": 5379
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Pular para o conteúdo",
+          "corpo": false,
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 1440,
+          "altura": 900,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.sr-only fixed left-4 top-3 z-[100] bg-papel p-3 text-tinta f",
+          "rolagem": 5379
+        }
+      ],
+      "paradasIda": 37,
+      "paradasVolta": 30,
+      "aprovado": true
+    },
+    {
+      "caso": "redimensionar",
+      "largura": 1440,
+      "passos": [
+        {
+          "posicao": "sticky",
+          "dentro": true,
+          "marcas": 2,
+          "linha": 34.682927,
+          "tela": "1440x900",
+          "lateral": false
+        },
+        {
+          "posicao": "sticky",
+          "dentro": true,
+          "marcas": 2,
+          "linha": 34.663273,
+          "tela": "390x844",
+          "lateral": false
+        },
+        {
+          "posicao": "relative",
+          "dentro": true,
+          "marcas": 3,
+          "linha": -4,
+          "tela": "844x390",
+          "lateral": false
+        },
+        {
+          "posicao": "sticky",
+          "dentro": true,
+          "marcas": 2,
+          "linha": 34.682927,
+          "tela": "1280x720",
+          "lateral": false
+        },
+        {
+          "posicao": "sticky",
+          "dentro": true,
+          "marcas": 2,
+          "linha": 34.682927,
+          "tela": "1440x900",
+          "lateral": false
+        }
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "ciclos-reduzido",
+      "largura": 1440,
+      "heap": [
+        8340136,
+        8770148,
+        8995676,
+        9049720,
+        9300564
+      ],
+      "canvas": 1,
+      "crescimento": 1.0604797091223546,
+      "aprovado": true
+    },
+    {
+      "caso": "glb-bloqueado",
+      "largura": 1440,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendas": [
+        "altura",
+        "encosto",
+        "apoio",
+        "toalha"
+      ],
+      "reguaOpacidade": "0",
+      "erros": [
+        "pageerror: Could not load /modelos/cadeira-2k.glb: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "hdri-bloqueado",
+      "largura": 1440,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendas": [
+        "altura",
+        "encosto",
+        "apoio",
+        "toalha"
+      ],
+      "reguaOpacidade": "0",
+      "erros": [
+        "pageerror: Could not load /ambientes/oficina-512.hdr: Failed to fetch"
+      ],
+      "aprovado": true
+    },
+    {
+      "caso": "sem-webgl",
+      "largura": 1440,
+      "poster": {
+        "src": "/modelos/cadeira-poster.webp",
+        "opacidade": "1",
+        "carregou": true,
+        "canvas": false
+      },
+      "legendas": [
+        "altura",
+        "encosto",
+        "apoio",
+        "toalha"
+      ],
+      "reguaOpacidade": "0",
+      "erros": [],
+      "aprovado": true
+    },
+    {
+      "caso": "fotos-bloqueadas",
+      "largura": 1440,
+      "textos": {
+        "medidasVisiveis": 3,
+        "listaRecortada": false,
+        "posicao": "relative",
+        "percurso": false,
+        "fotoQuebradaNaTela": false
+      },
+      "erros": [],
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "estudo": "letras",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "letras",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "letras",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "letras",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "foto",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "foto",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "foto",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "foto",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "lateral",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "lateral",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "lateral",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "lateral",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "linha",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "linha",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "linha",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "linha",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "cortina",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "cortina",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "cortina",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "cortina",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "zoom",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "zoom",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "zoom",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "zoom",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "mascara",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "mascara",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "mascara",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "mascara",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "espiral",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "espiral",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "espiral",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "espiral",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "dobradura",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "dobradura",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "dobradura",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "dobradura",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "mapa",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "mapa",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "mapa",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "mapa",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "rota",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "rota",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "rota",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "rota",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "icones",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "icones",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "icones",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "icones",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "cronologia",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "cronologia",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "cronologia",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "cronologia",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "barras",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "barras",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "barras",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "barras",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "area",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "area",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "area",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "area",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "ponte",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "ponte",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "ponte",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "ponte",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "prisma",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "prisma",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "prisma",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "prisma",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "orbitas",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "orbitas",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "orbitas",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "orbitas",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "foco",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "foco",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "foco",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "foco",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "divisao",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "divisao",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "divisao",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "divisao",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "grade",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "grade",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "grade",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "grade",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "circulo",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "circulo",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "circulo",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "circulo",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "particulas",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "particulas",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "particulas",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "particulas",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "nome": "porto",
+  "versao": "6.1.0",
+  "dependeDe": [
+    "oceano",
+    "farol"
+  ]
+}

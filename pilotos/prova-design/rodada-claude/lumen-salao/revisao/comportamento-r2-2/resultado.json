@@ -1,0 +1,290 @@
+{
+  "data": "2026-11-05T14:30:12.150Z",
+  "url": "http://localhost:5202/",
+  "cenarios": [
+    {
+      "largura": 390,
+      "reflexo": {
+        "andou": [
+          "-0.050",
+          "0.347"
+        ],
+        "pausado": {
+          "luz": "0.358",
+          "rodando": "false",
+          "estado": "vivo"
+        },
+        "fora": {
+          "luz": "1.174",
+          "rodando": "false",
+          "estado": "vivo"
+        }
+      },
+      "fio": {
+        "posicao": "static",
+        "telas": 1.05,
+        "clipPath": "inset(0px 0px 0%)",
+        "aberto": true,
+        "naturalWidth": 358,
+        "imgVisivel": true,
+        "textos": [
+          1,
+          1,
+          1
+        ]
+      },
+      "toque": {
+        "rolou": 3753,
+        "voltou": 0
+      },
+      "percurso": {
+        "rodape": {
+          "topo": -623,
+          "baixo": 844,
+          "altura": 844
+        },
+        "passosDescida": 35,
+        "passosSubida": 35
+      },
+      "idaVolta": true,
+      "focoAlvo": "<a href=\"https://wa.me/5531900000000?text=Ol%C3%A1%2C%20L%C3%BAmen!%20Quero%20ag",
+      "reduzidoFoco": {
+        "alvo": true,
+        "descoberto": true,
+        "visivel": true,
+        "naTela": true,
+        "contorno": "solid",
+        "y": 398,
+        "altura": 844
+      },
+      "sobrasFio": [],
+      "voltaFoco": {
+        "alvo": true,
+        "descoberto": true,
+        "visivel": true,
+        "naTela": true,
+        "contorno": "solid",
+        "y": 398,
+        "altura": 844
+      },
+      "sobrasResultado": [],
+      "reduzido": {
+        "canvas": false,
+        "reflexo": "estatico",
+        "lenis": false,
+        "alturaFio": 1.0509478672985781,
+        "textosVisiveis": 3,
+        "molduraAberta": true,
+        "cronogramaApagado": 0
+      },
+      "voltouDoReduzido": true,
+      "semMidia": {
+        "reflexo": "estatico",
+        "pausa": false,
+        "fio": {
+          "alt": 72,
+          "substituto": true,
+          "carregou": true,
+          "visivel": true
+        },
+        "liberada": {
+          "liberada": true,
+          "telas": 1
+        },
+        "resultado": {
+          "alt": 98,
+          "substituto": true,
+          "carregou": true,
+          "visivel": true
+        },
+        "bloqueados": 3
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 1440,
+      "reflexo": {
+        "andou": [
+          "-0.046",
+          "0.352"
+        ],
+        "pausado": {
+          "luz": "0.359",
+          "rodando": "false",
+          "estado": "vivo"
+        },
+        "fora": {
+          "luz": "1.192",
+          "rodando": "false",
+          "estado": "vivo"
+        }
+      },
+      "fio": {
+        "posicao": "static",
+        "telas": 1.14,
+        "clipPath": "inset(0px 0px 0%)",
+        "aberto": true,
+        "naturalWidth": 662,
+        "imgVisivel": true,
+        "textos": [
+          1,
+          1,
+          1
+        ]
+      },
+      "percurso": {
+        "rodape": {
+          "topo": 390,
+          "baixo": 900,
+          "altura": 900
+        },
+        "passosDescida": 31,
+        "passosSubida": 31
+      },
+      "idaVolta": true,
+      "focoAlvo": "<a href=\"https://wa.me/5531900000000?text=Ol%C3%A1%2C%20L%C3%BAmen!%20Quero%20ag",
+      "reduzidoFoco": {
+        "alvo": true,
+        "descoberto": true,
+        "visivel": true,
+        "naTela": true,
+        "contorno": "solid",
+        "y": 426,
+        "altura": 900
+      },
+      "sobrasFio": [],
+      "voltaFoco": {
+        "alvo": true,
+        "descoberto": true,
+        "visivel": true,
+        "naTela": true,
+        "contorno": "solid",
+        "y": 426,
+        "altura": 900
+      },
+      "sobrasResultado": [],
+      "reduzido": {
+        "canvas": false,
+        "reflexo": "estatico",
+        "lenis": false,
+        "alturaFio": 1.1444444444444444,
+        "textosVisiveis": 3,
+        "molduraAberta": true,
+        "cronogramaApagado": 0
+      },
+      "voltouDoReduzido": true,
+      "semMidia": {
+        "reflexo": "estatico",
+        "pausa": false,
+        "fio": {
+          "alt": 72,
+          "substituto": true,
+          "carregou": true,
+          "visivel": true
+        },
+        "liberada": {
+          "liberada": true,
+          "telas": 1
+        },
+        "resultado": {
+          "alt": 98,
+          "substituto": true,
+          "carregou": true,
+          "visivel": true
+        },
+        "bloqueados": 3
+      },
+      "aprovado": true
+    }
+  ],
+  "aprovado": true,
+  "baixas": [
+    {
+      "largura": 360,
+      "altura": 640,
+      "medidas": {
+        "#resultado": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 334,
+            "baixo": 398,
+            "palco": 512
+          },
+          {
+            "q": "h2 + p",
+            "ok": true,
+            "topo": 410,
+            "baixo": 459,
+            "palco": 512
+          },
+          {
+            "q": "[data-janela]",
+            "ok": true,
+            "topo": -75,
+            "baixo": 245,
+            "palco": 512
+          }
+        ]
+      }
+    },
+    {
+      "largura": 375,
+      "altura": 667,
+      "medidas": {
+        "#resultado": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 364,
+            "baixo": 397,
+            "palco": 534
+          },
+          {
+            "q": "h2 + p",
+            "ok": true,
+            "topo": 409,
+            "baixo": 458,
+            "palco": 534
+          },
+          {
+            "q": "[data-janela]",
+            "ok": true,
+            "topo": -57,
+            "baixo": 276,
+            "palco": 534
+          }
+        ]
+      }
+    },
+    {
+      "largura": 414,
+      "altura": 736,
+      "medidas": {
+        "#resultado": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 400,
+            "baixo": 435,
+            "palco": 588
+          },
+          {
+            "q": "h2 + p",
+            "ok": true,
+            "topo": 447,
+            "baixo": 497,
+            "palco": 588
+          },
+          {
+            "q": "[data-janela]",
+            "ok": true,
+            "topo": -57,
+            "baixo": 311,
+            "palco": 588
+          }
+        ]
+      }
+    }
+  ]
+}

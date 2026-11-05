@@ -1,0 +1,7 @@
+{
+  "name": "medicao-secao-lp",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test inicial.test.mjs aceitacao.test.mjs", "start": "node servir.mjs" },
+  "engines": { "node": ">=22" }
+}

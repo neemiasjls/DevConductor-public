@@ -1,0 +1,135 @@
+{
+  "tipo": "resumo-base-por-tarefa",
+  "data": "2026-10-20",
+  "grupo": "base",
+  "repeticao": 1,
+  "node": "v24.19.0",
+  "cli": "2.1.226 (Claude Code)",
+  "modeloSolicitado": "opus",
+  "pluginsDoProjeto": [
+    {
+      "id": "devagents-core@devagents",
+      "versao": "0.1.4",
+      "escopo": "project",
+      "ativo": true
+    },
+    {
+      "id": "grafo-codigo@devagents",
+      "versao": "0.2.4",
+      "escopo": "local",
+      "ativo": true
+    },
+    {
+      "id": "seguranca@devagents",
+      "versao": "0.1.0",
+      "escopo": "local",
+      "ativo": true
+    },
+    {
+      "id": "stack-typescript@devagents",
+      "versao": "0.1.0",
+      "escopo": "local",
+      "ativo": true
+    },
+    {
+      "id": "superpowers@claude-plugins-official",
+      "versao": "7.0.0",
+      "escopo": "project",
+      "ativo": true
+    }
+  ],
+  "tarefas": [
+    {
+      "tarefa": "01-secao-lp",
+      "fornecidos": 5,
+      "adicionais": 0,
+      "correcoes": 0,
+      "totais": {
+        "entrada": 47400,
+        "cacheLido": 199199,
+        "saida": 6808
+      },
+      "porModelo": {
+        "claude-opus-5": {
+          "respostas": 6,
+          "entrada": 11,
+          "cacheGravado": 47389,
+          "cacheLido": 199199,
+          "saida": 6808
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 6,
+          "contexto": 246599,
+          "saida": 6808,
+          "contextoPorResposta": 41100
+        }
+      },
+      "respostas": 6,
+      "aprovada": true
+    },
+    {
+      "tarefa": "02-endpoint-api",
+      "fornecidos": 7,
+      "adicionais": 0,
+      "correcoes": 0,
+      "totais": {
+        "entrada": 30534,
+        "cacheLido": 165550,
+        "saida": 2866
+      },
+      "porModelo": {
+        "claude-opus-5": {
+          "respostas": 5,
+          "entrada": 9,
+          "cacheGravado": 30525,
+          "cacheLido": 165550,
+          "saida": 2866
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 5,
+          "contexto": 196084,
+          "saida": 2866,
+          "contextoPorResposta": 39217
+        }
+      },
+      "respostas": 5,
+      "aprovada": true
+    },
+    {
+      "tarefa": "03-script-automacao",
+      "fornecidos": 6,
+      "adicionais": 10,
+      "correcoes": 1,
+      "totais": {
+        "entrada": 107830,
+        "cacheLido": 1182087,
+        "saida": 18969
+      },
+      "porModelo": {
+        "claude-opus-5": {
+          "respostas": 23,
+          "entrada": 43,
+          "cacheGravado": 107787,
+          "cacheLido": 1182087,
+          "saida": 18969
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 23,
+          "contexto": 1289917,
+          "saida": 18969,
+          "contextoPorResposta": 56083
+        }
+      },
+      "respostas": 23,
+      "aprovada": true
+    }
+  ],
+  "comparacao": false,
+  "limite": "Uma rodada do ambiente herdado; cache não equalizado; não prova economia nem mede o núcleo 0.1.19 ainda não instalado."
+}

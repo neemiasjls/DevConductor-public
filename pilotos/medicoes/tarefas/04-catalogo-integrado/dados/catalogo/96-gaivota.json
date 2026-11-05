@@ -1,0 +1,7 @@
+{
+  "nome": "gaivota",
+  "versao": "1.0.3",
+  "dependeDe": [
+    "boia"
+  ]
+}

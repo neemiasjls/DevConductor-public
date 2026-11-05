@@ -1,0 +1,83 @@
+{
+  "url": "http://127.0.0.1:5195/",
+  "modo": "celular",
+  "cpu": 4,
+  "segundos": 14,
+  "fpsMedio": 105.5,
+  "quadroP95ms": 18.2,
+  "lentos33": 2.2,
+  "travadas100": 11,
+  "alturaPx": 11265,
+  "lcpMs": 1308,
+  "cls": 0.001,
+  "clsJanela": 0.001,
+  "tarefasLongas": [
+    {
+      "inicio": 77.80000000447035,
+      "duracao": 116
+    },
+    {
+      "inicio": 195.30000000447035,
+      "duracao": 922
+    },
+    {
+      "inicio": 1119,
+      "duracao": 60
+    },
+    {
+      "inicio": 1351.1000000014901,
+      "duracao": 224
+    },
+    {
+      "inicio": 1576.1000000014901,
+      "duracao": 56
+    },
+    {
+      "inicio": 4294.89999999851,
+      "duracao": 203
+    },
+    {
+      "inicio": 4534,
+      "duracao": 54
+    },
+    {
+      "inicio": 4693,
+      "duracao": 56
+    },
+    {
+      "inicio": 4946.89999999851,
+      "duracao": 69
+    },
+    {
+      "inicio": 7004.89999999851,
+      "duracao": 95
+    },
+    {
+      "inicio": 7425.89999999851,
+      "duracao": 86
+    },
+    {
+      "inicio": 7650.20000000298,
+      "duracao": 119
+    },
+    {
+      "inicio": 8215,
+      "duracao": 80
+    },
+    {
+      "inicio": 8401.39999999851,
+      "duracao": 125
+    },
+    {
+      "inicio": 9312.10000000149,
+      "duracao": 84
+    },
+    {
+      "inicio": 9396.89999999851,
+      "duracao": 80
+    }
+  ],
+  "metodologia": "RAF headless; cls é soma de eventos, clsJanela usa janelas. Rolagem programática; não são dados de campo.",
+  "baixadoKB": 978,
+  "jsKB": 440
+}

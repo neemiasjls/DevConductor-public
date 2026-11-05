@@ -1,0 +1,952 @@
+{
+  "data": "2026-11-04T02:38:49.718Z",
+  "url": "http://127.0.0.1:5201/",
+  "cenarios": [
+    {
+      "largura": 360,
+      "altura": 640,
+      "toque": true,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 153.59375,
+          "y": 191.21875,
+          "direita": 338.40625,
+          "baixo": 280.09375,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 153.59375,
+          "y": 288.09375,
+          "direita": 338.40625,
+          "baixo": 394.84375,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 153.59375,
+          "y": 402.84375,
+          "direita": 338.40625,
+          "baixo": 491.71875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 153.59375,
+          "y": 499.71875,
+          "direita": 338.40625,
+          "baixo": 606.46875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 153.59375,
+          "y": 533.46875,
+          "direita": 338.40625,
+          "baixo": 640.21875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 21.59375,
+          "y": 287.96875,
+          "direita": 338.40625,
+          "baixo": 351.96875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 153.59375,
+          "y": 533.46875,
+          "direita": 338.40625,
+          "baixo": 640.21875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 153.59375,
+          "y": 418.71875,
+          "direita": 338.40625,
+          "baixo": 525.46875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 153.59375,
+          "y": 321.84375,
+          "direita": 338.40625,
+          "baixo": 410.71875,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 153.59375,
+          "y": 207.09375,
+          "direita": 338.40625,
+          "baixo": 313.84375,
+          "largura": 360,
+          "altura": 640
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 153.59375,
+          "y": 110.21875,
+          "direita": 338.40625,
+          "baixo": 199.09375,
+          "largura": 360,
+          "altura": 640
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true,
+        true
+      ],
+      "percurso": {
+        "gesto": "toque",
+        "telas": 16.9
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 640,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0.0189, 0, 0, 0.0189, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.60763, 0, 0, 0.723887, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.60763, 0, 0, 0.723887, 0, 0)"
+        }
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 390,
+      "altura": 844,
+      "toque": true,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 155.390625,
+          "y": 191.21875,
+          "direita": 366.609375,
+          "baixo": 280.09375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 155.390625,
+          "y": 288.09375,
+          "direita": 366.609375,
+          "baixo": 394.84375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 155.390625,
+          "y": 402.84375,
+          "direita": 366.609375,
+          "baixo": 491.71875,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 155.390625,
+          "y": 499.71875,
+          "direita": 366.609375,
+          "baixo": 588.59375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 155.390625,
+          "y": 596.59375,
+          "direita": 366.609375,
+          "baixo": 703.34375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 23.390625,
+          "y": 390.390625,
+          "direita": 366.609375,
+          "baixo": 454.390625,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 155.390625,
+          "y": 596.59375,
+          "direita": 366.609375,
+          "baixo": 703.34375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 155.390625,
+          "y": 499.71875,
+          "direita": 366.609375,
+          "baixo": 588.59375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 155.390625,
+          "y": 402.84375,
+          "direita": 366.609375,
+          "baixo": 491.71875,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 155.390625,
+          "y": 288.09375,
+          "direita": 366.609375,
+          "baixo": 394.84375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 155.390625,
+          "y": 191.21875,
+          "direita": 366.609375,
+          "baixo": 280.09375,
+          "largura": 390,
+          "altura": 844
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true,
+        true
+      ],
+      "percurso": {
+        "gesto": "toque",
+        "telas": 14.1
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 844,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0, 0, 0, 0, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.566154, 0, 0, 0.694701, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.566154, 0, 0, 0.694701, 0, 0)"
+        }
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 414,
+      "altura": 736,
+      "toque": true,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 156.828125,
+          "y": 160.75,
+          "direita": 389.171875,
+          "baixo": 249.625,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 156.828125,
+          "y": 257.625,
+          "direita": 389.171875,
+          "baixo": 346.5,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 156.828125,
+          "y": 354.5,
+          "direita": 389.171875,
+          "baixo": 443.375,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 156.828125,
+          "y": 451.375,
+          "direita": 389.171875,
+          "baixo": 540.25,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 156.828125,
+          "y": 548.25,
+          "direita": 389.171875,
+          "baixo": 637.125,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 24.828125,
+          "y": 336.484375,
+          "direita": 389.171875,
+          "baixo": 400.484375,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 156.828125,
+          "y": 548.25,
+          "direita": 389.171875,
+          "baixo": 637.125,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 156.828125,
+          "y": 451.375,
+          "direita": 389.171875,
+          "baixo": 540.25,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 156.828125,
+          "y": 354.5,
+          "direita": 389.171875,
+          "baixo": 443.375,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 156.828125,
+          "y": 257.625,
+          "direita": 389.171875,
+          "baixo": 346.5,
+          "largura": 414,
+          "altura": 736
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 156.828125,
+          "y": 160.75,
+          "direita": 389.171875,
+          "baixo": 249.625,
+          "largura": 414,
+          "altura": 736
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true,
+        true
+      ],
+      "percurso": {
+        "gesto": "toque",
+        "telas": 15.1
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 736,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0.0246, 0, 0, 0.0246, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.581431, 0, 0, 0.705451, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.581431, 0, 0, 0.705451, 0, 0)"
+        }
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 1440,
+      "altura": 900,
+      "toque": false,
+      "teclado": [
+        {
+          "tecla": "Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 146.390625,
+          "y": 736.25,
+          "direita": 359.828125,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 379.828125,
+          "y": 736.25,
+          "direita": 593.265625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 613.265625,
+          "y": 736.25,
+          "direita": 826.71875,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 846.71875,
+          "y": 736.25,
+          "direita": 1060.15625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 1080.15625,
+          "y": 736.25,
+          "direita": 1293.609375,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Tab (sai)",
+          "marco": null,
+          "hora": null,
+          "mostrada": "36 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "Congelado−18 °C",
+          "x": 146.390625,
+          "y": 416.890625,
+          "direita": 696,
+          "baixo": 483.15625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 4,
+          "hora": 33,
+          "mostrada": "33 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "33 h · São PauloPorta aberta n",
+          "x": 1080.15625,
+          "y": 736.25,
+          "direita": 1293.609375,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 3,
+          "hora": 15,
+          "mostrada": "15 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "15 h · perto de CuritibaParada",
+          "x": 846.71875,
+          "y": 736.25,
+          "direita": 1060.15625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 2,
+          "hora": 8,
+          "mostrada": "8 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "8 h · ParanáPedágioParada curt",
+          "x": 613.265625,
+          "y": 736.25,
+          "direita": 826.71875,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 1,
+          "hora": 2,
+          "mostrada": "2 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "2 h · ChapecóColetaPorta abert",
+          "x": 379.828125,
+          "y": 736.25,
+          "direita": 593.265625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "tecla": "Shift+Tab",
+          "marco": 0,
+          "hora": 0,
+          "mostrada": "0 h",
+          "visivel": true,
+          "estilo": "solid",
+          "rotulo": "0 h · ChapecóPré-resfriamentoO",
+          "x": 146.390625,
+          "y": 736.25,
+          "direita": 359.828125,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        }
+      ],
+      "tecladoCompleto": true,
+      "pausa": true,
+      "geadaInterativa": true,
+      "lateral": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "percurso": {
+        "gesto": "roda",
+        "telas": 12.6
+      },
+      "reduzidoPorCena": {
+        "porta": {
+          "reduzido": {
+            "canvas": false,
+            "palco": "relative",
+            "foto": 900,
+            "lenis": false
+          },
+          "volta": {
+            "canvas": "1",
+            "palco": "sticky",
+            "lenis": true
+          }
+        },
+        "viagem": {
+          "antes": "16 h",
+          "reduzido": "36 h",
+          "volta": "16 h"
+        },
+        "faixas": {
+          "fundo": "oklch(0.33 0.016 80)",
+          "invasor": "0",
+          "ficha": true,
+          "itens": true,
+          "meioInvasao": "matrix(0.0246, 0, 0, 0.0246, 0, 0)"
+        },
+        "doca": {
+          "antes": "matrix(0.529608, 0, 0, 0.668984, 0, 0)",
+          "reduzido": {
+            "janela": "none",
+            "foto": "none",
+            "larguraOk": true
+          },
+          "volta": "matrix(0.529608, 0, 0, 0.668984, 0, 0)"
+        }
+      },
+      "trocaLargura": [
+        {
+          "largura": 390,
+          "hora": "12 h",
+          "tracos": [
+            {
+              "total": 1514.8162841796875,
+              "offset": 1026.17
+            }
+          ],
+          "grafico": "none",
+          "acesos": 3
+        },
+        {
+          "largura": 1440,
+          "hora": "12 h",
+          "tracos": [
+            {
+              "total": 1635.825439453125,
+              "offset": 1108.14
+            }
+          ],
+          "grafico": "none",
+          "acesos": 3
+        }
+      ],
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

@@ -1,0 +1,8 @@
+{
+  "nome": "oceano",
+  "versao": "1.3.5",
+  "dependeDe": [
+    "navio",
+    "horizonte"
+  ]
+}

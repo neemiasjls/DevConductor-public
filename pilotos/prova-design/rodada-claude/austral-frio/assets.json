@@ -1,0 +1,53 @@
+{
+  "versao": 1,
+  "assets": [
+    {
+      "arquivo": "public/img/camara-fria-1600.webp", "tipo": "foto", "autor": "Kopiersperre",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+      "licenca": "CC-BY-SA-3.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+      "credito": "Câmara fria: Kopiersperre, CC BY-SA 3.0",
+      "alteracoes": "Fotos recortadas, com marcas de terceiros desfocadas e cor tratada; as versões alteradas seguem a mesma licença CC BY-SA."
+    },
+    {
+      "arquivo": "public/img/camara-fria-960.webp", "tipo": "foto", "autor": "Kopiersperre",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+      "licenca": "CC-BY-SA-3.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+      "credito": "Câmara fria: Kopiersperre, CC BY-SA 3.0",
+      "alteracoes": "Fotos recortadas, com marcas de terceiros desfocadas e cor tratada; as versões alteradas seguem a mesma licença CC BY-SA."
+    },
+    {
+      "arquivo": "public/img/trailer-doca-1600.webp", "tipo": "foto", "autor": "Rundvald",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ets-Jean-Chereau-Avranches-Manche-Normandie-semi-remorque-vue-av-byRundvald.jpg",
+      "licenca": "CC-BY-SA-4.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+      "credito": "Semirreboque no pátio: Rundvald, CC BY-SA 4.0",
+      "alteracoes": "Fotos recortadas, com marcas de terceiros desfocadas e cor tratada; as versões alteradas seguem a mesma licença CC BY-SA."
+    },
+    {
+      "arquivo": "public/img/trailer-doca-960.webp", "tipo": "foto", "autor": "Rundvald",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ets-Jean-Chereau-Avranches-Manche-Normandie-semi-remorque-vue-av-byRundvald.jpg",
+      "licenca": "CC-BY-SA-4.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+      "credito": "Semirreboque no pátio: Rundvald, CC BY-SA 4.0",
+      "alteracoes": "Fotos recortadas, com marcas de terceiros desfocadas e cor tratada; as versões alteradas seguem a mesma licença CC BY-SA."
+    },
+    {
+      "arquivo": "public/img/trailer-largo-960.webp", "tipo": "foto", "autor": "Trevor Marron",
+      "origem": "https://commons.wikimedia.org/wiki/File:Volvo_FM14_Globetrotter_Tractor_with_refrigerated_trailer.jpg",
+      "licenca": "CC-BY-SA-3.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+      "credito": "Semirreboque de lado: Trevor Marron, CC BY-SA 3.0",
+      "alteracoes": "Fotos recortadas, com marcas de terceiros desfocadas e cor tratada; as versões alteradas seguem a mesma licença CC BY-SA."
+    }
+  ],
+  "cenas": [
+    { "id": "porta-geada", "desktop": ["public/img/camara-fria-1600.webp"], "celular": ["public/img/camara-fria-960.webp"], "realista": true,
+      "revisaoVisual": "Foto real conferida na folha de contato e nos prints de revisao/; a geada é shader sobre a foto, não objeto 3D." },
+    { "id": "doca-foto-abre", "desktop": ["public/img/trailer-doca-1600.webp"], "celular": ["public/img/trailer-doca-960.webp"], "realista": true,
+      "revisaoVisual": "Foto real conferida; marcas desfocadas visíveis só como borrão discreto nos prints de revisao/." },
+    { "id": "cotar-foto", "desktop": ["public/img/trailer-largo-960.webp"], "celular": ["public/img/trailer-largo-960.webp"], "realista": true,
+      "revisaoVisual": "Foto real conferida; cabine, placa e logotipos fora do recorte." }
+  ]
+}

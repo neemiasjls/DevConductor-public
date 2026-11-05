@@ -1,0 +1,402 @@
+{
+  "origens": {
+    "wshobson": {
+      "repo": "https://github.com/wshobson/agents",
+      "licenca": "MIT"
+    },
+    "getsentry": {
+      "repo": "https://github.com/getsentry/skills",
+      "licenca": "Apache-2.0"
+    },
+    "vercel-labs-skills": {
+      "repo": "https://github.com/vercel-labs/skills",
+      "licenca": "MIT"
+    },
+    "threejs-skills": {
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "licenca": "MIT"
+    },
+    "lottiefiles-motion-design": {
+      "repo": "https://github.com/lottiefiles/motion-design-skill",
+      "licenca": "MIT"
+    },
+    "dashboard-design-skill": {
+      "repo": "https://github.com/abdiraimov-otabek/dashboard-design-skill",
+      "licenca": "MIT"
+    },
+    "ibelick-ui-skills": {
+      "repo": "https://github.com/ibelick/ui-skills",
+      "licenca": "MIT"
+    }
+  },
+  "arquivos": [
+    {
+      "destino": "plugins/stack-dotnet/agents/dotnet-architect.md",
+      "origem": "wshobson",
+      "caminho": "plugins/dotnet-contribution/agents/dotnet-architect.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-dotnet/agents/csharp-pro.md",
+      "origem": "wshobson",
+      "caminho": "plugins/jvm-languages/agents/csharp-pro.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-dotnet/skills/dotnet-backend-patterns",
+      "origem": "wshobson",
+      "caminho": "plugins/dotnet-contribution/skills/dotnet-backend-patterns",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-dotnet/skills/modern-csharp-coding-standards",
+      "origem": "aaronontheweb/dotnet-skills",
+      "caminho": "modern-csharp-coding-standards",
+      "commit": null,
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-java/agents/java-pro.md",
+      "origem": "wshobson",
+      "caminho": "plugins/jvm-languages/agents/java-pro.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-typescript/agents/typescript-pro.md",
+      "origem": "wshobson",
+      "caminho": "plugins/javascript-typescript/agents/typescript-pro.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-typescript/agents/javascript-pro.md",
+      "origem": "wshobson",
+      "caminho": "plugins/javascript-typescript/agents/javascript-pro.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-typescript/skills/typescript-advanced-types",
+      "origem": "wshobson",
+      "caminho": "plugins/javascript-typescript/skills/typescript-advanced-types",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-typescript/skills/modern-javascript-patterns",
+      "origem": "wshobson",
+      "caminho": "plugins/javascript-typescript/skills/modern-javascript-patterns",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-typescript/skills/nodejs-backend-patterns",
+      "origem": "wshobson",
+      "caminho": "plugins/javascript-typescript/skills/nodejs-backend-patterns",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-typescript/skills/javascript-testing-patterns",
+      "origem": "wshobson",
+      "caminho": "plugins/javascript-typescript/skills/javascript-testing-patterns",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-typescript/skills/vercel-react-best-practices",
+      "origem": "vercel-labs/agent-skills",
+      "caminho": "vercel-react-best-practices",
+      "commit": null,
+      "licenca": "MIT (declarada no README da origem e, na react, no SKILL.md; a origem não tem arquivo LICENSE)",
+      "alterado": "LICENSE com o texto MIT declarado acrescentado na pasta"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/web-design-guidelines",
+      "origem": "vercel-labs/agent-skills",
+      "caminho": "web-design-guidelines",
+      "commit": null,
+      "licenca": "MIT (guidelines.md de vercel-labs/web-interface-guidelines, Copyright (c) 2025 Vercel Labs)",
+      "alterado": "LICENSE de vercel-labs/web-interface-guidelines acrescentada na pasta"
+    },
+    {
+      "destino": "plugins/stack-python/agents/python-pro.md",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/agents/python-pro.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-python/agents/fastapi-pro.md",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/agents/fastapi-pro.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-python/skills/python-code-style",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/skills/python-code-style",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-python/skills/python-anti-patterns",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/skills/python-anti-patterns",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-python/skills/python-testing-patterns",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/skills/python-testing-patterns",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-python/skills/python-error-handling",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/skills/python-error-handling",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-python/skills/python-type-safety",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/skills/python-type-safety",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-python/skills/python-project-structure",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/skills/python-project-structure",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-python/skills/async-python-patterns",
+      "origem": "wshobson",
+      "caminho": "plugins/python-development/skills/async-python-patterns",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-banco/agents/database-architect.md",
+      "origem": "wshobson",
+      "caminho": "plugins/database-design/agents/database-architect.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-banco/agents/sql-pro.md",
+      "origem": "wshobson",
+      "caminho": "plugins/database-design/agents/sql-pro.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-banco/agents/database-optimizer.md",
+      "origem": "wshobson",
+      "caminho": "plugins/database-migrations/agents/database-optimizer.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/stack-banco/skills/postgresql-table-design",
+      "origem": "wshobson",
+      "caminho": "plugins/database-design/skills/postgresql-table-design",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-banco/skills/supabase-postgres-best-practices",
+      "origem": "supabase/agent-skills",
+      "caminho": "supabase-postgres-best-practices",
+      "commit": null,
+      "licenca": "MIT",
+      "alterado": null
+    },
+    {
+      "destino": "plugins/stack-banco/skills/postgresql-code-review",
+      "origem": "github/awesome-copilot",
+      "caminho": "skills/postgresql-code-review",
+      "commit": null,
+      "licenca": "MIT",
+      "alterado": "LICENSE do repositório acrescentada na pasta"
+    },
+    {
+      "destino": "plugins/seguranca/agents/backend-security-coder.md",
+      "origem": "wshobson",
+      "caminho": "plugins/backend-api-security/agents/backend-security-coder.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/seguranca/agents/frontend-security-coder.md",
+      "origem": "wshobson",
+      "caminho": "plugins/frontend-mobile-security/agents/frontend-security-coder.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/seguranca/agents/security-auditor.md",
+      "origem": "wshobson",
+      "caminho": "plugins/security-scanning/agents/security-auditor.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "alterado": "name, model e description"
+    },
+    {
+      "destino": "plugins/seguranca/skills/sast-configuration",
+      "origem": "wshobson",
+      "caminho": "plugins/security-scanning/skills/sast-configuration",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "licenca": "MIT",
+      "alterado": "links de skills nao distribuidas apontam para a origem fixada no commit"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/skill-scanner",
+      "origem": "getsentry",
+      "caminho": "skills/skill-scanner",
+      "commit": "f57ada2d0b640406ea7e25b11d636c530e77c58b",
+      "licenca": "Apache-2.0",
+      "alterado": "description em português; scan_skill.py também verifica scripts em subpastas e .mjs/.cjs/.ps1/.bat (padrões de Node e PowerShell acrescentados) e lê arquivos em UTF-16; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/find-skills",
+      "origem": "vercel-labs-skills",
+      "caminho": "skills/find-skills",
+      "commit": "13e4063a1cf913f5606d57d42ab83a86f5001e04",
+      "licenca": "MIT",
+      "alterado": "reescrita em português e remodelada para o kit: conferir o que o kit já tem antes de buscar, CLI com versão fixa (1.7.2), plano B sem skills.sh (busca na web + clone só para leitura), licença e verificador de segurança antes de recomendar, instalação só no projeto (sem -g, DEV-09) com --copy, aviso de telemetria (DO_NOT_TRACK) e passo para trazer skills ao próprio DevConductor; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/motion-design",
+      "origem": "lottiefiles-motion-design",
+      "caminho": "skills/motion-design",
+      "commit": "f9a8a041b85185ee4881b3471d3415e939aac772",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation no cabeçalho; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/threejs-react-three-fiber",
+      "origem": "threejs-skills",
+      "caminho": "skills/threejs-react-three-fiber",
+      "commit": "0e181866f095b5f06d005133876e926515390d95",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation no cabeçalho; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/threejs-shaders",
+      "origem": "threejs-skills",
+      "caminho": "skills/threejs-shaders",
+      "commit": "0e181866f095b5f06d005133876e926515390d95",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation no cabeçalho; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/threejs-performance",
+      "origem": "threejs-skills",
+      "caminho": "skills/threejs-performance",
+      "commit": "0e181866f095b5f06d005133876e926515390d95",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation no cabeçalho; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/threejs-loaders",
+      "origem": "threejs-skills",
+      "caminho": "skills/threejs-loaders",
+      "commit": "0e181866f095b5f06d005133876e926515390d95",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation no cabeçalho; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/threejs-lighting",
+      "origem": "threejs-skills",
+      "caminho": "skills/threejs-lighting",
+      "commit": "0e181866f095b5f06d005133876e926515390d95",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation no cabeçalho; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/threejs-asset-pipeline",
+      "origem": "threejs-skills",
+      "caminho": "skills/threejs-asset-pipeline",
+      "commit": "0e181866f095b5f06d005133876e926515390d95",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation no cabeçalho; LICENSE do repositório incluída"
+    },
+    {
+      "destino": "plugins/design-sistemas/skills/dashboard-design",
+      "origem": "dashboard-design-skill",
+      "caminho": "skills/dashboard-design",
+      "commit": "b813324aea08dc19a82d2bd9ea73824dfdd0e844",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation; LICENSE incluída; sem references/swiftui.md e menções a SwiftUI; sem a seção Sign-off (links promocionais)"
+    },
+    {
+      "destino": "plugins/design-sistemas/skills/baseline-ui",
+      "origem": "ibelick-ui-skills",
+      "caminho": "skills/baseline-ui",
+      "commit": "73fb128d046d1f0d74c2909cd26eb616e3415567",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation; LICENSE incluída"
+    },
+    {
+      "destino": "plugins/design-sistemas/skills/fixing-accessibility",
+      "origem": "ibelick-ui-skills",
+      "caminho": "skills/fixing-accessibility",
+      "commit": "73fb128d046d1f0d74c2909cd26eb616e3415567",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation; LICENSE incluída"
+    },
+    {
+      "destino": "plugins/design-sistemas/skills/improve-ui",
+      "origem": "ibelick-ui-skills",
+      "caminho": "skills/improve-ui",
+      "commit": "73fb128d046d1f0d74c2909cd26eb616e3415567",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation; LICENSE incluída; sem agents/openai.yaml"
+    },
+    {
+      "destino": "plugins/design-sistemas/skills/create-design-md",
+      "origem": "ibelick-ui-skills",
+      "caminho": "skills/create-design-md",
+      "commit": "73fb128d046d1f0d74c2909cd26eb616e3415567",
+      "licenca": "MIT",
+      "alterado": "trava disable-model-invocation; LICENSE incluída; comandos trocados para npx -y -p @google/design.md designmd (nome que roda no Windows)"
+    }
+  ],
+  "assets": [
+    {
+      "destino": "pilotos/prova-design/lastro-cargas/public/modelos/ovos.glb",
+      "origem": "https://www.innerscene.com/tools/library/3d-parts/twelve-egg-carton-moulded-pulp-open-with-eggs-65dc1d10",
+      "caminho": "twelve-egg-carton-moulded-pulp-open-with-eggs.glb",
+      "commit": null,
+      "versao": "23a6aeb85d7be8217739",
+      "licenca": "CC0-1.0",
+      "alterado": "glTF Transform optimize --compress meshopt --texture-size 1024; câmera/luz no site",
+      "sha256_original": "3892df672cb1ac5048cf6b0ddd4b5e0b8878d71ff45d5803c7d33c6422eb8543",
+      "sha256_derivado": "9b6e517a1287b59ef9ca0c105fd1c0cb4cbc9c080f215a76094685c0d10a2ee1"
+    }
+  ]
+}

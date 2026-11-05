@@ -1,0 +1,44 @@
+# Roda a suíte e valida os plugins a cada envio, no Linux e no Windows (onde o projeto é usado no dia a dia).
+# Não usa login nem chama modelo: só node, git, uv (para o verificador de skills) e a CLI do Claude Code para validar.
+name: testes
+
+on:
+  push:
+    branches-ignore: [codex/revisoes] # branch só de revisões do vigia
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: testes-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  testes:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # o teste de versões compara com a main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - uses: astral-sh/setup-uv@v7
+      - name: Suíte de testes
+        run: node --test "scripts/testes/*.test.mjs"
+        env:
+          # Envio direto na main: o teste de versões compara com o commit de antes do envio.
+          VERSOES_BASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.before || '' }}
+      - name: Validar catálogo e plugins
+        shell: bash
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude plugin validate .
+          for p in plugins/*/; do claude plugin validate "$p"; done

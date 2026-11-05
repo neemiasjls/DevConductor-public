@@ -1,0 +1,60 @@
+{
+  "data": "2026-11-05T14:48:42.359Z",
+  "aprovado": true,
+  "videos": [
+    {
+      "nome": "austral-frio",
+      "duracao": 39.867,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 17175075,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "austral-frio-celular",
+      "duracao": 23.5,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 4241067,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "lumen-salao",
+      "duracao": 30.533,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 21949944,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "lumen-salao-celular",
+      "duracao": 20.6,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 6013037,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "prumo-barbearia",
+      "duracao": 48.9,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 8298880,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "prumo-barbearia-celular",
+      "duracao": 28.233,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 3828053,
+      "buscaNoMeio": true,
+      "quadros": 6
+    }
+  ]
+}

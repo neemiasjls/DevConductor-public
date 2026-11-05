@@ -1,0 +1,7 @@
+{
+  "nome": "farol",
+  "versao": "0.4.2",
+  "dependeDe": [
+    "cais"
+  ]
+}

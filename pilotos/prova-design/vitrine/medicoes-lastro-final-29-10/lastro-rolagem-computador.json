@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:5195",
+  "modo": "computador",
+  "cpu": 1,
+  "segundos": 14,
+  "fpsMedio": 75.9,
+  "quadroP95ms": 30.3,
+  "lentos33": 4.3,
+  "travadas100": 16,
+  "alturaPx": 14620,
+  "lcpMs": 664,
+  "cls": 5.904,
+  "baixadoKB": 2056,
+  "jsKB": 440
+}

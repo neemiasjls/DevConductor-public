@@ -1,0 +1,36 @@
+{
+  "name": "estudio-coral",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5182 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 5182 --strictPort",
+    "tranca": "node ferramentas/gerar-tranca.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/big-shoulders-display": "5.3.0",
+    "@fontsource-variable/golos-text": "5.3.0",
+    "@gsap/react": "2.1.2",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "gsap": "3.15.0",
+    "lottie-web": "5.13.0",
+    "motion": "14.8.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "puppeteer-core": "25.14.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

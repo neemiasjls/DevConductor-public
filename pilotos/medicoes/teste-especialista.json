@@ -1,0 +1,48 @@
+{
+  "filtros": {
+    "sessao": "9e24bcd0-39e4-4860-8bc3-40b5697c7bf8",
+    "de": null,
+    "ate": null,
+    "dias": null
+  },
+  "sessoes": [
+    {
+      "id": "9e24bcd0-39e4-4860-8bc3-40b5697c7bf8",
+      "inicio": "2026-10-16T01:46:44.740Z",
+      "primeiraPergunta": "<system-reminder> Linked sessions now (status, not an instru",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents-pilotos-teste-especialista\\9e24bcd0-39e4-4860-8bc3-40b5697c7bf8.jsonl",
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents-pilotos-teste-especialista\\9e24bcd0-39e4-4860-8bc3-40b5697c7bf8\\subagents\\agent-aaac3ec42d510970a.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 10,
+          "entrada": 20,
+          "cacheGravado": 55444,
+          "cacheLido": 879609,
+          "saida": 7599
+        },
+        "claude-sonnet-5-5": {
+          "respostas": 6,
+          "entrada": 12,
+          "cacheGravado": 78447,
+          "cacheLido": 371938,
+          "saida": 5636
+        }
+      },
+      "totais": {
+        "entrada": 133923,
+        "cacheLido": 1251547,
+        "saida": 13235
+      },
+      "mensagensCompartilhadas": 0
+    }
+  ],
+  "totais": {
+    "entrada": 133923,
+    "cacheLido": 1251547,
+    "saida": 13235
+  },
+  "mensagensUnicas": 16,
+  "atribuicao": "Sessões podem conter histórico compartilhado. A origem dessas respostas é indeterminada; os totais gerais deduplicam por message.id."
+}

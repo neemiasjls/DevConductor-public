@@ -1,0 +1,206 @@
+{
+  "url": "http://localhost:5203/",
+  "data": "2026-11-05T01:43:16.764Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 95,
+    "celular": 79
+  },
+  "alertas": [
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 95,
+      "limite": 60,
+      "amostra": "04 · Serviços Preço e tempo na mesma linha. Fotos: Mostafameraji, CC BY-SA 4.0, cor tratada. Serviço Tempo Preço Corte Tesoura e máquina, lavagem e finalização."
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 63,
+      "limite": 60,
+      "amostra": "05 · Horários Quando a cadeira está livre. Sem formulário: escolha o dia, mande uma mensagem e a gente confirma o horário. Segunda fechado Terça 9h–20h Quarta ·"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 75,
+      "limite": 45,
+      "amostra": "Degradê não é sorte de mão. É uma escala: pente 0 na nuca, meio número, um, dois, três, e a tesoura no alto. Quando a medida está certa, a transição some e o co"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 52,
+      "limite": 45,
+      "amostra": "03 · O degradê medido O que você pede quando diz “degradê no 1”. Cada número é a altura do pente na máquina. A transição acontece entre eles, de baixo para cima"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 46,
+      "limite": 45,
+      "amostra": "Cada número é a altura do pente na máquina. A transição acontece entre eles, de baixo para cima. Da pele ao volume, sem degrau. É isso que a régua garante. 0 0,"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 79,
+      "limite": 45,
+      "amostra": "Preço e tempo na mesma linha. Serviço Preço Corte Tesoura e máquina, lavagem e finalização. 40 min R$ 60 Degradê navalhado Do pente 0 à tesoura, acabamento na n"
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 53,
+      "limite": 45,
+      "amostra": "05 · Horários Quando a cadeira está livre. Sem formulário: escolha o dia, mande uma mensagem e a gente confirma o horário. Segunda fechado Terça 9h–20h Quarta ·"
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 29,
+      "palavrasLeitura": 0,
+      "amostra": "01 · A cadeira Uma ficha técnica antes do primeiro fio. A cadeira gira, sobe e trava. O barbeiro trabalha atrás dela, de cima, com a cabeça na altura certa."
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 45,
+      "palavrasLeitura": 0,
+      "amostra": "02 · Manifesto Cada milímetro tem um motivo. Degradê não é sorte de mão. É uma escala: pente 0 na nuca, meio número, um, dois, três, e a tesoura no alto. Quando"
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 47,
+      "palavrasLeitura": 0,
+      "amostra": "03 · O degradê medido O que você pede quando diz “degradê no 1”. Cada número é a altura do pente na máquina. A transição acontece entre eles, de baixo para cima"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 51,
+      "palavrasLeitura": 0,
+      "amostra": "03 · O degradê medido O que você pede quando diz “degradê no 1”. Cada número é a altura do pente na máquina. A transição acontece entre eles, de baixo para cima"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 59,
+      "palavrasLeitura": 0,
+      "amostra": "03 · O degradê medido O que você pede quando diz “degradê no 1”. Cada número é a altura do pente na máquina. A transição acontece entre eles, de baixo para cima"
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 95,
+      "palavrasLeitura": 0,
+      "amostra": "04 · Serviços Preço e tempo na mesma linha. Fotos: Mostafameraji, CC BY-SA 4.0, cor tratada. Serviço Tempo Preço Corte Tesoura e máquina, lavagem e finalização."
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 63,
+      "palavrasLeitura": 0,
+      "amostra": "05 · Horários Quando a cadeira está livre. Sem formulário: escolha o dia, mande uma mensagem e a gente confirma o horário. Segunda fechado Terça 9h–20h Quarta ·"
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 30,
+      "palavrasLeitura": 55,
+      "amostra": "06 · Agendar Sua vez na cadeira. Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp 0 mm 0 mm de espera ( frase de demonstraç"
+    },
+    {
+      "modo": "computador",
+      "y": 7581,
+      "palavras": 9,
+      "palavrasLeitura": 148,
+      "amostra": "0 mm 0 mm de espera ( frase de demonstração )"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 35,
+      "palavrasLeitura": 0,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 4,
+      "palavrasLeitura": 0,
+      "amostra": "02 · Manifesto Cada milímetro"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 75,
+      "palavrasLeitura": 0,
+      "amostra": "Degradê não é sorte de mão. É uma escala: pente 0 na nuca, meio número, um, dois, três, e a tesoura no alto. Quando a medida está certa, a transição some e o co"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 52,
+      "palavrasLeitura": 0,
+      "amostra": "03 · O degradê medido O que você pede quando diz “degradê no 1”. Cada número é a altura do pente na máquina. A transição acontece entre eles, de baixo para cima"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 46,
+      "palavrasLeitura": 0,
+      "amostra": "Cada número é a altura do pente na máquina. A transição acontece entre eles, de baixo para cima. Da pele ao volume, sem degrau. É isso que a régua garante. 0 0,"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 79,
+      "palavrasLeitura": 0,
+      "amostra": "Preço e tempo na mesma linha. Serviço Preço Corte Tesoura e máquina, lavagem e finalização. 40 min R$ 60 Degradê navalhado Do pente 0 à tesoura, acabamento na n"
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 53,
+      "palavrasLeitura": 0,
+      "amostra": "05 · Horários Quando a cadeira está livre. Sem formulário: escolha o dia, mande uma mensagem e a gente confirma o horário. Segunda fechado Terça 9h–20h Quarta ·"
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 38,
+      "palavrasLeitura": 0,
+      "amostra": "14 h 16 h 18 h 20 h 06 · Agendar Sua vez na cadeira. Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp 0 mm 0 mm de espera ("
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 0,
+      "palavrasLeitura": 59,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 7269,
+      "palavras": 0,
+      "palavrasLeitura": 110,
+      "amostra": ""
+    }
+  ]
+}

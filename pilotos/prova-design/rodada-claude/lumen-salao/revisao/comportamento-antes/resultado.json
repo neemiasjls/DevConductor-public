@@ -1,0 +1,644 @@
+{
+  "data": "2026-11-05T01:46:37.292Z",
+  "url": "http://localhost:5202/",
+  "cenarios": [
+    {
+      "largura": 390,
+      "reflexo": {
+        "andou": [
+          "-0.043",
+          "0.350"
+        ],
+        "pausado": {
+          "luz": "0.362",
+          "rodando": "false",
+          "estado": "vivo"
+        },
+        "fora": {
+          "luz": "1.175",
+          "rodando": "false",
+          "estado": "vivo"
+        }
+      },
+      "foco": [
+        {
+          "texto": "Etapa 1: Fio aberto",
+          "x": 20,
+          "y": 636,
+          "direita": 85.1875,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 91.1875,
+          "y": 636,
+          "direita": 156.390625,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 162.390625,
+          "y": 636,
+          "direita": 227.59375,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 233.59375,
+          "y": 636,
+          "direita": 298.796875,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 5: Cutícula fechada",
+          "x": 304.796875,
+          "y": 636,
+          "direita": 369.984375,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 233.59375,
+          "y": 636,
+          "direita": 298.796875,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 162.390625,
+          "y": 636,
+          "direita": 227.59375,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 91.1875,
+          "y": 636,
+          "direita": 156.390625,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        }
+      ],
+      "enterEtapa": [
+        "false",
+        "false",
+        "false",
+        "step",
+        "false"
+      ],
+      "sincronia": [
+        {
+          "n": 0,
+          "quadro": 22,
+          "acesa": 0,
+          "texto": 0
+        },
+        {
+          "n": 1,
+          "quadro": 75,
+          "acesa": 1,
+          "texto": 1
+        },
+        {
+          "n": 2,
+          "quadro": 135,
+          "acesa": 2,
+          "texto": 2
+        },
+        {
+          "n": 3,
+          "quadro": 188,
+          "acesa": 3,
+          "texto": 3
+        },
+        {
+          "n": 4,
+          "quadro": 229,
+          "acesa": 4,
+          "texto": 4
+        }
+      ],
+      "cobertura": [
+        {
+          "de": "[data-teste-proximo]",
+          "shift": true,
+          "etapa": "4",
+          "descoberto": true,
+          "visivel": true,
+          "contorno": "solid",
+          "y": 636,
+          "altura": 844
+        },
+        {
+          "de": "[data-etapa=\"3\"]",
+          "shift": false,
+          "etapa": "4",
+          "descoberto": true,
+          "visivel": true,
+          "contorno": "solid",
+          "y": 636,
+          "altura": 844
+        },
+        {
+          "de": "[data-etapa=\"4\"]",
+          "shift": true,
+          "etapa": "3",
+          "descoberto": true,
+          "visivel": true,
+          "contorno": "solid",
+          "y": 636,
+          "altura": 844
+        }
+      ],
+      "proximoFocavel": "<a href=\"https://wa.me/5531900000000?text=Ol%C3%A1%2C%20L%C3%BAmen!%20Quero%20ag",
+      "toque": {
+        "tapEtapa": 2,
+        "rolou": 3082,
+        "voltou": 0
+      },
+      "percurso": {
+        "rodape": {
+          "topo": -208,
+          "baixo": 844,
+          "altura": 844
+        },
+        "passosDescida": 35,
+        "passosSubida": 36
+      },
+      "idaVolta": true,
+      "reduzidoFoco": {
+        "item": "2",
+        "tag": "LI"
+      },
+      "sobrasFio": [],
+      "voltaFoco": {
+        "etapa": "2",
+        "descoberto": true,
+        "visivel": false,
+        "contorno": "none",
+        "y": 636,
+        "altura": 844
+      },
+      "sobrasResultado": [],
+      "reduzido": {
+        "canvas": false,
+        "reflexo": "estatico",
+        "lenis": false,
+        "alturaFio": 1.2630331753554502,
+        "etapasTexto": 10,
+        "cronogramaApagado": 0,
+        "poster": "1"
+      },
+      "voltouDoReduzido": true,
+      "semMidia": {
+        "reflexo": "estatico",
+        "pausa": false,
+        "poster": "1",
+        "liberada": {
+          "liberada": true,
+          "telas": 1
+        },
+        "resultado": {
+          "alt": 98,
+          "substituto": true,
+          "carregou": true,
+          "visivel": true
+        },
+        "bloqueados": 2
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 1440,
+      "reflexo": {
+        "andou": [
+          "-0.046",
+          "0.350"
+        ],
+        "pausado": {
+          "luz": "0.356",
+          "rodando": "false",
+          "estado": "vivo"
+        },
+        "fora": {
+          "luz": "1.193",
+          "rodando": "false",
+          "estado": "vivo"
+        }
+      },
+      "foco": [
+        {
+          "texto": "Etapa 1: Fio aberto",
+          "x": 100.796875,
+          "y": 428.015625,
+          "direita": 598.125,
+          "baixo": 472.015625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 100.796875,
+          "y": 482.8125,
+          "direita": 598.125,
+          "baixo": 526.8125,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 100.796875,
+          "y": 537.609375,
+          "direita": 598.125,
+          "baixo": 581.609375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 100.796875,
+          "y": 592.40625,
+          "direita": 598.125,
+          "baixo": 636.40625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 5: Cutícula fechada",
+          "x": 100.796875,
+          "y": 647.203125,
+          "direita": 598.125,
+          "baixo": 691.203125,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 100.796875,
+          "y": 592.40625,
+          "direita": 598.125,
+          "baixo": 636.40625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 100.796875,
+          "y": 537.609375,
+          "direita": 598.125,
+          "baixo": 581.609375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 100.796875,
+          "y": 482.8125,
+          "direita": 598.125,
+          "baixo": 526.8125,
+          "largura": 1440,
+          "altura": 900
+        }
+      ],
+      "enterEtapa": [
+        "false",
+        "false",
+        "false",
+        "step",
+        "false"
+      ],
+      "sincronia": [
+        {
+          "n": 0,
+          "quadro": 22,
+          "acesa": 0,
+          "texto": 0
+        },
+        {
+          "n": 1,
+          "quadro": 75,
+          "acesa": 1,
+          "texto": 1
+        },
+        {
+          "n": 2,
+          "quadro": 135,
+          "acesa": 2,
+          "texto": 2
+        },
+        {
+          "n": 3,
+          "quadro": 188,
+          "acesa": 3,
+          "texto": 3
+        },
+        {
+          "n": 4,
+          "quadro": 229,
+          "acesa": 4,
+          "texto": 4
+        }
+      ],
+      "cobertura": [
+        {
+          "de": "[data-teste-proximo]",
+          "shift": true,
+          "etapa": "4",
+          "descoberto": true,
+          "visivel": true,
+          "contorno": "solid",
+          "y": 628,
+          "altura": 900
+        },
+        {
+          "de": "[data-etapa=\"3\"]",
+          "shift": false,
+          "etapa": "4",
+          "descoberto": true,
+          "visivel": true,
+          "contorno": "solid",
+          "y": 628,
+          "altura": 900
+        },
+        {
+          "de": "[data-etapa=\"4\"]",
+          "shift": true,
+          "etapa": "3",
+          "descoberto": true,
+          "visivel": true,
+          "contorno": "solid",
+          "y": 573,
+          "altura": 900
+        }
+      ],
+      "proximoFocavel": "<a href=\"https://wa.me/5531900000000?text=Ol%C3%A1%2C%20L%C3%BAmen!%20Quero%20ag",
+      "percurso": {
+        "rodape": {
+          "topo": 389,
+          "baixo": 900,
+          "altura": 900
+        },
+        "passosDescida": 31,
+        "passosSubida": 29
+      },
+      "idaVolta": true,
+      "reduzidoFoco": {
+        "item": "2",
+        "tag": "LI"
+      },
+      "sobrasFio": [],
+      "voltaFoco": {
+        "etapa": "2",
+        "descoberto": true,
+        "visivel": true,
+        "contorno": "solid",
+        "y": 518,
+        "altura": 900
+      },
+      "sobrasResultado": [],
+      "reduzido": {
+        "canvas": false,
+        "reflexo": "estatico",
+        "lenis": false,
+        "alturaFio": 1.0022222222222221,
+        "etapasTexto": 10,
+        "cronogramaApagado": 0,
+        "poster": "1"
+      },
+      "voltouDoReduzido": true,
+      "semMidia": {
+        "reflexo": "estatico",
+        "pausa": false,
+        "poster": "1",
+        "liberada": {
+          "liberada": true,
+          "telas": 1
+        },
+        "resultado": {
+          "alt": 98,
+          "substituto": true,
+          "carregou": true,
+          "visivel": true
+        },
+        "bloqueados": 2
+      },
+      "aprovado": true
+    }
+  ],
+  "aprovado": true,
+  "baixas": [
+    {
+      "largura": 360,
+      "altura": 640,
+      "medidas": {
+        "#fio": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 83,
+            "baixo": 147,
+            "palco": 640
+          },
+          {
+            "q": "[data-etapa=\"0\"]",
+            "ok": true,
+            "topo": 432,
+            "baixo": 476,
+            "palco": 640
+          },
+          {
+            "q": "[data-etapa=\"4\"]",
+            "ok": true,
+            "topo": 432,
+            "baixo": 476,
+            "palco": 640
+          },
+          {
+            "q": "[data-etapa-texto]",
+            "ok": true,
+            "topo": 488,
+            "baixo": 560,
+            "palco": 640
+          },
+          {
+            "q": "[data-fio-player]",
+            "ok": true,
+            "topo": 155,
+            "baixo": 406,
+            "palco": 640
+          }
+        ],
+        "#resultado": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 331,
+            "baixo": 395,
+            "palco": 512
+          },
+          {
+            "q": "h2 + p",
+            "ok": true,
+            "topo": 407,
+            "baixo": 482,
+            "palco": 512
+          },
+          {
+            "q": "[data-janela]",
+            "ok": true,
+            "topo": -97,
+            "baixo": 223,
+            "palco": 512
+          }
+        ]
+      }
+    },
+    {
+      "largura": 375,
+      "altura": 667,
+      "medidas": {
+        "#fio": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 86,
+            "baixo": 150,
+            "palco": 667
+          },
+          {
+            "q": "[data-etapa=\"0\"]",
+            "ok": true,
+            "topo": 459,
+            "baixo": 503,
+            "palco": 667
+          },
+          {
+            "q": "[data-etapa=\"4\"]",
+            "ok": true,
+            "topo": 459,
+            "baixo": 503,
+            "palco": 667
+          },
+          {
+            "q": "[data-etapa-texto]",
+            "ok": true,
+            "topo": 515,
+            "baixo": 587,
+            "palco": 667
+          },
+          {
+            "q": "[data-fio-player]",
+            "ok": true,
+            "topo": 158,
+            "baixo": 433,
+            "palco": 667
+          }
+        ],
+        "#resultado": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 362,
+            "baixo": 394,
+            "palco": 534
+          },
+          {
+            "q": "h2 + p",
+            "ok": true,
+            "topo": 406,
+            "baixo": 481,
+            "palco": 534
+          },
+          {
+            "q": "[data-janela]",
+            "ok": true,
+            "topo": -80,
+            "baixo": 254,
+            "palco": 534
+          }
+        ]
+      }
+    },
+    {
+      "largura": 414,
+      "altura": 736,
+      "medidas": {
+        "#fio": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 91,
+            "baixo": 162,
+            "palco": 736
+          },
+          {
+            "q": "[data-etapa=\"0\"]",
+            "ok": true,
+            "topo": 528,
+            "baixo": 572,
+            "palco": 736
+          },
+          {
+            "q": "[data-etapa=\"4\"]",
+            "ok": true,
+            "topo": 528,
+            "baixo": 572,
+            "palco": 736
+          },
+          {
+            "q": "[data-etapa-texto]",
+            "ok": true,
+            "topo": 584,
+            "baixo": 656,
+            "palco": 736
+          },
+          {
+            "q": "[data-fio-player]",
+            "ok": true,
+            "topo": 170,
+            "baixo": 502,
+            "palco": 736
+          }
+        ],
+        "#resultado": [
+          {
+            "q": "h2",
+            "ok": true,
+            "topo": 398,
+            "baixo": 434,
+            "palco": 589
+          },
+          {
+            "q": "h2 + p",
+            "ok": true,
+            "topo": 446,
+            "baixo": 520,
+            "palco": 589
+          },
+          {
+            "q": "[data-janela]",
+            "ok": true,
+            "topo": -78,
+            "baixo": 290,
+            "palco": 589
+          }
+        ]
+      }
+    }
+  ]
+}

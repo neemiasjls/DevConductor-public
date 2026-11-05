@@ -1,0 +1,8 @@
+{
+  "nome": "estaleiro",
+  "versao": "3.1.0",
+  "dependeDe": [
+    "duna",
+    "cais"
+  ]
+}

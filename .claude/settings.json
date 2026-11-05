@@ -1,0 +1,14 @@
+{
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "devconductor-core@devconductor": true
+  },
+  "extraKnownMarketplaces": {
+    "devconductor": {
+      "source": {
+        "source": "github",
+        "repo": "neemiasjls/DevConductor"
+      }
+    }
+  }
+}

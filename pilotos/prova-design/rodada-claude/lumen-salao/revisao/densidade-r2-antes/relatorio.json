@@ -1,0 +1,255 @@
+{
+  "url": "http://localhost:5202/",
+  "data": "2026-11-05T13:58:27.255Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 84,
+    "celular": 98
+  },
+  "alertas": [
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 82,
+      "limite": 60,
+      "amostra": "01 Diagnóstico Água, óleo, proteína: o fio pede uma coisa de cada vez . Antes de qualquer produto, a gente olha o fio de perto, puxa uma mecha para ver como ela"
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 84,
+      "limite": 60,
+      "amostra": "03 Cronograma capilar Quatro semanas, uma etapa por lavagem O cronograma alterna as etapas conforme o fio responde. Este é um exemplo para cabelo com química; o"
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 80,
+      "limite": 60,
+      "amostra": "02 Nutrição Para pontas secas e frizz. Óleos aplicados mecha a mecha. a partir de R$ 140 Agendar 03 Reconstrução Para fio elástico ou quebrando depois de químic"
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 67,
+      "limite": 60,
+      "amostra": "Agende Agende o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo What"
+    },
+    {
+      "modo": "computador",
+      "y": 7445,
+      "palavras": 62,
+      "limite": 60,
+      "amostra": "Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo WhatsApp Telefone (31) 90000-0000 (fi"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 47,
+      "limite": 45,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de for"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 98,
+      "limite": 45,
+      "amostra": "Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de fora estão deitadas e refletem a luz. Nosso trabalho é deitar essas esc"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 67,
+      "limite": 45,
+      "amostra": "Fio áspero, sem balanço, que embaraça fácil e demora a secar. Óleo nutrição Pontas secas, frizz que não assenta e cor sem vida. Proteína reconstrução Fio elásti"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 77,
+      "limite": 45,
+      "amostra": "O cronograma alterna as etapas conforme o fio responde. Este é um exemplo para cabelo com química; o seu sai do diagnóstico e muda no caminho. H hidratação N nu"
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 74,
+      "limite": 45,
+      "amostra": "05 Serviços e valores Escolha por onde começar Valores de demonstração, “a partir de”. O diagnóstico confirma o que o seu fio pede. 01 Hidratação Para fio ásper"
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 59,
+      "limite": 45,
+      "amostra": "Para fio elástico ou quebrando depois de química ou calor. a partir de R$ 160 Agendar 04 Cronograma de 4 semanas Diagnóstico, duas sessões no salão e o plano pa"
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 67,
+      "limite": 45,
+      "amostra": "Agende Agende o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo What"
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 54,
+      "palavrasLeitura": 0,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de for"
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 82,
+      "palavrasLeitura": 0,
+      "amostra": "01 Diagnóstico Água, óleo, proteína: o fio pede uma coisa de cada vez . Antes de qualquer produto, a gente olha o fio de perto, puxa uma mecha para ver como ela"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 31,
+      "palavrasLeitura": 0,
+      "amostra": "02 De perto O tratamento acontece na mecha Água, óleo ou proteína: cada um vai só na mecha que precisa, na dose do diagnóstico. Por isso o brilho dura. Agendar "
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 84,
+      "palavrasLeitura": 0,
+      "amostra": "03 Cronograma capilar Quatro semanas, uma etapa por lavagem O cronograma alterna as etapas conforme o fio responde. Este é um exemplo para cabelo com química; o"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 29,
+      "palavrasLeitura": 0,
+      "amostra": "Semana 4 H N R Volta para conferir: o fio fecha mais a cada ciclo. Exemplo ilustrativo, não é receita. 04 Resultado Onde a luz bate inteira Agendar diagnóstico"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 45,
+      "palavrasLeitura": 0,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa contínua, do alto da cabeça "
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 55,
+      "palavrasLeitura": 0,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. 05 Serviços e valores Escolha por onde começar Valores de demonstração, “a partir de”. O diagnóstico c"
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 80,
+      "palavrasLeitura": 0,
+      "amostra": "02 Nutrição Para pontas secas e frizz. Óleos aplicados mecha a mecha. a partir de R$ 140 Agendar 03 Reconstrução Para fio elástico ou quebrando depois de químic"
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 67,
+      "palavrasLeitura": 91,
+      "amostra": "Agende Agende o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo What"
+    },
+    {
+      "modo": "computador",
+      "y": 7445,
+      "palavras": 62,
+      "palavrasLeitura": 177,
+      "amostra": "Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo WhatsApp Telefone (31) 90000-0000 (fi"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 47,
+      "palavrasLeitura": 0,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de for"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 98,
+      "palavrasLeitura": 0,
+      "amostra": "Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de fora estão deitadas e refletem a luz. Nosso trabalho é deitar essas esc"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 67,
+      "palavrasLeitura": 0,
+      "amostra": "Fio áspero, sem balanço, que embaraça fácil e demora a secar. Óleo nutrição Pontas secas, frizz que não assenta e cor sem vida. Proteína reconstrução Fio elásti"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "03 Cronograma capilar Quatro semanas, uma etapa por lavagem O cronograma alterna as etapas conforme o fio responde. Este é um exemplo para cabelo com química; o"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 77,
+      "palavrasLeitura": 0,
+      "amostra": "O cronograma alterna as etapas conforme o fio responde. Este é um exemplo para cabelo com química; o seu sai do diagnóstico e muda no caminho. H hidratação N nu"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 30,
+      "palavrasLeitura": 0,
+      "amostra": "H N R Volta para conferir: o fio fecha mais a cada ciclo. Exemplo ilustrativo, não é receita. Foto ilustrativa de banco aberto; não é cliente do salão. Agendar "
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 45,
+      "palavrasLeitura": 0,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa contínua, do alto da cabeça "
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 74,
+      "palavrasLeitura": 0,
+      "amostra": "05 Serviços e valores Escolha por onde começar Valores de demonstração, “a partir de”. O diagnóstico confirma o que o seu fio pede. 01 Hidratação Para fio ásper"
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 59,
+      "palavrasLeitura": 0,
+      "amostra": "Para fio elástico ou quebrando depois de química ou calor. a partir de R$ 160 Agendar 04 Cronograma de 4 semanas Diagnóstico, duas sessões no salão e o plano pa"
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 67,
+      "palavrasLeitura": 0,
+      "amostra": "Agende Agende o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo What"
+    },
+    {
+      "modo": "celular",
+      "y": 8440,
+      "palavras": 0,
+      "palavrasLeitura": 167,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 8707,
+      "palavras": 0,
+      "palavrasLeitura": 166,
+      "amostra": ""
+    }
+  ]
+}

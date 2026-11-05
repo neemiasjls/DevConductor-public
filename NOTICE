@@ -1,0 +1,60 @@
+DevConductor inclui arquivos copiados e adaptados de outros projetos.
+A origem exata de cada arquivo (repositório, caminho e commit) está em fontes.json.
+
+wshobson/agents — https://github.com/wshobson/agents
+  Copyright (c) Seth Hobson. Licença MIT.
+  Agentes e skills de stack em plugins/stack-*, plugins/seguranca.
+
+obra/superpowers — https://github.com/obra/superpowers
+  Copyright (c) Jesse Vincent. Licença MIT.
+  Não é copiado: é instalado do marketplace oficial e usado como está.
+
+getsentry/skills — https://github.com/getsentry/skills
+  Copyright (c) Functional Software, Inc. dba Sentry. Licença Apache-2.0 (cópia em
+  plugins/devconductor-core/skills/skill-scanner/LICENSE).
+  skill-scanner em plugins/devconductor-core/skills/skill-scanner; alterados o description (português) e o
+  scan_skill.py (scripts em subpastas e de Node/PowerShell; ver fontes.json).
+
+vercel-labs/skills — https://github.com/vercel-labs/skills
+  Copyright (c) 2026 Vercel, Inc. Licença MIT (cópia em plugins/devconductor-core/skills/find-skills/LICENSE).
+  find-skills em plugins/devconductor-core/skills/find-skills, reescrita em português e adaptada às regras do kit
+  (ver fontes.json).
+
+safishamsi/graphify — https://github.com/safishamsi/graphify
+  Licença MIT.
+  Não é copiado: a CLI é instalada da origem (pacote graphifyy) e o plugin grafo-codigo só a chama.
+  O que se usa dele e o que fica de fora: plugins/grafo-codigo/FONTES.md.
+
+Outras skills de terceiros (texto da licença na pasta de cada uma):
+  modern-csharp-coding-standards — aaronontheweb/dotnet-skills (MIT).
+  supabase-postgres-best-practices — supabase/agent-skills (MIT).
+  postgresql-code-review — github/awesome-copilot (MIT, Copyright GitHub, Inc.).
+  vercel-react-best-practices — vercel-labs/agent-skills (MIT declarada no README e no SKILL.md da origem, que
+    não tem arquivo LICENSE; texto MIT na pasta).
+  web-design-guidelines — vercel-labs/agent-skills; o guidelines.md vem de vercel-labs/web-interface-guidelines
+    (Copyright (c) 2025 Vercel Labs, MIT; LICENSE na pasta).
+O texto completo da licença MIT de wshobson/agents está em plugins/<plugin>/LICENSES/wshobson-agents.txt.
+Arquivos Apache-2.0 alterados (impeccable, wrangler, web-perf, frontend-design, skill-scanner) trazem um aviso
+de modificação logo abaixo do cabeçalho; o NOTICE.md de pbakaus/impeccable vai junto na pasta da skill.
+A skill impeccable embute a biblioteca modern-screenshot (https://github.com/qq15725/modern-screenshot,
+  Copyright (c) 2021-present wxm, MIT): licença em impeccable/scripts/modern-screenshot.LICENSE.
+
+Consultoras de design do plugin landing-pages (origem e licença em plugins/landing-pages/FONTES.md; LICENSE
+  em cada pasta): Leonxlnx/taste-skill, Nutlope/hallmark, nextlevelbuilder/ui-ux-pro-max-skill,
+  emilkowalski/skill, coreyhaines31/marketingskills, AgriciDaniel/claude-seo, greensock/gsap-skills,
+  lottiefiles/motion-design-skill, CloudAI-X/threejs-skills e wshobson/agents (MIT); pbakaus/impeccable,
+  cloudflare/skills e anthropics/skills (frontend-design) (Apache-2.0).
+
+Consultoras do plugin design-sistemas (ver plugins/design-sistemas/FONTES.md), com LICENSE em cada pasta:
+  abdiraimov-otabek/dashboard-design-skill — https://github.com/abdiraimov-otabek/dashboard-design-skill
+    Copyright (c) 2026 Otabek Abdiraimov. Licença MIT. Skill dashboard-design.
+  ibelick/ui-skills — https://github.com/ibelick/ui-skills
+    Copyright (c) 2026 Julien Thibeaut. Licença MIT. Skills baseline-ui, fixing-accessibility, improve-ui e
+    create-design-md.
+
+Fonte Saira (plugin estudio-design) — https://github.com/Omnibus-Type/Saira
+  Copyright The Saira Project Authors. SIL Open Font License 1.1 (OFL-Saira.txt junto da fonte).
+
+Demonstração Lastro: modelo de caixa com doze ovos, Innerscene original (CC0-1.0).
+https://www.innerscene.com/tools/library/3d-parts/twelve-egg-carton-moulded-pulp-open-with-eggs-65dc1d10
+Otimizado com glTF Transform; hashes e versão do arquivo em fontes.json.

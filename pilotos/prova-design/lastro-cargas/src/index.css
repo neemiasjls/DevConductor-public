@@ -1,0 +1,128 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-carvao: oklch(0.17 0.01 250);
+  --color-carvao-2: oklch(0.215 0.012 250);
+  --color-carvao-3: oklch(0.27 0.012 250);
+  --color-papel: oklch(0.93 0.004 95);
+  --color-papel-2: oklch(0.885 0.005 95);
+  --color-tinta: oklch(0.2 0.01 250);
+  --color-sinal: oklch(0.7 0.17 50);
+  --color-nevoa: oklch(0.74 0.01 250);
+  --color-grafite: oklch(0.44 0.01 250);
+
+  --font-titulo: 'Funnel Display Variable', 'Arial Narrow', system-ui, sans-serif;
+  --font-texto: 'Chivo Variable', system-ui, sans-serif;
+
+  --ease-entra: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-sai: cubic-bezier(0.64, 0, 0.78, 0);
+}
+
+:root {
+  --raio: 22px;
+  color-scheme: dark;
+}
+@media (max-width: 767px) {
+  :root { --raio: 16px; }
+}
+
+html {
+  background: var(--color-carvao);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--color-carvao);
+  color: var(--color-papel);
+  font-family: var(--font-texto);
+  font-feature-settings: 'tnum' 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-sinal);
+  color: var(--color-tinta);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-sinal);
+  outline-offset: 3px;
+}
+
+.titulo {
+  font-family: var(--font-titulo);
+  font-feature-settings: normal;
+  letter-spacing: -0.035em;
+  line-height: 0.92;
+}
+
+.numeros {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Título principal: entra por linha no carregamento (CSS, sem esperar JS nem 3D). */
+.linha {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
+}
+.linha > span {
+  display: block;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .linha > span {
+    animation: linha-entra 1.2s var(--ease-entra) both;
+    animation-delay: calc(0.08s + var(--i, 0) * 0.07s);
+  }
+  .surge {
+    animation: surge 0.7s var(--ease-entra) both;
+    animation-delay: calc(0.45s + var(--i, 0) * 0.06s);
+  }
+}
+@keyframes linha-entra {
+  from { transform: translate3d(0, 108%, 0); }
+  to { transform: none; }
+}
+@keyframes surge {
+  from { opacity: 0; transform: translate3d(0, 16px, 0); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Faixas da pista vistas de cima (fundo da cena 3D). */
+.faixa-pista {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    oklch(0.93 0.004 95 / 0.22) 0 64px,
+    transparent 64px 150px
+  );
+}
+
+/* Faixa zebrada do piso do pátio (serviços). */
+.zebra {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-sinal) 0 18px,
+    var(--color-tinta) 18px 36px
+  );
+}
+
+/* Número da doca pintado no piso: só contorno. */
+.contorno {
+  color: transparent;
+  -webkit-text-stroke: 2px oklch(0.2 0.01 250 / 0.34);
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* Reserva o percurso desde o primeiro layout; o palco não alterna fixed/transform ao rolar. */
+@media (prefers-reduced-motion: no-preference) {
+  .percurso-rota { height: calc(100svh + var(--rota-celular)); }
+}
+@media (prefers-reduced-motion: no-preference) and (min-width: 1024px) {
+  .percurso-rota { height: calc(100svh + var(--rota-desktop)); }
+}

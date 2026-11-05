@@ -1,0 +1,9 @@
+{
+  "name": "estudio-design",
+  "version": "0.2.2",
+  "description": "Estudos de movimento isolados em React e GSAP: modelo reutilizável, testes de computador, celular e movimento reduzido, vídeos e vitrine local para escolher cenas antes de integrá-las ao site.",
+  "author": {
+    "name": "DevConductor"
+  },
+  "license": "MIT"
+}

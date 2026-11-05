@@ -1,0 +1,232 @@
+@import "tailwindcss";
+@import "@fontsource-variable/sofia-sans/wght.css";
+
+/* Imbue (título) hospedada em public/fonts, com pré-carga no index.html. Eixos wght 100–900 e opsz. */
+@font-face {
+  font-family: "Imbue Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/imbue-latin.woff2) format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@theme {
+  --color-tinta: oklch(0.12 0.01 90);
+  --color-papel: oklch(0.95 0.005 85);
+  --color-grito: oklch(0.88 0.18 100);
+  --color-cinza: oklch(0.62 0.01 90);
+  --font-titulo: "Imbue Variable", "Bodoni Moda", Georgia, serif;
+  --font-texto: "Sofia Sans Variable", "Arial Narrow", Arial, sans-serif;
+  --ease-entra: cubic-bezier(0.7, 0, 0.2, 1);
+  --ease-sai: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+:root {
+  --fio: 3px;
+  --fio-grosso: 6px;
+  --margem: clamp(16px, 2.2vw, 32px);
+  color-scheme: dark;
+}
+
+html {
+  background: var(--color-tinta);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-tinta);
+  color: var(--color-papel);
+  font-family: var(--font-texto);
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 450;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 767px) {
+  body { font-size: 16px; }
+}
+
+::selection { background: var(--color-grito); color: var(--color-tinta); }
+
+a, button { -webkit-tap-highlight-color: transparent; }
+
+:focus-visible {
+  /* O contorno acompanha a tinta/texto, mantendo contraste também nas áreas amarelas. */
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.titulo {
+  font-family: var(--font-titulo);
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+  line-height: 0.82;
+  letter-spacing: -0.01em;
+}
+
+/* Botão "grito": quina viva, sem raio (estilo brutalista). */
+.botao-grito {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75em;
+  background: var(--color-grito);
+  color: var(--color-tinta);
+  font-family: var(--font-texto);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.95em 1.25em;
+  min-height: 48px;
+  border: var(--fio) solid var(--color-tinta);
+  text-decoration: none;
+  transition: background-color 0.15s var(--ease-entra), color 0.15s var(--ease-entra);
+}
+.botao-grito:hover { background: var(--color-papel); }
+
+/* Faixa inclinada com velocidade ligada ao scroll */
+.faixa-moldura {
+  position: relative;
+  z-index: 20;
+  overflow-x: clip;
+  overflow-y: visible;
+  pointer-events: none;
+}
+.faixa {
+  width: 116%;
+  margin-left: -8%;
+  border-block: var(--fio) solid var(--color-tinta);
+}
+.faixa-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  padding-inline: 0.6em;
+  white-space: nowrap;
+}
+.faixa-item::after {
+  content: "";
+  width: 0.42em;
+  height: 0.42em;
+  background: currentColor;
+  display: inline-block;
+}
+
+/* Abertura: o título fica numa caixa de tamanho fixo e contida — o peso variável muda a largura
+   das letras sem mexer em mais nada da página. */
+.titulo-seco {
+  --wght: 800;
+  font-variation-settings: "wght" var(--wght);
+  font-weight: 800;
+  contain: strict;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Lupa (só com mouse) */
+.lupa {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border: var(--fio-grosso) solid var(--color-grito);
+  background: var(--color-tinta);
+  z-index: 3;
+}
+.lupa img { max-width: none; }
+
+/* Placar: cada caractere é uma janela com uma fita vertical de caracteres. */
+.placar-celula {
+  display: inline-block;
+  overflow: hidden;
+  height: 1.1em;
+  line-height: 1.1em;
+  vertical-align: top;
+  text-align: center;
+}
+.placar-fita { display: block; }
+.placar-fita > span { display: block; height: 1.1em; }
+
+.sr-only-foco:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
+
+/* Movimento reduzido: máscara da Navalha já aberta (foto inteira). */
+@media (prefers-reduced-motion: reduce) {
+  [data-mascara] { display: none; }
+}
+
+/* Cortes (pilha). Sem movimento: grade. Com movimento: palco com cartões empilhados e cena presa. */
+.pilha-legenda { height: 64px; }
+.pilha-palco {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  padding: 40px var(--margem) 64px;
+}
+.pilha-contador, .pilha-nome, .pilha-marca { display: none; }
+@media (min-width: 768px) {
+  /* sem movimento, a grade começa abaixo do título que invade a coluna */
+  .pilha-palco { padding-top: 17vw; }
+}
+@media (max-width: 767px) {
+  .pilha-palco { grid-template-columns: 1fr; }
+  .pilha-legenda { height: 60px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .pilha-secao { height: 100svh; min-height: 600px; overflow: clip; }
+  .pilha-palco { display: block; position: relative; height: 100%; padding: 0; }
+  .pilha-carta {
+    --w: min(30vw, 460px, calc((100svh - 150px) / 1.25));
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: var(--w);
+    margin-left: calc(var(--w) / -2);
+    margin-top: calc((var(--w) * 1.25 + 74px) / -2);
+  }
+  .pilha-contador { display: block; position: absolute; left: 24px; bottom: 18px; font-size: clamp(56px, 6vw, 96px); line-height: 0.8; }
+  .pilha-marca { display: block; }
+  @media (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
+    .pilha-carta { --w: min(48vw, calc((100svh - 150px) / 1.25)); }
+  }
+  @media (max-width: 767px) {
+    .pilha-palco { height: auto; flex: 1; }
+    .pilha-secao > div { display: flex; flex-direction: column; }
+    .pilha-carta {
+      --w: min(70vw, calc((100svh - 330px) / 1.25));
+      top: 46%;
+      margin-top: calc((var(--w) * 1.25 + 70px) / -2);
+    }
+    .pilha-contador { left: var(--margem); bottom: 16px; font-size: 60px; }
+    .pilha-nome { display: block; position: absolute; left: calc(var(--margem) + 128px); bottom: 20px; max-width: 30vw; font-size: 13px !important; line-height: 1.15; }
+  }
+}
+
+/* Cenas presas: invólucro alto + seção sticky (só com movimento). Sticky não gera layout shift e é liso no
+   toque; o ScrollTrigger só faz o scrub de "top top" a "bottom bottom" do invólucro. */
+@media (prefers-reduced-motion: no-preference) {
+  .cena-presa { height: calc(100svh + var(--pin-c)); }
+  .cena-presa > section { position: sticky; top: 0; height: 100svh; }
+  @media (max-width: 767px) {
+    .cena-presa { height: calc(100svh + var(--pin-m)); }
+  }
+}
+
+/* "Senta aí.": no celular, duas linhas com folga para o acento do Í não encostar na linha de cima. */
+#titulo-senta { line-height: 0.84; }
+@media (max-width: 767px) { #titulo-senta { line-height: 1; } }

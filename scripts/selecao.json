@@ -1,0 +1,79 @@
+{
+  "_comentario": "O que o DevConductor copia de cada origem. Rodar: node scripts/importar.mjs <clone-do-wshobson>. Agentes recebem modelo e descrição em português daqui.",
+  "origens": {
+    "wshobson": { "repo": "https://github.com/wshobson/agents", "licenca": "MIT" },
+    "local": { "repo": "~/.claude/skills (cópia de instalação local)", "licenca": "a conferir" }
+  },
+  "plugins": {
+    "stack-dotnet": {
+      "descricao": "Especialistas em C#/.NET: arquitetura ASP.NET Core, EF Core, Dapper e código C# moderno.",
+      "agentes": {
+        "dotnet-contribution/agents/dotnet-architect.md": { "model": "sonnet", "description": "Use para backend .NET/C# com decisão de estrutura: desenhar ou revisar APIs ASP.NET Core, camadas, Entity Framework Core, Dapper, injeção de dependência, performance e arquitetura de projetos .NET." },
+        "jvm-languages/agents/csharp-pro.md": { "model": "sonnet", "description": "Use para escrever ou corrigir código C# do dia a dia: classes, LINQ, async/await, records, pattern matching e testes xUnit/NUnit. Para decisões de arquitetura .NET, prefira dotnet-architect." }
+      },
+      "skills": { "wshobson": ["dotnet-contribution/skills/dotnet-backend-patterns"], "local": ["modern-csharp-coding-standards"] }
+    },
+    "stack-java": {
+      "descricao": "Especialista em Java: Spring Boot, JPA/Hibernate, Maven/Gradle e testes JUnit.",
+      "agentes": {
+        "jvm-languages/agents/java-pro.md": { "model": "sonnet", "description": "Use para código Java: Spring Boot, JPA/Hibernate, Maven/Gradle, streams, concorrência e testes JUnit. Use quando a tarefa mexe em arquivos .java, pom.xml ou build.gradle." }
+      },
+      "skills": {}
+    },
+    "stack-typescript": {
+      "descricao": "Especialistas em TypeScript e JavaScript: tipos, Node.js, React/Next e testes.",
+      "agentes": {
+        "javascript-typescript/agents/typescript-pro.md": { "model": "sonnet", "description": "Use para código TypeScript: tipos avançados, generics, React/Next com tipagem, Node com TS, tsconfig e erros de tipo. Use quando a tarefa mexe em arquivos .ts/.tsx." },
+        "javascript-typescript/agents/javascript-pro.md": { "model": "sonnet", "description": "Use para JavaScript moderno sem TypeScript: ES6+, async, Node.js, módulos e problemas de runtime no navegador ou no Node. Use quando a tarefa mexe em arquivos .js/.mjs/.jsx." }
+      },
+      "skills": {
+        "wshobson": [
+          "javascript-typescript/skills/typescript-advanced-types",
+          "javascript-typescript/skills/modern-javascript-patterns",
+          "javascript-typescript/skills/nodejs-backend-patterns",
+          "javascript-typescript/skills/javascript-testing-patterns"
+        ],
+        "local": ["vercel-react-best-practices"]
+      }
+    },
+    "stack-python": {
+      "descricao": "Especialistas em Python: código moderno, FastAPI, testes e estrutura de projeto.",
+      "agentes": {
+        "python-development/agents/python-pro.md": { "model": "sonnet", "description": "Use para código Python: estrutura de projeto, tipagem, async, testes com pytest, performance e boas práticas. Use quando a tarefa mexe em arquivos .py." },
+        "python-development/agents/fastapi-pro.md": { "model": "sonnet", "description": "Use para APIs em Python com FastAPI: rotas, Pydantic, dependências, autenticação, banco async e testes da API." }
+      },
+      "skills": {
+        "wshobson": [
+          "python-development/skills/python-code-style",
+          "python-development/skills/python-anti-patterns",
+          "python-development/skills/python-testing-patterns",
+          "python-development/skills/python-error-handling",
+          "python-development/skills/python-type-safety",
+          "python-development/skills/python-project-structure",
+          "python-development/skills/async-python-patterns"
+        ]
+      }
+    },
+    "stack-banco": {
+      "descricao": "Especialistas em banco de dados: modelagem, SQL, otimização, Postgres e Supabase.",
+      "agentes": {
+        "database-design/agents/database-architect.md": { "model": "opus", "description": "Use para modelar banco de dados: criar ou mudar tabelas, relacionamentos, índices, escolher tipos, planejar migrações arriscadas e decidir a estrutura dos dados (Postgres/Supabase, SQL Server, MySQL)." },
+        "database-design/agents/sql-pro.md": { "model": "sonnet", "description": "Use para escrever, corrigir ou otimizar consultas SQL: joins, agregações, CTEs, funções de janela, views e procedures. Use quando a tarefa mexe em arquivos .sql ou em queries dentro do código." },
+        "database-migrations/agents/database-optimizer.md": { "model": "sonnet", "description": "Use quando o banco está lento: analisar EXPLAIN, criar índices, otimizar consultas pesadas, resolver N+1 e decidir cache." }
+      },
+      "skills": {
+        "wshobson": ["database-design/skills/postgresql-table-design"],
+        "local": ["supabase-postgres-best-practices", "postgresql-code-review"]
+      }
+    },
+    "seguranca": {
+      "descricao": "Especialistas em segurança: código seguro no backend e no frontend e auditoria (OWASP, dependências, segredos).",
+      "agentes": {
+        "backend-api-security/agents/backend-security-coder.md": { "model": "sonnet", "description": "Use ao escrever código de backend sensível: autenticação, autorização, validação de entrada, upload de arquivo, segredos, rate limit e proteção contra injeção." },
+        "frontend-mobile-security/agents/frontend-security-coder.md": { "model": "sonnet", "description": "Use ao escrever código de frontend sensível: XSS, CSP, token no navegador, formulários, redirecionamentos e dados do usuário na tela." },
+        "security-scanning/agents/security-auditor.md": { "model": "sonnet", "description": "Use para revisar a segurança de um projeto ou de uma mudança: OWASP Top 10, dependências vulneráveis, segredos no código e configuração de deploy. Use antes de subir algo que mexe em login, pagamento ou dados pessoais." }
+      },
+      "skills": { "wshobson": ["security-scanning/skills/sast-configuration"] }
+    }
+  }
+}

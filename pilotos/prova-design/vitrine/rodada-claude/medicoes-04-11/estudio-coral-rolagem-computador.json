@@ -1,0 +1,23 @@
+{
+  "url": "http://localhost:5182/",
+  "modo": "computador",
+  "cpu": 1,
+  "segundos": 14,
+  "fpsMedio": 106.5,
+  "quadroP95ms": 18.3,
+  "lentos33": 2.4,
+  "travadas100": 4,
+  "alturaPx": 13719,
+  "lcpMs": 432,
+  "cls": 0.011,
+  "clsJanela": 0.011,
+  "tarefasLongas": [
+    {
+      "inicio": 50.39999999990687,
+      "duracao": 189
+    }
+  ],
+  "metodologia": "RAF headless; cls é soma de eventos, clsJanela usa janelas. Rolagem programática; não são dados de campo.",
+  "baixadoKB": 1045,
+  "jsKB": 217
+}

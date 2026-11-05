@@ -1,0 +1,13 @@
+{
+  "name": "piloto-catalogo-integrado",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node auditar.mjs",
+    "test": "node --test inicial.test.mjs aceitacao.test.mjs",
+    "test:inicial": "node --test inicial.test.mjs",
+    "test:aceitacao": "node --test aceitacao.test.mjs"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "nome": "jangada",
+  "versao": "0.8.0",
+  "dependeDe": [
+    "gaivota"
+  ]
+}

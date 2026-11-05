@@ -1,0 +1,8 @@
+{
+  "nome": "mare",
+  "versao": "1.6.4",
+  "dependeDe": [
+    "jangada",
+    "ilha"
+  ]
+}

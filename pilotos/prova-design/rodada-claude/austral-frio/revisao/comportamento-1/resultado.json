@@ -1,0 +1,235 @@
+{
+  "data": "2026-10-30T14:07:44.584Z",
+  "url": "http://127.0.0.1:5201/",
+  "cenarios": [
+    {
+      "largura": 390,
+      "focoMarcos": [
+        {
+          "texto": "0 h · ChapecóPré-resfriamentoO baú chega",
+          "hora": 0,
+          "mostrada": "0 h",
+          "x": 155.390625,
+          "y": 145.21875,
+          "direita": 366.609375,
+          "baixo": 234.09375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "2 h · ChapecóColetaPorta aberta 25 min n",
+          "hora": 2,
+          "mostrada": "2 h",
+          "x": 155.390625,
+          "y": 242.09375,
+          "direita": 366.609375,
+          "baixo": 348.84375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "8 h · ParanáPedágioParada curta, porta l",
+          "hora": 8,
+          "mostrada": "8 h",
+          "x": 155.390625,
+          "y": 356.84375,
+          "direita": 366.609375,
+          "baixo": 445.71875,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "15 h · perto de CuritibaParada do motori",
+          "hora": 15,
+          "mostrada": "15 h",
+          "x": 155.390625,
+          "y": 453.71875,
+          "direita": 366.609375,
+          "baixo": 542.59375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "33 h · São PauloPorta aberta na entregaS",
+          "hora": 33,
+          "mostrada": "33 h",
+          "x": 155.390625,
+          "y": 550.59375,
+          "direita": 366.609375,
+          "baixo": 657.34375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "15 h · perto de CuritibaParada do motori",
+          "hora": 15,
+          "mostrada": "15 h",
+          "x": 155.390625,
+          "y": 453.71875,
+          "direita": 366.609375,
+          "baixo": 542.59375,
+          "largura": 390,
+          "altura": 844
+        }
+      ],
+      "faixaFoco": {
+        "pressionado": "true",
+        "ficha": true,
+        "fundo": "oklch(0.31 0.035 205)"
+      },
+      "pausaRetomada": true,
+      "paradaForaDaTela": true,
+      "lateral": [
+        true,
+        true,
+        true
+      ],
+      "chegouAoFim": true,
+      "voltouAoTopo": true,
+      "viagemReconstituida": "0 h",
+      "alturaTelas": 14,
+      "geada": "1",
+      "reduzido": {
+        "lenis": false,
+        "geada": false,
+        "pausa": false,
+        "cenaPresa": false,
+        "marcosAcesos": true,
+        "hora": "36 h",
+        "palavrasApagadas": false,
+        "cobre": "0px"
+      },
+      "voltaMovimento": {
+        "lenis": true,
+        "geada": true,
+        "pausa": true,
+        "cenaPresa": true
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false,
+        "titulos": 6
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 1440,
+      "focoMarcos": [
+        {
+          "texto": "0 h · ChapecóPré-resfriamentoO baú chega",
+          "hora": 0,
+          "mostrada": "0 h",
+          "x": 146.390625,
+          "y": 736.25,
+          "direita": 359.828125,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "2 h · ChapecóColetaPorta aberta 25 min n",
+          "hora": 2,
+          "mostrada": "2 h",
+          "x": 379.828125,
+          "y": 736.25,
+          "direita": 593.265625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "8 h · ParanáPedágioParada curta, porta l",
+          "hora": 8,
+          "mostrada": "8 h",
+          "x": 613.265625,
+          "y": 736.25,
+          "direita": 826.71875,
+          "baixo": 839.375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "15 h · perto de CuritibaParada do motori",
+          "hora": 15,
+          "mostrada": "15 h",
+          "x": 846.71875,
+          "y": 736.25,
+          "direita": 1060.15625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "33 h · São PauloPorta aberta na entregaS",
+          "hora": 33,
+          "mostrada": "33 h",
+          "x": 1080.15625,
+          "y": 736.25,
+          "direita": 1293.609375,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "15 h · perto de CuritibaParada do motori",
+          "hora": 15,
+          "mostrada": "15 h",
+          "x": 846.71875,
+          "y": 736.25,
+          "direita": 1060.15625,
+          "baixo": 860,
+          "largura": 1440,
+          "altura": 900
+        }
+      ],
+      "faixaFoco": {
+        "pressionado": "true",
+        "ficha": true,
+        "fundo": "oklch(0.31 0.035 205)"
+      },
+      "pausaRetomada": true,
+      "paradaForaDaTela": true,
+      "lateral": [
+        true,
+        true,
+        true
+      ],
+      "chegouAoFim": true,
+      "voltouAoTopo": true,
+      "viagemReconstituida": "0 h",
+      "alturaTelas": 12.6,
+      "geada": "1",
+      "reduzido": {
+        "lenis": false,
+        "geada": false,
+        "pausa": false,
+        "cenaPresa": false,
+        "marcosAcesos": true,
+        "hora": "36 h",
+        "palavrasApagadas": false,
+        "cobre": "0px"
+      },
+      "voltaMovimento": {
+        "lenis": true,
+        "geada": true,
+        "pausa": true,
+        "cenaPresa": true
+      },
+      "fotoBloqueada": {
+        "avisos": 4,
+        "geada": false,
+        "titulos": 6
+      },
+      "semWebGL": {
+        "geada": false,
+        "foto": true
+      },
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

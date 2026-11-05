@@ -1,0 +1,8 @@
+{
+  "lastro-cargas": "http://127.0.0.1:5195/",
+  "lastro-cargas-celular": "http://127.0.0.1:5195/",
+  "estudio-coral": "http://127.0.0.1:5194/",
+  "estudio-coral-celular": "http://127.0.0.1:5194/",
+  "barbearia-seco": "http://localhost:5183/",
+  "barbearia-seco-celular": "http://localhost:5183/"
+}

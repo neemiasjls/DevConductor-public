@@ -1,0 +1,62 @@
+[
+  {
+    "estudo": "espiral",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "espiral",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "espiral",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "espiral",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "pilha",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "desktop",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "celular",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "reduzido",
+    "status": "ok"
+  },
+  {
+    "estudo": "camadas",
+    "modo": "celular-reduzido",
+    "status": "ok"
+  }
+]

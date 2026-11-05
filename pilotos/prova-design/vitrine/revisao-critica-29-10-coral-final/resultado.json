@@ -1,0 +1,20 @@
+{
+  "data": "2026-10-30T02:20:29.228Z",
+  "cenarios": [
+    {
+      "site": "coral",
+      "largura": 390,
+      "pausaRetomada": true,
+      "focoEstilos": [],
+      "aprovado": true
+    },
+    {
+      "site": "coral",
+      "largura": 1440,
+      "pausaRetomada": true,
+      "focoEstilos": [],
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

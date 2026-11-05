@@ -1,0 +1,9 @@
+{
+  "name": "stack-java",
+  "version": "0.1.2",
+  "description": "Especialista em Java: Spring Boot, JPA/Hibernate, Maven/Gradle e testes JUnit.",
+  "author": {
+    "name": "DevConductor"
+  },
+  "license": "MIT"
+}

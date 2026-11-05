@@ -1,0 +1,470 @@
+{
+  "data": "2026-11-04T02:52:44.698Z",
+  "url": "http://127.0.0.1:5203/",
+  "cenarios": [
+    {
+      "caso": "principal",
+      "largura": 390,
+      "saltoComEnter": true,
+      "tresDPronto": true,
+      "pausaRetomada": true,
+      "foco": [
+        {
+          "tecla": "Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar corte no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 554.203125,
+          "direita": 358,
+          "baixo": 598.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Tab",
+          "texto": "Agendar degradê navalhado no WhatsApp",
+          "corpo": false,
+          "x": 120,
+          "y": 674.203125,
+          "direita": 358,
+          "baixo": 718.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "A.inline-flex min-h-[44px] items-center gap-2 rounded-full bg-",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Degradê navalhadoDo pente 0 à tesoura, acabamento ",
+          "corpo": false,
+          "x": 20,
+          "y": 509.203125,
+          "direita": 370,
+          "baixo": 628.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "CorteTesoura e máquina, lavagem e finalização.40 m",
+          "corpo": false,
+          "x": 20,
+          "y": 407.078125,
+          "direita": 370,
+          "baixo": 508.203125,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": false,
+          "naFrente": true,
+          "cobre": "SPAN.mt-1 block text-[13px] leading-snug text-tinta-2 md:text-[14",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Agendar",
+          "corpo": false,
+          "x": 282.203125,
+          "y": 6,
+          "direita": 370,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.inline-flex h-10 items-center rounded-full border border-cob",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Prumo Barbearia, início",
+          "corpo": false,
+          "x": 20,
+          "y": 6,
+          "direita": 105.09375,
+          "baixo": 50,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "SPAN.titulo text-[20px] tracking-[-0.01em]",
+          "rolagem": 3981
+        },
+        {
+          "tecla": "Shift+Tab",
+          "texto": "Pular para o conteúdo",
+          "corpo": false,
+          "x": 16,
+          "y": 12,
+          "direita": 174.25,
+          "baixo": 36,
+          "largura": 390,
+          "altura": 844,
+          "visivel": true,
+          "noCabecalho": true,
+          "naFrente": true,
+          "cobre": "A.sr-only fixed left-4 top-3 z-[100] bg-papel p-3 text-tinta f",
+          "rolagem": 3981
+        }
+      ],
+      "paradoForaDaTela": true,
+      "lacoDoCanvas": true,
+      "fimAlcancado": true,
+      "topoDepoisDaVolta": {
+        "y": 0,
+        "hero": "1",
+        "legenda": "hidden",
+        "faixa": "0"
+      },
+      "deslocamentos": [
+        {
+          "tempo": 522.1999999955297,
+          "valor": 0.007275628787106517,
+          "entrada": true,
+          "fontes": [
+            "DIV.absolute inset-x-5 bottom-7 md:inset-x-auto md:bottom-[12vh]"
+          ]
+        },
+        {
+          "tempo": 1060.7999999970198,
+          "valor": 0.0001503180003213695,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 3497.1999999955297,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 3648.6999999955297,
+          "valor": 0.7975361526309394,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.invisible absolute inset-y-0 right-0 w-[64px] md:right-[3vw]",
+            "DIV.invisible absolute inset-x-5 bottom-8 md:inset-x-auto md:bot",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 5861.39999999851,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 5987.89999999851,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 7917.69999999553,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 7938.19999999553,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 9612.29999999702,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 9623.5,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 10185.39999999851,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 10224.10000000149,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 12297.10000000149,
+          "valor": 1,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6"
+          ]
+        },
+        {
+          "tempo": 12355.89999999851,
+          "valor": 0.6888990156762669,
+          "entrada": true,
+          "fontes": [
+            "SECTION.relative z-10 rounded-t-[8px] bg-grafite-2 shadow-[0_-24px_6",
+            "DIV.surge mt-6 flex flex-wrap items-center gap-x-5 gap-y-3",
+            "P.surge mt-5 max-w-[44ch] text-[15px] leading-relaxed text-giz",
+            "P.dado surge text-[11px] uppercase tracking-[0.12em] text-cobr",
+            "A.inline-flex h-10 items-center rounded-full border border-cob"
+          ]
+        },
+        {
+          "tempo": 12855.10000000149,
+          "valor": 0.030180946012800643,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 14331.10000000149,
+          "valor": 0.03173005651611253,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 16446.39999999851,
+          "valor": 0.03173005651611253,
+          "entrada": true,
+          "fontes": [
+            "LI.relative border-b border-tinta/15 transition-colors duration"
+          ]
+        },
+        {
+          "tempo": 18585.89999999851,
+          "valor": 0.0001503180003213695,
+          "entrada": true,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 19301.29999999702,
+          "valor": 0.000017885358335651457,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 19405.29999999702,
+          "valor": 0.000017885358335651457,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28307.69999999553,
+          "valor": 0.000013414018751738591,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28331.39999999851,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28356,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28375,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28380.79999999702,
+          "valor": 0.000004471339583912864,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28419.89999999851,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28422.69999999553,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28434.60000000149,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28453.39999999851,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 28483.60000000149,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 35289.89999999851,
+          "valor": 0.0000014904465279709548,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 35308,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        },
+        {
+          "tempo": 35386.89999999851,
+          "valor": 0.000020866251391593367,
+          "entrada": false,
+          "fontes": [
+            "."
+          ]
+        }
+      ],
+      "clsJanela": 0.00018481536946839835,
+      "antesDaTroca": {
+        "foco": "pausa",
+        "y": 0,
+        "desativado": false
+      },
+      "focoNaTroca": {
+        "foco": null,
+        "tag": "BODY",
+        "naCadeira": false
+      }
+    }
+  ],
+  "aprovado": false,
+  "erro": "AssertionError [ERR_ASSERTION]: foco perdido na troca para reduzido: {\"foco\":null,\"tag\":\"BODY\",\"naCadeira\":false}\n    at file:///pilotos/prova-design/rodada-claude/prumo-barbearia/ferramentas/comportamento.mjs:198:5"
+}

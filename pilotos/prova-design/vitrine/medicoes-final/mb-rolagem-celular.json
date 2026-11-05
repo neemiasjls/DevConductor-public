@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:5193/",
+  "modo": "celular",
+  "cpu": 4,
+  "segundos": 14,
+  "fpsMedio": 151.1,
+  "quadroP95ms": 6.3,
+  "lentos33": 0.2,
+  "travadas100": 0,
+  "alturaPx": 11444,
+  "lcpMs": 1104,
+  "cls": 2.216,
+  "baixadoKB": 1387,
+  "jsKB": 159
+}

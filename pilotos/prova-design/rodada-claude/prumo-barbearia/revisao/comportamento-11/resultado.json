@@ -1,0 +1,14 @@
+{
+  "data": "2026-11-04T02:48:27.516Z",
+  "url": "http://127.0.0.1:5203/",
+  "cenarios": [
+    {
+      "caso": "principal",
+      "largura": 390,
+      "saltoComEnter": true,
+      "tresDPronto": true
+    }
+  ],
+  "aprovado": false,
+  "erro": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'never' !== 'demand'\n\n    at file:///pilotos/prova-design/rodada-claude/prumo-barbearia/ferramentas/comportamento.mjs:123:12"
+}

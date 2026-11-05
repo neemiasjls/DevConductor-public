@@ -1,0 +1,7 @@
+{
+  "nome": "cais",
+  "versao": "1.2.0",
+  "dependeDe": [
+    "alicerce"
+  ]
+}

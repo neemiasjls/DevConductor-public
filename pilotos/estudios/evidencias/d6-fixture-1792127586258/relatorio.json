@@ -1,0 +1,1048 @@
+{
+  "url": "http://127.0.0.1:63124/",
+  "data": "2026-10-16T05:13:37.096Z",
+  "aprovadoTecnico": false,
+  "cenarios": [
+    {
+      "id": "360/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 614,
+      "bytesDecodificados": 14,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 340,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "404 http://127.0.0.1:63124/favicon.ico",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "360/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 140,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "390/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [
+        "390-normal-0.jpg",
+        "390-normal-2.jpg",
+        "390-normal-4.jpg"
+      ],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 28,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "390/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1560,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [
+        "390-reduzido-0.jpg",
+        "390-reduzido-2.jpg",
+        "390-reduzido-4.jpg"
+      ],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 40,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "414/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 36,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "414/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1656,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 32,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "768/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 36,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "768/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 768,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 36,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1024/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 28,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1024/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1024,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 32,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1440/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [
+        "1440-normal-0.jpg",
+        "1440-normal-2.jpg",
+        "1440-normal-4.jpg"
+      ],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 28,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1440/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        },
+        {
+          "y": 0,
+          "largura": 2408,
+          "viewport": 1440,
+          "quebradas": [
+            "http://127.0.0.1:63124/quebrada.jpg"
+          ]
+        }
+      ],
+      "capturas": [
+        "1440-reduzido-0.jpg",
+        "1440-reduzido-2.jpg",
+        "1440-reduzido-4.jpg"
+      ],
+      "titulo": "Fixture com defeitos deliberados",
+      "h1": [],
+      "linksSemNome": [
+        "<button aria-label=\"\"></button>"
+      ],
+      "ancorasQuebradas": [
+        "#ausente"
+      ],
+      "bytesTransferidos": 307,
+      "bytesDecodificados": 7,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 28,
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    }
+  ],
+  "falhas": [
+    {
+      "id": "360/normal",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "404 http://127.0.0.1:63124/favicon.ico",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "360/reduzido",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "390/normal",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "390/reduzido",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Rolagem lateral em y=0: 2408/1560",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "414/normal",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "414/reduzido",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Rolagem lateral em y=0: 2408/1656",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "768/normal",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "768/reduzido",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Rolagem lateral em y=0: 2408/768",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1024/normal",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1024/reduzido",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Rolagem lateral em y=0: 2408/1024",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1440/normal",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    },
+    {
+      "id": "1440/reduzido",
+      "problemas": [
+        "Falha deliberada D6",
+        "404 http://127.0.0.1:63124/quebrada.jpg",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Rolagem lateral em y=0: 2408/1440",
+        "Imagem quebrada: http://127.0.0.1:63124/quebrada.jpg",
+        "Controle sem nome: <button aria-label=\"\"></button>",
+        "Âncora inexistente: #ausente"
+      ]
+    }
+  ],
+  "limites": "Chrome headless local, cache e máquina variáveis. Bytes são do carregamento observado, não tamanho total do build. LCP/CLS são observações de laboratório, não Core Web Vitals de usuários. Prints exigem inspeção visual; fluidez e aprovação estética não são certificadas pelo script."
+}

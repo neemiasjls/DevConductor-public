@@ -1,0 +1,10 @@
+{
+  "name": "prova-design-ferramentas",
+  "private": true,
+  "type": "module",
+  "description": "Medição da prova de design (Lighthouse fixo + puppeteer-core para a rolagem).",
+  "devDependencies": {
+    "lighthouse": "13.6.0",
+    "puppeteer-core": "25.14.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "versao": 1,
+  "assets": [{
+    "arquivo": "mar.jpg", "tipo": "foto", "autor": "Tom Beck",
+    "origem": "https://unsplash.com/photos/aerial-view-of-ocean-waves--NquqeJwHxc",
+    "licenca": "Unsplash", "licencaUrl": "https://unsplash.com/license"
+  }],
+  "cenas": [{
+    "id": "foto-abre", "desktop": ["mar.jpg"], "celular": ["mar.jpg"], "realista": true,
+    "revisaoVisual": "Foto do mar já inspecionada nos estudos D2; não é simulação de objeto 3D. Evidências em ../estudios/evidencias/."
+  }]
+}

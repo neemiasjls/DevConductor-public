@@ -1,0 +1,60 @@
+{
+  "data": "2026-10-30T11:48:10.856Z",
+  "aprovado": true,
+  "videos": [
+    {
+      "nome": "lastro-cargas",
+      "duracao": 105.333,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 32189069,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "lastro-cargas-celular",
+      "duracao": 53.4,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 10411283,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "estudio-coral",
+      "duracao": 37.5,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 24353229,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "estudio-coral-celular",
+      "duracao": 20.5,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 8882225,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "barbearia-seco",
+      "duracao": 33.967,
+      "largura": 1440,
+      "altura": 900,
+      "bytes": 15428947,
+      "buscaNoMeio": true,
+      "quadros": 6
+    },
+    {
+      "nome": "barbearia-seco-celular",
+      "duracao": 20.833,
+      "largura": 390,
+      "altura": 844,
+      "bytes": 4774498,
+      "buscaNoMeio": true,
+      "quadros": 6
+    }
+  ]
+}

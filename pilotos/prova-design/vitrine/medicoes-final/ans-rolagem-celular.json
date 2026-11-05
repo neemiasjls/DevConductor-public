@@ -1,0 +1,15 @@
+{
+  "url": "http://localhost:5191/",
+  "modo": "celular",
+  "cpu": 4,
+  "segundos": 14,
+  "fpsMedio": 162.6,
+  "quadroP95ms": 6.1,
+  "lentos33": 0.1,
+  "travadas100": 1,
+  "alturaPx": 9413,
+  "lcpMs": 904,
+  "cls": 0.016,
+  "baixadoKB": 422,
+  "jsKB": 358
+}

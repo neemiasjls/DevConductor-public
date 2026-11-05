@@ -1,0 +1,245 @@
+{
+  "data": "2026-11-04T02:29:09.429Z",
+  "url": "http://127.0.0.1:5202/",
+  "cenarios": [
+    {
+      "largura": 390,
+      "reflexo": {
+        "andou": [
+          "-0.034",
+          "0.383"
+        ],
+        "pausado": {
+          "luz": "0.402",
+          "rodando": "false",
+          "estado": "vivo"
+        },
+        "fora": {
+          "luz": "1.174",
+          "rodando": "false",
+          "estado": "vivo"
+        }
+      },
+      "foco": [
+        {
+          "texto": "Etapa 1: Fio aberto",
+          "x": 20,
+          "y": 636,
+          "direita": 85.1875,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 91.1875,
+          "y": 636,
+          "direita": 156.390625,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 162.390625,
+          "y": 636,
+          "direita": 227.59375,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 233.59375,
+          "y": 636,
+          "direita": 298.796875,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 5: Cutícula fechada",
+          "x": 304.796875,
+          "y": 636,
+          "direita": 369.984375,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 233.59375,
+          "y": 636,
+          "direita": 298.796875,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 162.390625,
+          "y": 636,
+          "direita": 227.59375,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 91.1875,
+          "y": 636,
+          "direita": 156.390625,
+          "baixo": 680,
+          "largura": 390,
+          "altura": 844
+        }
+      ],
+      "enterEtapa": [
+        "false",
+        "false",
+        "false",
+        "step",
+        "false"
+      ],
+      "idaVolta": true,
+      "reduzido": {
+        "canvas": false,
+        "reflexo": "estatico",
+        "lenis": false,
+        "alturaFio": 1.2630331753554502,
+        "etapasTexto": 10,
+        "cronogramaApagado": 0,
+        "poster": "1"
+      },
+      "voltouDoReduzido": true,
+      "semMidia": {
+        "reflexo": "estatico",
+        "pausa": false,
+        "poster": "1",
+        "altResultado": "Cabelo preto, longo e liso visto de costas, com faixas de reflexo do alto da cabeça até as pontas.",
+        "bloqueados": 2
+      },
+      "aprovado": true
+    },
+    {
+      "largura": 1440,
+      "reflexo": {
+        "andou": [
+          "-0.019",
+          "0.410"
+        ],
+        "pausado": {
+          "luz": "0.422",
+          "rodando": "false",
+          "estado": "vivo"
+        },
+        "fora": {
+          "luz": "1.192",
+          "rodando": "false",
+          "estado": "vivo"
+        }
+      },
+      "foco": [
+        {
+          "texto": "Etapa 1: Fio aberto",
+          "x": 100.796875,
+          "y": 428.015625,
+          "direita": 598.125,
+          "baixo": 472.015625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 100.796875,
+          "y": 482.8125,
+          "direita": 598.125,
+          "baixo": 526.8125,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 100.796875,
+          "y": 537.609375,
+          "direita": 598.125,
+          "baixo": 581.609375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 100.796875,
+          "y": 592.40625,
+          "direita": 598.125,
+          "baixo": 636.40625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 5: Cutícula fechada",
+          "x": 100.796875,
+          "y": 647.203125,
+          "direita": 598.125,
+          "baixo": 691.203125,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 4: Reconstrução",
+          "x": 100.796875,
+          "y": 592.40625,
+          "direita": 598.125,
+          "baixo": 636.40625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 3: Nutrição",
+          "x": 100.796875,
+          "y": 537.609375,
+          "direita": 598.125,
+          "baixo": 581.609375,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Etapa 2: Hidratação",
+          "x": 100.796875,
+          "y": 482.8125,
+          "direita": 598.125,
+          "baixo": 526.8125,
+          "largura": 1440,
+          "altura": 900
+        }
+      ],
+      "enterEtapa": [
+        "false",
+        "false",
+        "false",
+        "step",
+        "false"
+      ],
+      "idaVolta": true,
+      "reduzido": {
+        "canvas": false,
+        "reflexo": "estatico",
+        "lenis": false,
+        "alturaFio": 1.0022222222222221,
+        "etapasTexto": 10,
+        "cronogramaApagado": 0,
+        "poster": "1"
+      },
+      "voltouDoReduzido": true,
+      "semMidia": {
+        "reflexo": "estatico",
+        "pausa": false,
+        "poster": "1",
+        "altResultado": "Cabelo preto, longo e liso visto de costas, com faixas de reflexo do alto da cabeça até as pontas.",
+        "bloqueados": 2
+      },
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

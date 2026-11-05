@@ -1,0 +1,8 @@
+{
+  "nome": "navio",
+  "versao": "2.0.0",
+  "dependeDe": [
+    "mare",
+    "leme"
+  ]
+}

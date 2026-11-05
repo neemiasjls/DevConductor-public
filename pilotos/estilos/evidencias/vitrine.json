@@ -1,0 +1,75 @@
+{
+  "passou": true,
+  "videos": [
+    {
+      "nome": "claro-organico-celular.webm",
+      "duracao": 13.533,
+      "largura": 390,
+      "altura": 844
+    },
+    {
+      "nome": "claro-organico.webm",
+      "duracao": 15.367,
+      "largura": 1440,
+      "altura": 900
+    },
+    {
+      "nome": "editorial-serio-celular.webm",
+      "duracao": 13.567,
+      "largura": 390,
+      "altura": 844
+    },
+    {
+      "nome": "editorial-serio.webm",
+      "duracao": 14.633,
+      "largura": 1440,
+      "altura": 900
+    },
+    {
+      "nome": "luxo-editorial-celular.webm",
+      "duracao": 13.967,
+      "largura": 390,
+      "altura": 844
+    },
+    {
+      "nome": "luxo-editorial.webm",
+      "duracao": 15.833,
+      "largura": 1440,
+      "altura": 900
+    },
+    {
+      "nome": "tecnologico-escuro-celular.webm",
+      "duracao": 13.433,
+      "largura": 390,
+      "altura": 844
+    },
+    {
+      "nome": "tecnologico-escuro.webm",
+      "duracao": 14.533,
+      "largura": 1440,
+      "altura": 900
+    }
+  ],
+  "quadros": 48,
+  "reproduzirBuscar": true,
+  "reduzidoSemAutoplay": true,
+  "teclado": 4,
+  "pesos": {
+    "luxo-editorial": {
+      "bruto": 485309,
+      "comCompressaoTextual": 478510
+    },
+    "tecnologico-escuro": {
+      "bruto": 30418,
+      "comCompressaoTextual": 23436
+    },
+    "claro-organico": {
+      "bruto": 485348,
+      "comCompressaoTextual": 478561
+    },
+    "editorial-serio": {
+      "bruto": 76566,
+      "comCompressaoTextual": 69701
+    }
+  }
+}

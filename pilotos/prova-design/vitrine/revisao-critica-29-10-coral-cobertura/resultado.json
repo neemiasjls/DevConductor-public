@@ -1,0 +1,56 @@
+{
+  "data": "2026-10-30T02:35:05.192Z",
+  "cenarios": [
+    {
+      "site": "coral",
+      "largura": 390,
+      "pausaRetomada": true,
+      "pausaQuandoCoberta": true,
+      "focoEstilos": [
+        {
+          "x": 81.65625,
+          "y": 502.609375,
+          "direita": 217.25,
+          "baixo": 546.109375,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "x": 81.65625,
+          "y": 502.609375,
+          "direita": 217.25,
+          "baixo": 546.109375,
+          "largura": 390,
+          "altura": 844
+        }
+      ],
+      "aprovado": true
+    },
+    {
+      "site": "coral",
+      "largura": 1440,
+      "pausaRetomada": true,
+      "pausaQuandoCoberta": true,
+      "focoEstilos": [
+        {
+          "x": 972.234375,
+          "y": 602.890625,
+          "direita": 1107.828125,
+          "baixo": 646.390625,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "x": 972.234375,
+          "y": 602.890625,
+          "direita": 1107.828125,
+          "baixo": 646.390625,
+          "largura": 1440,
+          "altura": 900
+        }
+      ],
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

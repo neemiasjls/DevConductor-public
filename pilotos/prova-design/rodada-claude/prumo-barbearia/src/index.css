@@ -1,0 +1,144 @@
+@import 'tailwindcss';
+
+@custom-variant cena (@media (prefers-reduced-motion: no-preference) and (min-height: 600px));
+@custom-variant estatico (@media (prefers-reduced-motion: reduce) or (max-height: 599.98px));
+
+@theme {
+  --color-grafite: oklch(0.16 0.015 170);
+  --color-grafite-2: oklch(0.2 0.015 170);
+  --color-grafite-3: oklch(0.25 0.014 170);
+  --color-giz: oklch(0.94 0.01 170);
+  --color-nevoa: oklch(0.76 0.014 170);
+  --color-cobre: oklch(0.74 0.12 55);
+  --color-cobre-escuro: oklch(0.5 0.11 50);
+  --color-papel: oklch(0.93 0.008 170);
+  --color-papel-2: oklch(0.885 0.01 170);
+  --color-tinta: oklch(0.2 0.015 170);
+  --color-tinta-2: oklch(0.42 0.015 170);
+
+  --font-titulo: 'Funnel Display Variable', 'Arial Narrow', system-ui, sans-serif;
+  --font-texto: 'Commissioner Variable', system-ui, sans-serif;
+  --font-dado: 'Martian Mono Variable', ui-monospace, 'Cascadia Mono', monospace; /* taste-skill-ignore: dados em monoespaçada pedidos pelo estilo tecnologico-escuro */
+
+  --ease-entra: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-sai: cubic-bezier(0.64, 0, 0.78, 0);
+}
+
+:root {
+  --raio: 6px;
+  color-scheme: dark;
+}
+
+html {
+  background: var(--color-grafite);
+  scroll-padding-top: 72px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--color-grafite);
+  color: var(--color-giz);
+  font-family: var(--font-texto);
+  font-variant-numeric: tabular-nums;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-cobre);
+  color: var(--color-tinta);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cobre);
+  outline-offset: 3px;
+}
+
+@layer components {
+  .titulo {
+    font-family: var(--font-titulo);
+    font-weight: 560;
+    letter-spacing: -0.02em;
+    line-height: 0.98;
+  }
+  .dado {
+    font-family: var(--font-dado);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Título principal: entra por linha no carregamento (CSS, sem esperar JS nem 3D). */
+.linha {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+.linha > span {
+  display: block;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .linha > span {
+    animation: linha-entra 0.9s var(--ease-entra) both;
+    animation-delay: calc(0.1s + var(--i, 0) * 0.08s);
+  }
+  .surge {
+    animation: surge 0.6s var(--ease-entra) both;
+    animation-delay: calc(0.4s + var(--i, 0) * 0.05s);
+  }
+}
+@keyframes linha-entra {
+  from { transform: translate3d(0, 106%, 0); }
+  to { transform: none; }
+}
+@keyframes surge {
+  from { opacity: 0; transform: translate3d(0, 12px, 0); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Régua de milímetros: tracinhos de 1 mm, maiores a cada 5 e 10 (fundo repetido, sem DOM por traço). */
+.regua-v {
+  background-image:
+    linear-gradient(to bottom, currentColor 1px, transparent 1px), /* taste-skill-ignore: traços da régua (desenho, não preenchimento) */
+    linear-gradient(to bottom, currentColor 1px, transparent 1px), /* taste-skill-ignore: traços da régua (desenho, não preenchimento) */
+    linear-gradient(to bottom, currentColor 1px, transparent 1px) /* taste-skill-ignore: traços da régua (desenho, não preenchimento) */;
+  background-size: 40% var(--mm, 8px), 65% calc(var(--mm, 8px) * 5), 100% calc(var(--mm, 8px) * 10);
+  background-repeat: repeat-y;
+  background-position: right top;
+}
+.regua-h {
+  background-image:
+    linear-gradient(to right, currentColor 1px, transparent 1px), /* taste-skill-ignore: traços da régua (desenho, não preenchimento) */
+    linear-gradient(to right, currentColor 1px, transparent 1px), /* taste-skill-ignore: traços da régua (desenho, não preenchimento) */
+    linear-gradient(to right, currentColor 1px, transparent 1px) /* taste-skill-ignore: traços da régua (desenho, não preenchimento) */;
+  background-size: var(--mm, 8px) 40%, calc(var(--mm, 8px) * 5) 65%, calc(var(--mm, 8px) * 10) 100%;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* Cenas presas: o invólucro reserva o percurso desde o primeiro layout (sticky, sem pin). */
+@media (prefers-reduced-motion: no-preference) {
+  .percurso-cadeira { height: calc(100svh + var(--cadeira-celular)); }
+}
+@media (prefers-reduced-motion: no-preference) and (min-width: 768px) {
+  .percurso-cadeira { height: calc(100svh + var(--cadeira-desktop)); }
+}
+/* O clímax do degradê precisa de altura para texto + foto + medida na mesma tela: abaixo de 600 px de
+   altura (celular deitado, zoom alto) ele fica parado como no reduzido, com todas as medidas em lista. */
+@media (prefers-reduced-motion: no-preference) and (min-height: 600px) {
+  .percurso-degrade { height: calc(100svh + var(--degrade-celular)); }
+}
+@media (prefers-reduced-motion: no-preference) and (min-height: 600px) and (min-width: 768px) {
+  .percurso-degrade { height: calc(100svh + var(--degrade-desktop)); }
+}
+
+@keyframes enche {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}

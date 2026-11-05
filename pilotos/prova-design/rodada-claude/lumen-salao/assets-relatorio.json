@@ -1,0 +1,217 @@
+{
+  "aprovado": true,
+  "erros": [],
+  "arquivos": [
+    {
+      "arquivo": "public/img/abertura-480.webp",
+      "bytes": 15410,
+      "sha256": "31bccd257043d30ffcde51f49d774ea5f9aec0ad1ba20ae8c7ecb0b780984491",
+      "autor": "Vladimir Pustovit",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pretty_woman_with_long_hair.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/abertura-960.webp",
+      "bytes": 44930,
+      "sha256": "9660f7df6c57364a9202267a1ab882cd1b1c8ed9c8088028ddb46f5a946dee1a",
+      "autor": "Vladimir Pustovit",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pretty_woman_with_long_hair.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/abertura-1600.webp",
+      "bytes": 98042,
+      "sha256": "ff258acb57c42f20eaeedcfc80f3ec6399cbf82902b0a77f8c52dfde91d3e12a",
+      "autor": "Vladimir Pustovit",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pretty_woman_with_long_hair.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/resultado-480.webp",
+      "bytes": 100952,
+      "sha256": "fd514ba3d8047acdc3c1659fbaa530c9f4cf61cb5925950c355a5f1c1d0cb397",
+      "autor": "Alex Neman",
+      "origem": "https://commons.wikimedia.org/wiki/File:Woman_with_shiny_long_black_hair_from_behind_(25_December_2022).jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/resultado-960.webp",
+      "bytes": 352884,
+      "sha256": "edca526e2c9c2113425422fc881944f835fea16c5262b67f8fed9a474f898618",
+      "autor": "Alex Neman",
+      "origem": "https://commons.wikimedia.org/wiki/File:Woman_with_shiny_long_black_hair_from_behind_(25_December_2022).jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/resultado-991.webp",
+      "bytes": 387896,
+      "sha256": "bcc6a998dcccbe656d427505334cc3fb46a1931633c27a5e98e52eba37147266",
+      "autor": "Alex Neman",
+      "origem": "https://commons.wikimedia.org/wiki/File:Woman_with_shiny_long_black_hair_from_behind_(25_December_2022).jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/hidratacao-480.webp",
+      "bytes": 29848,
+      "sha256": "79cabb1b3bca2b420c25126e8564087efa89660d1e32111dc5b9c32310e8f7f6",
+      "autor": "Gee Hair",
+      "origem": "https://commons.wikimedia.org/wiki/File:Woman_With_Wet_Hair_Using_Hairbrush_(51548089114).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/hidratacao-960.webp",
+      "bytes": 114260,
+      "sha256": "358ddb214332510f48dde6930223f67be152bf9d726be31d6fcd8eff864648a2",
+      "autor": "Gee Hair",
+      "origem": "https://commons.wikimedia.org/wiki/File:Woman_With_Wet_Hair_Using_Hairbrush_(51548089114).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/hidratacao-1281.webp",
+      "bytes": 199224,
+      "sha256": "e2aa15887292c04d60c450fd7a909109505db54c790ec043bd763b423ab2de1a",
+      "autor": "Gee Hair",
+      "origem": "https://commons.wikimedia.org/wiki/File:Woman_With_Wet_Hair_Using_Hairbrush_(51548089114).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/nutricao-480.webp",
+      "bytes": 20794,
+      "sha256": "4b86311a12d4687e69ef8ec06e647bc04adbf9b4eb4cbf588a746658f65c1430",
+      "autor": "geehairimages",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hair_Oil_Treatment_at_Hair_Salon.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/nutricao-960.webp",
+      "bytes": 65496,
+      "sha256": "c3680c1fc91cf964a0e72f3d01167937ea6eac722dfb0a2c9e2c407810a1ba04",
+      "autor": "geehairimages",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hair_Oil_Treatment_at_Hair_Salon.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/nutricao-1281.webp",
+      "bytes": 105416,
+      "sha256": "585efd19a1bc10471a1ac4a70b22c9b1a760cbe5ab0789d1c40f7cd542e284f2",
+      "autor": "geehairimages",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hair_Oil_Treatment_at_Hair_Salon.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/reconstrucao-480.webp",
+      "bytes": 12392,
+      "sha256": "12ea6a01669a5688a61d4892bdbfe2939784b1e94cc40766b06216a970b334db",
+      "autor": "Hair Spies",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hair_conditioner_(51213040376).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/reconstrucao-960.webp",
+      "bytes": 32484,
+      "sha256": "f9579756e39dd4c3fc41e72ea175a347cff4a7def73d10ef207bb068597b3c9c",
+      "autor": "Hair Spies",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hair_conditioner_(51213040376).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/reconstrucao-1080.webp",
+      "bytes": 39162,
+      "sha256": "78b7cf2cb3cd1713c9a473230e05cdf863209b9fc125158f55487cf4735cf274",
+      "autor": "Hair Spies",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hair_conditioner_(51213040376).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/cronograma-480.webp",
+      "bytes": 10942,
+      "sha256": "0610066152b6d7a2043e6c278e0bf36be773c49c034e50f619bc66103c8460bf",
+      "autor": "geehairimages",
+      "origem": "https://commons.wikimedia.org/wiki/File:Conditioner_-_Hair_treatment.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/cronograma-960.webp",
+      "bytes": 44892,
+      "sha256": "1376ca8cbb8597f93ab4d77c4c2a3867cd777e9d9bcc41b13064913f6f4020be",
+      "autor": "geehairimages",
+      "origem": "https://commons.wikimedia.org/wiki/File:Conditioner_-_Hair_treatment.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/cronograma-1278.webp",
+      "bytes": 83998,
+      "sha256": "45462bbd8975fc5de9cdb59d51427e2c25bf3315eb35a878bd0f9f7873522b84",
+      "autor": "geehairimages",
+      "origem": "https://commons.wikimedia.org/wiki/File:Conditioner_-_Hair_treatment.jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/corte-480.webp",
+      "bytes": 8728,
+      "sha256": "fb7911a7a5123060bb5b24a101d68a223a98290f6dce03071d36bd57cf5f7cc1",
+      "autor": "Hair Spies",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cutting_hair_with_scissors_(51214105840).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/img/corte-720.webp",
+      "bytes": 15248,
+      "sha256": "151292fd0f0fe23db63e0f247767ed6120672d320198de1e0c1da8141557e8b1",
+      "autor": "Hair Spies",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cutting_hair_with_scissors_(51214105840).jpg",
+      "licenca": "CC-BY-2.0"
+    },
+    {
+      "arquivo": "public/animacoes/fio.json",
+      "bytes": 68451,
+      "sha256": "d1291647d60e74014b6b32e53fbbd7400df1e5539a31c5542a9c28810b089712",
+      "autor": "Lúmen Salão (demonstração), gerado por ferramentas/gerar-fio.mjs",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/animacoes/fio-final.svg",
+      "bytes": 5266,
+      "sha256": "1218183884fc5f08f19732dbb488838673dc7f5b0be323f68da56c9df8788c26",
+      "autor": "Lúmen Salão (demonstração), gerado por ferramentas/gerar-fio.mjs",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/favicon.svg",
+      "bytes": 412,
+      "sha256": "a7e3a0b1749c66029119ad21e59c12216d93dc9edeaebdd40db321aeb3ddb514",
+      "autor": "Lúmen Salão (demonstração)",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "0-reflexo-abertura",
+      "desktop": 98042,
+      "celular": 44930,
+      "classe": "leve"
+    },
+    {
+      "id": "2-fio-por-dentro-lottie",
+      "desktop": 73717,
+      "celular": 73717,
+      "classe": "leve"
+    },
+    {
+      "id": "4-resultado-arco",
+      "desktop": 387896,
+      "celular": 352884,
+      "classe": "media"
+    },
+    {
+      "id": "5-servicos-quadro",
+      "desktop": 272380,
+      "celular": 82704,
+      "classe": "leve"
+    }
+  ],
+  "observacao": "Valida declarações e integridade; direitos de imagem, termos da fonte e realismo exigem revisão humana."
+}

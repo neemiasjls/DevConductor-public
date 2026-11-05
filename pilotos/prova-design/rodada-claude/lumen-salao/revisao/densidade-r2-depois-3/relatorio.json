@@ -1,0 +1,163 @@
+{
+  "url": "http://localhost:5202/",
+  "data": "2026-11-05T14:03:10.970Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 55,
+    "celular": 45
+  },
+  "alertas": [],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 39,
+      "palavrasLeitura": 0,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. A gente fecha o fio uma etapa de cada"
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 48,
+      "palavrasLeitura": 0,
+      "amostra": "01 Diagnóstico Água, óleo, proteína: o fio pede uma coisa de cada vez . Antes de qualquer produto, a gente puxa uma mecha e vê o que ela pede. Água hidratação Á"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 31,
+      "palavrasLeitura": 0,
+      "amostra": "02 De perto O tratamento acontece na mecha Água, óleo ou proteína: cada um vai só na mecha que precisa, na dose do diagnóstico. Por isso o brilho dura. Agendar "
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 55,
+      "palavrasLeitura": 0,
+      "amostra": "03 Cronograma capilar Quatro semanas, uma etapa por lavagem Um exemplo para cabelo com química. O seu sai do diagnóstico e muda conforme o fio responde. H hidra"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 23,
+      "palavrasLeitura": 0,
+      "amostra": "Semana 4 H N R No salão, para conferir Exemplo ilustrativo, não é receita. 04 Resultado Onde a luz bate inteira Agendar diagnóstico"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 32,
+      "palavrasLeitura": 0,
+      "amostra": "Foto de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa só, do alto da cabeça às pontas. Agendar"
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 11,
+      "palavrasLeitura": 41,
+      "amostra": "Foto de banco aberto; não é cliente do salão. Agendar diagnóstico"
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 4,
+      "palavrasLeitura": 78,
+      "amostra": "Agende Agende Agendar diagnóstico"
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 26,
+      "palavrasLeitura": 190,
+      "amostra": "Agende Agende o seu diagnóstico. Uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa. Agendar pelo WhatsApp"
+    },
+    {
+      "modo": "computador",
+      "y": 7356,
+      "palavras": 24,
+      "palavrasLeitura": 214,
+      "amostra": "o seu diagnóstico. Uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa. Agendar pelo WhatsApp"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 32,
+      "palavrasLeitura": 0,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. A gente fecha o fio uma etapa de cada"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 45,
+      "palavrasLeitura": 0,
+      "amostra": "Agendar diagnóstico Ver o tratamento de perto 01 Diagnóstico Água, óleo, proteína: o fio pede uma coisa de cada vez . Antes de qualquer produto, a gente puxa um"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 42,
+      "palavrasLeitura": 0,
+      "amostra": "nutrição Pontas secas e frizz. Proteína reconstrução Elástico, quebrando à toa. 02 De perto O tratamento acontece na mecha Água, óleo ou proteína: cada um vai s"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "amostra": "03 Cronograma capilar Quatro semanas, uma etapa por lavagem Um exemplo para cabelo com química. O seu sai do diagnóstico e muda conforme o fio responde. H hidra"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "Semana 1 H N R No salão Semana 2 H N H Em casa Semana 3 H H N No salão Semana 4 H N R No salão, para conferir Exemplo ilustrativo, não é receita. Agendar diagnó"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 32,
+      "palavrasLeitura": 0,
+      "amostra": "Foto de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa só, do alto da cabeça às pontas. Agendar"
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 32,
+      "palavrasLeitura": 17,
+      "amostra": "Foto de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa só, do alto da cabeça às pontas. Agendar"
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 2,
+      "palavrasLeitura": 71,
+      "amostra": "Agendar diagnóstico"
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 26,
+      "palavrasLeitura": 26,
+      "amostra": "Agende Agende o seu diagnóstico. Uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa. Agendar pelo WhatsApp"
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 3,
+      "palavrasLeitura": 70,
+      "amostra": "Agendar pelo WhatsApp"
+    },
+    {
+      "modo": "celular",
+      "y": 8356,
+      "palavras": 0,
+      "palavrasLeitura": 159,
+      "amostra": ""
+    }
+  ]
+}

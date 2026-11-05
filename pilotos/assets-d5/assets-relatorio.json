@@ -1,0 +1,23 @@
+{
+  "aprovado": true,
+  "erros": [],
+  "arquivos": [
+    {
+      "arquivo": "mar.jpg",
+      "bytes": 408926,
+      "sha256": "e1d373ccdafa4021a9d97348cc32ece45b03fe096ef89153c92f49b934addaac",
+      "autor": "Tom Beck",
+      "origem": "https://unsplash.com/photos/aerial-view-of-ocean-waves--NquqeJwHxc",
+      "licenca": "Unsplash"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "foto-abre",
+      "desktop": 408926,
+      "celular": 408926,
+      "classe": "media"
+    }
+  ],
+  "observacao": "Valida declarações e integridade; direitos de imagem, termos da fonte e realismo exigem revisão humana."
+}

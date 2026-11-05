@@ -1,0 +1,297 @@
+{
+  "url": "http://localhost:5201/",
+  "data": "2026-11-05T13:58:27.762Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 126,
+    "celular": 112
+  },
+  "alertas": [
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 88,
+      "limite": 60,
+      "amostra": "frio. Entregamos frio. Três verbos e um número que não muda. O resto deste site mostra como. A viagem O que o cliente nunca vê: 36 horas de temperatura. Exemplo"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 126,
+      "limite": 60,
+      "amostra": "Hora da viagem 4 h Temperatura no baú −18,1 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó Curitiba São Paulo 0 h 6 h 12 h 18 h 24 h 30 h 36 h 0 h ·"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 126,
+      "limite": 60,
+      "amostra": "Hora da viagem 22 h Temperatura no baú −17,9 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó Curitiba São Paulo 0 h 6 h 12 h 18 h 24 h 30 h 36 h 0 h "
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 82,
+      "limite": 60,
+      "amostra": "Faixas de temperatura Escolha o serviço pela temperatura da carga. Passe o cursor, toque ou use o teclado para trocar a faixa. A ficha técnica muda junto. Conge"
+    },
+    {
+      "modo": "computador",
+      "y": 9000,
+      "palavras": 101,
+      "limite": 60,
+      "amostra": "Como cotar Quatro respostas e a cotação sai. Passo 4 de 4 Foto: Trevor Marron, Wikimedia Commons, CC BY-SA 3.0 (recorte, cor tratada). 1 Origem e destino Cidade"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 47,
+      "limite": 45,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga e descarga em doca, cortina de ar na porta e tempo de porta aberta anotado. Passe o cursor ou toque a foto: "
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 88,
+      "limite": 45,
+      "amostra": "Três verbos e um número que não muda. O resto deste site mostra como. A viagem O que o cliente nunca vê: 36 horas de temperatura. Exemplo de registro de uma car"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 112,
+      "limite": 45,
+      "amostra": "Hora da viagem 6 h Temperatura no baú −18,0 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó → Curitiba → São Paulo 0 h · Chapecó Pré-resfriamento O b"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 112,
+      "limite": 45,
+      "amostra": "Hora da viagem 30 h Temperatura no baú −18,1 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó → Curitiba → São Paulo 0 h · Chapecó Pré-resfriamento O "
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 49,
+      "limite": 45,
+      "amostra": "Congelado −18 °C Produtos Carnes, pescados, sorvetes, pratos prontos e vegetais congelados. Baú Isolamento de painel espesso, equipamento de frio dimensionado p"
+    },
+    {
+      "modo": "celular",
+      "y": 8440,
+      "palavras": 76,
+      "limite": 45,
+      "amostra": "Como cotar Quatro respostas e a cotação sai. Passo 4 de 4 1 Origem e destino Cidade de coleta e de entrega, com endereço se já tiver. 2 Tipo e temperatura O que"
+    },
+    {
+      "modo": "celular",
+      "y": 9284,
+      "palavras": 54,
+      "limite": 45,
+      "amostra": "Prazo de resposta a definir Número que a empresa real confirmaria. Nesta demonstração, nenhum prazo é inventado. Foto: Trevor Marron, Wikimedia Commons, CC BY-S"
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 50,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga e descarga em doca, cortina de ar na porta e tempo de porta aberta anotado. Passe o cursor ou toque a foto: "
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 16,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Coletamos frio. Viajamos frio. Entregamos frio."
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 88,
+      "palavrasLeitura": 0,
+      "amostra": "frio. Entregamos frio. Três verbos e um número que não muda. O resto deste site mostra como. A viagem O que o cliente nunca vê: 36 horas de temperatura. Exemplo"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 126,
+      "palavrasLeitura": 0,
+      "amostra": "Hora da viagem 4 h Temperatura no baú −18,1 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó Curitiba São Paulo 0 h 6 h 12 h 18 h 24 h 30 h 36 h 0 h ·"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 126,
+      "palavrasLeitura": 0,
+      "amostra": "Hora da viagem 22 h Temperatura no baú −17,9 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó Curitiba São Paulo 0 h 6 h 12 h 18 h 24 h 30 h 36 h 0 h "
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 82,
+      "palavrasLeitura": 0,
+      "amostra": "Faixas de temperatura Escolha o serviço pela temperatura da carga. Passe o cursor, toque ou use o teclado para trocar a faixa. A ficha técnica muda junto. Conge"
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "Baú ligado antes de a carga chegar. O equipamento de frio liga no pátio e o baú só encosta na doca na temperatura da carga. A estrutura da base (doca, pátio, câ"
+    },
+    {
+      "modo": "computador",
+      "y": 8100,
+      "palavras": 12,
+      "palavrasLeitura": 0,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 9000,
+      "palavras": 101,
+      "palavrasLeitura": 0,
+      "amostra": "Como cotar Quatro respostas e a cotação sai. Passo 4 de 4 Foto: Trevor Marron, Wikimedia Commons, CC BY-SA 3.0 (recorte, cor tratada). 1 Origem e destino Cidade"
+    },
+    {
+      "modo": "computador",
+      "y": 9900,
+      "palavras": 33,
+      "palavrasLeitura": 33,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 10435,
+      "palavras": 7,
+      "palavrasLeitura": 153,
+      "amostra": "Pedir cotação no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 41,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga e descarga em doca, cortina de ar na porta e tempo de porta aberta anotado. Passe o cursor ou toque a foto: "
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 47,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga e descarga em doca, cortina de ar na porta e tempo de porta aberta anotado. Passe o cursor ou toque a foto: "
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 88,
+      "palavrasLeitura": 0,
+      "amostra": "Três verbos e um número que não muda. O resto deste site mostra como. A viagem O que o cliente nunca vê: 36 horas de temperatura. Exemplo de registro de uma car"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 112,
+      "palavrasLeitura": 0,
+      "amostra": "Hora da viagem 6 h Temperatura no baú −18,0 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó → Curitiba → São Paulo 0 h · Chapecó Pré-resfriamento O b"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 112,
+      "palavrasLeitura": 0,
+      "amostra": "Hora da viagem 30 h Temperatura no baú −18,1 °C Na viagem inteira mín. −18,1 °C · máx. −16,8 °C Chapecó → Curitiba → São Paulo 0 h · Chapecó Pré-resfriamento O "
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "amostra": "Faixas de temperatura Escolha o serviço pela temperatura da carga. Passe o cursor, toque ou use o teclado para trocar a faixa. A ficha técnica muda junto. Conge"
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 49,
+      "palavrasLeitura": 0,
+      "amostra": "Congelado −18 °C Produtos Carnes, pescados, sorvetes, pratos prontos e vegetais congelados. Baú Isolamento de painel espesso, equipamento de frio dimensionado p"
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 42,
+      "palavrasLeitura": 0,
+      "amostra": "O equipamento de frio liga no pátio e o baú só encosta na doca na temperatura da carga. A estrutura da base (doca, pátio, câmara) fica a definir nesta demonstra"
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 14,
+      "palavrasLeitura": 0,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada). Como cotar"
+    },
+    {
+      "modo": "celular",
+      "y": 8440,
+      "palavras": 76,
+      "palavrasLeitura": 0,
+      "amostra": "Como cotar Quatro respostas e a cotação sai. Passo 4 de 4 1 Origem e destino Cidade de coleta e de entrega, com endereço se já tiver. 2 Tipo e temperatura O que"
+    },
+    {
+      "modo": "celular",
+      "y": 9284,
+      "palavras": 54,
+      "palavrasLeitura": 0,
+      "amostra": "Prazo de resposta a definir Número que a empresa real confirmaria. Nesta demonstração, nenhum prazo é inventado. Foto: Trevor Marron, Wikimedia Commons, CC BY-S"
+    },
+    {
+      "modo": "celular",
+      "y": 10128,
+      "palavras": 6,
+      "palavrasLeitura": 45,
+      "amostra": "Cotar no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 10972,
+      "palavras": 0,
+      "palavrasLeitura": 114,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 11029,
+      "palavras": 0,
+      "palavrasLeitura": 104,
+      "amostra": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "url": "http://localhost:5183/",
+  "modo": "celular",
+  "cpu": 4,
+  "segundos": 14,
+  "fpsMedio": 143,
+  "quadroP95ms": 12.1,
+  "lentos33": 0.3,
+  "travadas100": 0,
+  "alturaPx": 9258,
+  "lcpMs": 964,
+  "cls": 0,
+  "clsJanela": 0,
+  "tarefasLongas": [
+    {
+      "inicio": 56.39999999990687,
+      "duracao": 123
+    },
+    {
+      "inicio": 179.5,
+      "duracao": 531
+    },
+    {
+      "inicio": 712.1999999999534,
+      "duracao": 51
+    },
+    {
+      "inicio": 772.5999999998603,
+      "duracao": 126
+    }
+  ],
+  "metodologia": "RAF headless; cls é soma de eventos, clsJanela usa janelas. Rolagem programática; não são dados de campo.",
+  "baixadoKB": 394,
+  "jsKB": 157
+}

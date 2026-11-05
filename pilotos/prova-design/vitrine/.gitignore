@@ -1,0 +1,12 @@
+# Versionado: final/ (vídeos comprimidos, quadros) e medicoes-final/ (resumos).
+# Fica fora o que é pesado ou foi substituído pela rodada final.
+/rodada-29-10/
+/medicoes-29-10/
+/*.webm
+/*.png
+**/*-completo.json
+# 30/10: o Coral de coral-fotos-30-10 e o Lastro de ajustes-conteudo-30-10 foram substituídos
+# (ajustes-conteudo-30-10 para o Coral e ovos-30-10 para o Lastro).
+/coral-fotos-30-10/
+/ajustes-conteudo-30-10/lastro-cargas*
+/ajustes-conteudo-30-10/galeria.html

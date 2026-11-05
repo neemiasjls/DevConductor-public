@@ -1,0 +1,589 @@
+{
+  "url": "http://localhost:5183/",
+  "data": "2026-10-29T20:08:48.631Z",
+  "aprovadoTecnico": true,
+  "cenarios": [
+    {
+      "id": "360/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 2455,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 4911,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 7366,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 9821,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 402012,
+      "bytesDecodificados": 743387,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 440,
+      "problemas": []
+    },
+    {
+      "id": "360/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 1894,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 3788,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 5682,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        },
+        {
+          "y": 7576,
+          "largura": 373,
+          "viewport": 373,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 743030,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 164,
+      "problemas": []
+    },
+    {
+      "id": "390/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 2462,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 4925,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 7387,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 9849,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-normal-0.jpg",
+        "390-normal-2.jpg",
+        "390-normal-4.jpg"
+      ],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 743030,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 204,
+      "problemas": []
+    },
+    {
+      "id": "390/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1941,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 3883,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 5824,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 7765,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-reduzido-0.jpg",
+        "390-reduzido-2.jpg",
+        "390-reduzido-4.jpg"
+      ],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 743030,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 160,
+      "problemas": []
+    },
+    {
+      "id": "414/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 2463,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 4927,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 7390,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 9853,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 743030,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 216,
+      "problemas": []
+    },
+    {
+      "id": "414/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1974,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 3949,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 5923,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 7897,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 743030,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 1684,
+      "problemas": []
+    },
+    {
+      "id": "768/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 2789,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 5578,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 8366,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 11155,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 38298,
+      "bytesDecodificados": 764896,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 176,
+      "problemas": []
+    },
+    {
+      "id": "768/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1353,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 2707,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 4060,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 5413,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 764896,
+      "clsLaboratorio": 0.001065906665943287,
+      "lcpLaboratorioMs": 164,
+      "problemas": []
+    },
+    {
+      "id": "1024/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 2816,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 5632,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 8448,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 11264,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 164354,
+      "bytesDecodificados": 863778,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 188,
+      "problemas": []
+    },
+    {
+      "id": "1024/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1436,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 2872,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 4308,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 5744,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 863778,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 156,
+      "problemas": []
+    },
+    {
+      "id": "1440/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 2957,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 5914,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 8871,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 11828,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-normal-0.jpg",
+        "1440-normal-2.jpg",
+        "1440-normal-4.jpg"
+      ],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 863778,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 196,
+      "problemas": []
+    },
+    {
+      "id": "1440/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1667,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 3334,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 5001,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 6668,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-reduzido-0.jpg",
+        "1440-reduzido-2.jpg",
+        "1440-reduzido-4.jpg"
+      ],
+      "titulo": "Barbearia Seco — corte e barba na navalha em Curitiba (demonstração)",
+      "h1": [
+        "Barbearia Seco, CuritibaSeco"
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3300,
+      "bytesDecodificados": 863778,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 192,
+      "problemas": []
+    }
+  ],
+  "falhas": [],
+  "limites": "Chrome headless local, cache e máquina variáveis. Bytes são do carregamento observado, não tamanho total do build. LCP/CLS são observações de laboratório, não Core Web Vitals de usuários. Prints exigem inspeção visual; fluidez e aprovação estética não são certificadas pelo script."
+}

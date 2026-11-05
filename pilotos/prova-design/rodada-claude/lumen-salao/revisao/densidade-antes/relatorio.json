@@ -1,0 +1,283 @@
+{
+  "url": "http://localhost:5202/",
+  "data": "2026-11-05T01:38:44.660Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 100,
+    "celular": 98
+  },
+  "alertas": [
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 82,
+      "limite": 60,
+      "amostra": "01 Diagnóstico Água, óleo, proteína: o fio pede uma coisa de cada vez . Antes de qualquer produto, a gente olha o fio de perto, puxa uma mecha para ver como ela"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 64,
+      "limite": 60,
+      "amostra": "02 O fio por dentro Por que o fio tratado brilha Visto de perto, o fio tem escamas por fora, como telhas. Role para ver o que cada etapa faz. 01 Fio aberto 02 H"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 95,
+      "limite": 60,
+      "amostra": "02 O fio por dentro Por que o fio tratado brilha Visto de perto, o fio tem escamas por fora, como telhas. Role para ver o que cada etapa faz. 03 Cronograma capi"
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 66,
+      "limite": 60,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. Onde a luz bate inteira Fio fechado reflete a luz numa faixa contínua, do alto da cabeça às pontas. É "
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 100,
+      "limite": 60,
+      "amostra": "01 Hidratação Para fio áspero e sem balanço. Lavagem, máscara com vapor e finalização. a partir de R$ 120 Agendar 02 Nutrição Para pontas secas e frizz. Óleos a"
+    },
+    {
+      "modo": "computador",
+      "y": 8100,
+      "palavras": 67,
+      "limite": 60,
+      "amostra": "Agende Agende o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo What"
+    },
+    {
+      "modo": "computador",
+      "y": 8576,
+      "palavras": 62,
+      "limite": 60,
+      "amostra": "Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo WhatsApp Telefone (31) 90000-0000 (fi"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 47,
+      "limite": 45,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de for"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 98,
+      "limite": 45,
+      "amostra": "Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de fora estão deitadas e refletem a luz. Nosso trabalho é deitar essas esc"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 60,
+      "limite": 45,
+      "amostra": "R reconstrução Semana 1 H N R No salão: diagnóstico e a primeira reconstrução. Semana 2 H N H Em casa, com o que foi indicado para o seu fio. Semana 3 H H N No "
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 53,
+      "limite": 45,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa contínua, do alto da cabeça "
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 77,
+      "limite": 45,
+      "amostra": "Escolha por onde começar Valores de demonstração, “a partir de”. O diagnóstico confirma o que o seu fio pede. 01 Hidratação Para fio áspero e sem balanço. Lavag"
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 46,
+      "limite": 45,
+      "amostra": "04 Cronograma de 4 semanas Diagnóstico, duas sessões no salão e o plano para casa. a partir de R$ 420 Agendar 05 Corte Corte a seco ou molhado, tirando só o que"
+    },
+    {
+      "modo": "celular",
+      "y": 8440,
+      "palavras": 65,
+      "limite": 45,
+      "amostra": "o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo WhatsApp Telefone "
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 54,
+      "palavrasLeitura": 0,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de for"
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 82,
+      "palavrasLeitura": 0,
+      "amostra": "01 Diagnóstico Água, óleo, proteína: o fio pede uma coisa de cada vez . Antes de qualquer produto, a gente olha o fio de perto, puxa uma mecha para ver como ela"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 64,
+      "palavrasLeitura": 0,
+      "amostra": "02 O fio por dentro Por que o fio tratado brilha Visto de perto, o fio tem escamas por fora, como telhas. Role para ver o que cada etapa faz. 01 Fio aberto 02 H"
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 60,
+      "palavrasLeitura": 0,
+      "amostra": "02 O fio por dentro Por que o fio tratado brilha Visto de perto, o fio tem escamas por fora, como telhas. Role para ver o que cada etapa faz. 01 Fio aberto 02 H"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 95,
+      "palavrasLeitura": 0,
+      "amostra": "02 O fio por dentro Por que o fio tratado brilha Visto de perto, o fio tem escamas por fora, como telhas. Role para ver o que cada etapa faz. 03 Cronograma capi"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 52,
+      "palavrasLeitura": 0,
+      "amostra": "H hidratação N nutrição R reconstrução Em casa, com o que foi indicado para o seu fio. Semana 3 H H N No salão: hidratação profunda e ajuste do plano. Semana 4 "
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 45,
+      "palavrasLeitura": 0,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa contínua, do alto da cabeça "
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 66,
+      "palavrasLeitura": 0,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. Onde a luz bate inteira Fio fechado reflete a luz numa faixa contínua, do alto da cabeça às pontas. É "
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 100,
+      "palavrasLeitura": 0,
+      "amostra": "01 Hidratação Para fio áspero e sem balanço. Lavagem, máscara com vapor e finalização. a partir de R$ 120 Agendar 02 Nutrição Para pontas secas e frizz. Óleos a"
+    },
+    {
+      "modo": "computador",
+      "y": 8100,
+      "palavras": 67,
+      "palavrasLeitura": 0,
+      "amostra": "Agende Agende o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo What"
+    },
+    {
+      "modo": "computador",
+      "y": 8576,
+      "palavras": 62,
+      "palavrasLeitura": 177,
+      "amostra": "Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo WhatsApp Telefone (31) 90000-0000 (fi"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 47,
+      "palavrasLeitura": 0,
+      "amostra": "terapia capilar e corte · Belo Horizonte Brilho é cutícula fechada. Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de for"
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 98,
+      "palavrasLeitura": 0,
+      "amostra": "Terapia capilar e corte na Savassi, em Belo Horizonte. O fio brilha quando as escamas de fora estão deitadas e refletem a luz. Nosso trabalho é deitar essas esc"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 38,
+      "palavrasLeitura": 0,
+      "amostra": "Fio áspero, sem balanço, que embaraça fácil e demora a secar. Óleo nutrição Pontas secas, frizz que não assenta e cor sem vida. Proteína reconstrução Fio elásti"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 8,
+      "palavrasLeitura": 0,
+      "amostra": "01 02 03 04 05 Nutrição . Agendar diagnóstico"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "amostra": "03 Cronograma capilar Quatro semanas, uma etapa por lavagem O cronograma alterna as etapas conforme o fio responde. Este é um exemplo para cabelo com química; o"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 60,
+      "palavrasLeitura": 0,
+      "amostra": "R reconstrução Semana 1 H N R No salão: diagnóstico e a primeira reconstrução. Semana 2 H N H Em casa, com o que foi indicado para o seu fio. Semana 3 H H N No "
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 24,
+      "palavrasLeitura": 0,
+      "amostra": "Exemplo ilustrativo, não é receita. Foto ilustrativa de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Agendar diagnóstico"
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 53,
+      "palavrasLeitura": 0,
+      "amostra": "Foto ilustrativa de banco aberto; não é cliente do salão. 04 Resultado Onde a luz bate inteira Fio fechado reflete a luz numa faixa contínua, do alto da cabeça "
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 77,
+      "palavrasLeitura": 0,
+      "amostra": "Escolha por onde começar Valores de demonstração, “a partir de”. O diagnóstico confirma o que o seu fio pede. 01 Hidratação Para fio áspero e sem balanço. Lavag"
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 46,
+      "palavrasLeitura": 0,
+      "amostra": "04 Cronograma de 4 semanas Diagnóstico, duas sessões no salão e o plano para casa. a partir de R$ 420 Agendar 05 Corte Corte a seco ou molhado, tirando só o que"
+    },
+    {
+      "modo": "celular",
+      "y": 8440,
+      "palavras": 65,
+      "palavrasLeitura": 2,
+      "amostra": "o seu diagnóstico. Conversa de uns 40 minutos com o fio na mão. Você sai sabendo o que ele pede e quanto custa, sem compromisso. Agendar pelo WhatsApp Telefone "
+    },
+    {
+      "modo": "celular",
+      "y": 9284,
+      "palavras": 0,
+      "palavrasLeitura": 177,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 9424,
+      "palavras": 0,
+      "palavrasLeitura": 166,
+      "amostra": ""
+    }
+  ]
+}

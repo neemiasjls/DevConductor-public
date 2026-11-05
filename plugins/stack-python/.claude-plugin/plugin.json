@@ -1,0 +1,9 @@
+{
+  "name": "stack-python",
+  "version": "0.1.2",
+  "description": "Especialistas em Python: código moderno, FastAPI, testes e estrutura de projeto.",
+  "author": {
+    "name": "DevConductor"
+  },
+  "license": "MIT"
+}

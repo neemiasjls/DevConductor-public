@@ -1,0 +1,654 @@
+{
+  "url": "http://127.0.0.1:5201/",
+  "data": "2026-10-30T13:57:14.599Z",
+  "aprovadoTecnico": false,
+  "cenarios": [
+    {
+      "id": "360/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 2811,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 5622,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 8433,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 11244,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 339100,
+      "bytesDecodificados": 687618,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 2072,
+      "problemas": [
+        "Rolagem lateral em y=0: 362/360",
+        "Rolagem lateral em y=2811: 362/360",
+        "Rolagem lateral em y=5622: 362/360",
+        "Rolagem lateral em y=8433: 362/360",
+        "Rolagem lateral em y=11244: 362/360"
+      ]
+    },
+    {
+      "id": "360/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 1964,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 3927,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 5891,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        },
+        {
+          "y": 7854,
+          "largura": 362,
+          "viewport": 362,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2400,
+      "bytesDecodificados": 639606,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 2020,
+      "problemas": [
+        "Rolagem lateral em y=0: 362/360",
+        "Rolagem lateral em y=1964: 362/360",
+        "Rolagem lateral em y=3927: 362/360",
+        "Rolagem lateral em y=5891: 362/360",
+        "Rolagem lateral em y=7854: 362/360"
+      ]
+    },
+    {
+      "id": "390/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 2768,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 5537,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 8305,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 11073,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-normal-0.jpg",
+        "390-normal-2.jpg",
+        "390-normal-4.jpg"
+      ],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2700,
+      "bytesDecodificados": 687618,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 1804,
+      "problemas": []
+    },
+    {
+      "id": "390/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 1921,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 3841,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 5762,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        },
+        {
+          "y": 7682,
+          "largura": 391,
+          "viewport": 391,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-reduzido-0.jpg",
+        "390-reduzido-2.jpg",
+        "390-reduzido-4.jpg"
+      ],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2400,
+      "bytesDecodificados": 639606,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 2012,
+      "problemas": []
+    },
+    {
+      "id": "414/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 2740,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 5480,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 8219,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 10959,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2700,
+      "bytesDecodificados": 687618,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 1760,
+      "problemas": []
+    },
+    {
+      "id": "414/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1878,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 3755,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 5633,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 7510,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2400,
+      "bytesDecodificados": 639606,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 1980,
+      "problemas": []
+    },
+    {
+      "id": "768/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 2950,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 5900,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 8849,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 11799,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 176502,
+      "bytesDecodificados": 821426,
+      "clsLaboratorio": 0.012956346450617284,
+      "lcpLaboratorioMs": 1900,
+      "problemas": []
+    },
+    {
+      "id": "768/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1018,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1869,
+          "largura": 1018,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 3737,
+          "largura": 1018,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 5606,
+          "largura": 1018,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 7474,
+          "largura": 1018,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2400,
+      "bytesDecodificados": 722822,
+      "clsLaboratorio": 0.01551551568930041,
+      "lcpLaboratorioMs": 2084,
+      "problemas": [
+        "Rolagem lateral em y=0: 1018/768",
+        "Rolagem lateral em y=1869: 1018/768",
+        "Rolagem lateral em y=3737: 1018/768",
+        "Rolagem lateral em y=5606: 1018/768",
+        "Rolagem lateral em y=7474: 1018/768"
+      ]
+    },
+    {
+      "id": "1024/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 2614,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 5228,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 7841,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 10455,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2400,
+      "bytesDecodificados": 755962,
+      "clsLaboratorio": 0.04178435968028174,
+      "lcpLaboratorioMs": 732,
+      "problemas": []
+    },
+    {
+      "id": "1024/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1033,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1517,
+          "largura": 1033,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 3034,
+          "largura": 1033,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 4551,
+          "largura": 1033,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 6068,
+          "largura": 1033,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2400,
+      "bytesDecodificados": 755962,
+      "clsLaboratorio": 0.045970298647880554,
+      "lcpLaboratorioMs": 208,
+      "problemas": [
+        "Rolagem lateral em y=0: 1033/1024",
+        "Rolagem lateral em y=1517: 1033/1024",
+        "Rolagem lateral em y=3034: 1033/1024",
+        "Rolagem lateral em y=4551: 1033/1024",
+        "Rolagem lateral em y=6068: 1033/1024"
+      ]
+    },
+    {
+      "id": "1440/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 2621,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 5241,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 7862,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 10482,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-normal-0.jpg",
+        "1440-normal-2.jpg",
+        "1440-normal-4.jpg"
+      ],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 110834,
+      "bytesDecodificados": 833036,
+      "clsLaboratorio": 0.03410683253828554,
+      "lcpLaboratorioMs": 2228,
+      "problemas": []
+    },
+    {
+      "id": "1440/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1513,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 3026,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 4539,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 6052,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-reduzido-0.jpg",
+        "1440-reduzido-2.jpg",
+        "1440-reduzido-4.jpg"
+      ],
+      "titulo": "Austral Frio · Transporte refrigerado em Chapecó/SC (demonstração)",
+      "h1": [
+        "Quem contrata friocompra temperatura,não quilômetro."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 2400,
+      "bytesDecodificados": 833036,
+      "clsLaboratorio": 0.03746527593583891,
+      "lcpLaboratorioMs": 188,
+      "problemas": []
+    }
+  ],
+  "falhas": [
+    {
+      "id": "360/normal",
+      "problemas": [
+        "Rolagem lateral em y=0: 362/360",
+        "Rolagem lateral em y=2811: 362/360",
+        "Rolagem lateral em y=5622: 362/360",
+        "Rolagem lateral em y=8433: 362/360",
+        "Rolagem lateral em y=11244: 362/360"
+      ]
+    },
+    {
+      "id": "360/reduzido",
+      "problemas": [
+        "Rolagem lateral em y=0: 362/360",
+        "Rolagem lateral em y=1964: 362/360",
+        "Rolagem lateral em y=3927: 362/360",
+        "Rolagem lateral em y=5891: 362/360",
+        "Rolagem lateral em y=7854: 362/360"
+      ]
+    },
+    {
+      "id": "768/reduzido",
+      "problemas": [
+        "Rolagem lateral em y=0: 1018/768",
+        "Rolagem lateral em y=1869: 1018/768",
+        "Rolagem lateral em y=3737: 1018/768",
+        "Rolagem lateral em y=5606: 1018/768",
+        "Rolagem lateral em y=7474: 1018/768"
+      ]
+    },
+    {
+      "id": "1024/reduzido",
+      "problemas": [
+        "Rolagem lateral em y=0: 1033/1024",
+        "Rolagem lateral em y=1517: 1033/1024",
+        "Rolagem lateral em y=3034: 1033/1024",
+        "Rolagem lateral em y=4551: 1033/1024",
+        "Rolagem lateral em y=6068: 1033/1024"
+      ]
+    }
+  ],
+  "limites": "Chrome headless local, cache e máquina variáveis. Bytes são do carregamento observado, não tamanho total do build. LCP/CLS são observações de laboratório, não Core Web Vitals de usuários. Prints exigem inspeção visual; fluidez e aprovação estética não são certificadas pelo script."
+}

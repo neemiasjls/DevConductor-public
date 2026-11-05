@@ -1,0 +1,440 @@
+{
+  "data": "2026-10-30T15:11:11.548Z",
+  "cenarios": [
+    {
+      "site": "lastro",
+      "largura": 390,
+      "foco": [
+        {
+          "texto": "Cotar carga fechada",
+          "x": 21,
+          "y": 773,
+          "direita": 169.640625,
+          "baixo": 795.5,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Cotar carga fracionada",
+          "x": 48.890625,
+          "y": 773,
+          "direita": 218.4375,
+          "baixo": 795.5,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Cotar frete de retorno",
+          "x": 48.28125,
+          "y": 773,
+          "direita": 208.65625,
+          "baixo": 795.5,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Cotar armazenagem",
+          "x": 75.171875,
+          "y": 772.90625,
+          "direita": 222.203125,
+          "baixo": 795.40625,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Cotar frete de retorno",
+          "x": 48.28125,
+          "y": 773,
+          "direita": 208.65625,
+          "baixo": 795.5,
+          "largura": 390,
+          "altura": 844
+        },
+        {
+          "texto": "Cotar carga fracionada",
+          "x": 48.890625,
+          "y": 773,
+          "direita": 218.4375,
+          "baixo": 795.5,
+          "largura": 390,
+          "altura": 844
+        }
+      ],
+      "deslocamentos": [
+        {
+          "tempo": 369.19999999925494,
+          "valor": 0.0007241494749452721,
+          "entrada": true,
+          "fontes": [
+            {
+              "elemento": "A#.fixed right-5 top-3 z-40 inline-flex h-10 items-center rounded-full bg-sinal px-4 text-[14",
+              "antes": {
+                "x": 251.515625,
+                "y": 44,
+                "width": 117.84375,
+                "height": 40,
+                "top": 44,
+                "right": 369.359375,
+                "bottom": 84,
+                "left": 251.515625
+              },
+              "depois": {
+                "x": 244.515625,
+                "y": 44,
+                "width": 125.484375,
+                "height": 40,
+                "top": 44,
+                "right": 370,
+                "bottom": 84,
+                "left": 244.515625
+              }
+            },
+            {
+              "elemento": "SPAN#.",
+              "antes": {
+                "x": 110.15625,
+                "y": 7,
+                "width": 185.78125,
+                "height": 18,
+                "top": 7,
+                "right": 295.9375,
+                "bottom": 25,
+                "left": 110.15625
+              },
+              "depois": {
+                "x": 104.1875,
+                "y": 7,
+                "width": 197.609375,
+                "height": 18,
+                "top": 7,
+                "right": 301.796875,
+                "bottom": 25,
+                "left": 104.1875
+              }
+            },
+            {
+              "elemento": "A#.inline-flex min-h-11 items-center",
+              "antes": {
+                "x": 235.109375,
+                "y": 97,
+                "width": 47,
+                "height": 44,
+                "top": 97,
+                "right": 282.109375,
+                "bottom": 141,
+                "left": 235.109375
+              },
+              "depois": {
+                "x": 239.640625,
+                "y": 97,
+                "width": 50,
+                "height": 44,
+                "top": 97,
+                "right": 289.640625,
+                "bottom": 141,
+                "left": 239.640625
+              }
+            },
+            {
+              "elemento": "A#.inline-flex min-h-11 items-center",
+              "antes": {
+                "x": 164.359375,
+                "y": 97,
+                "width": 48,
+                "height": 44,
+                "top": 97,
+                "right": 212.359375,
+                "bottom": 141,
+                "left": 164.359375
+              },
+              "depois": {
+                "x": 161.234375,
+                "y": 97,
+                "width": 54.40625,
+                "height": 44,
+                "top": 97,
+                "right": 215.640625,
+                "bottom": 141,
+                "left": 161.234375
+              }
+            },
+            {
+              "elemento": "undefined#.",
+              "antes": {
+                "x": 20,
+                "y": 52.875,
+                "width": 106.484375,
+                "height": 14,
+                "top": 52.875,
+                "right": 126.484375,
+                "bottom": 66.875,
+                "left": 20
+              },
+              "depois": {
+                "x": 20,
+                "y": 51.875,
+                "width": 125.921875,
+                "height": 14,
+                "top": 51.875,
+                "right": 145.921875,
+                "bottom": 65.875,
+                "left": 20
+              }
+            }
+          ]
+        },
+        {
+          "tempo": 2509.7999999988824,
+          "valor": 0.0001601664210320799,
+          "entrada": true,
+          "fontes": [
+            {
+              "elemento": "undefined#.",
+              "antes": {
+                "x": 15,
+                "y": 26,
+                "width": 24,
+                "height": 19,
+                "top": 26,
+                "right": 39,
+                "bottom": 45,
+                "left": 15
+              },
+              "depois": {
+                "x": 11,
+                "y": 14,
+                "width": 180.03125,
+                "height": 19,
+                "top": 14,
+                "right": 191.03125,
+                "bottom": 33,
+                "left": 11
+              }
+            }
+          ]
+        }
+      ],
+      "clsJanela": 0,
+      "somaDeslocamentos": 0,
+      "aprovado": true
+    },
+    {
+      "site": "lastro",
+      "largura": 1440,
+      "foco": [
+        {
+          "texto": "Cotar carga fechada",
+          "x": 41,
+          "y": 829,
+          "direita": 189.640625,
+          "baixo": 851.5,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Cotar carga fracionada",
+          "x": 443.59375,
+          "y": 829,
+          "direita": 613.140625,
+          "baixo": 851.5,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Cotar frete de retorno",
+          "x": 444.1875,
+          "y": 829,
+          "direita": 604.5625,
+          "baixo": 851.5,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Cotar armazenagem",
+          "x": 847.78125,
+          "y": 829,
+          "direita": 994.8125,
+          "baixo": 851.5,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Cotar frete de retorno",
+          "x": 444.1875,
+          "y": 829,
+          "direita": 604.5625,
+          "baixo": 851.5,
+          "largura": 1440,
+          "altura": 900
+        },
+        {
+          "texto": "Cotar carga fracionada",
+          "x": 443.59375,
+          "y": 829,
+          "direita": 613.140625,
+          "baixo": 851.5,
+          "largura": 1440,
+          "altura": 900
+        }
+      ],
+      "deslocamentos": [
+        {
+          "tempo": 302.40000000037253,
+          "valor": 0.0008298292623135289,
+          "entrada": false,
+          "fontes": [
+            {
+              "elemento": "undefined#.",
+              "antes": {
+                "x": 40,
+                "y": 838.3262329101562,
+                "width": 499.796875,
+                "height": 18.34564208984375,
+                "top": 838.3262329101562,
+                "right": 539.796875,
+                "bottom": 856.671875,
+                "left": 40
+              },
+              "depois": {
+                "x": 40,
+                "y": 831.3262329101562,
+                "width": 611.640625,
+                "height": 25.34564208984375,
+                "top": 831.3262329101562,
+                "right": 651.640625,
+                "bottom": 856.671875,
+                "left": 40
+              }
+            },
+            {
+              "elemento": "undefined#.",
+              "antes": {
+                "x": 40,
+                "y": 721.7481079101562,
+                "width": 499.796875,
+                "height": 18.34564208984375,
+                "top": 721.7481079101562,
+                "right": 539.796875,
+                "bottom": 740.09375,
+                "left": 40
+              },
+              "depois": {
+                "x": 40,
+                "y": 714.7481079101562,
+                "width": 611.640625,
+                "height": 25.34564208984375,
+                "top": 714.7481079101562,
+                "right": 651.640625,
+                "bottom": 740.09375,
+                "left": 40
+              }
+            },
+            {
+              "elemento": "undefined#.",
+              "antes": {
+                "x": 40,
+                "y": 605.1699829101562,
+                "width": 499.796875,
+                "height": 18.34564208984375,
+                "top": 605.1699829101562,
+                "right": 539.796875,
+                "bottom": 623.515625,
+                "left": 40
+              },
+              "depois": {
+                "x": 40,
+                "y": 598.1699829101562,
+                "width": 611.640625,
+                "height": 25.34564208984375,
+                "top": 598.1699829101562,
+                "right": 651.640625,
+                "bottom": 623.515625,
+                "left": 40
+              }
+            },
+            {
+              "elemento": "SPAN#.",
+              "antes": {
+                "x": 458.3125,
+                "y": 7,
+                "width": 539.984375,
+                "height": 18,
+                "top": 7,
+                "right": 998.296875,
+                "bottom": 25,
+                "left": 458.3125
+              },
+              "depois": {
+                "x": 438.234375,
+                "y": 7,
+                "width": 579.53125,
+                "height": 18,
+                "top": 7,
+                "right": 1017.765625,
+                "bottom": 25,
+                "left": 438.234375
+              }
+            },
+            {
+              "elemento": "NAV#.pointer-events-auto mr-[150px] hidden gap-8 text-[14px] md:flex",
+              "antes": {
+                "x": 973.359375,
+                "y": 61.5,
+                "width": 276.640625,
+                "height": 21,
+                "top": 61.5,
+                "right": 1250,
+                "bottom": 82.5,
+                "left": 973.359375
+              },
+              "depois": {
+                "x": 951.765625,
+                "y": 61.5,
+                "width": 298.234375,
+                "height": 21,
+                "top": 61.5,
+                "right": 1250,
+                "bottom": 82.5,
+                "left": 951.765625
+              }
+            }
+          ]
+        },
+        {
+          "tempo": 2453.699999999255,
+          "valor": 0.000023842592592592594,
+          "entrada": true,
+          "fontes": [
+            {
+              "elemento": "undefined#.",
+              "antes": {
+                "x": 15,
+                "y": 26,
+                "width": 24,
+                "height": 19,
+                "top": 26,
+                "right": 39,
+                "bottom": 45,
+                "left": 15
+              },
+              "depois": {
+                "x": 11,
+                "y": 14,
+                "width": 180.03125,
+                "height": 19,
+                "top": 14,
+                "right": 191.03125,
+                "bottom": 33,
+                "left": 11
+              }
+            }
+          ]
+        }
+      ],
+      "clsJanela": 0.0008298292623135289,
+      "somaDeslocamentos": 0.0008298292623135289,
+      "aprovado": true
+    }
+  ],
+  "aprovado": true
+}

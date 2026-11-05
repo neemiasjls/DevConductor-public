@@ -1,0 +1,181 @@
+{
+  "aprovado": true,
+  "erros": [],
+  "arquivos": [
+    {
+      "arquivo": "public/modelos/cadeira-2k.glb",
+      "bytes": 938948,
+      "sha256": "3c2d9bbbd0d9b1c4ed45179f01e427437ffbac61758f331bf5102424c916af07",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira.glb",
+      "bytes": 359308,
+      "sha256": "6968f238b4b6d6a58dca83473a017ec80b0ce69f95662b6eea91f90c4e326a2a",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-poster.webp",
+      "bytes": 137758,
+      "sha256": "90c47e45f89fee865a57497aa58baa11fd6d8ad4081e450b65f0f23160699f5b",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-abertura.webp",
+      "bytes": 141296,
+      "sha256": "b4ccb31bbc09b90cbaab52ed508067020fb848add7186dd93a6213f8b4f91371",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-abertura-celular.webp",
+      "bytes": 73564,
+      "sha256": "b53e1f3e3df95ea6fc8ec6bcfc27d4b74a0ca7d448b908337862a31cbecf64a2",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/og.jpg",
+      "bytes": 94296,
+      "sha256": "eec8a19458dbacfbed1d97f10649aaface46c34f62c0a1858f44fd58791eb94c",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/ambientes/oficina-512.hdr",
+      "bytes": 524337,
+      "sha256": "27c68d50a0a0e0ce098a40d3729981a0919937c33fad9711898c4b0a161decaf",
+      "autor": "Poly Haven",
+      "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/ambientes/oficina-256.hdr",
+      "bytes": 131121,
+      "sha256": "3e832ebe078f9d6829f0c6824bdff6ae51748bfbeedbf0e38b39085152279447",
+      "autor": "Poly Haven",
+      "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/degrade-480.webp",
+      "bytes": 25860,
+      "sha256": "128b91edd8869774aeba293b4c74f56a9a32e4160454f16c25843746d215c268",
+      "autor": "Truth678",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fade_Hair_Cut.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/degrade-750.webp",
+      "bytes": 48364,
+      "sha256": "ca39536d334311f36b12fef25a44cc2fb8d48fac3d1a1e9fa2870580fd8354ca",
+      "autor": "Truth678",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fade_Hair_Cut.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/tesoura-480.webp",
+      "bytes": 16780,
+      "sha256": "e9bd93d3092b71da6c94cd8c900fd92ea47424efdb304c7abf0b43a8e4034b16",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/tesoura-960.webp",
+      "bytes": 47482,
+      "sha256": "bc7a3ee9d7807f2d8356eae632204c53a34975eccdf46f9fc04ebd8ebe08bcb3",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/tesoura-1600.webp",
+      "bytes": 104818,
+      "sha256": "0e9f052d89681ccae8954dec1644c88f1dd72ac2ad220de8659a097243769fb9",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/maquina-480.webp",
+      "bytes": 15026,
+      "sha256": "3011f0bd8b87963933d88d2c5cd3854ac04e46f380d267f7002ea36c2ce6dcf3",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_18.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/maquina-883.webp",
+      "bytes": 42934,
+      "sha256": "10d4b14a1d0962218818e176c5a6158ffc48850f342d794d394b70c451391cbc",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_18.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/navalha-480.webp",
+      "bytes": 13262,
+      "sha256": "20d6b3c5476500250ec2fbff68eb89fceb71346eb7bdfa64a38d61708159cfbb",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_11.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/navalha-960.webp",
+      "bytes": 39320,
+      "sha256": "c45f8876094b6b32836fc3ccf6ba9952bfa5d3720807477a52bc91e5186593ca",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_11.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/navalha-1037.webp",
+      "bytes": 46372,
+      "sha256": "834ff114d263e798c9224b3e4b78541604686b60d32d70d48908602816ee37d9",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_from_Iran_11.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+      "autor": "Google (Draco), via three.js",
+      "origem": "https://github.com/google/draco",
+      "licenca": "Apache-2.0"
+    },
+    {
+      "arquivo": "public/draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+      "autor": "Google (Draco), via three.js",
+      "origem": "https://github.com/google/draco",
+      "licenca": "Apache-2.0"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "abertura-cadeira",
+      "desktop": 1855457,
+      "celular": 814869,
+      "classe": "pesada"
+    },
+    {
+      "id": "degrade",
+      "desktop": 48364,
+      "celular": 25860,
+      "classe": "leve"
+    }
+  ],
+  "observacao": "Valida declarações e integridade; direitos de imagem, termos da fonte e realismo exigem revisão humana."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "stack-typescript",
+  "version": "0.1.3",
+  "description": "Especialistas em TypeScript e JavaScript: tipos, Node.js, React/Next e testes.",
+  "author": {
+    "name": "DevConductor"
+  },
+  "license": "MIT"
+}

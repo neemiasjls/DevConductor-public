@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-coral: oklch(0.68 0.19 32);
+  /* Coral para TEXTO sobre papel: o coral dos blocos dá 2,9:1. Grande (≥24px) 3,4:1; pequeno 5:1. */
+  --color-coral-grande: oklch(0.64 0.19 32);
+  --color-coral-texto: oklch(0.54 0.18 32);
+  --color-cobalto: oklch(0.58 0.17 262);
+  --color-tinta: oklch(0.18 0.02 32);
+  --color-papel: oklch(0.97 0.012 70);
+  --font-titulo: 'Big Shoulders Display Variable', 'Arial Narrow', sans-serif;
+  --font-texto: 'Golos Text Variable', system-ui, sans-serif;
+  --ease-entra: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-sai: cubic-bezier(0.5, 0, 0.75, 0);
+}
+
+:root {
+  --raio-foto: 16px;
+  --margem: 5vw;
+  color-scheme: light;
+}
+@media (min-width: 768px) {
+  :root { --raio-foto: 26px; --margem: 4.5vw; }
+}
+
+html { scroll-behavior: auto; overflow-x: clip; }
+body {
+  margin: 0;
+  overflow-x: clip;
+  background: var(--color-papel);
+  color: var(--color-tinta);
+  font-family: var(--font-texto);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-cobalto); color: var(--color-papel); }
+
+.titulo { font-family: var(--font-titulo); font-weight: 880; line-height: 0.86; letter-spacing: -0.005em; text-transform: uppercase; }
+
+/* Foto que anima: o raio fica no contêiner (lp-construcao), isolado para o Safari não vazar a quina. */
+.moldura { border-radius: var(--raio-foto); overflow: hidden; isolation: isolate; }
+.arco { border-radius: 999px 999px var(--raio-foto) var(--raio-foto); overflow: hidden; isolation: isolate; }
+
+/* Botões em pílula */
+.pilula {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5em;
+  border-radius: 999px; padding: 0.95em 1.6em; font-weight: 600; line-height: 1;
+  transition: transform 0.2s var(--ease-entra), background-color 0.2s, color 0.2s;
+}
+.pilula:hover { transform: translateY(-2px); }
+.pilula:active { transform: scale(0.97); }
+:focus-visible { outline: 3px solid var(--color-cobalto); outline-offset: 3px; }
+.sobre-escuro :focus-visible, .sobre-cobalto :focus-visible { outline-color: var(--color-papel); }
+
+/* Cenas presas: palco "grudado" (sticky) numa seção alta. A altura fica reservada desde o começo,
+   então nada empurra a página quando o player/Three chega depois. */
+.cena { position: relative; height: calc((1 + var(--telas-c, 2)) * 100svh); }
+@media (min-width: 768px) { .cena { height: calc((1 + var(--telas-d, 2)) * 100svh); } }
+.cena > .palco { position: sticky; top: 0; height: 100svh; overflow: hidden; }
+
+/* Peças só de movimento: invisíveis no CSS base, o GSAP liga quando o movimento é permitido. */
+[data-so-movimento] { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .cena { height: auto; }
+  .cena > .palco { position: relative; height: auto; overflow: visible; }
+  [data-so-movimento] { display: none !important; }
+  .pilula, .pilula:hover, .pilula:active { transition: none; transform: none; }
+}

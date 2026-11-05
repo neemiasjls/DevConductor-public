@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Referências</title>
+<style>
+:root{color-scheme:light dark;--fundo:#f4f1ea;--cartao:#fff;--texto:#1d1d1b;--suave:#6b6b66;--destaque:#c2410c}
+@media (prefers-color-scheme:dark){:root{--fundo:#171716;--cartao:#232321;--texto:#f1efe9;--suave:#a3a29c;--destaque:#fb923c}}
+body{margin:0;font:15px/1.4 system-ui,sans-serif;background:var(--fundo);color:var(--texto)}
+header{padding:20px 16px 4px;max-width:1600px;margin:auto} h1{font-size:20px;margin:0 0 4px} header p{margin:0;color:var(--suave)}
+main{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(min(420px,100%),1fr));padding:16px 16px 96px;max-width:1600px;margin:auto}
+.cartao{background:var(--cartao);border-radius:12px;padding:10px;display:flex;flex-direction:column;gap:8px;outline:3px solid transparent}
+.cartao:has(input:checked){outline-color:var(--destaque)}
+video{width:100%;aspect-ratio:1440/900;object-fit:cover;object-position:top;border-radius:8px;background:#000}
+.cartao.celular video{aspect-ratio:390/844}
+label{display:flex;gap:8px;align-items:center;cursor:pointer;word-break:break-all}
+input{width:20px;height:20px;accent-color:var(--destaque);flex:none}
+a{color:var(--suave);font-size:13px}
+footer{position:fixed;left:0;right:0;bottom:0;padding:12px 16px;background:var(--cartao);display:flex;gap:12px;align-items:center;justify-content:center;box-shadow:0 -2px 12px #0003}
+button{font:inherit;padding:10px 16px;border-radius:8px;border:0;background:var(--destaque);color:#fff;cursor:pointer}
+</style></head><body>
+<header><h1>Referências (8)</h1><p>Cada vídeo roda quando aparece na tela. Marque os que gostar e copie para o chat.</p></header>
+<main>
+<article class="cartao">
+  <label><input type="checkbox" value="1"> <b>1</b> claro-organico</label>
+  <video src="claro-organico.webm" poster="claro-organico-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/claro-organico.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+<article class="cartao celular">
+  <label><input type="checkbox" value="2"> <b>2</b> claro-organico-celular</label>
+  <video src="claro-organico-celular.webm" poster="claro-organico-celular-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/claro-organico.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+<article class="cartao">
+  <label><input type="checkbox" value="3"> <b>3</b> editorial-serio</label>
+  <video src="editorial-serio.webm" poster="editorial-serio-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/editorial-serio.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+<article class="cartao celular">
+  <label><input type="checkbox" value="4"> <b>4</b> editorial-serio-celular</label>
+  <video src="editorial-serio-celular.webm" poster="editorial-serio-celular-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/editorial-serio.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+<article class="cartao">
+  <label><input type="checkbox" value="5"> <b>5</b> luxo-editorial</label>
+  <video src="luxo-editorial.webm" poster="luxo-editorial-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/luxo-editorial.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+<article class="cartao celular">
+  <label><input type="checkbox" value="6"> <b>6</b> luxo-editorial-celular</label>
+  <video src="luxo-editorial-celular.webm" poster="luxo-editorial-celular-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/luxo-editorial.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+<article class="cartao">
+  <label><input type="checkbox" value="7"> <b>7</b> tecnologico-escuro</label>
+  <video src="tecnologico-escuro.webm" poster="tecnologico-escuro-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/tecnologico-escuro.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+<article class="cartao celular">
+  <label><input type="checkbox" value="8"> <b>8</b> tecnologico-escuro-celular</label>
+  <video src="tecnologico-escuro-celular.webm" poster="tecnologico-escuro-celular-040.png" muted loop playsinline controls preload="metadata"></video>
+  <a href="http://127.0.0.1:5192/site/tecnologico-escuro.html" target="_blank" rel="noopener">abrir o site ↗</a>
+</article>
+</main>
+<footer><span id="escolhidos">Nenhum marcado</span><button id="copiar" type="button">Copiar escolhidos</button></footer>
+<script>
+const caixas = [...document.querySelectorAll('input')]
+const marcados = () => caixas.filter((c) => c.checked).map((c) => c.value)
+const texto = () => marcados().length ? 'Gostei das referências ' + marcados().join(', ') : ''
+const chave = 'galeria:' + location.pathname
+try { const salvos = JSON.parse(localStorage.getItem(chave) || '[]'); caixas.forEach((c) => { c.checked = salvos.includes(c.value) }) } catch {}
+const atualizar = () => {
+  document.getElementById('escolhidos').textContent = texto() || 'Nenhum marcado'
+  try { localStorage.setItem(chave, JSON.stringify(marcados())) } catch {}
+}
+caixas.forEach((c) => c.addEventListener('change', atualizar)); atualizar()
+document.getElementById('copiar').onclick = async () => {
+  const t = texto(); if (!t) return
+  try { await navigator.clipboard.writeText(t); document.getElementById('copiar').textContent = 'Copiado!' } catch { prompt('Copie:', t) }
+}
+const reduzido = matchMedia('(prefers-reduced-motion: reduce)')
+const olho = new IntersectionObserver((itens) => itens.forEach((i) => i.isIntersecting && !reduzido.matches ? i.target.play().catch(() => {}) : i.target.pause()), { threshold: 0.3 })
+reduzido.addEventListener('change', () => { if (reduzido.matches) document.querySelectorAll('video').forEach((v) => v.pause()) })
+document.querySelectorAll('video').forEach((v) => olho.observe(v))
+</script>
+</body></html>

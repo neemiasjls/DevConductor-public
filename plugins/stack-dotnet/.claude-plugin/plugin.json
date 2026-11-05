@@ -1,0 +1,9 @@
+{
+  "name": "stack-dotnet",
+  "version": "0.1.2",
+  "description": "Especialistas em C#/.NET: arquitetura ASP.NET Core, EF Core, Dapper e código C# moderno.",
+  "author": {
+    "name": "DevConductor"
+  },
+  "license": "MIT"
+}

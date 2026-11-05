@@ -1,0 +1,894 @@
+{
+  "data": "2026-11-04T02:43:34.189Z",
+  "telas": [
+    {
+      "tela": "320x568",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 48,
+            "w": 243.984375,
+            "h": 342.890625
+          },
+          "reguaDireita": 367.984375,
+          "larguraTela": 369,
+          "proporcao": 0.7115516062884484,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 1,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": false
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 48,
+            "w": 243.984375,
+            "h": 342.890625
+          },
+          "reguaDireita": 367.984375,
+          "larguraTela": 369,
+          "proporcao": 0.7115516062884484,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 1,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": false
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 48,
+            "w": 243.984375,
+            "h": 342.890625
+          },
+          "reguaDireita": 367.984375,
+          "larguraTela": 369,
+          "proporcao": 0.7115516062884484,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 1,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": false
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 48,
+            "w": 243.984375,
+            "h": 342.890625
+          },
+          "reguaDireita": 367.984375,
+          "larguraTela": 369,
+          "proporcao": 0.7115516062884484,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 1,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": false
+        }
+      ],
+      "ok": false
+    },
+    {
+      "tela": "360x640",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 67.6875,
+            "w": 176.625,
+            "h": 248.21875
+          },
+          "reguaDireita": 320.3125,
+          "larguraTela": 360,
+          "proporcao": 0.7115699357925217,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 67.6875,
+            "w": 176.625,
+            "h": 248.21875
+          },
+          "reguaDireita": 320.3125,
+          "larguraTela": 360,
+          "proporcao": 0.7115699357925217,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 67.6875,
+            "w": 176.625,
+            "h": 248.21875
+          },
+          "reguaDireita": 320.3125,
+          "larguraTela": 360,
+          "proporcao": 0.7115699357925217,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 67.6875,
+            "w": 176.625,
+            "h": 248.21875
+          },
+          "reguaDireita": 320.3125,
+          "larguraTela": 360,
+          "proporcao": 0.7115699357925217,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "360x844",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 48,
+            "w": 215.984375,
+            "h": 303.53125
+          },
+          "reguaDireita": 339.984375,
+          "larguraTela": 360,
+          "proporcao": 0.7115721198393905,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 48,
+            "w": 215.984375,
+            "h": 303.53125
+          },
+          "reguaDireita": 339.984375,
+          "larguraTela": 360,
+          "proporcao": 0.7115721198393905,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 48,
+            "w": 215.984375,
+            "h": 303.53125
+          },
+          "reguaDireita": 339.984375,
+          "larguraTela": 360,
+          "proporcao": 0.7115721198393905,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 48,
+            "w": 215.984375,
+            "h": 303.53125
+          },
+          "reguaDireita": 339.984375,
+          "larguraTela": 360,
+          "proporcao": 0.7115721198393905,
+          "arquivo": 0.7128712871287128,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "390x844",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 48,
+            "w": 245.984375,
+            "h": 345.703125
+          },
+          "reguaDireita": 369.984375,
+          "larguraTela": 390,
+          "proporcao": 0.7115480225988701,
+          "arquivo": 0.7082066869300911,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 48,
+            "w": 245.984375,
+            "h": 345.703125
+          },
+          "reguaDireita": 369.984375,
+          "larguraTela": 390,
+          "proporcao": 0.7115480225988701,
+          "arquivo": 0.7082066869300911,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 48,
+            "w": 245.984375,
+            "h": 345.703125
+          },
+          "reguaDireita": 369.984375,
+          "larguraTela": 390,
+          "proporcao": 0.7115480225988701,
+          "arquivo": 0.7082066869300911,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 48,
+            "w": 245.984375,
+            "h": 345.703125
+          },
+          "reguaDireita": 369.984375,
+          "larguraTela": 390,
+          "proporcao": 0.7115480225988701,
+          "arquivo": 0.7082066869300911,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "430x932",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 48,
+            "w": 285.984375,
+            "h": 401.90625
+          },
+          "reguaDireita": 409.984375,
+          "larguraTela": 430,
+          "proporcao": 0.7115698623746209,
+          "arquivo": 0.7099447513812155,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 48,
+            "w": 285.984375,
+            "h": 401.90625
+          },
+          "reguaDireita": 409.984375,
+          "larguraTela": 430,
+          "proporcao": 0.7115698623746209,
+          "arquivo": 0.7099447513812155,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 48,
+            "w": 285.984375,
+            "h": 401.90625
+          },
+          "reguaDireita": 409.984375,
+          "larguraTela": 430,
+          "proporcao": 0.7115698623746209,
+          "arquivo": 0.7099447513812155,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 48,
+            "w": 285.984375,
+            "h": 401.90625
+          },
+          "reguaDireita": 409.984375,
+          "larguraTela": 430,
+          "proporcao": 0.7115698623746209,
+          "arquivo": 0.7099447513812155,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "844x390",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 372.03125,
+            "w": 277.5,
+            "h": 390
+          },
+          "reguaDireita": 819.53125,
+          "larguraTela": 844,
+          "proporcao": 0.7115384615384616,
+          "arquivo": 0.7109704641350211,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 372.03125,
+            "w": 277.5,
+            "h": 390
+          },
+          "reguaDireita": 819.53125,
+          "larguraTela": 844,
+          "proporcao": 0.7115384615384616,
+          "arquivo": 0.7109704641350211,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 372.03125,
+            "w": 277.5,
+            "h": 390
+          },
+          "reguaDireita": 819.53125,
+          "larguraTela": 844,
+          "proporcao": 0.7115384615384616,
+          "arquivo": 0.7109704641350211,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 372.03125,
+            "w": 277.5,
+            "h": 390
+          },
+          "reguaDireita": 819.53125,
+          "larguraTela": 844,
+          "proporcao": 0.7115384615384616,
+          "arquivo": 0.7109704641350211,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "768x1024",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 339.71875,
+            "w": 219.859375,
+            "h": 308.984375
+          },
+          "reguaDireita": 729.578125,
+          "larguraTela": 768,
+          "proporcao": 0.7115549936788875,
+          "arquivo": 0.7106481481481481,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 339.71875,
+            "w": 219.859375,
+            "h": 308.984375
+          },
+          "reguaDireita": 729.578125,
+          "larguraTela": 768,
+          "proporcao": 0.7115549936788875,
+          "arquivo": 0.7106481481481481,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 339.71875,
+            "w": 219.859375,
+            "h": 308.984375
+          },
+          "reguaDireita": 729.578125,
+          "larguraTela": 768,
+          "proporcao": 0.7115549936788875,
+          "arquivo": 0.7106481481481481,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 339.71875,
+            "w": 219.859375,
+            "h": 308.984375
+          },
+          "reguaDireita": 729.578125,
+          "larguraTela": 768,
+          "proporcao": 0.7115549936788875,
+          "arquivo": 0.7106481481481481,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "1024x768",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 448.53125,
+            "w": 354.25,
+            "h": 497.859375
+          },
+          "reguaDireita": 972.78125,
+          "larguraTela": 1024,
+          "proporcao": 0.711546307629539,
+          "arquivo": 0.7100694444444444,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 448.53125,
+            "w": 354.25,
+            "h": 497.859375
+          },
+          "reguaDireita": 972.78125,
+          "larguraTela": 1024,
+          "proporcao": 0.711546307629539,
+          "arquivo": 0.7100694444444444,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 448.53125,
+            "w": 354.25,
+            "h": 497.859375
+          },
+          "reguaDireita": 972.78125,
+          "larguraTela": 1024,
+          "proporcao": 0.711546307629539,
+          "arquivo": 0.7100694444444444,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 448.53125,
+            "w": 354.25,
+            "h": 497.859375
+          },
+          "reguaDireita": 972.78125,
+          "larguraTela": 1024,
+          "proporcao": 0.711546307629539,
+          "arquivo": 0.7100694444444444,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "1280x720",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 557.328125,
+            "w": 409.875,
+            "h": 576.015625
+          },
+          "reguaDireita": 1137.203125,
+          "larguraTela": 1280,
+          "proporcao": 0.7115692391156924,
+          "arquivo": 0.7121001390820584,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 557.328125,
+            "w": 409.875,
+            "h": 576.015625
+          },
+          "reguaDireita": 1137.203125,
+          "larguraTela": 1280,
+          "proporcao": 0.7115692391156924,
+          "arquivo": 0.7121001390820584,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 557.328125,
+            "w": 409.875,
+            "h": 576.015625
+          },
+          "reguaDireita": 1137.203125,
+          "larguraTela": 1280,
+          "proporcao": 0.7115692391156924,
+          "arquivo": 0.7121001390820584,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 557.328125,
+            "w": 409.875,
+            "h": 576.015625
+          },
+          "reguaDireita": 1137.203125,
+          "larguraTela": 1280,
+          "proporcao": 0.7115692391156924,
+          "arquivo": 0.7121001390820584,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "640x400",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 153.6875,
+            "w": 284.625,
+            "h": 400
+          },
+          "reguaDireita": 514.3125,
+          "larguraTela": 640,
+          "proporcao": 0.7115625,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 153.6875,
+            "w": 284.625,
+            "h": 400
+          },
+          "reguaDireita": 514.3125,
+          "larguraTela": 640,
+          "proporcao": 0.7115625,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 153.6875,
+            "w": 284.625,
+            "h": 400
+          },
+          "reguaDireita": 514.3125,
+          "larguraTela": 640,
+          "proporcao": 0.7115625,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 153.6875,
+            "w": 284.625,
+            "h": 400
+          },
+          "reguaDireita": 514.3125,
+          "larguraTela": 640,
+          "proporcao": 0.7115625,
+          "arquivo": 0.7111111111111111,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "1440x900",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 632,
+            "w": 512.328125,
+            "h": 720
+          },
+          "reguaDireita": 1314.328125,
+          "larguraTela": 1440,
+          "proporcao": 0.7115668402777777,
+          "arquivo": 0.7107540173053152,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 632,
+            "w": 512.328125,
+            "h": 720
+          },
+          "reguaDireita": 1314.328125,
+          "larguraTela": 1440,
+          "proporcao": 0.7115668402777777,
+          "arquivo": 0.7107540173053152,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 632,
+            "w": 512.328125,
+            "h": 720
+          },
+          "reguaDireita": 1314.328125,
+          "larguraTela": 1440,
+          "proporcao": 0.7115668402777777,
+          "arquivo": 0.7107540173053152,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 632,
+            "w": 512.328125,
+            "h": 720
+          },
+          "reguaDireita": 1314.328125,
+          "larguraTela": 1440,
+          "proporcao": 0.7115668402777777,
+          "arquivo": 0.7107540173053152,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "tela": "1920x1080",
+      "etapas": [
+        {
+          "etapa": 0,
+          "caixa": {
+            "x": 876,
+            "w": 497.96875,
+            "h": 699.828125
+          },
+          "reguaDireita": 1543.96875,
+          "larguraTela": 1920,
+          "proporcao": 0.7115586416307575,
+          "arquivo": 0.7117701575532901,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 2,
+          "caixa": {
+            "x": 876,
+            "w": 497.96875,
+            "h": 699.828125
+          },
+          "reguaDireita": 1543.96875,
+          "larguraTela": 1920,
+          "proporcao": 0.7115586416307575,
+          "arquivo": 0.7117701575532901,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 5,
+          "caixa": {
+            "x": 876,
+            "w": 497.96875,
+            "h": 699.828125
+          },
+          "reguaDireita": 1543.96875,
+          "larguraTela": 1920,
+          "proporcao": 0.7115586416307575,
+          "arquivo": 0.7117701575532901,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        },
+        {
+          "etapa": 6,
+          "caixa": {
+            "x": 876,
+            "w": 497.96875,
+            "h": 699.828125
+          },
+          "reguaDireita": 1543.96875,
+          "larguraTela": 1920,
+          "proporcao": 0.7115586416307575,
+          "arquivo": 0.7117701575532901,
+          "foraDaSecao": 0,
+          "sobreposicao": false,
+          "scrollLateral": false,
+          "proporcaoOk": true,
+          "ok": true
+        }
+      ],
+      "ok": true
+    }
+  ],
+  "aprovado": false
+}

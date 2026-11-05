@@ -1,0 +1,9 @@
+{
+  "name": "stack-banco",
+  "version": "0.1.2",
+  "description": "Especialistas em banco de dados: modelagem, SQL, otimização, Postgres e Supabase.",
+  "author": {
+    "name": "DevConductor"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,692 @@
+{
+  "filtros": {
+    "sessao": null,
+    "de": null,
+    "ate": null,
+    "dias": null
+  },
+  "sessoes": [
+    {
+      "id": "f16deeaa-91d7-47df-ba48-2ea7622c7821",
+      "inicio": "2026-10-14T18:35:00.014Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\f16deeaa-91d7-47df-ba48-2ea7622c7821.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 27,
+          "entrada": 54,
+          "cacheGravado": 105674,
+          "cacheLido": 2481873,
+          "saida": 21484
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 27,
+          "contexto": 2587601,
+          "saida": 21484,
+          "contextoPorResposta": 95837
+        }
+      },
+      "totais": {
+        "entrada": 105728,
+        "cacheLido": 2481873,
+        "saida": 21484
+      },
+      "mensagensCompartilhadas": 21
+    },
+    {
+      "id": "4a5c4c47-e1cf-43b5-bcfd-b01b8b8b3ca4",
+      "inicio": "2026-10-14T21:18:04.391Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\4a5c4c47-e1cf-43b5-bcfd-b01b8b8b3ca4.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 341,
+          "entrada": 682,
+          "cacheGravado": 615890,
+          "cacheLido": 118404358,
+          "saida": 293520
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 341,
+          "contexto": 119020930,
+          "saida": 293520,
+          "contextoPorResposta": 349035
+        }
+      },
+      "totais": {
+        "entrada": 616572,
+        "cacheLido": 118404358,
+        "saida": 293520
+      },
+      "mensagensCompartilhadas": 340
+    },
+    {
+      "id": "1f1833c3-7b0d-48b5-80b1-d288e4c02b12",
+      "inicio": "2026-10-15T02:39:54.381Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\1f1833c3-7b0d-48b5-80b1-d288e4c02b12.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 449,
+          "entrada": 900,
+          "cacheGravado": 1493387,
+          "cacheLido": 199285675,
+          "saida": 411941
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 449,
+          "contexto": 200779962,
+          "saida": 411941,
+          "contextoPorResposta": 447171
+        }
+      },
+      "totais": {
+        "entrada": 1494287,
+        "cacheLido": 199285675,
+        "saida": 411941
+      },
+      "mensagensCompartilhadas": 449
+    },
+    {
+      "id": "b210d310-df20-4e08-a4f0-76b8e97eaeb8",
+      "inicio": "2026-10-15T02:39:54.381Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\b210d310-df20-4e08-a4f0-76b8e97eaeb8.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 734,
+          "entrada": 1472,
+          "cacheGravado": 2893253,
+          "cacheLido": 278551822,
+          "saida": 711596
+        },
+        "<synthetic>": {
+          "respostas": 1,
+          "entrada": 0,
+          "cacheGravado": 0,
+          "cacheLido": 0,
+          "saida": 0
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 735,
+          "contexto": 281446547,
+          "saida": 711596,
+          "contextoPorResposta": 382920
+        }
+      },
+      "totais": {
+        "entrada": 2894725,
+        "cacheLido": 278551822,
+        "saida": 711596
+      },
+      "mensagensCompartilhadas": 502
+    },
+    {
+      "id": "9ee010e0-9a38-4c6c-b3b7-5c0abe6cb611",
+      "inicio": "2026-10-15T19:13:46.537Z",
+      "primeiraPergunta": "This session is being continued from a previous conversation",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\9ee010e0-9a38-4c6c-b3b7-5c0abe6cb611.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 296,
+          "entrada": 590,
+          "cacheGravado": 2352566,
+          "cacheLido": 124902633,
+          "saida": 279353
+        },
+        "<synthetic>": {
+          "respostas": 1,
+          "entrada": 0,
+          "cacheGravado": 0,
+          "cacheLido": 0,
+          "saida": 0
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 297,
+          "contexto": 127255789,
+          "saida": 279353,
+          "contextoPorResposta": 428471
+        }
+      },
+      "totais": {
+        "entrada": 2353156,
+        "cacheLido": 124902633,
+        "saida": 279353
+      },
+      "mensagensCompartilhadas": 297
+    },
+    {
+      "id": "36a6d6eb-c3a0-4d91-85b7-893706e5e90c",
+      "inicio": "2026-10-16T03:29:27.631Z",
+      "primeiraPergunta": "This session is being continued from a previous conversation",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\36a6d6eb-c3a0-4d91-85b7-893706e5e90c.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 378,
+          "entrada": 754,
+          "cacheGravado": 2507887,
+          "cacheLido": 189251396,
+          "saida": 347084
+        },
+        "<synthetic>": {
+          "respostas": 1,
+          "entrada": 0,
+          "cacheGravado": 0,
+          "cacheLido": 0,
+          "saida": 0
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 379,
+          "contexto": 191760037,
+          "saida": 347084,
+          "contextoPorResposta": 505963
+        }
+      },
+      "totais": {
+        "entrada": 2508641,
+        "cacheLido": 189251396,
+        "saida": 347084
+      },
+      "mensagensCompartilhadas": 297
+    },
+    {
+      "id": "561dd07f-11a9-4086-84ac-623d1a0183fc",
+      "inicio": "2026-10-16T13:55:59.921Z",
+      "primeiraPergunta": "a",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\561dd07f-11a9-4086-84ac-623d1a0183fc.jsonl"
+      ],
+      "porModelo": {
+        "<synthetic>": {
+          "respostas": 2,
+          "entrada": 0,
+          "cacheGravado": 0,
+          "cacheLido": 0,
+          "saida": 0
+        },
+        "claude-opus-5-5": {
+          "respostas": 285,
+          "entrada": 580,
+          "cacheGravado": 880128,
+          "cacheLido": 100028826,
+          "saida": 262534
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 287,
+          "contexto": 100909534,
+          "saida": 262534,
+          "contextoPorResposta": 351601
+        }
+      },
+      "totais": {
+        "entrada": 880708,
+        "cacheLido": 100028826,
+        "saida": 262534
+      },
+      "mensagensCompartilhadas": 219
+    },
+    {
+      "id": "a4588f8d-b755-4fe5-94e2-c4b12a33a699",
+      "inicio": "2026-10-16T13:55:59.921Z",
+      "primeiraPergunta": "a",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\a4588f8d-b755-4fe5-94e2-c4b12a33a699.jsonl"
+      ],
+      "porModelo": {
+        "<synthetic>": {
+          "respostas": 2,
+          "entrada": 0,
+          "cacheGravado": 0,
+          "cacheLido": 0,
+          "saida": 0
+        },
+        "claude-opus-5-5": {
+          "respostas": 260,
+          "entrada": 524,
+          "cacheGravado": 1336157,
+          "cacheLido": 83627097,
+          "saida": 224317
+        }
+      },
+      "porOrigem": {
+        "principal": {
+          "respostas": 262,
+          "contexto": 84963778,
+          "saida": 224317,
+          "contextoPorResposta": 324289
+        }
+      },
+      "totais": {
+        "entrada": 1336681,
+        "cacheLido": 83627097,
+        "saida": 224317
+      },
+      "mensagensCompartilhadas": 219
+    }
+  ],
+  "totais": {
+    "entrada": 6704051,
+    "cacheLido": 582379598,
+    "saida": 1289679
+  },
+  "porModelo": {
+    "claude-opus-5-5": {
+      "respostas": 1393,
+      "entrada": 2802,
+      "cacheGravado": 6701249,
+      "cacheLido": 582379598,
+      "saida": 1289679
+    },
+    "<synthetic>": {
+      "respostas": 5,
+      "entrada": 0,
+      "cacheGravado": 0,
+      "cacheLido": 0,
+      "saida": 0
+    }
+  },
+  "porOrigem": {
+    "principal": {
+      "respostas": 1398,
+      "contexto": 589083649,
+      "saida": 1289679,
+      "contextoPorResposta": 421376
+    }
+  },
+  "porFerramenta": {
+    "Bash": {
+      "chamadas": 691,
+      "caracteres": 783674,
+      "imagens": 0,
+      "tokensAprox": 195919
+    },
+    "Read": {
+      "chamadas": 137,
+      "caracteres": 214513,
+      "imagens": 87,
+      "tokensAprox": 53628
+    },
+    "WebSearch": {
+      "chamadas": 28,
+      "caracteres": 85037,
+      "imagens": 0,
+      "tokensAprox": 21259
+    },
+    "WebFetch": {
+      "chamadas": 33,
+      "caracteres": 55668,
+      "imagens": 0,
+      "tokensAprox": 13917
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__models_explore": {
+      "chamadas": 3,
+      "caracteres": 47427,
+      "imagens": 0,
+      "tokensAprox": 11857
+    },
+    "mcp__paper__write_html": {
+      "chamadas": 22,
+      "caracteres": 41083,
+      "imagens": 0,
+      "tokensAprox": 10271
+    },
+    "Artifact": {
+      "chamadas": 3,
+      "caracteres": 38149,
+      "imagens": 0,
+      "tokensAprox": 9537
+    },
+    "Edit": {
+      "chamadas": 216,
+      "caracteres": 31677,
+      "imagens": 0,
+      "tokensAprox": 7919
+    },
+    "mcp__Claude_Browser__browser_batch": {
+      "chamadas": 17,
+      "caracteres": 29770,
+      "imagens": 16,
+      "tokensAprox": 7443
+    },
+    "Write": {
+      "chamadas": 115,
+      "caracteres": 20554,
+      "imagens": 0,
+      "tokensAprox": 5139
+    },
+    "mcp__paper__get_guide": {
+      "chamadas": 1,
+      "caracteres": 19763,
+      "imagens": 0,
+      "tokensAprox": 4941
+    },
+    "mcp__ccd_turn__wrap_up": {
+      "chamadas": 83,
+      "caracteres": 14556,
+      "imagens": 0,
+      "tokensAprox": 3639
+    },
+    "mcp__ccd_session_mgmt__list_sessions": {
+      "chamadas": 3,
+      "caracteres": 13800,
+      "imagens": 0,
+      "tokensAprox": 3450
+    },
+    "mcp__paper__get_font_family_info": {
+      "chamadas": 2,
+      "caracteres": 12255,
+      "imagens": 0,
+      "tokensAprox": 3064
+    },
+    "mcp__ccd_turn__update_plan": {
+      "chamadas": 214,
+      "caracteres": 9922,
+      "imagens": 0,
+      "tokensAprox": 2481
+    },
+    "PowerShell": {
+      "chamadas": 20,
+      "caracteres": 8911,
+      "imagens": 0,
+      "tokensAprox": 2228
+    },
+    "mcp__Claude_Browser__get_page_text": {
+      "chamadas": 6,
+      "caracteres": 8390,
+      "imagens": 0,
+      "tokensAprox": 2098
+    },
+    "mcp__Claude_Browser__computer": {
+      "chamadas": 18,
+      "caracteres": 7296,
+      "imagens": 10,
+      "tokensAprox": 1824
+    },
+    "ToolSearch": {
+      "chamadas": 28,
+      "caracteres": 6435,
+      "imagens": 0,
+      "tokensAprox": 1609
+    },
+    "mcp__Claude_Browser__read_console_messages": {
+      "chamadas": 4,
+      "caracteres": 5811,
+      "imagens": 0,
+      "tokensAprox": 1453
+    },
+    "mcp__ccd_session_mgmt__list_events": {
+      "chamadas": 4,
+      "caracteres": 5559,
+      "imagens": 0,
+      "tokensAprox": 1390
+    },
+    "AskUserQuestion": {
+      "chamadas": 12,
+      "caracteres": 5104,
+      "imagens": 0,
+      "tokensAprox": 1276
+    },
+    "mcp__Claude_Browser__javascript_tool": {
+      "chamadas": 12,
+      "caracteres": 4705,
+      "imagens": 0,
+      "tokensAprox": 1176
+    },
+    "mcp__paper__get_screenshot": {
+      "chamadas": 14,
+      "caracteres": 4539,
+      "imagens": 14,
+      "tokensAprox": 1135
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__generate_image": {
+      "chamadas": 8,
+      "caracteres": 3795,
+      "imagens": 0,
+      "tokensAprox": 949
+    },
+    "mcp__Claude_Browser__preview_start": {
+      "chamadas": 8,
+      "caracteres": 2882,
+      "imagens": 0,
+      "tokensAprox": 721
+    },
+    "mcp__ccd_connectors__session_connectors_status": {
+      "chamadas": 1,
+      "caracteres": 2628,
+      "imagens": 0,
+      "tokensAprox": 657
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__jobs_wait": {
+      "chamadas": 8,
+      "caracteres": 2458,
+      "imagens": 0,
+      "tokensAprox": 615
+    },
+    "mcp__Claude_Browser__resize_window": {
+      "chamadas": 4,
+      "caracteres": 2256,
+      "imagens": 0,
+      "tokensAprox": 564
+    },
+    "mcp__ccd_session__start_session": {
+      "chamadas": 5,
+      "caracteres": 1875,
+      "imagens": 0,
+      "tokensAprox": 469
+    },
+    "TaskStop": {
+      "chamadas": 2,
+      "caracteres": 1870,
+      "imagens": 0,
+      "tokensAprox": 468
+    },
+    "mcp__Claude_Browser__navigate": {
+      "chamadas": 7,
+      "caracteres": 1854,
+      "imagens": 0,
+      "tokensAprox": 464
+    },
+    "mcp__ccd_view__show_pane": {
+      "chamadas": 14,
+      "caracteres": 1563,
+      "imagens": 0,
+      "tokensAprox": 391
+    },
+    "mcp__paper__update_styles": {
+      "chamadas": 7,
+      "caracteres": 1531,
+      "imagens": 0,
+      "tokensAprox": 383
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__upscale_image": {
+      "chamadas": 7,
+      "caracteres": 1486,
+      "imagens": 0,
+      "tokensAprox": 372
+    },
+    "SendMessage": {
+      "chamadas": 2,
+      "caracteres": 1170,
+      "imagens": 0,
+      "tokensAprox": 293
+    },
+    "SendUserFile": {
+      "chamadas": 4,
+      "caracteres": 1113,
+      "imagens": 0,
+      "tokensAprox": 278
+    },
+    "Grep": {
+      "chamadas": 2,
+      "caracteres": 1040,
+      "imagens": 0,
+      "tokensAprox": 260
+    },
+    "mcp__paper__set_text_content": {
+      "chamadas": 2,
+      "caracteres": 907,
+      "imagens": 0,
+      "tokensAprox": 227
+    },
+    "mcp__ccd_session_mgmt__get_session": {
+      "chamadas": 1,
+      "caracteres": 900,
+      "imagens": 0,
+      "tokensAprox": 225
+    },
+    "mcp__paper__create_artboard": {
+      "chamadas": 3,
+      "caracteres": 806,
+      "imagens": 0,
+      "tokensAprox": 202
+    },
+    "mcp__Claude_Browser__find": {
+      "chamadas": 2,
+      "caracteres": 652,
+      "imagens": 0,
+      "tokensAprox": 163
+    },
+    "mcp__paper__get_basic_info": {
+      "chamadas": 1,
+      "caracteres": 580,
+      "imagens": 0,
+      "tokensAprox": 145
+    },
+    "mcp__paper__finish_working_on_nodes": {
+      "chamadas": 4,
+      "caracteres": 552,
+      "imagens": 0,
+      "tokensAprox": 138
+    },
+    "mcp__Claude_Browser__tabs_context": {
+      "chamadas": 3,
+      "caracteres": 545,
+      "imagens": 0,
+      "tokensAprox": 136
+    },
+    "mcp__Claude_Browser__read_network_requests": {
+      "chamadas": 1,
+      "caracteres": 520,
+      "imagens": 0,
+      "tokensAprox": 130
+    },
+    "mcp__paper__get_node_info": {
+      "chamadas": 1,
+      "caracteres": 454,
+      "imagens": 0,
+      "tokensAprox": 114
+    },
+    "mcp__da7827f3-de5b-400e-9371-e7511d41ef74__whoami": {
+      "chamadas": 1,
+      "caracteres": 449,
+      "imagens": 0,
+      "tokensAprox": 112
+    },
+    "mcp__ccd_session__hand_off_to_session": {
+      "chamadas": 1,
+      "caracteres": 396,
+      "imagens": 0,
+      "tokensAprox": 99
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__generate_3d": {
+      "chamadas": 6,
+      "caracteres": 386,
+      "imagens": 0,
+      "tokensAprox": 97
+    },
+    "mcp__Claude_Browser__tabs_create": {
+      "chamadas": 1,
+      "caracteres": 310,
+      "imagens": 0,
+      "tokensAprox": 78
+    },
+    "mcp__ccd_view__set_transcript_view": {
+      "chamadas": 2,
+      "caracteres": 281,
+      "imagens": 0,
+      "tokensAprox": 70
+    },
+    "mcp__ccd_connectors__set_session_connector_enabled": {
+      "chamadas": 2,
+      "caracteres": 249,
+      "imagens": 0,
+      "tokensAprox": 62
+    },
+    "Skill": {
+      "chamadas": 7,
+      "caracteres": 227,
+      "imagens": 0,
+      "tokensAprox": 57
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__balance": {
+      "chamadas": 3,
+      "caracteres": 138,
+      "imagens": 0,
+      "tokensAprox": 35
+    },
+    "mcp__ccd_view__get_layout": {
+      "chamadas": 1,
+      "caracteres": 85,
+      "imagens": 0,
+      "tokensAprox": 21
+    },
+    "mcp__ccd_session_mgmt__set_session_permission_mode": {
+      "chamadas": 1,
+      "caracteres": 71,
+      "imagens": 0,
+      "tokensAprox": 18
+    },
+    "mcp__ccd_session__mark_chapter": {
+      "chamadas": 1,
+      "caracteres": 70,
+      "imagens": 0,
+      "tokensAprox": 18
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__generate_video": {
+      "chamadas": 1,
+      "caracteres": 42,
+      "imagens": 0,
+      "tokensAprox": 11
+    },
+    "mcp__3c11ddfa-b3dc-4563-b03d-64e6d453a52f__get_preferences": {
+      "chamadas": 1,
+      "caracteres": 29,
+      "imagens": 0,
+      "tokensAprox": 7
+    },
+    "mcp__Claude_Browser__tabs_select": {
+      "chamadas": 1,
+      "caracteres": 17,
+      "imagens": 0,
+      "tokensAprox": 4
+    }
+  },
+  "mensagensUnicas": 1398,
+  "atribuicao": "Sessões podem conter histórico compartilhado. A origem dessas respostas é indeterminada; os totais gerais deduplicam por message.id."
+}

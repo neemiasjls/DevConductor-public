@@ -1,0 +1,146 @@
+{
+  "filtros": {
+    "sessao": null,
+    "de": null,
+    "ate": null,
+    "dias": null
+  },
+  "sessoes": [
+    {
+      "id": "f16deeaa-91d7-47df-ba48-2ea7622c7821",
+      "inicio": "2026-10-14T18:35:00.014Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\f16deeaa-91d7-47df-ba48-2ea7622c7821.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 27,
+          "entrada": 54,
+          "cacheGravado": 105674,
+          "cacheLido": 2481873,
+          "saida": 21484
+        }
+      },
+      "totais": {
+        "entrada": 105728,
+        "cacheLido": 2481873,
+        "saida": 21484
+      },
+      "mensagensCompartilhadas": 21
+    },
+    {
+      "id": "4a5c4c47-e1cf-43b5-bcfd-b01b8b8b3ca4",
+      "inicio": "2026-10-14T21:18:04.391Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\4a5c4c47-e1cf-43b5-bcfd-b01b8b8b3ca4.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 341,
+          "entrada": 682,
+          "cacheGravado": 615890,
+          "cacheLido": 118404358,
+          "saida": 293520
+        }
+      },
+      "totais": {
+        "entrada": 616572,
+        "cacheLido": 118404358,
+        "saida": 293520
+      },
+      "mensagensCompartilhadas": 340
+    },
+    {
+      "id": "1f1833c3-7b0d-48b5-80b1-d288e4c02b12",
+      "inicio": "2026-10-15T02:39:54.381Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\1f1833c3-7b0d-48b5-80b1-d288e4c02b12.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 449,
+          "entrada": 900,
+          "cacheGravado": 1493387,
+          "cacheLido": 199285675,
+          "saida": 411941
+        }
+      },
+      "totais": {
+        "entrada": 1494287,
+        "cacheLido": 199285675,
+        "saida": 411941
+      },
+      "mensagensCompartilhadas": 449
+    },
+    {
+      "id": "b210d310-df20-4e08-a4f0-76b8e97eaeb8",
+      "inicio": "2026-10-15T02:39:54.381Z",
+      "primeiraPergunta": "existe algum projeto pronto muito famoso que contem diversos",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\b210d310-df20-4e08-a4f0-76b8e97eaeb8.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 734,
+          "entrada": 1472,
+          "cacheGravado": 2893253,
+          "cacheLido": 278551822,
+          "saida": 711596
+        },
+        "<synthetic>": {
+          "respostas": 1,
+          "entrada": 0,
+          "cacheGravado": 0,
+          "cacheLido": 0,
+          "saida": 0
+        }
+      },
+      "totais": {
+        "entrada": 2894725,
+        "cacheLido": 278551822,
+        "saida": 711596
+      },
+      "mensagensCompartilhadas": 502
+    },
+    {
+      "id": "9ee010e0-9a38-4c6c-b3b7-5c0abe6cb611",
+      "inicio": "2026-10-15T19:13:46.537Z",
+      "primeiraPergunta": "This session is being continued from a previous conversation",
+      "arquivos": [
+        "C:\\Users\\<usuario>\\.claude\\projects\\C--Users-usuario-Desktop-PROJETOS-DevAgents\\9ee010e0-9a38-4c6c-b3b7-5c0abe6cb611.jsonl"
+      ],
+      "porModelo": {
+        "claude-opus-5-5": {
+          "respostas": 198,
+          "entrada": 394,
+          "cacheGravado": 466192,
+          "cacheLido": 65991192,
+          "saida": 206040
+        },
+        "<synthetic>": {
+          "respostas": 1,
+          "entrada": 0,
+          "cacheGravado": 0,
+          "cacheLido": 0,
+          "saida": 0
+        }
+      },
+      "totais": {
+        "entrada": 466586,
+        "cacheLido": 65991192,
+        "saida": 206040
+      },
+      "mensagensCompartilhadas": 53
+    }
+  ],
+  "totais": {
+    "entrada": 3182163,
+    "cacheLido": 336438472,
+    "saida": 845779
+  },
+  "mensagensUnicas": 888,
+  "atribuicao": "Sessões podem conter histórico compartilhado. A origem dessas respostas é indeterminada; os totais gerais deduplicam por message.id."
+}

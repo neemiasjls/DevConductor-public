@@ -1,0 +1,78 @@
+{
+  "name": "devconductor",
+  "owner": {
+    "name": "DevConductor"
+  },
+  "metadata": {
+    "description": "Ecossistema de desenvolvimento: método superpowers + especialistas por stack + fluxo de landing pages.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "design-sistemas",
+      "source": "./plugins/design-sistemas",
+      "description": "Design de telas de sistema (painel, cadastro, lista, formulário, dashboard) em React: skill ui-sistemas com DESIGN.md por projeto, regras de estado, erro e lista, padrões brasileiros testados (CPF, CNPJ alfanumérico, CEP, dinheiro, datas) e 5 consultoras travadas.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "devconductor-core",
+      "source": "./plugins/devconductor-core",
+      "description": "Núcleo do DevConductor: roteamento de modelo por custo, integração do método superpowers com os especialistas de stack, memória do projeto, subir para produção e detecção automática de stack e aviso na tela quando o Claude precisa de você.",
+      "version": "0.4.3"
+    },
+    {
+      "name": "estudio-design",
+      "source": "./plugins/estudio-design",
+      "description": "Estudos de movimento isolados em React e GSAP: modelo reutilizável, testes de computador, celular e movimento reduzido, vídeos e vitrine local para escolher cenas antes de integrá-las ao site.",
+      "version": "0.2.2"
+    },
+    {
+      "name": "grafo-codigo",
+      "source": "./plugins/grafo-codigo",
+      "description": "Mapa do código com o Graphify (só AST, sem LLM e sem tokens): o agente consulta quem chama quem e o impacto de uma mudança em vez de abrir dezenas de arquivos. Ligado sozinho em projetos grandes.",
+      "version": "0.2.6"
+    },
+    {
+      "name": "landing-pages",
+      "source": "./plugins/landing-pages",
+      "description": "Fábrica de landing pages para negócios locais: lp-maestro conduz da coleta à publicação, com arsenal de skills famosas de design (travadas, lidas só na etapa certa) e biblioteca de cenas guiadas pelo scroll.",
+      "version": "0.3.12"
+    },
+    {
+      "name": "seguranca",
+      "source": "./plugins/seguranca",
+      "description": "Especialistas em segurança: código seguro no backend e no frontend e auditoria (OWASP, dependências, segredos).",
+      "version": "0.1.3"
+    },
+    {
+      "name": "stack-banco",
+      "source": "./plugins/stack-banco",
+      "description": "Especialistas em banco de dados: modelagem, SQL, otimização, Postgres e Supabase.",
+      "version": "0.1.2"
+    },
+    {
+      "name": "stack-dotnet",
+      "source": "./plugins/stack-dotnet",
+      "description": "Especialistas em C#/.NET: arquitetura ASP.NET Core, EF Core, Dapper e código C# moderno.",
+      "version": "0.1.2"
+    },
+    {
+      "name": "stack-java",
+      "source": "./plugins/stack-java",
+      "description": "Especialista em Java: Spring Boot, JPA/Hibernate, Maven/Gradle e testes JUnit.",
+      "version": "0.1.2"
+    },
+    {
+      "name": "stack-python",
+      "source": "./plugins/stack-python",
+      "description": "Especialistas em Python: código moderno, FastAPI, testes e estrutura de projeto.",
+      "version": "0.1.2"
+    },
+    {
+      "name": "stack-typescript",
+      "source": "./plugins/stack-typescript",
+      "description": "Especialistas em TypeScript e JavaScript: tipos, Node.js, React/Next e testes.",
+      "version": "0.1.3"
+    }
+  ]
+}

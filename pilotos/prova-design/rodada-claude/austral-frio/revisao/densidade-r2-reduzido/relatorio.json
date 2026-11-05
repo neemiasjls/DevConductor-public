@@ -1,0 +1,178 @@
+{
+  "url": "http://localhost:5201/",
+  "data": "2026-11-05T14:20:31.362Z",
+  "reduzido": true,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 92,
+    "celular": 67
+  },
+  "alertas": [
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 92,
+      "limite": 60,
+      "amostra": "0 h 12 h 24 h 36 h 0 h Pré-resfriamento Em Chapecó, o baú chega a −18 °C vazio, antes da doca. 2 h Coleta Porta aberta 25 min na doca. Sobe 0,7 °C e volta em 40"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 63,
+      "limite": 45,
+      "amostra": "Foto: Kopiersperre, Wikimedia Commons, CC BY-SA 3.0 (cor tratada). Coletamos frio. Viajamos frio. Entregamos frio. Três verbos e um número que não muda. A viage"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 67,
+      "limite": 45,
+      "amostra": "Coleta Porta aberta 25 min na doca. Sobe 0,7 °C e volta em 40 min. 8 h Pedágio No Paraná, parada curta com a porta lacrada. A linha nem percebe. 15 h Parada do "
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 52,
+      "limite": 45,
+      "amostra": "Pátio e doca Baú ligado antes de a carga chegar. O equipamento de frio liga no pátio e o baú só encosta na doca na temperatura da carga. A estrutura da base (do"
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga em doca, cortina de ar e tempo de porta anotado. Toque a foto: só a imagem descongela. Foto: Kopiersperre, W"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "amostra": "Coletamos frio. Viajamos frio. Entregamos frio. Três verbos e um número que não muda. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de de"
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 92,
+      "palavrasLeitura": 42,
+      "amostra": "0 h 12 h 24 h 36 h 0 h Pré-resfriamento Em Chapecó, o baú chega a −18 °C vazio, antes da doca. 2 h Coleta Porta aberta 25 min na doca. Sobe 0,7 °C e volta em 40"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 40,
+      "palavrasLeitura": 37,
+      "amostra": "Pátio e doca Baú ligado antes de a carga chegar. O equipamento de frio liga no pátio e o baú só encosta na doca na temperatura da carga. A estrutura da base (do"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 12,
+      "palavrasLeitura": 57,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 30,
+      "palavrasLeitura": 55,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 6284,
+      "palavras": 7,
+      "palavrasLeitura": 153,
+      "amostra": "Pedir cotação no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga em doca, cortina de ar e tempo de porta anotado. Toque a foto: só a imagem descongela. Foto: Kopiersperre, W"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 63,
+      "palavrasLeitura": 0,
+      "amostra": "Foto: Kopiersperre, Wikimedia Commons, CC BY-SA 3.0 (cor tratada). Coletamos frio. Viajamos frio. Entregamos frio. Três verbos e um número que não muda. A viage"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 67,
+      "palavrasLeitura": 35,
+      "amostra": "Coleta Porta aberta 25 min na doca. Sobe 0,7 °C e volta em 40 min. 8 h Pedágio No Paraná, parada curta com a porta lacrada. A linha nem percebe. 15 h Parada do "
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 0,
+      "palavrasLeitura": 44,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 52,
+      "palavrasLeitura": 0,
+      "amostra": "Pátio e doca Baú ligado antes de a carga chegar. O equipamento de frio liga no pátio e o baú só encosta na doca na temperatura da carga. A estrutura da base (do"
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 0,
+      "palavrasLeitura": 73,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 26,
+      "palavrasLeitura": 27,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 6,
+      "palavrasLeitura": 39,
+      "amostra": "Cotar no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 0,
+      "palavrasLeitura": 101,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 7670,
+      "palavras": 0,
+      "palavrasLeitura": 104,
+      "amostra": ""
+    }
+  ]
+}
