@@ -79,7 +79,7 @@ test('erros claros: grupo único, sem rótulo, arquivo ausente, curinga sem acha
 
 test('lê os arquivos reais já medidos no projeto', { skip: !fs.existsSync(path.join(raiz, 'pilotos', 'medicoes')) && 'sem pilotos/medicoes' }, () => {
   const medicoes = path.join(raiz, 'pilotos', 'medicoes')
-  const r = comparar(`ans=${path.join(medicoes, 'ans-transicao.json')}`, `especialista=${path.join(medicoes, 'teste-especialista.json')}`, '--json')
+  const r = comparar(`total=${path.join(medicoes, 'devagents-total.json')}`, `especialista=${path.join(medicoes, 'teste-especialista.json')}`, '--json')
   assert.equal(r.status, 0, r.stderr)
   const { grupos } = JSON.parse(r.stdout)
   assert.ok(grupos.every((g) => g.sessoes >= 1 && g.entradaMaisCache > 0))
