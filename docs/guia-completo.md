@@ -159,7 +159,7 @@ Numa máquina sem o clone, os mesmos passos à mão (na pasta do projeto); as st
 primeira sessão aberta ali, pelo hook do núcleo, e os especialistas na sessão seguinte:
 
 ```bash
-claude plugin marketplace add neemiasjls/DevConductor --scope local
+claude plugin marketplace add neemiasjls/DevConductor-public --scope local
 ```
 ```bash
 claude plugin marketplace add anthropics/claude-plugins-official --scope local

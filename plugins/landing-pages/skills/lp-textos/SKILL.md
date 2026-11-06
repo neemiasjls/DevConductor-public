@@ -27,7 +27,7 @@ contexto. Revise com as consultoras abaixo.
   | Etapa de uma cena presa | até ~12 palavras por etapa |
   | Rótulo dentro de cena (legenda, marcador) | até ~4 palavras; no máximo 4 rótulos visíveis ao mesmo tempo |
   Serviços, preços, perguntas e rodapé são seções de leitura e podem passar disso, em lista escaneável.
-  Estourar o limite fora delas exige motivo no plano; o `densidade.mjs` da `lp-revisao` mede.
+  Estourar o limite fora delas exige motivo no plano e `data-densidade="<motivo>"` no elemento; o `densidade.mjs` da `lp-revisao` mede e reprova o resto.
 - **Resultado, não aula.** Falar do que o cliente ganha ("degradê que cresce sem marcar"), não da técnica de
   como o profissional faz ("pente 0 na nuca, 0,5, 1…"). Termo técnico só se o público usa para pedir o serviço.
 - Ficha técnica, créditos de foto e números de detalhe ficam pequenos e longe do título; nunca competem com ele.

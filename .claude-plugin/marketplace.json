@@ -12,13 +12,13 @@
       "name": "design-sistemas",
       "source": "./plugins/design-sistemas",
       "description": "Design de telas de sistema (painel, cadastro, lista, formulário, dashboard) em React: skill ui-sistemas com DESIGN.md por projeto, regras de estado, erro e lista, padrões brasileiros testados (CPF, CNPJ alfanumérico, CEP, dinheiro, datas) e 5 consultoras travadas.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "name": "devconductor-core",
       "source": "./plugins/devconductor-core",
       "description": "Núcleo do DevConductor: roteamento de modelo por custo, integração do método superpowers com os especialistas de stack, memória do projeto, subir para produção e detecção automática de stack e aviso na tela quando o Claude precisa de você.",
-      "version": "0.4.4"
+      "version": "0.4.5"
     },
     {
       "name": "estudio-design",
@@ -36,7 +36,7 @@
       "name": "landing-pages",
       "source": "./plugins/landing-pages",
       "description": "Fábrica de landing pages para negócios locais: lp-maestro conduz da coleta à publicação, com arsenal de skills famosas de design (travadas, lidas só na etapa certa) e biblioteca de cenas guiadas pelo scroll.",
-      "version": "0.3.13"
+      "version": "0.3.14"
     },
     {
       "name": "seguranca",

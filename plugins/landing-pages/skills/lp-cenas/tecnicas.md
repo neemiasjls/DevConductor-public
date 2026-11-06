@@ -8,7 +8,7 @@ negócio que mostram e permanência em telas) e o padrão discreto do resto. Tod
 ## Roteiro (arco do site)
 1. **Abertura (gancho, 0–3 s):** algo real se move antes do primeiro scroll: objeto 3D girando devagar, foto que
    ganha luz, vídeo recortado em máscara, título cinético curto. O título nunca espera a animação para ser lido.
-2. **Cenas grandes:** 2–3 no site, cada uma mostrando um fato do negócio (o produto, o serviço, o resultado, o
+2. **Cenas grandes:** quantas o negócio pedir (zero ou mais, DEV-42), cada uma mostrando um fato do negócio (o produto, o serviço, o resultado, o
    caminho). Uma delas é o clímax, perto do meio ou do fim.
 3. **Seções de leitura** (serviços, preços, horários, perguntas, contato): padrão discreto. Entradas curtas do
    ritmo do estilo, uma vez, uma variação por tipo de conteúdo (texto, foto, lista). Podem ter uma
@@ -38,7 +38,8 @@ negócio que mostram e permanência em telas) e o padrão discreto do resto. Tod
   Repetir o mesmo símbolo (linha, régua, luz) em toda seção para "costurar" deixa o site sem nexo.
 - **Cenas grandes diferentes entre si**: se há duas presas, não usar a mesma família nas duas; nunca 3 presas
   seguidas; entre duas presas, um trecho que rola livre. Anotar a permanência (telas presas) de cada cena.
-- Pelo menos 1 cena de "3D/WebGL", "Imagem" ou "Ilustração viva" quando o nicho permitir (LP-11).
+- Quando há cena grande, prefira "3D/WebGL", "Imagem" ou "Ilustração viva" a texto animado, se o nicho permitir
+  (LP-11). É preferência de família, não obrigação de ter cena.
 - Dois sites seguidos da fábrica não repetem a mesma cena grande de abertura.
 - Movimento contínuo (troca de palavra, faixa, respiração) para fora da tela e tem como pausar (WCAG 2.2.2).
 

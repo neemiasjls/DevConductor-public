@@ -63,7 +63,7 @@ valem nas etapas seguintes; silêncio não aprova conceito, uso de material ou p
 | 1b | Palavras-chave e estrutura | `lp-seo` (A e B) | | `seo.md` (mapa de palavras-chave) |
 | 2 | Referências reais | `lp-referencias` | `hallmark` (`study`), awesome-design-md | ✔ moodboard numerado |
 | 3 | Direção de arte (a partir de `estilos/`) | `lp-direcao-de-arte` + `lp-tipografia` + `lp-paleta` | `taste-skill`, `frontend-design`, `ui-ux-pro-max` (dados por nicho), `impeccable` (`typeset`, `colorize`) | ✔ pranchas (no modo corre atrás: 3 conceitos rodando, junto com a etapa 4) |
-| 4 | Conceito de movimento (receitas do estilo) | `lp-cenas` (roteiro em `tecnicas.md`) + `estudio-design:estudio-movimento` | `motion-design`, `gsap-*` (oficiais), `threejs-*` | ✔ vitrine com cenas em vídeo para escolher 2–3 + técnica por seção |
+| 4 | Conceito de movimento (receitas do estilo) | `lp-cenas` (roteiro em `tecnicas.md`) + `estudio-design:estudio-movimento` | `motion-design`, `gsap-*` (oficiais), `threejs-*` | ✔ vitrine com cenas em vídeo (já lidas às cegas) para escolher + técnica por seção |
 | 4b | Assets das cenas | `lp-assets` | | ✔ peças em `assets/` + `assets.md` com licenças |
 | 5 | Textos | `lp-textos` | `copywriting`, `cro` | ✔ `textos.md` |
 | 6 | Construção | `lp-construcao` (+ `lp-cenas` nas cenas escolhidas) | `gsap-*` e `threejs-*` (nas cenas), `responsive-design`, `emil-design-eng` e `find-animation-opportunities` (só controles da interface), `vercel-react-best-practices` (plugin de TypeScript) | página local |

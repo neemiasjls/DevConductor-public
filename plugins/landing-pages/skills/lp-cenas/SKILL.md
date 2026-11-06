@@ -20,7 +20,7 @@ ou o troca por movimento discreto.
 5. Combina com o tom do nicho (LP-11)?
 6. Se o movimento parar (reduzido, pausa), o texto e a imagem continuam completos?
 7. Vale na segunda visita e no celular?
-8. O mesmo truque já apareceu em outra seção?
+8. O truque é novo neste site (não repete o de outra seção)?
 
 **Mostrar, não explicar** (retorno de 04/11/2026): objeto ou foto real com um gesto vence diagrama. A cadeira 3D
 real e a foto da porta do baú foram aprovadas; o fio desenhado "por dentro" pareceu forçado, e a régua com
@@ -49,7 +49,11 @@ telefone, endereço e horários vão para o rodapé. Quando o apoio repete o que
 3. Rodar os scripts `testar.mjs` e `gravar.mjs` do estúdio e mostrar a vitrine com vídeos de computador
    e celular. Na gravação avulsa, usar `gravar-rolagem.mjs --nome <slug>` para não sobrescrever cenas
    no mesmo host. **Mostrar, não perguntar**. O `testar.mjs` desta skill é específico da receita de rotas.
-4. O usuário escolhe 2–3 (DEV-42); a escolha vai para o `plano.md` do cliente.
+4. **Leitura às cegas do estudo, antes de integrar:** quem não viu o plano (Codex só de leitura ou subagente que
+   recebe só o vídeo e 3 quadros: início, meio e fim) descreve a cena em uma frase. Se a frase não bate com o fato
+   do negócio da pergunta 1, o estudo volta (calibrar ou trocar) antes de entrar no site. Foi o que faltou na
+   rodada de 04/11: a régua do degradê e o fio só caíram depois do retorno do dono.
+5. O usuário escolhe as cenas que passaram (quantas o projeto pedir, DEV-42); a escolha vai para o `plano.md`.
 
 ## Receitas
 | Receita | Arquivo | Quando usar | Peso |
@@ -98,6 +102,8 @@ Toda receita nova que der certo num cliente entra aqui (etapa 9 do `lp-maestro`)
 - `gsap-performance`: cena travando no celular. `gsap-core` e `gsap-utils`: dúvidas de API.
 - `motion-design`: coreografia, estrutura narrativa e emoção do movimento (pastas `director/` e `patterns/`);
   ajuda a escrever o roteiro de `tecnicas.md`. Landing page é "vista uma vez": vale a faixa dramática dela.
+  A regra "Always three motion layers" dela **não vale** aqui: camada secundária ou ambiente só entra se passar
+  no teste do porquê; nas seções de leitura basta a entrada discreta (DEV-42).
 - 3D (CloudAI-X): `threejs-react-three-fiber` (cena em R3F), `threejs-loaders` e `threejs-asset-pipeline`
   (GLB, compressão), `threejs-lighting` (HDRI, sombras), `threejs-shaders` (distorção, partículas, fundos),
   `threejs-performance` (celular).

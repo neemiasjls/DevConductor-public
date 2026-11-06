@@ -1,6 +1,6 @@
 # DevConductor
 
-[![testes](https://github.com/neemiasjls/DevConductor/actions/workflows/testes.yml/badge.svg)](https://github.com/neemiasjls/DevConductor/actions/workflows/testes.yml)
+[![testes](https://github.com/neemiasjls/DevConductor-public/actions/workflows/testes.yml/badge.svg)](https://github.com/neemiasjls/DevConductor-public/actions/workflows/testes.yml)
 
 Kit de plugins para o [Claude Code](https://docs.claude.com/en/docs/claude-code) que organiza o trabalho de
 desenvolvimento com agentes de IA: **quem faz cada tarefa, com qual modelo e com quais instruções**. Junta
@@ -45,7 +45,7 @@ O método de trabalho (brainstorm, plano, TDD, revisão) vem do plugin
 Requer o Claude Code e o Node 22+. Na pasta do projeto onde vai usar:
 
 ```bash
-claude plugin marketplace add neemiasjls/DevConductor --scope local
+claude plugin marketplace add neemiasjls/DevConductor-public --scope local
 ```
 ```bash
 claude plugin marketplace add anthropics/claude-plugins-official --scope local

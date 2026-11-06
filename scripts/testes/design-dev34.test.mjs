@@ -57,3 +57,20 @@ test('busca Commons não sobrescreve JSON ou miniaturas de uma busca anterior', 
     fs.unlinkSync(path.join(dir, nome))
   }
 })
+
+test('nenhuma skill lp-* volta a impor cota de cenas grandes (DEV-42)', () => {
+  const base = path.join(raiz, 'plugins/landing-pages/skills')
+  const arquivos = ['lp-cenas/SKILL.md', 'lp-cenas/tecnicas.md', 'lp-construcao/SKILL.md', 'lp-maestro/SKILL.md']
+  for (const rel of arquivos) {
+    const texto = fs.readFileSync(path.join(base, rel), 'utf8')
+    assert.doesNotMatch(texto, /[Cc]enas grandes[^.\n]{0,20}2[–-]3/, rel)
+    assert.doesNotMatch(texto, /escolher? 2[–-]3/, rel)
+    assert.doesNotMatch(texto, /Pelo menos 1 cena/, rel)
+  }
+  const cenas = fs.readFileSync(path.join(base, 'lp-cenas/SKILL.md'), 'utf8')
+  assert.doesNotMatch(cenas, /O mesmo truque já apareceu/, 'pergunta 8 não pode reprovar o que é novo')
+  assert.match(cenas, /Leitura às cegas do estudo/)
+  assert.match(cenas, /three motion layers" dela \*\*não vale\*\*/)
+  const arte = fs.readFileSync(path.join(base, 'lp-direcao-de-arte/SKILL.md'), 'utf8')
+  assert.match(arte, /carry the idea into every section/)
+})

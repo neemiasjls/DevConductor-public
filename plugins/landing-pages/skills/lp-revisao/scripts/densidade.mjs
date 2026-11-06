@@ -1,8 +1,10 @@
 // Conta as palavras visíveis em cada altura de tela (computador 1440×900 e celular 390×844) e aponta as telas
 // acima do limite da LP-12. Rodar no projeto que possui puppeteer-core. Saída nova a cada rodada.
-// Uso: node densidade.mjs <url-http> <pasta-nova> [--computador 60] [--celular 45] [--reduzido] [--estrito]
+// Uso: node densidade.mjs <url-http> <pasta-nova> [--computador 60] [--celular 45] [--reduzido] [--so-avisar]
 // Seções de leitura (serviços, preços, perguntas, rodapé) levam data-leitura e ficam fora do alerta.
-// --estrito: sai com código 1 se houver tela acima do limite. Sem ele, o alerta é para corrigir ou justificar.
+// Tela acima do limite sai com código 1, a menos que o texto dela esteja num elemento com data-densidade="<motivo>"
+// (exceção localizada, o motivo também vai no plano). --so-avisar: só lista, sem reprovar (rodada exploratória).
+// Mede a cada meia tela, para não perder o pico de texto que fica entre duas telas inteiras.
 import fs from 'node:fs'
 import path from 'node:path'
 import { createRequire } from 'node:module'
@@ -11,11 +13,12 @@ import { LIMITES_PADRAO, medirTela, avaliar } from './densidade-regras.mjs'
 
 const args = process.argv.slice(2)
 const posicionais = [], limites = { ...LIMITES_PADRAO }
-let reduzido = false, estrito = false
+let reduzido = false, estrito = true
 for (let i = 0; i < args.length; i++) {
   const a = args[i]
   if (a === '--reduzido') reduzido = true
-  else if (a === '--estrito') estrito = true
+  else if (a === '--estrito') estrito = true // padrão; aceito por compatibilidade
+  else if (a === '--so-avisar') estrito = false
   else if (a === '--computador' || a === '--celular') {
     const v = Number(args[++i])
     if (!Number.isInteger(v) || v < 1) { console.error(`Valor inválido para ${a}`); process.exit(1) }
@@ -25,7 +28,7 @@ for (let i = 0; i < args.length; i++) {
 }
 const [url, saida] = posicionais
 if (posicionais.length !== 2 || !/^https?:\/\//.test(url)) {
-  console.error('Uso: node densidade.mjs <url-http> <pasta-nova> [--computador 60] [--celular 45] [--reduzido] [--estrito]')
+  console.error('Uso: node densidade.mjs <url-http> <pasta-nova> [--computador 60] [--celular 45] [--reduzido] [--so-avisar]')
   process.exit(1)
 }
 const destino = path.resolve(saida)
@@ -74,7 +77,8 @@ function trechosVisiveis() {
       const topo = document.elementFromPoint(x, y)
       return !topo || topo === pai || pai.contains(topo) || topo.contains(pai)
     })
-    if (visivel) saida.push({ texto, leitura: !!pai.closest('[data-leitura],footer,[role="contentinfo"]') })
+    if (visivel) saida.push({ texto, leitura: !!pai.closest('[data-leitura],footer,[role="contentinfo"]'),
+      motivo: pai.closest('[data-densidade]')?.getAttribute('data-densidade')?.trim() || undefined })
   }
   return saida
 }
@@ -89,13 +93,13 @@ try {
     await p.evaluate(() => document.fonts.ready)
     await esperar(800)
     const total = await p.evaluate(() => document.documentElement.scrollHeight - innerHeight)
-    for (let y = 0; ; y = Math.min(y + altura, total)) {
+    for (let y = 0; ; y = Math.min(y + Math.round(altura / 2), total)) {
       await p.evaluate((alvo) => scrollTo({ top: alvo, behavior: 'instant' }), y)
       await esperar(600)
       const trechos = await p.evaluate(trechosVisiveis)
-      const { palavras, palavrasLeitura } = medirTela(trechos)
+      const { palavras, palavrasLeitura, motivos } = medirTela(trechos)
       const amostra = trechos.filter((t) => !t.leitura).map((t) => t.texto).join(' ').slice(0, 160)
-      telas.push({ modo, y, palavras, palavrasLeitura, amostra })
+      telas.push({ modo, y, palavras, palavrasLeitura, amostra, ...(motivos ? { motivos } : {}) })
       if (palavras > limites[modo]) {
         await p.screenshot({ path: path.join(destino, `${modo}-${y}.jpg`), type: 'jpeg', quality: 70 })
       }
@@ -105,12 +109,13 @@ try {
   }
 } finally { await navegador.close() }
 
-const { alertas, maior } = avaliar(telas, limites)
+const { alertas, justificadas, maior } = avaliar(telas, limites)
 fs.writeFileSync(path.join(destino, 'relatorio.json'),
-  JSON.stringify({ url, data: new Date().toISOString(), reduzido, limites, maior, alertas, telas }, null, 2))
+  JSON.stringify({ url, data: new Date().toISOString(), reduzido, limites, maior, alertas, justificadas, telas }, null, 2))
 fs.rmSync(path.join(destino, '.perfil'), { recursive: true, force: true, maxRetries: 5, retryDelay: 200 })
 console.log(`Maior tela: ${maior.computador} palavras no computador (limite ${limites.computador}), ` +
   `${maior.celular} no celular (limite ${limites.celular}).`)
 for (const a of alertas) console.log(`  acima: ${a.modo} y=${a.y} ${a.palavras} palavras — "${a.amostra.slice(0, 90)}"`)
-console.log(alertas.length ? `${alertas.length} tela(s) acima do limite: corrigir ou justificar no plano.` : 'Nenhuma tela acima do limite.')
+for (const j of justificadas) console.log(`  exceção: ${j.modo} y=${j.y} ${j.palavras} palavras — ${j.motivos.join('; ')}`)
+console.log(alertas.length ? `${alertas.length} tela(s) acima do limite: corrigir ou marcar a exceção com data-densidade.` : 'Nenhuma tela acima do limite sem exceção.')
 if (estrito && alertas.length) process.exit(1)

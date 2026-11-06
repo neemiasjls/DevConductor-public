@@ -62,7 +62,7 @@ ao carregar. Em trilhos presos, Tab e Shift+Tab precisam revelar o cartão focad
 foco fora do recorte é falha. Ciclos automáticos têm pausa disponível e param fora da tela. Em canvas com
 legendas DOM, agrupar leituras de dimensões no resize/fontes, sem alternar leitura de layout e escrita a cada quadro.
 
-Cenas grandes (2–3 por site, escolhidas na etapa "conceito de movimento"): guiadas pelo scroll, com GSAP +
+Cenas grandes (quantas o projeto pedir, DEV-42, escolhidas na etapa "conceito de movimento"): guiadas pelo scroll, com GSAP +
 ScrollTrigger e seção presa. Nas outras seções GSAP também pode entrar, sem seção presa longa. Receitas prontas, cuidados e o teste com Edge
 invisível em `lp-cenas`; as peças delas vêm prontas de `lp-assets` (com licença em `assets.md`). No celular a cena continua (DEV-34), com pin mais curto e peças mais leves; com movimento reduzido, tudo parado
 e visível.

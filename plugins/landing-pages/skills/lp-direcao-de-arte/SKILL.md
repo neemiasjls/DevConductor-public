@@ -63,6 +63,9 @@ assunto (permitido pela skill); fonte de texto sorteada (Public Sans, #87) troca
 - Layout com intenção, variando entre seções (grade, sobreposição, tela cheia, rolagem horizontal); cenas
   grandes presas pelo scroll na quantidade que o projeto pede, cada uma mostrando um fato do negócio (ver `lp-cenas`); seções de leitura com
   movimento discreto. Uma ideia por tela e texto curto (LP-12): a direção não pode depender de explicação.
+  Por isso perdem duas regras da taste-skill: "carry the idea into every section" (a ideia central aparece na
+  abertura, numa cena grande e no fechamento, `lp-cenas/tecnicas.md`) e "fullness" quando encher a tela
+  significa pôr mais texto ou mais efeito; tela com respiro e uma coisa só é aceita.
 - Formas suaves: arcos (como espelhos/portas do salão), fotos arredondadas, botões pílula. Nada "quadrado".
   Pedido reforçado pelo usuário (16/10): quina pontuda nas fotos incomoda; o padrão de raio está em `lp-construcao`.
 - Animação do começo ao fim: cenas grandes fortes (3D real, foto que abre, Lottie/Rive quando o real não se

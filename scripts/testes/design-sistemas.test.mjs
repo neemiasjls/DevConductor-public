@@ -75,3 +75,11 @@ test('modelo de DESIGN.md segue o formato: cor e referência entre aspas, tipogr
     assert(['fontFamily', 'fontSize', 'lineHeight', 'fontWeight', 'letterSpacing', 'fontFeature', 'fontVariation'].includes(campo[1]), campo[1])
   }
 })
+
+test('ui-sistemas mede a tela pela tarefa e não esconde explicação só em tooltip', () => {
+  const s = ler(path.join(plugin, 'skills/ui-sistemas/SKILL.md'))
+  assert.match(s, /3 tarefas mais comuns/)
+  assert.match(s, /só com\s+teclado/)
+  assert.match(s, /tabela de comparar colunas/)
+  assert.match(s, /não fica só em tooltip/)
+})

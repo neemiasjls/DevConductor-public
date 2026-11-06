@@ -44,17 +44,23 @@ e links só podem ser avaliados na página real; o vídeo da vitrine não é a s
 Um site que passa em todos os testes técnicos e confunde o visitante está reprovado (retorno de 04/11/2026:
 "muita informação", "efeito forçado", "legal mas confuso").
 1. **Densidade de texto:** `node <plugin>/skills/lp-revisao/scripts/densidade.mjs <url> revisao/densidade-N`
-   conta as palavras visíveis em cada altura de tela, no computador (1440×900) e no celular (390×844).
+   conta as palavras visíveis a cada meia tela, no computador (1440×900) e no celular (390×844), e **sai com
+   código 1** se alguma tela passar do limite (reprova a entrega; `--so-avisar` só em rodada exploratória).
    Seções de leitura levam `data-leitura` no elemento (serviços, preços, perguntas, rodapé) e ficam fora do
-   alerta. Fora delas, tela acima do limite (padrão: 60 palavras no computador, 45 no celular) é falha a corrigir
-   ou a justificar no plano. Os limites de partida vêm da LP-12 e da `lp-textos`.
+   alerta. Fora delas, tela acima do limite (padrão: 60 palavras no computador, 45 no celular) é falha a corrigir.
+   Exceção só localizada: `data-densidade="<motivo>"` no elemento, o mesmo motivo no plano; o relatório lista
+   essas telas à parte. Marcar seção como leitura ou exceção para baixar o placar, sem tirar texto, é fraude da
+   régua. Os limites de partida vêm da LP-12 e da `lp-textos`.
 2. **Teste do porquê** (`lp-cenas`) para cada efeito do roteiro, respondido olhando o site, não o plano. Registrar
    a tabela Efeito / Fato do negócio / Entende sem legenda? / Decisão. Efeito que falha sai ou vira movimento discreto.
-3. **Leitura às cegas:** alguém que não viu o plano (o Codex só de leitura, ou um subagente que recebe apenas os
+3. **Leitura às cegas** (a mesma da `lp-cenas`, agora no site pronto): alguém que não viu o plano (o Codex só de leitura, ou um subagente que recebe apenas os
    prints e o vídeo) descreve cada cena grande em uma frase e diz o que achou confuso. Se a frase dele não bate com
    a intenção do plano, a cena falhou, mesmo que esteja bonita.
 4. **Rótulos e camadas:** no máximo 4 rótulos visíveis ao mesmo tempo dentro de uma cena; título, apoio e chamada
    nunca disputam com ficha técnica, créditos ou números de detalhe.
+
+**Portão de entrega:** só mostrar ao usuário com `revisar-pagina.mjs` e `densidade.mjs` (normal e
+`--reduzido`) saindo com código 0 e a leitura às cegas batendo com o plano. Conferir o código de saída, não o texto.
 
 ## 1. Prints reais
 Com o servidor rodando: `node <plugin>/skills/lp-revisao/scripts/prints.mjs <url> <pasta> [seletores...]`

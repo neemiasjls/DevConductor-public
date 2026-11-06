@@ -56,3 +56,27 @@ test('não sobrescreve uma rodada anterior', () => {
     assert.match(r.stderr, /pasta nova/)
   } finally { fs.rmSync(dir, { recursive: true, force: true }) }
 })
+
+test('exceção localizada (data-densidade) não reprova, mas fica listada com o motivo', () => {
+  const tela = medirTela([
+    { texto: 'Cinco marcos da viagem com hora e temperatura em cada um deles', leitura: false, motivo: 'entrada da viagem' },
+    { texto: 'Rodapé', leitura: true, motivo: 'ignorado na leitura' },
+  ])
+  assert.deepEqual(tela.motivos, ['entrada da viagem'])
+  const { alertas, justificadas } = avaliar([
+    { modo: 'computador', y: 0, palavras: 80, motivos: ['entrada da viagem'] },
+    { modo: 'computador', y: 450, palavras: 80 },
+  ])
+  assert.deepEqual(alertas.map((a) => a.y), [450])
+  assert.deepEqual(justificadas.map((a) => [a.y, a.motivos]), [[0, ['entrada da viagem']]])
+})
+
+test('reprovar é o padrão e a revisão manda medir a cada meia tela', () => {
+  const fonte = fs.readFileSync(script, 'utf8')
+  assert.match(fonte, /estrito = true/)
+  assert.match(fonte, /--so-avisar/)
+  assert.match(fonte, /altura \/ 2/)
+  const revisao = fs.readFileSync(path.join(raiz, 'plugins/landing-pages/skills/lp-revisao/SKILL.md'), 'utf8')
+  assert.match(revisao, /Portão de entrega/)
+  assert.match(revisao, /data-densidade/)
+})

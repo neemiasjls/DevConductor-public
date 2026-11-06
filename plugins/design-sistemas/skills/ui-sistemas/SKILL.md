@@ -36,7 +36,7 @@ cada tecla.
 | Documento, telefone, dinheiro, data | Máscara do react-imask; guarde o valor limpo. CNPJ aceita letras desde julho de 2026 (nada de `\d` nem `replace(/\D/g, '')` nele). Dinheiro em centavos inteiros, alinhado à direita. Data `dd/mm/aaaa`, sem `new Date("AAAA-MM-DD")` (vira o dia anterior no Brasil). |
 | Ação que dá para desfazer (inativar, arquivar, mover) | Faça na hora e mostre "Desfazer" no aviso por ~6 s; se o servidor recusar, volte a tela como estava e diga o motivo. AlertDialog só para o irreversível (excluir de vez, cancelar nota, enviar ao cliente), com o nome do item e o verbo no botão ("Excluir pedido 1042"). |
 | Situação (ativo, pago, pendente) | O estado normal fica discreto (texto ou selo neutro); cor só no que pede atenção (vencido, bloqueado), sempre com a palavra. |
-| Lista e tabela | Busca, filtros, ordem e página na URL (voltar e recarregar mantêm). Contagem ("12 de 340 clientes"). Ordem padrão útil (nome A–Z com `compararNomes`, ou mais recente). Mais de ~50 linhas: paginação no servidor. Cabeçalho fixo; número à direita com `tabular-nums`; ações da linha num menu "⋯" com nome acessível. No celular, cartões. |
+| Lista e tabela | Busca, filtros, ordem e página na URL (voltar e recarregar mantêm). Contagem ("12 de 340 clientes"). Ordem padrão útil (nome A–Z com `compararNomes`, ou mais recente). Mais de ~50 linhas: paginação no servidor. Cabeçalho fixo; número à direita com `tabular-nums`; ações da linha num menu "⋯" com nome acessível. Seleção em lote (caixa por linha + barra de ações) quando a tarefa repete a mesma ação em vários registros. No celular: lista de consulta vira cartões; tabela de comparar colunas mantém as 2–3 colunas que decidem e rola na horizontal dentro dela, com a primeira coluna fixa. |
 | Carregando e salvando | Esqueleto com o formato do conteúdo, só depois de ~300 ms (não pisca). Botão que salva fica ocupado e ignora o segundo clique. |
 | Textos | Botão com verbo e objeto ("Salvar cliente"). Sem frase de enfeite ("Preencha os dados abaixo"). Maiúscula só no início. Número, moeda e data no formato brasileiro. |
 | Densidade | Uso diário no computador: linha de 40 px (32 px em tabela grande); toque no celular: alvo de 44 px. Definida no DESIGN.md e igual em todo o sistema. |
@@ -52,7 +52,9 @@ cada tecla.
 
 ## Fluxo de uma tela
 1. **Tarefa:** em uma frase, o que a pessoa faz nesta tela e com que frequência. Painel de indicadores segue a
-   `dashboard-design` (uma pergunta por tela, números honestos).
+   `dashboard-design` (uma pergunta por tela, números honestos). Liste as 3 tarefas mais comuns e quantos passos
+   cada uma pode levar (ex.: "achar cliente pelo CNPJ e abrir: 2 passos"); a revisão (passo 5) faz as três só com
+   teclado e confere que cabem nesse número e que voltar da tela de detalhe mantém busca e filtros.
 2. **DESIGN.md:** leia (ou crie, como acima).
 3. **Construa** com a stack e a tabela acima. Dados de exemplo cobrindo todos os estados; em desenvolvimento
    (`import.meta.env.DEV`), um jeito de forçar cada um (ex.: `?estado=vazio|erro|lento`).
@@ -78,7 +80,9 @@ sozinho. Sem DESIGN.md, reconstrua antes com `create-design-md`.
 | `improve-ui` | Auditar tela existente sem trocar a identidade |
 
 Conflito: o DESIGN.md do projeto vence o estilo da casa da `dashboard-design`; o gosto declarado do usuário vence
-os dois; a tabela desta skill vence as consultoras.
+os dois; a tabela desta skill vence as consultoras. O "Wordless" da `dashboard-design` vale para a tela, mas
+explicação de que a pessoa precisa para decidir não fica só em tooltip (toque e leitor de tela não veem): vai num
+texto curto visível ou numa linha de ajuda.
 
 ## Erros comuns (vistos em teste sem esta skill)
 - "Nenhum cliente encontrado." igual para primeiro uso e para busca sem resultado, sem ação.

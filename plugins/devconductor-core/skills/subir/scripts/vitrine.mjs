@@ -134,7 +134,7 @@ export function gerar({ projeto, destino, conferir = false, cfg } = {}) {
     achados.push(...varrer(origem, texto, cfg))
   }
   if (achados.length || conferir) return { lista, achados, copiados: 0, trocados }
-  const alvo = path.resolve(projeto, destino || cfg.pasta || path.join('..', path.basename(projeto) + '-vitrine'))
+  const alvo = path.resolve(projeto, destino || cfg.pasta || path.join('..', path.basename(projeto) + '-public'))
   if (alvo === projeto || projeto.startsWith(alvo + path.sep)) throw new Error('destino não pode ser o próprio projeto')
   limparDestino(alvo)
   for (const { origem, destino: d } of lista) {
@@ -150,8 +150,8 @@ export function gerar({ projeto, destino, conferir = false, cfg } = {}) {
 export function enviar({ projeto, mensagem, cfg } = {}) {
   projeto = path.resolve(projeto || '.')
   cfg ||= lerConfig(projeto)
-  if (!cfg?.repositorio) throw new Error('vitrine.json sem "repositorio" (ex.: "usuario/projeto-vitrine")')
-  const alvo = path.resolve(projeto, cfg.pasta || path.join('..', path.basename(projeto) + '-vitrine'))
+  if (!cfg?.repositorio) throw new Error('vitrine.json sem "repositorio" (ex.: "usuario/projeto-public")')
+  const alvo = path.resolve(projeto, cfg.pasta || path.join('..', path.basename(projeto) + '-public'))
   const nome = git(projeto, 'config', 'user.name').stdout.trim()
   const email = git(projeto, 'config', 'user.email').stdout.trim()
   if (!nome || !email) throw new Error('o repositório privado não tem user.name/user.email: configurar antes de enviar')
