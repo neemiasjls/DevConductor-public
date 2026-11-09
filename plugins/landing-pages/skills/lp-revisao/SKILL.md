@@ -52,7 +52,9 @@ Um site que passa em todos os testes técnicos e confunde o visitante está repr
    essas telas à parte. A exceção cobre só as palavras marcadas: o texto sem exceção ainda precisa caber no limite.
    Relatórios antigos sem contagem explícita da exceção não aprovam automaticamente uma tela acima do limite.
    Marcar seção como leitura ou exceção para baixar o placar, sem tirar texto, é fraude da
-   régua. Os limites de partida vêm da LP-12 e da `lp-textos`.
+   régua. Os limites de partida vêm da LP-12 e da `lp-textos`. **O limite é teto, não meta:** ficar abaixo não aprova nada, e
+   cortar além do que a seção precisa empobrece o site tanto quanto o excesso o confunde. O relatório lista em
+   `aOlhar` as telas quase sem texto e sem imagem grande; esse aviso não reprova, só pede que alguém olhe.
 2. **Teste do porquê** (`lp-cenas`) para cada efeito do roteiro, respondido olhando o site, não o plano. Registrar
    a tabela Efeito / Fato do negócio / Entende sem legenda? / Decisão. Efeito que falha sai ou vira movimento discreto.
 3. **Leitura às cegas** (a mesma da `lp-cenas`, agora no site pronto): alguém que não viu o plano (o Codex só de leitura, ou um subagente que recebe apenas os
@@ -61,8 +63,17 @@ Um site que passa em todos os testes técnicos e confunde o visitante está repr
 4. **Rótulos e camadas:** no máximo 4 rótulos visíveis ao mesmo tempo dentro de uma cena; título, apoio e chamada
    nunca disputam com ficha técnica, créditos ou números de detalhe.
 
+5. **Contra site vazio:** seção por seção, olhando o site, responder: *cada seção tem algo que prende o olhar e conteúdo
+   suficiente para convencer?* Registrar a tabela Seção / O que prende o olhar / O que convence / Decisão. Prende: foto forte,
+   objeto real, escolha que a pessoa faz, tipografia com presença. Convence: o que ela precisa saber para dar o próximo passo.
+   Tela com respiro e uma coisa só é aceita quando essa coisa é forte. A resposta "não" pede imagem melhor, interação com
+   motivo ou o dado que falta, sempre dentro do teto; não é licença para encher a tela nem para aumentar o limite (DEV-41).
+6. **Imagens:** toda foto passa no critério de qualidade da `lp-assets`, olhada no recorte final a 100%. Reprovada, sai ou
+   troca de solução visual, mesmo com licença em ordem.
+
 **Portão de entrega:** só mostrar ao usuário com `revisar-pagina.mjs` e `densidade.mjs` (normal e
-`--reduzido`) saindo com código 0 e a leitura às cegas batendo com o plano. Conferir o código de saída, não o texto.
+`--reduzido`) saindo com código 0, `validar-assets.mjs` aprovado, a tabela contra site vazio preenchida e a leitura às
+cegas batendo com o plano. Conferir o código de saída, não o texto.
 
 ## 1. Prints reais
 Com o servidor rodando: `node <plugin>/skills/lp-revisao/scripts/prints.mjs <url> <pasta> [seletores...]`

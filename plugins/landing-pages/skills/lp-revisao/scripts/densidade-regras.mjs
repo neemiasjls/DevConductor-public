@@ -24,6 +24,13 @@ export function medirTela(trechos) {
   return motivos.size ? { palavras, palavrasLeitura, motivos: [...motivos], palavrasJustificadas } : { palavras, palavrasLeitura }
 }
 
+// Limite é teto, não meta: tela quase sem texto e sem imagem grande vai para "olhar", sem reprovar. Uma tela só com
+// foto forte ou título grande é aceita (LP-12); aqui só se aponta onde pode não haver nada que prenda o olhar.
+export function telasParaOlhar(telas, minimoPalavras = 5) {
+  return telas.filter((t) => Number.isInteger(t.midias) && t.midias === 0 && t.palavras + (t.palavrasLeitura ?? 0) < minimoPalavras)
+    .map((t) => ({ modo: t.modo, y: t.y, palavras: t.palavras + (t.palavrasLeitura ?? 0) }))
+}
+
 export function avaliar(telas, limites = LIMITES_PADRAO) {
   for (const modo of ['computador', 'celular']) {
     const limite = limites[modo]

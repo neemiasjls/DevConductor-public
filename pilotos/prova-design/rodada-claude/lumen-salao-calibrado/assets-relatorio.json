@@ -1,0 +1,191 @@
+{
+  "aprovado": true,
+  "erros": [],
+  "arquivos": [
+    {
+      "arquivo": "public/img/abertura-480.webp",
+      "bytes": 27380,
+      "sha256": "12ef22e12ec77cfa8923fad808af01bc6608dfeb67e3c5504bef041ddaa16c41",
+      "autor": "Nina Strehl",
+      "origem": "https://stocksnap.io/photo/2H93LDS99K",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/abertura-960.webp",
+      "bytes": 104328,
+      "sha256": "1ce6243b6fc78244dfbaae7346dbf78fc5666b9298082058ec6aa6ae80b6d442",
+      "autor": "Nina Strehl",
+      "origem": "https://stocksnap.io/photo/2H93LDS99K",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/abertura-1600.webp",
+      "bytes": 269350,
+      "sha256": "69e5a017e1b83cfa0dae2f901563d5cbc03f8b9d38bd80804dbdafc56193854f",
+      "autor": "Nina Strehl",
+      "origem": "https://stocksnap.io/photo/2H93LDS99K",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/fio-640.webp",
+      "bytes": 27906,
+      "sha256": "b379e96e3c25a8504d67324e8aedb2f1b7b49998a5d55dfd412f10c2052983d2",
+      "autor": "Alex Holyoake",
+      "origem": "https://stocksnap.io/photo/HDZE2J2VNL",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/fio-1280.webp",
+      "bytes": 73236,
+      "sha256": "a5b462bc24e506b534706086e8cfe5e4246f3a27704ac6adb49e785768768600",
+      "autor": "Alex Holyoake",
+      "origem": "https://stocksnap.io/photo/HDZE2J2VNL",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/fio-1920.webp",
+      "bytes": 121754,
+      "sha256": "37db091bd04e155a1b00f21373c4e352433a15085966d2a797eeda17bb3e0905",
+      "autor": "Alex Holyoake",
+      "origem": "https://stocksnap.io/photo/HDZE2J2VNL",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/resultado-480.webp",
+      "bytes": 16804,
+      "sha256": "2929aceecd74d9e02bcaaf73cd12013d8063e7bb7e267e038996e9b20787de8a",
+      "autor": "Nikolai Ulltang",
+      "origem": "https://stocksnap.io/photo/8JJL0GL391",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/resultado-960.webp",
+      "bytes": 54330,
+      "sha256": "1a32768e0fe27723d7fd7cd132b3b2f453c1336eac3107971303be40dbd7b6cc",
+      "autor": "Nikolai Ulltang",
+      "origem": "https://stocksnap.io/photo/8JJL0GL391",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/resultado-1280.webp",
+      "bytes": 92720,
+      "sha256": "4bcc8e29f49815d0ef250d36222bb1cffaf3ef7d1c398eaddd44641dbf1c6269",
+      "autor": "Nikolai Ulltang",
+      "origem": "https://stocksnap.io/photo/8JJL0GL391",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/hidratacao-480.webp",
+      "bytes": 12306,
+      "sha256": "682cb2aeeadaf2db0b20e651e88a4c35daa54585c6cdc289942ddadd2953b9bd",
+      "autor": "Healthy Living",
+      "origem": "https://stocksnap.io/photo/D5CG6JAYN3",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/hidratacao-960.webp",
+      "bytes": 33174,
+      "sha256": "eff79175435cfe1b899fd093c4d5250d1d5e7de16b83534a32cfd84324a1335d",
+      "autor": "Healthy Living",
+      "origem": "https://stocksnap.io/photo/D5CG6JAYN3",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/nutricao-480.webp",
+      "bytes": 12060,
+      "sha256": "e5d38e79b287dae4fa979f92eaa5494981d47118dcce09f3a8e0f9363a9ea91c",
+      "autor": "rawpixel",
+      "origem": "https://www.rawpixel.com/image/5919224/hair-salon-free-public-domain-cc0-photo",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/nutricao-960.webp",
+      "bytes": 27750,
+      "sha256": "059c75fc55336c0188607870aaec7cd7c0497a499e1cfa4d5af9c950c9c158e1",
+      "autor": "rawpixel",
+      "origem": "https://www.rawpixel.com/image/5919224/hair-salon-free-public-domain-cc0-photo",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/reconstrucao-480.webp",
+      "bytes": 8746,
+      "sha256": "5760f35cc0eca37df6b39ba3b2d61ed0a59ee0e5c8a03aa63917e95253eb6af3",
+      "autor": "rawpixel",
+      "origem": "https://www.rawpixel.com/image/5907502/image-public-domain-woman-beauty",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/reconstrucao-960.webp",
+      "bytes": 23496,
+      "sha256": "69438c872e7ccef69abf0ffccde747786d1a14a10be54df55d1fdb360c2ff304",
+      "autor": "rawpixel",
+      "origem": "https://www.rawpixel.com/image/5907502/image-public-domain-woman-beauty",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/cronograma-480.webp",
+      "bytes": 31462,
+      "sha256": "9a67ce5ef4fa15b1500231c06dca6d98365bdbad12420d64f6ba8e7559728c5e",
+      "autor": "Candace McDaniel",
+      "origem": "https://stocksnap.io/photo/IFMPBCVTUA",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/cronograma-960.webp",
+      "bytes": 95940,
+      "sha256": "eabf7248ae0560ff2135334b6dbea1d9f9cd4331c0a6feca1aa58cf89ee46a90",
+      "autor": "Candace McDaniel",
+      "origem": "https://stocksnap.io/photo/IFMPBCVTUA",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/corte-480.webp",
+      "bytes": 14216,
+      "sha256": "deb41a9f1c25b252c925b7b5b2f2c5640921eba89ab4874f927cdcb2ceef26f8",
+      "autor": "Matt Moloney",
+      "origem": "https://stocksnap.io/photo/S7UEWWIRTD",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/corte-960.webp",
+      "bytes": 39790,
+      "sha256": "8a7ccdbb66b6d9ad3d894a2a9746783d525d996a547523770664f3418ff2b591",
+      "autor": "Matt Moloney",
+      "origem": "https://stocksnap.io/photo/S7UEWWIRTD",
+      "licenca": "CC0"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "0-reflexo-abertura",
+      "desktop": 269350,
+      "celular": 104328,
+      "classe": "leve"
+    },
+    {
+      "id": "1-diagnostico-quadro",
+      "desktop": 84420,
+      "celular": 33112,
+      "classe": "leve"
+    },
+    {
+      "id": "2-de-perto",
+      "desktop": 121754,
+      "celular": 73236,
+      "classe": "leve"
+    },
+    {
+      "id": "4-resultado-arco",
+      "desktop": 92720,
+      "celular": 54330,
+      "classe": "leve"
+    },
+    {
+      "id": "5-servicos-quadro",
+      "desktop": 220150,
+      "celular": 78790,
+      "classe": "leve"
+    }
+  ],
+  "observacao": "Valida declarações, integridade e resolução; direitos de imagem, termos da fonte, realismo e o olhar sobre a foto exigem revisão humana."
+}

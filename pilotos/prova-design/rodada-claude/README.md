@@ -66,3 +66,12 @@ ou proibir3D. A substituição integral por foto foi interpretação excessiva d
 ### Escolha confirmada para o exemplo Codex (30/10)
 A nova carga é uma caixa de ovos. A cena3D foi mantida com modelo de embalagem de polpa moldada e doze
 ovos. A abertura apenas fotográfica ficou histórica. Não reverter essa escolha ao ler os registros antigos.
+
+## Lúmen calibrado (09/11, DEV-52)
+`lumen-salao-calibrado/` (porta 5204, launch `claude-lumen-calibrado`) é a prova das imagens e da calibragem do kit
+`landing-pages` 0.3.16. Não substitui `lumen-salao/` (5202) e não entra na vitrine sem o veredito do Neemias.
+
+## Austral e Prumo calibrados (09/11, DEV-52)
+Mesmo método do Lúmen, depois do "Aprovado, aplicar": `austral-frio-calibrado/` (5205, launch `claude-austral-calibrado`) e
+`prumo-barbearia-calibrado/` (5206, launch `claude-prumo-calibrado`). Cada uma tem `/antes-depois.html` e a calibragem no
+`plano.md`. Não substituem os originais e não entram na vitrine sem o veredito do Neemias.

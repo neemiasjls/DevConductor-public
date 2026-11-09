@@ -1,0 +1,465 @@
+{
+  "esquema": 2,
+  "url": "http://localhost:5205/",
+  "data": "2026-11-09T18:41:16.250Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 53,
+    "celular": 51
+  },
+  "alertas": [],
+  "justificadas": [
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 51,
+      "limite": 45,
+      "amostra": "Do pátio à entrega, a mesma faixa contratada. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 0 h No baú −18,1 °C 0 h",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    }
+  ],
+  "aOlhar": [
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 0
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 450,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 32,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro. Toque a foto para tirar a geada. Foto ilustrativa: Kopiersperre, "
+    },
+    {
+      "modo": "computador",
+      "y": 1350,
+      "palavras": 32,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro. Toque a foto para tirar a geada. Foto ilustrativa: Kopiersperre, "
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 17,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Coletamos frio. Viajamos frio. Entregamos frio."
+    },
+    {
+      "modo": "computador",
+      "y": 2250,
+      "palavras": 14,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Coletamos frio. Viajamos frio. Entregamos frio. Do pátio à entrega, a mesma faixa contratada."
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "frio. Entregamos frio. Do pátio à entrega, a mesma faixa contratada. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora ",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "computador",
+      "y": 3150,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 0 h No baú −18,1 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 53,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Hora 5 h No baú −18,0 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta Porta aberta 25 min na doca. Sobe 0,7 °C e volta em 40 mi"
+    },
+    {
+      "modo": "computador",
+      "y": 4050,
+      "palavras": 51,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Hora 14 h No baú −18,0 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio No Paraná, parada curta com a porta lacrada."
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 52,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Hora 22 h No baú −17,9 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista Perto de Curitiba, "
+    },
+    {
+      "modo": "computador",
+      "y": 4950,
+      "palavras": 52,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Hora 31 h No baú −18,0 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista Perto de Curitiba, "
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 5850,
+      "palavras": 0,
+      "palavrasLeitura": 60,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 13,
+      "palavrasLeitura": 80,
+      "midias": 0,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga."
+    },
+    {
+      "modo": "computador",
+      "y": 6750,
+      "palavras": 33,
+      "palavrasLeitura": 20,
+      "midias": 1,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua "
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 39,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua lendo a cada 5 m"
+    },
+    {
+      "modo": "computador",
+      "y": 7650,
+      "palavras": 9,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 8100,
+      "palavras": 9,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 8550,
+      "palavras": 9,
+      "palavrasLeitura": 44,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 9000,
+      "palavras": 0,
+      "palavrasLeitura": 98,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 9450,
+      "palavras": 26,
+      "palavrasLeitura": 66,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 9900,
+      "palavras": 33,
+      "palavrasLeitura": 41,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 10350,
+      "palavras": 7,
+      "palavrasLeitura": 144,
+      "midias": 0,
+      "amostra": "Pedir cotação no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "computador",
+      "y": 10362,
+      "palavras": 7,
+      "palavrasLeitura": 144,
+      "midias": 0,
+      "amostra": "Pedir cotação no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 422,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 26,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro. Toque a foto para tirar a geada."
+    },
+    {
+      "modo": "celular",
+      "y": 1266,
+      "palavras": 32,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro. Toque a foto para tirar a geada. Foto ilustrativa: Kopiersperre, "
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 17,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Coletamos frio. Viajamos frio. Entregamos frio."
+    },
+    {
+      "modo": "celular",
+      "y": 2110,
+      "palavras": 26,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Coletamos frio. Viajamos frio. Entregamos frio. Do pátio à entrega, a mesma faixa contratada. A viagem O que o cliente nunca vê: 36 horas de temperatura.",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 12
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 51,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Do pátio à entrega, a mesma faixa contratada. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 0 h No baú −18,1 °C 0 h",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "celular",
+      "y": 2954,
+      "palavras": 42,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "Registro de demonstração. Hora 0 h No baú −18,1 °C 0 h Pré-resfriamento Em Chapecó, o baú chega a −18 °C vazio, antes da doca. 2 h Coleta 8 h Pedágio 15 h Parad",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 3
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 39,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Hora 10 h No baú −17,9 °C 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio No Paraná, parada curta com a porta lacrada. A linha nem percebe. 15 h Parada do motorista"
+    },
+    {
+      "modo": "celular",
+      "y": 3798,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Hora 22 h No baú −17,9 °C 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista Perto de Curitiba, 11 horas de descanso. O motorista para; o frio"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Hora 34 h No baú −18,0 °C 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista 33 h Porta aberta na entrega Em São Paulo, sobe 1,2 °C na descarg"
+    },
+    {
+      "modo": "celular",
+      "y": 4642,
+      "palavras": 0,
+      "palavrasLeitura": 28,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 0,
+      "palavrasLeitura": 44,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5486,
+      "palavras": 0,
+      "palavrasLeitura": 65,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 33,
+      "palavrasLeitura": 36,
+      "midias": 0,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua "
+    },
+    {
+      "modo": "celular",
+      "y": 6330,
+      "palavras": 33,
+      "palavrasLeitura": 5,
+      "midias": 1,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua "
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 9,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "celular",
+      "y": 7174,
+      "palavras": 9,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 9,
+      "palavrasLeitura": 12,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "celular",
+      "y": 8018,
+      "palavras": 0,
+      "palavrasLeitura": 46,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 8440,
+      "palavras": 0,
+      "palavrasLeitura": 90,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 8862,
+      "palavras": 26,
+      "palavrasLeitura": 52,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "celular",
+      "y": 9284,
+      "palavras": 32,
+      "palavrasLeitura": 10,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "celular",
+      "y": 9706,
+      "palavras": 6,
+      "palavrasLeitura": 39,
+      "midias": 0,
+      "amostra": "Cotar no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 10128,
+      "palavras": 0,
+      "palavrasLeitura": 61,
+      "midias": 1,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 10547,
+      "palavras": 0,
+      "palavrasLeitura": 105,
+      "midias": 1,
+      "amostra": ""
+    }
+  ]
+}

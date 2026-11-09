@@ -8,6 +8,29 @@ description: Prepara as peças visuais das cenas-assinatura escolhidas (ilustra�
 A cena só fica bonita com peças boas, e elas são o gargalo. Esta etapa entrega, para cada cena escolhida
 em `lp-cenas`, os arquivos prontos em `clientes/<slug>/assets/` e a lista `clientes/<slug>/assets.md`.
 
+## Ordem de preferência das imagens
+1. **Foto do cliente**, quando passa no critério abaixo.
+2. **Banco curado** com uso comercial: Pexels e Unsplash (API oficial com chave) ou CC0 pelo Openverse (StockSnap, sem chave).
+3. **Imagem gerada**, se a ferramenta liberar uso comercial e o resultado passar no mesmo critério. Baixa qualidade não passa.
+4. **3D real ou ilustração própria:** objeto real com um gesto simples. A cadeira 3D do Prumo (Poly Haven, CC0) foi a imagem mais elogiada.
+
+**Sem foto boa, troque a solução visual, não baixe a régua.** Foto fraca não entra por falta de opção: vira 3D, ilustração,
+tipografia ou uma foto a menos. Wikimedia Commons fica só como último recurso de foto, para algo documental que os bancos não têm.
+
+## Critério de qualidade da foto
+Abrir o original e o recorte final, a 100%. A busca devolve licença, nunca qualidade. Foto que falhar em um item sai.
+| Item | Passa quando |
+|---|---|
+| **Resolução** | Lado maior da versão publicada: abertura 1600 px, cena 1280, apoio 800, miniatura 480. Sem ampliar arquivo pequeno |
+| **Luz** | O assunto tem luz com direção; sombra sem sujeira, reflexo sem estourar, fundo não rouba a atenção |
+| **Foco** | O assunto está nítido a 100% no recorte usado; ruído e desfoque só onde são intenção |
+| **Expressão** | Rosto, pose e roupa combinam com a marca e com a frase ao lado. Expressão ou decote que desviam do serviço reprovam |
+| **Série** | As fotos parecem do mesmo ensaio: mesma família de luz e um tratamento só. Mesmo fotógrafo ajuda, mas não basta |
+
+Procurar a série antes das fotos soltas: buscar pelo autor de uma foto boa costuma render o ensaio inteiro. Evitar
+trocar fundo por chave de cor quando a borda denuncia a montagem. Se a pessoa aparece nítida, a foto não pode
+sugerir que ela é cliente ou recomenda o negócio: nota "foto ilustrativa" ao lado.
+
 ## Conferência visual do conteúdo (antes de associar a peça à cena)
 - Abrir o arquivo real e o recorte final: título, nome do arquivo, categoria da busca e texto alternativo
   não comprovam o que aparece. Conferir se a imagem demonstra o serviço/penteado/produto nomeado.
@@ -72,13 +95,20 @@ em `lp-cenas`, os arquivos prontos em `clientes/<slug>/assets/` e a lista `clien
    recortar com `scripts/recortar-fundo.py`. **Não** usar foto em placas para fingir 3D: o usuário percebe
    na hora em que a câmera gira. Uso comercial: conferir os termos da ferramenta antes de publicar.
 
-6. **Foto de apoio com licença aberta** (demonstração, ou enquanto o cliente não manda foto): Wikimedia
-   Commons, que devolve autor e licença de cada arquivo. `node scripts/buscar-commons.mjs <rotulo> "<busca>" ...`
-   grava `<rotulo>.json` (original, página, autor, licença) e miniaturas sem sobrescrever busca anterior;
-   use um rótulo novo em cada rodada. `python -I scripts/folha-contato.py
-   <rotulo>` monta uma folha numerada para escolher olhando. Aceita CC0, domínio público, CC BY e CC BY-SA
-   (foto alterada de BY-SA continua BY-SA). Em 29/10/2026 o Openverse respondia 504 e o Unsplash mostra
-   verificação anti-robô: não contornar. Fora pessoas públicas e marcas de terceiros legíveis.
+6. **Foto de banco curado** (demonstração, ou enquanto o cliente não manda foto):
+   `node scripts/buscar-fotos.mjs <rotulo> <pexels|unsplash|openverse> "<busca>" ... [--orientacao vertical]` grava
+   `<rotulo>.json` (original, página, autor, licença, condição de uso) e miniaturas, sem sobrescrever busca anterior.
+   `python -I scripts/folha-contato.py <rotulo>` monta uma folha numerada para escolher olhando.
+   | Fonte | Chave | O que os termos pedem (conferido em 09/11/2026) |
+   |---|---|---|
+   | [Pexels](https://www.pexels.com/api/documentation/) | `PEXELS_API_KEY`, grátis, na hora; 200/hora | [Licença](https://www.pexels.com/license/) libera uso comercial e edição. A API pede link visível para o Pexels; crédito ao autor quando possível. Melhor primeira opção: nada contra hospedar a foto no site |
+   | [Unsplash](https://unsplash.com/documentation) | `UNSPLASH_ACCESS_KEY`, grátis; 50/hora em demonstração | [Licença](https://unsplash.com/license) libera uso comercial. A [API](https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines) exige usar a URL dela (sem copiar o arquivo), avisar o download e creditar. Para hospedar a foto, o usuário baixa pelo site |
+   | Openverse (StockSnap CC0) | nenhuma; instável (504: repetir) | [StockSnap](https://stocksnap.io/license) é CC0. A URL da API tem 960 px: o original vem do botão de download da página. rawpixel pela API para em 1024 px |
+   **A chave é do usuário:** ele cria e guarda como variável de ambiente, nunca em arquivo versionado. Sem chave, usar o
+   Openverse ou a próxima fonte da ordem. Verificação anti-robô, login ou bloqueio encerram a busca naquela fonte:
+   nunca contornar nem raspar a página. Qualquer banco: sem vender a foto sem alteração, sem sugerir que a pessoa
+   apoia a marca, sem usá-la como logo. Fora pessoas públicas e marcas de terceiros legíveis.
+   `scripts/buscar-commons.mjs` continua para o Commons (último recurso): aceita CC0, domínio público, CC BY e CC BY-SA.
 7. **Gráficos animados** (site com dados: financeiro, resultados, painel): Evil Charts (evilcharts.com,
    github legions-developer/evilcharts; React + Recharts/ECharts, instala gráfico por gráfico pela CLI do
    shadcn). Pouco conhecido (~2,4 mil ⭐): avisar o usuário antes. Licença varia por componente (MIT na maioria,
@@ -89,6 +119,7 @@ em `lp-cenas`, os arquivos prontos em `clientes/<slug>/assets/` e a lista `clien
 Anotar em `assets.md`: arquivo · origem (link) · autor · licença · onde aparece no site.
 - Pode: feito por nós, material do cliente, CC0, código MIT/Apache, imagem gerada por ferramenta cujos termos
   liberam uso comercial (anotar a ferramenta e a data).
+- Pexels e Unsplash: crédito não é obrigatório pela licença, mas a API pede o que está na tabela acima; anotar a data da conferência.
 - CC BY e CC BY-SA: só com crédito no rodapé; perguntar ao usuário antes (em demonstração fictícia, o crédito
   basta). BY-SA: a foto alterada (recorte, P&B) continua BY-SA e isso vai no crédito.
 - Nunca: imagem de busca do Google, banco de imagem sem licença, peças tiradas dos sites de referência.
@@ -102,11 +133,15 @@ Antes de integrar, criar `assets.json` na pasta das peças e rodar:
 node plugins/landing-pages/skills/lp-assets/scripts/validar-assets.mjs caminho/assets.json --gravar
 ```
 O comando recusa sobrescrever relatórios. Sem `--gravar`, só imprime JSON e retorna código 1 em falha.
-Contrato e exemplo real testado: `pilotos/assets-d5/assets.json` na raiz DevConductor. `versao:1`, `assets[]`
+Contrato e exemplo real testado: `pilotos/assets-d5/assets.json` na raiz DevConductor. `assets[]`
 com arquivo relativo, tipo, origem, autor, licença e licencaUrl; `cenas[]` com id, listas desktop/celular.
+**Site com foto usa `versao:2`**, que acrescenta `serie` (`nome`, `tratamento`) e `fotos[]`, uma entrada por foto, na maior
+versão publicada: `arquivo`, `fonte` (`cliente`/`banco`/`gerada`), `uso` (`abertura`/`cena`/`apoio`/`miniatura`), `luz`, `foco`,
+`expressao`, `serie` (cada um `ok` só depois de olhar o recorte) e `motivo`. A resolução é medida no arquivo.
+Item reprovado bloqueia: trocar a foto ou a solução visual. `versao:1` fica para peças sem foto e manifestos antigos.
 Para peça do cliente, `autorizacao:"confirmada"` registra autorização já obtida, nunca a presume.
-Licenças aceitas: `CC0`, `dominio-publico`, `CC-BY-2.0/3.0/4.0`, `CC-BY-SA-3.0/4.0`, `Unsplash`, `MIT`,
-`Apache-2.0`, `cliente`, `proprio`. CC BY/BY-SA exigem autorização confirmada, `credito`, `alteracoes` e `creditoArquivo` com esses textos e link da
+Licenças aceitas: `CC0`, `dominio-publico`, `CC-BY-2.0/3.0/4.0`, `CC-BY-SA-3.0/4.0`, `Unsplash`, `Pexels`, `MIT`,
+`Apache-2.0`, `cliente`, `proprio` e `gerada` (com `ferramenta`, `data` e os termos em `licencaUrl`). CC BY/BY-SA exigem autorização confirmada, `credito`, `alteracoes` e `creditoArquivo` com esses textos e link da
 licença efetivamente presentes. `realista:true` exige `revisaoVisual` com evidência.
 O link Creative Commons precisa corresponder à família e versão declaradas (BY ou BY-SA); não trocar
 uma licença pela outra no manifesto. Isso confere coerência da declaração, sem certificar direitos.

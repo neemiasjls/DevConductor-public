@@ -6,11 +6,12 @@
 // (exceção localizada: o restante da tela precisa caber no limite; motivo também no plano).
 // --so-avisar: só lista, sem reprovar (rodada exploratória). Relatório esquema 2 conta palavras justificadas.
 // Mede a cada meia tela, para não perder o pico de texto que fica entre duas telas inteiras.
+// Limite é teto, não meta: "aOlhar" lista telas quase sem texto e sem imagem grande, sem reprovar.
 import fs from 'node:fs'
 import path from 'node:path'
 import { createRequire } from 'node:module'
 import { pathToFileURL } from 'node:url'
-import { LIMITES_PADRAO, medirTela, avaliar } from './densidade-regras.mjs'
+import { LIMITES_PADRAO, medirTela, avaliar, telasParaOlhar } from './densidade-regras.mjs'
 
 const args = process.argv.slice(2)
 const posicionais = [], limites = { ...LIMITES_PADRAO }
@@ -84,6 +85,17 @@ function trechosVisiveis() {
   return saida
 }
 
+// Imagem, vídeo, canvas ou SVG que cobre ao menos 15% da tela conta como algo para olhar.
+function midiasGrandes() {
+  let total = 0
+  for (const el of document.querySelectorAll('img,video,canvas,svg')) {
+    const r = el.getBoundingClientRect()
+    const largura = Math.min(r.right, innerWidth) - Math.max(r.left, 0), altura = Math.min(r.bottom, innerHeight) - Math.max(r.top, 0)
+    if (largura > 0 && altura > 0 && largura * altura >= innerWidth * innerHeight * 0.15 && getComputedStyle(el).visibility !== 'hidden') total++
+  }
+  return total
+}
+
 const telas = []
 try {
   for (const [modo, largura, altura] of [['computador', 1440, 900], ['celular', 390, 844]]) {
@@ -100,7 +112,8 @@ try {
       const trechos = await p.evaluate(trechosVisiveis)
       const { palavras, palavrasLeitura, motivos, palavrasJustificadas } = medirTela(trechos)
       const amostra = trechos.filter((t) => !t.leitura).map((t) => t.texto).join(' ').slice(0, 160)
-      telas.push({ modo, y, palavras, palavrasLeitura, amostra, ...(motivos ? { motivos, palavrasJustificadas } : {}) })
+      const midias = await p.evaluate(midiasGrandes)
+      telas.push({ modo, y, palavras, palavrasLeitura, midias, amostra, ...(motivos ? { motivos, palavrasJustificadas } : {}) })
       if (palavras > limites[modo]) {
         await p.screenshot({ path: path.join(destino, `${modo}-${y}.jpg`), type: 'jpeg', quality: 70 })
       }
@@ -111,12 +124,15 @@ try {
 } finally { await navegador.close() }
 
 const { alertas, justificadas, maior } = avaliar(telas, limites)
+const aOlhar = telasParaOlhar(telas)
 fs.writeFileSync(path.join(destino, 'relatorio.json'),
-  JSON.stringify({ esquema: 2, url, data: new Date().toISOString(), reduzido, limites, maior, alertas, justificadas, telas }, null, 2))
+  JSON.stringify({ esquema: 2, url, data: new Date().toISOString(), reduzido, limites, maior, alertas, justificadas, aOlhar, telas }, null, 2))
 fs.rmSync(path.join(destino, '.perfil'), { recursive: true, force: true, maxRetries: 5, retryDelay: 200 })
 console.log(`Maior tela: ${maior.computador} palavras no computador (limite ${limites.computador}), ` +
   `${maior.celular} no celular (limite ${limites.celular}).`)
 for (const a of alertas) console.log(`  acima: ${a.modo} y=${a.y} ${a.palavras} palavras — "${a.amostra.slice(0, 90)}"`)
 for (const j of justificadas) console.log(`  exceção: ${j.modo} y=${j.y} ${j.palavras} palavras — ${j.motivos.join('; ')}`)
+for (const t of aOlhar) console.log(`  olhar: ${t.modo} y=${t.y} só ${t.palavras} palavra(s) e nenhuma imagem grande. Pode ser respiro; confira se prende o olhar.`)
+console.log('Limite é teto, não meta: responda também à pergunta contra site vazio da lp-revisao.')
 console.log(alertas.length ? `${alertas.length} tela(s) acima do limite: corrigir ou marcar a exceção com data-densidade.` : 'Nenhuma tela acima do limite sem exceção.')
 if (estrito && alertas.length) process.exit(1)

@@ -1,0 +1,72 @@
+{
+ "versao": 2,
+ "observacao": "Duas fotos reais nesta demonstração fictícia, com crédito no rodapé. Conferidas a 100% no recorte em 09/11/2026; a aprovação estética é do Neemias.",
+ "serie": {
+  "nome": "Frio industrial em luz fria, sem marca de terceiros",
+  "tratamento": "Saturação baixa, sombras puxadas para o azul-aço, contraste contido; o mesmo tratamento nas duas fotos (ferramentas/tratar-fotos.py)"
+ },
+ "assets": [
+  {
+   "arquivo": "public/img/camara-fria-480.webp", "tipo": "foto", "autor": "Kopiersperre",
+   "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+   "licenca": "CC-BY-SA-3.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+   "credito": "Câmara fria: Kopiersperre, CC BY-SA 3.0",
+   "alteracoes": "Cor tratada; a versão alterada segue a mesma licença CC BY-SA 3.0."
+  },
+  {
+   "arquivo": "public/img/camara-fria-960.webp", "tipo": "foto", "autor": "Kopiersperre",
+   "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+   "licenca": "CC-BY-SA-3.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+   "credito": "Câmara fria: Kopiersperre, CC BY-SA 3.0",
+   "alteracoes": "Cor tratada; a versão alterada segue a mesma licença CC BY-SA 3.0."
+  },
+  {
+   "arquivo": "public/img/camara-fria-1600.webp", "tipo": "foto", "autor": "Kopiersperre",
+   "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+   "licenca": "CC-BY-SA-3.0", "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "autorizacao": "confirmada", "creditoArquivo": "creditos.md",
+   "credito": "Câmara fria: Kopiersperre, CC BY-SA 3.0",
+   "alteracoes": "Cor tratada; a versão alterada segue a mesma licença CC BY-SA 3.0."
+  },
+  {
+   "arquivo": "public/img/estrada-480.webp", "tipo": "foto", "autor": "Robson Hatsukami Morgan",
+   "origem": "https://stocksnap.io/photo/road-truck-U02UKEL04U",
+   "licenca": "CC0", "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/estrada-960.webp", "tipo": "foto", "autor": "Robson Hatsukami Morgan",
+   "origem": "https://stocksnap.io/photo/road-truck-U02UKEL04U",
+   "licenca": "CC0", "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+ ],
+ "cenas": [
+  { "id": "porta-geada", "desktop": ["public/img/camara-fria-1600.webp"], "celular": ["public/img/camara-fria-960.webp"], "realista": true,
+    "revisaoVisual": "Foto real conferida a 100% (09/11): sem marca nem rótulo legível; a geada é shader sobre a foto, não objeto 3D." },
+  { "id": "estrada", "desktop": ["public/img/estrada-960.webp"], "celular": ["public/img/estrada-960.webp"], "realista": true,
+    "revisaoVisual": "Foto real conferida a 100% (09/11): grade e baú sem logotipo legível, céu natural; quadro 4:5 no celular." }
+ ],
+ "fotos": [
+  {
+   "arquivo": "public/img/camara-fria-1600.webp",
+   "fonte": "banco",
+   "uso": "cena",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Câmara fria de verdade, pilhas de caixas e piso molhado sob luz fria: é o que a porta do baú revela, e a geada só faz sentido sobre ela."
+  },
+  {
+   "arquivo": "public/img/estrada-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Caminhão baú na estrada sob céu fechado, sem marca legível: mostra a viagem que o texto promete, no mesmo tom frio da câmara."
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+  "esquema": 2,
+  "url": "http://localhost:5205/",
+  "data": "2026-11-09T18:41:41.740Z",
+  "reduzido": true,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 42,
+    "celular": 42
+  },
+  "alertas": [],
+  "justificadas": [],
+  "aOlhar": [],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 450,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 25,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro. Foto ilustrativa: Kopiersperre, CC BY-SA 3.0."
+    },
+    {
+      "modo": "computador",
+      "y": 1350,
+      "palavras": 39,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro. Foto ilustrativa: Kopiersperre, CC BY-SA 3.0. Coletamos frio. Via"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "midias": 0,
+      "amostra": "Coletamos frio. Viajamos frio. Entregamos frio. Do pátio à entrega, a mesma faixa contratada. A viagem O que o cliente nunca vê: 36 horas de temperatura. Regist",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "computador",
+      "y": 2250,
+      "palavras": 34,
+      "palavrasLeitura": 84,
+      "midias": 1,
+      "amostra": "A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 36 h No baú −18,0 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 8,
+      "palavrasLeitura": 127,
+      "midias": 1,
+      "amostra": "0 h 12 h 24 h 36 h"
+    },
+    {
+      "modo": "computador",
+      "y": 3150,
+      "palavras": 0,
+      "palavrasLeitura": 80,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 33,
+      "palavrasLeitura": 37,
+      "midias": 1,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua "
+    },
+    {
+      "modo": "computador",
+      "y": 4050,
+      "palavras": 42,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua "
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 9,
+      "palavrasLeitura": 57,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 4950,
+      "palavras": 0,
+      "palavrasLeitura": 98,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 26,
+      "palavrasLeitura": 64,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 5850,
+      "palavras": 33,
+      "palavrasLeitura": 53,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 6254,
+      "palavras": 7,
+      "palavrasLeitura": 144,
+      "midias": 0,
+      "amostra": "Pedir cotação no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 422,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 19,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro."
+    },
+    {
+      "modo": "celular",
+      "y": 1266,
+      "palavras": 39,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Da câmara ao baú Abrir o baú sem quebrar o frio. Cada minuto de porta aberta fica no registro. Foto ilustrativa: Kopiersperre, CC BY-SA 3.0. Coletamos frio. Via"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 42,
+      "palavrasLeitura": 15,
+      "midias": 0,
+      "amostra": "Foto ilustrativa: Kopiersperre, CC BY-SA 3.0. Coletamos frio. Viajamos frio. Entregamos frio. Do pátio à entrega, a mesma faixa contratada. A viagem O que o cli",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "celular",
+      "y": 2110,
+      "palavras": 22,
+      "palavrasLeitura": 84,
+      "midias": 0,
+      "amostra": "A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 36 h No baú −18,0 °C",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 0,
+      "palavrasLeitura": 101,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 2954,
+      "palavras": 0,
+      "palavrasLeitura": 53,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 0,
+      "palavrasLeitura": 49,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 3798,
+      "palavras": 33,
+      "palavrasLeitura": 35,
+      "midias": 0,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua "
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 42,
+      "palavrasLeitura": 0,
+      "midias": 1,
+      "amostra": "Pátio e estrada O baú sai do pátio já na temperatura da carga. Pré-resfriado no pátio, encosta na doca frio e segue lacrado. Na estrada, o registrador continua "
+    },
+    {
+      "modo": "celular",
+      "y": 4642,
+      "palavras": 9,
+      "palavrasLeitura": 31,
+      "midias": 1,
+      "amostra": "Foto ilustrativa: Robson Hatsukami Morgan, StockSnap, CC0 (cor tratada)."
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 0,
+      "palavrasLeitura": 73,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5486,
+      "palavras": 9,
+      "palavrasLeitura": 71,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto."
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 32,
+      "palavrasLeitura": 25,
+      "midias": 0,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "celular",
+      "y": 6330,
+      "palavras": 31,
+      "palavrasLeitura": 24,
+      "midias": 0,
+      "amostra": "Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa real. Cot"
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 0,
+      "palavrasLeitura": 61,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 7174,
+      "palavras": 0,
+      "palavrasLeitura": 88,
+      "midias": 1,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 7339,
+      "palavras": 0,
+      "palavrasLeitura": 105,
+      "midias": 1,
+      "amostra": ""
+    }
+  ]
+}

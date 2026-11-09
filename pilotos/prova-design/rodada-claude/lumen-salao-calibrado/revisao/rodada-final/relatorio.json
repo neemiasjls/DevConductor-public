@@ -1,0 +1,589 @@
+{
+  "url": "http://localhost:5204/",
+  "data": "2026-11-09T16:06:38.463Z",
+  "aprovadoTecnico": true,
+  "cenarios": [
+    {
+      "id": "360/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 2075,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 4149,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 6224,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 8298,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 498558,
+      "bytesDecodificados": 837653,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 348,
+      "problemas": []
+    },
+    {
+      "id": "360/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 1954,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 3908,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 5861,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 7815,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4200,
+      "bytesDecodificados": 729313,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 188,
+      "problemas": []
+    },
+    {
+      "id": "390/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 2067,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 4134,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 6200,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 8267,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-normal-0.jpg",
+        "390-normal-2.jpg",
+        "390-normal-4.jpg"
+      ],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4800,
+      "bytesDecodificados": 837241,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 204,
+      "problemas": []
+    },
+    {
+      "id": "390/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1938,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 3877,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 5815,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 7753,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-reduzido-0.jpg",
+        "390-reduzido-2.jpg",
+        "390-reduzido-4.jpg"
+      ],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4200,
+      "bytesDecodificados": 729313,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 144,
+      "problemas": []
+    },
+    {
+      "id": "414/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 2066,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 4131,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 6197,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 8262,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4800,
+      "bytesDecodificados": 837241,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 180,
+      "problemas": []
+    },
+    {
+      "id": "414/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1925,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 3850,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 5774,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 7699,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4200,
+      "bytesDecodificados": 729313,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 152,
+      "problemas": []
+    },
+    {
+      "id": "768/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1896,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 3792,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 5688,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 7584,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 347386,
+      "bytesDecodificados": 1047593,
+      "clsLaboratorio": 0.0010562156394675927,
+      "lcpLaboratorioMs": 252,
+      "problemas": []
+    },
+    {
+      "id": "768/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1742,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 3484,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 5226,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 6968,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4200,
+      "bytesDecodificados": 774643,
+      "clsLaboratorio": 0.0010562156394675927,
+      "lcpLaboratorioMs": 144,
+      "problemas": []
+    },
+    {
+      "id": "1024/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1777,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 3554,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 5330,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 7107,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4800,
+      "bytesDecodificados": 1124541,
+      "clsLaboratorio": 0.00043410539627075195,
+      "lcpLaboratorioMs": 224,
+      "problemas": []
+    },
+    {
+      "id": "1024/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1623,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 3246,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 4868,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 6491,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4200,
+      "bytesDecodificados": 851591,
+      "clsLaboratorio": 0.00121443510055542,
+      "lcpLaboratorioMs": 216,
+      "problemas": []
+    },
+    {
+      "id": "1440/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1833,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 3665,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 5498,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 7330,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-normal-0.jpg",
+        "1440-normal-2.jpg",
+        "1440-normal-4.jpg"
+      ],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 401034,
+      "bytesDecodificados": 1351945,
+      "clsLaboratorio": 0.0003333372516396605,
+      "lcpLaboratorioMs": 192,
+      "problemas": []
+    },
+    {
+      "id": "1440/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1679,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 3357,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 5036,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 6714,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-reduzido-0.jpg",
+        "1440-reduzido-2.jpg",
+        "1440-reduzido-4.jpg"
+      ],
+      "titulo": "Lúmen Salão · terapia capilar e corte em Belo Horizonte (demonstração)",
+      "h1": [
+        "Brilho écutículafechada."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4200,
+      "bytesDecodificados": 1078995,
+      "clsLaboratorio": 0.0011445035204475308,
+      "lcpLaboratorioMs": 216,
+      "problemas": []
+    }
+  ],
+  "falhas": [],
+  "limites": "Chrome headless local, cache e máquina variáveis. Bytes são do carregamento observado, não tamanho total do build. LCP/CLS são observações de laboratório, não Core Web Vitals de usuários. Prints exigem inspeção visual; fluidez e aprovação estética não são certificadas pelo script."
+}

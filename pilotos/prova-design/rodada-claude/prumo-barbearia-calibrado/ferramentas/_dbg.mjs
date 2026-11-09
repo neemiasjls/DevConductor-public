@@ -1,0 +1,13 @@
+import puppeteer from 'puppeteer-core'
+const nav = await puppeteer.launch({ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: true, args:['--use-angle=swiftshader','--enable-unsafe-swiftshader','--ignore-gpu-blocklist','--hide-scrollbars'] })
+const p = await nav.newPage()
+await p.setViewport({ width: 390, height: 844, isMobile: true, hasTouch: true })
+await p.evaluateOnNewDocument(() => { window.__ev = []; for (const t of ['focusin','focusout']) document.addEventListener(t, (e) => window.__ev.push(t + ':' + (e.target.dataset?.foco || e.target.tagName) + ':' + e.target.isConnected), true) })
+await p.goto('http://127.0.0.1:5206/', { waitUntil: 'networkidle0' })
+await p.mouse.wheel({ deltaY: 1 })
+await p.waitForSelector('#cadeira[data-pronta]', { timeout: 40000 })
+await (await p.$('[data-pausa]')).focus()
+await p.emulateMediaFeatures([{ name: 'prefers-reduced-motion', value: 'reduce' }])
+await new Promise(r=>setTimeout(r,900))
+console.log(await p.evaluate(() => ({ ev: window.__ev, ativo: document.activeElement.tagName + ':' + (document.activeElement.dataset.foco||'') })))
+await nav.close()

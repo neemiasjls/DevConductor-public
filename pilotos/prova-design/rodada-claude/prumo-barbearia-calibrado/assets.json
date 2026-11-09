@@ -1,0 +1,299 @@
+{
+ "versao": 2,
+ "observacao": "Barbearia fictícia. Fotos CC0 e CC BY-SA com crédito no rodapé; conferidas a 100% no recorte em 09/11/2026. A aprovação estética é do Neemias.",
+ "serie": {
+  "nome": "Oficina à meia-luz, mãos e ferramentas como assunto",
+  "tratamento": "Sombras quentes puxadas para o grafite, saturação contida, fundo desfocado; sem rosto em destaque, exceto a foto da tesoura (perfil, trabalho)"
+ },
+ "assets": [
+  {
+   "arquivo": "public/modelos/cadeira-2k.glb",
+   "tipo": "modelo3d",
+   "autor": "Fernando Quinn / Poly Haven",
+   "origem": "https://polyhaven.com/a/BarberShopChair_01",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "texturas reduzidas (2k/1k), WebP e Draco"
+  },
+  {
+   "arquivo": "public/modelos/cadeira.glb",
+   "tipo": "modelo3d",
+   "autor": "Fernando Quinn / Poly Haven",
+   "origem": "https://polyhaven.com/a/BarberShopChair_01",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "texturas reduzidas (2k/1k), WebP e Draco"
+  },
+  {
+   "arquivo": "public/modelos/cadeira-poster.webp",
+   "tipo": "imagem",
+   "autor": "Fernando Quinn / Poly Haven",
+   "origem": "https://polyhaven.com/a/BarberShopChair_01",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "render do modelo CC0 na cena do site (ferramentas/gerar-poster.mjs)"
+  },
+  {
+   "arquivo": "public/modelos/cadeira-abertura.webp",
+   "tipo": "imagem",
+   "autor": "Fernando Quinn / Poly Haven",
+   "origem": "https://polyhaven.com/a/BarberShopChair_01",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "render do modelo CC0 na cena do site (ferramentas/gerar-poster.mjs)"
+  },
+  {
+   "arquivo": "public/modelos/cadeira-abertura-celular.webp",
+   "tipo": "imagem",
+   "autor": "Fernando Quinn / Poly Haven",
+   "origem": "https://polyhaven.com/a/BarberShopChair_01",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "render do modelo CC0 na cena do site (ferramentas/gerar-poster.mjs)"
+  },
+  {
+   "arquivo": "public/og.jpg",
+   "tipo": "imagem",
+   "autor": "Fernando Quinn / Poly Haven",
+   "origem": "https://polyhaven.com/a/BarberShopChair_01",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "captura da abertura com o modelo CC0 (ferramentas/gerar-og.mjs)"
+  },
+  {
+   "arquivo": "public/ambientes/oficina-512.hdr",
+   "tipo": "hdri",
+   "autor": "Poly Haven",
+   "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "reduzida de 1k para 512 e 256 px"
+  },
+  {
+   "arquivo": "public/ambientes/oficina-256.hdr",
+   "tipo": "hdri",
+   "autor": "Poly Haven",
+   "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "reduzida de 1k para 512 e 256 px"
+  },
+  {
+   "arquivo": "public/draco/draco_decoder.wasm",
+   "tipo": "codigo",
+   "autor": "Google (Draco), via three.js",
+   "origem": "https://github.com/google/draco",
+   "licenca": "Apache-2.0",
+   "licencaUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+   "alteracoes": "nenhuma; copiado de three/examples/jsm/libs/draco/gltf"
+  },
+  {
+   "arquivo": "public/draco/draco_wasm_wrapper.js",
+   "tipo": "codigo",
+   "autor": "Google (Draco), via three.js",
+   "origem": "https://github.com/google/draco",
+   "licenca": "Apache-2.0",
+   "licencaUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+   "alteracoes": "nenhuma; copiado de three/examples/jsm/libs/draco/gltf"
+  },
+  {
+   "arquivo": "public/img/degrade-480.webp",
+   "tipo": "ilustracao",
+   "autor": "Prumo (demonstração)",
+   "origem": "codigo-local",
+   "licenca": "proprio",
+   "alteracoes": "desenhada em código por ferramentas/gerar-degrade.py (mesma semente para os dois estados)"
+  },
+  {
+   "arquivo": "public/img/degrade-750.webp",
+   "tipo": "ilustracao",
+   "autor": "Prumo (demonstração)",
+   "origem": "codigo-local",
+   "licenca": "proprio",
+   "alteracoes": "desenhada em código por ferramentas/gerar-degrade.py (mesma semente para os dois estados)"
+  },
+  {
+   "arquivo": "public/img/degrade-1125.webp",
+   "tipo": "ilustracao",
+   "autor": "Prumo (demonstração)",
+   "origem": "codigo-local",
+   "licenca": "proprio",
+   "alteracoes": "desenhada em código por ferramentas/gerar-degrade.py (mesma semente para os dois estados)"
+  },
+  {
+   "arquivo": "public/img/degrade-cheio-480.webp",
+   "tipo": "ilustracao",
+   "autor": "Prumo (demonstração)",
+   "origem": "codigo-local",
+   "licenca": "proprio",
+   "alteracoes": "desenhada em código por ferramentas/gerar-degrade.py (mesma semente para os dois estados)"
+  },
+  {
+   "arquivo": "public/img/degrade-cheio-750.webp",
+   "tipo": "ilustracao",
+   "autor": "Prumo (demonstração)",
+   "origem": "codigo-local",
+   "licenca": "proprio",
+   "alteracoes": "desenhada em código por ferramentas/gerar-degrade.py (mesma semente para os dois estados)"
+  },
+  {
+   "arquivo": "public/img/degrade-cheio-1125.webp",
+   "tipo": "ilustracao",
+   "autor": "Prumo (demonstração)",
+   "origem": "codigo-local",
+   "licenca": "proprio",
+   "alteracoes": "desenhada em código por ferramentas/gerar-degrade.py (mesma semente para os dois estados)"
+  },
+  {
+   "arquivo": "public/img/navalha-480.webp",
+   "tipo": "foto",
+   "autor": "Nick Demou / StockSnap",
+   "origem": "https://stocksnap.io/photo/barbershop-brush-GZP9ZEQPFL",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "cor tratada"
+  },
+  {
+   "arquivo": "public/img/navalha-960.webp",
+   "tipo": "foto",
+   "autor": "Nick Demou / StockSnap",
+   "origem": "https://stocksnap.io/photo/barbershop-brush-GZP9ZEQPFL",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "cor tratada"
+  },
+  {
+   "arquivo": "public/img/maquina-480.webp",
+   "tipo": "foto",
+   "autor": "rawpixel",
+   "origem": "https://www.rawpixel.com/image/5923938/photo-image-public-domain-black-person",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "cor tratada; etiqueta da capa coberta"
+  },
+  {
+   "arquivo": "public/img/maquina-960.webp",
+   "tipo": "foto",
+   "autor": "rawpixel",
+   "origem": "https://www.rawpixel.com/image/5923938/photo-image-public-domain-black-person",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "alteracoes": "cor tratada; etiqueta da capa coberta"
+  },
+  {
+   "arquivo": "public/img/tesoura-480.webp",
+   "tipo": "foto",
+   "autor": "Mostafameraji",
+   "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+   "licenca": "CC-BY-SA-4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "autorizacao": "confirmada",
+   "creditoArquivo": "src/data/conteudo.ts",
+   "credito": "Mostafameraji",
+   "alteracoes": "recorte e cor tratada; a versão alterada segue CC BY-SA 4.0"
+  },
+  {
+   "arquivo": "public/img/tesoura-960.webp",
+   "tipo": "foto",
+   "autor": "Mostafameraji",
+   "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+   "licenca": "CC-BY-SA-4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "autorizacao": "confirmada",
+   "creditoArquivo": "src/data/conteudo.ts",
+   "credito": "Mostafameraji",
+   "alteracoes": "recorte e cor tratada; a versão alterada segue CC BY-SA 4.0"
+  },
+  {
+   "arquivo": "public/img/tesoura-1600.webp",
+   "tipo": "foto",
+   "autor": "Mostafameraji",
+   "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+   "licenca": "CC-BY-SA-4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "autorizacao": "confirmada",
+   "creditoArquivo": "src/data/conteudo.ts",
+   "credito": "Mostafameraji",
+   "alteracoes": "recorte e cor tratada; a versão alterada segue CC BY-SA 4.0"
+  }
+ ],
+ "fotos": [
+  {
+   "arquivo": "public/img/navalha-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Navalhas e cuia de metal sobre toalha escura, luz quente baixa: mostra o ritual da barba sem rosto e casa com o grafite do site. Original 6000x4000; publicada a 960 porque o StockSnap barrou o original (403)."
+  },
+  {
+   "arquivo": "public/img/maquina-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Máquina subindo pela nuca, cliente de costas: é o degradê acontecendo, nítido no ponto de contato. Etiqueta de marca de terceiro na capa coberta."
+  },
+  {
+   "arquivo": "public/img/tesoura-1600.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Barbeiro concentrado acertando com tesoura e pente: mãos nítidas, olhar no trabalho. Rosto reconhecível, por isso o aviso \"Fotos ilustrativas\" em serviços."
+  }
+ ],
+ "cenas": [
+  {
+   "id": "abertura-cadeira",
+   "desktop": [
+    "public/modelos/cadeira-2k.glb",
+    "public/ambientes/oficina-512.hdr",
+    "public/modelos/cadeira-abertura.webp",
+    "public/draco/draco_decoder.wasm",
+    "public/draco/draco_wasm_wrapper.js"
+   ],
+   "celular": [
+    "public/modelos/cadeira.glb",
+    "public/ambientes/oficina-256.hdr",
+    "public/modelos/cadeira-abertura-celular.webp",
+    "public/draco/draco_decoder.wasm",
+    "public/draco/draco_wasm_wrapper.js"
+   ],
+   "realista": true,
+   "revisaoVisual": "Modelo real do Poly Haven (malha e texturas originais) conferido nos prints de revisao/olhar-1 a olhar-5 e revisao/rodada-3 (390, 768, 1440 e reduzido), com pôster e falha de WebGL em revisao/comportamento-10."
+  },
+  {
+   "id": "degrade",
+   "desktop": [
+    "public/img/degrade-750.webp",
+    "public/img/degrade-cheio-750.webp"
+   ],
+   "celular": [
+    "public/img/degrade-480.webp",
+    "public/img/degrade-cheio-480.webp"
+   ],
+   "realista": false,
+   "revisaoVisual": "Ilustração própria (não foto): cabeça de costas, cabelo cheio vira degradê sob a linha. Conferida no recorte a 100% em 09/11/2026 (coroa sem ponto claro) e nos prints de degrade-telas."
+  },
+  {
+   "id": "servicos-fotos",
+   "desktop": [
+    "public/img/tesoura-960.webp",
+    "public/img/maquina-960.webp",
+    "public/img/navalha-960.webp"
+   ],
+   "celular": [
+    "public/img/tesoura-480.webp",
+    "public/img/maquina-480.webp",
+    "public/img/navalha-480.webp"
+   ]
+  }
+ ]
+}

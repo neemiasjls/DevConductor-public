@@ -1,0 +1,303 @@
+{
+ "versao": 2,
+ "observacao": "Fotos CC0 usadas nesta demonstração fictícia, com crédito no rodapé por cortesia. Conferidas a 100% no recorte em 09/11/2026; a aprovação estética é do Neemias.",
+ "serie": {
+  "nome": "Luz natural, cabelo como assunto",
+  "tratamento": "Sombras puxadas para o petróleo, saturação 0,9, contraste 1,04, vinheta onde o fundo estoura"
+ },
+ "assets": [
+  {
+   "arquivo": "public/img/abertura-480.webp",
+   "tipo": "foto",
+   "autor": "Nina Strehl",
+   "origem": "https://stocksnap.io/photo/2H93LDS99K",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/abertura-960.webp",
+   "tipo": "foto",
+   "autor": "Nina Strehl",
+   "origem": "https://stocksnap.io/photo/2H93LDS99K",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/abertura-1600.webp",
+   "tipo": "foto",
+   "autor": "Nina Strehl",
+   "origem": "https://stocksnap.io/photo/2H93LDS99K",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/fio-640.webp",
+   "tipo": "foto",
+   "autor": "Alex Holyoake",
+   "origem": "https://stocksnap.io/photo/HDZE2J2VNL",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/fio-1280.webp",
+   "tipo": "foto",
+   "autor": "Alex Holyoake",
+   "origem": "https://stocksnap.io/photo/HDZE2J2VNL",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/fio-1920.webp",
+   "tipo": "foto",
+   "autor": "Alex Holyoake",
+   "origem": "https://stocksnap.io/photo/HDZE2J2VNL",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/resultado-480.webp",
+   "tipo": "foto",
+   "autor": "Nikolai Ulltang",
+   "origem": "https://stocksnap.io/photo/8JJL0GL391",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/resultado-960.webp",
+   "tipo": "foto",
+   "autor": "Nikolai Ulltang",
+   "origem": "https://stocksnap.io/photo/8JJL0GL391",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/resultado-1280.webp",
+   "tipo": "foto",
+   "autor": "Nikolai Ulltang",
+   "origem": "https://stocksnap.io/photo/8JJL0GL391",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/hidratacao-480.webp",
+   "tipo": "foto",
+   "autor": "Healthy Living",
+   "origem": "https://stocksnap.io/photo/D5CG6JAYN3",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/hidratacao-960.webp",
+   "tipo": "foto",
+   "autor": "Healthy Living",
+   "origem": "https://stocksnap.io/photo/D5CG6JAYN3",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/nutricao-480.webp",
+   "tipo": "foto",
+   "autor": "rawpixel",
+   "origem": "https://www.rawpixel.com/image/5919224/hair-salon-free-public-domain-cc0-photo",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/nutricao-960.webp",
+   "tipo": "foto",
+   "autor": "rawpixel",
+   "origem": "https://www.rawpixel.com/image/5919224/hair-salon-free-public-domain-cc0-photo",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/reconstrucao-480.webp",
+   "tipo": "foto",
+   "autor": "rawpixel",
+   "origem": "https://www.rawpixel.com/image/5907502/image-public-domain-woman-beauty",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/reconstrucao-960.webp",
+   "tipo": "foto",
+   "autor": "rawpixel",
+   "origem": "https://www.rawpixel.com/image/5907502/image-public-domain-woman-beauty",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/cronograma-480.webp",
+   "tipo": "foto",
+   "autor": "Candace McDaniel",
+   "origem": "https://stocksnap.io/photo/IFMPBCVTUA",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/cronograma-960.webp",
+   "tipo": "foto",
+   "autor": "Candace McDaniel",
+   "origem": "https://stocksnap.io/photo/IFMPBCVTUA",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/corte-480.webp",
+   "tipo": "foto",
+   "autor": "Matt Moloney",
+   "origem": "https://stocksnap.io/photo/S7UEWWIRTD",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+   "arquivo": "public/img/corte-960.webp",
+   "tipo": "foto",
+   "autor": "Matt Moloney",
+   "origem": "https://stocksnap.io/photo/S7UEWWIRTD",
+   "licenca": "CC0",
+   "licencaUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+ ],
+ "fotos": [
+  {
+   "arquivo": "public/img/abertura-1600.webp",
+   "fonte": "banco",
+   "uso": "abertura",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Cabelo longo de costas, sem rosto, com a luz marcando as ondas: o brilho é o assunto, como na ideia central."
+  },
+  {
+   "arquivo": "public/img/fio-1920.webp",
+   "fonte": "banco",
+   "uso": "cena",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Macro das mechas com luz atravessando: mostra o fio de perto sem diagrama."
+  },
+  {
+   "arquivo": "public/img/resultado-1280.webp",
+   "fonte": "banco",
+   "uso": "cena",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Cabelo longo e liso em movimento, de costas: balanço e luz até as pontas."
+  },
+  {
+   "arquivo": "public/img/hidratacao-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Finalização depois do tratamento: cabelo liso e claro, luz quente, de costas."
+  },
+  {
+   "arquivo": "public/img/nutricao-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Frasco com conta-gotas e pote na bancada de salão: o produto da nutrição."
+  },
+  {
+   "arquivo": "public/img/reconstrucao-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Mãos profissionais na cadeira do salão, cuidando de uma mecha."
+  },
+  {
+   "arquivo": "public/img/cronograma-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Mechas de perto, sem rosto: o resultado do plano."
+  },
+  {
+   "arquivo": "public/img/corte-960.webp",
+   "fonte": "banco",
+   "uso": "apoio",
+   "luz": "ok",
+   "foco": "ok",
+   "expressao": "ok",
+   "serie": "ok",
+   "motivo": "Tesoura nas pontas de uma mecha: demonstra o corte."
+  }
+ ],
+ "cenas": [
+  {
+   "id": "0-reflexo-abertura",
+   "desktop": [
+    "public/img/abertura-1600.webp"
+   ],
+   "celular": [
+    "public/img/abertura-960.webp"
+   ]
+  },
+  {
+   "id": "1-diagnostico-quadro",
+   "desktop": [
+    "public/img/hidratacao-960.webp",
+    "public/img/nutricao-960.webp",
+    "public/img/reconstrucao-960.webp"
+   ],
+   "celular": [
+    "public/img/hidratacao-480.webp",
+    "public/img/nutricao-480.webp",
+    "public/img/reconstrucao-480.webp"
+   ]
+  },
+  {
+   "id": "2-de-perto",
+   "desktop": [
+    "public/img/fio-1920.webp"
+   ],
+   "celular": [
+    "public/img/fio-1280.webp"
+   ]
+  },
+  {
+   "id": "4-resultado-arco",
+   "desktop": [
+    "public/img/resultado-1280.webp"
+   ],
+   "celular": [
+    "public/img/resultado-960.webp"
+   ]
+  },
+  {
+   "id": "5-servicos-quadro",
+   "desktop": [
+    "public/img/hidratacao-960.webp",
+    "public/img/nutricao-960.webp",
+    "public/img/reconstrucao-960.webp",
+    "public/img/cronograma-960.webp",
+    "public/img/corte-960.webp"
+   ],
+   "celular": [
+    "public/img/hidratacao-480.webp",
+    "public/img/nutricao-480.webp",
+    "public/img/reconstrucao-480.webp",
+    "public/img/cronograma-480.webp",
+    "public/img/corte-480.webp"
+   ]
+  }
+ ]
+}

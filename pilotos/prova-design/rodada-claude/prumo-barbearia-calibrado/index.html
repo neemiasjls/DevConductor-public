@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)</title>
+    <meta name="description" content="Demonstração de design, empresa fictícia. Barbearia de corte técnico em Curitiba: degradê medido no pente, navalhado e barba com toalha quente." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#0b1513" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Prumo Barbearia (demonstração, empresa fictícia)" />
+    <meta property="og:description" content="Corte técnico, medido no pente. Página de demonstração com empresa fictícia." />
+    <meta property="og:image" content="/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Primeiro quadro da cena 3D (render do próprio canvas): aparece antes do JavaScript da cena. -->
+    <link rel="preload" as="image" href="/modelos/cadeira-abertura-celular.webp" type="image/webp" fetchpriority="high" media="(max-width: 767px) and (prefers-reduced-motion: no-preference)" />
+    <link rel="preload" as="image" href="/modelos/cadeira-abertura.webp" type="image/webp" fetchpriority="high" media="(min-width: 768px) and (prefers-reduced-motion: no-preference)" />
+    <link rel="preload" as="image" href="/modelos/cadeira-poster.webp" type="image/webp" media="(prefers-reduced-motion: reduce)" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b1513'/%3E%3Cpath d='M16 5v22M10 9h6M12 13h4M10 17h6M12 21h4' stroke='%23e0905a' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "Prumo Barbearia (demonstração)",
+        "description": "Barbearia de corte técnico: degradê, navalhado e barba com toalha quente. Empresa fictícia criada como demonstração de design.",
+        "disambiguatingDescription": "Demonstração — empresa fictícia. Nome, preços, endereço, horários e contatos não são reais.",
+        "telephone": "+55 41 90000-0000",
+        "email": "ola@prumo.example",
+        "priceRange": "R$ 20–105 (demonstrativo)",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Demonstração, 120 (endereço fictício)",
+          "addressLocality": "Curitiba",
+          "addressRegion": "PR",
+          "addressCountry": "BR"
+        },
+        "openingHours": ["Tu-Th 09:00-20:00", "Fr 09:00-21:00", "Sa 08:00-18:00"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

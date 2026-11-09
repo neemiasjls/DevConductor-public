@@ -1,0 +1,589 @@
+{
+  "url": "http://localhost:5206/",
+  "data": "2026-11-09T18:43:33.107Z",
+  "aprovadoTecnico": true,
+  "cenarios": [
+    {
+      "id": "360/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 1730,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 3460,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 5189,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 6919,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 1298454,
+      "bytesDecodificados": 2461599,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 2136,
+      "problemas": []
+    },
+    {
+      "id": "360/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 1325,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 2651,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 3976,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        },
+        {
+          "y": 5301,
+          "largura": 360,
+          "viewport": 360,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 140758,
+      "bytesDecodificados": 784219,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 336,
+      "problemas": []
+    },
+    {
+      "id": "390/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1691,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 3381,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 5072,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 6762,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-normal-0.jpg",
+        "390-normal-2.jpg",
+        "390-normal-4.jpg"
+      ],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4500,
+      "bytesDecodificados": 2461599,
+      "clsLaboratorio": 0.0008734660076863757,
+      "lcpLaboratorioMs": 1612,
+      "problemas": []
+    },
+    {
+      "id": "390/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 1297,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 2594,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 3890,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        },
+        {
+          "y": 5187,
+          "largura": 390,
+          "viewport": 390,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "390-reduzido-0.jpg",
+        "390-reduzido-2.jpg",
+        "390-reduzido-4.jpg"
+      ],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3000,
+      "bytesDecodificados": 784219,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 212,
+      "problemas": []
+    },
+    {
+      "id": "414/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1681,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 3362,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 5043,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 6724,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 4500,
+      "bytesDecodificados": 2461599,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 1836,
+      "problemas": []
+    },
+    {
+      "id": "414/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 1292,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 2583,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 3875,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        },
+        {
+          "y": 5166,
+          "largura": 414,
+          "viewport": 414,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3000,
+      "bytesDecodificados": 784219,
+      "clsLaboratorio": 0,
+      "lcpLaboratorioMs": 472,
+      "problemas": []
+    },
+    {
+      "id": "768/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1928,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 3856,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 5783,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 7711,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 145796,
+      "bytesDecodificados": 2529331,
+      "clsLaboratorio": 0.000486646211098251,
+      "lcpLaboratorioMs": 2156,
+      "problemas": []
+    },
+    {
+      "id": "768/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 1101,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 2201,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 3302,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        },
+        {
+          "y": 4402,
+          "largura": 768,
+          "viewport": 768,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3000,
+      "bytesDecodificados": 784219,
+      "clsLaboratorio": 0.04585431021231193,
+      "lcpLaboratorioMs": 492,
+      "problemas": []
+    },
+    {
+      "id": "1024/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1837,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 3674,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 5511,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 7348,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 1328779,
+      "bytesDecodificados": 3502187,
+      "clsLaboratorio": 0.00036643293168809677,
+      "lcpLaboratorioMs": 2156,
+      "problemas": []
+    },
+    {
+      "id": "1024/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 1056,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 2113,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 3169,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        },
+        {
+          "y": 4225,
+          "largura": 1024,
+          "viewport": 1024,
+          "quebradas": []
+        }
+      ],
+      "capturas": [],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3000,
+      "bytesDecodificados": 784219,
+      "clsLaboratorio": 0.03558045128981272,
+      "lcpLaboratorioMs": 288,
+      "problemas": []
+    },
+    {
+      "id": "1440/normal",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1846,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 3691,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 5537,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 7382,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-normal-0.jpg",
+        "1440-normal-2.jpg",
+        "1440-normal-4.jpg"
+      ],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 72212,
+      "bytesDecodificados": 3545943,
+      "clsLaboratorio": 0.0003733335476680384,
+      "lcpLaboratorioMs": 2096,
+      "problemas": []
+    },
+    {
+      "id": "1440/reduzido",
+      "medidas": [
+        {
+          "y": 0,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 1100,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 2200,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 3299,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        },
+        {
+          "y": 4399,
+          "largura": 1440,
+          "viewport": 1440,
+          "quebradas": []
+        }
+      ],
+      "capturas": [
+        "1440-reduzido-0.jpg",
+        "1440-reduzido-2.jpg",
+        "1440-reduzido-4.jpg"
+      ],
+      "titulo": "Prumo Barbearia · Corte técnico em Curitiba/PR (demonstração)",
+      "h1": [
+        "Corte técnico,medido no pente."
+      ],
+      "linksSemNome": [],
+      "ancorasQuebradas": [],
+      "bytesTransferidos": 3000,
+      "bytesDecodificados": 827975,
+      "clsLaboratorio": 0.020681663029674634,
+      "lcpLaboratorioMs": 236,
+      "problemas": []
+    }
+  ],
+  "falhas": [],
+  "limites": "Chrome headless local, cache e máquina variáveis. Bytes são do carregamento observado, não tamanho total do build. LCP/CLS são observações de laboratório, não Core Web Vitals de usuários. Prints exigem inspeção visual; fluidez e aprovação estética não são certificadas pelo script."
+}

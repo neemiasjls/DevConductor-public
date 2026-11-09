@@ -1,0 +1,109 @@
+@import 'tailwindcss';
+
+@theme {
+  /* luxo editorial: petróleo da marca, claro frio, ameixa de cabelo tratado como cor-assinatura (lp-paleta) */
+  --color-petroleo: oklch(0.22 0.04 190);
+  --color-petroleo-2: oklch(0.27 0.045 190);
+  --color-claro: oklch(0.97 0.008 190);
+  --color-claro-2: oklch(0.93 0.012 190);
+  --color-ameixa: oklch(0.42 0.12 15);
+  /* ameixa para TEXTO pequeno sobre o claro (contraste ≥ 4,5:1) */
+  --color-ameixa-texto: oklch(0.4 0.12 15);
+  --color-luz: oklch(0.97 0.02 190);
+  --font-titulo: 'Gloock', 'Times New Roman', serif;
+  --font-italico: 'Bodoni Moda', 'Times New Roman', serif;
+  --font-texto: 'Familjen Grotesk Variable', system-ui, sans-serif;
+  --ease-entra: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-sai: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+:root {
+  --raio-foto: 16px;
+  --margem: 20px;
+  color-scheme: light;
+}
+@media (min-width: 768px) {
+  :root { --raio-foto: 24px; --margem: 7vw; }
+}
+@media (min-width: 1600px) {
+  :root { --margem: calc((100vw - 1440px) / 2 + 3vw); }
+}
+
+html { scroll-behavior: auto; overflow-x: clip; }
+body {
+  margin: 0;
+  overflow-x: clip;
+  background: var(--color-claro);
+  color: var(--color-petroleo);
+  font-family: var(--font-texto);
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-variant-numeric: oldstyle-nums;
+}
+/* Foto que não carrega: o componente Foto troca a fonte por um substituto visível ("Foto indisponível");
+   enquanto a troca não acontece, o texto alternativo não é desenhado torto dentro da moldura. */
+img { color: transparent; }
+::selection { background: var(--color-ameixa); color: var(--color-claro); }
+:focus-visible { outline: 3px solid var(--color-ameixa); outline-offset: 3px; border-radius: 4px; }
+.sobre-escuro :focus-visible, .sobre-ameixa :focus-visible { outline-color: var(--color-luz); }
+
+@layer components {
+  .titulo { font-family: var(--font-titulo); font-weight: 400; line-height: 1; letter-spacing: -0.012em; text-wrap: balance; }
+  .italico { font-family: var(--font-italico); font-style: italic; font-weight: 400; letter-spacing: 0; }
+  /* numeração de revista: algarismos de texto, pequenos */
+  .rotulo { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; font-variant-numeric: lining-nums; }
+
+  /* Foto que anima: o raio fica no contêiner (lp-construcao), isolado para o Safari não vazar a quina. */
+  .moldura { border-radius: var(--raio-foto); overflow: hidden; isolation: isolate; }
+  /* arco como o espelho do salão (só na cena do resultado) */
+  .arco { border-radius: 999px 999px var(--raio-foto) var(--raio-foto); overflow: hidden; isolation: isolate; }
+
+  .pilula {
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; min-height: 48px;
+    border-radius: 999px; padding: 0.9em 1.6em; font-weight: 600; line-height: 1.1;
+    transition: background-color 0.3s var(--ease-entra), color 0.3s var(--ease-entra), box-shadow 0.3s var(--ease-entra);
+  }
+  /* alvo de toque de 44px em links de texto, sem mudar o desenho da linha */
+  .alvo { display: inline-block; padding: 12px 8px; margin: -12px -8px; min-width: 44px; min-height: 44px; }
+  .link-fino { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.3em; }
+  .link-fino:hover { text-decoration-thickness: 2px; }
+}
+
+/* Reflexo estático pintado: aparece no movimento reduzido e quando o WebGL não está disponível. */
+.reflexo-pintado {
+  position: absolute; inset: 0 0 0 50%; pointer-events: none; mix-blend-mode: screen; /* só nos comprimentos, longe do rosto */
+  /* taste-skill-ignore: o reflexo é a ideia central; esta faixa pintada é o substituto estático do shader */
+  background: linear-gradient(118deg, transparent 52%, oklch(0.97 0.02 190 / 0.16) 61%, oklch(0.97 0.02 190 / 0.3) 64%, oklch(0.97 0.02 190 / 0.12) 67%, transparent 75%); /* taste-skill-ignore */
+}
+[data-reflexo='vivo'] .reflexo-pintado { opacity: 0; }
+
+/* Título da abertura: entra no carregamento, linha por linha (não depende da rolagem nem do WebGL). */
+@keyframes linha-sobe { from { transform: translateY(105%); } to { transform: none; } }
+.linha-titulo { display: block; overflow: hidden; padding-bottom: 0.06em; margin-bottom: -0.06em; }
+.linha-titulo > span { display: block; animation: linha-sobe 1.4s var(--ease-entra) both; }
+.linha-titulo:nth-child(2) > span { animation-delay: 0.09s; }
+.linha-titulo:nth-child(3) > span { animation-delay: 0.18s; }
+
+/* Cenas presas: palco "grudado" (sticky) numa seção alta. A altura fica reservada desde o começo,
+   então nada empurra a página quando o player chega depois (lp-cenas: pin gera CLS). */
+.cena { position: relative; height: calc((1 + var(--telas-c, 1)) * 100svh); }
+@media (min-width: 768px) { .cena { height: calc((1 + var(--telas-d, 1)) * 100svh); } }
+.cena > .palco { position: sticky; top: 0; height: 100svh; overflow: hidden; }
+
+/* A seção seguinte cobre a cena presa (secao-cobre-cena), só com movimento. */
+@media (prefers-reduced-motion: no-preference) {
+  .cobre-cena { margin-top: -100svh; }
+}
+
+/* Peças só de movimento: invisíveis no CSS base, o GSAP liga quando o movimento é permitido. */
+[data-so-movimento] { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .linha-titulo > span { animation: none; }
+  .cena { height: auto; }
+  .cena > .palco { position: relative; height: auto; overflow: visible; }
+  [data-so-movimento] { display: none !important; }
+  .pilula { transition: none; }
+}

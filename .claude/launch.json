@@ -118,6 +118,39 @@
         "pilotos/prova-design/rodada-claude/prumo-barbearia"
       ],
       "port": 5203
+    },
+    {
+      "name": "claude-lumen-calibrado",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/rodada-claude/lumen-salao-calibrado"
+      ],
+      "port": 5204
+    },
+    {
+      "name": "claude-austral-calibrado",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/rodada-claude/austral-frio-calibrado"
+      ],
+      "port": 5205
+    },
+    {
+      "name": "claude-prumo-calibrado",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--prefix",
+        "pilotos/prova-design/rodada-claude/prumo-barbearia-calibrado"
+      ],
+      "port": 5206
     }
   ]
 }

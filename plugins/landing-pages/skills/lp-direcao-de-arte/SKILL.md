@@ -13,6 +13,8 @@ Liste 5–8 fatos e materiais exclusivos (ex.: "salão com sala da noiva", "film
 "fundadora da equipe de especialistas da marca X"). A ideia central tem de nascer daqui, não do nicho genérico.
 Fotos: um tratamento só para o site (mesma luz, recorte e cor). Fotos de origens diferentes sem tratamento comum
 parecem banco de imagem (revisão da prova de 29/10/2026); fonte incomum e cor forte não bastam como identidade.
+Antes de fechar a direção, ver se existe imagem que a sustente: ordem de preferência e critério de qualidade em `lp-assets`.
+Direção que só funciona com foto que não existe muda de solução visual (3D, ilustração, tipografia), sem aceitar foto fraca.
 
 ## 2. Partir de 3 estilos
 Comece pelos estilos prontos em `estilos/` (nesta pasta; índice em `estilos/README.md`): luxo editorial,
@@ -38,7 +40,7 @@ ficam registrados no `direcao.md` com o motivo.
 | Tipografia | skill `lp-tipografia` (par fora da lista proibida, com o porquê) |
 | Paleta | skill `lp-paleta` (cor-assinatura e escuros/claros) |
 | Macroestrutura | ordem e forma das seções com ritmo variado: tela cheia, coluna estreita, grade quebrada, faixa horizontal, texto grande sozinho |
-| Fotografia | como as fotos aparecem (sangradas, recortadas, em sequência, preto e branco + cor...) |
+| Fotografia | como as fotos aparecem (sangradas, recortadas, em sequência, preto e branco + cor...), a luz e o tratamento da série e, se faltar foto boa, qual solução entra no lugar |
 | Movimento | 1 ou 2 gestos próprios com motivo (ex.: rolagem que revela a cor), nunca o mesmo efeito em tudo |
 | Detalhe de assinatura | 1 elemento que a pessoa lembra depois (ex.: numeração editorial, a cadeira real). Aparece onde faz sentido, não em toda seção (LP-12) |
 
@@ -70,6 +72,7 @@ assunto (permitido pela skill); fonte de texto sorteada (Public Sans, #87) troca
   Pedido reforçado pelo usuário (16/10): quina pontuda nas fotos incomoda; o padrão de raio está em `lp-construcao`.
 - Animação do começo ao fim: cenas grandes fortes (3D real, foto que abre, Lottie/Rive quando o real não se
   fotografa) e, no resto, entradas discretas que variam por tipo de conteúdo; nunca o mesmo efeito em todas.
+- Retorno de 09/11/2026: imagem fraca derruba o site mesmo com layout aprovado, e a cadeira 3D do Prumo foi a imagem preferida.
 - Retorno de 04/11/2026: agradaram objeto real com gesto simples (cadeira 3D girando) e foto com transição
   (porta do baú); desagradaram diagrama "por dentro" sem porquê (fio), cena didática com números (régua do
   degradê) e telas com informação demais.

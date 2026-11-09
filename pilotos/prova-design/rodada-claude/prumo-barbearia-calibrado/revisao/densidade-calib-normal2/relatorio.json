@@ -1,0 +1,307 @@
+{
+  "esquema": 2,
+  "url": "http://localhost:5206/",
+  "data": "2026-11-09T18:42:57.034Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 43,
+    "celular": 42
+  },
+  "alertas": [],
+  "justificadas": [],
+  "aOlhar": [],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "computador",
+      "y": 450,
+      "palavras": 29,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "01 · A cadeira Uma ficha técnica antes do primeiro fio. A cadeira gira, sobe e trava. O barbeiro trabalha atrás dela, de cima, com a cabeça na altura certa."
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 29,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "01 · A cadeira Uma ficha técnica antes do primeiro fio. A cadeira gira, sobe e trava. O barbeiro trabalha atrás dela, de cima, com a cabeça na altura certa."
+    },
+    {
+      "modo": "computador",
+      "y": 1350,
+      "palavras": 4,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "02 · Manifesto Cada milímetro"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 15,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "02 · Manifesto Cada milímetro tem um motivo. Quando a medida está certa, a transição some."
+    },
+    {
+      "modo": "computador",
+      "y": 2250,
+      "palavras": 43,
+      "palavrasLeitura": 0,
+      "midias": 5,
+      "amostra": "tem um motivo. Quando a medida está certa, a transição some. 03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pent"
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "computador",
+      "y": 3150,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "computador",
+      "y": 4050,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "computador",
+      "y": 4950,
+      "palavras": 0,
+      "palavrasLeitura": 70,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 0,
+      "palavrasLeitura": 85,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 5850,
+      "palavras": 0,
+      "palavrasLeitura": 67,
+      "midias": 1,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 6,
+      "palavrasLeitura": 52,
+      "midias": 1,
+      "amostra": "06 · Agendar Sua vez na cadeira."
+    },
+    {
+      "modo": "computador",
+      "y": 6750,
+      "palavras": 33,
+      "palavrasLeitura": 2,
+      "midias": 0,
+      "amostra": "06 · Agendar Sua vez na cadeira. Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp Ter–Qui 9h–20h · Sex 9h–21h · Sáb 8h–13h "
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 31,
+      "palavrasLeitura": 91,
+      "midias": 0,
+      "amostra": "Sua vez na cadeira. Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp Ter–Qui 9h–20h · Sex 9h–21h · Sáb 8h–13h e 14h–18h · R"
+    },
+    {
+      "modo": "computador",
+      "y": 7382,
+      "palavras": 12,
+      "palavrasLeitura": 144,
+      "midias": 0,
+      "amostra": "Ter–Qui 9h–20h · Sex 9h–21h · Sáb 8h–13h e 14h–18h · Rua Demonstração, 120 · Centro"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 35,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "Barbearia de corte técnico · Curitiba/PR Corte técnico, medido no pente. Degradê, navalhado e barba com toalha quente. Cada passada da máquina tem uma medida, e"
+    },
+    {
+      "modo": "celular",
+      "y": 422,
+      "palavras": 29,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "01 · A cadeira Uma ficha técnica antes do primeiro fio. A cadeira gira, sobe e trava. O barbeiro trabalha atrás dela, de cima, com a cabeça na altura certa."
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 4,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "02 · Manifesto Cada milímetro"
+    },
+    {
+      "modo": "celular",
+      "y": 1266,
+      "palavras": 27,
+      "palavrasLeitura": 0,
+      "midias": 3,
+      "amostra": "02 · Manifesto Cada milímetro tem um motivo. Quando a medida está certa, a transição some. 03 · O degradê O que você pede quando diz “degradê no 1”."
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 42,
+      "palavrasLeitura": 0,
+      "midias": 5,
+      "amostra": "Quando a medida está certa, a transição some. 03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. "
+    },
+    {
+      "modo": "celular",
+      "y": 2110,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "celular",
+      "y": 2954,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "midias": 2,
+      "amostra": "03 · O degradê O que você pede quando diz “degradê no 1”. A máquina sobe da pele ao volume, um pente de cada vez. Bem feito, não aparece degrau. pente 0 pente 1"
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 5,
+      "palavrasLeitura": 8,
+      "midias": 2,
+      "amostra": "pente 0 pente 1 tesoura"
+    },
+    {
+      "modo": "celular",
+      "y": 3798,
+      "palavras": 0,
+      "palavrasLeitura": 44,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 0,
+      "palavrasLeitura": 81,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 4642,
+      "palavras": 0,
+      "palavrasLeitura": 64,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 6,
+      "palavrasLeitura": 39,
+      "midias": 0,
+      "amostra": "06 · Agendar Sua vez na cadeira."
+    },
+    {
+      "modo": "celular",
+      "y": 5486,
+      "palavras": 33,
+      "palavrasLeitura": 9,
+      "midias": 0,
+      "amostra": "06 · Agendar Sua vez na cadeira. Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp Ter–Qui 9h–20h · Sex 9h–21h · Sáb 8h–13h "
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 27,
+      "palavrasLeitura": 37,
+      "midias": 0,
+      "amostra": "Mande o serviço e o dia. Respondemos com o primeiro horário livre. Chamar no WhatsApp Ter–Qui 9h–20h · Sex 9h–21h · Sáb 8h–13h e 14h–18h · Rua Demonstração, 120"
+    },
+    {
+      "modo": "celular",
+      "y": 6330,
+      "palavras": 0,
+      "palavrasLeitura": 63,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 0,
+      "palavrasLeitura": 106,
+      "midias": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 6762,
+      "palavras": 0,
+      "palavrasLeitura": 106,
+      "midias": 0,
+      "amostra": ""
+    }
+  ]
+}

@@ -36,7 +36,7 @@
       "name": "landing-pages",
       "source": "./plugins/landing-pages",
       "description": "Fábrica de landing pages para negócios locais: lp-maestro conduz da coleta à publicação, com arsenal de skills famosas de design (travadas, lidas só na etapa certa) e biblioteca de cenas guiadas pelo scroll.",
-      "version": "0.3.15"
+      "version": "0.3.16"
     },
     {
       "name": "seguranca",

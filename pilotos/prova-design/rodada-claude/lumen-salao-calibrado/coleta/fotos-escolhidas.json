@@ -1,0 +1,13 @@
+{
+  "observacao": "Originais fora do repositório (baixados em 09/11/2026). StockSnap e rawpixel, CC0, encontrados pelo Openverse, sem chave. Rejeitadas: foto de abertura antiga (expressão e decote sem relação com terapia capilar); fotos com fundo trocado por chave de cor; perfil de boca entreaberta (expressão estranha na leitura às cegas); costas nuas com alça branca no recorte.",
+  "fotos": [
+    { "nome": "abertura", "autor": "Nina Strehl", "pagina": "https://stocksnap.io/photo/2H93LDS99K", "original": "4016x6016" },
+    { "nome": "fio", "autor": "Alex Holyoake", "pagina": "https://stocksnap.io/photo/HDZE2J2VNL", "original": "5184x3456" },
+    { "nome": "resultado", "autor": "Nikolai Ulltang", "pagina": "https://stocksnap.io/photo/8JJL0GL391", "original": "4608x2592" },
+    { "nome": "hidratacao", "autor": "Healthy Living", "pagina": "https://stocksnap.io/photo/D5CG6JAYN3", "original": "6016x4016" },
+    { "nome": "cronograma", "autor": "Candace McDaniel", "pagina": "https://stocksnap.io/photo/IFMPBCVTUA", "original": "3456x2304" },
+    { "nome": "corte", "autor": "Matt Moloney", "pagina": "https://stocksnap.io/photo/S7UEWWIRTD", "original": "8256x5504" },
+    { "nome": "nutricao", "autor": "rawpixel", "pagina": "https://www.rawpixel.com/image/5919224/hair-salon-free-public-domain-cc0-photo", "original": "1024x683 (limite da API)" },
+    { "nome": "reconstrucao", "autor": "rawpixel", "pagina": "https://www.rawpixel.com/image/5907502/image-public-domain-woman-beauty", "original": "1024x683 (limite da API)" }
+  ]
+}

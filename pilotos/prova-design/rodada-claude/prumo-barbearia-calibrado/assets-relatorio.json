@@ -1,0 +1,211 @@
+{
+  "aprovado": true,
+  "erros": [],
+  "arquivos": [
+    {
+      "arquivo": "public/modelos/cadeira-2k.glb",
+      "bytes": 938948,
+      "sha256": "3c2d9bbbd0d9b1c4ed45179f01e427437ffbac61758f331bf5102424c916af07",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira.glb",
+      "bytes": 359308,
+      "sha256": "6968f238b4b6d6a58dca83473a017ec80b0ce69f95662b6eea91f90c4e326a2a",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-poster.webp",
+      "bytes": 137758,
+      "sha256": "90c47e45f89fee865a57497aa58baa11fd6d8ad4081e450b65f0f23160699f5b",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-abertura.webp",
+      "bytes": 141296,
+      "sha256": "b4ccb31bbc09b90cbaab52ed508067020fb848add7186dd93a6213f8b4f91371",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/modelos/cadeira-abertura-celular.webp",
+      "bytes": 73564,
+      "sha256": "b53e1f3e3df95ea6fc8ec6bcfc27d4b74a0ca7d448b908337862a31cbecf64a2",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/og.jpg",
+      "bytes": 94296,
+      "sha256": "eec8a19458dbacfbed1d97f10649aaface46c34f62c0a1858f44fd58791eb94c",
+      "autor": "Fernando Quinn / Poly Haven",
+      "origem": "https://polyhaven.com/a/BarberShopChair_01",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/ambientes/oficina-512.hdr",
+      "bytes": 524337,
+      "sha256": "27c68d50a0a0e0ce098a40d3729981a0919937c33fad9711898c4b0a161decaf",
+      "autor": "Poly Haven",
+      "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/ambientes/oficina-256.hdr",
+      "bytes": 131121,
+      "sha256": "3e832ebe078f9d6829f0c6824bdff6ae51748bfbeedbf0e38b39085152279447",
+      "autor": "Poly Haven",
+      "origem": "https://polyhaven.com/a/vintage_measuring_lab",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+      "autor": "Google (Draco), via three.js",
+      "origem": "https://github.com/google/draco",
+      "licenca": "Apache-2.0"
+    },
+    {
+      "arquivo": "public/draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+      "autor": "Google (Draco), via three.js",
+      "origem": "https://github.com/google/draco",
+      "licenca": "Apache-2.0"
+    },
+    {
+      "arquivo": "public/img/degrade-480.webp",
+      "bytes": 13082,
+      "sha256": "38b2415ea2b3cda6ec298e0f1d35646d36dfc4bd454bb7518f1ba14596fa5898",
+      "autor": "Prumo (demonstração)",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/img/degrade-750.webp",
+      "bytes": 36134,
+      "sha256": "d87a1c40e4e39079883aecb259ae17c2852820cec8b773f6c6ac254ad3710230",
+      "autor": "Prumo (demonstração)",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/img/degrade-1125.webp",
+      "bytes": 83436,
+      "sha256": "8fa7d3fb4f3a3b6580c7488f968d63df3c324a6bde03b9b4b4ad9899d0ad4c8b",
+      "autor": "Prumo (demonstração)",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/img/degrade-cheio-480.webp",
+      "bytes": 10874,
+      "sha256": "d80ae2cf215a25ea9d059696782b18c2f19ebe0a98260480e1655634af3c4381",
+      "autor": "Prumo (demonstração)",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/img/degrade-cheio-750.webp",
+      "bytes": 31578,
+      "sha256": "7af2077294e46a14bcbfe0e0d7c97ba4383e072dd16a4c4cbdc7fae31164e9f4",
+      "autor": "Prumo (demonstração)",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/img/degrade-cheio-1125.webp",
+      "bytes": 74264,
+      "sha256": "c26d23b64d0f6fd35293c91b0a68a413028d6e748c27dc495e27df4458b86a14",
+      "autor": "Prumo (demonstração)",
+      "origem": "codigo-local",
+      "licenca": "proprio"
+    },
+    {
+      "arquivo": "public/img/navalha-480.webp",
+      "bytes": 15640,
+      "sha256": "99f0445a2e0af78e0d1a4a4cd302d87467026ad72f43aad3325b1228d2faff2a",
+      "autor": "Nick Demou / StockSnap",
+      "origem": "https://stocksnap.io/photo/barbershop-brush-GZP9ZEQPFL",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/navalha-960.webp",
+      "bytes": 37404,
+      "sha256": "67a61d02d4028eda2835eaa7857d3bb4e732e80b1eede9fa8e4377ecb10373fd",
+      "autor": "Nick Demou / StockSnap",
+      "origem": "https://stocksnap.io/photo/barbershop-brush-GZP9ZEQPFL",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/maquina-480.webp",
+      "bytes": 8318,
+      "sha256": "5711984fe9dd0851965f8fced5176cacdfb729310d257154ee1d517888487e62",
+      "autor": "rawpixel",
+      "origem": "https://www.rawpixel.com/image/5923938/photo-image-public-domain-black-person",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/maquina-960.webp",
+      "bytes": 20934,
+      "sha256": "e9cc8c020096f7a97e97cbb34ab1b20b70675125d09dc9f86e6838d3f8045ebb",
+      "autor": "rawpixel",
+      "origem": "https://www.rawpixel.com/image/5923938/photo-image-public-domain-black-person",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/tesoura-480.webp",
+      "bytes": 14734,
+      "sha256": "43ab0385735f29c39f64a5d5f325ebf9b5d604ba560bcb78ef3774a74b87c142",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/tesoura-960.webp",
+      "bytes": 42630,
+      "sha256": "5be1a0330e6422d568b4e646e51e31edf30a428ae841d039d35a76fe66441835",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    },
+    {
+      "arquivo": "public/img/tesoura-1600.webp",
+      "bytes": 95932,
+      "sha256": "5a6748d4a410afd755b08611ed44830da903acf3c7a1cd902eb6aa61bff491e5",
+      "autor": "Mostafameraji",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barber_shop_iran.jpg",
+      "licenca": "CC-BY-SA-4.0"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "abertura-cadeira",
+      "desktop": 1855457,
+      "celular": 814869,
+      "classe": "pesada"
+    },
+    {
+      "id": "degrade",
+      "desktop": 67712,
+      "celular": 23956,
+      "classe": "leve"
+    },
+    {
+      "id": "servicos-fotos",
+      "desktop": 100968,
+      "celular": 38692,
+      "classe": "leve"
+    }
+  ],
+  "observacao": "Valida declarações, integridade e resolução; direitos de imagem, termos da fonte, realismo e o olhar sobre a foto exigem revisão humana."
+}

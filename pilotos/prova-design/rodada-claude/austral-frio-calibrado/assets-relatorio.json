@@ -1,0 +1,61 @@
+{
+  "aprovado": true,
+  "erros": [],
+  "arquivos": [
+    {
+      "arquivo": "public/img/camara-fria-480.webp",
+      "bytes": 18152,
+      "sha256": "ebddadcccdca57a1495cb09160eabcf5db08bbe4e0adce7c3b9bfb40dd88001b",
+      "autor": "Kopiersperre",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+      "licenca": "CC-BY-SA-3.0"
+    },
+    {
+      "arquivo": "public/img/camara-fria-960.webp",
+      "bytes": 52782,
+      "sha256": "a39dc6d6d568fae6d83a754d810cfc1fb468bcb18016400d83c444c44bc2ea09",
+      "autor": "Kopiersperre",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+      "licenca": "CC-BY-SA-3.0"
+    },
+    {
+      "arquivo": "public/img/camara-fria-1600.webp",
+      "bytes": 109532,
+      "sha256": "00f48fcf2b2b6b1d7f3d83816bca8eb905a0a455bef2f5364b22f2edc070907b",
+      "autor": "Kopiersperre",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_K%C3%BChlraum_(Elbe-Obst_Jork).jpg",
+      "licenca": "CC-BY-SA-3.0"
+    },
+    {
+      "arquivo": "public/img/estrada-480.webp",
+      "bytes": 7454,
+      "sha256": "c290586df2a01df8b61925aa77ff7869007f588e23e941a2b3cb6505a54c4c2b",
+      "autor": "Robson Hatsukami Morgan",
+      "origem": "https://stocksnap.io/photo/road-truck-U02UKEL04U",
+      "licenca": "CC0"
+    },
+    {
+      "arquivo": "public/img/estrada-960.webp",
+      "bytes": 19554,
+      "sha256": "9542e79345cf663e7dd020a60377e581f018255d24fd9db8858b55a1ec0aa461",
+      "autor": "Robson Hatsukami Morgan",
+      "origem": "https://stocksnap.io/photo/road-truck-U02UKEL04U",
+      "licenca": "CC0"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "porta-geada",
+      "desktop": 109532,
+      "celular": 52782,
+      "classe": "leve"
+    },
+    {
+      "id": "estrada",
+      "desktop": 19554,
+      "celular": 19554,
+      "classe": "leve"
+    }
+  ],
+  "observacao": "Valida declarações, integridade e resolução; direitos de imagem, termos da fonte, realismo e o olhar sobre a foto exigem revisão humana."
+}
