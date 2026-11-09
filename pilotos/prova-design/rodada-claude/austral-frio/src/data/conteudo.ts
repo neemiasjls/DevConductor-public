@@ -44,7 +44,8 @@ export const porta = {
   rotulo: 'Dentro do baú',
   titulo: 'Abrir o baú sem quebrar o frio.',
   texto:
-    'Carga em doca, cortina de ar e tempo de porta anotado. Toque a foto: só a imagem descongela.',
+    'Carga em doca, cortina de ar e tempo de porta anotado.',
+  interacao: 'Toque a foto: só a imagem descongela.',
   alt: 'Câmara fria com pilhas de caixas plásticas azuis, piso molhado e evaporadores no teto.',
   credito: 'Foto: Kopiersperre, Wikimedia Commons, CC BY-SA 3.0 (cor tratada).',
 }
@@ -142,7 +143,7 @@ export const doca = {
   rotulo: 'Pátio e doca',
   titulo: 'Baú ligado antes de a carga chegar.',
   texto:
-    'O equipamento de frio liga no pátio e o baú só encosta na doca na temperatura da carga. A estrutura da base (doca, pátio, câmara) fica a definir nesta demonstração.',
+    'Frio ligado no pátio; o baú chega à doca na temperatura da carga. Estrutura da base a definir nesta demonstração.',
   alt: 'Semirreboque frigorífico branco estacionado no pátio, ao lado de um galpão com porta de doca.',
   credito: 'Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada).',
 }

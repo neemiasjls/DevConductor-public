@@ -26,12 +26,12 @@ export default function Doca() {
         sx: 1, sy: 1, z: 1, ease: 'none', onUpdate: aplicar,
         scrollTrigger: { trigger: cena.current, start: 'top 35%', end: 'bottom bottom', scrub: ritmo.scrub },
       })
-      // quickSetter escreve fora do registro do contexto: limpar à mão na troca para reduzido.
-      return () => gsap.set([janela, foto], { clearProps: 'transform' })
       gsap.fromTo('[data-fio-desce]', { scaleY: 0 }, {
         scaleY: 1, ease: 'none', transformOrigin: '50% 0',
         scrollTrigger: { trigger: '[data-fio-desce]', start: 'top 85%', end: 'bottom 55%', scrub: true },
       })
+      // quickSetter escreve fora do registro do contexto: limpar à mão na troca para reduzido.
+      return () => gsap.set([janela, foto], { clearProps: 'transform' })
     })
   }, { scope: cena })
 

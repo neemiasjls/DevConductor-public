@@ -52,6 +52,9 @@ vê a conversa), exceto o diagnóstico do `revisar`.
    entre arquivos), contradições, regra "inferido" que o código já desmente, texto longo, pendência
    resolvida, "Ver:", caminhos e `paths:` quebrados, segredo com valor (senha, token, chave,
    connection string), dado pessoal ou menção a Claude/IA em arquivo versionado.
+   Rodar também `node "<pasta da skill>/padroes.mjs" [pasta do projeto]` (só leitura): no relatório
+   final, mostrar como pergunta os grupos de correção/pedido repetido que ainda não estão na memória
+   (grep antes). Nunca gravar sem o meu sim.
 2. **Antes de mexer:** cópia dos arquivos em `.claude/backup-memoria-AAAA-MM-DD/`.
 3. **Aplicar na conversa principal:** juntar duplicatas (fica no assunto dono, os outros apontam
    "Ver: ID"); resumir entradas longas (1–4 linhas + Código); pendência resolvida vira estado na

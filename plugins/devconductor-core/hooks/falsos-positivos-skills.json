@@ -39,6 +39,13 @@
       "tipo": "Dangerous Code Pattern",
       "trecho": "'.claude', 'projects'",
       "motivo": "Só lê as transcrições do próprio projeto em ~/.claude/projects para recuperar mensagens após compactação (é a função da skill); não grava nem acessa rede."
+    },
+    {
+      "skill": "plugins/devconductor-core/skills/memoria",
+      "arquivo": "padroes.mjs",
+      "tipo": "Dangerous Code Pattern",
+      "trecho": "'.claude'), 'projects'",
+      "motivo": "Só lê os históricos do próprio projeto em ~/.claude/projects (ou CLAUDE_CONFIG_DIR) para achar pedidos repetidos; não grava nada e mascara dados pessoais antes de imprimir."
     }
   ]
 }

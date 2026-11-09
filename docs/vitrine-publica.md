@@ -38,6 +38,20 @@ tempo, e o que foi público uma vez pode ter sido copiado. Por isso são dois re
    `gh repo edit <repo> --visibility public --accept-visibility-change-consequences`. Depois, ligar
    *Secret scanning* e *Push protection* nas configurações do repositório.
 
+## Proteções de caminho
+
+Desde o núcleo 0.4.6, `renomear` não permite incluir arquivos protegidos nem criar destinos protegidos.
+Nomes devem ser relativos, sem `..`, `.git`, volumes ou nomes reservados do Windows. Colisões de nomes
+(inclusive maiúsculas/minúsculas) e conflitos entre arquivo e pasta interrompem a seleção antes de copiar.
+A pasta de saída deve ficar fora do projeto e não pode ser ancestral dele nem link/junção. Essas relações
+também são verificadas pelos caminhos reais. Links de arquivos de origem são recusados.
+
+São proteções contra configuração incorreta, não uma garantia de anonimização de qualquer conteúdo.
+Texto UTF-16 com BOM (inclusive saída do PowerShell) é varrido como texto e conserva a codificação nas trocas;
+UTF-32 é recusado, pedindo conversão para UTF-8, em vez de ser liberado como binário.
+A cópia ainda não é transacional: falha de disco durante a escrita pode deixar uma cópia incompleta.
+O envio interrompe antes do commit se a geração falhar; não use a cópia incompleta como resultado aprovado.
+
 ## Antes da primeira publicação
 
 - Varrer também com uma ferramenta de segredos (ex.: `gitleaks dir <pasta-da-vitrine>`).

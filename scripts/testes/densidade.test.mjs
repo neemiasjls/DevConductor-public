@@ -64,11 +64,25 @@ test('exceção localizada (data-densidade) não reprova, mas fica listada com o
   ])
   assert.deepEqual(tela.motivos, ['entrada da viagem'])
   const { alertas, justificadas } = avaliar([
-    { modo: 'computador', y: 0, palavras: 80, motivos: ['entrada da viagem'] },
+    { modo: 'computador', y: 0, palavras: 80, motivos: ['entrada da viagem'], palavrasJustificadas: 20 },
     { modo: 'computador', y: 450, palavras: 80 },
   ])
   assert.deepEqual(alertas.map((a) => a.y), [450])
   assert.deepEqual(justificadas.map((a) => [a.y, a.motivos]), [[0, ['entrada da viagem']]])
+})
+
+test('exceção só cobre as palavras marcadas, sem liberar o restante da tela', () => {
+  const tela = medirTela([
+    { texto: 'Exceção', leitura: false, motivo: 'um rótulo necessário' },
+    { texto: 'texto '.repeat(70), leitura: false },
+  ])
+  assert.equal(tela.palavrasJustificadas, 1)
+  const resultado = avaliar([{ modo: 'computador', y: 0, ...tela }])
+  assert.equal(resultado.alertas.length, 1)
+  assert.equal(resultado.justificadas.length, 0)
+  for (const palavrasJustificadas of [undefined, -1, 999, 1.5]) {
+    assert.equal(avaliar([{ modo: 'computador', y: 0, palavras: 80, motivos: ['motivo'], palavrasJustificadas }]).alertas.length, 1)
+  }
 })
 
 test('reprovar é o padrão e a revisão manda medir a cada meia tela', () => {

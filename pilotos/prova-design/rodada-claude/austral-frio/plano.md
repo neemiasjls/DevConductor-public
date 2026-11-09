@@ -111,3 +111,16 @@ com a última frase do Compromisso; lida em ~3 s (print em `revisao/densidade-r2
 os 5 marcos com texto aparecem juntos (92/67), de propósito: é a versão completa em lista.
 Comportamento `revisao/comportamento-r2-1` aprovado. Lighthouse celular (médias de 3): nota 95 → 95, TBT 115 → 121 ms
 (ruído), LCP 2,80 → 2,73 s, CLS 0.
+
+## Fechamento da régua por meia tela (06/11/2026)
+
+Build aprovado. Densidade esquema 2: normal 53/51, sem alertas e uma exceção no cabeçalho da Viagem
+(entrada junto ao Compromisso, decisão já descrita acima). A exceção cobre apenas seu texto; não libera
+o resto da tela. Reduzido 44/45, sem alertas: os cinco marcos completos são lista de leitura, sem apagar conteúdo.
+Apoio da Doca encurtado mantendo temperatura de chegada e aviso de estrutura demonstrativa.
+
+Corrigidos fio da Doca inalcançável depois do `return` e instrução de geada sem interação disponível.
+Comportamento em quatro larguras e regressão do fio em duas larguras aprovados. Teste da classificação de
+leitura em 390/1440, com normal → reduzido → normal, também aprovado, preservando os cinco marcos.
+Relatórios finais em `revisao/densidade-06-11-final/`. Vídeos e Lighthouse anteriores são históricos;
+não foram regravados/recalculados para estes ajustes. Avaliação visual e teste físico permanecem abertos.

@@ -1,0 +1,414 @@
+{
+  "esquema": 2,
+  "url": "http://localhost:5201",
+  "data": "2026-11-06T03:36:37.374Z",
+  "reduzido": false,
+  "limites": {
+    "computador": 60,
+    "celular": 45
+  },
+  "maior": {
+    "computador": 53,
+    "celular": 51
+  },
+  "alertas": [],
+  "justificadas": [
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 51,
+      "limite": 45,
+      "amostra": "Três verbos e um número que não muda. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 0 h No baú −18,1 °C 0 h Pré-res",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    }
+  ],
+  "telas": [
+    {
+      "modo": "computador",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 450,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 900,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga em doca, cortina de ar e tempo de porta anotado. Toque a foto: só a imagem descongela. Foto: Kopiersperre, W"
+    },
+    {
+      "modo": "computador",
+      "y": 1350,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga em doca, cortina de ar e tempo de porta anotado. Toque a foto: só a imagem descongela. Foto: Kopiersperre, W"
+    },
+    {
+      "modo": "computador",
+      "y": 1800,
+      "palavras": 16,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Coletamos frio. Viajamos frio. Entregamos frio."
+    },
+    {
+      "modo": "computador",
+      "y": 2250,
+      "palavras": 14,
+      "palavrasLeitura": 0,
+      "amostra": "Coletamos frio. Viajamos frio. Entregamos frio. Três verbos e um número que não muda."
+    },
+    {
+      "modo": "computador",
+      "y": 2700,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "frio. Entregamos frio. Três verbos e um número que não muda. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 0 h No b",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "computador",
+      "y": 3150,
+      "palavras": 34,
+      "palavrasLeitura": 0,
+      "amostra": "A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 0 h No baú −18,1 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "computador",
+      "y": 3600,
+      "palavras": 53,
+      "palavrasLeitura": 0,
+      "amostra": "Hora 5 h No baú −18,0 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta Porta aberta 25 min na doca. Sobe 0,7 °C e volta em 40 mi"
+    },
+    {
+      "modo": "computador",
+      "y": 4050,
+      "palavras": 51,
+      "palavrasLeitura": 0,
+      "amostra": "Hora 14 h No baú −18,0 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio No Paraná, parada curta com a porta lacrada."
+    },
+    {
+      "modo": "computador",
+      "y": 4500,
+      "palavras": 52,
+      "palavrasLeitura": 0,
+      "amostra": "Hora 22 h No baú −17,9 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista Perto de Curitiba, "
+    },
+    {
+      "modo": "computador",
+      "y": 4950,
+      "palavras": 52,
+      "palavrasLeitura": 0,
+      "amostra": "Hora 31 h No baú −18,0 °C Chapecó Curitiba São Paulo 0 h 12 h 24 h 36 h 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista Perto de Curitiba, "
+    },
+    {
+      "modo": "computador",
+      "y": 5400,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 5850,
+      "palavras": 0,
+      "palavrasLeitura": 59,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 6300,
+      "palavras": 10,
+      "palavrasLeitura": 79,
+      "amostra": "Pátio e doca Baú ligado antes de a carga chegar."
+    },
+    {
+      "modo": "computador",
+      "y": 6750,
+      "palavras": 30,
+      "palavrasLeitura": 20,
+      "amostra": "Pátio e doca Baú ligado antes de a carga chegar. Frio ligado no pátio; o baú chega à doca na temperatura da carga. Estrutura da base a definir nesta demonstraçã"
+    },
+    {
+      "modo": "computador",
+      "y": 7200,
+      "palavras": 39,
+      "palavrasLeitura": 0,
+      "amostra": "Baú ligado antes de a carga chegar. Frio ligado no pátio; o baú chega à doca na temperatura da carga. Estrutura da base a definir nesta demonstração. Foto: Rund"
+    },
+    {
+      "modo": "computador",
+      "y": 7650,
+      "palavras": 12,
+      "palavrasLeitura": 0,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 8100,
+      "palavras": 12,
+      "palavrasLeitura": 0,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 8550,
+      "palavras": 12,
+      "palavrasLeitura": 44,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "computador",
+      "y": 9000,
+      "palavras": 0,
+      "palavrasLeitura": 100,
+      "amostra": ""
+    },
+    {
+      "modo": "computador",
+      "y": 9450,
+      "palavras": 26,
+      "palavrasLeitura": 60,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 9900,
+      "palavras": 33,
+      "palavrasLeitura": 47,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "computador",
+      "y": 10350,
+      "palavras": 7,
+      "palavrasLeitura": 153,
+      "amostra": "Pedir cotação no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "computador",
+      "y": 10383,
+      "palavras": 7,
+      "palavrasLeitura": 153,
+      "amostra": "Pedir cotação no WhatsApp cotacao@austral-frio.example (49) 0000-0000"
+    },
+    {
+      "modo": "celular",
+      "y": 0,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 422,
+      "palavras": 0,
+      "palavrasLeitura": 0,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 844,
+      "palavras": 28,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga em doca, cortina de ar e tempo de porta anotado. Toque a foto: só a imagem descongela."
+    },
+    {
+      "modo": "celular",
+      "y": 1266,
+      "palavras": 37,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Carga em doca, cortina de ar e tempo de porta anotado. Toque a foto: só a imagem descongela. Foto: Kopiersperre, W"
+    },
+    {
+      "modo": "celular",
+      "y": 1688,
+      "palavras": 16,
+      "palavrasLeitura": 0,
+      "amostra": "Dentro do baú Abrir o baú sem quebrar o frio. Coletamos frio. Viajamos frio. Entregamos frio."
+    },
+    {
+      "modo": "celular",
+      "y": 2110,
+      "palavras": 29,
+      "palavrasLeitura": 0,
+      "amostra": "Coletamos frio. Viajamos frio. Entregamos frio. Três verbos e um número que não muda. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de de",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "celular",
+      "y": 2532,
+      "palavras": 51,
+      "palavrasLeitura": 0,
+      "amostra": "Três verbos e um número que não muda. A viagem O que o cliente nunca vê: 36 horas de temperatura. Registro de demonstração. Hora 0 h No baú −18,1 °C 0 h Pré-res",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 15
+    },
+    {
+      "modo": "celular",
+      "y": 2954,
+      "palavras": 42,
+      "palavrasLeitura": 0,
+      "amostra": "Registro de demonstração. Hora 0 h No baú −18,1 °C 0 h Pré-resfriamento Em Chapecó, o baú chega a −18 °C vazio, antes da doca. 2 h Coleta 8 h Pedágio 15 h Parad",
+      "motivos": [
+        "Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11"
+      ],
+      "palavrasJustificadas": 3
+    },
+    {
+      "modo": "celular",
+      "y": 3376,
+      "palavras": 39,
+      "palavrasLeitura": 0,
+      "amostra": "Hora 11 h No baú −18,0 °C 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio No Paraná, parada curta com a porta lacrada. A linha nem percebe. 15 h Parada do motorista"
+    },
+    {
+      "modo": "celular",
+      "y": 3798,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "amostra": "Hora 23 h No baú −17,9 °C 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista Perto de Curitiba, 11 horas de descanso. O motorista para; o frio"
+    },
+    {
+      "modo": "celular",
+      "y": 4220,
+      "palavras": 40,
+      "palavrasLeitura": 0,
+      "amostra": "Hora 35 h No baú −18,0 °C 0 h Pré-resfriamento 2 h Coleta 8 h Pedágio 15 h Parada do motorista 33 h Porta aberta na entrega Em São Paulo, sobe 1,2 °C na descarg"
+    },
+    {
+      "modo": "celular",
+      "y": 4642,
+      "palavras": 0,
+      "palavrasLeitura": 27,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5064,
+      "palavras": 0,
+      "palavrasLeitura": 43,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5486,
+      "palavras": 0,
+      "palavrasLeitura": 52,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 5908,
+      "palavras": 30,
+      "palavrasLeitura": 36,
+      "amostra": "Pátio e doca Baú ligado antes de a carga chegar. Frio ligado no pátio; o baú chega à doca na temperatura da carga. Estrutura da base a definir nesta demonstraçã"
+    },
+    {
+      "modo": "celular",
+      "y": 6330,
+      "palavras": 30,
+      "palavrasLeitura": 0,
+      "amostra": "Pátio e doca Baú ligado antes de a carga chegar. Frio ligado no pátio; o baú chega à doca na temperatura da carga. Estrutura da base a definir nesta demonstraçã"
+    },
+    {
+      "modo": "celular",
+      "y": 6752,
+      "palavras": 12,
+      "palavrasLeitura": 0,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "celular",
+      "y": 7174,
+      "palavras": 12,
+      "palavrasLeitura": 0,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "celular",
+      "y": 7596,
+      "palavras": 12,
+      "palavrasLeitura": 12,
+      "amostra": "Foto: Rundvald, Wikimedia Commons, CC BY-SA 4.0 (recorte, marcas desfocadas, cor tratada)."
+    },
+    {
+      "modo": "celular",
+      "y": 8018,
+      "palavras": 0,
+      "palavrasLeitura": 57,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 8440,
+      "palavras": 0,
+      "palavrasLeitura": 77,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 8862,
+      "palavras": 1,
+      "palavrasLeitura": 43,
+      "amostra": "Contato"
+    },
+    {
+      "modo": "celular",
+      "y": 9284,
+      "palavras": 32,
+      "palavrasLeitura": 11,
+      "amostra": "Contato Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa r"
+    },
+    {
+      "modo": "celular",
+      "y": 9706,
+      "palavras": 31,
+      "palavrasLeitura": 24,
+      "amostra": "Diga a temperatura. A gente cuida do resto. Cotação pelo WhatsApp ou por e-mail. Atendimento de demonstração: nenhuma mensagem é enviada a uma empresa real. Cot"
+    },
+    {
+      "modo": "celular",
+      "y": 10128,
+      "palavras": 0,
+      "palavrasLeitura": 61,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 10550,
+      "palavras": 0,
+      "palavrasLeitura": 89,
+      "amostra": ""
+    },
+    {
+      "modo": "celular",
+      "y": 10807,
+      "palavras": 0,
+      "palavrasLeitura": 104,
+      "amostra": ""
+    }
+  ]
+}

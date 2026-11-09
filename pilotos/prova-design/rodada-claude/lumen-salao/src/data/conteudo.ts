@@ -30,9 +30,9 @@ export const menu = [
 export const abertura = {
   linhas: ['Brilho é', 'cutícula', 'fechada.'],
   // LP-12: o apoio diz o que o salão faz e onde; a explicação da cutícula fica para a cena do diagnóstico.
-  texto: 'Terapia capilar e corte na Savassi, em Belo Horizonte. A gente fecha o fio uma etapa de cada vez.',
+  texto: 'Terapia capilar e corte na Savassi, com diagnóstico.',
   botao: 'Agendar diagnóstico',
-  secundario: 'Ver o tratamento de perto',
+  secundario: 'Ver o tratamento',
   pausar: 'Pausar o reflexo',
   retomar: 'Retomar o reflexo',
   foto: { nome: 'abertura' as NomeFoto, alt: 'Mulher de cabelo longo acobreado olhando para a janela; a luz lateral bate nos comprimentos.' },
@@ -43,7 +43,7 @@ export const diagnostico = {
   rotulo: 'Diagnóstico',
   // a única palavra em itálico do site (marcada por *…*)
   frase: 'Água, óleo, proteína: o fio pede uma coisa de cada *vez*.',
-  apoio: 'Antes de qualquer produto, a gente puxa uma mecha e vê o que ela pede.',
+  apoio: 'O tratamento começa pelo diagnóstico da mecha.',
   sinais: [
     { falta: 'Água', tratamento: 'hidratação', sinal: 'Áspero e sem balanço.' },
     { falta: 'Óleo', tratamento: 'nutrição', sinal: 'Pontas secas e frizz.' },
@@ -63,7 +63,7 @@ export const cronograma = {
   numero: '03', // taste-skill-ignore: numeração de revista pedida pelo estilo luxo-editorial
   rotulo: 'Cronograma capilar',
   titulo: 'Quatro semanas, uma etapa por lavagem',
-  texto: 'Um exemplo para cabelo com química. O seu sai do diagnóstico e muda conforme o fio responde.',
+  texto: 'Exemplo ajustado ao diagnóstico e à resposta do fio.',
   legenda: [
     { sigla: 'H', nome: 'hidratação' },
     { sigla: 'N', nome: 'nutrição' },

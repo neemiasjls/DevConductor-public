@@ -57,6 +57,8 @@ CLAUDE.md.
    pessoal, caminho da máquina, CPF/CNPJ, telefone, token, chave privada e os padrões do projeto, como
    nomes de clientes) e, com achado, não envia nada: corrigir no privado (ou registrar em `permitidos`
    um valor de teste conhecido, com o arquivo) e rodar de novo; nunca afrouxar a regra para passar.
+   Destino de cópia fora do projeto, sem link/junção; renomeação não contorna exclusões obrigatórias.
+   Caminho inválido interrompe a geração: corrigir a configuração, nunca desativar as proteções.
    Faz o commit com a mesma autoria do privado e o push. Nunca muda a visibilidade: tornar público é só
    com o usuário (`gh repo edit <repo> --visibility public --accept-visibility-change-consequences`).
    Memória, `.claude`, `.codex`, `CLAUDE.md` e `AGENTS.md` ficam fora, salvo `"permitirConfigIA": true`

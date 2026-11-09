@@ -20,6 +20,7 @@ Método externo: superpowers (instalado à parte); não se copia seu processo pa
 | `design-sistemas:improve-ui` | `design-sistemas:ui-sistemas` | pela etapa, sob demanda |
 | `design-sistemas:ui-sistemas` | `design-sistemas:ui-sistemas` | na etapa atual |
 | `devconductor-core:codex-parceiro` | conversa principal | na tarefa pertinente |
+| `devconductor-core:faxina` | conversa principal | na tarefa pertinente |
 | `devconductor-core:find-skills` | conversa principal | na tarefa pertinente |
 | `devconductor-core:memoria` | conversa principal | na tarefa pertinente |
 | `devconductor-core:orquestrador` | conversa principal | na tarefa pertinente |

@@ -377,7 +377,7 @@ function AberturaParada() {
           <img src={POSTER} alt={abertura.posterAlt} width={1600} height={1000} className="relative h-auto w-full" />
         </div>
       </div>
-      <div className="mt-14 px-5 md:px-[5vw]">
+      <div data-leitura className="mt-14 px-5 md:px-[5vw]">
         <p className="dado text-[11px] uppercase tracking-[0.12em] text-cobre">01 · {cadeira.rotulo}</p>
         <h2 className="titulo mt-3 text-[28px] md:text-[36px]">{cadeira.titulo}</h2>
         <p className="mt-3 max-w-[52ch] text-[15px] leading-relaxed text-nevoa">{cadeira.texto}</p>

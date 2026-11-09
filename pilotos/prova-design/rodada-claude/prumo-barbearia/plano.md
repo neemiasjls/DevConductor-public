@@ -131,3 +131,13 @@ seções de leitura); o crédito das fotos saiu de Serviços (fica no rodapé, c
 Densidade (computador/celular): 95/79 → 44/44. Comportamento `revisao/comportamento-r2-1` aprovado. Lighthouse
 celular (3 rodadas intercaladas, médias): nota 99 → 99, TBT 108 → 108 ms, CLS 0. No reduzido a abertura mostra as
 4 legendas da cadeira juntas (123/66): é a versão estática da cena, em lista, e não mudou nesta rodada.
+
+## Fechamento da régua por meia tela (06/11/2026)
+
+Ficha técnica do ramo estático explicitamente classificada como leitura: título, explicação e quatro
+legendas permanecem completos. O ramo animado continua sem essa marca; nenhum texto ou cena alterado.
+Build aprovado. Densidade esquema 2: normal 44/44; reduzido 40/44; sem alertas e sem exceções.
+A diferença no reduzido é classificação de conteúdo de leitura, não remoção de conteúdo.
+Teste em 390/1440 confirmou normal → reduzido → normal e preservação dos quatro itens.
+Relatórios em `revisao/densidade-06-11-final/`. Vídeos e Lighthouse anteriores não foram repetidos;
+avaliação visual e teste físico permanecem abertos.

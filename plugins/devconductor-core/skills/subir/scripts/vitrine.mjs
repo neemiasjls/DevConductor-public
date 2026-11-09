@@ -26,7 +26,7 @@ export const PROIBIDOS_PADRAO = [
 ]
 
 /** Nunca entram: segredos e configuração local. Memória e instruções de IA também não, salvo "permitirConfigIA". */
-export const EXCLUIR_SEMPRE = ['**/.env', '**/.env.*', '**/settings.local.json', 'vitrine.json']
+export const EXCLUIR_SEMPRE = ['**/.env', '**/.env.*', '**/settings.local.json', 'vitrine.json', 'scripts/vitrine.json', '**/.git', '**/.git/**']
 export const EXCLUIR_CONFIG_IA = ['.claude/**', '.codex/**', '**/CLAUDE.md', '**/AGENTS.md', '**/memory/**', '**/memoria/**']
 
 function globParaRegex(glob) {
@@ -47,20 +47,64 @@ function exclusoes(cfg) {
 /** Escolhe o que entra: [{ origem, destino }] a partir da lista de arquivos versionados. */
 export function selecionar(arquivos, cfg) {
   const excluir = exclusoes(cfg)
+  const obrigatorias = exclusoes({ permitirConfigIA: cfg.permitirConfigIA }).map((r) => new RegExp(r.source, 'i'))
   const renomear = cfg.renomear || {}
   const saida = []
   for (const a of arquivos) {
-    if (renomear[a]) { saida.push({ origem: a, destino: renomear[a] }); continue }
+    if (obrigatorias.some((r) => r.test(a))) continue
+    if (Object.hasOwn(renomear, a)) {
+      const destino = validarNomeDestino(renomear[a])
+      if (obrigatorias.some((r) => r.test(destino))) throw new Error(`destino reservado: ${destino}`)
+      saida.push({ origem: a, destino }); continue
+    }
     const entra = (cfg.incluir || ['']).some((p) => p === '' || (p.endsWith('/') ? a.startsWith(p) : a === p))
     if (!entra || excluir.some((r) => r.test(a))) continue
-    saida.push({ origem: a, destino: a })
+    saida.push({ origem: a, destino: validarNomeDestino(a) })
   }
   const destinos = new Set()
   for (const s of saida) {
-    if (destinos.has(s.destino)) throw new Error(`dois arquivos para o mesmo destino: ${s.destino}`)
-    destinos.add(s.destino)
+    const chave = s.destino.toLowerCase()
+    if (destinos.has(chave)) throw new Error(`dois arquivos para o mesmo destino: ${s.destino}`)
+    destinos.add(chave)
+  }
+  for (const nome of destinos) {
+    const partes = nome.split('/')
+    for (let i = 1; i < partes.length; i++) {
+      if (destinos.has(partes.slice(0, i).join('/'))) throw new Error(`conflito de arquivo e pasta: ${nome}`)
+    }
   }
   return saida.sort((x, y) => x.destino.localeCompare(y.destino))
+}
+
+function validarNomeDestino(nome) {
+  if (typeof nome !== 'string' || !nome || /[\x00-\x1f:]/.test(nome)) throw new Error('nome de destino inválido')
+  const normal = nome.replaceAll('\\', '/')
+  const partes = normal.split('/')
+  if (partes.some((p) => !p || p === '.' || p === '..' || p.toLowerCase() === '.git' || /[. ]$|[<>"|?*]/.test(p) || /^(con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(p))) {
+    throw new Error(`nome de destino inválido: ${nome}`)
+  }
+  return normal
+}
+
+// Resolve também ancestrais existentes: uma junção não pode esconder o próprio projeto.
+function caminhoReal(caminho) {
+  if (fs.existsSync(caminho)) return fs.realpathSync.native(caminho)
+  const pai = path.dirname(caminho)
+  if (pai === caminho) return caminho
+  return path.join(caminhoReal(pai), path.basename(caminho))
+}
+
+function validarRaizDestino(projeto, alvo) {
+  if (fs.existsSync(alvo) && fs.lstatSync(alvo).isSymbolicLink()) throw new Error('destino não pode ser link ou junção')
+  const origem = caminhoReal(projeto)
+  const destino = caminhoReal(alvo)
+  const contem = (a, b) => {
+    const relativo = path.relative(a, b)
+    return relativo === '' || (!relativo.startsWith('..' + path.sep) && relativo !== '..' && !path.isAbsolute(relativo))
+  }
+  if (contem(origem, destino) || contem(destino, origem)) {
+    throw new Error('destino não pode ser o próprio projeto, uma subpasta ou um ancestral')
+  }
 }
 
 /** Aplica as trocas do vitrine.json ([{ padrao, flags, por, arquivos }]) ao texto de um arquivo. */
@@ -73,9 +117,36 @@ export function aplicarTrocas(arquivo, texto, cfg) {
   return texto
 }
 
-/** Arquivo binário (imagem, vídeo, fonte): não é varrido. */
+function utf16(buf) {
+  if (buf[0] === 0xff && buf[1] === 0xfe && !(buf[2] === 0 && buf[3] === 0)) return 'le'
+  if (buf[0] === 0xfe && buf[1] === 0xff) return 'be'
+  return null
+}
+
+/** Arquivo binário (imagem, vídeo, fonte): não é varrido. UTF-16 com BOM é texto, comum no PowerShell. */
 export function ehBinario(buf) {
+  if (utf16(buf)) return false
   return buf.subarray(0, 8000).includes(0)
+}
+
+function lerTexto(buf) {
+  const ordem = utf16(buf)
+  if (ordem) {
+    if (buf.length % 2) throw new Error('texto UTF-16 com tamanho inválido')
+    const corpo = Buffer.from(buf.subarray(2))
+    if (ordem === 'be') corpo.swap16()
+    return { texto: corpo.toString('utf16le'), codificar: (texto) => {
+      const novo = Buffer.from(texto, 'utf16le')
+      if (ordem === 'be') novo.swap16()
+      return Buffer.concat([buf.subarray(0, 2), novo])
+    } }
+  }
+  if ((buf[0] === 0xff && buf[1] === 0xfe && buf[2] === 0 && buf[3] === 0) ||
+      (buf[0] === 0 && buf[1] === 0 && buf[2] === 0xfe && buf[3] === 0xff)) {
+    throw new Error('UTF-32 não suportado na varredura; converta o texto para UTF-8')
+  }
+  if (ehBinario(buf)) return null
+  return { texto: buf.toString('utf8'), codificar: (texto) => Buffer.from(texto, 'utf8') }
 }
 
 /** Procura dados que não podem ir a público. Devolve [{ arquivo, linha, regra, trecho }]. */
@@ -126,16 +197,22 @@ export function gerar({ projeto, destino, conferir = false, cfg } = {}) {
   const achados = []
   const trocados = new Map()
   for (const { origem } of lista) {
-    const buf = fs.readFileSync(path.join(projeto, origem))
-    if (ehBinario(buf)) continue
-    const original = buf.toString('utf8')
+    const arquivo = path.join(projeto, origem)
+    for (let atual = arquivo; atual !== projeto; atual = path.dirname(atual)) {
+      if (fs.lstatSync(atual).isSymbolicLink()) throw new Error(`link não permitido na vitrine: ${origem}`)
+    }
+    if (!fs.lstatSync(arquivo).isFile()) throw new Error(`origem não é arquivo comum: ${origem}`)
+    const buf = fs.readFileSync(arquivo)
+    const decodificado = lerTexto(buf)
+    if (!decodificado) continue
+    const original = decodificado.texto
     const texto = aplicarTrocas(origem, original, cfg)
-    if (texto !== original) trocados.set(origem, texto)
+    if (texto !== original) trocados.set(origem, decodificado.codificar(texto))
     achados.push(...varrer(origem, texto, cfg))
   }
   if (achados.length || conferir) return { lista, achados, copiados: 0, trocados }
   const alvo = path.resolve(projeto, destino || cfg.pasta || path.join('..', path.basename(projeto) + '-public'))
-  if (alvo === projeto || projeto.startsWith(alvo + path.sep)) throw new Error('destino não pode ser o próprio projeto')
+  validarRaizDestino(projeto, alvo)
   limparDestino(alvo)
   for (const { origem, destino: d } of lista) {
     const f = path.join(alvo, d)
@@ -152,6 +229,7 @@ export function enviar({ projeto, mensagem, cfg } = {}) {
   cfg ||= lerConfig(projeto)
   if (!cfg?.repositorio) throw new Error('vitrine.json sem "repositorio" (ex.: "usuario/projeto-public")')
   const alvo = path.resolve(projeto, cfg.pasta || path.join('..', path.basename(projeto) + '-public'))
+  validarRaizDestino(projeto, alvo)
   const nome = git(projeto, 'config', 'user.name').stdout.trim()
   const email = git(projeto, 'config', 'user.email').stdout.trim()
   if (!nome || !email) throw new Error('o repositório privado não tem user.name/user.email: configurar antes de enviar')

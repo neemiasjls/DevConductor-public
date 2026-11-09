@@ -44,6 +44,64 @@ test('permitirConfigIA deixa entrar a estrutura de memória do kit; segredo cont
   assert.deepEqual(r.map((x) => x.destino), ['CLAUDE.md', 'skills/memoria/SKILL.md'])
 })
 
+test('renomear não contorna exclusões obrigatórias na origem ou no destino', () => {
+  for (const origem of ['.env', 'src/.env.local', 'src/.ENV', '.claude/settings.local.json', 'CLAUDE.md', 'vitrine.json', 'scripts/vitrine.json']) {
+    assert.deepEqual(selecionar([origem], { renomear: { [origem]: 'publico.txt' } }), [], origem)
+  }
+  for (const destino of ['.env', 'src/.ENV', 'CLAUDE.md', '.git/config', 'scripts/vitrine.json']) {
+    assert.throws(() => selecionar(['ok.txt'], { renomear: { 'ok.txt': destino } }), /destino|reservado/, destino)
+  }
+})
+
+test('destinos ficam confinados e portáveis, sem colisões de arquivo e pasta', () => {
+  for (const destino of ['../fora', '..\\fora', '/absoluto', 'C:\\fora', 'x/../../fora', '', '.', '.GIT/config', 'x:fluxo', 'NUL.txt', 'a/../b', 'nome.']) {
+    assert.throws(() => selecionar(['a.txt'], { renomear: { 'a.txt': destino } }), /destino/, destino)
+  }
+  for (const [a, b] of [['README.md', 'readme.md'], ['docs', 'docs/a.md']]) {
+    assert.throws(() => selecionar(['a', 'b'], { renomear: { a, b } }), /mesmo destino|conflito/)
+  }
+})
+
+test('não limpa o projeto, ancestral ou subpasta, nem segue junção de destino', (t) => {
+  const { base, projeto } = projetoDeTeste(t, {}, { 'a.txt': 'preservar' })
+  const dentro = path.join(projeto, 'publico')
+  fs.mkdirSync(dentro)
+  fs.writeFileSync(path.join(dentro, 'preservar.txt'), 'não apagar')
+  for (const destino of [projeto, base, dentro]) {
+    assert.throws(() => gerar({ projeto, destino }), /destino não pode/)
+    assert.equal(fs.readFileSync(path.join(dentro, 'preservar.txt'), 'utf8'), 'não apagar')
+    assert.equal(fs.readFileSync(path.join(projeto, 'a.txt'), 'utf8'), 'preservar')
+  }
+  const link = path.join(base, 'atalho')
+  fs.symlinkSync(dentro, link, process.platform === 'win32' ? 'junction' : 'dir')
+  assert.throws(() => gerar({ projeto, destino: link }), /link|junção/)
+  assert.equal(fs.readFileSync(path.join(dentro, 'preservar.txt'), 'utf8'), 'não apagar')
+})
+
+test('renomeação inválida não limpa uma vitrine existente', (t) => {
+  const { base, projeto } = projetoDeTeste(t, { renomear: { 'a.txt': '../fora.txt' } }, { 'a.txt': 'ok' })
+  const destino = path.join(base, 'publico')
+  fs.mkdirSync(destino)
+  fs.writeFileSync(path.join(destino, 'antigo.txt'), 'preservar')
+  assert.throws(() => gerar({ projeto, destino }), /destino/)
+  assert.equal(fs.readFileSync(path.join(destino, 'antigo.txt'), 'utf8'), 'preservar')
+  assert.equal(fs.existsSync(path.join(base, 'fora.txt')), false)
+})
+
+test('junção na origem não exporta arquivos de fora da seleção', (t) => {
+  const { base, projeto } = projetoDeTeste(t, {}, { 'docs/a.txt': 'original' })
+  const externo = path.join(base, 'externo')
+  fs.mkdirSync(externo)
+  fs.writeFileSync(path.join(externo, 'a.txt'), 'conteúdo fora da seleção')
+  fs.unlinkSync(path.join(projeto, 'docs', 'a.txt'))
+  fs.rmdirSync(path.join(projeto, 'docs'))
+  fs.symlinkSync(externo, path.join(projeto, 'docs'), process.platform === 'win32' ? 'junction' : 'dir')
+  const destino = path.join(base, 'publico')
+  assert.throws(() => gerar({ projeto, destino }), /link não permitido/)
+  assert.equal(fs.existsSync(destino), false)
+  assert.equal(fs.readFileSync(path.join(externo, 'a.txt'), 'utf8'), 'conteúdo fora da seleção')
+})
+
 test('acusa e-mail pessoal, caminho da máquina, CPF, CNPJ, telefone, token e o padrão do projeto', () => {
   const cfg = { proibidos: [{ nome: 'cliente', padrao: 'empresa x', flags: 'i' }] }
   // Montados por partes para este arquivo não cair na varredura da própria vitrine.
@@ -72,6 +130,41 @@ test('trocar generaliza o texto antes da varredura, só nos arquivos indicados',
 test('binário não é varrido', () => {
   assert.equal(ehBinario(Buffer.from([0x89, 0x50, 0x00, 0x47])), true)
   assert.equal(ehBinario(Buffer.from('texto comum')), false)
+})
+
+test('texto UTF-16 de PowerShell passa pela varredura e mantém codificação ao generalizar', (t) => {
+  for (const ordem of ['le', 'be']) {
+    const codificar = (texto) => {
+      const corpo = Buffer.from(texto, 'utf16le')
+      if (ordem === 'be') corpo.swap16()
+      return Buffer.concat([Buffer.from(ordem === 'le' ? [0xff, 0xfe] : [0xfe, 0xff]), corpo])
+    }
+    const { projeto, base } = projetoDeTeste(t, { incluir: ['relatorio.txt'] }, { 'relatorio.txt': codificar(EMAIL) })
+    const destino = path.join(base, 'publico')
+    assert.equal(ehBinario(codificar(EMAIL)), false)
+    assert.equal(gerar({ projeto, destino }).achados.length, 1, 'UTF-16 não pode escapar como binário')
+    assert.equal(fs.existsSync(destino), false)
+    fs.writeFileSync(path.join(projeto, 'relatorio.txt'), codificar('Empresa X\r\n'))
+    const cfg = { incluir: ['relatorio.txt'], trocar: [{ padrao: 'Empresa X', por: 'cliente' }] }
+    assert.deepEqual(gerar({ projeto, destino, cfg }).achados, [])
+    assert.deepEqual(fs.readFileSync(path.join(destino, 'relatorio.txt')), codificar('cliente\r\n'))
+  }
+})
+
+test('nome curto do Windows não esconde o próprio projeto', { skip: process.platform !== 'win32' }, (t) => {
+  const { base, projeto } = projetoDeTeste(t, { repositorio: 'teste/p', incluir: ['a.txt'] }, { 'a.txt': 'um' })
+  const longo = path.join(base, 'projeto-com-nome-bem-comprido')
+  fs.renameSync(projeto, longo)
+  const curto = spawnSync('cmd', ['/d', '/s', '/c', `"for %I in ("${longo}") do @echo %~sI"`], { encoding: 'utf8', windowsVerbatimArguments: true }).stdout.trim()
+  if (!curto || path.basename(curto).toLowerCase() === path.basename(longo).toLowerCase()) return t.skip('volume sem nomes curtos')
+  assert.throws(() => gerar({ projeto: longo, destino: curto }), /destino não pode/)
+  assert.ok(fs.existsSync(path.join(longo, 'a.txt')))
+})
+
+test('UTF-32 é recusado antes de copiar, em vez de escapar como binário', (t) => {
+  const { projeto, base } = projetoDeTeste(t, {}, { 'relatorio.txt': Buffer.from([0xff, 0xfe, 0, 0, 65, 0, 0, 0]) })
+  assert.throws(() => gerar({ projeto, destino: path.join(base, 'publico') }), /UTF-32/)
+  assert.equal(fs.existsSync(path.join(base, 'publico')), false)
 })
 
 test('com achado não escreve nada; sem achado copia só a lista e preserva o .git da vitrine', (t) => {

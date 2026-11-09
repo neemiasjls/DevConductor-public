@@ -120,7 +120,12 @@ acima do limite de propósito: é a versão completa sem movimento.
 Celular equivalente, movimento reduzido completo, LP-11 (nada de desenho infantil, tom por nicho), 3D real
 com GLB + HDRI, desempenho e as cenas grandes com motivo. Os sites de exemplo não são refeitos agora.
 
-## Depois desta rodada
+## Depois desta rodada (histórico; atualizado em 06/11)
+
+A prova das duas cenas e o adiamento do shader abaixo já foram executados em 04–05/11, como registrado nas
+seções anteriores e no estado de entrega. A medição por meia tela continua encontrando excessos:
+ver [resultados de 06/11](auditoria-06-11.md) e [plano de fechamento](planos/2026-11-06-qualidade-visual-com-evidencia.md).
+Os itens abaixo preservam a recomendação original, não são uma ordem para repetir a construção.
 - Provar as regras novas num site: refazer só a cena do degradê (Prumo) e a do fio (Lúmen) seguindo a LP-12 e
   comparar antes/depois. Ou esperar o próximo cliente real.
 - Lúmen no celular (nota 78): adiar o shader de reflexo e medir de novo.

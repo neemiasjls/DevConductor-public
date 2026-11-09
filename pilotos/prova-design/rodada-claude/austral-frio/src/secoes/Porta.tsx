@@ -109,7 +109,7 @@ export default function Porta() {
           <div data-porta-texto className="max-w-[560px] rounded-[var(--raio)] bg-grafite/92 p-6 md:p-8">
             <p className="rotulo mb-4 text-aco-claro">{porta.rotulo}</p>
             <h2 id="porta-titulo" className="titulo text-[clamp(1.9rem,7vw,2.4rem)] md:text-[3.1rem]">{porta.titulo}</h2>
-            <p className="mt-4 text-[1.0625rem] leading-relaxed text-aco-claro">{porta.texto}</p>
+            <p className="mt-4 text-[1.0625rem] leading-relaxed text-aco-claro">{porta.texto}{usarGeada && geadaPronta && <> {porta.interacao}</>}</p>
             {fotoFalhou && <p className="mt-3 text-[0.875rem] text-gelo">Foto indisponível: {porta.alt}</p>}
             <p className="mt-5 text-[0.8125rem] text-aco-claro">{porta.credito}</p>
           </div>

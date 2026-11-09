@@ -191,11 +191,13 @@ try {
       foto: document.querySelector('#porta img').getBoundingClientRect().height,
       lenis: document.documentElement.classList.contains('lenis') }))
     assert.deepEqual({ ...pr, foto: pr.foto > 200 }, { canvas: false, palco: 'relative', foto: true, lenis: false }, `Porta no reduzido: ${JSON.stringify(pr)}`)
+    assert.equal(await p.$eval('[data-porta-texto]', (e) => e.textContent.includes('Toque a foto')), false, 'Reduzido oferece geada desativada')
     await reduzir(p, false); await esperar(900)
     await rolarPara(p, '#porta', Math.round(altura * 0.3)); await esperar(1400)
     const pv = await p.evaluate(() => ({ canvas: getComputedStyle(document.querySelector('canvas[data-geada]') || document.body).opacity,
       palco: getComputedStyle(document.querySelector('#porta > .palco')).position, lenis: document.documentElement.classList.contains('lenis') }))
     assert.deepEqual(pv, { canvas: '1', palco: 'sticky', lenis: true }, `Porta na volta: ${JSON.stringify(pv)}`)
+    assert.equal(await p.$eval('[data-porta-texto]', (e) => e.textContent.includes('Toque a foto')), true, 'Geada ativa sem instrução')
     c.reduzidoPorCena.porta = { reduzido: pr, volta: pv }
     // 5b. Viagem (no meio do percurso preso)
     const cena = await p.$eval('#viagem .cena', (e) => ({ topo: e.getBoundingClientRect().top + scrollY, percurso: e.offsetHeight - innerHeight }))
@@ -302,6 +304,7 @@ try {
         foto: (() => { const i = document.querySelector('#porta img'); return !!i && i.complete && i.naturalWidth > 0 })(),
       }))
       assert.deepEqual(c.semWebGL, { geada: false, foto: true }, `Sem WebGL: ${JSON.stringify(c.semWebGL)}`)
+      assert.equal(await q.$eval('[data-porta-texto]', (e) => e.textContent.includes('Toque a foto')), false, 'Sem WebGL oferece geada indisponível')
       assert.deepEqual([...j3, ...h3], [], `Erros sem WebGL: ${[...j3, ...h3].join(' | ')}`)
       await q.screenshot({ path: path.join(saida, `${largura}-sem-webgl.jpg`), type: 'jpeg', quality: 80 })
       await q.close()

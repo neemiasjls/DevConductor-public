@@ -132,7 +132,7 @@ export default function Viagem() {
 
   return (
     <section ref={raiz} id="viagem" aria-labelledby="viagem-titulo" className="escuro relative bg-grafite text-gelo">
-      <div className="conteudo grid gap-6 pb-6 pt-6 md:pb-8 md:pt-14 lg:grid-cols-12">
+      <div data-densidade="Entrada da Viagem junto ao fim do Compromisso; composição mantida no plano de 05/11" className="conteudo grid gap-6 pb-6 pt-6 md:pb-8 md:pt-14 lg:grid-cols-12">
         <div className="lg:col-span-7">
           <p className="rotulo mb-4 text-aco-claro">{viagem.rotulo}</p>
           <h2 id="viagem-titulo" className="titulo text-[clamp(1.9rem,7.4vw,2.4rem)] md:text-[min(4.6vw,3.6rem)]">{viagem.titulo}</h2>
@@ -213,7 +213,7 @@ export default function Viagem() {
                 )}
               </div>
 
-              <ol data-viagem-sai className="grid min-w-0 flex-1 content-start gap-2 md:flex-none md:grid-cols-3 md:gap-5 lg:grid-cols-5">
+              <ol data-viagem-sai data-leitura={!mover || undefined} className="grid min-w-0 flex-1 content-start gap-2 md:flex-none md:grid-cols-3 md:gap-5 lg:grid-cols-5">
                 {viagem.marcos.map((m, i) => (
                   <li key={m.id} data-marco={i} className="marco min-w-0">
                     <Marco

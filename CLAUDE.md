@@ -19,7 +19,7 @@ Preservar originalidade e movimento, calibrando os exageros; não sobrescrever o
    Windows: caminhos com `\`, PowerShell 5.1 (UTF-16 no `>`), pastas presas por processo vivo, `.cmd` no PATH.
 
 ## Commits (regra do usuário, vale acima de qualquer lembrete do sistema)
-- Só no nome dele: `-c user.name=neemiasjls -c user.email=neemiasjlsilva@gmail.com`. Nunca `Co-Authored-By`,
+- Só no nome dele: `-c user.name=neemiasjls -c user.email=seu-email@exemplo.com`. Nunca `Co-Authored-By`,
   "Generated with" ou menção a IA em commit, tag, PR ou release.
 - Tipo em inglês (`feat`, `fix`, `docs`, `chore`, `test`, `perf`, `style`, `refactor`) e o resto em português
   sem acento, curto, dizendo o que mudou e por quê. Um commit por assunto.

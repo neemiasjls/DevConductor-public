@@ -1,5 +1,11 @@
 # DevAgents — Plano de ação
 
+> **Leitura atual (06/11/2026):** o roteiro abaixo preserva o planejamento original. Paper foi retirado
+> (DEV-39), o produto se chama DevConductor e os plugins/fluxos atuais estão no [README](../README.md).
+> As duas rodadas de exemplos e a auditoria de clareza já foram executadas; aprovação visual e teste físico
+> são etapas distintas. Próximas melhorias e riscos verificados: [auditoria de 06/11](auditoria-06-11.md).
+> Não reinstalar Paper, reabrir clientes pausados ou repetir fases concluídas seguindo os trechos históricos.
+
 > **Multiagente (DEV-27, 20/10):** A (medição agregada), B (orquestrador), C (três ajudantes, DEV-30) e D local
 > (62 skills com origem/dono) implementadas; F implementada (três fluxos progressivos). Núcleo 0.1.21, sem commit.
 > [Tabela de responsabilidades](responsabilidades-skills.md) · [Relatório D](relatorio-fase-d.md).

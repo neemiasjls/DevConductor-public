@@ -49,7 +49,9 @@ Um site que passa em todos os testes técnicos e confunde o visitante está repr
    Seções de leitura levam `data-leitura` no elemento (serviços, preços, perguntas, rodapé) e ficam fora do
    alerta. Fora delas, tela acima do limite (padrão: 60 palavras no computador, 45 no celular) é falha a corrigir.
    Exceção só localizada: `data-densidade="<motivo>"` no elemento, o mesmo motivo no plano; o relatório lista
-   essas telas à parte. Marcar seção como leitura ou exceção para baixar o placar, sem tirar texto, é fraude da
+   essas telas à parte. A exceção cobre só as palavras marcadas: o texto sem exceção ainda precisa caber no limite.
+   Relatórios antigos sem contagem explícita da exceção não aprovam automaticamente uma tela acima do limite.
+   Marcar seção como leitura ou exceção para baixar o placar, sem tirar texto, é fraude da
    régua. Os limites de partida vêm da LP-12 e da `lp-textos`.
 2. **Teste do porquê** (`lp-cenas`) para cada efeito do roteiro, respondido olhando o site, não o plano. Registrar
    a tabela Efeito / Fato do negócio / Entende sem legenda? / Decisão. Efeito que falha sai ou vira movimento discreto.

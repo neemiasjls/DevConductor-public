@@ -1,5 +1,10 @@
 # Plano — DevAgents bom em sites animados
 
+> **Estado atual (06/11/2026):** planejamento histórico. As duas rodadas de exemplos e duas rodadas de clareza
+> estão implementadas. A nova amostragem ainda encontra excessos de texto; resultados e próximos passos
+> na [auditoria de 06/11](auditoria-06-11.md) e no [plano de evidências](planos/2026-11-06-qualidade-visual-com-evidencia.md).
+> Avaliação visual e teste em aparelho físico permanecem abertos; não reconstruir os exemplos por este roteiro.
+
 > Pedido do Neemias (15/10/2026): "quero que minha ferramenta fique boa para gerar sites animados".
 > O DevAgents continua uma ferramenta **geral** (qualquer site ou sistema), com uma parte **focada em
 > design**, principalmente landing pages com movimento bem elaborado. Status: **aprovado em 16/10/2026;

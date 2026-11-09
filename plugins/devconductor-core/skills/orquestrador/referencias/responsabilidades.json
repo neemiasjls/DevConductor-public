@@ -8,7 +8,7 @@
     "stack-typescript:vercel-react-best-practices"
   ],
   "grupos": [
-    { "plugin": "devconductor-core", "dono": "principal", "uso": "tarefa", "skills": ["orquestrador", "memoria", "subir", "skill-scanner", "find-skills", "codex-parceiro"] },
+    { "plugin": "devconductor-core", "dono": "principal", "uso": "tarefa", "skills": ["orquestrador", "memoria", "subir", "skill-scanner", "find-skills", "faxina", "codex-parceiro"] },
     { "plugin": "design-sistemas", "dono": "design-sistemas:ui-sistemas", "uso": "etapa", "skills": ["ui-sistemas"] },
     { "plugin": "design-sistemas", "dono": "design-sistemas:ui-sistemas", "uso": "consultora", "skills": ["dashboard-design", "baseline-ui", "fixing-accessibility", "improve-ui", "create-design-md"] },
     { "plugin": "estudio-design", "dono": "principal", "uso": "tarefa", "skills": ["estudio-movimento"] },

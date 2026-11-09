@@ -3,7 +3,8 @@
 // Uso: node densidade.mjs <url-http> <pasta-nova> [--computador 60] [--celular 45] [--reduzido] [--so-avisar]
 // Seções de leitura (serviços, preços, perguntas, rodapé) levam data-leitura e ficam fora do alerta.
 // Tela acima do limite sai com código 1, a menos que o texto dela esteja num elemento com data-densidade="<motivo>"
-// (exceção localizada, o motivo também vai no plano). --so-avisar: só lista, sem reprovar (rodada exploratória).
+// (exceção localizada: o restante da tela precisa caber no limite; motivo também no plano).
+// --so-avisar: só lista, sem reprovar (rodada exploratória). Relatório esquema 2 conta palavras justificadas.
 // Mede a cada meia tela, para não perder o pico de texto que fica entre duas telas inteiras.
 import fs from 'node:fs'
 import path from 'node:path'
@@ -97,9 +98,9 @@ try {
       await p.evaluate((alvo) => scrollTo({ top: alvo, behavior: 'instant' }), y)
       await esperar(600)
       const trechos = await p.evaluate(trechosVisiveis)
-      const { palavras, palavrasLeitura, motivos } = medirTela(trechos)
+      const { palavras, palavrasLeitura, motivos, palavrasJustificadas } = medirTela(trechos)
       const amostra = trechos.filter((t) => !t.leitura).map((t) => t.texto).join(' ').slice(0, 160)
-      telas.push({ modo, y, palavras, palavrasLeitura, amostra, ...(motivos ? { motivos } : {}) })
+      telas.push({ modo, y, palavras, palavrasLeitura, amostra, ...(motivos ? { motivos, palavrasJustificadas } : {}) })
       if (palavras > limites[modo]) {
         await p.screenshot({ path: path.join(destino, `${modo}-${y}.jpg`), type: 'jpeg', quality: 70 })
       }
@@ -111,7 +112,7 @@ try {
 
 const { alertas, justificadas, maior } = avaliar(telas, limites)
 fs.writeFileSync(path.join(destino, 'relatorio.json'),
-  JSON.stringify({ url, data: new Date().toISOString(), reduzido, limites, maior, alertas, justificadas, telas }, null, 2))
+  JSON.stringify({ esquema: 2, url, data: new Date().toISOString(), reduzido, limites, maior, alertas, justificadas, telas }, null, 2))
 fs.rmSync(path.join(destino, '.perfil'), { recursive: true, force: true, maxRetries: 5, retryDelay: 200 })
 console.log(`Maior tela: ${maior.computador} palavras no computador (limite ${limites.computador}), ` +
   `${maior.celular} no celular (limite ${limites.celular}).`)

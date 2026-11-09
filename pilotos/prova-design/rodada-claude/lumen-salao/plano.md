@@ -120,3 +120,16 @@ alinhados ao pé do título); telefone, Instagram, endereço e horários foram p
 Menu "O fio" → "De perto" (nome da seção desde a primeira rodada).
 Densidade (computador/celular): 84/98 → 55/45. Comportamento `revisao/comportamento-r2-1` e `-r2-2` (depois do ajuste
 do Agendar) aprovados. Lighthouse celular (médias de 3): nota 90 → 92, TBT 232 → 199 ms, CLS 0. Reduzido 55/45.
+
+## Fechamento da régua por meia tela (06/11/2026)
+
+Amostragem nova encontrou 53 palavras no celular, com excesso na abertura e no cronograma. Uma primeira
+redução ainda deixou abertura/diagnóstico juntos acima do limite; essa tentativa foi preservada, não aprovada.
+Versão final: apoios da abertura, diagnóstico e cronograma menores; link secundário "Ver o tratamento" mantém
+o destino `#fio`. Localização continua no rótulo e no texto; diagnóstico e caráter ilustrativo do cronograma
+preservados, assim como todas as semanas e etapas. Nenhuma cena refeita.
+
+Build aprovado. Esquema 2, normal e reduzido: 51/45, sem alertas ou exceções.
+Relatórios em `revisao/densidade-06-11-final/`. Comportamento final aprovado nos dois cenários (390/1440).
+Vídeos e Lighthouse anteriores não foram repetidos: não atribuir as notas anteriores a esta versão.
+Avaliação visual e teste físico permanecem abertos.
