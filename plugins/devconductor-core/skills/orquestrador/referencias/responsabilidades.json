@@ -8,7 +8,7 @@
     "stack-typescript:vercel-react-best-practices"
   ],
   "grupos": [
-    { "plugin": "devconductor-core", "dono": "principal", "uso": "tarefa", "skills": ["orquestrador", "memoria", "subir", "skill-scanner", "find-skills", "faxina", "codex-parceiro"] },
+    { "plugin": "devconductor-core", "dono": "principal", "uso": "tarefa", "skills": ["orquestrador", "memoria", "subir", "skill-scanner", "find-skills", "faxina", "codex-parceiro", "arquitetura"] },
     { "plugin": "design-sistemas", "dono": "design-sistemas:ui-sistemas", "uso": "etapa", "skills": ["ui-sistemas"] },
     { "plugin": "design-sistemas", "dono": "design-sistemas:ui-sistemas", "uso": "consultora", "skills": ["dashboard-design", "baseline-ui", "fixing-accessibility", "improve-ui", "create-design-md"] },
     { "plugin": "estudio-design", "dono": "principal", "uso": "tarefa", "skills": ["estudio-movimento"] },
@@ -26,6 +26,7 @@
     { "plugin": "landing-pages", "dono": "landing-pages:lp-revisao", "uso": "etapa", "skills": ["lp-revisao"] },
     { "plugin": "landing-pages", "dono": "landing-pages:lp-publicar", "uso": "etapa", "skills": ["lp-publicar"] },
     { "plugin": "landing-pages", "dono": "landing-pages:lp-seo", "uso": "etapa", "skills": ["lp-seo"] },
+    { "plugin": "landing-pages", "dono": "landing-pages:lp-video", "uso": "etapa", "skills": ["lp-video"] },
     { "plugin": "landing-pages", "dono": "landing-pages:lp-coleta", "uso": "consultora", "skills": ["cro"] },
     { "plugin": "landing-pages", "dono": "landing-pages:lp-referencias", "uso": "consultora", "skills": ["hallmark"] },
     { "plugin": "landing-pages", "dono": "landing-pages:lp-direcao-de-arte", "uso": "consultora", "skills": ["taste-skill", "frontend-design", "ui-ux-pro-max", "impeccable"] },
@@ -34,7 +35,7 @@
     { "plugin": "landing-pages", "dono": "landing-pages:lp-construcao", "uso": "consultora", "skills": ["responsive-design"] },
     { "plugin": "landing-pages", "dono": "landing-pages:lp-revisao", "uso": "consultora", "skills": ["break-ui", "review-animations", "web-design-guidelines", "web-perf"] },
     { "plugin": "landing-pages", "dono": "landing-pages:lp-publicar", "uso": "consultora", "skills": ["wrangler"] },
-    { "plugin": "seguranca", "dono": "seguranca:security-auditor", "uso": "tarefa", "skills": ["sast-configuration"] },
+    { "plugin": "seguranca", "dono": "seguranca:security-auditor", "uso": "tarefa", "skills": ["auditoria-projeto", "sast-configuration", "varredura-seguranca"] },
     { "plugin": "stack-banco", "dono": "stack-banco:database-architect", "uso": "tarefa", "skills": ["postgresql-table-design", "supabase-postgres-best-practices"] },
     { "plugin": "stack-banco", "dono": "stack-banco:sql-pro", "uso": "tarefa", "skills": ["postgresql-code-review"] },
     { "plugin": "stack-dotnet", "dono": "stack-dotnet:csharp-pro", "uso": "tarefa", "skills": ["dotnet-backend-patterns", "modern-csharp-coding-standards"] },

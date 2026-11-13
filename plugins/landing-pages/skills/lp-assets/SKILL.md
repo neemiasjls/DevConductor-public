@@ -31,6 +31,15 @@ Procurar a série antes das fotos soltas: buscar pelo autor de uma foto boa cost
 trocar fundo por chave de cor quando a borda denuncia a montagem. Se a pessoa aparece nítida, a foto não pode
 sugerir que ela é cliente ou recomenda o negócio: nota "foto ilustrativa" ao lado.
 
+## Textura, fundo e recorte para o celular
+- **Textura é fotografada e entra em tamanho real:** madeira, pedra, papel, tecido vêm de foto em alta (ou de CSS
+  simples), nunca desenhados por código. Não ampliar, não espelhar para emendar, não esticar: se o arquivo é
+  menor que a área, trocar por um maior ou diminuir a área (o `acabamento.mjs` da `lp-revisao` reprova ampliação
+  acima de 1,5×). Fontes CC0, sem conta: Poly Haven (polyhaven.com/textures) e ambientCG (ambientcg.com); anotar
+  em `assets.md` como qualquer peça.
+- **Recorte em pé para o celular:** foto de abertura e de cena ganha um segundo recorte vertical, escolhido
+  olhando (o assunto inteiro na tela em pé), em vez do recorte deitado encolhido. Os dois entram no `assets.json`.
+
 ## Conferência visual do conteúdo (antes de associar a peça à cena)
 - Abrir o arquivo real e o recorte final: título, nome do arquivo, categoria da busca e texto alternativo
   não comprovam o que aparece. Conferir se a imagem demonstra o serviço/penteado/produto nomeado.
@@ -109,6 +118,13 @@ sugerir que ela é cliente ou recomenda o negócio: nota "foto ilustrativa" ao l
    nunca contornar nem raspar a página. Qualquer banco: sem vender a foto sem alteração, sem sugerir que a pessoa
    apoia a marca, sem usá-la como logo. Fora pessoas públicas e marcas de terceiros legíveis.
    `scripts/buscar-commons.mjs` continua para o Commons (último recurso): aceita CC0, domínio público, CC BY e CC BY-SA.
+   **Série de fotos (sempre que houver fotos de mais de uma origem):** `python -I scripts/tratar-fotos.py <entrada> <saida> --tratamento tratamento.json`
+   aplica o mesmo recorte, contraste, cor e grão a todas, sem tocar nos originais, e grava `tratamento-aplicado.json`. Com o raio-x
+   (`--do-raio-x raio-x.json`) sugere temperatura e tinta para ajustar. Foto menor que o mínimo só recebe aviso, não é ampliada.
+   **Ampliar (opcional):** `--ampliar` (e `--ampliador <exe>` ou `REALESRGAN_EXE`) amplia 4x, com o Real-ESRGAN instalado fora do
+   repositório, a foto boa mas pequena (ex. vinda de rede social) para abertura em tela cheia. Sem o programa, avisa e segue.
+   Melhora nitidez, mas não inventa detalhe: foto borrada continua borrada; conferir com os olhos. Conta como "melhorar foto real".
+   Imagem gerada só melhora foto real (ampliar, estender, reenquadrar) ou faz fundo e textura; nunca peça falsa (LP-11).
 7. **Gráficos animados** (site com dados: financeiro, resultados, painel): Evil Charts (evilcharts.com,
    github legions-developer/evilcharts; React + Recharts/ECharts, instala gráfico por gráfico pela CLI do
    shadcn). Pouco conhecido (~2,4 mil ⭐): avisar o usuário antes. Licença varia por componente (MIT na maioria,

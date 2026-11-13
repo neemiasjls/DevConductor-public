@@ -34,6 +34,8 @@ contexto. Revise com as consultoras abaixo.
 - Ficha técnica, créditos de foto e números de detalhe ficam pequenos e longe do título; nunca competem com ele.
 - Chamadas de ação com o que acontece de verdade: "Chamar no WhatsApp", "Agendar avaliação de cor".
 - Português do Brasil coloquial e elegante; sem anglicismo desnecessário.
+- Cliente de odontologia: seguir `lp-coleta/referencias/publicidade-odontologia.md`. Sem antes e depois, sem
+  preço, sem promessa de resultado; nome e inscrição da clínica e do responsável técnico no rodapé.
 
 ## Clichês proibidos (cara de IA)
 "eleve", "transforme sua experiência", "experiência única/inesquecível", "jornada", "desbloqueie", "no coração

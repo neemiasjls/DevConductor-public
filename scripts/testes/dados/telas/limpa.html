@@ -1,0 +1,18 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="base.css"><title>Clientes</title></head>
+<body><main>
+<h1>Clientes</h1>
+<p>Lista dos clientes ativos. Veja também o <a href="#ajuda">guia de uso</a> da tela.</p>
+<div class="grupo"><label for="busca">Buscar cliente</label><input id="busca" type="text" value="Maria"></div>
+<div class="grupo"><label for="situacao">Situação</label><select id="situacao"><option>Ativos</option><option>Inativos</option></select></div>
+<div class="grupo"><label><input type="checkbox" checked> Só com pedido aberto</label></div>
+<div class="grupo"><button class="primario" type="button">Novo cliente</button> <button type="button" disabled style="color:#9ca3af;background:#f3f4f6;border-color:#e5e7eb">Exportar</button>
+<button type="button" aria-label="Fechar"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="M2 2l12 12M14 2L2 14" stroke="#1f2937"/></svg></button></div>
+<div style="background:rgba(29,78,216,0.9);padding:12px;margin:0 0 16px"><p style="color:#ffffff;margin:0">3 clientes com pedido atrasado</p></div>
+<span class="so-leitor">Tabela de clientes</span>
+<div class="rola"><table>
+<thead><tr><th>Nome</th><th>Cidade</th><th>Telefone</th><th>Último pedido</th><th>Situação</th><th>Valor em aberto</th></tr></thead>
+<tbody><tr><td>Maria da Silva Fictícia</td><td>Cidade Exemplo</td><td>(00) 00000-0000</td><td>01/01/2026</td><td>Ativo</td><td>R$ 1.234,56</td></tr></tbody>
+</table></div>
+<div role="table" aria-label="Resumo"><div role="row"><span role="columnheader">Total</span></div><div role="row"><span role="cell">3</span></div></div>
+<a class="acao" href="#ajuda" id="ajuda">Ver ajuda</a>
+</main></body></html>

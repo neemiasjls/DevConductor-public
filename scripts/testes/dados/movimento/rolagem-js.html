@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Teste de movimento: animação por JavaScript ligada à rolagem</title>
+<style>
+  html, body { margin: 0; font: 20px/1.4 sans-serif; background: #ffffff; color: #111111; }
+  section { box-sizing: border-box; }
+  #abertura, #fim { height: 100vh; padding: 80px; background: #f2efe8; }
+  #cena { height: 300vh; background: #10172a; color: #ffffff; }
+  #fixo { position: sticky; top: 0; height: 100vh; padding: 80px; box-sizing: border-box; }
+  #alvo { font-size: 96px; margin: 0; }
+</style>
+</head>
+<body>
+<section id="abertura"><h1>Abertura parada</h1><p>Nada se mexe aqui.</p></section>
+<section id="cena"><div id="fixo"><h2 id="alvo">Título que apaga</h2><p>Fica preso por duas telas.</p></div></section>
+<section id="fim"><h2>Fim</h2><p>Nada se mexe aqui.</p></section>
+<script>
+  // Sem biblioteca e sem animação CSS: o estilo é escrito a cada evento de rolagem.
+  const alvo = document.getElementById('alvo')
+  const pintar = () => {
+    const p = Math.max(0, Math.min(1, (scrollY - innerHeight) / innerHeight)) // da 1ª à 2ª tela de rolagem
+    alvo.style.opacity = String(1 - 0.8 * p)
+    alvo.style.filter = `blur(${(12 * p).toFixed(2)}px)`
+  }
+  addEventListener('scroll', pintar, { passive: true })
+  pintar()
+</script>
+</body>
+</html>

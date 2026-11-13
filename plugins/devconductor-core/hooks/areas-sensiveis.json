@@ -1,0 +1,221 @@
+{
+  "_comentario": "Áreas sensíveis do detector mudanca-sensivel.mjs. caminhos: globs (** qualquer pasta, * dentro de um nome); palavras: regex sem diferenciar maiúsculas, testada só nas linhas adicionadas (linha com mais de 2.000 caracteres é testada em pedaços de 2.000 com 200 de sobra; por isso nenhum padrão deve precisar de mais de 200 caracteres); exceto: regex de linha que não conta para aquela categoria. alto: true leva ao nível 2. emTodos: vale também nos arquivos semPalavras. semPalavras: teste, estilo, tradução e .txt não contam por palavra nem por proteção, só pelo caminho e pelas categorias emTodos. protecaoRemovida.palavras: padrões de proteção comparados nos dois lados (tirada sem voltar igual conta; posta que casa com 'desligada' conta: false, none, off, lax, unspecified, SameAsRequest, skip..., ignore..., comentada). Regex sem repetição aberta depois de outra (repetições limitadas a {0,200}): tempo proporcional ao tamanho da linha. Projeto pode ignorar caminhos em .devconductor/portao.json (campo ignorar).",
+  "limiarLinhas": 40,
+  "ignorarSempre": [
+    "**/*.md",
+    "**/*.mdx",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.gif",
+    "**/*.webp",
+    "**/*.avif",
+    "**/*.svg",
+    "**/*.ico",
+    "**/*.bmp",
+    "pilotos/prova-seguranca/**"
+  ],
+  "semPalavras": [
+    "**/*.test.*",
+    "**/*.spec.*",
+    "**/*Tests*/**",
+    "**/test/**",
+    "**/tests/**",
+    "**/__tests__/**",
+    "**/spec/**",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "**/*.styl",
+    "**/*.styles.*",
+    "**/*.style.*",
+    "**/theme/**",
+    "**/themes/**",
+    "**/tema/**",
+    "**/temas/**",
+    "**/theme.*",
+    "**/tema.*",
+    "**/tailwind.config.*",
+    "**/*.txt",
+    "**/locales/**",
+    "**/locale/**",
+    "**/i18n/**",
+    "**/translations/**",
+    "**/traducoes/**",
+    "**/*.po",
+    "**/*.pot",
+    "**/*.resx",
+    "**/messages*.json"
+  ],
+  "categorias": {
+    "login": {
+      "alto": true,
+      "caminhos": [],
+      "palavras": [
+        "auth(?!or)",
+        "login",
+        "jwt",
+        "bcrypt",
+        "password",
+        "senha",
+        "(?<!design[\\s_-]?)(?<![-\\w])tokens?\\b(?!-)",
+        "(?:access|refresh|id|session|auth|api)[_-]?tokens?",
+        "bearer",
+        "AddAuthentication"
+      ]
+    },
+    "token-no-navegador": {
+      "alto": true,
+      "caminhos": [],
+      "palavras": [
+        "(?:local|session)Storage\\s{0,20}\\.\\s{0,20}setItem\\s{0,20}\\([^)]{0,200}(?:token|jwt|senha|password|bearer)",
+        "(?:local|session)Storage\\s{0,20}\\[[^\\]]{0,200}(?:token|jwt|senha|password)",
+        "document\\.cookie\\s{0,20}=.{0,200}(?:token|jwt|senha|password|bearer)"
+      ]
+    },
+    "permissao": {
+      "alto": true,
+      "caminhos": [],
+      "palavras": [
+        "\\[Authorize",
+        "AllowAnonymous",
+        "RequireAuthorization",
+        "\\broles?\\b",
+        "\\bperfis?[\\s_-]{0,3}(?:de[\\s_-]{0,3})?acesso",
+        "\\bperfil\\w{0,30}\\s{0,5}(?:===?|!==?)",
+        "(?:===?|!==?)\\s{0,5}\\w{0,30}\\.perfil\\b",
+        "\\bperfil\\w{0,30}\\s{0,5}\\.\\s{0,5}(?:includes|contains|equals|has)\\b",
+        "permiss",
+        "\\bpolic(y|ies)\\b"
+      ]
+    },
+    "banco-acesso": {
+      "alto": true,
+      "caminhos": [
+        "**/migrations/**",
+        "**/migration/**",
+        "**/migrate/**",
+        "**/alembic/**",
+        "**/flyway/**",
+        "**/supabase/**"
+      ],
+      "palavras": [
+        "row level security",
+        "create policy",
+        "\\bgrant\\s",
+        "\\brevoke\\s",
+        "\\b(?:create|alter)\\s+table\\b",
+        "security definer",
+        "auth\\.uid\\(\\)"
+      ]
+    },
+    "upload": {
+      "alto": true,
+      "caminhos": [],
+      "palavras": [
+        "IFormFile",
+        "multer",
+        "upload",
+        "multipart"
+      ],
+      "exceto": "from\\s{0,5}['\"](?:lucide-react|lucide|react-icons|@heroicons|@tabler/icons|@phosphor-icons|@mui/icons-material|react-feather)|^\\s{0,200}\\w{0,30}Upload\\w{0,20},?\\s{0,20}$|<\\w{0,30}Upload\\w{0,20}(?:\\s{1,5}(?:size|className|strokeWidth|color|aria-hidden)=[^>]{0,200})?\\s{0,5}\\/>"
+    },
+    "pagamento": {
+      "alto": true,
+      "caminhos": [],
+      "palavras": [
+        "pagamento",
+        "pix(?!el)",
+        "stripe",
+        "mercado_?pago",
+        "(?<!actions/)(?<!git\\s)checkout",
+        "boleto"
+      ]
+    },
+    "dados-pessoais": {
+      "alto": false,
+      "caminhos": [],
+      "palavras": [
+        "\\bcpf",
+        "\\bcnpj",
+        "\\brg\\b",
+        "telefone",
+        "\\be-?mails?\\b",
+        "endere[cç]o",
+        "nascimento"
+      ]
+    },
+    "segredos": {
+      "alto": false,
+      "caminhos": [
+        "**/.env",
+        "**/.env.*",
+        "**/appsettings*.json"
+      ],
+      "palavras": [
+        "ConnectionStrings",
+        "secret",
+        "api_?key"
+      ]
+    },
+    "segredo-com-valor": {
+      "alto": true,
+      "emTodos": true,
+      "caminhos": [],
+      "palavras": [
+        "AKIA[0-9A-Z]{16}",
+        "(?:sk|rk)_live_[0-9a-zA-Z]{20,200}",
+        "gh[pousr]_[A-Za-z0-9]{36,255}",
+        "github_pat_[A-Za-z0-9_]{60,200}",
+        "xox[baprs]-[A-Za-z0-9-]{10,200}",
+        "AIza[0-9A-Za-z_-]{35}",
+        "-----BEGIN (?:RSA |EC |DSA |OPENSSH |PGP |ENCRYPTED )?PRIVATE KEY",
+        "sk-(?:ant-|proj-)[A-Za-z0-9_-]{32,200}"
+      ]
+    },
+    "dependencias": {
+      "alto": false,
+      "caminhos": [
+        "**/package.json",
+        "**/package-lock.json",
+        "**/npm-shrinkwrap.json",
+        "**/yarn.lock",
+        "**/pnpm-lock.yaml",
+        "**/bun.lockb",
+        "**/*.csproj",
+        "**/packages.lock.json",
+        "**/Directory.Packages.props",
+        "**/requirements*.txt",
+        "**/pyproject.toml",
+        "**/poetry.lock",
+        "**/Pipfile.lock",
+        "**/uv.lock"
+      ],
+      "palavras": []
+    }
+  },
+  "protecaoRemovida": {
+    "alto": true,
+    "palavras": [
+      "RequireAuthorization",
+      "\\[Authorize\\b",
+      "Use(?:Authentication|Authorization)|AddAuthorization",
+      "authenticat",
+      "\\bauthori[sz]e",
+      "requireAuth|ensureAuth|isAuthenticated",
+      "jwt\\.verify|verify_?jwt|verifyToken|ValidateIssuerSigningKey|ValidateLifetime|ValidateIssuer|ValidateAudience|RequireHttpsMetadata|RequireSignedTokens",
+      "csrf|antiforgery",
+      "row level security",
+      "create policy",
+      "WithParameters?\\b|AddWithValue|Parameters\\.Add|SqlParameter|NpgsqlParameter",
+      "\\bvalidat|ModelState\\.IsValid|\\[(?:Required|StringLength|MaxLength|MinLength|Range|RegularExpression|EmailAddress)\\b|\\bz\\.object|Joi\\.|yup\\.",
+      "httponly|samesite|\\bsecure\\s{0,20}[:=]|;\\s{0,20}secure\\b|CookieSecurePolicy",
+      "rate_?limit|RateLimiter|throttl",
+      "helmet\\(",
+      "sanitiz|escapeHtml|HtmlEncode",
+      "UseHttpsRedirection|UseHsts"
+    ],
+    "desligada": "\\b(?:false|none|off|disabled?|lax|0|unspecified|sameasrequest|never|insecure|unsafe\\w{0,40}|skip\\w{0,40}|ignore\\w{0,40}|bypass\\w{0,40}|exempt|allowall|allowany|permissive)\\b|^\\s{0,20}(?:\\/\\/|#|--|\\/\\*|<!--|')"
+  }
+}

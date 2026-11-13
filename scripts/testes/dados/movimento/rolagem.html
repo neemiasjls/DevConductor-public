@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Teste de movimento: jeitos de rolar</title>
+<style>
+  html, body { margin: 0; font: 20px/1.4 sans-serif; background: #ffffff; color: #111111; }
+  section { height: 100vh; box-sizing: border-box; padding: 80px; }
+  section:nth-child(1) { background: #f2efe8; } section:nth-child(2) { background: #dfe9e4; }
+  section:nth-child(3) { background: #e6def0; } section:nth-child(4) { background: #dbe3f3; }
+</style>
+</head>
+<body>
+<div id="mundo">
+<section><h1>Um</h1><p>Primeira tela.</p></section>
+<section><h2>Dois</h2><p>Segunda tela.</p></section>
+<section><h2>Três</h2><p>Terceira tela.</p></section>
+<section><h2>Quatro</h2><p>Quarta tela.</p></section>
+</div>
+<script>
+  // modo pela URL: ?suave (mesma ideia do Lenis), ?conteiner, ?virtual, ?trava, ?travameio, ?travasubida
+  const modo = location.search.slice(1)
+  const raiz = document.documentElement, mundo = document.getElementById('mundo')
+  if (modo === 'suave') {
+    raiz.classList.add('lenis')
+    let alvo = 0, atual = 0
+    addEventListener('wheel', (e) => { e.preventDefault(); alvo = Math.max(0, Math.min(raiz.scrollHeight - innerHeight, alvo + e.deltaY)) }, { passive: false })
+    setInterval(() => { atual += (alvo - atual) * 0.15; if (Math.abs(alvo - atual) < 0.3) atual = alvo; scrollTo(0, atual) }, 16)
+  } else if (modo === 'conteiner') {
+    raiz.style.overflow = 'hidden'; document.body.style.overflow = 'hidden'
+    mundo.style.cssText = 'height:100vh;overflow-y:auto'
+  } else if (modo === 'virtual') {
+    document.body.style.overflow = 'hidden'
+    mundo.style.cssText = 'position:fixed;top:0;left:0;width:100%'
+    let y = 0
+    addEventListener('wheel', (e) => { e.preventDefault(); y = Math.max(0, Math.min(mundo.offsetHeight - innerHeight, y + e.deltaY * 0.5)); mundo.style.transform = `translateY(${-y}px)` }, { passive: false })
+  } else if (modo === 'trava') {
+    raiz.style.overflow = 'hidden'
+    setTimeout(() => { raiz.style.overflow = '' }, 2000)
+  } else if (modo === 'travameio') {
+    // trava de vez depois de já ter andado (passou de 400 px): nem desce nem sobe mais
+    addEventListener('scroll', () => { if (scrollY >= 400) raiz.style.overflow = 'hidden' })
+  } else if (modo === 'travasubida') {
+    // desce até o fim; depois de chegar lá, não deixa subir
+    let chegou = false
+    addEventListener('scroll', () => { if (scrollY >= raiz.scrollHeight - innerHeight - 2) chegou = true })
+    addEventListener('wheel', (e) => { if (chegou && e.deltaY < 0) e.preventDefault() }, { passive: false })
+  }
+</script>
+</body>
+</html>

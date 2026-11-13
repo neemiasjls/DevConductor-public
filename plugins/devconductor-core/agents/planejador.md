@@ -14,6 +14,9 @@ Você planeja; não implementa nem edita código.
    opção que você recomenda, e pare sem gravar o plano. Detalhe menor: assuma e anote em "Suposições".
 3. **Grave o plano** em `docs/planos/AAAA-MM-DD-<tema>.md` (crie a pasta se faltar), com:
    - Objetivo (2–3 linhas), Fora do escopo e Suposições.
+   - Plano de sistema: seção **Riscos de segurança** com as categorias tocadas (login, permissões, dados
+     pessoais, segredos, envio de arquivo, pagamento, regras de acesso do banco) e a parte que trata cada uma;
+     "nenhuma" se não tocar. Parte que mexe em login, permissão, banco, envio de arquivo ou pagamento sai `[difícil]`.
    - Partes numeradas, na ordem de execução, cada uma cabendo em ~40 chamadas de um agente:
      **Arquivos** (caminhos), **Regra** (o que fazer e o que não mudar), **Pronto quando** (critério
      verificável), **Teste** (comando exato ou teste novo a escrever) e **Depende de** (partes ou "nenhuma").

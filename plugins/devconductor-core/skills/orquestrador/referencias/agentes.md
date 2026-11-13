@@ -11,6 +11,7 @@ grande um agente novo, de contexto limpo; não de trocar o Opus por um modelo me
 | `planejador` | só tarefa COMPLEXA: lê o necessário e grava o plano em partes em `docs/planos/` | opus | high |
 | `executor` | implementa UMA parte do plano num contexto limpo, com teste; parte `[sonnet]` roda com `model: "sonnet"` | opus | medium |
 | `revisor` | confere o resultado contra o plano e aponta só o que falhou (arquivo:linha) | opus | medium |
+| `arquiteto` | antes de mudança grande entre módulos ou com stack mista: só lê e devolve mapa, problemas, proposta e rascunho da decisão (skill `arquitetura`) | opus | high |
 | `complex-tasks` | parte difícil: bug sem causa, banco/migração, segurança, performance | opus | high |
 | `simple-tasks` | mudança já decidida e conferível que passa de ~5 chamadas (vários arquivos, teste de regra escrita, documentação) | sonnet | medium |
 | `pesquisador` | pesquisa na web e na documentação, comparação de ferramentas: lê muito, devolve resumo com fontes | sonnet | medium |

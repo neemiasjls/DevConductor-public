@@ -1,0 +1,9 @@
+adr/madr — https://github.com/adr/madr
+Arquivo usado: template/adr-template-minimal.md (commit ba75bb1b20d42af5746b246ad348c202419ae681)
+
+O arquivo LICENSE da origem, nesse commit, contém apenas a linha:
+
+MIT OR CC0-1.0
+
+O DevConductor usa o trecho sob a CC0-1.0 (dedicação ao domínio público).
+Texto legal: https://creativecommons.org/publicdomain/zero/1.0/legalcode

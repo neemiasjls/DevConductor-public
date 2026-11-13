@@ -27,3 +27,12 @@ pilotos/**/.prerender-perfil/
 
 # Grafo do código gerado a cada sessão (Graphify)
 graphify-out/
+
+# material de clientes e de prospeccao (fica so na maquina)
+/clientes/
+
+# prints e medicoes de sites de terceiros (so estudo local, nao versionar)
+/pilotos/referencias-galeria/referencias/*/raio-x/
+/pilotos/prova-referencia/*/revisao/
+/pilotos/prova-referencia/*/fotos/originais/
+/pilotos/prova-referencia/*/referencia/

@@ -1,314 +1,138 @@
-# DevAgents — Plano de ação
+# DevConductor — Plano de ação (10/11/2026)
 
-> **Leitura atual (06/11/2026):** o roteiro abaixo preserva o planejamento original. Paper foi retirado
-> (DEV-39), o produto se chama DevConductor e os plugins/fluxos atuais estão no [README](../README.md).
-> As duas rodadas de exemplos e a auditoria de clareza já foram executadas; aprovação visual e teste físico
-> são etapas distintas. Próximas melhorias e riscos verificados: [auditoria de 06/11](auditoria-06-11.md).
-> Não reinstalar Paper, reabrir clientes pausados ou repetir fases concluídas seguindo os trechos históricos.
+> Plano vigente do projeto. Estado: **proposta com padrões já assumidos** (seção 7); o Neemias pode mudar qualquer um.
+> O roteiro de outubro está em [historico/plano-de-acao-2026-10.md](historico/plano-de-acao-2026-10.md).
+> Detalhe de cada parte: [design por referência](planos/2026-11-10-design-por-referencia.md) (R0–R9) e
+> [projeto geral](planos/2026-11-10-projeto-geral.md) (G1–G7). Onde paramos: [continuar.md](continuar.md).
+> Índice dos planos vigentes: [planos/README.md](planos/README.md).
 
-> **Multiagente (DEV-27, 20/10):** A (medição agregada), B (orquestrador), C (três ajudantes, DEV-30) e D local
-> (62 skills com origem/dono) implementadas; F implementada (três fluxos progressivos). Núcleo 0.1.21, sem commit.
-> [Tabela de responsabilidades](responsabilidades-skills.md) · [Relatório D](relatorio-fase-d.md).
-> E: ensaio 0.1.4 × 0.1.20 concluído, 18/18 com qualidade aprovada, sem economia nas tarefas pequenas
-> ([relatório](relatorio-ensaio-controlado.md)). Reensaio do núcleo leve 0.1.21 concluído em 21/10:
-> **18/18 aprovadas**. Contexto depois/base: CSV −30,3%, API −6,4%, LP +66,4%; resultado misto,
-> três repetições e cache não controlado, sem conclusão de economia geral. Recusas preservadas fora da comparação.
-> Piloto integrado concluído em26/10: **6/6aprovadas**,54/54por rodada, revisão ampliada de EACCES e arquitetura conferidas.
-> Contexto base8.474.987 ×depois11.907.733 (+40,5%);225respostas Opus, zeroSkill/Agent/Task, máximo133.355por resposta.
-> Onze correções válidas incluídas e duas tentativas recusadas preservadas integralmente fora da comparação.
-> **G/H concluídas no escopo controlado**, com auditor/comparador aprovados, sem economia geral ou causalidade demonstrada.
-> Cache/n=3, clarificaçãoV1/V2, ordem6antes5e pausa semanal limitam o resultado; sem prova de delegação/alerta150k/cliente real.
-> Infraestrutura:282/284aprovados, dois pulados por plataforma, zero falhas; sem mudança de código nesta retomada.
-> [Relatório integrado](relatorio-piloto-integrado.md) · [alcance da validação](relatorio-validacao-multiagente.md).
-> Limpeza global depende de autorização. Detalhes no `continuar.md`.
-> **Status (15/10/2026):** Fases 0, 1, 3, 5 e 8 implementadas; Fase 9 validada de verdade em configuração vazia isolada neste Windows (instala/reinstala/desliga/repete, 4 plugins locais, globais preservados), também pelo GitHub (`--github`) e sem o clone (`--sem-clone`: 4 comandos + hook do núcleo instalado). Linux também aprovado nos três modos (16/10, servidor da nuvem: normal, `--github`, `--sem-clone`); macOS não testado. Fase 4 verificada numa sessão real (fluxo → typescript-pro no Sonnet, 10/10 testes; DEV-20).
-> Fase 2a parou no combinado do Sistema de Gestão (DEV-16); novo piloto depende da escolha do projeto. Paper testado, dispensado enquanto durar o plano grátis (DEV-06). Fase 7: receitas e ferramentas prontas; Transportadora v2 pausada a pedido do usuário. Fase 10: baseline real de tarefa Transportadora isolado por sessão/horário, medidor corrigido contra histórico duplicado e com JSON; falta tarefa equivalente com roteamento e comparação. Piloto interno do especialista retornou 401.
-> Plano para sites animados em [plano-design.md](plano-design.md), aprovado em 16/10: D1 implementada
-> com três estudos e mais três da D2, vitrine com 12 vídeos, 24/24 testes de navegador; escolha visual pendente.
-> Codex já retoma pelos arquivos. Estado atual e pendências em [continuar.md](continuar.md); as fases abaixo preservam o roteiro original, com decisões posteriores prevalecendo.
-> Fase 11 avançada (15/10): atualização isolada do catálogo implementada e usada nos 9 plugins;
-> importador preserva versões/metadados/créditos, prepara cópias antes da troca e restaura backups em falhas.
+## 1. Para que serve
+Um kit de plugins que deixa o Neemias fazer, sozinho e gastando pouco, **landing pages animadas com nível de estúdio
+para vender a negócios locais** e, depois, sistemas com a mesma qualidade. O kit escolhe quem faz cada tarefa e com
+qual modelo, guarda o que foi decidido e leva do cliente encontrado ao site no ar.
 
-Ecossistema de desenvolvimento para Claude Code, usável em qualquer projeto, com dois focos:
-**sistemas** (APIs, sistemas de gestão, apps) e **landing pages de venda** (o produto a vender).
+## 2. O que é "completo"
+O projeto está completo quando estas oito frases forem verdade, cada uma com prova:
+1. **Escolher:** para qualquer ramo, o kit mostra dezenas de sites bons e animados e o Neemias escolhe a base em minutos.
+2. **Fazer parecido e melhor:** o site sai fiel à base escolhida e não é apontado como "o gerado" na leitura às cegas.
+3. **Vender:** um cliente real recebeu rascunho, proposta e site publicado por um roteiro escrito.
+4. **Repetir:** o segundo site do mesmo ramo sai em até 2 sessões.
+5. **Casa em ordem:** sessão nova entende o projeto em menos de 200 linhas; nada no kit sem uso medido.
+6. **Sistemas:** uma tela de sistema real feita pelo mesmo método e aprovada.
+8. **Aparecer no Google:** cada site sai com medição de antes e depois e relatório mensal; nada prometido além do que se mede.
+7. **Seguro e bem estruturado:** num sistema de exemplo com falhas plantadas, o kit acha todas antes do envio; decisões de
+   arquitetura ficam escritas; um sistema real passou por auditoria de segurança.
 
-| Camada | O que é | De onde vem |
+## 3. Onde estamos
+| Frase | Hoje |
+|---|---|
+| 1 Escolher | galeria existe para 10 ramos; faltam os ramos da prospecção, filtros e recomendados |
+| 2 Parecido e melhor | **não**: depois da escolha, o kit ainda parte dos 7 estilos prontos; nada compara com a base |
+| 3 Vender | prospecção feita; nenhum rascunho, proposta ou venda |
+| 4 Repetir | não medido |
+| 5 Casa em ordem | `continuar.md` com mais de mil linhas; 42 skills só de landing page; uso não medido |
+| 6 Sistemas | plugin existe, sem prova |
+| 7 Seguro e estruturado | há 3 agentes de segurança e 1 skill de varredura, e arquitetos só de .NET e banco; **nada é obrigatório no fluxo** e nunca foi medido |
+
+## 4. Etapas, em ordem de prioridade
+
+### Etapa 1 — Design por referência (frases 1 e 2) · a prioridade
+| Parte | O que entrega | Quem |
 |---|---|---|
-| **Método** | Processo e etapas: entender, planejar, executar, testar, depurar, revisar, verificar, fechar | [obra/superpowers](https://github.com/obra/superpowers) (299 mil ⭐, MIT) |
-| **Especialistas** | Um agente por stack/domínio: .NET, Java, TypeScript, Python, banco, segurança | selecionados de [wshobson/agents](https://github.com/wshobson/agents) (40,7 mil ⭐, MIT) |
-| **Design** | Tela visual onde o Claude monta o layout e você edita junto | [Paper](https://paper.design) (MCP) + Paper Shaders |
-| **Landing pages** | Fábrica do briefing à publicação + animações guiadas por scroll | fábrica `lp-*` do projeto `LandingPages` + arsenal de skills famosas |
-| **Camada própria** | Roteamento de modelo por custo, memória, deploy, detecção de stack | suas skills e agentes atuais |
+| R0 | Galeria de interiores/móveis (gerada em 10/11: 222 sites) com "12 recomendados" e a aba de marcas famosas (S2); demais ramos depois | `[sonnet]` + `[regente]` |
+| R1 | **Fatia de prova:** abertura + cena principal de uma base escolhida, lado a lado com ela. Parada: vale ou não vale | `[regente]` |
+| R2 | Raio-x: mede a base seção por seção e escreve o roteiro da página | `[difícil]` |
+| R3 | Maestro "por referência": um conceito fiel + laço construir → comparar → corrigir | `[regente]` |
+| R4 | Comparador, leitura às cegas e teste com 3 pessoas (S8) | `[difícil]` |
+| R5 | Acervo de efeitos com código aberto, ligado ao raio-x | `[difícil]` |
+| R10 | **Celular bem desenhado e sem quebrar:** composição do celular decidida seção por seção a partir da medição da referência no celular, construção começando pelo celular e comparação nos dois tamanhos; conferência de toque, menu, contato, formulário e rede lenta feita pelos scripts do kit; só o motor do Safari usa ferramenta de fora, opcional; portão de 7 itens (pedido de 11/11) | `[regente]` + `[difícil]` |
+| R11 | **Raio-x mais completo:** contraste por seção, ritmo do movimento (durações e curvas) e arquivo de medidas pronto para construir — três ideias do `designlang` trazidas para o nosso raio-x | `[difícil]` |
+| R6 | Imagens: tratamento único das fotos do cliente; imagem gerada só como encaixe opcional | `[regente]` |
 
----
+### Etapa 1b — Visibilidade no Google (frase 8) · pedido do Neemias em 10/11
+Detalhe em [visibilidade no Google](planos/2026-11-10-visibilidade-google.md) (B1–B8): linha de base, relatório mensal, clique no
+WhatsApp como conversão, roteiro do Perfil da Empresa por ramo, regra de propaganda em saúde, velocidade em site animado.
+As partes baratas (B1, B2, B4, B6) entram antes do teste com as 3 empresas.
 
-## 1. Decisões já tomadas
-
-| ID | Decisão |
-|---|---|
-| DEV-01 | Processo é **só do superpowers**. Do wshobson entram só especialistas; os plugins de processo dele ficam de fora (`conductor`, `tdd-workflows`, `comprehensive-review`, `debugging-toolkit`, `error-debugging`, `agent-teams`, `full-stack-orchestration`, `ship-mate`, `operating-kit`, `context-management`, `pensyve`). |
-| DEV-02 | Nunca carregar tudo: a stack do projeto é detectada **automaticamente** e só aqueles plugins ficam ligados; na tarefa, só entram as instruções da stack envolvida. |
-| DEV-03 | O objetivo de negócio é **vender landing pages**; o DevAgents precisa ser muito bom nisso. A fábrica que já existe vira parte dele, em vez de trocar por outro projeto pronto. |
-| DEV-04 | Landing pages **muito animadas e interativas**, com várias cenas ao longo do scroll. Processo o mais automático possível, com poucos pontos manuais e **visuais** (sem exigir leitura de código). |
-| DEV-05 | Troca de turno com Codex configurada e usada; retorno pelos arquivos de passagem de turno. |
-| DEV-06 | Paper opcional enquanto durar o plano grátis; direção visual em HTML/código. Retomar Paper se houver assinatura. |
-
----
-
-## 2. Como as peças se encaixam
-
-### Fluxo de um sistema (API, sistema de gestão, app)
-
-```
-Pedido
-  ▼
-superpowers · brainstorming      → perguntas, uma por vez, em linguagem simples
-  ▼
-(opcional) Paper                 → telas principais (painel, formulários) desenhadas e ajustadas por você
-  ▼
-superpowers · plano              → tarefas pequenas, com arquivos e critério de pronto · você aprova
-  ▼
-superpowers · execução           → uma tarefa por vez; para cada uma, a skill orquestrador escolhe:
-  │                                   QUAL especialista → pela stack dos arquivos (.cs, .java, .tsx, .py, .sql)
-  │                                   QUAL modelo       → MECÂNICA haiku · SIMPLES sonnet · COMPLEXA opus
-  ▼
-superpowers · TDD + revisão + verificação  → prova (testes, build) antes de dizer "pronto"
-  ▼
-/subir                           → commit, push e deploy (Cloudflare, Render, Supabase)
-```
-
-### Fluxo de uma landing page
-
-```
-1. Material do cliente ........ automático   lp-coleta: fotos, dados, avaliações
-2. Referências ................ você 5–10 min o sistema traz 10–15 candidatos COM VÍDEO; você escolhe 2–3 e diz o porquê
-3. Layout no Paper ............ você + Claude o Claude monta 3 direções como pranchas; você escolhe e edita na tela
-4. Movimento .................. você escolhe  3 cenas de scroll já rodando no navegador (biblioteca de cenas)
-5. Construção ................. automático   Paper → site; aplica as cenas; superpowers cuida do código
-6. Revisão .................... você assiste  vídeo da página rolando no celular e no computador; você aponta, ele corrige
-7. Aprovação e publicação ..... você aprova   lp-publicar: demo no Cloudflare + mensagem de venda
-```
-
-Seus pontos manuais são 4, todos visuais: **escolher** (referências, direção, cena), **editar** no Paper,
-**assistir** a revisão em vídeo e **aprovar**.
-
-### Regra do Paper: uma fonte de verdade por vez
-Até aprovar o layout, **o Paper manda**. Depois que vira site, **o código manda**. Mudanças depois disso são
-pedidas por conversa ou feitas no site, não no Paper (senão os dois saem de sincronia).
-
----
-
-## 3. Estrutura do repositório
-
-```
-DevAgents/
-├── .claude-plugin/
-│   └── marketplace.json          → marketplace "devagents"
-├── plugins/
-│   ├── devagents-core/           → sempre ligado
-│   │   ├── agents/               → tarefas-mecanicas, simple-tasks, complex-tasks (roteamento)
-│   │   ├── skills/               → orquestrador (decide quem faz), memoria, subir
-│   │   └── hooks/                → detecção de stack ao abrir a sessão
-│   ├── stack-dotnet/             → C#, ASP.NET Core, EF Core
-│   ├── stack-java/               → Java, Spring
-│   ├── stack-typescript/         → TypeScript, Node, React, Next
-│   ├── stack-python/             → Python
-│   ├── stack-banco/              → Postgres, Supabase, migrações
-│   ├── seguranca/                → API, frontend, varredura (OWASP, dependências)
-│   ├── design-paper/             → skill de trabalho com o Paper (direções, ler edições, fonte de verdade)
-│   └── landing-pages/            → lp-* + arsenal + biblioteca de cenas + animação
-│       └── cenas/                → receitas de cenas de scroll testadas (código + vídeo + licença)
-├── scripts/
-│   ├── instalar                  → instala superpowers + devagents + MCP do Paper em qualquer máquina
-│   ├── ativar-projeto            → alternativa manual à detecção automática
-│   └── comparar-origem           → o que mudou no wshobson desde a última cópia
-├── fontes.json                   → de onde veio cada arquivo copiado (repo, caminho, commit, licença)
-├── docs/
-│   ├── plano-de-acao.md          → este arquivo
-│   ├── decisoes.md               → decisões e por quê
-│   └── continuar.md              → onde paramos
-├── LICENSE                       → MIT
-├── NOTICE                        → créditos (superpowers, wshobson, arsenal de design)
-└── README.md
-```
-
-Ativação por tipo de projeto (exemplos):
-
-| Projeto | Plugins ligados |
-|---|---|
-| Landing page | core + `landing-pages` + `design-paper` + `stack-typescript` |
-| Sistema de gestão (.NET + front) | core + `stack-dotnet` + `stack-typescript` + `stack-banco` + `seguranca` (+ `design-paper` se quiser) |
-| API Java | core + `stack-java` + `stack-banco` + `seguranca` |
-
----
-
-## 4. Fases
-
-A ordem prioriza o que é decisivo: os pilotos (superpowers e Paper) vêm cedo, porque mudam o resto.
-
-### Fase 0 — Base do repositório
-- `git init`, `README.md`, `LICENSE`, `NOTICE`, `.gitignore`, `docs/decisoes.md`, pastas vazias da estrutura.
-- Repositório no GitHub (público ou privado — pergunta 1).
-
-**Pronto quando:** repositório criado com a estrutura.
-
-### Fase 1 — Inventário
-O que existe hoje e o destino de cada item:
-
-| Item | Onde está | Destino |
+### Etapa 2 — Prova completa, depois cliente real e venda (frase 3)
+| Parte | O que entrega | Quem |
 |---|---|---|
-| `tarefas-mecanicas`, `simple-tasks`, `complex-tasks` | `~/.claude/agents` | `devagents-core` (pergunta 3) |
-| `memoria`, `subir` | `~/.claude/skills` | `devagents-core` (pergunta 3; revisar dado pessoal antes) |
-| `pacote` | `~/.claude/skills` | aposentar quando a detecção automática funcionar |
-| `modern-csharp-coding-standards` | global | `stack-dotnet` |
-| `vercel-react-best-practices` | global **e** LandingPages | `stack-typescript` (uma cópia só) |
-| `supabase-postgres-best-practices`, `postgresql-code-review` | global | `stack-banco` |
-| `accessibility`, `web-design-guidelines` | global (+ LandingPages) | `landing-pages` (uma cópia só) |
-| `frontend-design`, `impeccable` | global **e** LandingPages, versões diferentes | `landing-pages` (versão do arsenal) |
-| `premium-landing-designer`, `website-design`, `design-taste-frontend` | global | avaliar contra o arsenal; pela regra "só famoso", tendem a sair |
-| `find-skills` | global | manter global |
-| 10 `lp-*` + 18 skills do arsenal | LandingPages | `landing-pages` |
-| hook `git-autoria` | `~/.claude/settings.json` | manter global |
+| R7 | **Teste do kit: 3 sites, um para cada empresa real** da segunda escolha de 10/11 (móveis planejados, implantes dentários, vestidos de noiva), pelo fluxo inteiro. Rascunhos locais, sem publicar e sem abordar | `[regente]` |
+| V0 | **Nova análise de clientes em Marília, em qualquer ramo**, só depois do R7 aprovado (pedido do Neemias em 10/11); a lista de 10/11 vira ponto de partida | `[regente]` + pesquisa `[sonnet]` |
+| V3 | Abordagem: os 3 rascunhos do teste (se aprovados) e os clientes novos da V0 | `[regente]` |
+| G1 | Roteiro de venda: abordagem com **vídeo de 15 s da rolagem** (S5), proposta de uma página, preço, o que o cliente manda, prazo, como recebe, publicação | `[regente]` |
+| V1 | Planilha de contatos em uso (a coluna "Status do contato" já existe, vazia) | `[sonnet]` |
+| V2 | **Página do próprio Neemias** vendendo o serviço, feita pelo mesmo método (S1): prova de repetição e cartão de visita | `[regente]` |
 
-Stacks encontradas nos projetos (inferido dos arquivos): C#/.NET (Sistema de Gestão, Payment API, Nemus),
-Java (SmartKey API, HackGov), TypeScript/React (maioria), Python (Nemus, gesture-switch),
-Supabase, Cloudflare e Render.
+### Etapa 2b — Arquitetura e segurança de sistemas (frase 7) · pedido do Neemias em 10/11
+| Parte | O que entrega | Quem |
+|---|---|---|
+| A1 | **Portão de segurança no fluxo de sistema:** antes de construir, lista curta de riscos (login, permissões, dados pessoais, segredos, envio de arquivo, pagamento); antes de enviar, revisão do `security-auditor` em toda mudança sensível | `[regente]` |
+| A2 | **Varredura automática** antes do envio: segredos, dependências com falha conhecida e análise do código, num comando só | `[difícil]` |
+| A3 | **Prova:** sistema de exemplo com falhas plantadas (injeção, tela sem permissão, segredo no código, regra de acesso do banco aberta); o kit precisa achar todas | `[difícil]` |
+| A4 | **Arquitetura:** skill própria (decisão escrita em linguagem simples, limites entre módulos, conferência antes de mudança grande) e arquiteto geral, não só de .NET e banco | `[regente]` |
+| A5 | **Auditoria do Sistema de Gestão:** só relatório, pela conversa daquele projeto; nada alterado sem aprovação | `[difícil]` |
+| A6 | **Regras e método recebidos em 11/11** (avaliados antes de entrar): nada sensível no console ou em log; token de acesso fora do alcance de script (nunca em `localStorage`; cookie só com `HttpOnly`, `Secure` e `SameSite`); limite de tempo, tamanho e tentativas em toda entrada; consulta ao banco sempre com parâmetros; e auditoria em **duas passadas** — primeiro por lista, corrige, depois outro agente procura falhas "com outra visão", sem ver o primeiro relatório. Cada regra só vale com teste que falha quando ela é quebrada | `[regente]` + `[difícil]` |
 
-**Pronto quando:** tabela confirmada em `docs/decisoes.md`.
+Detalhe das partes, das fontes prontas avaliadas e das dicas em [arquitetura e segurança](planos/2026-11-11-arquitetura-e-seguranca.md).
+A A5 não disputa arquivos com o design e pode rodar antes, numa sessão do próprio Sistema de Gestão.
 
-### Fase 2 — Pilotos (decidem o resto)
-**2a. Superpowers:** instalar pelo marketplace dele e fazer uma feature pequena real num sistema existente.
-Anotar o que incomodou (perguntas demais, git worktree confuso etc.).
+### Etapa 3 — Repetir rápido (frase 4)
+| Parte | O que entrega | Quem |
+|---|---|---|
+| P1 | **Molde por ramo** (S6): depois de cada site aprovado, guardar a base reaproveitável (estrutura, cenas, textos-modelo) | `[difícil]` |
+| P2 | **Rascunho-isca** (S4): um comando que, a partir dos dados públicos do negócio, monta a abertura personalizada no molde do ramo | `[difícil]` |
+| P3 | **Caminho rápido** (S3): para cliente de preço baixo, partir de modelo com licença aberta em vez de reconstruir | `[sonnet]` |
+| R8 | Galeria ampla: 6+ ramos, filtros, aba de efeitos | `[sonnet]` |
 
-**2b. Paper:** instalar o Paper Desktop e conectar o MCP no Claude Code (o guia indica
-`claude mcp add paper --transport http http://127.0.0.1:29979/mcp --scope user` — conferir na documentação).
-Teste: o Claude monta só o **topo** de uma landing page no Paper → você edita algumas coisas → o Claude lê as
-mudanças e continua → o Claude transforma em código. Medir quantas ações gastou (plano grátis: 100/semana
-em fev/2026; Pro US$ 20/mês na época).
+### Etapa 4 — Casa em ordem (frase 5)
+| Parte | O que entrega | Quem |
+|---|---|---|
+| G2 | Documentação enxuta (pode rodar antes, é barata) | `[sonnet]` |
+| R9 + G3 | Kit do tamanho do uso; um método só na abertura da sessão | `[difícil]` |
+| G4 | Gerador do repositório público com conferência e volta atrás | `[difícil]` |
+| G6 | Faxina das pendências do kit | `[sonnet]` |
 
-**Pronto quando:** decisão registrada para cada um (adota / ajusta / descarta). Se o Paper não servir, o
-plano B é prancha no navegador + ajustes por conversa.
+### Etapa 5 — Sistemas e provas finais (frase 6)
+| Parte | O que entrega | Quem |
+|---|---|---|
+| G5 | Aparelho físico; decisões "inferidas" confirmadas | `[regente]` |
+| G7 | Método por referência aplicado a telas de sistema | `[regente]` |
 
-### Fase 3 — Núcleo (`devagents-core`)
-- Mover os 3 agentes de roteamento e as skills `memoria` e `subir` (sem dado pessoal em arquivo versionado).
-- Skill `devagents-fluxo` (desde 20/10 é a `orquestrador`): em cada tarefa do superpowers, escolher especialista pela stack e modelo pela
-  classificação; tarefa pequena e clara vai direto, sem cerimônia. O superpowers não é editado.
-- Hook de início de sessão: detecta a stack (`.sln`/`.csproj`, `pom.xml`, `package.json`, `requirements.txt`,
-  `supabase/`, `wrangler.jsonc`) e liga só os plugins certos no `.claude/settings.json` do projeto.
-  A confirmar: se ligar plugin exige reiniciar a sessão (nesse caso, só na primeira vez por projeto).
+## 5. Sugestões diferentes
+| # | Sugestão | Por que ajuda | Situação |
+|---|---|---|---|
+| S1 | Página do próprio Neemias como segundo site | não depende de cliente, prova a repetição e dá credibilidade na abordagem | **entra** (V2) |
+| S2 | Marcas famosas como base: 84 fichas de design já estão na pasta de originais | escolher "no rigor de tal marca" sem depender de galeria que bloqueia robô | **entra** (R0) |
+| S3 | Modelo com licença aberta como caminho rápido | qualidade alta com poucas sessões para cliente de preço baixo | **entra** (P3) |
+| S4 | Rascunho-isca em um comando | cada abordagem chega com a página do próprio cliente; é o que mais aumenta a chance de fechar | **entra** (P2) |
+| S5 | Vídeo da rolagem na mensagem | o dono vê o site sem clicar em link de desconhecido; a ferramenta de gravar já existe | **entra** (G1) |
+| S6 | Molde por ramo | segundo buffet ou segunda marcenaria sai em horas | **entra** (P1) |
+| S7 | Mensalidade (hospedagem + pequenas mudanças) com relatório mensal de visitas e cliques no WhatsApp | renda que se repete e prova de resultado para a venda seguinte | opção de negócio: decisão do Neemias |
+| S8 | Mostrar duas versões a 3 pessoas e perguntar qual parece mais profissional | teste humano grátis, pega o que agente não pega | **entra** (R4) |
+| S9 | Usar os créditos de teste de imagem antes de vencerem para um banco de fundos, texturas e vídeos curtos dos ramos da prospecção | os créditos vencem de qualquer jeito; nunca para peça falsa (LP-11) | opção: só com pedido |
+| S10 | Segundo olhar independente no lado a lado (parceiro de revisão já configurado) | reduz o viés de quem construiu | opção, a partir do R4 |
 
-**Pronto quando:** abrir um projeto qualquer liga as stacks certas sozinho.
+## 6. Ritmo
+Uma parte por sessão. Estimativa: R0 e R1 em 2 sessões (já sai a abertura do site da primeira empresa);
+Etapa 1 inteira em 10–14 sessões; Etapa 2 em 5–8. Não começar a Etapa 3 sem a resposta do primeiro cliente.
+Paradas obrigatórias: **R1** (o método vale?) e **R7** (o Neemias usaria este site para vender?).
 
-### Fase 4 — Especialistas por stack
-Para cada plugin de stack:
-1. Copiar do wshobson os agentes e skills da tabela e registrar em `fontes.json`.
-2. Juntar com as skills de stack que você já tem (Fase 1).
-3. Modelo: **sonnet** por padrão; **opus** só em arquitetura e modelagem de banco (vários vêm em opus, o mais caro).
-4. `description` em português dizendo **quando usar**.
-5. Acrescentar convenções próprias (versões, pastas, testes, tratamento de erro).
+## 7. Padrões assumidos (mudam se o Neemias disser)
+1. O teste são **3 sites para 3 empresas reais** (pedido do Neemias em 10/11), as três da segunda escolha de 10/11 (critério: anuncia hoje e
+   não tem site), uma por ramo. Ordem: móveis planejados (galeria pronta; é a fatia do R1), implantes dentários, vestidos de noiva. Só dado público, pasta
+   fora do git, `noindex`, nada publicado nem enviado. Ele pode trocar qualquer uma das três.
+2. No R1 a fatia segue a base escolhida; o que incomodar vira "o que muda". As preferências antigas de estilo só
+   são alteradas no kit (R3) depois de ele ver o lado a lado e dizer.
+3. Nada pago: imagem gerada, domínio e plano só entram depois da primeira venda.
+4. Nomes e dados de clientes ficam fora do repositório.
 
-| Plugin | Origem no wshobson |
-|---|---|
-| `stack-dotnet` | `dotnet-contribution` (dotnet-architect, dotnet-backend-patterns) + `csharp-pro` |
-| `stack-java` | `java-pro` (de `jvm-languages`) |
-| `stack-typescript` | `javascript-typescript` (typescript-pro, javascript-pro + 4 skills) |
-| `stack-python` | `python-development` |
-| `stack-banco` | `database-design` (database-architect, sql-pro, postgresql-table-design) + `database-migrations` |
-| `seguranca` | `backend-api-security`, `frontend-mobile-security`, `security-scanning` |
+## 8. O que não fazer
+- Plugin, stack ou ferramenta nova de design antes da parada do R1.
+- Refazer os sites de exemplo ou retomar clientes pausados sem pedido.
+- Contornar bloqueio de robô, login ou termos de uso; copiar código, texto, foto ou marca sem licença aberta.
+- Mexer na configuração global ou em outros projetos sem pedido.
 
-**Pronto quando:** cada stack testada numa tarefa real de um projeto seu, com o especialista certo escolhido sozinho.
-
-### Fase 5 — Landing pages: trazer a fábrica
-- Mover as `lp-*` e o arsenal (taste-skill, impeccable, hallmark, ui-ux-pro-max, frontend-design, Emil
-  Kowalski, marketingskills, claude-seo, Vercel, Cloudflare) para o plugin `landing-pages`, mantendo o
-  travamento `user-invocable-only` (só a `lp-*` da etapa chama) e as regras confirmadas LP-xx.
-- Tirar do versionado: nomes de clientes, dados pessoais, material de clientes.
-- O projeto `LandingPages` passa a ser só o espaço de clientes e prospecção, usando o plugin (pergunta 5).
-- Quem conduz: proposta = `lp-maestro` conduz as etapas do negócio; superpowers só no código da construção (pergunta 4).
-
-**Pronto quando:** uma landing page feita pelo plugin numa pasta nova, com o mesmo resultado de hoje.
-
-### Fase 6 — Paper no fluxo (depois do piloto 2b)
-- Skill `design-paper`:
-  - montar **3 direções** como pranchas no Paper, com fotos e textos reais do cliente;
-  - ler as edições feitas por você e continuar a partir delas;
-  - converter o layout aprovado em código (React + Tailwind) seguindo `lp-construcao`;
-  - aplicar a regra "uma fonte de verdade por vez".
-- `lp-direcao-de-arte` passa a entregar no Paper em vez de pranchas soltas.
-- **Paper Shaders** (`paper-design/shaders`, 3,6 mil ⭐, Apache-2.0) entra na biblioteca de cenas como
-  fundos animados (gradiente em movimento, metal líquido, grão).
-- Em sistemas: opcional, para telas principais (painel, formulários, relatórios) antes de codar.
-
-**Pronto quando:** uma landing page com layout feito e editado no Paper chega ao site sem retrabalho.
-
-### Fase 7 — Movimento: sites "de cinema"
-**Por que a fábrica atual não faz:** foi montada para animação contida — "só Motion, sem GSAP" (LP-10),
-"sem seção presa além do topo" (LP-09) e a filosofia do Emil (animar pouco). Cena guiada por scroll
-normalmente prende a seção. **Mudar depende de aprovação (pergunta 6).**
-
-1. **Biblioteca de cenas:** 20–30 cenas de scroll testadas, de fontes famosas (demos oficiais do GSAP,
-   Codrops, sites premiados), cada uma com código, vídeo e licença: objeto por um caminho (o caminhão),
-   sequência de quadros (estilo Apple), camadas com profundidade, texto revelado, 3D girando, fundo shader.
-   O sistema escolhe pelo nicho e adapta; cada cena aprovada num cliente vira receita nova.
-2. **Ferramentas:** GSAP + ScrollTrigger (skill oficial `greensock/gsap-skills`, 16,4 mil ⭐, MIT) e Lenis
-   (rolagem suave, 16,5 mil ⭐). 3D (Three.js / React Three Fiber) só quando a cena pedir — sem skill
-   famosa, escrever uma própria.
-3. **Assets (o gargalo real):** ilustração SVG, modelo 3D (CC0) ou vídeo gerado por IA convertido em
-   quadros que o scroll "roda". Nova etapa `lp-assets`.
-4. **Etapa "conceito de movimento"** no `lp-maestro`: 3 cenas rodando para você escolher (mostrar em vez de perguntar).
-5. **Celular e velocidade:** orçamento de peso, versão leve no celular, `prefers-reduced-motion`.
-6. **Equilíbrio:** layout continua organizado (LP-09) e cada site ganha **1–2 cenas-assinatura** onde o
-   pin é permitido, em vez de animação espalhada em tudo.
-7. **Estudo:** `agiwhitelist/auteur` (1 mil ⭐, MIT, "dirige um site como um filme") — pouco conhecido;
-   ler para aproveitar ideias, não instalar.
-
-**Pronto quando:** um site de demonstração (ex.: transportadora) com cenas guiadas por scroll fluidas no
-celular e no computador.
-
-### Fase 8 — Referências automáticas
-- `lp-referencias` busca nas galerias que aceitam acesso automático — Awwwards (filtros Landing Page +
-  Animation), GSAP Showcase, Godly — pelo nicho do cliente e pelo tipo de cena.
-  (Land-book, Lapa Ninja e SiteInspire bloquearam acesso automático no teste de 14/10/2026.)
-- Grava **vídeo curto de cada candidato rolando** (print não mostra animação) e entrega numa página só, lado a lado.
-- Pasta de **favoritos** sua (site + uma frase do porquê): o sistema busca nela primeiro, depois nas galerias.
-
-**Pronto quando:** para um nicho novo, você recebe 10–15 candidatos em vídeo e escolhe em menos de 10 minutos.
-
-### Fase 9 — Uso em qualquer máquina
-- Script `instalar`: marketplaces (superpowers + devagents), `devagents-core` e MCP do Paper.
-- Aposentar o `/pacote`.
-
-**Pronto quando:** num computador limpo, `instalar` deixa tudo funcionando.
-
-### Fase 10 — Validação (1–2 semanas)
-- Usar no dia a dia e anotar: tokens por tarefa (`/cost`), retrabalho, bugs que escaparam, tempo por landing page.
-- Cortar o que não ajudou, reforçar o que ajudou.
-
-**Pronto quando:** decisão registrada sobre o que fica, com números.
-
-### Fase 11 — Manutenção
-- Superpowers atualiza pelo marketplace (conferir se a integração continua funcionando).
-- `comparar-origem` mostra o que mudou nos arquivos copiados do wshobson e do arsenal; trazer só o que interessa.
-
----
-
-## 5. Regras do projeto
-
-- Processo é **só** do superpowers (exceção possível: `lp-maestro` nas etapas de negócio da landing page — pergunta 4).
-- Cada especialista tem `description` dizendo **quando usar** e modelo escolhido de propósito.
-- Opus permanece na conversa principal (DEV-29/30); ajudantes e especialistas usam o modelo definido
-  para sua função. Delegação é por necessidade e escopo, sem rebaixar a principal para buscar economia.
-- Poucos plugins ligados por projeto: só os que ele usa.
-- Só projetos famosos no arsenal (milhares de estrelas); avisar quando algo for pouco conhecido.
-- Paper: uma fonte de verdade por vez (Paper até aprovar o layout; código depois).
-- Todo arquivo copiado registrado em `fontes.json`; créditos no `NOTICE`; licença conferida.
-- Nada de dado pessoal, segredo, token ou material de cliente em arquivo versionado.
-
-## 6. Perguntas em aberto
-
-1. Repositório no GitHub público ou privado?
-2. Stacks: as encontradas nos projetos (.NET, Java, TypeScript, Python, Supabase) — falta alguma? Alguma sobra?
-3. Mover `memoria`, `subir` e os agentes de roteamento para dentro do DevAgents (fonte única) ou deixar no `~/.claude`?
-4. Landing page: `lp-maestro` conduz as etapas do negócio e o superpowers só entra no código? (exceção à DEV-01)
-5. O projeto `LandingPages` fica só com clientes e prospecção, usando o plugin?
-6. Liberar GSAP e seção presa (pin) só nas cenas-assinatura? (contraria LP-09 e LP-10, confirmadas)
+## 9. Como seguir cada parte
+Ler este plano, a parte no plano de detalhe e o `continuar.md`. Ao terminar: suíte com código de saída,
+`claude plugin validate`, versão do plugin mexido + `node scripts/atualizar-marketplace.mjs`, `continuar.md` atualizado.

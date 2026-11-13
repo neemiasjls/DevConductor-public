@@ -1,6 +1,6 @@
 ---
 name: ui-sistemas
-description: Use ao criar, redesenhar ou revisar telas de sistema em React ou Next (painel administrativo, ERP, CRM, dashboard, cadastro, lista, tabela, formulário, área logada, app interno), mesmo quando o pedido não fala em design. Não é para landing page (fluxo lp-*).
+description: Use ao criar, redesenhar ou revisar telas de sistema em qualquer stack (React, Next, Blazor, Vue e outras; padrão React) e em projeto novo ou vazio, quando o pedido fala em sistema, painel, cadastro ou área logada (também ERP, CRM, dashboard, lista, tabela, formulário, app interno), mesmo sem falar em design. Não é para landing page (fluxo lp-*).
 ---
 
 # UI de sistemas
@@ -49,6 +49,33 @@ cada tecla.
 - Ícone de um conjunto só, 16 px, onde ajuda a achar (menu, situação), não em todo botão.
 - Sem degradê, brilho, vidro fosco, emoji ou animação de entrada em tela de trabalho; retorno de clique em até
   200 ms. Modo escuro só se o DESIGN.md pedir, com todo token nas duas versões.
+
+## Regras que a máquina confere
+O `DESIGN.md` é para pessoas; o `design-sistemas.json` (raiz do projeto) diz o mesmo para a máquina. Escreva pelo
+exemplo `modelos/design-sistemas.json`, na forma do `esquema-config.json`. Cada critério, com id, nível ("nunca
+passa", "exige justificativa", "aviso") e quem confere, está em `referencias/regua-telas.md`. Sem a configuração,
+nada sai "aprovado completo".
+Conferir o código (só lê): `node <pasta desta skill>/scripts/consistencia.mjs src --config design-sistemas.json`
+(saída 0 passou, 1 reprovou, 2 não conferido: nunca diga "passou" com 2).
+Conferir no navegador (layout, letra, toque, contraste, nomes, estados e prints), com o sistema rodando:
+`node <pasta desta skill>/scripts/conferir-tela.mjs --config design-sistemas.json --base <url> [pasta-saida] [--telas a,b] [--json]`
+(mesmas saídas). Ele usa o motor do Chrome do plugin `landing-pages`: sem esse plugin (ou sem Chrome) sai 2 e a
+tela é entregue como "não conferida", nunca como pronta. Exceção que tem de valer no navegador pede `id` no
+elemento: o seletor que o conferidor gera usa `#id` ou tags com posição, que mudam quando a tela muda.
+- **Peças base obrigatórias:** campo, botão, cabeçalho de tela, cabeçalho de tabela e estados, cada uma num arquivo
+  declarado em `pecas`. Tela não usa `<input>`, `<button>`, `<select>` ou `<th>` à mão; o desvio só com exceção
+  registrada (`{regra, arquivo, local, motivo}`).
+- **Letra em escala fechada:** até 5 tamanhos com nome; títulos em 3 níveis (página, seção, grupo); mínimo 12 px no
+  computador e 16 px no celular em campo em que se digita (botão com `role="combobox"` segue os 12 px); nada de `text-[Npx]`.
+- **Espaço na escala de 4 px**, sem valor arbitrário (`p-[13px]`).
+- **Um raio por superfície** (controle, cartão, janela, selo); sombra só no que flutua (menu, janela, aviso).
+- **Cores por função** (fundo, texto, destaque, erro...) como tokens; cor com sentido no negócio fica em
+  `cores.negocio`, com o motivo. Paleta crua (`bg-red-500`) e hexadecimal na tela reprovam.
+- **Aviso que some só para resultado de ação** ("Cliente salvo"); erro de campo fica no campo.
+- **`outline-none` só com foco substituto** (`focus-visible:` na mesma lista de classes).
+- **Tela de até ~400 linhas**; passando disso, divida em partes.
+- **Tabela no celular:** cartões para consulta; para comparar colunas, primeira coluna fixa e rolagem só dentro da
+  tabela.
 
 ## Fluxo de uma tela
 1. **Tarefa:** em uma frase, o que a pessoa faz nesta tela e com que frequência. Painel de indicadores segue a

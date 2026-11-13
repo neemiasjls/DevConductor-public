@@ -1,0 +1,2445 @@
+{
+ "categoria": "moveis",
+ "nome": "Móveis planejados e marcenaria",
+ "data": "2026-11-10",
+ "relatorio": {
+  "opl": {
+   "lidos": 32,
+   "pedidos": 6,
+   "parou": null,
+   "unicos": 32
+  },
+  "awwwards": {
+   "lidos": 93,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 92
+  },
+  "lapa": {
+   "lidos": 0,
+   "pedidos": 1,
+   "parou": "403 em https://www.lapa.ninja/category/furniture-interiors/",
+   "unicos": 0
+  },
+  "github": {
+   "lidos": 51,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 51
+  }
+ },
+ "itens": [
+  {
+   "n": 1,
+   "fonte": "opl",
+   "nome": "SemiCreative",
+   "pagina": "https://onepagelove.com/semicreative",
+   "site": "https://www.semicreative.co.nz/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2023/09/opl-master-5.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 2,
+   "fonte": "opl",
+   "nome": "Home Societe",
+   "pagina": "https://onepagelove.com/home-societe",
+   "site": "https://homesociete.ca/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2019/06/opl-master-14.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 3,
+   "fonte": "opl",
+   "nome": "Switch90",
+   "pagina": "https://onepagelove.com/switch90",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2017/05/opl-big-35.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 4,
+   "fonte": "opl",
+   "nome": "Laludelo",
+   "pagina": "https://onepagelove.com/laludelo",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2016/07/opl-big-image.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 5,
+   "fonte": "opl",
+   "nome": "Wood Shed Production",
+   "pagina": "https://onepagelove.com/wood-shed-production",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/01/opl-big15.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 6,
+   "fonte": "opl",
+   "nome": "Mood Furniture",
+   "pagina": "https://onepagelove.com/mood-furniture",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/04/opl-big44.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 7,
+   "fonte": "opl",
+   "nome": "Daniel Schuh",
+   "pagina": "https://onepagelove.com/daniel-schuh",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/ds-originals1.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 8,
+   "fonte": "opl",
+   "nome": "Iconic Furniture",
+   "pagina": "https://onepagelove.com/iconic-furniture",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/Iconic-Furniture1.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 9,
+   "fonte": "opl",
+   "nome": "Le Stanze di Ann",
+   "pagina": "https://onepagelove.com/le-stanze-di-ann",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2012/12/opl-big1.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 10,
+   "fonte": "opl",
+   "nome": "Luxdeco",
+   "pagina": "https://onepagelove.com/luxdeco",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/luxdeco_screenshot.png",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 11,
+   "fonte": "opl",
+   "nome": "Tegra",
+   "pagina": "https://onepagelove.com/tegra",
+   "site": "https://www.tegra.nyc",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90276/a33b13114b9104c9c81034242e56c498/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90276/a33b13114b9104c9c81034242e56c498/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 12,
+   "fonte": "opl",
+   "nome": "HYLE",
+   "pagina": "https://onepagelove.com/hyle",
+   "site": "https://www.hylemateria.it/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/11/opl-master-8.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 13,
+   "fonte": "opl",
+   "nome": "Pearl Tiling",
+   "pagina": "https://onepagelove.com/pearl-tiling",
+   "site": "https://pearltiling.com.au/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2023/03/opl-screenshot-8.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 14,
+   "fonte": "opl",
+   "nome": "Sona Mantri",
+   "pagina": "https://onepagelove.com/sona-mantri",
+   "site": "https://sprinteriors.com/sona-mantri",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2022/11/opl-screenshot-30.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 15,
+   "fonte": "opl",
+   "nome": "Alt Studios",
+   "pagina": "https://onepagelove.com/alt-studios",
+   "site": "https://alt-studios.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2021/06/opl-master-21.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 16,
+   "fonte": "opl",
+   "nome": "Rizoma Studio",
+   "pagina": "https://onepagelove.com/rizoma-studio",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2019/03/opl-master-7.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 17,
+   "fonte": "opl",
+   "nome": "Peaceful Life",
+   "pagina": "https://onepagelove.com/peaceful-life",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2018/05/opl-big-6.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 18,
+   "fonte": "opl",
+   "nome": "Studio Dunn",
+   "pagina": "https://onepagelove.com/studio-dunn",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2016/10/opl-big-7.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 19,
+   "fonte": "opl",
+   "nome": "Revealing the secrets of a zen bedroom",
+   "pagina": "https://onepagelove.com/revealing-the-secrets-of-a-zen-bedroom",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/09/opl-big13.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 20,
+   "fonte": "opl",
+   "nome": "Eginstill",
+   "pagina": "https://onepagelove.com/eginstill",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/09/opl-big12.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 21,
+   "fonte": "opl",
+   "nome": "Interiors in Time",
+   "pagina": "https://onepagelove.com/interiors-in-time",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/06/opl-big45.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": [
+    "awwwards"
+   ]
+  },
+  {
+   "n": 22,
+   "fonte": "opl",
+   "nome": "NicePlaces In",
+   "pagina": "https://onepagelove.com/niceplaces-in",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/06/opl-big9.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 23,
+   "fonte": "opl",
+   "nome": "White Studio",
+   "pagina": "https://onepagelove.com/white-studio",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/04/opl-big22.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 24,
+   "fonte": "opl",
+   "nome": "Patine Fijnschilders",
+   "pagina": "https://onepagelove.com/patine-fijnschilders",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/12/opl-big50.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 25,
+   "fonte": "opl",
+   "nome": "Songes Studio",
+   "pagina": "https://onepagelove.com/songes-studio",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/04/opl-big26.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 26,
+   "fonte": "opl",
+   "nome": "Luxhome",
+   "pagina": "https://onepagelove.com/luxhome",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/03/opl-big22.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 27,
+   "fonte": "opl",
+   "nome": "Père Dodo",
+   "pagina": "https://onepagelove.com/pere-dodo",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/01/opl-big25.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 28,
+   "fonte": "opl",
+   "nome": "Tailormade",
+   "pagina": "https://onepagelove.com/tailormade",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/tailormade_1150x4870.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 29,
+   "fonte": "opl",
+   "nome": "Dumbo Townhouses",
+   "pagina": "https://onepagelove.com/dumbo-townhouses",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/BU_Dumbo_full_small.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 30,
+   "fonte": "opl",
+   "nome": "Katia Bongiorno",
+   "pagina": "https://onepagelove.com/katia-bongiorno",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/katiabongiorno-big.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 31,
+   "fonte": "opl",
+   "nome": "Essegi Arreda",
+   "pagina": "https://onepagelove.com/essegi-arreda",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/essegi-arreda-big-screenshot.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 32,
+   "fonte": "opl",
+   "nome": "Jan Michálka",
+   "pagina": "https://onepagelove.com/jan-michalka",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2011/02/opl-site68.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/interior-design",
+   "tambemEm": []
+  },
+  {
+   "n": 33,
+   "fonte": "awwwards",
+   "nome": "dsgn Interior",
+   "pagina": "https://www.awwwards.com/sites/dsgn-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a8d6645e1bbc393614152.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 34,
+   "fonte": "awwwards",
+   "nome": "Tecnoarreda Interior Design",
+   "pagina": "https://www.awwwards.com/sites/tecnoarreda-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a38ebe6cc164752879935.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 35,
+   "fonte": "awwwards",
+   "nome": "Abvtek Interiors",
+   "pagina": "https://www.awwwards.com/sites/abvtek-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1ff86607d8f599311022.jpg",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 36,
+   "fonte": "awwwards",
+   "nome": "Yoo Interior",
+   "pagina": "https://www.awwwards.com/sites/yoo-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a281944a501b670864712.jpg",
+   "etiquetas": [
+    "Transitions",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 37,
+   "fonte": "awwwards",
+   "nome": "Stirling Interiors",
+   "pagina": "https://www.awwwards.com/sites/stirling-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/697241b186624910579866.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 38,
+   "fonte": "awwwards",
+   "nome": "BAMO Interior Design",
+   "pagina": "https://www.awwwards.com/sites/bamo-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/11/6911e266ca66c870210879.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 39,
+   "fonte": "awwwards",
+   "nome": "Tredi Interiors",
+   "pagina": "https://www.awwwards.com/sites/tredi-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/10/6904cc9eee290605781761.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 40,
+   "fonte": "awwwards",
+   "nome": "ROOOF Pet Furniture",
+   "pagina": "https://www.awwwards.com/sites/rooof-pet-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/10/68fb854da7a31410039716.png",
+   "etiquetas": [
+    "Animation",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 41,
+   "fonte": "awwwards",
+   "nome": "Dfine Design and Build",
+   "pagina": "https://www.awwwards.com/sites/dfine-design-and-build",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/06/684bd1c42b835957170604.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 42,
+   "fonte": "awwwards",
+   "nome": "RIGAS FURNITURE",
+   "pagina": "https://www.awwwards.com/sites/rigas-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/05/6830474ea84ff514185232.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 43,
+   "fonte": "awwwards",
+   "nome": "Opaline Interiors Studio",
+   "pagina": "https://www.awwwards.com/sites/opaline-interiors-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/02/67bd34e648923344318638.jpg",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 44,
+   "fonte": "awwwards",
+   "nome": "Annie Downing Interiors",
+   "pagina": "https://www.awwwards.com/sites/annie-downing-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/12/67589fb6be7a6049692365.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 45,
+   "fonte": "awwwards",
+   "nome": "Urban Furniture Shopify Theme",
+   "pagina": "https://www.awwwards.com/sites/urban-furniture-shopify-theme",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/12/67599e452f99b878012635.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 46,
+   "fonte": "awwwards",
+   "nome": "Furniture Presence",
+   "pagina": "https://www.awwwards.com/sites/furniture-presence",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/08/66b1e26e4baed325004959.png",
+   "etiquetas": [
+    "Storytelling",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 47,
+   "fonte": "awwwards",
+   "nome": "Simone Katherine Interiors",
+   "pagina": "https://www.awwwards.com/sites/simone-katherine-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/6679573213092318540783.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 48,
+   "fonte": "awwwards",
+   "nome": "Evolution Furniture",
+   "pagina": "https://www.awwwards.com/sites/evolution-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/6671d38d1ba6e594703424.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 49,
+   "fonte": "awwwards",
+   "nome": "Interior Design URBAN—ART",
+   "pagina": "https://www.awwwards.com/sites/interior-design-urban-art",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/666b21429baf0062314361.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 50,
+   "fonte": "awwwards",
+   "nome": "Darwin Interior",
+   "pagina": "https://www.awwwards.com/sites/darwin-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/05/6654db8189eef171475705.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 51,
+   "fonte": "awwwards",
+   "nome": "CODE Furniture",
+   "pagina": "https://www.awwwards.com/sites/code-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/02/65d22c19a78a3042375552.png",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 52,
+   "fonte": "awwwards",
+   "nome": "Bromley interiors",
+   "pagina": "https://www.awwwards.com/sites/bromley-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/12/65787307ee5c8270616419.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 53,
+   "fonte": "awwwards",
+   "nome": "Linea-D Furniture",
+   "pagina": "https://www.awwwards.com/sites/linea-d-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/11/65687e5f083a2460963135.jpg",
+   "etiquetas": [
+    "Animation",
+    "3D"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 54,
+   "fonte": "awwwards",
+   "nome": "TPI Interiors",
+   "pagina": "https://www.awwwards.com/sites/tpi-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/10/6529572175fe5140551852.jpeg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 55,
+   "fonte": "awwwards",
+   "nome": "Cashmere Interior",
+   "pagina": "https://www.awwwards.com/sites/cashmere-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/08/64ccb1120b900187585857.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 56,
+   "fonte": "awwwards",
+   "nome": "Garonzi Tailored Interiors",
+   "pagina": "https://www.awwwards.com/sites/garonzi-tailored-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/06/64917d988ecee555531802.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 57,
+   "fonte": "awwwards",
+   "nome": "GET — a furniture marketplace",
+   "pagina": "https://www.awwwards.com/sites/get-a-furniture-marketplace",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/06/647874fb7cb21553537201.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 58,
+   "fonte": "awwwards",
+   "nome": "Props Furniture",
+   "pagina": "https://www.awwwards.com/sites/props-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/05/64557405e6db1810204996.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 59,
+   "fonte": "awwwards",
+   "nome": "Nomura Interior Services",
+   "pagina": "https://www.awwwards.com/sites/nomura-interior-services",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/04/644af3987a144029320262.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 60,
+   "fonte": "awwwards",
+   "nome": "Luxury Furniture Company",
+   "pagina": "https://www.awwwards.com/sites/luxury-furniture-company",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/04/643d8485a9677022443294.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 61,
+   "fonte": "awwwards",
+   "nome": "Architecture, Interior design",
+   "pagina": "https://www.awwwards.com/sites/architecture-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/04/642c54c493848842547417.jpeg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 62,
+   "fonte": "awwwards",
+   "nome": "Great Dane Furniture",
+   "pagina": "https://www.awwwards.com/sites/great-dane-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/64266df092c02864822236.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 63,
+   "fonte": "awwwards",
+   "nome": "JUO Interior Design",
+   "pagina": "https://www.awwwards.com/sites/juo-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/641bf9fe0efaa718380600.png",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 64,
+   "fonte": "awwwards",
+   "nome": "Clifton Interiors",
+   "pagina": "https://www.awwwards.com/sites/clifton-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/63ff28d377f3a032856399.png",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 65,
+   "fonte": "awwwards",
+   "nome": "STOOFF interior projects",
+   "pagina": "https://www.awwwards.com/sites/stooff-interior-projects",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/02/63f62d89d9228099722237.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 66,
+   "fonte": "awwwards",
+   "nome": "KARAGEORGIOU INTERIORS",
+   "pagina": "https://www.awwwards.com/sites/karageorgiou-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/12/6391eccfca04e551164759.jpg",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 67,
+   "fonte": "awwwards",
+   "nome": "IM Interiors",
+   "pagina": "https://www.awwwards.com/sites/im",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/05/6288b06b47f85200748934.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 68,
+   "fonte": "awwwards",
+   "nome": "Format Furniture",
+   "pagina": "https://www.awwwards.com/sites/format-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/07/62d66de27ecbd485260615.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 69,
+   "fonte": "awwwards",
+   "nome": "Maglin Site Furniture",
+   "pagina": "https://www.awwwards.com/sites/maglin-site-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/04/62570eaed5009000033964.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 70,
+   "fonte": "awwwards",
+   "nome": "Tyler Karu Design & Interiors",
+   "pagina": "https://www.awwwards.com/sites/tyler-karu-design-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/02/6215151248d1f537306115.jpg",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 71,
+   "fonte": "awwwards",
+   "nome": "Elite Interior Design",
+   "pagina": "https://www.awwwards.com/sites/elite-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/12/61b1f78e2e8cd314381804.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Storytelling"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 72,
+   "fonte": "awwwards",
+   "nome": "Liron Moran Interiors",
+   "pagina": "https://www.awwwards.com/sites/liron-moran-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/10/615ed0d4956b7337397667.png",
+   "etiquetas": [
+    "WebGL",
+    "Three.js",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 73,
+   "fonte": "awwwards",
+   "nome": "Millimetrika - Interior design",
+   "pagina": "https://www.awwwards.com/sites/millimetrika-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/09/6149f1d5abc0c942770406.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 74,
+   "fonte": "awwwards",
+   "nome": "Nicole Fuller Interiors",
+   "pagina": "https://www.awwwards.com/sites/nicole-fuller-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/09/6143232ec79f2969699453.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 75,
+   "fonte": "awwwards",
+   "nome": "Murren - Interior Design",
+   "pagina": "https://www.awwwards.com/sites/murren-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/09/613761b75271f437551256.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 76,
+   "fonte": "awwwards",
+   "nome": "Case Furniture",
+   "pagina": "https://www.awwwards.com/sites/case-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/07/60ffe8e0ad235825243382.png",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 77,
+   "fonte": "awwwards",
+   "nome": "AIS Interiors",
+   "pagina": "https://www.awwwards.com/sites/ais-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/12/63a1d3d54c49d113968820.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 78,
+   "fonte": "awwwards",
+   "nome": "CPM - Interior design",
+   "pagina": "https://www.awwwards.com/sites/cpm-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/04/607efc705c2cd508146330.jpg",
+   "etiquetas": [
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 79,
+   "fonte": "awwwards",
+   "nome": "ROBSON FURNITURE",
+   "pagina": "https://www.awwwards.com/sites/robson-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/04/606c2bd170b49662876248.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 80,
+   "fonte": "awwwards",
+   "nome": "Maple Furniture",
+   "pagina": "https://www.awwwards.com/sites/maple-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/03/604f4e7ec57db440910464.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 81,
+   "fonte": "awwwards",
+   "nome": "DRE - Good interior doors",
+   "pagina": "https://www.awwwards.com/sites/dre-good-interior-doors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/01/6006c0bfab85f133020076.jpg",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 82,
+   "fonte": "awwwards",
+   "nome": "Jacobs Interior Design",
+   "pagina": "https://www.awwwards.com/sites/jacobs-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/12/5fea3b39625bc666114817.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 83,
+   "fonte": "awwwards",
+   "nome": "Æbele Interiors",
+   "pagina": "https://www.awwwards.com/sites/aebele-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/10/5f7b4debb07db503403065.jpg",
+   "etiquetas": [
+    "Transitions",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 84,
+   "fonte": "awwwards",
+   "nome": "Justice Furniture and Bedding",
+   "pagina": "https://www.awwwards.com/sites/justice-furniture-and-bedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/07/5f24556b836f5501517897.png",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 85,
+   "fonte": "awwwards",
+   "nome": "ELIO Furniture",
+   "pagina": "https://www.awwwards.com/sites/elio-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/05/5ec4f0d02a3a8806030146.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 86,
+   "fonte": "awwwards",
+   "nome": "Drommel Furniture",
+   "pagina": "https://www.awwwards.com/sites/drommel-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/05/5ec4fb8344339335642172.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 87,
+   "fonte": "awwwards",
+   "nome": "San Marino Interior Design",
+   "pagina": "https://www.awwwards.com/sites/san-marino-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/05/5ec3a8e4626f6433261208.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 88,
+   "fonte": "awwwards",
+   "nome": "Studioart Leather Interiors",
+   "pagina": "https://www.awwwards.com/sites/studioart-leather-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/04/5eaaa697d3fe9599496652.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 89,
+   "fonte": "awwwards",
+   "nome": "Hongo Furniture",
+   "pagina": "https://www.awwwards.com/sites/hongo-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/12/5de8d031d9510221204361.jpg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 90,
+   "fonte": "awwwards",
+   "nome": "At The Helm Furniture",
+   "pagina": "https://www.awwwards.com/sites/at-the-helm-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/11/5de0e4b2665eb923816930.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 91,
+   "fonte": "awwwards",
+   "nome": "Irina Markovskaia Interiors",
+   "pagina": "https://www.awwwards.com/sites/irina-markovskaia-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/08/5d5e7f0e580b7144831427.jpg",
+   "etiquetas": [
+    "Transitions",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 92,
+   "fonte": "awwwards",
+   "nome": "Ensoul Interior Design",
+   "pagina": "https://www.awwwards.com/sites/ensoul-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/04/5cc1d6502a627047162050.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 93,
+   "fonte": "awwwards",
+   "nome": "WEWO Interior Concepts",
+   "pagina": "https://www.awwwards.com/sites/wewo-interior-concepts",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/02/5c54169bde1d5744607842.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 94,
+   "fonte": "awwwards",
+   "nome": "Goldkant Interior",
+   "pagina": "https://www.awwwards.com/sites/goldkant-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/01/5c35f71678a00.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 95,
+   "fonte": "awwwards",
+   "nome": "The Furniture Gallery",
+   "pagina": "https://www.awwwards.com/sites/the-furniture-gallery",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/11/5be92722679ca.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 96,
+   "fonte": "awwwards",
+   "nome": "Geiger Furniture",
+   "pagina": "https://www.awwwards.com/sites/geiger-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/10/5bd8b24a3966e.png",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 97,
+   "fonte": "awwwards",
+   "nome": "Acme Interiors",
+   "pagina": "https://www.awwwards.com/sites/acme-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/02/5a8149ef810de.jpg",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 98,
+   "fonte": "awwwards",
+   "nome": "Hortus Garden Furniture",
+   "pagina": "https://www.awwwards.com/sites/hortus-garden-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/12/5a3bae361c0d5.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 99,
+   "fonte": "awwwards",
+   "nome": "Rockstar Interiors",
+   "pagina": "https://www.awwwards.com/sites/rockstar-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/07/5968e36fae733.jpg",
+   "etiquetas": [
+    "Animation",
+    "Video"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 100,
+   "fonte": "awwwards",
+   "nome": "Interior Architects",
+   "pagina": "https://www.awwwards.com/sites/interior-architects",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/05/591e0f2ef004d.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 101,
+   "fonte": "awwwards",
+   "nome": "Laure Caye interior designer",
+   "pagina": "https://www.awwwards.com/sites/laure-caye-interior-designer",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/05/590b5f5bc473e.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 102,
+   "fonte": "awwwards",
+   "nome": "Darla Powell Interiors",
+   "pagina": "https://www.awwwards.com/sites/darla-powell-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/03/58deb6b141e01.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 103,
+   "fonte": "awwwards",
+   "nome": "Global Furniture Group",
+   "pagina": "https://www.awwwards.com/sites/global-furniture-group",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/03/58c99e5b399e8.gif",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 104,
+   "fonte": "awwwards",
+   "nome": "Klokhuis Interiors",
+   "pagina": "https://www.awwwards.com/sites/klokhuis-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/02/58a7e8de10f09.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 105,
+   "fonte": "awwwards",
+   "nome": "WRS DESIGN Interior Solutions",
+   "pagina": "https://www.awwwards.com/sites/wrs-design-interior-solutions",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/12/585b20d47e35b.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 106,
+   "fonte": "awwwards",
+   "nome": "Classic Interiors",
+   "pagina": "https://www.awwwards.com/sites/classic-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/12/58415ca759f0a.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 107,
+   "fonte": "awwwards",
+   "nome": "Jess Weeks Interior Design",
+   "pagina": "https://www.awwwards.com/sites/jess-weeks-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/10/5808e0858ec38.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 108,
+   "fonte": "awwwards",
+   "nome": "Furniture from more, Hamburg.",
+   "pagina": "https://www.awwwards.com/sites/furniture-from-more-hamburg",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/10/57f3650915265.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 109,
+   "fonte": "awwwards",
+   "nome": "Sawtooth Interior",
+   "pagina": "https://www.awwwards.com/sites/sawtooth-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/09/57e107e2191a0.jpeg",
+   "etiquetas": [
+    "WebGL"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 110,
+   "fonte": "awwwards",
+   "nome": "mac-interiors",
+   "pagina": "https://www.awwwards.com/sites/mac-interiors-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/09/57eb038f43afd.jpeg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 111,
+   "fonte": "awwwards",
+   "nome": "Meadows Office Interiors",
+   "pagina": "https://www.awwwards.com/sites/meadows-office-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/09/57dafb78b5a7a.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 112,
+   "fonte": "awwwards",
+   "nome": "Snake River Interiors",
+   "pagina": "https://www.awwwards.com/sites/snake-river-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/08/57a8d2d6cff37.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 113,
+   "fonte": "awwwards",
+   "nome": "Stortford Interiors",
+   "pagina": "https://www.awwwards.com/sites/stortford-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/07/5784b3620242c.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 114,
+   "fonte": "awwwards",
+   "nome": "Albert Holz – Manufacture of furniture",
+   "pagina": "https://www.awwwards.com/sites/albert-holz-manufacture-of-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/06/575062ab41e8e.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 115,
+   "fonte": "awwwards",
+   "nome": "InteriArt - Interior WordPress Theme",
+   "pagina": "https://www.awwwards.com/sites/interiart-interior-wordpress-theme-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/04/570642d57a65f.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 116,
+   "fonte": "awwwards",
+   "nome": "brüderl - architecture & furniture",
+   "pagina": "https://www.awwwards.com/sites/bruderl-architecture-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/02/56af1c39f1101.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 117,
+   "fonte": "awwwards",
+   "nome": "Rachel Bates Interiors",
+   "pagina": "https://www.awwwards.com/sites/rachel-bates-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/12/56727d48e1934.jpg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 118,
+   "fonte": "awwwards",
+   "nome": "James Richardson Furniture",
+   "pagina": "https://www.awwwards.com/sites/james-richardson-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/07/55af4ce2991be.jpeg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 119,
+   "fonte": "awwwards",
+   "nome": "Baked/Roast - Furniture",
+   "pagina": "https://www.awwwards.com/sites/baked-roast-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/07/55a56e4a7e2ef.jpeg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 120,
+   "fonte": "awwwards",
+   "nome": "Casta Diva Interiors",
+   "pagina": "https://www.awwwards.com/sites/casta-diva-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/03/5500030685362.jpeg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling"
+   ],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 121,
+   "fonte": "awwwards",
+   "nome": "Curtis Furniture & Doors",
+   "pagina": "https://www.awwwards.com/sites/curtis-furniture-doors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/02/54ec493e98c14.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 122,
+   "fonte": "awwwards",
+   "nome": "Curtis Furniture",
+   "pagina": "https://www.awwwards.com/sites/curtis-furniture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/02/54e1d96702dc1.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 123,
+   "fonte": "awwwards",
+   "nome": "deKor - Interior Joomla Template",
+   "pagina": "https://www.awwwards.com/sites/dekor-interior-joomla-template",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/11/5469ef6b47d44.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 124,
+   "fonte": "awwwards",
+   "nome": "Complete Interior Design",
+   "pagina": "https://www.awwwards.com/sites/complete-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/10/5448d24f8a79a.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "furniture-interiors",
+   "tambemEm": []
+  },
+  {
+   "n": 125,
+   "fonte": "github",
+   "nome": "Sam-Aklan/furniture",
+   "pagina": "https://github.com/Sam-Aklan/furniture",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Sam-Aklan/furniture",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "landing page for furniture startup",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 126,
+   "fonte": "github",
+   "nome": "foadEbrahimi/Panto_Landing",
+   "pagina": "https://github.com/foadEbrahimi/Panto_Landing",
+   "site": "https://panto-xi.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/foadEbrahimi/Panto_Landing",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Panto is a modern and minimal landing page for a furniture store, built with React, Vite, Redux, and TailwindCSS.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 127,
+   "fonte": "github",
+   "nome": "ilarioni/imageGallerySideSliderFurniture",
+   "pagina": "https://github.com/ilarioni/imageGallerySideSliderFurniture",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/ilarioni/imageGallerySideSliderFurniture",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "furniture landing page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 128,
+   "fonte": "github",
+   "nome": "jennysiu/furnitureShopLandingPage",
+   "pagina": "https://github.com/jennysiu/furnitureShopLandingPage",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/jennysiu/furnitureShopLandingPage",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 129,
+   "fonte": "github",
+   "nome": "Kingbah001/Landing-page",
+   "pagina": "https://github.com/Kingbah001/Landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Kingbah001/Landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A simple try on furniture",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 130,
+   "fonte": "github",
+   "nome": "mrjithin/TimberGrace",
+   "pagina": "https://github.com/mrjithin/TimberGrace",
+   "site": "https://mrjithin.github.io/TimberGrace/",
+   "mini": "https://opengraph.githubassets.com/1/mrjithin/TimberGrace",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A furniture store landing page.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 131,
+   "fonte": "github",
+   "nome": "Morphy137/furniture-landing-template",
+   "pagina": "https://github.com/Morphy137/furniture-landing-template",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Morphy137/furniture-landing-template",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Editorial Next.js landing page template with accessible interactions, Motion animations, abstract SVG assets, and Playwright tests.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 132,
+   "fonte": "github",
+   "nome": "dinipuspitasari/landing-page-furniture",
+   "pagina": "https://github.com/dinipuspitasari/landing-page-furniture",
+   "site": "https://radi-furniture.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/dinipuspitasari/landing-page-furniture",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 133,
+   "fonte": "github",
+   "nome": "JorkDev/catstore-landingpage",
+   "pagina": "https://github.com/JorkDev/catstore-landingpage",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/JorkDev/catstore-landingpage",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A responsive multi-page furniture pastel themed",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 134,
+   "fonte": "github",
+   "nome": "mdhsaikats/landing-page-furniture-webpage",
+   "pagina": "https://github.com/mdhsaikats/landing-page-furniture-webpage",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/mdhsaikats/landing-page-furniture-webpage",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Furniture Store Landing Page - Modern E-commerce Website  A responsive and elegant landing page for a furniture store built with HTML5, Tailwind CSS, and modern",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 135,
+   "fonte": "github",
+   "nome": "mahadihk/furniro",
+   "pagina": "https://github.com/mahadihk/furniro",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/mahadihk/furniro",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Furniture Landing Page (CCP B-04 Assignment)",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 136,
+   "fonte": "github",
+   "nome": "RykerDarkshade/lisbon-chair-shop",
+   "pagina": "https://github.com/RykerDarkshade/lisbon-chair-shop",
+   "site": "https://ryker-lisbon-chair-shop.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/RykerDarkshade/lisbon-chair-shop",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing Page for a small furniture store.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 137,
+   "fonte": "github",
+   "nome": "Stakmodsco/Furniture-Web-Interactive-Landing-page",
+   "pagina": "https://github.com/Stakmodsco/Furniture-Web-Interactive-Landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Stakmodsco/Furniture-Web-Interactive-Landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A premium furniture e-commerce website template built with HTML, Tailwind CSS, and JavaScript. Features include a cinematic hero section, responsive navigation,",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 138,
+   "fonte": "github",
+   "nome": "ZiF1R/furniture-selection",
+   "pagina": "https://github.com/ZiF1R/furniture-selection",
+   "site": "https://zif1r.github.io/furniture-selection/",
+   "mini": "https://opengraph.githubassets.com/1/ZiF1R/furniture-selection",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "🪑 Landing page for a vacancy for the position of interior fitter 🪑",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 139,
+   "fonte": "github",
+   "nome": "bledol-s/beyond-blueprint-ng",
+   "pagina": "https://github.com/bledol-s/beyond-blueprint-ng",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/bledol-s/beyond-blueprint-ng",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "An Interior design, furniture installation and Project management landing page.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 140,
+   "fonte": "github",
+   "nome": "developer-samara-web/doka-landing",
+   "pagina": "https://github.com/developer-samara-web/doka-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/developer-samara-web/doka-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A modern furniture store website with an emphasis on visual product presentation and user-friendly navigation.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 141,
+   "fonte": "github",
+   "nome": "G-Mustafa22/funiture-landing-page",
+   "pagina": "https://github.com/G-Mustafa22/funiture-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/G-Mustafa22/funiture-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Responsive furniture e-commerce landing page built with HTML, CSS & JavaScript, featuring scroll-reveal animations, testimonial carousel, and mobile-first desig",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 142,
+   "fonte": "github",
+   "nome": "TranslationLookasideBufferModding/MeliciousFurnitureFixPlusLethalPerformanceCompat",
+   "pagina": "https://github.com/TranslationLookasideBufferModding/MeliciousFurnitureFixPlusLethalPerformanceCompat",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/TranslationLookasideBufferModding/MeliciousFurnitureFixPlusLethalPerformanceCompat",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "MF x LethalPerformance Compat: repairs Utility Furniture Pack ship fire exit pairing across landings and enables both directions on clients. Required on all pla",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 143,
+   "fonte": "github",
+   "nome": "caffeinepub/remove-case-study-section-from-skyra-landing-page",
+   "pagina": "https://github.com/caffeinepub/remove-case-study-section-from-skyra-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/caffeinepub/remove-case-study-section-from-skyra-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Exported from Caffeine project: Update Skyra header branding and refresh application imagery with metro/buildings/facades/furniture photos",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 144,
+   "fonte": "github",
+   "nome": "Stakmodsco/Contact-Login-page",
+   "pagina": "https://github.com/Stakmodsco/Contact-Login-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Stakmodsco/Contact-Login-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A modern and responsive furniture e-commerce landing page built with HTML, CSS, and JavaScript. Showcases products, promotions, and elegant design tailored for ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 145,
+   "fonte": "github",
+   "nome": "R1212122/estudio-anonimo",
+   "pagina": "https://github.com/R1212122/estudio-anonimo",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/R1212122/estudio-anonimo",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "High-end furniture campaign homepage - editorial-magazine landing page for the fictional Estudio Anonimo autumn 2026 release.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 146,
+   "fonte": "github",
+   "nome": "KajimaSoys/rezal_prom_website",
+   "pagina": "https://github.com/KajimaSoys/rezal_prom_website",
+   "site": "https://mebel-rezal.com",
+   "mini": "https://opengraph.githubassets.com/1/KajimaSoys/rezal_prom_website",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A Vue.js and Django-based repository for the RezAl Furniture Company's landing page, https://mebel-rezal.com, designed to attract new clients.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 147,
+   "fonte": "github",
+   "nome": "olasunkanmi1/servicesfinder",
+   "pagina": "https://github.com/olasunkanmi1/servicesfinder",
+   "site": "https://servicesfinder.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/olasunkanmi1/servicesfinder",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page for an application that help users find qualified and reliable local Helpers for everything from assembling and installing furniture to moving and ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 148,
+   "fonte": "github",
+   "nome": "rnzdcn/Homely",
+   "pagina": "https://github.com/rnzdcn/Homely",
+   "site": "https://homely.rnzdcn.vercel.app/",
+   "mini": "https://opengraph.githubassets.com/1/rnzdcn/Homely",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Homely is your go-to destination for a user-friendly and visually appealing furniture e-commerce landing page. Built using HTML and SCSS, Homely offers a curate",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 149,
+   "fonte": "github",
+   "nome": "mahad-231726/Project-1---Responsive-Frontend-Interface-DecodeLabs-FullStack-Web-Development-Internship-2026",
+   "pagina": "https://github.com/mahad-231726/Project-1---Responsive-Frontend-Interface-DecodeLabs-FullStack-Web-Development-Internship-2026",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/mahad-231726/Project-1---Responsive-Frontend-Interface-DecodeLabs-FullStack-Web-Development-Internship-2026",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Responsive furniture-studio landing page built with vanilla HTML, CSS, and JavaScript — mobile-first layout using CSS Grid & Flexbox, with a filterable gallery,",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 150,
+   "fonte": "github",
+   "nome": "Rudraptl16/Furniqlo-Store",
+   "pagina": "https://github.com/Rudraptl16/Furniqlo-Store",
+   "site": "https://furniqlo-store-gmtf.vercel.app/",
+   "mini": "https://opengraph.githubassets.com/1/Rudraptl16/Furniqlo-Store",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Furniqlo is a premium furniture store landing page built with React, TypeScript, and Vanilla CSS. It features a stunning hero section, smooth parallax effects, ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 151,
+   "fonte": "github",
+   "nome": "Sudikshaw7/CasaVero",
+   "pagina": "https://github.com/Sudikshaw7/CasaVero",
+   "site": "https://casa-vero.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/Sudikshaw7/CasaVero",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "A premium modern furniture brand landing page built with clean UI, responsive design, and scalable front-end architecture.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "furniture",
+   "tambemEm": []
+  },
+  {
+   "n": 152,
+   "fonte": "github",
+   "nome": "RafaelGoulartB/interior-design-website",
+   "pagina": "https://github.com/RafaelGoulartB/interior-design-website",
+   "site": "https://interior-design-website.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/RafaelGoulartB/interior-design-website",
+   "licenca": "MIT",
+   "estrelas": 87,
+   "descricao": "🚪 This a landing page website made for interior home designers. Made with Next.js | Chakra UI.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 153,
+   "fonte": "github",
+   "nome": "spapiernik/Interno",
+   "pagina": "https://github.com/spapiernik/Interno",
+   "site": "https://interno-eta.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/spapiernik/Interno",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Interior Design Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 154,
+   "fonte": "github",
+   "nome": "sheismo/interior-design-landing",
+   "pagina": "https://github.com/sheismo/interior-design-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/sheismo/interior-design-landing",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "This is a landing page for an interior design company, as designed by Deraah(@stuhna on Twitter). I coded this with HTML & CSS with a sprinkle of my beloved Jav",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 155,
+   "fonte": "github",
+   "nome": "MuhammadShahsawar/CSS-AtelierForma",
+   "pagina": "https://github.com/MuhammadShahsawar/CSS-AtelierForma",
+   "site": "https://css-atelierforma.roboticela.com/",
+   "mini": "https://opengraph.githubassets.com/1/MuhammadShahsawar/CSS-AtelierForma",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "International Architecture & Interior Design Studio",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 156,
+   "fonte": "github",
+   "nome": "OxTEJIRI/Interior-design-loading-page",
+   "pagina": "https://github.com/OxTEJIRI/Interior-design-loading-page",
+   "site": "https://heistejiri.github.io/Interior-design-loading-page/",
+   "mini": "https://opengraph.githubassets.com/1/OxTEJIRI/Interior-design-loading-page",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "A landing page designed to replicate a interior designer portfolio page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 157,
+   "fonte": "github",
+   "nome": "harish0489/bootCamp_iNeuron_10_landingPage_Interior_Design",
+   "pagina": "https://github.com/harish0489/bootCamp_iNeuron_10_landingPage_Interior_Design",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/harish0489/bootCamp_iNeuron_10_landingPage_Interior_Design",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 158,
+   "fonte": "github",
+   "nome": "vetacode/design-interior",
+   "pagina": "https://github.com/vetacode/design-interior",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/vetacode/design-interior",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "mockup landing page for design interior basic depok",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 159,
+   "fonte": "github",
+   "nome": "olgababiarz/interior-design-landing-page",
+   "pagina": "https://github.com/olgababiarz/interior-design-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/olgababiarz/interior-design-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Responsywny landing page dla biura projektowania wnętrz, wykonany w czystym HTML5 i CSS3 (Flexbox)",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 160,
+   "fonte": "github",
+   "nome": "abdrzqsalihu/interior-design",
+   "pagina": "https://github.com/abdrzqsalihu/interior-design",
+   "site": "https://abdrzqsalihu.github.io/interior-design/",
+   "mini": "https://opengraph.githubassets.com/1/abdrzqsalihu/interior-design",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A Simple Product Landing Page. Created from my W3 CSS Tutorial. ✌",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 161,
+   "fonte": "github",
+   "nome": "Sakariash/InteriorProject",
+   "pagina": "https://github.com/Sakariash/InteriorProject",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Sakariash/InteriorProject",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "School project - Create a landing page for an interior design company",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 162,
+   "fonte": "github",
+   "nome": "pawar-harshal/Decora_Interior_Designer_Landing_page",
+   "pagina": "https://github.com/pawar-harshal/Decora_Interior_Designer_Landing_page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/pawar-harshal/Decora_Interior_Designer_Landing_page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Decora is a fully responsive interior design website built with HTML, CSS, and Bootstrap. It features sections like About Us, Gallery, Services, and FAQs, along",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 163,
+   "fonte": "github",
+   "nome": "yassersham09-max/Modern-Interior-Design-Landing-Page",
+   "pagina": "https://github.com/yassersham09-max/Modern-Interior-Design-Landing-Page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/yassersham09-max/Modern-Interior-Design-Landing-Page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A modern responsive interior design landing page built with HTML, CSS and JavaScript with smooth scroll animations.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 164,
+   "fonte": "github",
+   "nome": "Bashala307/interno-interior-design",
+   "pagina": "https://github.com/Bashala307/interno-interior-design",
+   "site": "https://bashala307.github.io/interno-interior-design/",
+   "mini": "https://opengraph.githubassets.com/1/Bashala307/interno-interior-design",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A modern interior design landing page built with HTML, Tailwind CSS, and desktop-first responsive design. Styled from a Figma Community template.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 165,
+   "fonte": "github",
+   "nome": "Git-Darkmoon/Interior-Consultant-Landing",
+   "pagina": "https://github.com/Git-Darkmoon/Interior-Consultant-Landing",
+   "site": "https://git-darkmoon.github.io/Interior-Consultant-Landing/",
+   "mini": "https://opengraph.githubassets.com/1/Git-Darkmoon/Interior-Consultant-Landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Challenge: Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:  User story: ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 166,
+   "fonte": "github",
+   "nome": "zKirinz/Interiorize",
+   "pagina": "https://github.com/zKirinz/Interiorize",
+   "site": "https://interiorize.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/zKirinz/Interiorize",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A landing page for interior design to have fun with Gatsby, Headless CMS and JAM stack.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 167,
+   "fonte": "github",
+   "nome": "dropsite2026/-interior-decor-affiliate",
+   "pagina": "https://github.com/dropsite2026/-interior-decor-affiliate",
+   "site": "https://interior-decor-affiliate.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/dropsite2026/-interior-decor-affiliate",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "​\"A landing page for curated interior design products and home decor affiliate marketing.\"",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 168,
+   "fonte": "github",
+   "nome": "lucascodelab/LANDING-PAGE-ARQUITETURA-INTERIORES",
+   "pagina": "https://github.com/lucascodelab/LANDING-PAGE-ARQUITETURA-INTERIORES",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/lucascodelab/LANDING-PAGE-ARQUITETURA-INTERIORES",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page moderna e sofisticada para arquitetura e interiores, com design premium, layout responsivo e foco em experiência do usuário, estética visual e apre",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 169,
+   "fonte": "github",
+   "nome": "SimpleLittleDev/ruang-rasa-landing-page",
+   "pagina": "https://github.com/SimpleLittleDev/ruang-rasa-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/SimpleLittleDev/ruang-rasa-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Warm, elegant and responsive React landing page for a fictional interior design studio",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 170,
+   "fonte": "github",
+   "nome": "SchwabTiago/landing-page-atlas-studio",
+   "pagina": "https://github.com/SchwabTiago/landing-page-atlas-studio",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/SchwabTiago/landing-page-atlas-studio",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Atlas Studios is a frontend project that simulates a website for a interior design studio",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 171,
+   "fonte": "github",
+   "nome": "kiselevde-commits/kiseleva-studio",
+   "pagina": "https://github.com/kiselevde-commits/kiseleva-studio",
+   "site": "https://kiselevde-commits.github.io/kiseleva-studio/",
+   "mini": "https://opengraph.githubassets.com/1/kiselevde-commits/kiseleva-studio",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Kiseleva - premium interior design studio landing page (HTML5 + Tailwind CDN + Vanilla JS)",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 172,
+   "fonte": "github",
+   "nome": "DanielCorb/diseno-landing",
+   "pagina": "https://github.com/DanielCorb/diseno-landing",
+   "site": "https://diseno.ro",
+   "mini": "https://opengraph.githubassets.com/1/DanielCorb/diseno-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Diseno - premium interior design & showroom website with product catalogue. Next.js 15, TypeScript, HeroUI, Redux Toolkit, headless WordPress.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 173,
+   "fonte": "github",
+   "nome": "heitorgandolfi/Bin-Interior",
+   "pagina": "https://github.com/heitorgandolfi/Bin-Interior",
+   "site": "https://bin-interior.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/heitorgandolfi/Bin-Interior",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A Landing Page foi criada a partir do design abaixo, idealizado por um terceiro. Para tanto, foi feito uso de JavaScript, HTML e CSS. O projeto, além de respons",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 174,
+   "fonte": "github",
+   "nome": "Joseph-M-Tech/auralandingpage",
+   "pagina": "https://github.com/Joseph-M-Tech/auralandingpage",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Joseph-M-Tech/auralandingpage",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Here's the interior design landing page, built as a single, self-contained React component using Tailwind CSS.  This file includes all the JSX, styling, and log",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 175,
+   "fonte": "github",
+   "nome": "rattukals27-eng/Homedecorfins-",
+   "pagina": "https://github.com/rattukals27-eng/Homedecorfins-",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/rattukals27-eng/Homedecorfins-",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Homedecorfins is a modern and visually appealing landing page created for showcasing premium home decoration products with a focus on comfort, elegance, and aes",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  }
+ ],
+ "manuais": [
+  {
+   "nome": "Godly",
+   "url": "https://godly.website/?q=furniture%20interior",
+   "motivo": "robots.txt bloqueia o robô do Claude"
+  },
+  {
+   "nome": "Land-book",
+   "url": "https://land-book.com/search?q=furniture%20interior",
+   "motivo": "termos proíbem coleta de dados"
+  },
+  {
+   "nome": "Lapa Ninja",
+   "url": "https://www.lapa.ninja/category/furniture-interiors/",
+   "motivo": "permite robô, mas respondeu 403 ao script em 09/11/2026: abrir no navegador"
+  },
+  {
+   "nome": "SiteInspire",
+   "url": "https://www.siteinspire.com/websites?search=furniture%20interior",
+   "motivo": "responde 429 a robô"
+  },
+  {
+   "nome": "Minimal Gallery",
+   "url": "https://minimal.gallery/?s=furniture%20interior",
+   "motivo": "termos proíbem raspar"
+  },
+  {
+   "nome": "CSS Design Awards",
+   "url": "https://www.cssdesignawards.com/website-gallery",
+   "motivo": "termos proíbem copiar conteúdo"
+  },
+  {
+   "nome": "Awwwards (busca livre)",
+   "url": "https://www.awwwards.com/websites/?text=furniture%20interior",
+   "motivo": "busca por texto fora do robots.txt"
+  },
+  {
+   "nome": "Framer Marketplace (modelos)",
+   "url": "https://www.framer.com/marketplace/templates/?search=furniture%20interior",
+   "motivo": "modelo só roda dentro do Framer"
+  },
+  {
+   "nome": "Made in Webflow",
+   "url": "https://webflow.com/made-in-webflow",
+   "motivo": "modelo só roda dentro do Webflow"
+  }
+ ],
+ "pecas": [
+  {
+   "nome": "Aceternity UI (grátis)",
+   "url": "https://ui.aceternity.com/components",
+   "instalar": "npx shadcn@latest add @aceternity/<peça>",
+   "licenca": "licença própria: uso livre em site de cliente; modelos e blocos Pro são pagos"
+  },
+  {
+   "nome": "Magic UI",
+   "url": "https://magicui.design/docs/components",
+   "instalar": "npx shadcn@latest add @magicui/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "React Bits",
+   "url": "https://reactbits.dev",
+   "instalar": "npx shadcn@latest add @react-bits/<peça>",
+   "licenca": "MIT + Commons Clause (não revender a peça)"
+  },
+  {
+   "nome": "Motion Primitives",
+   "url": "https://motion-primitives.com",
+   "instalar": "npx shadcn@latest add @motion-primitives/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Animata",
+   "url": "https://animata.design",
+   "instalar": "npx shadcn@latest add https://animata.design/r/<grupo>/<peça>.json",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Uiverse",
+   "url": "https://uiverse.io",
+   "instalar": "copiar da página (sem registro)",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "21st.dev",
+   "url": "https://21st.dev/community/components",
+   "instalar": "pela página de cada peça",
+   "licenca": "varia por autor: conferir na página"
+  }
+ ]
+}

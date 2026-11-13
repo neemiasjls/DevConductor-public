@@ -1,0 +1,2042 @@
+{
+ "categoria": "eventos",
+ "nome": "Eventos, buffet e casamento",
+ "data": "2026-11-10",
+ "relatorio": {
+  "opl": {
+   "lidos": 24,
+   "pedidos": 3,
+   "parou": null,
+   "unicos": 23
+  },
+  "awwwards": {
+   "lidos": 106,
+   "pedidos": 5,
+   "parou": null,
+   "unicos": 106
+  },
+  "lapa": {
+   "lidos": 0,
+   "pedidos": 0,
+   "parou": null,
+   "unicos": 0
+  },
+  "github": {
+   "lidos": 14,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 14
+  }
+ },
+ "itens": [
+  {
+   "n": 1,
+   "fonte": "opl",
+   "nome": "Kelvin",
+   "pagina": "https://onepagelove.com/kelvin",
+   "site": "https://kelvin.8b.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89921/52dec443e9d9b6078d9e25060866abb9/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89921/52dec443e9d9b6078d9e25060866abb9/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 2,
+   "fonte": "opl",
+   "nome": "Select26",
+   "pagina": "https://onepagelove.com/select26",
+   "site": "https://select.supabase.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88687/9be0cb8b1dc30ecdd831410348622b84/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88687/9be0cb8b1dc30ecdd831410348622b84/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 3,
+   "fonte": "opl",
+   "nome": "Spatial",
+   "pagina": "https://onepagelove.com/spatial",
+   "site": "https://spatial-festival.com/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88191/ad313a036cacb941c1405ac430b36152/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88191/ad313a036cacb941c1405ac430b36152/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 4,
+   "fonte": "opl",
+   "nome": "Superlocal 2026",
+   "pagina": "https://onepagelove.com/superlocal-2026",
+   "site": "https://www.superlocaldesign.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/08/www.superlocaldesign.com_.png",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 5,
+   "fonte": "opl",
+   "nome": "Builders Table",
+   "pagina": "https://onepagelove.com/builders-table",
+   "site": "https://builderstable.net",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/08/opl-screenshot-makereign-1786015289274-desktop.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 6,
+   "fonte": "opl",
+   "nome": "Rendez-vous Francéclat",
+   "pagina": "https://onepagelove.com/rendez-vous-franceclat",
+   "site": "https://rendez-vous.franceclat.fr",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/07/opl-screenshot-rendez-vous-1782918879470-desktop.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 7,
+   "fonte": "opl",
+   "nome": "Sarah &#038; Matt Wedding",
+   "pagina": "https://onepagelove.com/sarah-matt-wedding",
+   "site": "https://sarahandmatt.wedding",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-sarah-matt-1780925910068-desktop.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 8,
+   "fonte": "opl",
+   "nome": "Cursor Compile",
+   "pagina": "https://onepagelove.com/compile",
+   "site": "https://cursor.com/compile",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-cursor-c2b7-1780500819547-desktop.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 9,
+   "fonte": "opl",
+   "nome": "The Deep End",
+   "pagina": "https://onepagelove.com/the-deep-end",
+   "site": "https://thedeepend.space",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/04/opl-master-16.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 10,
+   "fonte": "opl",
+   "nome": "L'Aia e il Pagliaio",
+   "pagina": "https://onepagelove.com/laia-e-il-pagliaio",
+   "site": "https://laiaeilpagliaio.it/en/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/04/opl-screenshot-homepage-desktop.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 11,
+   "fonte": "opl",
+   "nome": "Storytelling in the age of AI",
+   "pagina": "https://onepagelove.com/storytelling-in-the-age-of-ai",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/01/opl-master-story.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 12,
+   "fonte": "opl",
+   "nome": "Tokyo Design Forum 2026",
+   "pagina": "https://onepagelove.com/tdf",
+   "site": "https://www.tokyodesignforum.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/12/opl-master-tdf.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 13,
+   "fonte": "opl",
+   "nome": "Creative South 2026",
+   "pagina": "https://onepagelove.com/creative-south-2026",
+   "site": "https://www.creativesouth.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/11/opl-master-3.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 14,
+   "fonte": "opl",
+   "nome": "WarholArts",
+   "pagina": "https://onepagelove.com/warholarts",
+   "site": "https://warhol-arts.webflow.io/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/10/opl-master-warhol.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 15,
+   "fonte": "opl",
+   "nome": "FIFA World Cup 2026 NYNJ",
+   "pagina": "https://onepagelove.com/fifa-world-cup-2026-nynj",
+   "site": "https://nynjfwc26.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/06/opl-master-18.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 16,
+   "fonte": "opl",
+   "nome": "Pixel Pushers",
+   "pagina": "https://onepagelove.com/pixel-pushers",
+   "site": "https://www.pixelpushers.fyi/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/04/opl-master-16.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 17,
+   "fonte": "opl",
+   "nome": "Valio Con 2025",
+   "pagina": "https://onepagelove.com/valiocon-2025",
+   "site": "https://valiocon.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/04/opl-master-12.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 18,
+   "fonte": "opl",
+   "nome": "The Fintech Salon",
+   "pagina": "https://onepagelove.com/fintech-salon",
+   "site": "https://thefintechsalon.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/04/opl-master-fintech-salon.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 19,
+   "fonte": "opl",
+   "nome": "The Observatory",
+   "pagina": "https://onepagelove.com/the-observatory",
+   "site": "https://www.theobservatory.art/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/04/opl-master-obs.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 20,
+   "fonte": "opl",
+   "nome": "Women Executives in IT Award",
+   "pagina": "https://onepagelove.com/women-executives-in-it-award",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2024/11/opl-master-7.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 21,
+   "fonte": "opl",
+   "nome": "Swell AI x UX Summit",
+   "pagina": "https://onepagelove.com/swell-ai-ux-summit",
+   "site": "https://swellai.events/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2024/10/opl-master.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 22,
+   "fonte": "opl",
+   "nome": "Anyone Creative Meetup 002",
+   "pagina": "https://onepagelove.com/anyone-002",
+   "site": "https://www.anyone.events/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2024/09/opl-master-17.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 23,
+   "fonte": "opl",
+   "nome": "The Arena",
+   "pagina": "https://onepagelove.com/the-arena",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2024/08/opl-master-20.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/event",
+   "tambemEm": []
+  },
+  {
+   "n": 24,
+   "fonte": "awwwards",
+   "nome": "Disrupt",
+   "pagina": "https://www.awwwards.com/sites/disrupt-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/11/6aec49f68e210197758718.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 25,
+   "fonte": "awwwards",
+   "nome": "Explore Washington Park",
+   "pagina": "https://www.awwwards.com/sites/explore-washington-park",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6acf7f780623b719475176.png",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 26,
+   "fonte": "awwwards",
+   "nome": "Paaspop | 50 Years",
+   "pagina": "https://www.awwwards.com/sites/paaspop-50-years",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ae091bc51b3a959189078.jpg",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "Storytelling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 27,
+   "fonte": "awwwards",
+   "nome": "Cinetic Creatives",
+   "pagina": "https://www.awwwards.com/sites/cinetic-creatives",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad87bc5076fe743295744.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 28,
+   "fonte": "awwwards",
+   "nome": "Logan Circle Group",
+   "pagina": "https://www.awwwards.com/sites/logan-circle-group",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad82142042d5998933725.jpg",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 29,
+   "fonte": "awwwards",
+   "nome": "Route du Rhum 2026",
+   "pagina": "https://www.awwwards.com/sites/route-du-rhum-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad4921d646f4879510995.jpg",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 30,
+   "fonte": "awwwards",
+   "nome": "FWRD 2026",
+   "pagina": "https://www.awwwards.com/sites/fwrd-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad75bf65b4bb808493216.png",
+   "etiquetas": [
+    "Animation",
+    "Microinteractions",
+    "Lottie"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 31,
+   "fonte": "awwwards",
+   "nome": "Hoyo",
+   "pagina": "https://www.awwwards.com/sites/hoyo",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad63ccd4f174173558028.png",
+   "etiquetas": [
+    "WebGL",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 32,
+   "fonte": "awwwards",
+   "nome": "SOTZ(Shout Out to Zanzibar)",
+   "pagina": "https://www.awwwards.com/sites/sotz-shout-out-to-zanzibar",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6acb3c8e66e08669560795.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 33,
+   "fonte": "awwwards",
+   "nome": "Wedding Invitation | Y & T",
+   "pagina": "https://www.awwwards.com/sites/wedding-invitation-y-t",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac9cda806a05899812098.png",
+   "etiquetas": [
+    "Scrolling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 34,
+   "fonte": "awwwards",
+   "nome": "Chande Bootcamp 2026",
+   "pagina": "https://www.awwwards.com/sites/chande-bootcamp-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad09c2c7a290336913388.png",
+   "etiquetas": [
+    "WebGL"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 35,
+   "fonte": "awwwards",
+   "nome": "IMDD",
+   "pagina": "https://www.awwwards.com/sites/imdd",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad79059e60b8843773838.png",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 36,
+   "fonte": "awwwards",
+   "nome": "Palaraiffeisen",
+   "pagina": "https://www.awwwards.com/sites/palaraiffeisen",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac37426039cb612334099.png",
+   "etiquetas": [
+    "WebGL",
+    "Transitions",
+    "GSAP",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 37,
+   "fonte": "awwwards",
+   "nome": "Kelvin Music Festival 2027",
+   "pagina": "https://www.awwwards.com/sites/kelvin-music-festival-2027",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac28898ea50f852037674.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Transitions",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 38,
+   "fonte": "awwwards",
+   "nome": "OFFFForum",
+   "pagina": "https://www.awwwards.com/sites/offfforum",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a96ee63ba3f3137560669.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 39,
+   "fonte": "awwwards",
+   "nome": "AYA",
+   "pagina": "https://www.awwwards.com/sites/aya",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a4b825f3f3a4354723262.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 40,
+   "fonte": "awwwards",
+   "nome": "The Design Society",
+   "pagina": "https://www.awwwards.com/sites/the-design-society",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aba5b95c3225060256728.png",
+   "etiquetas": [
+    "Microinteractions",
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 41,
+   "fonte": "awwwards",
+   "nome": "TEDxPortland",
+   "pagina": "https://www.awwwards.com/sites/tedxportland-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab1d47a39fa8627414147.png",
+   "etiquetas": [
+    "Storytelling",
+    "Interaction Design",
+    "Transitions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 42,
+   "fonte": "awwwards",
+   "nome": "Haunted Boulder City",
+   "pagina": "https://www.awwwards.com/sites/haunted-boulder-city",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa4e8ed87fa9768195402.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 43,
+   "fonte": "awwwards",
+   "nome": "Design Bomb Festival",
+   "pagina": "https://www.awwwards.com/sites/design-bomb-festival",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a904ac068d60798609521.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 44,
+   "fonte": "awwwards",
+   "nome": "GM Studios",
+   "pagina": "https://www.awwwards.com/sites/gm-studios",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a95cf69661d0263436807.jpg",
+   "etiquetas": [
+    "Animation",
+    "Video",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 45,
+   "fonte": "awwwards",
+   "nome": "Neonika",
+   "pagina": "https://www.awwwards.com/sites/neonika",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a9064343c1e6085378399.jpg",
+   "etiquetas": [
+    "Transitions",
+    "Storytelling",
+    "Three.js",
+    "Interaction Design",
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 46,
+   "fonte": "awwwards",
+   "nome": "Perform Europe",
+   "pagina": "https://www.awwwards.com/sites/perform-europe",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a8e262862ab7554663435.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 47,
+   "fonte": "awwwards",
+   "nome": "The Drool Creative Community",
+   "pagina": "https://www.awwwards.com/sites/the-drool-creative-community",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a8c880685666058846466.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 48,
+   "fonte": "awwwards",
+   "nome": "The Studio by Julie Granger",
+   "pagina": "https://www.awwwards.com/sites/the-studio-by-julie-granger",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a918a077e5d1453716631.jpg",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 49,
+   "fonte": "awwwards",
+   "nome": "Faith Ibiza",
+   "pagina": "https://www.awwwards.com/sites/faith-ibiza",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a847a54c32f8043806923.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Video"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 50,
+   "fonte": "awwwards",
+   "nome": "Rebelliously Optimistic",
+   "pagina": "https://www.awwwards.com/sites/rebelliously-optimistic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a80b2c29f683126475347.png",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 51,
+   "fonte": "awwwards",
+   "nome": "Vander Hotel",
+   "pagina": "https://www.awwwards.com/sites/vander-hotel",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a41622831e8c065587333.jpg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 52,
+   "fonte": "awwwards",
+   "nome": "Kortrijk Xpo",
+   "pagina": "https://www.awwwards.com/sites/kortrijk-xpo",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a880b51c0cab525601068.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 53,
+   "fonte": "awwwards",
+   "nome": "Readymag London Meetup",
+   "pagina": "https://www.awwwards.com/sites/readymag-london-meetup",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7dcab5f0e96339120316.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 54,
+   "fonte": "awwwards",
+   "nome": "Boom Ball",
+   "pagina": "https://www.awwwards.com/sites/boom-ball",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7e243352d9b349768226.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 55,
+   "fonte": "awwwards",
+   "nome": "Monarque Événements",
+   "pagina": "https://www.awwwards.com/sites/monarque-evenements",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7f14a9c5585788347020.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 56,
+   "fonte": "awwwards",
+   "nome": "Le Saint Georges",
+   "pagina": "https://www.awwwards.com/sites/le-saint-georges",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7c068ed8287528390792.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 57,
+   "fonte": "awwwards",
+   "nome": "LAYR Media",
+   "pagina": "https://www.awwwards.com/sites/layr-media",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7add0e5d0fc372424741.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 58,
+   "fonte": "awwwards",
+   "nome": "PlayMagicReef",
+   "pagina": "https://www.awwwards.com/sites/playmagicreef",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a6e2cf15c862370810587.jpg",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "3D",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 59,
+   "fonte": "awwwards",
+   "nome": "MyChess.Events",
+   "pagina": "https://www.awwwards.com/sites/mychess-events",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a6cc7a1563af917600236.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 60,
+   "fonte": "awwwards",
+   "nome": "Work In Progress",
+   "pagina": "https://www.awwwards.com/sites/work-in-progress",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a62f609e94c4582322999.png",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "Storytelling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 61,
+   "fonte": "awwwards",
+   "nome": "Stazione Leopolda",
+   "pagina": "https://www.awwwards.com/sites/stazione-leopolda",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a6077e3440d6112981830.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 62,
+   "fonte": "awwwards",
+   "nome": "No Art",
+   "pagina": "https://www.awwwards.com/sites/no-art",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a34ee26568f3604651374.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "3D",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 63,
+   "fonte": "awwwards",
+   "nome": "Hack the North",
+   "pagina": "https://www.awwwards.com/sites/hack-the-north",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a5e86c8d6eb3012726271.png",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 64,
+   "fonte": "awwwards",
+   "nome": "ATX Marketing Innovators",
+   "pagina": "https://www.awwwards.com/sites/atx-marketing-innovators",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a57e296abd19247927464.png",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 65,
+   "fonte": "awwwards",
+   "nome": "Pomp & Circumstance PR",
+   "pagina": "https://www.awwwards.com/sites/pomp-circumstance-pr",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a5559a5b4fb3210553964.jpg",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 66,
+   "fonte": "awwwards",
+   "nome": "OGON.ES",
+   "pagina": "https://www.awwwards.com/sites/ogon-es",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a57757e02a56264304969.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 67,
+   "fonte": "awwwards",
+   "nome": "paysages studio",
+   "pagina": "https://www.awwwards.com/sites/paysages-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a564f6d5996e495041874.png",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 68,
+   "fonte": "awwwards",
+   "nome": "Frontier Dialogues",
+   "pagina": "https://www.awwwards.com/sites/frontier-dialogues",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a3c4ecf9e5d2111725864.png",
+   "etiquetas": [
+    "Animation",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 69,
+   "fonte": "awwwards",
+   "nome": "Le Mans Classic",
+   "pagina": "https://www.awwwards.com/sites/le-mans-classic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a3a4e851b7a7233574172.jpg",
+   "etiquetas": [
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 70,
+   "fonte": "awwwards",
+   "nome": "ORBYT",
+   "pagina": "https://www.awwwards.com/sites/orbyt",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a38999d08846481035619.jpg",
+   "etiquetas": [
+    "GSAP",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 71,
+   "fonte": "awwwards",
+   "nome": "DesignxHand",
+   "pagina": "https://www.awwwards.com/sites/designxhand",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a39e86bde1db635969150.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 72,
+   "fonte": "awwwards",
+   "nome": "Pizza Amici",
+   "pagina": "https://www.awwwards.com/sites/pizza-amici",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a33fc8d924a9993735094.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "GSAP",
+    "Microinteractions",
+    "Locomotive Scroll"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 73,
+   "fonte": "awwwards",
+   "nome": "Men's Health Week",
+   "pagina": "https://www.awwwards.com/sites/mens-health-week",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2b802fed228075139602.png",
+   "etiquetas": [
+    "Video",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 74,
+   "fonte": "awwwards",
+   "nome": "Jam the Chaos",
+   "pagina": "https://www.awwwards.com/sites/jam-the-chaos",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2d2ae51a568830194676.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "GSAP",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 75,
+   "fonte": "awwwards",
+   "nome": "MIJIHEON",
+   "pagina": "https://www.awwwards.com/sites/mijiheon",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a290dc2302db586443637.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Video",
+    "Storytelling",
+    "GSAP",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 76,
+   "fonte": "awwwards",
+   "nome": "WORK IN PROGRESS 2026",
+   "pagina": "https://www.awwwards.com/sites/work-in-progress-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2829a819a81893920962.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Video"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 77,
+   "fonte": "awwwards",
+   "nome": "Eventive",
+   "pagina": "https://www.awwwards.com/sites/eventive",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2643e9398ee826031548.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 78,
+   "fonte": "awwwards",
+   "nome": "Webinarist Inc.",
+   "pagina": "https://www.awwwards.com/sites/webinarist-inc",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a23cc4fb89cd528367185.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 79,
+   "fonte": "awwwards",
+   "nome": "RPA COMUNICACIÓN",
+   "pagina": "https://www.awwwards.com/sites/rpa-comunicacion",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69ebceb5656ee219540044.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 80,
+   "fonte": "awwwards",
+   "nome": "Wolf Trap",
+   "pagina": "https://www.awwwards.com/sites/wolf-trap",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a220599f373a733098090.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 81,
+   "fonte": "awwwards",
+   "nome": "Susie & Jay: A Journey of Love",
+   "pagina": "https://www.awwwards.com/sites/susie-jay-a-journey-of-love",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a28042578834566909784.png",
+   "etiquetas": [
+    "WebGL",
+    "Transitions",
+    "Storytelling",
+    "GSAP",
+    "Three.js",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 82,
+   "fonte": "awwwards",
+   "nome": "MDNT Events",
+   "pagina": "https://www.awwwards.com/sites/mdnt-events",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a17b834f1fe2448837369.jpg",
+   "etiquetas": [
+    "Animation",
+    "WebGL"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 83,
+   "fonte": "awwwards",
+   "nome": "Ome Duo Events",
+   "pagina": "https://www.awwwards.com/sites/ome-duo-events",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a16a60de456e126611497.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Video",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 84,
+   "fonte": "awwwards",
+   "nome": "Readymag Madrid Meetup",
+   "pagina": "https://www.awwwards.com/sites/readymag-madrid-meetup",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a158f7c60f6a690221508.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 85,
+   "fonte": "awwwards",
+   "nome": "AI Cybercafé",
+   "pagina": "https://www.awwwards.com/sites/ai-cybercafe",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a130bbf9aa7b451704891.jpg",
+   "etiquetas": [
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 86,
+   "fonte": "awwwards",
+   "nome": "Truck’N Roll®",
+   "pagina": "https://www.awwwards.com/sites/truckn-roll-r",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69c59813ea16d875007210.png",
+   "etiquetas": [
+    "Locomotive Scroll"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 87,
+   "fonte": "awwwards",
+   "nome": "MomoAmo",
+   "pagina": "https://www.awwwards.com/sites/momoamo",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0d4214b4df7133712763.png",
+   "etiquetas": [
+    "Storytelling",
+    "GSAP",
+    "Interaction Design",
+    "Motion"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 88,
+   "fonte": "awwwards",
+   "nome": "Creative Cruise 2026",
+   "pagina": "https://www.awwwards.com/sites/creative-cruise-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0ad672d6798399683976.png",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "Transitions",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 89,
+   "fonte": "awwwards",
+   "nome": "St. Beatus-Höhlen Swiss Caves",
+   "pagina": "https://www.awwwards.com/sites/st-beatus-hohlen-swiss-caves",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0ad15c404c1230301757.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 90,
+   "fonte": "awwwards",
+   "nome": "I•IARMONY",
+   "pagina": "https://www.awwwards.com/sites/i-iarmony",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0703675ebb2580622110.jpg",
+   "etiquetas": [
+    "Transitions",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 91,
+   "fonte": "awwwards",
+   "nome": "Volt",
+   "pagina": "https://www.awwwards.com/sites/volt",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a05a1e890038777357178.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Video",
+    "WebGL",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 92,
+   "fonte": "awwwards",
+   "nome": "Tenity",
+   "pagina": "https://www.awwwards.com/sites/tenity",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a030b4d90251121857431.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "WebGL",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 93,
+   "fonte": "awwwards",
+   "nome": "Festival Les Francouvertes",
+   "pagina": "https://www.awwwards.com/sites/festival-les-francouvertes",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a01fe015a9b2838291275.png",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 94,
+   "fonte": "awwwards",
+   "nome": "UX India 2026",
+   "pagina": "https://www.awwwards.com/sites/ux-india-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a03187fb7350622441355.jpg",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 95,
+   "fonte": "awwwards",
+   "nome": "Major Media Agency",
+   "pagina": "https://www.awwwards.com/sites/major-media-agency",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69f4ffb08e040527372363.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 96,
+   "fonte": "awwwards",
+   "nome": "Nube",
+   "pagina": "https://www.awwwards.com/sites/nube",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69f8670a78cac182784071.jpg",
+   "etiquetas": [
+    "Parallax",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 97,
+   "fonte": "awwwards",
+   "nome": "WFEO World Engineering Day",
+   "pagina": "https://www.awwwards.com/sites/wfeo-world-engineering-day",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69e77e2052287973882897.jpg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 98,
+   "fonte": "awwwards",
+   "nome": "Silent House",
+   "pagina": "https://www.awwwards.com/sites/silent-house",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69dbe88e993f2144574924.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 99,
+   "fonte": "awwwards",
+   "nome": "X2Y Creative",
+   "pagina": "https://www.awwwards.com/sites/x2y-creative",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69df905167c96342213590.png",
+   "etiquetas": [
+    "Animation",
+    "Video",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 100,
+   "fonte": "awwwards",
+   "nome": "Wild Week - Athens",
+   "pagina": "https://www.awwwards.com/sites/wild-week-athens",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69cd01f17ed16959291353.jpg",
+   "etiquetas": [
+    "WebGL"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 101,
+   "fonte": "awwwards",
+   "nome": "Audi F1 - Feel Every Second",
+   "pagina": "https://www.awwwards.com/sites/audi-f1-feel-every-second",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69ddb2ee41a25718428027.jpg",
+   "etiquetas": [
+    "Animation",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 102,
+   "fonte": "awwwards",
+   "nome": "25 Years of University in Zlin",
+   "pagina": "https://www.awwwards.com/sites/25-years-of-university-in-zlin",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69d7cc7facc33853564892.png",
+   "etiquetas": [
+    "WebGL",
+    "Storytelling",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 103,
+   "fonte": "awwwards",
+   "nome": "Kluster Collectif",
+   "pagina": "https://www.awwwards.com/sites/kluster-collectif",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69d78f3a4b960409224297.png",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 104,
+   "fonte": "awwwards",
+   "nome": "Poeza",
+   "pagina": "https://www.awwwards.com/sites/poeza",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69dd22e964962683938808.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "Transitions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 105,
+   "fonte": "awwwards",
+   "nome": "SHAPESHIFT FESTIVAL 2026",
+   "pagina": "https://www.awwwards.com/sites/shapeshift-festival-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69ce579ee931e110713423.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 106,
+   "fonte": "awwwards",
+   "nome": "Git Together",
+   "pagina": "https://www.awwwards.com/sites/git-together",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69ca8ce8c2d0a787214629.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 107,
+   "fonte": "awwwards",
+   "nome": "Australian Fashion Week 2025",
+   "pagina": "https://www.awwwards.com/sites/australian-fashion-week-2025",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69c4c7a99d36f367085040.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 108,
+   "fonte": "awwwards",
+   "nome": "Bam. 83.",
+   "pagina": "https://www.awwwards.com/sites/bam-83",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69c195b4c83d3010632975.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 109,
+   "fonte": "awwwards",
+   "nome": "Just Phil",
+   "pagina": "https://www.awwwards.com/sites/just-phil",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69bac2c36a283408648003.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 110,
+   "fonte": "awwwards",
+   "nome": "Readymag NYC Community Event",
+   "pagina": "https://www.awwwards.com/sites/readymag-nyc-community-event",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b3f943a214f802124149.png",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 111,
+   "fonte": "awwwards",
+   "nome": "SIT Virtual Campus Tour",
+   "pagina": "https://www.awwwards.com/sites/sit-virtual-campus-tour",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b249eb0c443352999754.png",
+   "etiquetas": [
+    "Storytelling",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 112,
+   "fonte": "awwwards",
+   "nome": "Visit Húsavík",
+   "pagina": "https://www.awwwards.com/sites/visit-husavik",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69abfa258b97f380911020.png",
+   "etiquetas": [],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 113,
+   "fonte": "awwwards",
+   "nome": "FARMform",
+   "pagina": "https://www.awwwards.com/sites/farmform",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b6de73a636e287901903.jpg",
+   "etiquetas": [
+    "GSAP",
+    "Microinteractions",
+    "Lottie"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 114,
+   "fonte": "awwwards",
+   "nome": "Lago Lago 2026",
+   "pagina": "https://www.awwwards.com/sites/lago-lago-2026",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69a6c9e843c3e089804534.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "Lottie"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 115,
+   "fonte": "awwwards",
+   "nome": "MoMoney",
+   "pagina": "https://www.awwwards.com/sites/momoney",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/6982200ab044c029650063.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 116,
+   "fonte": "awwwards",
+   "nome": "Thessaloniki Sto Piato",
+   "pagina": "https://www.awwwards.com/sites/thessaloniki-sto-piato",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/69a05ab9c2e0a189651409.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "events",
+   "tambemEm": []
+  },
+  {
+   "n": 117,
+   "fonte": "awwwards",
+   "nome": "BPRO Better Catering Solutions",
+   "pagina": "https://www.awwwards.com/sites/bpro-better-catering-solutions",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/04/67eff36576c40705383402.png",
+   "etiquetas": [],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 118,
+   "fonte": "awwwards",
+   "nome": "Safehands Catering",
+   "pagina": "https://www.awwwards.com/sites/safehands-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/11/6565bf2ca0214813577866.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 119,
+   "fonte": "awwwards",
+   "nome": "Watertanden catering",
+   "pagina": "https://www.awwwards.com/sites/watertanden-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/05/6451149f45870385064879.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 120,
+   "fonte": "awwwards",
+   "nome": "Begnis Catering",
+   "pagina": "https://www.awwwards.com/sites/begnis-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/02/602526b5e70dd861214939.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 121,
+   "fonte": "awwwards",
+   "nome": "Soul Catering",
+   "pagina": "https://www.awwwards.com/sites/soul-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/08/5d650fa1d9b71656863603.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 122,
+   "fonte": "awwwards",
+   "nome": "T(n)S Catering",
+   "pagina": "https://www.awwwards.com/sites/t-n-s-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/03/5c8cf38a1a222623414840.png",
+   "etiquetas": [],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 123,
+   "fonte": "awwwards",
+   "nome": "Fresh Connections Catering",
+   "pagina": "https://www.awwwards.com/sites/fresh-connections-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/04/58efd4d7435ef.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 124,
+   "fonte": "awwwards",
+   "nome": "Catering d'O",
+   "pagina": "https://www.awwwards.com/sites/catering-d-o",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/09/57e522ce710ec.jpeg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 125,
+   "fonte": "awwwards",
+   "nome": "A'BriTin Catering",
+   "pagina": "https://www.awwwards.com/sites/a-britin-catering-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/07/5798641e8a584.png",
+   "etiquetas": [],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 126,
+   "fonte": "awwwards",
+   "nome": "Urban Events Venues & Catering",
+   "pagina": "https://www.awwwards.com/sites/urban-events-venues-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/10/5631d5e36b9fc.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 127,
+   "fonte": "awwwards",
+   "nome": "Boardroom Catering",
+   "pagina": "https://www.awwwards.com/sites/boardroom-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/09/54147d0f5af95.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 128,
+   "fonte": "awwwards",
+   "nome": "Alejandro Torres Catering",
+   "pagina": "https://www.awwwards.com/sites/alejandro-torres-catering",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/04/533d848551f66.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 129,
+   "fonte": "awwwards",
+   "nome": "Casella Catering Configurator",
+   "pagina": "https://www.awwwards.com/sites/casella-catering-configurator",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/33120802054148.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 130,
+   "fonte": "github",
+   "nome": "LarryIVC/EventPage",
+   "pagina": "https://github.com/LarryIVC/EventPage",
+   "site": "https://larryivc.github.io/EventPage/",
+   "mini": "https://opengraph.githubassets.com/1/LarryIVC/EventPage",
+   "licenca": "MIT",
+   "estrelas": 8,
+   "descricao": "I've designed a captivating landing page specifically to promote a Catholic concert. The design is intuitive and easy to use, allowing visitors to quickly and e",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "event venue",
+   "tambemEm": []
+  },
+  {
+   "n": 131,
+   "fonte": "github",
+   "nome": "pascal-gonsales/venue-page-builder",
+   "pagina": "https://github.com/pascal-gonsales/venue-page-builder",
+   "site": "https://venue-page-builder.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/pascal-gonsales/venue-page-builder",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Reusable group-bookings and event-conversion landing page builder for restaurant and venue operators. Static HTML/CSS/JS with GSAP, Swiper, Flatpickr; deploys o",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "event venue",
+   "tambemEm": []
+  },
+  {
+   "n": 132,
+   "fonte": "github",
+   "nome": "LuSilva710/LandingPage_FoodService",
+   "pagina": "https://github.com/LuSilva710/LandingPage_FoodService",
+   "site": "https://lusilva710.github.io/LandingPage_FoodService/",
+   "mini": "https://opengraph.githubassets.com/1/LuSilva710/LandingPage_FoodService",
+   "licenca": "MIT",
+   "estrelas": 4,
+   "descricao": "Landing Page para restaurantes, serviço de entrega de comida, empresa de catering ou qualquer outra iniciativa gastronômica.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 133,
+   "fonte": "github",
+   "nome": "georgebrata/kucina-landing",
+   "pagina": "https://github.com/georgebrata/kucina-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/georgebrata/kucina-landing",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "The official landing website for Kucina Catering Oradea ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 134,
+   "fonte": "github",
+   "nome": "Zarskiii/snoasis-eagle-mountain",
+   "pagina": "https://github.com/Zarskiii/snoasis-eagle-mountain",
+   "site": "https://snoasis.srv934870.hstgr.cloud/",
+   "mini": "https://opengraph.githubassets.com/1/Zarskiii/snoasis-eagle-mountain",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Snoasis Utah Eagle Mountain website and catering landing page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 135,
+   "fonte": "github",
+   "nome": "arqsam/restaurant-landing-template",
+   "pagina": "https://github.com/arqsam/restaurant-landing-template",
+   "site": "https://mallow-and-crumb.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/arqsam/restaurant-landing-template",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page template for bakeries, restaurants, and catering (React + TypeScript + Vite). Demo: Mallow & Crumb (fictitious brand).",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 136,
+   "fonte": "github",
+   "nome": "andfield/food-truck",
+   "pagina": "https://github.com/andfield/food-truck",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/andfield/food-truck",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "This project is a landing page for a catering / food truck buisness.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 137,
+   "fonte": "github",
+   "nome": "omkargutal/landing-page",
+   "pagina": "https://github.com/omkargutal/landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/omkargutal/landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "the is a simple landing page of Catering and Services , I have used HTML and CSS , the design is simple and attractive .",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 138,
+   "fonte": "github",
+   "nome": "mohammedchelbi1999-ctrl/yummy-makanan",
+   "pagina": "https://github.com/mohammedchelbi1999-ctrl/yummy-makanan",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/mohammedchelbi1999-ctrl/yummy-makanan",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A responsive landing page built for Yummy Makanan catering business using semantic HTML and CSS.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 139,
+   "fonte": "github",
+   "nome": "brentleblanc-jpg/catered-savings",
+   "pagina": "https://github.com/brentleblanc-jpg/catered-savings",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/brentleblanc-jpg/catered-savings",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page for Catered Savings with sponsored products and Mailchimp integration",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 140,
+   "fonte": "github",
+   "nome": "zeezjs/Fabto---Catering-Event-Booking-Platform",
+   "pagina": "https://github.com/zeezjs/Fabto---Catering-Event-Booking-Platform",
+   "site": "https://fabto-83327.web.app",
+   "mini": "https://opengraph.githubassets.com/1/zeezjs/Fabto---Catering-Event-Booking-Platform",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Git hub repo for fabto's website. The website is an event booking system designed to help the brand handle event planning better and boost their online presence",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 141,
+   "fonte": "github",
+   "nome": "mohit-kothari-git/business_site",
+   "pagina": "https://github.com/mohit-kothari-git/business_site",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/mohit-kothari-git/business_site",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A minimal shopping site with landing page, built curated to small scale business to cater a online presence.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 142,
+   "fonte": "github",
+   "nome": "winstone-1/Perfect-pick-prototype",
+   "pagina": "https://github.com/winstone-1/Perfect-pick-prototype",
+   "site": "https://winstone-1.github.io/Perfect-pick-prototype/",
+   "mini": "https://opengraph.githubassets.com/1/winstone-1/Perfect-pick-prototype",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "This project is a sophisticated, conversion-optimized landing page for a multi-category lifestyle brand. Specializing in Fine Jewelry, Premium Footwear, Handbag",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  },
+  {
+   "n": 143,
+   "fonte": "github",
+   "nome": "syedabdulbasitali1/Modern-E-Commerce-Web-Interface",
+   "pagina": "https://github.com/syedabdulbasitali1/Modern-E-Commerce-Web-Interface",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/syedabdulbasitali1/Modern-E-Commerce-Web-Interface",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Project Overview This project is a responsive e-commerce web interface designed for modern online stores. With its clean, minimalist design and vibrant color sc",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "catering",
+   "tambemEm": []
+  }
+ ],
+ "manuais": [
+  {
+   "nome": "Godly",
+   "url": "https://godly.website/?q=event%20venue",
+   "motivo": "robots.txt bloqueia o robô do Claude"
+  },
+  {
+   "nome": "Land-book",
+   "url": "https://land-book.com/search?q=event%20venue",
+   "motivo": "termos proíbem coleta de dados"
+  },
+  {
+   "nome": "Lapa Ninja",
+   "url": "https://www.lapa.ninja",
+   "motivo": "permite robô, mas respondeu 403 ao script em 09/11/2026: abrir no navegador"
+  },
+  {
+   "nome": "SiteInspire",
+   "url": "https://www.siteinspire.com/websites?search=event%20venue",
+   "motivo": "responde 429 a robô"
+  },
+  {
+   "nome": "Minimal Gallery",
+   "url": "https://minimal.gallery/?s=event%20venue",
+   "motivo": "termos proíbem raspar"
+  },
+  {
+   "nome": "CSS Design Awards",
+   "url": "https://www.cssdesignawards.com/website-gallery",
+   "motivo": "termos proíbem copiar conteúdo"
+  },
+  {
+   "nome": "Awwwards (busca livre)",
+   "url": "https://www.awwwards.com/websites/?text=event%20venue",
+   "motivo": "busca por texto fora do robots.txt"
+  },
+  {
+   "nome": "Framer Marketplace (modelos)",
+   "url": "https://www.framer.com/marketplace/templates/?search=event%20venue",
+   "motivo": "modelo só roda dentro do Framer"
+  },
+  {
+   "nome": "Made in Webflow",
+   "url": "https://webflow.com/made-in-webflow",
+   "motivo": "modelo só roda dentro do Webflow"
+  }
+ ],
+ "pecas": [
+  {
+   "nome": "Aceternity UI (grátis)",
+   "url": "https://ui.aceternity.com/components",
+   "instalar": "npx shadcn@latest add @aceternity/<peça>",
+   "licenca": "licença própria: uso livre em site de cliente; modelos e blocos Pro são pagos"
+  },
+  {
+   "nome": "Magic UI",
+   "url": "https://magicui.design/docs/components",
+   "instalar": "npx shadcn@latest add @magicui/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "React Bits",
+   "url": "https://reactbits.dev",
+   "instalar": "npx shadcn@latest add @react-bits/<peça>",
+   "licenca": "MIT + Commons Clause (não revender a peça)"
+  },
+  {
+   "nome": "Motion Primitives",
+   "url": "https://motion-primitives.com",
+   "instalar": "npx shadcn@latest add @motion-primitives/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Animata",
+   "url": "https://animata.design",
+   "instalar": "npx shadcn@latest add https://animata.design/r/<grupo>/<peça>.json",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Uiverse",
+   "url": "https://uiverse.io",
+   "instalar": "copiar da página (sem registro)",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "21st.dev",
+   "url": "https://21st.dev/community/components",
+   "instalar": "pela página de cada peça",
+   "licenca": "varia por autor: conferir na página"
+  }
+ ]
+}

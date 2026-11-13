@@ -229,7 +229,7 @@ Para comparar as tarefas fixas do ensaio com evidências de qualidade, use
 `node scripts/auditar-ensaio.mjs "<plano.json>"` antes de comparar. A opção
 `--ensaio "<plano.json>"` de `scripts/comparar-medicoes.mjs` bloqueia rodadas pendentes/reprovadas e exige
 as três repetições da mesma tarefa nos grupos `base` e `depois`.
-[Formato, critérios e códigos de saída](qualidade-ensaio.md). Os artefatos ficam locais; a auditoria
+[Formato, critérios e códigos de saída](historico/qualidade-ensaio.md). Os artefatos ficam locais; a auditoria
 não chama modelos, não modifica o ensaio e não substitui a revisão visual.
 Para servidores descartáveis, use o [escopo de processos de teste](servidores-de-teste.md): inicia o
 Node sem shell e espera o encerramento antes de liberar a revisão ou remover a pasta temporária.

@@ -1,0 +1,14 @@
+{
+  "proporcoes": ["2:3", "3:2", "16:9"],
+  "focos": {},
+  "larguraMax": 2000,
+  "larguraMin": 1200,
+  "contraste": 1.08,
+  "saturacao": 0.88,
+  "temperatura": 0.25,
+  "tinta": { "cor": "#b0623a", "forca": 0.1 },
+  "pretoEBranco": false,
+  "grao": 0.12,
+  "formato": "jpg",
+  "qualidade": 90
+}

@@ -1,0 +1,3008 @@
+{
+ "categoria": "salao",
+ "nome": "Salão de beleza",
+ "data": "2026-11-10",
+ "relatorio": {
+  "opl": {
+   "lidos": 18,
+   "pedidos": 5,
+   "parou": null,
+   "unicos": 18
+  },
+  "awwwards": {
+   "lidos": 186,
+   "pedidos": 6,
+   "parou": null,
+   "unicos": 184
+  },
+  "lapa": {
+   "lidos": 0,
+   "pedidos": 1,
+   "parou": "403 em https://www.lapa.ninja/category/beauty/",
+   "unicos": 0
+  },
+  "github": {
+   "lidos": 19,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 19
+  }
+ },
+ "itens": [
+  {
+   "n": 1,
+   "fonte": "opl",
+   "nome": "maikasui",
+   "pagina": "https://onepagelove.com/maikasui",
+   "site": "https://maikasui.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/12/opl-master-maikasui.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 2,
+   "fonte": "opl",
+   "nome": "GlowGuide",
+   "pagina": "https://onepagelove.com/glowguide",
+   "site": "https://www.glowguide.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/10/opl-master-glowguide.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 3,
+   "fonte": "opl",
+   "nome": "ONSKN",
+   "pagina": "https://onepagelove.com/onskn",
+   "site": "https://onskn.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/05/opl-master-onskn.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 4,
+   "fonte": "opl",
+   "nome": "Beauty with Intuition",
+   "pagina": "https://onepagelove.com/beauty-with-intuition",
+   "site": "https://beautywithintuition.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2024/04/opl-master-14.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 5,
+   "fonte": "opl",
+   "nome": "Mount Sapo",
+   "pagina": "https://onepagelove.com/mount-sapo",
+   "site": "https://mountsapo.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2021/09/opl-master-22.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 6,
+   "fonte": "opl",
+   "nome": "Linwood East",
+   "pagina": "https://onepagelove.com/linwood-east",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/11/opl-big.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 7,
+   "fonte": "opl",
+   "nome": "Boudicca Wode",
+   "pagina": "https://onepagelove.com/boudicca-wode",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/05/opl-big18.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 8,
+   "fonte": "opl",
+   "nome": "Hudozhnikova Fashion Hair School",
+   "pagina": "https://onepagelove.com/hudozhnikova-fashion-hair-school",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/fhs-onapgelove-fullpage-1MB.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 9,
+   "fonte": "opl",
+   "nome": "Naphtali Carleton Makeup",
+   "pagina": "https://onepagelove.com/naphtali-carleton-makeup",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/02/opl-big29.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 10,
+   "fonte": "opl",
+   "nome": "Estetica Elite",
+   "pagina": "https://onepagelove.com/estetica-elite",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/09/opl-big5.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 11,
+   "fonte": "opl",
+   "nome": "My Wedding Mirror",
+   "pagina": "https://onepagelove.com/my-wedding-mirror",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/MyWeddingMirror_WebsiteLayout_DEF_Big.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 12,
+   "fonte": "opl",
+   "nome": "Salon Touché",
+   "pagina": "https://onepagelove.com/salon-touche",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2013/06/opl-big9.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 13,
+   "fonte": "opl",
+   "nome": "Dáma",
+   "pagina": "https://onepagelove.com/dama",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2010/12/opl-site69.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 14,
+   "fonte": "opl",
+   "nome": "The Haircut",
+   "pagina": "https://onepagelove.com/the-haircut",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2022/11/opl-screenshot-29.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/hair",
+   "tambemEm": []
+  },
+  {
+   "n": 15,
+   "fonte": "opl",
+   "nome": "Foundry Salon",
+   "pagina": "https://onepagelove.com/foundry-salon",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2016/09/opl-big-12.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/hair",
+   "tambemEm": []
+  },
+  {
+   "n": 16,
+   "fonte": "opl",
+   "nome": "Ana Luisa",
+   "pagina": "https://onepagelove.com/ana-luisa",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/08/opl-big11.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/hair",
+   "tambemEm": []
+  },
+  {
+   "n": 17,
+   "fonte": "opl",
+   "nome": "CosyHair",
+   "pagina": "https://onepagelove.com/cosyhair",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/04/opl-big48.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/hair",
+   "tambemEm": []
+  },
+  {
+   "n": 18,
+   "fonte": "opl",
+   "nome": "Timotei",
+   "pagina": "https://onepagelove.com/timotei",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2012/09/opl-big49.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/hair",
+   "tambemEm": []
+  },
+  {
+   "n": 19,
+   "fonte": "awwwards",
+   "nome": "ELUNE — Women’s Health App Concept",
+   "pagina": "https://www.awwwards.com/sites/elune-womens-health-app-concept",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6acdf4f79eeee625922589.png",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 20,
+   "fonte": "awwwards",
+   "nome": "Roveia Health",
+   "pagina": "https://www.awwwards.com/sites/roveia-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6abc3e379022d579038849.png",
+   "etiquetas": [
+    "Scrolling",
+    "Storytelling",
+    "GSAP",
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 21,
+   "fonte": "awwwards",
+   "nome": "Calmlyss - Health & Wellness",
+   "pagina": "https://www.awwwards.com/sites/calmlyss-health-wellness",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa3d511711e7698771065.jpg",
+   "etiquetas": [
+    "Interaction Design",
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 22,
+   "fonte": "awwwards",
+   "nome": "Allia Health Group",
+   "pagina": "https://www.awwwards.com/sites/allia-health-group",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a94d2fd884f4334111721.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 23,
+   "fonte": "awwwards",
+   "nome": "Men's Health Week",
+   "pagina": "https://www.awwwards.com/sites/mens-health-week",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2b802fed228075139602.png",
+   "etiquetas": [
+    "Video",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 24,
+   "fonte": "awwwards",
+   "nome": "BEAUTY IN STEM",
+   "pagina": "https://www.awwwards.com/sites/beauty-in-stem",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a144799aff5c896599431.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design",
+    "Motion"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 25,
+   "fonte": "awwwards",
+   "nome": "Bevel Health",
+   "pagina": "https://www.awwwards.com/sites/bevel-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69f4c4068cc8a548112531.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 26,
+   "fonte": "awwwards",
+   "nome": "Raven Health",
+   "pagina": "https://www.awwwards.com/sites/raven-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69bada079d942259445158.png",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 27,
+   "fonte": "awwwards",
+   "nome": "Altis - Beautiful Satellites",
+   "pagina": "https://www.awwwards.com/sites/altis-beautiful-satellites",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b37a0c0c69a080495342.png",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 28,
+   "fonte": "awwwards",
+   "nome": "Mave Health",
+   "pagina": "https://www.awwwards.com/sites/mave-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/6981832f96517494380326.jpg",
+   "etiquetas": [
+    "Transitions",
+    "Storytelling"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 29,
+   "fonte": "awwwards",
+   "nome": "Cascaid Health",
+   "pagina": "https://www.awwwards.com/sites/cascaid-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/697ad612b7830597833717.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 30,
+   "fonte": "awwwards",
+   "nome": "Tibico Health",
+   "pagina": "https://www.awwwards.com/sites/tibico-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/697b2aa957dc6784792845.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 31,
+   "fonte": "awwwards",
+   "nome": "Institute of Health",
+   "pagina": "https://www.awwwards.com/sites/institute-of-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/6974b77a7e321598987966.jpg",
+   "etiquetas": [
+    "WebGL",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 32,
+   "fonte": "awwwards",
+   "nome": "OMR Beauty",
+   "pagina": "https://www.awwwards.com/sites/omr-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/69712696394f3947153995.jpg",
+   "etiquetas": [
+    "Animation",
+    "Video"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 33,
+   "fonte": "awwwards",
+   "nome": "Beauty Queen Digital Flagship Store",
+   "pagina": "https://www.awwwards.com/sites/beauty-queen-digital-flagship-store",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/697c5e9e31bd1878238821.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 34,
+   "fonte": "awwwards",
+   "nome": "Photon Health",
+   "pagina": "https://www.awwwards.com/sites/photon-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/09/68dc278d90f6d738775004.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 35,
+   "fonte": "awwwards",
+   "nome": "Essentiality of Beauty",
+   "pagina": "https://www.awwwards.com/sites/essentiality-of-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/09/68bedb53335ae268345613.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 36,
+   "fonte": "awwwards",
+   "nome": "Digital Health Journeys",
+   "pagina": "https://www.awwwards.com/sites/digital-health-journeys",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/09/68c144a649458382331527.png",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling",
+    "Storytelling",
+    "Lottie"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 37,
+   "fonte": "awwwards",
+   "nome": "Pomegranate Health",
+   "pagina": "https://www.awwwards.com/sites/pomegranate-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/07/6877bcd1ce90e081584392.png",
+   "etiquetas": [
+    "Transitions",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 38,
+   "fonte": "awwwards",
+   "nome": "Ever Beauty in every details",
+   "pagina": "https://www.awwwards.com/sites/ever-beauty-in-every-details",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/07/686f51a4ecb05862942744.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 39,
+   "fonte": "awwwards",
+   "nome": "Deep Beauty",
+   "pagina": "https://www.awwwards.com/sites/deep-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/04/67f3a9f271fc0066121443.jpg",
+   "etiquetas": [
+    "Transitions",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 40,
+   "fonte": "awwwards",
+   "nome": "Bridge Beauty",
+   "pagina": "https://www.awwwards.com/sites/bridge-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/02/67b782c35a144046368944.jpg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 41,
+   "fonte": "awwwards",
+   "nome": "Rejuvenation Health",
+   "pagina": "https://www.awwwards.com/sites/rejuvenation-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/02/67b7795b4681e993722628.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 42,
+   "fonte": "awwwards",
+   "nome": "Heureka Health",
+   "pagina": "https://www.awwwards.com/sites/heureka-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/02/67ab1d4707c80043669487.png",
+   "etiquetas": [
+    "Animation",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 43,
+   "fonte": "awwwards",
+   "nome": "Nervana Health",
+   "pagina": "https://www.awwwards.com/sites/nervana-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/01/679acfb60ba40217910375.png",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 44,
+   "fonte": "awwwards",
+   "nome": "Wonder Beauty Shopify Theme",
+   "pagina": "https://www.awwwards.com/sites/wonder-beauty-shopify-theme",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/01/677e942668722017582243.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 45,
+   "fonte": "awwwards",
+   "nome": "Shiko Beauty",
+   "pagina": "https://www.awwwards.com/sites/shiko-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/01/677ebeec53f00770742875.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 46,
+   "fonte": "awwwards",
+   "nome": "DG Beauty - Gift Finder",
+   "pagina": "https://www.awwwards.com/sites/dg-beauty-gift-finder",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/12/6761505919422301587524.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "3D",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 47,
+   "fonte": "awwwards",
+   "nome": "DG Beauty - My Lip Stylo",
+   "pagina": "https://www.awwwards.com/sites/dg-beauty-my-lip-stylo",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/11/6749a0dfd21a1978059764.jpg",
+   "etiquetas": [
+    "Storytelling",
+    "3D",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 48,
+   "fonte": "awwwards",
+   "nome": "SOL HEALTH",
+   "pagina": "https://www.awwwards.com/sites/sol-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/10/6717b96c7f60f308140679.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 49,
+   "fonte": "awwwards",
+   "nome": "Health Equity Matters",
+   "pagina": "https://www.awwwards.com/sites/health-equity-matters",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/10/6703775795206617891833.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 50,
+   "fonte": "awwwards",
+   "nome": "HEVA HEALTH",
+   "pagina": "https://www.awwwards.com/sites/heva-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/6674506f12dbc824266553.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 51,
+   "fonte": "awwwards",
+   "nome": "OR Health Leadership Council",
+   "pagina": "https://www.awwwards.com/sites/or-health-leadership-council",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/07/669693ef31979274634473.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 52,
+   "fonte": "awwwards",
+   "nome": "Function Health",
+   "pagina": "https://www.awwwards.com/sites/function-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/07/668322803fde4058168077.png",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 53,
+   "fonte": "awwwards",
+   "nome": "DG Beauty - Dolce",
+   "pagina": "https://www.awwwards.com/sites/d-g-beauty-dolce",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/665d9f187e5ec614648781.jpg",
+   "etiquetas": [
+    "Animation",
+    "3D",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 54,
+   "fonte": "awwwards",
+   "nome": "HOD pure health",
+   "pagina": "https://www.awwwards.com/sites/hod-pure-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/665c9f7a82a37012520766.jpg",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 55,
+   "fonte": "awwwards",
+   "nome": "Future of Beauty",
+   "pagina": "https://www.awwwards.com/sites/future-of-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/05/6659a1e2a95a8624267704.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 56,
+   "fonte": "awwwards",
+   "nome": "Impilo Health Care",
+   "pagina": "https://www.awwwards.com/sites/impilo-health-care",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/05/6645462e89aa5759868356.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 57,
+   "fonte": "awwwards",
+   "nome": "Health+",
+   "pagina": "https://www.awwwards.com/sites/health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/03/65f842110181a111461855.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 58,
+   "fonte": "awwwards",
+   "nome": "Siella Beauty",
+   "pagina": "https://www.awwwards.com/sites/siella-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/02/65e089ff0faca320936861.jpg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 59,
+   "fonte": "awwwards",
+   "nome": "OHTAKE FOOD & BEAUTY",
+   "pagina": "https://www.awwwards.com/sites/ohtake-food-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/02/65dc5c7ddc124845295541.jpg",
+   "etiquetas": [
+    "Transitions",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 60,
+   "fonte": "awwwards",
+   "nome": "Hair Beauty 365",
+   "pagina": "https://www.awwwards.com/sites/hair-beauty-365",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/02/65d60712275d7253639569.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 61,
+   "fonte": "awwwards",
+   "nome": "Atomic Health",
+   "pagina": "https://www.awwwards.com/sites/atomic-health-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/01/65b1447732478661104264.png",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 62,
+   "fonte": "awwwards",
+   "nome": "Dirty Dog Beauty Club",
+   "pagina": "https://www.awwwards.com/sites/dirty-dog-beauty-club",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/01/65b021a13247d918494474.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 63,
+   "fonte": "awwwards",
+   "nome": "Dolce & Gabbana Beauty – From My Heart, to Yours Gift Finder",
+   "pagina": "https://www.awwwards.com/sites/dolce-gabbana-beauty-from-my-heart-to-yours-gift-finder",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/12/65804ad3d4218959826926.jpg",
+   "etiquetas": [
+    "Storytelling",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 64,
+   "fonte": "awwwards",
+   "nome": "Land of Beauty",
+   "pagina": "https://www.awwwards.com/sites/land-of-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/12/657d254fe60dc062024376.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 65,
+   "fonte": "awwwards",
+   "nome": "Gucci Beauty Wishes",
+   "pagina": "https://www.awwwards.com/sites/gucci-beauty-wishes",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/11/6564cbc4ead7a916241385.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 66,
+   "fonte": "awwwards",
+   "nome": "Signature Cosmetics & Beauty",
+   "pagina": "https://www.awwwards.com/sites/signature-cosmetics-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/11/6565bab42ef7f592576450.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 67,
+   "fonte": "awwwards",
+   "nome": "Devotion DG Beauty Experience",
+   "pagina": "https://www.awwwards.com/sites/devotion-dg-beauty-experience",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/11/655b43ba933a2545927713.png",
+   "etiquetas": [
+    "Animation",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 68,
+   "fonte": "awwwards",
+   "nome": "Function of Beauty",
+   "pagina": "https://www.awwwards.com/sites/function-of-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/11/65562f3249a0b231032221.jpg",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 69,
+   "fonte": "awwwards",
+   "nome": "PINEA",
+   "pagina": "https://www.awwwards.com/sites/pinea",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/10/6539293ea5972348473437.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Transitions",
+    "Storytelling",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 70,
+   "fonte": "awwwards",
+   "nome": "Skin Health Alliance",
+   "pagina": "https://www.awwwards.com/sites/skin-health-alliance-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/10/65411894ceb05054278550.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 71,
+   "fonte": "awwwards",
+   "nome": "THE BEAUTIFUL by Amino Mason",
+   "pagina": "https://www.awwwards.com/sites/the-beautiful-by-amino-mason",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/07/64af64bf56bbb269193016.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 72,
+   "fonte": "awwwards",
+   "nome": "Ellmerer‘s Hof",
+   "pagina": "https://www.awwwards.com/sites/ellmerers-hof",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/06/648234fa23ea1216911407.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 73,
+   "fonte": "awwwards",
+   "nome": "A Beautiful Mess",
+   "pagina": "https://www.awwwards.com/sites/a-beautiful-mess",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/04/642e83c355215993992124.png",
+   "etiquetas": [
+    "Scrolling",
+    "Transitions",
+    "Storytelling"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 74,
+   "fonte": "awwwards",
+   "nome": "BEAUTY DIG-TIONARY",
+   "pagina": "https://www.awwwards.com/sites/beauty-dig-tionary",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/04/643380588fda7394240623.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 75,
+   "fonte": "awwwards",
+   "nome": "French Beauty Co",
+   "pagina": "https://www.awwwards.com/sites/french-beauty-co",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/64267726b2e8d871152119.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 76,
+   "fonte": "awwwards",
+   "nome": "Iron Health",
+   "pagina": "https://www.awwwards.com/sites/iron-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/6411cb442df1a364632702.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 77,
+   "fonte": "awwwards",
+   "nome": "Beauty Creative Team \"BiBiBi\" Web site",
+   "pagina": "https://www.awwwards.com/sites/beauty-creative-team-bibibi-web-site",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/64085b2d8aae3128357250.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 78,
+   "fonte": "awwwards",
+   "nome": "GXVE Beauty by Gwen Stefani",
+   "pagina": "https://www.awwwards.com/sites/gxve-beauty-by-gwen-stefani",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/01/63d00b2679a7b008526518.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 79,
+   "fonte": "awwwards",
+   "nome": "Roczen Health",
+   "pagina": "https://www.awwwards.com/sites/roczen-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/01/63c99392e52c3770906735.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 80,
+   "fonte": "awwwards",
+   "nome": "Zynx Health",
+   "pagina": "https://www.awwwards.com/sites/zynx-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/11/63787385c126e048924522.png",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 81,
+   "fonte": "awwwards",
+   "nome": "Matrioska Mental Health",
+   "pagina": "https://www.awwwards.com/sites/matrioska-mental-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/11/636d80a8c3193779973365.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 82,
+   "fonte": "awwwards",
+   "nome": "Aleph Beauty",
+   "pagina": "https://www.awwwards.com/sites/aleph-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/10/6344c9b29018a578516841.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "GSAP"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 83,
+   "fonte": "awwwards",
+   "nome": "Peer Health Exchange",
+   "pagina": "https://www.awwwards.com/sites/peer-health-exchange",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/09/6311de907c84e825065625.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 84,
+   "fonte": "awwwards",
+   "nome": "Miga Health",
+   "pagina": "https://www.awwwards.com/sites/miga-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/08/62f6985fe72f1528400469.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 85,
+   "fonte": "awwwards",
+   "nome": "Ovia Health",
+   "pagina": "https://www.awwwards.com/sites/ovia-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/07/62cd2919dcc55854398522.jpg",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 86,
+   "fonte": "awwwards",
+   "nome": "Healthline: Future of Health",
+   "pagina": "https://www.awwwards.com/sites/healthline-future-of-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/06/62be2e1d5376f010059303.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 87,
+   "fonte": "awwwards",
+   "nome": "Arcade Beauty",
+   "pagina": "https://www.awwwards.com/sites/arcade-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/06/62aa1741df0ff157550156.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 88,
+   "fonte": "awwwards",
+   "nome": "Demand More for Mental Health",
+   "pagina": "https://www.awwwards.com/sites/demand-more-for-mental-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/05/628ab5ffb98fb478871843.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 89,
+   "fonte": "awwwards",
+   "nome": "Shen Beauty",
+   "pagina": "https://www.awwwards.com/sites/shen-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/04/62605164bd808925788340.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 90,
+   "fonte": "awwwards",
+   "nome": "Lemon Health",
+   "pagina": "https://www.awwwards.com/sites/lemon-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/04/625da6d9b1b0c729318366.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 91,
+   "fonte": "awwwards",
+   "nome": "Jagger Beauty",
+   "pagina": "https://www.awwwards.com/sites/jagger-beauty-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/04/62611c77f1fa6487409613.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 92,
+   "fonte": "awwwards",
+   "nome": "Octonion -Machine Health",
+   "pagina": "https://www.awwwards.com/sites/octonion-machine-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/03/6245946a6eb74775393892.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 93,
+   "fonte": "awwwards",
+   "nome": "Radicle Health",
+   "pagina": "https://www.awwwards.com/sites/radicle-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/01/61f1715226f3f725649259.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 94,
+   "fonte": "awwwards",
+   "nome": "Health By Habit",
+   "pagina": "https://www.awwwards.com/sites/health-by-habit",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/01/61d2f1d2eceba460101307.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 95,
+   "fonte": "awwwards",
+   "nome": "Andersen Beauty",
+   "pagina": "https://www.awwwards.com/sites/andersen-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/01/61e63cec04ec7617145287.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 96,
+   "fonte": "awwwards",
+   "nome": "NHS Umbrella Health",
+   "pagina": "https://www.awwwards.com/sites/nhs-umbrella-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/01/61dffa511dc32078222709.jpg",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 97,
+   "fonte": "awwwards",
+   "nome": "Actium Health Corporate Site",
+   "pagina": "https://www.awwwards.com/sites/actium-health-corporate-site",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/01/61e60e30de72d213893573.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 98,
+   "fonte": "awwwards",
+   "nome": "Mitsui J-Beauty",
+   "pagina": "https://www.awwwards.com/sites/mitsui-j-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/12/61cb71535be16833596464.jpg",
+   "etiquetas": [
+    "Animation",
+    "Storytelling"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 99,
+   "fonte": "awwwards",
+   "nome": "r.e.m. beauty by Ariana Grande",
+   "pagina": "https://www.awwwards.com/sites/r-e-m-beauty-by-ariana-grande",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/12/61b26f7f375e5022640652.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 100,
+   "fonte": "awwwards",
+   "nome": "Luseta Beauty",
+   "pagina": "https://www.awwwards.com/sites/luseta-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/10/6176bc2083725232670930.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 101,
+   "fonte": "awwwards",
+   "nome": "YOLU Night care beauty brand",
+   "pagina": "https://www.awwwards.com/sites/yolu-night-care-beauty-brand",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/09/6151af93430a0503732165.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 102,
+   "fonte": "awwwards",
+   "nome": "Moooi - Beauty Blooms",
+   "pagina": "https://www.awwwards.com/sites/moooi-beauty-blooms",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/06/60bde97a83bf3358730214.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling",
+    "WebGL",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 103,
+   "fonte": "awwwards",
+   "nome": "HALEYS BEAUTY",
+   "pagina": "https://www.awwwards.com/sites/haleys-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/06/60d0e9fbcdfe1713833515.png",
+   "etiquetas": [
+    "Scrolling"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 104,
+   "fonte": "awwwards",
+   "nome": "Olivia - Health Academy Italy",
+   "pagina": "https://www.awwwards.com/sites/olivia-health-academy-italy",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/06/60c775cf0fb99291796939.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Storytelling",
+    "Lottie"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 105,
+   "fonte": "awwwards",
+   "nome": "Douglas Walk of Beauty",
+   "pagina": "https://www.awwwards.com/sites/douglas-walk-of-beauty",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/06/60b8f9a1b8756426192889.png",
+   "etiquetas": [
+    "Video",
+    "WebGL",
+    "Storytelling",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 106,
+   "fonte": "awwwards",
+   "nome": "Beyond Health",
+   "pagina": "https://www.awwwards.com/sites/beyond-health",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/04/6072e81238c81804126374.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 107,
+   "fonte": "awwwards",
+   "nome": "Aiding digital health startups",
+   "pagina": "https://www.awwwards.com/sites/aiding-digital-health-startups",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/03/604294c43842f603455717.png",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 108,
+   "fonte": "awwwards",
+   "nome": "Beauty For All Industries",
+   "pagina": "https://www.awwwards.com/sites/beauty-for-all-industries",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/02/60305885c24d4751383115.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 109,
+   "fonte": "awwwards",
+   "nome": "Gucci Beauty Foundation",
+   "pagina": "https://www.awwwards.com/sites/gucci-beauty-foundation",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/02/60265c4966782482100349.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "health-beauty",
+   "tambemEm": []
+  },
+  {
+   "n": 110,
+   "fonte": "awwwards",
+   "nome": "Infinity Socks",
+   "pagina": "https://www.awwwards.com/sites/infinity-socks",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad9d9f902ad8941195753.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "WebGL",
+    "Storytelling",
+    "GSAP",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 111,
+   "fonte": "awwwards",
+   "nome": "Justin Jefferson",
+   "pagina": "https://www.awwwards.com/sites/justin-jefferson",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aad95a1585a1398750089.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "GSAP",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 112,
+   "fonte": "awwwards",
+   "nome": "Seed Jewelry",
+   "pagina": "https://www.awwwards.com/sites/seed-jewelry",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad62eda59a52726686739.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Three.js",
+    "3D",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 113,
+   "fonte": "awwwards",
+   "nome": "MORROW",
+   "pagina": "https://www.awwwards.com/sites/morrow",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad58ab32632d095549158.png",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 114,
+   "fonte": "awwwards",
+   "nome": "Enigma",
+   "pagina": "https://www.awwwards.com/sites/enigma-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6adb72e0ba93b485586694.jpg",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "GSAP",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 115,
+   "fonte": "awwwards",
+   "nome": "Davaris Textiles",
+   "pagina": "https://www.awwwards.com/sites/davaris-textiles",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a75bfb9517a0675639927.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling",
+    "Transitions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 116,
+   "fonte": "awwwards",
+   "nome": "grace ai studio.",
+   "pagina": "https://www.awwwards.com/sites/grace-ai-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ae05853ddc24454305749.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Video",
+    "Transitions",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 117,
+   "fonte": "awwwards",
+   "nome": "VPLOSS",
+   "pagina": "https://www.awwwards.com/sites/vploss",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6acf275557594879095328.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "WebGL",
+    "Storytelling",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 118,
+   "fonte": "awwwards",
+   "nome": "Palace Skateboards",
+   "pagina": "https://www.awwwards.com/sites/palace-skateboards",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac667cbdd6e9708054416.jpg",
+   "etiquetas": [
+    "Video",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 119,
+   "fonte": "awwwards",
+   "nome": "Almada Label",
+   "pagina": "https://www.awwwards.com/sites/almada-label",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac4ee0d56678377962982.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 120,
+   "fonte": "awwwards",
+   "nome": "Kelvin Music Festival 2027",
+   "pagina": "https://www.awwwards.com/sites/kelvin-music-festival-2027",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac28898ea50f852037674.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Transitions",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 121,
+   "fonte": "awwwards",
+   "nome": "EASYSELLER | Elevate Your Sales",
+   "pagina": "https://www.awwwards.com/sites/easyseller-elevate-your-sales",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6abe267473541818208108.png",
+   "etiquetas": [
+    "Scrolling",
+    "WebGL",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 122,
+   "fonte": "awwwards",
+   "nome": "Estudio Niksen",
+   "pagina": "https://www.awwwards.com/sites/estudio-niksen",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6abc1b954a2b2902603167.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 123,
+   "fonte": "awwwards",
+   "nome": "Deadly Ponies",
+   "pagina": "https://www.awwwards.com/sites/deadly-ponies",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab9a2adc38ed953556599.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 124,
+   "fonte": "awwwards",
+   "nome": "Switchblade",
+   "pagina": "https://www.awwwards.com/sites/switchblade",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac73ad895d0a082105336.png",
+   "etiquetas": [
+    "WebGL",
+    "Transitions",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 125,
+   "fonte": "awwwards",
+   "nome": "Becore",
+   "pagina": "https://www.awwwards.com/sites/becore",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6abf5c261fa23459028286.png",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 126,
+   "fonte": "awwwards",
+   "nome": "The Cartier Roadster",
+   "pagina": "https://www.awwwards.com/sites/the-cartier-roadster",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab1b68ba2c4c801835951.jpg",
+   "etiquetas": [
+    "Animation",
+    "Video",
+    "WebGL",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 127,
+   "fonte": "awwwards",
+   "nome": "AGNESTOTH",
+   "pagina": "https://www.awwwards.com/sites/agnestoth",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab2c43b0db08301247902.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 128,
+   "fonte": "awwwards",
+   "nome": "AQUALOQA Coming Soon",
+   "pagina": "https://www.awwwards.com/sites/aqualoqa-coming-soon",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aade8eee5fcd553534082.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Microinteractions",
+    "Animation",
+    "Video"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 129,
+   "fonte": "awwwards",
+   "nome": "Killstar",
+   "pagina": "https://www.awwwards.com/sites/killstar",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aabb3fcb7b68584654814.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 130,
+   "fonte": "awwwards",
+   "nome": "Per Appelgren",
+   "pagina": "https://www.awwwards.com/sites/per-appelgren",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aaa9a68077a0421081702.png",
+   "etiquetas": [
+    "Scrolling",
+    "Three.js"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 131,
+   "fonte": "awwwards",
+   "nome": "Almira Kho — Photography",
+   "pagina": "https://www.awwwards.com/sites/almira-kho-photography",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aab9a27ace0c433835537.png",
+   "etiquetas": [
+    "GSAP",
+    "Animation"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 132,
+   "fonte": "awwwards",
+   "nome": "Heirest",
+   "pagina": "https://www.awwwards.com/sites/heirest",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab8c358af8e0392051475.png",
+   "etiquetas": [
+    "Scrolling",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 133,
+   "fonte": "awwwards",
+   "nome": "OFFFORM",
+   "pagina": "https://www.awwwards.com/sites/offform",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa2749676e3a351609969.png",
+   "etiquetas": [
+    "Transitions",
+    "Interaction Design",
+    "Microinteractions",
+    "Animation"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 134,
+   "fonte": "awwwards",
+   "nome": "The Tie-break",
+   "pagina": "https://www.awwwards.com/sites/the-tie-break",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a47a79eb4dbe565070348.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Three.js"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 135,
+   "fonte": "awwwards",
+   "nome": "Unimatic",
+   "pagina": "https://www.awwwards.com/sites/unimatic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa7b01ba7429318041224.jpg",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 136,
+   "fonte": "awwwards",
+   "nome": "La Dolfina Jumping",
+   "pagina": "https://www.awwwards.com/sites/la-dolfina-jumping",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa2ac2bd45ee443974029.jpg",
+   "etiquetas": [
+    "GSAP",
+    "Parallax",
+    "Storytelling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 137,
+   "fonte": "awwwards",
+   "nome": "Maison AUGE",
+   "pagina": "https://www.awwwards.com/sites/maison-auge",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a9ad7a2a46f2419950818.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 138,
+   "fonte": "awwwards",
+   "nome": "VANMOTION",
+   "pagina": "https://www.awwwards.com/sites/vanmotion",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a9aa077354dc337936471.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 139,
+   "fonte": "awwwards",
+   "nome": "AN OCEAN of IDEAS (AOI)",
+   "pagina": "https://www.awwwards.com/sites/an-ocean-of-ideas-aoi",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a969f035df59433524439.png",
+   "etiquetas": [
+    "Animation",
+    "Video"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 140,
+   "fonte": "awwwards",
+   "nome": "The Tuscan Journey Begins",
+   "pagina": "https://www.awwwards.com/sites/the-tuscan-journey-begins",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a4f5b3f3e376480567855.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 141,
+   "fonte": "awwwards",
+   "nome": "RemyShoots",
+   "pagina": "https://www.awwwards.com/sites/remyshoots",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a97cb9e7ff9e153129235.png",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "Three.js",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 142,
+   "fonte": "awwwards",
+   "nome": "Cassandra Vale",
+   "pagina": "https://www.awwwards.com/sites/cassandra-vale",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a995f77af73f369534332.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 143,
+   "fonte": "awwwards",
+   "nome": "Coutumes",
+   "pagina": "https://www.awwwards.com/sites/coutumes",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a8d78467adf7803564543.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 144,
+   "fonte": "awwwards",
+   "nome": "Tilly Sveaas",
+   "pagina": "https://www.awwwards.com/sites/tilly-sveaas",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a8595697bfab889043767.png",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 145,
+   "fonte": "awwwards",
+   "nome": "Bread & Boxers",
+   "pagina": "https://www.awwwards.com/sites/bread-boxers",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7f0beab6a59749192583.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 146,
+   "fonte": "awwwards",
+   "nome": "COCOON",
+   "pagina": "https://www.awwwards.com/sites/cocoon-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7b6a79989a0432007384.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "Transitions",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 147,
+   "fonte": "awwwards",
+   "nome": "MIU MIU A House that we shaped",
+   "pagina": "https://www.awwwards.com/sites/miu-miu-a-house-that-we-shaped",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a450f252d19e357644605.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Storytelling",
+    "Three.js"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 148,
+   "fonte": "awwwards",
+   "nome": "Their Nibs",
+   "pagina": "https://www.awwwards.com/sites/their-nibs",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a79aaa656cd2500870643.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 149,
+   "fonte": "awwwards",
+   "nome": "Aralesk — Collages & Motion",
+   "pagina": "https://www.awwwards.com/sites/aralesk-collages-motion",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a708fdbee569947579168.png",
+   "etiquetas": [
+    "Storytelling",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 150,
+   "fonte": "awwwards",
+   "nome": "CRISP Barbershop",
+   "pagina": "https://www.awwwards.com/sites/crisp-barbershop",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a67a87c29072700304510.png",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 151,
+   "fonte": "awwwards",
+   "nome": "Serotoninn",
+   "pagina": "https://www.awwwards.com/sites/serotoninn",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a31480c94d74820269997.png",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 152,
+   "fonte": "awwwards",
+   "nome": "Kraken Industries",
+   "pagina": "https://www.awwwards.com/sites/kraken-industries",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a5e6b4e75b20118696193.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 153,
+   "fonte": "awwwards",
+   "nome": "Lacoste Ace Breaker",
+   "pagina": "https://www.awwwards.com/sites/lacoste-ace-breaker",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a27d6a48c922760111001.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 154,
+   "fonte": "awwwards",
+   "nome": "Cecilie Bahnsen",
+   "pagina": "https://www.awwwards.com/sites/cecilie-bahnsen",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a67101a253c3367818887.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 155,
+   "fonte": "awwwards",
+   "nome": "David Spaeth",
+   "pagina": "https://www.awwwards.com/sites/david-spaeth",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a54f1a864641144826328.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 156,
+   "fonte": "awwwards",
+   "nome": "GOBOLD™ Agency",
+   "pagina": "https://www.awwwards.com/sites/goboldtm-agency",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a52fc5359ba6197316430.png",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "Three.js",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 157,
+   "fonte": "awwwards",
+   "nome": "StudioFMRG",
+   "pagina": "https://www.awwwards.com/sites/studiofmrg",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a4def838c44c316624871.jpg",
+   "etiquetas": [
+    "Scrolling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 158,
+   "fonte": "awwwards",
+   "nome": "Lacoste — Polo Factory",
+   "pagina": "https://www.awwwards.com/sites/lacoste-polo-factory",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a20590541be1401753648.png",
+   "etiquetas": [
+    "WebGL",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 159,
+   "fonte": "awwwards",
+   "nome": "SPA",
+   "pagina": "https://www.awwwards.com/sites/spa-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a47c03880ff3673947267.png",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 160,
+   "fonte": "awwwards",
+   "nome": "Achilles Heel",
+   "pagina": "https://www.awwwards.com/sites/achilles-heel",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a466f6d28a87878010191.png",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 161,
+   "fonte": "awwwards",
+   "nome": "Brunello Cucinelli - AI E-com",
+   "pagina": "https://www.awwwards.com/sites/brunello-cucinelli-ai-e-com",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69d6567a11676364433931.png",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 162,
+   "fonte": "awwwards",
+   "nome": "UKFT",
+   "pagina": "https://www.awwwards.com/sites/ukft",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a3402993a590772945879.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 163,
+   "fonte": "awwwards",
+   "nome": "Dolce&GabbanaBeauty GiftFinder",
+   "pagina": "https://www.awwwards.com/sites/dolce-gabbanabeauty-giftfinder",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a33b568e7f5a406972513.png",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 164,
+   "fonte": "awwwards",
+   "nome": "YLEM",
+   "pagina": "https://www.awwwards.com/sites/ylem",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a31291ddd1bd681683586.jpg",
+   "etiquetas": [
+    "Storytelling",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 165,
+   "fonte": "awwwards",
+   "nome": "àpini studio",
+   "pagina": "https://www.awwwards.com/sites/apini-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a31415daf074288551764.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 166,
+   "fonte": "awwwards",
+   "nome": "King James",
+   "pagina": "https://www.awwwards.com/sites/king-james",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a305594a17d7164198941.png",
+   "etiquetas": [
+    "Animation",
+    "Storytelling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 167,
+   "fonte": "awwwards",
+   "nome": "Meech213",
+   "pagina": "https://www.awwwards.com/sites/meech213",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0c3f50d0695341347852.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 168,
+   "fonte": "awwwards",
+   "nome": "SÉVE",
+   "pagina": "https://www.awwwards.com/sites/seve",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2c0ac5877d4444086269.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 169,
+   "fonte": "awwwards",
+   "nome": "Marsea",
+   "pagina": "https://www.awwwards.com/sites/marsea",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2aa8ed954e5074429518.png",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 170,
+   "fonte": "awwwards",
+   "nome": "Grair",
+   "pagina": "https://www.awwwards.com/sites/grair",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a29250667f0b129521057.png",
+   "etiquetas": [
+    "Storytelling",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 171,
+   "fonte": "awwwards",
+   "nome": "Marine Layer",
+   "pagina": "https://www.awwwards.com/sites/marine-layer",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a28c60cbf03b402810337.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 172,
+   "fonte": "awwwards",
+   "nome": "Wolverine Worldwide",
+   "pagina": "https://www.awwwards.com/sites/wolverine-worldwide",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a061369aa161851110228.jpg",
+   "etiquetas": [
+    "GSAP",
+    "Locomotive Scroll"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 173,
+   "fonte": "awwwards",
+   "nome": "Pil Rebranding Site",
+   "pagina": "https://www.awwwards.com/sites/pil-rebranding-site",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a218e4cb4e5a558333777.png",
+   "etiquetas": [
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 174,
+   "fonte": "awwwards",
+   "nome": "Balmoral",
+   "pagina": "https://www.awwwards.com/sites/balmoral",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69fb5a11abc3a822289513.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 175,
+   "fonte": "awwwards",
+   "nome": "Ströms Man & Woman",
+   "pagina": "https://www.awwwards.com/sites/stroms-man-woman",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a2035081596a360161394.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 176,
+   "fonte": "awwwards",
+   "nome": "Indigo Laboratory",
+   "pagina": "https://www.awwwards.com/sites/indigo-laboratory",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a02fc708276c784411761.jpg",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 177,
+   "fonte": "awwwards",
+   "nome": "Gucci: Mystery Unfolds",
+   "pagina": "https://www.awwwards.com/sites/gucci-mystery-unfolds",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0343a2ac352376742163.jpg",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 178,
+   "fonte": "awwwards",
+   "nome": "Delvaux Digital Flagship Store",
+   "pagina": "https://www.awwwards.com/sites/delvaux-digital-flagship-store",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a20212483073555089087.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 179,
+   "fonte": "awwwards",
+   "nome": "AdPanel",
+   "pagina": "https://www.awwwards.com/sites/adpanel-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1d9420bce76437317591.png",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 180,
+   "fonte": "awwwards",
+   "nome": "Lemaire",
+   "pagina": "https://www.awwwards.com/sites/lemaire",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1edfb48c588160321196.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 181,
+   "fonte": "awwwards",
+   "nome": "X8 Eyewear",
+   "pagina": "https://www.awwwards.com/sites/x8-eyewear-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a15b0f354b65064332161.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 182,
+   "fonte": "awwwards",
+   "nome": "Tamannaah Fine Jewellery",
+   "pagina": "https://www.awwwards.com/sites/tamannaah-fine-jewellery",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a16a9cd24f35862744240.png",
+   "etiquetas": [
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 183,
+   "fonte": "awwwards",
+   "nome": "Adina Buzatu",
+   "pagina": "https://www.awwwards.com/sites/adina-buzatu",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a22de43ac15a684039999.jpg",
+   "etiquetas": [
+    "Video",
+    "Storytelling",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 184,
+   "fonte": "awwwards",
+   "nome": "GLITCHWEAR Custom Studio",
+   "pagina": "https://www.awwwards.com/sites/glitchwear-custom-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a097a3d11eb9038403430.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 185,
+   "fonte": "awwwards",
+   "nome": "Olive®",
+   "pagina": "https://www.awwwards.com/sites/olive-r",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0486de84be8713395834.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Storytelling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 186,
+   "fonte": "awwwards",
+   "nome": "Venetian Nail Spa",
+   "pagina": "https://www.awwwards.com/sites/venetian-nail-spa",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a01f95fc7c2e236820360.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Video"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 187,
+   "fonte": "awwwards",
+   "nome": "Capitolium",
+   "pagina": "https://www.awwwards.com/sites/capitolium",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69e9350bc520b242777543.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 188,
+   "fonte": "awwwards",
+   "nome": "L'OISEAU DÉ",
+   "pagina": "https://www.awwwards.com/sites/loiseau-de",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69fb23ecec710023818670.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 189,
+   "fonte": "awwwards",
+   "nome": "Outfit",
+   "pagina": "https://www.awwwards.com/sites/outfit",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69dfefd719a9f068162403.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 190,
+   "fonte": "awwwards",
+   "nome": "FCTRY LAb",
+   "pagina": "https://www.awwwards.com/sites/fctry-lab",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69f1d43baf3ec853187755.png",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 191,
+   "fonte": "awwwards",
+   "nome": "Evagria",
+   "pagina": "https://www.awwwards.com/sites/evagria",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69efa87690b92126544964.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 192,
+   "fonte": "awwwards",
+   "nome": "Pattern Breaking",
+   "pagina": "https://www.awwwards.com/sites/pattern-breaking",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69ef66401e6aa265535504.png",
+   "etiquetas": [
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 193,
+   "fonte": "awwwards",
+   "nome": "Kindred Of Ireland",
+   "pagina": "https://www.awwwards.com/sites/kindred-of-ireland",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69e9e663689fe661796021.png",
+   "etiquetas": [
+    "Video",
+    "Storytelling"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 194,
+   "fonte": "awwwards",
+   "nome": "Bulgari Eclettica",
+   "pagina": "https://www.awwwards.com/sites/bulgari-eclettica",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69e74f5b20647727739201.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling",
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 195,
+   "fonte": "awwwards",
+   "nome": "Adcker",
+   "pagina": "https://www.awwwards.com/sites/adcker",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69d8cb4fd7a65091162088.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 196,
+   "fonte": "awwwards",
+   "nome": "Detroit Paris",
+   "pagina": "https://www.awwwards.com/sites/detroit-paris",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/699f1ad8d180c421546536.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 197,
+   "fonte": "awwwards",
+   "nome": "Julia Krantz",
+   "pagina": "https://www.awwwards.com/sites/julia-krantz",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69e142cf1554b277980528.png",
+   "etiquetas": [
+    "Animation",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 198,
+   "fonte": "awwwards",
+   "nome": "Laser and Me NYC",
+   "pagina": "https://www.awwwards.com/sites/laser-and-me-nyc",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69d9db8d0582f175474153.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 199,
+   "fonte": "awwwards",
+   "nome": "Poeza",
+   "pagina": "https://www.awwwards.com/sites/poeza",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69dd22e964962683938808.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "Transitions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 200,
+   "fonte": "awwwards",
+   "nome": "Max Mara - Jacket Circle",
+   "pagina": "https://www.awwwards.com/sites/max-mara-jacket-circle",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b2944907f1e801437604.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "3D",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 201,
+   "fonte": "awwwards",
+   "nome": "Paco, patron de couture",
+   "pagina": "https://www.awwwards.com/sites/paco-patron-de-couture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69cd05a398ed3029111133.png",
+   "etiquetas": [],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 202,
+   "fonte": "awwwards",
+   "nome": "Odd Ritual",
+   "pagina": "https://www.awwwards.com/sites/odd-ritual",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/03/69b3f82de0264325146749.jpg",
+   "etiquetas": [
+    "GSAP",
+    "Three.js"
+   ],
+   "categoriaFonte": "fashion",
+   "tambemEm": []
+  },
+  {
+   "n": 203,
+   "fonte": "github",
+   "nome": "Northstrix/clandestine-beauty-salon-landing-page-template",
+   "pagina": "https://github.com/Northstrix/clandestine-beauty-salon-landing-page-template",
+   "site": "https://clandestine-beauty-salon-landing-page.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/Northstrix/clandestine-beauty-salon-landing-page-template",
+   "licenca": "MIT",
+   "estrelas": 2,
+   "descricao": "Beauty salon landing page template made using Next.js, Perplexity, and Firebase Studio.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 204,
+   "fonte": "github",
+   "nome": "vitaliy-tkachuk/beauty_landing-page",
+   "pagina": "https://github.com/vitaliy-tkachuk/beauty_landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/vitaliy-tkachuk/beauty_landing-page",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Responsive layout of Beauty Salon Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 205,
+   "fonte": "github",
+   "nome": "lucassantus/beauty-salon",
+   "pagina": "https://github.com/lucassantus/beauty-salon",
+   "site": "https://beauty-salon-ls.netlify.app",
+   "mini": "https://opengraph.githubassets.com/1/lucassantus/beauty-salon",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": ":art: Repositório focado na criação e aprimoramento de uma Landing Page relacionada a um salão especializado em tratamentos naturais.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 206,
+   "fonte": "github",
+   "nome": "ambulcao/BeautySalon",
+   "pagina": "https://github.com/ambulcao/BeautySalon",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/ambulcao/BeautySalon",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page for hair salon",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 207,
+   "fonte": "github",
+   "nome": "tlanettepollard/Novah-Beauty-Landing-Page",
+   "pagina": "https://github.com/tlanettepollard/Novah-Beauty-Landing-Page",
+   "site": "https://novah-beauty-landing-page.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/tlanettepollard/Novah-Beauty-Landing-Page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page for beauty salon",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 208,
+   "fonte": "github",
+   "nome": "GabrielMedradoS/BeautySalon",
+   "pagina": "https://github.com/GabrielMedradoS/BeautySalon",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/GabrielMedradoS/BeautySalon",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Projeto criado durante o NLW discover. Landing page de um salão de beleza 💇",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 209,
+   "fonte": "github",
+   "nome": "Thiag0Andres/BeautySalon",
+   "pagina": "https://github.com/Thiag0Andres/BeautySalon",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Thiag0Andres/BeautySalon",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "The BeautySalon is a landing page layout developed specifically for the internet applications course",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 210,
+   "fonte": "github",
+   "nome": "DarlanHenricon/Landing-page-beauty-salon",
+   "pagina": "https://github.com/DarlanHenricon/Landing-page-beauty-salon",
+   "site": "https://landing-page-beauty-salon-mu.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/DarlanHenricon/Landing-page-beauty-salon",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Personal project developed during my Information Technology studies. This landing page was created for a local business, applying web development concepts such ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 211,
+   "fonte": "github",
+   "nome": "GaziMahmudur/Beauty-Salon-Landing-Page",
+   "pagina": "https://github.com/GaziMahmudur/Beauty-Salon-Landing-Page",
+   "site": "https://gazimahmudur.github.io/Beauty-Salon-Landing-Page/",
+   "mini": "https://opengraph.githubassets.com/1/GaziMahmudur/Beauty-Salon-Landing-Page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "✨ A premium, high-conversion landing page for a luxury beauty salon. Built with HTML, CSS, and Vanilla JS, featuring a \"Blush & Rose\" aesthetic, interactive ser",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 212,
+   "fonte": "github",
+   "nome": "ElitonPenke/landing-page-beauty-salon-website",
+   "pagina": "https://github.com/ElitonPenke/landing-page-beauty-salon-website",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/ElitonPenke/landing-page-beauty-salon-website",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page for Katia's beauty salon: hair, nails, coloring and more. Responsive, with services, gallery and contact info.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 213,
+   "fonte": "github",
+   "nome": "Smurf228/beauty-salon-landing-page-portfolio",
+   "pagina": "https://github.com/Smurf228/beauty-salon-landing-page-portfolio",
+   "site": "https://smurf228.github.io/beauty-salon-landing-page-portfolio/",
+   "mini": "https://opengraph.githubassets.com/1/Smurf228/beauty-salon-landing-page-portfolio",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Premium conversion-focused beauty salon landing page built with HTML, CSS, and vanilla JavaScript.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 214,
+   "fonte": "github",
+   "nome": "Almossaid/Premium-Beauty-Salon-Wellness-Landing-Page-Template",
+   "pagina": "https://github.com/Almossaid/Premium-Beauty-Salon-Wellness-Landing-Page-Template",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Almossaid/Premium-Beauty-Salon-Wellness-Landing-Page-Template",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Maison Élise Studio — Premium Beauty & Wellness Landing Page  A responsive, single-page HTML/CSS/JS template for salons, estheticians, skincare studios, spas, m",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 215,
+   "fonte": "github",
+   "nome": "Thesagar23/Glow-Aura-Salon-Website-UI",
+   "pagina": "https://github.com/Thesagar23/Glow-Aura-Salon-Website-UI",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Thesagar23/Glow-Aura-Salon-Website-UI",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A modern and elegant beauty Salon landing page UI designed in Figma featuring luxury aesthetics, responsive layouts, and an intuitive booking experience",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 216,
+   "fonte": "github",
+   "nome": "waseemnasir2k26/skynetlabs-salon-suite-demo",
+   "pagina": "https://github.com/waseemnasir2k26/skynetlabs-salon-suite-demo",
+   "site": "https://skynetjoe.com/?utm_source=github&utm_medium=readme&utm_campaign=skynetlabs-salon-suite-demo",
+   "mini": "https://opengraph.githubassets.com/1/waseemnasir2k26/skynetlabs-salon-suite-demo",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Speculative landing page for a boutique salon-suite rental brand: three design variants in one HTML file, transparent rent, refundable online deposit CTA. Stati",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 217,
+   "fonte": "github",
+   "nome": "jouryeslam0109-sudo/Nails-Done-Website",
+   "pagina": "https://github.com/jouryeslam0109-sudo/Nails-Done-Website",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/jouryeslam0109-sudo/Nails-Done-Website",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Professional Beauty Salon Website (Nails Done). A sleek, modern, and fully responsive landing page. Features a clean design, service showcase, and a ready-to-us",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 218,
+   "fonte": "github",
+   "nome": "jouryeslam0109-sudo/Nails-Done-Website-",
+   "pagina": "https://github.com/jouryeslam0109-sudo/Nails-Done-Website-",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/jouryeslam0109-sudo/Nails-Done-Website-",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Professional Beauty Salon Website (Nails Done). A sleek, modern, and fully responsive landing page. Features a clean design, service showcase, and a ready-to-us",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "beauty salon",
+   "tambemEm": []
+  },
+  {
+   "n": 219,
+   "fonte": "github",
+   "nome": "rafal19987/Hairdresser-Salon-Landing-Page-Booking-System-Nextjs-Tailwind-TypeScript-Redux-Nextauth-Zod",
+   "pagina": "https://github.com/rafal19987/Hairdresser-Salon-Landing-Page-Booking-System-Nextjs-Tailwind-TypeScript-Redux-Nextauth-Zod",
+   "site": "https://hairderesser-page.vercel.app/",
+   "mini": "https://opengraph.githubassets.com/1/rafal19987/Hairdresser-Salon-Landing-Page-Booking-System-Nextjs-Tailwind-TypeScript-Redux-Nextauth-Zod",
+   "licenca": "MIT",
+   "estrelas": 3,
+   "descricao": "[STILL IN DEVELOPMENT] Side project for learning purposes - front-end landing page for a hairdressing salon with a dedicated visit booking system.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "hair salon",
+   "tambemEm": []
+  },
+  {
+   "n": 220,
+   "fonte": "github",
+   "nome": "ClaudiaCavalleri/Nautilus-Hair-salon",
+   "pagina": "https://github.com/ClaudiaCavalleri/Nautilus-Hair-salon",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/ClaudiaCavalleri/Nautilus-Hair-salon",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A landing page for an imaginary hair salon",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "hair salon",
+   "tambemEm": []
+  },
+  {
+   "n": 221,
+   "fonte": "github",
+   "nome": "EduardoRochaFernandes/menu-projetos",
+   "pagina": "https://github.com/EduardoRochaFernandes/menu-projetos",
+   "site": "https://eduardorochafernandes.github.io/menu-projetos/",
+   "mini": "https://opengraph.githubassets.com/1/EduardoRochaFernandes/menu-projetos",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Live front-end demo sites: hair salon, real estate, coffee shop, restaurant, travel. Landing page, Pages deploy, CI link check. Demo copy is Portuguese.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "hair salon",
+   "tambemEm": []
+  }
+ ],
+ "manuais": [
+  {
+   "nome": "Godly",
+   "url": "https://godly.website/?q=beauty%20salon",
+   "motivo": "robots.txt bloqueia o robô do Claude"
+  },
+  {
+   "nome": "Land-book",
+   "url": "https://land-book.com/search?q=beauty%20salon",
+   "motivo": "termos proíbem coleta de dados"
+  },
+  {
+   "nome": "Lapa Ninja",
+   "url": "https://www.lapa.ninja/category/beauty/",
+   "motivo": "permite robô, mas respondeu 403 ao script em 09/11/2026: abrir no navegador"
+  },
+  {
+   "nome": "SiteInspire",
+   "url": "https://www.siteinspire.com/websites?search=beauty%20salon",
+   "motivo": "responde 429 a robô"
+  },
+  {
+   "nome": "Minimal Gallery",
+   "url": "https://minimal.gallery/?s=beauty%20salon",
+   "motivo": "termos proíbem raspar"
+  },
+  {
+   "nome": "CSS Design Awards",
+   "url": "https://www.cssdesignawards.com/website-gallery",
+   "motivo": "termos proíbem copiar conteúdo"
+  },
+  {
+   "nome": "Awwwards (busca livre)",
+   "url": "https://www.awwwards.com/websites/?text=beauty%20salon",
+   "motivo": "busca por texto fora do robots.txt"
+  },
+  {
+   "nome": "Framer Marketplace (modelos)",
+   "url": "https://www.framer.com/marketplace/templates/?search=beauty%20salon",
+   "motivo": "modelo só roda dentro do Framer"
+  },
+  {
+   "nome": "Made in Webflow",
+   "url": "https://webflow.com/made-in-webflow",
+   "motivo": "modelo só roda dentro do Webflow"
+  }
+ ],
+ "pecas": [
+  {
+   "nome": "Aceternity UI (grátis)",
+   "url": "https://ui.aceternity.com/components",
+   "instalar": "npx shadcn@latest add @aceternity/<peça>",
+   "licenca": "licença própria: uso livre em site de cliente; modelos e blocos Pro são pagos"
+  },
+  {
+   "nome": "Magic UI",
+   "url": "https://magicui.design/docs/components",
+   "instalar": "npx shadcn@latest add @magicui/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "React Bits",
+   "url": "https://reactbits.dev",
+   "instalar": "npx shadcn@latest add @react-bits/<peça>",
+   "licenca": "MIT + Commons Clause (não revender a peça)"
+  },
+  {
+   "nome": "Motion Primitives",
+   "url": "https://motion-primitives.com",
+   "instalar": "npx shadcn@latest add @motion-primitives/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Animata",
+   "url": "https://animata.design",
+   "instalar": "npx shadcn@latest add https://animata.design/r/<grupo>/<peça>.json",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Uiverse",
+   "url": "https://uiverse.io",
+   "instalar": "copiar da página (sem registro)",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "21st.dev",
+   "url": "https://21st.dev/community/components",
+   "instalar": "pela página de cada peça",
+   "licenca": "varia por autor: conferir na página"
+  }
+ ]
+}

@@ -1,0 +1,987 @@
+[
+  {
+    "id": "kit-texto-revelado",
+    "nome": "Texto revelado palavra por palavra",
+    "tipos": [
+      "texto-linha",
+      "entrada-simples"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/texto-revelado.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Sem prender a tela; igual no celular."
+  },
+  {
+    "id": "kit-letras-em-cena",
+    "nome": "Letras encontram seu lugar",
+    "tipos": [
+      "texto-letra"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/letras-em-cena.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Frase curta fora do título; caracteres em [data-letra]."
+  },
+  {
+    "id": "kit-palavra-zoom",
+    "nome": "Aproximar uma palavra",
+    "tipos": [
+      "texto-linha",
+      "zoom"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/palavra-zoom.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Transição curta entre uma palavra e o próximo assunto."
+  },
+  {
+    "id": "kit-camadas-profundidade",
+    "nome": "Camadas com profundidade (parallax)",
+    "tipos": [
+      "paralaxe"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/camadas-profundidade.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Sem prender a tela e sem 3D."
+  },
+  {
+    "id": "kit-sai-de-cena",
+    "nome": "Objeto sai de cena com o scroll",
+    "tipos": [
+      "paralaxe",
+      "entrada-simples"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/sai-de-cena.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Começo de qualquer site animado."
+  },
+  {
+    "id": "kit-foto-abre",
+    "nome": "Fotografia ocupa a janela",
+    "tipos": [
+      "zoom",
+      "revelacao-mascara",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/foto-abre.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "médio",
+    "observacao": "Foto de exemplo de 409 KB; não pré-carregar fotos abaixo da dobra."
+  },
+  {
+    "id": "kit-cortina",
+    "nome": "Cortina em duas superfícies",
+    "tipos": [
+      "revelacao-mascara",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/cortina.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Mudança de assunto com revelação ampla."
+  },
+  {
+    "id": "kit-secao-cobre-cena",
+    "nome": "Seção seguinte cobre a cena presa",
+    "tipos": [
+      "pilha",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/secao-cobre-cena.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": null,
+    "observacao": "Saída para qualquer cena presa; aprovada."
+  },
+  {
+    "id": "kit-rolagem-lateral",
+    "nome": "Três atos em rolagem lateral",
+    "tipos": [
+      "rolagem-lateral",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/rolagem-lateral.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Narrativa curta de três momentos; sem esconder informação obrigatória."
+  },
+  {
+    "id": "kit-linha-desenhada",
+    "nome": "Linha desenhada pela leitura",
+    "tipos": [
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/linha-desenhada.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Liga até três marcos; SVG inline."
+  },
+  {
+    "id": "kit-linha-do-tempo",
+    "nome": "Marcador desce a linha do tempo",
+    "tipos": [
+      "entrada-simples"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/linha-do-tempo.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "leve",
+    "observacao": "Sem prender a tela; ótimo no celular."
+  },
+  {
+    "id": "kit-rota-veiculo",
+    "nome": "Veículo percorre a rota",
+    "tipos": [
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/rota-veiculo.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": null,
+    "observacao": "Só computador; no celular usar linha-do-tempo."
+  },
+  {
+    "id": "kit-camera-vira",
+    "nome": "Câmera vira (veículo de lado para vista de cima)",
+    "tipos": [
+      "presa",
+      "3d"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/camera-vira.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap",
+      "three",
+      "@react-three/fiber"
+    ],
+    "peso": null,
+    "observacao": "Mecânica aprovada; visual só com .glb real + HDRI."
+  },
+  {
+    "id": "kit-orbita-3d",
+    "nome": "Câmera gira em volta de objeto 3D",
+    "tipos": [
+      "presa",
+      "3d"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/orbita-3d.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap",
+      "three",
+      "@react-three/fiber"
+    ],
+    "peso": null,
+    "observacao": "Protótipo; falta modelo bonito e versão leve no celular."
+  },
+  {
+    "id": "kit-modelo-3d-real",
+    "nome": "Modelo GLB real com câmera guiada pelo scroll",
+    "tipos": [
+      "3d",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/modelo-3d-real.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap",
+      "three",
+      "@react-three/fiber",
+      "@react-three/drei"
+    ],
+    "peso": "pesado",
+    "observacao": "Chunk ~300-450 KB gzip + GLB 0,5-2 MB; cuidar do LCP na abertura."
+  },
+  {
+    "id": "kit-distorcao-imagem",
+    "nome": "Foto real com onda e separação RGB",
+    "tipos": [
+      "3d"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/distorcao-imagem.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "three",
+      "@react-three/fiber",
+      "@react-three/drei"
+    ],
+    "peso": "pesado",
+    "observacao": "Shader sobre foto real; chunk ~300-450 KB gzip."
+  },
+  {
+    "id": "kit-fundo-shader",
+    "nome": "Fundo animado com shader",
+    "tipos": [
+      "3d"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/fundo-shader.md",
+    "licenca": "Apache-2.0 (Paper Shaders); receita do kit",
+    "bibliotecas": [
+      "@paper-design/shaders-react"
+    ],
+    "peso": "médio",
+    "observacao": "WebGL; pausa fora da tela; versão fixa sem ^."
+  },
+  {
+    "id": "kit-lottie-progresso",
+    "nome": "Lottie preso ao progresso do scroll",
+    "tipos": [
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/lottie-progresso.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "lottie-web",
+      "gsap"
+    ],
+    "peso": "médio",
+    "observacao": "Player leve ~47 KB gzip; palco sticky em vez de pin."
+  },
+  {
+    "id": "kit-rive-estados",
+    "nome": "Rive com estados ligados ao scroll e à interação",
+    "tipos": [
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/rive-estados.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "@rive-app/react-canvas",
+      "gsap"
+    ],
+    "peso": "pesado",
+    "observacao": "WASM ~0,5-1,5 MB; não testada em cliente."
+  },
+  {
+    "id": "kit-sequencia-quadros",
+    "nome": "Sequência de quadros (estilo Apple)",
+    "tipos": [
+      "presa",
+      "video"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/sequencia-quadros.md",
+    "licenca": "código do kit (DevConductor); bibliotecas com licença própria",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": "pesado",
+    "observacao": "60-120 imagens WebP num canvas; no máximo uma cena por site."
+  },
+  {
+    "id": "kit-area-estudo",
+    "nome": "A curva da leitura",
+    "tipos": [
+      "revelacao-mascara",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/area-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Janela revela área e traçado de gráfico. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-barras-estudo",
+    "nome": "Dados que tomam forma",
+    "tipos": [
+      "entrada-simples",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/barras-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Barras SVG crescem da mesma base. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-camadas-estudo",
+    "nome": "Um espaço entre planos",
+    "tipos": [
+      "paralaxe",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/camadas-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Camadas geométricas em velocidades distintas. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-circulo-estudo",
+    "nome": "Uma abertura circular",
+    "tipos": [
+      "revelacao-mascara",
+      "zoom",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/circulo-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Círculo se expande e muda figura e fundo. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-cronologia-estudo",
+    "nome": "O tempo tem ritmo",
+    "tipos": [
+      "entrada-simples",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/cronologia-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Marcos de uma sequência se conectam. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-divisao-estudo",
+    "nome": "Dois lados da passagem",
+    "tipos": [
+      "revelacao-mascara",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/divisao-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Dois planos saem em direções opostas e liberam o centro. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-dobradura-estudo",
+    "nome": "A palavra se desdobra",
+    "tipos": [
+      "texto-linha",
+      "3d",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/dobradura-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Planos tipográficos giram em perspectiva até ficarem legíveis. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-espiral-estudo",
+    "nome": "Uma leitura circular",
+    "tipos": [
+      "texto-linha",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/espiral-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Assinatura percorre linha circular em SVG. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-foco-estudo",
+    "nome": "Do contexto ao detalhe",
+    "tipos": [
+      "zoom",
+      "paralaxe",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/foco-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Círculos se separam em planos e convergem para um foco. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-grade-estudo",
+    "nome": "Compor o conjunto",
+    "tipos": [
+      "entrada-simples",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/grade-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Módulos entram de direções alternadas e formam uma grade. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-icones-estudo",
+    "nome": "Um traço essencial",
+    "tipos": [
+      "entrada-simples",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/icones-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Três símbolos originais ganham contorno. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-mapa-estudo",
+    "nome": "Lugares em conexão",
+    "tipos": [
+      "entrada-simples",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/mapa-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Regiões abstratas acendem em sequência; não é cobertura real. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-mascara-estudo",
+    "nome": "Ler entre camadas",
+    "tipos": [
+      "texto-linha",
+      "revelacao-mascara",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/mascara-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Texto atravessa uma máscara. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-orbitas-estudo",
+    "nome": "Um centro em comum",
+    "tipos": [
+      "3d",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/orbitas-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Órbitas SVG giram ao redor de um ponto. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-particulas-estudo",
+    "nome": "O conjunto se forma",
+    "tipos": [
+      "3d",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/particulas-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Pontos SVG se reúnem numa marca abstrata. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-pilha-estudo",
+    "nome": "Histórias sobrepostas",
+    "tipos": [
+      "pilha",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/pilha-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Três planos se empilham mantendo cada título legível. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-ponte-estudo",
+    "nome": "Passagem de escala",
+    "tipos": [
+      "zoom",
+      "revelacao-mascara",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/ponte-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Moldura cresce e dá lugar à próxima superfície. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-prisma-estudo",
+    "nome": "Luz em três dimensões",
+    "tipos": [
+      "3d",
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/prisma-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Prisma abstrato em CSS, sem biblioteca 3D. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "kit-rota-estudo",
+    "nome": "O ponto em viagem",
+    "tipos": [
+      "presa"
+    ],
+    "origem": "receita-do-kit",
+    "onde": "plugins/landing-pages/skills/lp-cenas/receitas/rota-estudo.md",
+    "licenca": "MIT (código original do DevConductor); GSAP tem licença própria; fonte Saira sob OFL",
+    "bibliotecas": [
+      "gsap",
+      "react"
+    ],
+    "peso": "leve",
+    "observacao": "Marcador acompanha a linha sendo desenhada. Estudo do estúdio, valores demonstrativos."
+  },
+  {
+    "id": "shadcn-magicui-marquee",
+    "nome": "Marquee infinito",
+    "tipos": [
+      "marquee"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @magicui/marquee",
+    "licenca": "MIT",
+    "bibliotecas": [
+      "react"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view. Faixa que rola sem parar."
+  },
+  {
+    "id": "shadcn-magicui-blur-fade",
+    "nome": "Entrada com blur e fade",
+    "tipos": [
+      "entrada-simples"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @magicui/blur-fade",
+    "licenca": "MIT",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-magicui-text-reveal",
+    "nome": "Texto que acende ao rolar",
+    "tipos": [
+      "texto-linha"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @magicui/text-reveal",
+    "licenca": "MIT",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-magicui-globe",
+    "nome": "Globo WebGL giratório",
+    "tipos": [
+      "3d"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @magicui/globe",
+    "licenca": "MIT",
+    "bibliotecas": [
+      "cobe",
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-aceternity-parallax-scroll",
+    "nome": "Grade com parallax ao rolar",
+    "tipos": [
+      "paralaxe"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @aceternity/parallax-scroll",
+    "licenca": "licença própria do Aceternity: uso livre em produto de cliente, não revender a peça",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-aceternity-sticky-scroll-reveal",
+    "nome": "Conteúdo preso que troca ao rolar",
+    "tipos": [
+      "presa"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @aceternity/sticky-scroll-reveal",
+    "licenca": "licença própria do Aceternity: uso livre em produto de cliente, não revender a peça",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-aceternity-text-generate-effect",
+    "nome": "Texto que se gera palavra a palavra",
+    "tipos": [
+      "texto-linha"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @aceternity/text-generate-effect",
+    "licenca": "licença própria do Aceternity: uso livre em produto de cliente, não revender a peça",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-aceternity-container-scroll-animation",
+    "nome": "Cartão que se inclina em 3D ao rolar",
+    "tipos": [
+      "3d",
+      "presa"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @aceternity/container-scroll-animation",
+    "licenca": "licença própria do Aceternity: uso livre em produto de cliente, não revender a peça",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-motion-primitives-text-effect",
+    "nome": "Efeito de texto por letra ou palavra",
+    "tipos": [
+      "texto-letra",
+      "texto-linha"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @motion-primitives/text-effect",
+    "licenca": "MIT",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-motion-primitives-infinite-slider",
+    "nome": "Slider infinito",
+    "tipos": [
+      "marquee"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @motion-primitives/infinite-slider",
+    "licenca": "MIT",
+    "bibliotecas": [
+      "motion",
+      "react-use-measure"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-motion-primitives-animated-group",
+    "nome": "Grupo que entra em sequência",
+    "tipos": [
+      "entrada-simples"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @motion-primitives/animated-group",
+    "licenca": "MIT",
+    "bibliotecas": [
+      "motion"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-react-bits-splittext-ts-css",
+    "nome": "SplitText: texto por letra em sequência",
+    "tipos": [
+      "texto-letra"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @react-bits/SplitText-TS-CSS",
+    "licenca": "MIT + Commons Clause (usar no site sim, revender a peça não)",
+    "bibliotecas": [
+      "gsap",
+      "@gsap/react"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view. Os nomes do React Bits levam variante (-TS-CSS, -TS-TW, -JS-CSS)."
+  },
+  {
+    "id": "shadcn-react-bits-scrollstack-ts-css",
+    "nome": "ScrollStack: cartões que prendem e empilham",
+    "tipos": [
+      "pilha",
+      "presa"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @react-bits/ScrollStack-TS-CSS",
+    "licenca": "MIT + Commons Clause (usar no site sim, revender a peça não)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-react-bits-scrollreveal-ts-css",
+    "nome": "ScrollReveal: texto que desfoca e revela",
+    "tipos": [
+      "texto-linha"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @react-bits/ScrollReveal-TS-CSS",
+    "licenca": "MIT + Commons Clause (usar no site sim, revender a peça não)",
+    "bibliotecas": [
+      "gsap"
+    ],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view."
+  },
+  {
+    "id": "shadcn-react-bits-aurora-ts-css",
+    "nome": "Aurora: fundo que flui e segue o cursor",
+    "tipos": [
+      "3d"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add @react-bits/Aurora-TS-CSS",
+    "licenca": "MIT + Commons Clause (usar no site sim, revender a peça não)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "Confirmada com shadcn view. Fundo WebGL."
+  },
+  {
+    "id": "animata-text-wave-reveal",
+    "nome": "Wave Reveal: letras ou palavras em onda",
+    "tipos": [
+      "texto-letra"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "npx shadcn@latest add https://animata.design/r/text/wave-reveal.json",
+    "licenca": "MIT",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "JSON do registro confirmado por download direto (shadcn view não usado)."
+  },
+  {
+    "id": "uiverse",
+    "nome": "Uiverse (biblioteca, sem peça cadastrada)",
+    "tipos": [
+      "entrada-simples"
+    ],
+    "origem": "registro-shadcn",
+    "onde": "copiar da página uiverse.io (sem registro nem MCP)",
+    "licenca": "MIT",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "Microinterações de botão, cartão e campo; sem comando de instalação, então nenhuma peça foi conferida."
+  },
+  {
+    "id": "codrops-scrollanimationsgrid",
+    "nome": "Efeitos de imagem em grade ao rolar",
+    "tipos": [
+      "entrada-simples",
+      "paralaxe"
+    ],
+    "origem": "codrops",
+    "onde": "https://github.com/codrops/ScrollAnimationsGrid",
+    "licenca": "MIT (API do GitHub)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "GSAP ScrollTrigger + Lenis. Só link: estudar e reescrever, não copiar código."
+  },
+  {
+    "id": "codrops-rotatingonscrollanimations",
+    "nome": "Imagens girando em 3D ao rolar",
+    "tipos": [
+      "3d",
+      "entrada-simples"
+    ],
+    "origem": "codrops",
+    "onde": "https://github.com/codrops/RotatingOnScrollAnimations",
+    "licenca": "MIT (API do GitHub)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "Ideias de rotação ligada à rolagem. Só link: estudar e reescrever, não copiar código."
+  },
+  {
+    "id": "codrops-imageexpansiontypography",
+    "nome": "Imagem que se expande dentro da tipografia",
+    "tipos": [
+      "zoom",
+      "texto-linha"
+    ],
+    "origem": "codrops",
+    "onde": "https://github.com/codrops/ImageExpansionTypography",
+    "licenca": "MIT (API do GitHub)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "Expansão de imagem num bloco de texto. Só link: estudar e reescrever, não copiar código."
+  },
+  {
+    "id": "codrops-scrolltextmotion",
+    "nome": "Movimento de texto ao rolar",
+    "tipos": [
+      "texto-linha",
+      "texto-letra"
+    ],
+    "origem": "codrops",
+    "onde": "https://github.com/codrops/ScrollTextMotion",
+    "licenca": "MIT (API do GitHub)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "GSAP + ScrollTrigger. Só link: estudar e reescrever, não copiar código."
+  },
+  {
+    "id": "codrops-seamtransitions",
+    "nome": "Onze transições na costura entre seções",
+    "tipos": [
+      "revelacao-mascara"
+    ],
+    "origem": "codrops",
+    "onde": "https://github.com/codrops/SeamTransitions",
+    "licenca": "MIT (API do GitHub)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "GSAP, WebGL e canvas; a próxima seção sobe sobre a abertura. Só link: estudar e reescrever, não copiar código."
+  },
+  {
+    "id": "codrops-isle-thorne-collective",
+    "nome": "Modelo Astro de loja de móveis com transições de página",
+    "tipos": [
+      "entrada-simples"
+    ],
+    "origem": "codrops",
+    "onde": "https://github.com/codrops/isle-thorne-collective",
+    "licenca": "MIT (API do GitHub)",
+    "bibliotecas": [],
+    "peso": null,
+    "observacao": "Template completo (Astro + Tailwind); fotos e design podem ter crédito à parte. Só link: estudar e reescrever, não copiar código."
+  }
+]

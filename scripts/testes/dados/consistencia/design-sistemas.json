@@ -1,0 +1,69 @@
+{
+  "versao": 1,
+  "pecas": {
+    "campo": [
+      "pecas/campo.tsx"
+    ],
+    "botao": "pecas/botao.tsx",
+    "cabecalho-tela": "pecas/cabecalho-tela.tsx",
+    "cabecalho-tabela": "pecas/tabela.tsx",
+    "estados": "pecas/estados.tsx"
+  },
+  "letra": {
+    "tamanhos": {
+      "legenda": "text-xs",
+      "corpo": "text-sm",
+      "destaque": "text-base",
+      "subtitulo": "text-lg",
+      "titulo": "text-xl"
+    },
+    "titulos": {
+      "pagina": "titulo",
+      "secao": "subtitulo",
+      "grupo": "destaque"
+    },
+    "minimoPx": 12,
+    "minimoCampoCelularPx": 16
+  },
+  "espaco": {
+    "unidadePx": 4
+  },
+  "raio": {
+    "controle": "rounded-md",
+    "cartao": "rounded-lg",
+    "selo": "rounded-full"
+  },
+  "cores": {
+    "funcao": {
+      "fundo": "background",
+      "texto": "foreground",
+      "apagado-texto": "muted-foreground",
+      "destaque": "primary",
+      "destaque-texto": "primary-foreground",
+      "erro": "destructive",
+      "borda": "border",
+      "foco": "ring"
+    },
+    "negocio": [
+      {
+        "nome": "atraso",
+        "valor": "orange-600",
+        "motivo": "Cor de atraso que a equipe já usa no quadro."
+      }
+    ]
+  },
+  "excecoes": [
+    {
+      "regra": "raio-superficie",
+      "arquivo": "casos/excecao/Tela.tsx",
+      "local": 4,
+      "motivo": "Cartão de destaque do painel, combinado com o dono."
+    },
+    {
+      "regra": "foco-substituto",
+      "arquivo": "casos/foco-com-excecao/Tela.tsx",
+      "local": 4,
+      "motivo": "Tentativa de liberar foco apagado."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "versao": 1,
+  "pecas": {
+    "campo": ["src/components/ui/input.tsx", "src/components/ui/textarea.tsx"],
+    "botao": "src/components/ui/button.tsx",
+    "selecao": "src/components/ui/select.tsx",
+    "cabecalho-tela": "src/components/cabecalho-tela.tsx",
+    "cabecalho-tabela": "src/components/ui/table.tsx",
+    "estados": "src/components/estados.tsx"
+  },
+  "letra": {
+    "tamanhos": {
+      "legenda": "text-xs",
+      "corpo": "text-sm",
+      "destaque": "text-base",
+      "subtitulo": "text-lg",
+      "titulo": "text-xl"
+    },
+    "titulos": { "pagina": "titulo", "secao": "subtitulo", "grupo": "destaque" },
+    "minimoPx": 12,
+    "minimoCampoCelularPx": 16
+  },
+  "espaco": { "unidadePx": 4 },
+  "raio": {
+    "controle": "rounded-md",
+    "cartao": "rounded-lg",
+    "janela": "rounded-lg",
+    "selo": "rounded-full"
+  },
+  "cores": {
+    "funcao": {
+      "fundo": "background",
+      "texto": "foreground",
+      "superficie": "card",
+      "superficie-texto": "card-foreground",
+      "flutuante": "popover",
+      "flutuante-texto": "popover-foreground",
+      "destaque": "primary",
+      "destaque-texto": "primary-foreground",
+      "secundaria": "secondary",
+      "secundaria-texto": "secondary-foreground",
+      "apagado": "muted",
+      "apagado-texto": "muted-foreground",
+      "realce": "accent",
+      "realce-texto": "accent-foreground",
+      "erro": "destructive",
+      "borda": "border",
+      "borda-campo": "input",
+      "foco": "ring",
+      "sucesso": "success",
+      "atencao": "warning"
+    },
+    "negocio": [
+      {
+        "nome": "rota-atrasada",
+        "valor": "orange-600",
+        "motivo": "Cor que a equipe já usa no quadro de rotas para atraso; só no selo da situação, sempre com a palavra."
+      }
+    ]
+  },
+  "telas": {
+    "clientes": "/clientes",
+    "pedidos": "/pedidos"
+  },
+  "estados": {
+    "pedir": "?estado={estado}",
+    "confirmar": "[data-estado=\"{estado}\"]",
+    "tentarDeNovo": "[data-acao=\"tentar-de-novo\"]",
+    "porTela": {
+      "clientes": { "lista": ["normal", "carregando", "vazio", "vazio-busca", "erro"] },
+      "pedidos": { "lista": ["normal", "carregando", "vazio", "erro"] }
+    }
+  },
+  "excecoes": [
+    {
+      "regra": "peca-base",
+      "arquivo": "src/telas/importar-planilha.tsx",
+      "local": 37,
+      "motivo": "Campo de arquivo nativo (input type=file) para importar planilha; a peça de campo não cobre envio de arquivo."
+    }
+  ]
+}

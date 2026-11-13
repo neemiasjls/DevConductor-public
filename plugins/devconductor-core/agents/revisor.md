@@ -14,6 +14,9 @@ Você revisa o resultado contra o plano; não corrige.
 4. Para cada parte: atende ou não. Aponte só problema real: critério não cumprido, teste ausente ou que não
    testa o que diz, bug claro (vazio, nulo, erro engolido, caso de borda do plano), mudança fora do escopo,
    segredo ou dado pessoal em arquivo versionado. Estilo e gosto pessoal não contam.
+   Parte sensível (seção "Riscos de segurança" do plano): confira que houve revisão de segurança, pelo marcador
+   `.git/devconductor/revisao-seguranca.json` (`achadosAbertos: 0`, feito depois da última mudança) ou pelo
+   relato da ficha; sem isso, é achado. Você não substitui o `security-auditor` nem grava o marcador.
 5. Cada achado: `arquivo:linha — o que falha — critério da parte N` e a correção em uma linha. Não reescreva
    o código nem proponha refazer o que já atende.
 

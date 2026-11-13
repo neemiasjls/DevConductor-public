@@ -7,6 +7,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { pathToFileURL } from 'node:url'
+import { baixarImagem } from './baixar-imagem.mjs'
 
 const ORIENTACOES = {
   pexels: { vertical: 'portrait', horizontal: 'landscape', quadrada: 'square' },
@@ -73,11 +74,12 @@ function principal(args) {
 async function buscar({ rotulo, fonte, buscas, orientacao, chave }) {
   const cabecalho = { 'User-Agent': 'DevConductor-lp-assets/1.0 (busca de fotos com licenca)' }
   const lista = [], vistos = new Set()
+  if (fonte === 'openverse') console.error('Openverse sem chave é fonte limitada: poucas fotos e ~1000 px (pequeno para fundo em tela cheia). PEXELS_API_KEY ou UNSPLASH_ACCESS_KEY no ambiente liberam as fontes melhores.')
   for (const busca of buscas) {
     const pedido = montarPedido(fonte, busca, { orientacao, chave })
     let resposta
-    // 502/504 é instabilidade conhecida do Openverse: repetir com calma. Bloqueio ou limite encerra.
-    for (let tentativa = 0; tentativa < 4; tentativa++) {
+    // 502/503/504 é instabilidade conhecida do Openverse: uma nova tentativa só. Bloqueio ou limite encerra.
+    for (let tentativa = 0; tentativa < 2; tentativa++) {
       resposta = await fetch(pedido.url, { headers: { ...cabecalho, ...pedido.headers }, signal: AbortSignal.timeout(30_000) })
       if (![502, 503, 504].includes(resposta.status)) break
       await new Promise((r) => setTimeout(r, 3000))
@@ -96,10 +98,9 @@ async function buscar({ rotulo, fonte, buscas, orientacao, chave }) {
   fs.writeFileSync(`${rotulo}.json`, JSON.stringify(lista, null, 1), { flag: 'wx' })
   for (const foto of lista) {
     if (!foto.mini) continue
-    try {
-      const r = await fetch(foto.mini, { headers: cabecalho, signal: AbortSignal.timeout(30_000) })
-      if (r.ok) fs.writeFileSync(`${rotulo}-${String(foto.n).padStart(2, '0')}.jpg`, Buffer.from(await r.arrayBuffer()), { flag: 'wx' })
-    } catch { /* miniatura que falha só não entra na folha */ }
+    const r = await baixarImagem(foto.mini, { headers: cabecalho, timeout: 30_000 })
+    if (r.ok) fs.writeFileSync(`${rotulo}-${String(foto.n).padStart(2, '0')}.jpg`, r.buffer, { flag: 'wx' })
+    else console.error(`Miniatura ${foto.n} não gravada: ${r.motivo}`)
   }
   console.log(`${lista.length} fotos em ${rotulo}.json; folha: python -I folha-contato.py ${rotulo}`)
   return lista.length ? 0 : 1

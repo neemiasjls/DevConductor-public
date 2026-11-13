@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vídeo de venda: celular</title>
+<script src="motor.js"></script>
+<style>
+  /* Roteiro "celular": o nome da empresa abre, um celular grande sobe com o site funcionando e o dedo passeia
+     pelas seções; no fim o celular desce e a chamada com o contato fica na tela.
+     Medidas em px de CSS (quadro 432 x 768, sai 2,5 vezes maior).
+     O celular de verdade (#aparelho, com o site vivo) nunca sai do lugar. Quem sobe e desce é o dublê (#duble),
+     um celular igual com uma foto do site; quando ele para, o de verdade aparece no mesmo ponto.
+     Posições pares: o site cai em pixel inteiro e a foto fica idêntica ao site. */
+  #luz { position: absolute; inset: 0; background: radial-gradient(95% 60% at 50% 36%, color-mix(in srgb, var(--destaque) 18%, transparent) 0%, transparent 72%); }
+
+  #marca { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 30px 30px; }
+  #marca-nome { width: 372px; font-size: 92px; line-height: 1.08; }
+  #marca-nome .palavra { overflow: hidden; padding: .1em .03em .18em; margin: -.1em -.03em -.18em; vertical-align: top; }
+  #marca-fio { width: 64px; height: 1.5px; margin-top: 20px; background: var(--destaque); }
+  #marca-sub { margin-top: 20px; font-size: 13.5px; font-weight: 500; letter-spacing: .3em; text-transform: uppercase; }
+
+  #topo { position: absolute; left: 0; right: 0; top: 0; height: 80px; text-align: center; }
+  #topo-nome { position: absolute; left: 0; right: 0; top: 15px; font-size: 12.5px; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; color: var(--destaque); }
+  #topo-rotulos { position: absolute; left: 20px; right: 20px; top: 33px; height: 32px; }
+  .rotulo { position: absolute; inset: 0; font-size: 23px; line-height: 32px; white-space: nowrap; }
+  #topo-passos { position: absolute; left: 0; right: 0; top: 70px; display: flex; justify-content: center; gap: 5px; }
+  #topo-passos i { display: block; width: 28px; height: 2px; border-radius: 1px; background: color-mix(in srgb, var(--texto) 26%, transparent); overflow: hidden; }
+  #topo-passos b { display: block; height: 100%; background: var(--texto); transform-origin: 0 50%; }
+
+  .casca { position: absolute; left: 12px; top: 80px; width: 408px; height: 684px; border-radius: 34px; background: #0b0b0c; transform-origin: 50% 0;
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--texto) 24%, transparent), 0 26px 54px rgba(0, 0, 0, .5); }
+  #site, #foto { position: absolute; left: 8px; top: 8px; width: 392px; height: 668px; border-radius: 26px; }
+
+  #fim { position: absolute; left: 0; right: 0; top: 0; height: 440px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 26px 30px 0; }
+  #fim-nome { font-size: 12.5px; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; color: var(--destaque); }
+  #fim-chamada { width: 372px; margin-top: 18px; font-size: 40px; line-height: 1.14; text-wrap: balance; }
+  #fim-botao { margin-top: 28px; padding: 13px 26px; border-radius: 999px; background: var(--texto); color: var(--fundo); font-size: 15px; font-weight: 600; letter-spacing: .04em; }
+  #fim-contato { margin-top: 16px; font-size: 16px; font-weight: 500; }
+  #fim-aviso { margin-top: 14px; font-size: 12.5px; color: color-mix(in srgb, var(--texto) 82%, var(--fundo)); }
+</style>
+</head>
+<body>
+<div id="palco">
+  <div id="luz"></div>
+
+  <div id="marca">
+    <div id="marca-nome" class="titulo"></div>
+    <div id="marca-fio"></div>
+    <div id="marca-sub"></div>
+  </div>
+
+  <div id="topo">
+    <div id="topo-nome"></div>
+    <div id="topo-rotulos"></div>
+    <div id="topo-passos"></div>
+  </div>
+
+  <div id="aparelho" class="casca"><iframe id="site" title="site"></iframe></div>
+  <div id="duble" class="casca"><img id="foto" alt=""></div>
+
+  <div id="fim" data-fim>
+    <div id="fim-nome"></div>
+    <div id="fim-chamada" class="titulo"></div>
+    <div id="fim-botao"></div>
+    <div id="fim-contato"></div>
+    <div id="fim-aviso"></div>
+  </div>
+</div>
+
+<script>
+Video.modelo({
+  nome: 'celular',
+  montar(v, d) {
+    const secoes = d.secoes.slice(0, 5)
+    const n = secoes.length
+
+    // Textos
+    const letras = v.letras('#marca-nome', d.nome)
+    v.cabe('#marca-nome', { max: 92, min: 30, linhas: 3 })
+    v.escreve('#marca-sub', d.sub)
+    v.escreve('#topo-nome', d.nome)
+    const rotulos = secoes.map((s) => {
+      const m = document.createElement('div')
+      m.className = 'rotulo titulo mascara'
+      const t = document.createElement('span')
+      t.textContent = s.rotulo
+      m.append(t)
+      v.el('#topo-rotulos').append(m)
+      v.cabe(m, { max: 23, min: 13 })
+      return t
+    })
+    const barras = secoes.map(() => { const i = document.createElement('i'), b = document.createElement('b'); i.append(b); v.el('#topo-passos').append(i); return b })
+    v.escreve('#fim-nome', d.nome)
+    v.escreve('#fim-chamada', d.chamada)
+    v.cabe('#fim-chamada', { max: 40, min: 22, linhas: 3 })
+    const linhas = v.linhas('#fim-chamada')
+    if (d.botao) { v.escreve('#fim-botao', d.botao); v.escreve('#fim-contato', d.contato) }
+    else { v.escreve('#fim-botao', d.contato); v.escreve('#fim-contato', '') }
+    v.escreve('#fim-aviso', d.aviso)
+
+    // Tempos (segundos)
+    const CHEGA = 2.65 // o dublê para e o celular de verdade assume
+    const T0 = CHEGA + 0.1, PASSEIO = 7.8, MOVE = 0.85
+    const parada = (PASSEIO - MOVE * (n - 1)) / n
+    const TF = T0 + PASSEIO, FIM = TF + 3.4
+
+    // Abertura: o nome sobe letra por letra
+    v.cena('#marca', 0, 2.4)
+    v.anima(letras, 0.12, 0.8, { yp: [140, 0] }, 'sai4', Math.min(0.05, 0.4 / letras.length))
+    v.anima('#marca-fio', 0.45, 0.55, { escalaX: [0, 1] }, 'vai3')
+    v.anima('#marca-sub', 0.55, 0.5, { opacidade: [0, 1], y: [10, 0] }, 'sai3')
+    v.anima(letras, 1.74, 0.42, { yp: -140 }, 'entra3', Math.min(0.02, 0.2 / letras.length))
+    v.anima('#marca-fio, #marca-sub', 1.78, 0.3, { opacidade: 0 }, 'entra2')
+
+    // O celular sobe (dublê com a foto do site) e, ao parar, o site começa de verdade
+    v.foto(0, '#foto')
+    v.siteEm(CHEGA)
+    v.cena('#duble', 1.6, CHEGA)
+    v.anima('#duble', 1.65, CHEGA - 1.65, { y: [740, 0] }, 'sai4')
+    v.anima('#aparelho', CHEGA, 0, { opacidade: [0, 1] })
+    v.cena('#topo', 2.2, TF + 0.4)
+    v.anima('#topo-nome', 2.25, 0.45, { opacidade: [0, 1], y: [-6, 0] }, 'sai3')
+    v.anima('#topo-passos', 2.35, 0.45, { opacidade: [0, 1] }, 'sai2')
+
+    // Passeio: para em cada seção, depois o dedo empurra para a próxima
+    secoes.forEach((s, i) => {
+      const chega = T0 + i * (parada + MOVE), sai = chega + parada
+      const entra = i === 0 ? 2.35 : chega - MOVE + 0.12
+      if (i > 0) v.rola(chega - MOVE, MOVE, { secao: i }, 'toque')
+      v.rola(chega, parada, { secao: i, mais: 36 }, 'seno')
+      v.anima(rotulos[i], entra, 0.5, { yp: [140, 0] }, 'sai4')
+      if (i < n - 1) v.anima(rotulos[i], sai + 0.02, 0.3, { yp: -140 }, 'entra3')
+      v.anima(barras[i], i === 0 ? T0 : chega - MOVE, (i === 0 ? parada : parada + MOVE), { escalaX: [0, 1] }, 'linear')
+    })
+
+    // Fecho: o celular desce e a chamada fica
+    v.anima('#topo', TF, 0.35, { opacidade: 0 }, 'entra2')
+    v.foto(TF, '#foto')
+    v.anima('#aparelho', TF, 0, { opacidade: 0 })
+    v.cena('#duble', TF, FIM)
+    v.anima('#duble', TF, 0.95, { y: [0, 384], escala: [1, 0.94] }, 'vai3')
+    v.cena('#fim', TF + 0.2, FIM)
+    v.anima('#fim-nome', TF + 0.3, 0.5, { opacidade: [0, 1], y: [-6, 0] }, 'sai3')
+    v.anima(linhas, TF + 0.38, 0.75, { yp: [140, 0] }, 'sai4', 0.09)
+    v.anima('#fim-botao', TF + 0.7, 0.6, { opacidade: [0, 1], y: [14, 0], escala: [0.95, 1] }, 'sai3')
+    v.anima('#fim-contato', TF + 0.82, 0.5, { opacidade: [0, 1], y: [10, 0] }, 'sai3')
+    v.anima('#fim-aviso', TF + 0.92, 0.5, { opacidade: [0, 1] }, 'sai2')
+    v.duracao(FIM)
+  },
+})
+</script>
+</body>
+</html>

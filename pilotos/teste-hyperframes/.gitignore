@@ -1,0 +1,9 @@
+node_modules/
+*.mp4
+*.webm
+*.mov
+quadros/
+.cache/
+renders/
+assets/
+.hyperframes/

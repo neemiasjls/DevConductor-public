@@ -1,0 +1,154 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-titulo: 'Bodoni Moda', 'Times New Roman', serif;
+  --font-corpo: 'Familjen Grotesk Variable', system-ui, sans-serif;
+  --color-aroeira: #6e2914;
+  --color-cerne: #3a160b;
+  --color-creme: #f3e7dc;
+  --color-areia: #d8b8a0;
+  --color-tinta: #0f0f0f;
+  --color-cinza: #8d8783;
+}
+
+html { background: var(--color-tinta); }
+body {
+  margin: 0;
+  font-family: var(--font-corpo);
+  font-size: 16px;
+  line-height: 1.45;
+  color: #fff;
+  background: var(--color-tinta);
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--color-areia); color: var(--color-cerne); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--color-areia); outline-offset: 3px; }
+
+/* Título em caixa alta, fino e de alto contraste, como o peso da base. */
+.titulo {
+  font-family: var(--font-titulo);
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+}
+.titulo-luz {
+  background: linear-gradient(100deg, #fff 0%, #f3e7dc 45%, #c9a58b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Régua de marcação acima da faixa (marcenaria mede tudo). */
+.regua {
+  height: 14px;
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.55) 1px, transparent 1px),
+    linear-gradient(to right, rgb(255 255 255 / 0.35) 1px, transparent 1px);
+  background-size: 245px 14px, 49px 5px;
+  background-repeat: repeat-x;
+  background-position: 0 100%, 0 100%;
+}
+
+/* Meia volta = seis cartões + seis vãos; -50% sozinho deixa meio vão (16,5 px) de salto na emenda. */
+@keyframes faixa { to { transform: translateX(calc(-50% - 16.5px)); } }
+@media (min-width: 768px) { .faixa { animation: faixa 70s linear infinite; } }
+.faixa:hover, .faixa:focus-within { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .faixa { animation: none; }
+}
+
+/* Marca d'água em baixo-relevo no rodapé. */
+.relevo {
+  color: var(--color-tinta);
+  text-shadow: -1px -1px 0 rgb(255 255 255 / 0.07), 1px 1px 0 rgb(0 0 0 / 0.9), 0 0 1px rgb(255 255 255 / 0.05);
+}
+
+/* Número grande em relevo fraco (contorno de letra mostrava a emenda dos traços da fonte). */
+.numero {
+  line-height: 0.8;
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.62) 0%, rgb(255 255 255 / 0.22) 92%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Um tratamento de cor só para fotos de origens diferentes: quase duotom, puxado para o tom da madeira. */
+.tom-unico { filter: grayscale(0.82) sepia(0.34) contrast(1.05) brightness(0.96); transition: filter 0.5s; }
+.group:hover .tom-unico { filter: none; }
+
+/* Seção clara: faixas de luz em curva, andando devagar (no lugar do shader da base). */
+.luzes {
+  background:
+    radial-gradient(90% 20% at 78% 8%, rgb(255 255 255 / 0.95), transparent 68%),
+    radial-gradient(80% 16% at 60% 33%, rgb(196 168 128 / 0.3), transparent 70%),
+    radial-gradient(70% 18% at 30% 58%, rgb(255 255 255 / 0.9), transparent 68%),
+    radial-gradient(80% 14% at 45% 78%, rgb(196 168 128 / 0.26), transparent 70%),
+    radial-gradient(60% 16% at 88% 94%, rgb(255 255 255 / 0.8), transparent 68%);
+  transform: rotate(-24deg) scale(1.6);
+  filter: blur(22px);
+  animation: luzes 26s ease-in-out infinite alternate;
+}
+@keyframes luzes { to { transform: rotate(-19deg) scale(1.7) translate3d(3%, -4%, 0); } }
+
+/* Pauta fina atrás do desenho, como folha de projeto. */
+.pauta {
+  background-image: linear-gradient(to bottom, rgb(120 100 80 / 0.16) 1px, transparent 1px);
+  background-size: 100% 22px;
+  padding: 22px 0;
+}
+
+/* Seção de processo: brilho esverdeado com linhas, respirando. */
+.fundo-processo {
+  background: radial-gradient(58% 50% at 58% 50%, #46543a 0%, #3b4630 30%, #1a2016 62%, #070906 100%);
+}
+/* Grão fino por cima: tira as faixas do degradê e dá matéria (feltro de bancada). */
+.grao {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+}
+.brilho { animation: brilho 9s ease-in-out infinite alternate; }
+.pauta-escura { background: repeating-linear-gradient(to bottom, rgb(255 255 255 / 0.018) 0 1px, transparent 1px 34px); }
+@keyframes brilho { from { opacity: 0.72; } to { opacity: 1; } }
+
+/* Escada: cada passo liga no seguinte por um canto arredondado. */
+.degrau::before {
+  content: '';
+  position: absolute;
+  left: 0.3rem;
+  top: 2rem;
+  bottom: 0;
+  width: 1px;
+  background: rgb(255 255 255 / 0.16);
+}
+@media (max-width: 1023.9px) { .degrau:last-child::before { display: none; } }
+@media (min-width: 1024px) {
+  .degrau::before {
+    width: 82%;
+    background: none;
+    border-left: 1px solid rgb(255 255 255 / 0.16);
+    border-bottom: 1px solid rgb(255 255 255 / 0.16);
+    border-bottom-left-radius: 10px;
+  }
+  .degrau:last-child::before { border-bottom: 0; border-radius: 0; bottom: 1.5rem; }
+}
+
+/* Retrato estático (antes do JavaScript): os cartões da abertura esperam fora do palco, como na cena. */
+@media (prefers-reduced-motion: no-preference) {
+  [data-prerender='estatico'] [data-cartoes] { transform: translateY(17svh); }
+  @media (min-width: 768px) { [data-prerender='estatico'] [data-cartoes] { transform: translateY(70svh); } }
+}
+
+.titulo { text-wrap: balance; }
+p { text-wrap: pretty; }
+.assinatura { font-family: 'Mrs Saint Delafield', cursive; }
+
+/* Título gravado na faixa clara. */
+.gravado {
+  color: #3f3731;
+  text-shadow: 0 1px 0 rgb(255 255 255 / 0.75), 0 -1px 0 rgb(60 40 30 / 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .luzes, .brilho { animation: none; }
+}

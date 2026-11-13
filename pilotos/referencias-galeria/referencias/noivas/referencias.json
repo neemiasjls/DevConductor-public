@@ -1,0 +1,1681 @@
+{
+ "categoria": "noivas",
+ "nome": "Vestidos de noiva e moda de casamento",
+ "data": "2026-11-10",
+ "relatorio": {
+  "opl": {
+   "lidos": 24,
+   "pedidos": 3,
+   "parou": null,
+   "unicos": 24
+  },
+  "awwwards": {
+   "lidos": 64,
+   "pedidos": 5,
+   "parou": null,
+   "unicos": 61
+  },
+  "lapa": {
+   "lidos": 0,
+   "pedidos": 0,
+   "parou": null,
+   "unicos": 0
+  },
+  "github": {
+   "lidos": 33,
+   "pedidos": 3,
+   "parou": "403 em https://api.github.com/search/repositories?q=bridal%20landing%20in%3Aname%2Cdescription%2Ctopics%20license%3Amit&sort=stars&per_page=30&page=1",
+   "unicos": 33
+  }
+ },
+ "itens": [
+  {
+   "n": 1,
+   "fonte": "opl",
+   "nome": "Sarah &#038; Matt Wedding",
+   "pagina": "https://onepagelove.com/sarah-matt-wedding",
+   "site": "https://sarahandmatt.wedding",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-sarah-matt-1780925910068-desktop.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 2,
+   "fonte": "opl",
+   "nome": "Daniela x Moe",
+   "pagina": "https://onepagelove.com/daniela-x-moe",
+   "site": "https://danielaandmoe.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2021/09/opl-master-26.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 3,
+   "fonte": "opl",
+   "nome": "Veley / Ross Wedding",
+   "pagina": "https://onepagelove.com/veley-ross-wedding",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2020/05/opl-master-12.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": [
+    "awwwards"
+   ]
+  },
+  {
+   "n": 4,
+   "fonte": "opl",
+   "nome": "Claudia · Alessandro",
+   "pagina": "https://onepagelove.com/claudia-alessandro",
+   "site": "https://alessandroscarpellini.it/wedding/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2019/03/opl-master-4.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 5,
+   "fonte": "opl",
+   "nome": "Rohit & Anita &#8211; Save The Date",
+   "pagina": "https://onepagelove.com/rohit-anita-save-the-date",
+   "site": "https://rohitbind.com/invitation/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2019/01/opl-master-31.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 6,
+   "fonte": "opl",
+   "nome": "3 years Manuela & Michael",
+   "pagina": "https://onepagelove.com/3-years-manuela-michael",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2018/09/opl-big-3.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 7,
+   "fonte": "opl",
+   "nome": "The Wedding of Jessica and Brennan",
+   "pagina": "https://onepagelove.com/the-wedding-of-jessica-and-brennan",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2016/11/opl-big-40.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 8,
+   "fonte": "opl",
+   "nome": "Take the Highbrown",
+   "pagina": "https://onepagelove.com/take-the-highbrown",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2017/05/opl-big-20.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 9,
+   "fonte": "opl",
+   "nome": "Dan + Christine Wedding",
+   "pagina": "https://onepagelove.com/dan-christine-wedding",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2017/03/opl-big-32.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 10,
+   "fonte": "opl",
+   "nome": "The Wedding of Ashley and Jeff",
+   "pagina": "https://onepagelove.com/the-wedding-of-ashley-and-jeff",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2017/02/opl-big-18.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 11,
+   "fonte": "opl",
+   "nome": "Wedding Ciavolich",
+   "pagina": "https://onepagelove.com/wedding-ciavolich",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2016/07/opl-big-10.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 12,
+   "fonte": "opl",
+   "nome": "BeRichinlove",
+   "pagina": "https://onepagelove.com/berichinlove",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/berichinlove-big-1280_5981.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 13,
+   "fonte": "opl",
+   "nome": "Puttin&#8217; On The Fritts",
+   "pagina": "https://onepagelove.com/puttin-on-the-fritts",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/puttinonthefritts1.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 14,
+   "fonte": "opl",
+   "nome": "Vineeth Weds Kavya",
+   "pagina": "https://onepagelove.com/vineeth-weds-kavya",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/12/opl-big-7.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 15,
+   "fonte": "opl",
+   "nome": "Alex & Vivi &#8211; Under the willow tree",
+   "pagina": "https://onepagelove.com/alex-vivi-under-the-willow-tree",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/09/opl-big8.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 16,
+   "fonte": "opl",
+   "nome": "Mitch &#038; Kelsy&#8217;s Engagement",
+   "pagina": "https://onepagelove.com/mitch-kelsys-engagement",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/08/opl-big-mk.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 17,
+   "fonte": "opl",
+   "nome": "Online Proposal of François Martin",
+   "pagina": "https://onepagelove.com/online-proposal-of-francois-martin",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/05/opl-big43.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 18,
+   "fonte": "opl",
+   "nome": "Julie and Kurt",
+   "pagina": "https://onepagelove.com/julie-and-kurt",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/Julie-Clute-and-Kurt-Elster-are-getting-hitched.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 19,
+   "fonte": "opl",
+   "nome": "Miller Elopement",
+   "pagina": "https://onepagelove.com/miller-elopement",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/01/opl-big33.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 20,
+   "fonte": "opl",
+   "nome": "Matt & Mallory",
+   "pagina": "https://onepagelove.com/matt-mallory",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/12/opl-big54.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 21,
+   "fonte": "opl",
+   "nome": "The Perfect Jodi",
+   "pagina": "https://onepagelove.com/the-perfect-jodi",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/1200.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 22,
+   "fonte": "opl",
+   "nome": "Amit and Swati Wedding",
+   "pagina": "https://onepagelove.com/amit-and-swati-wedding",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/12/opl-big6.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": [
+    "awwwards"
+   ]
+  },
+  {
+   "n": 23,
+   "fonte": "opl",
+   "nome": "The Wedding of Matthew & Laura",
+   "pagina": "https://onepagelove.com/the-wedding-of-matthew-laura",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/11/opl-big32.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 24,
+   "fonte": "opl",
+   "nome": "The Wild Romantic",
+   "pagina": "https://onepagelove.com/the-wild-romantic",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2014/10/opl-big34.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 25,
+   "fonte": "awwwards",
+   "nome": "La Vallée Bridal",
+   "pagina": "https://www.awwwards.com/sites/lavalleebridal",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/10/5bc8e9cd65275.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "bridal",
+   "tambemEm": []
+  },
+  {
+   "n": 26,
+   "fonte": "awwwards",
+   "nome": "The Bridal Planner",
+   "pagina": "https://www.awwwards.com/sites/the-bridal-planner",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/01/586d1d7e00ef9.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "bridal",
+   "tambemEm": []
+  },
+  {
+   "n": 27,
+   "fonte": "awwwards",
+   "nome": "The Bridal Shop Mary Trufel",
+   "pagina": "https://www.awwwards.com/sites/the-bridal-shop-mary-trufel",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/01/54b4440a6b328.jpeg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling"
+   ],
+   "categoriaFonte": "bridal",
+   "tambemEm": []
+  },
+  {
+   "n": 28,
+   "fonte": "awwwards",
+   "nome": "Bridal shop Mary Trufel",
+   "pagina": "https://www.awwwards.com/sites/bridal-shop-mary-trufel",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2013/03/51423e5f92a45.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "bridal",
+   "tambemEm": []
+  },
+  {
+   "n": 29,
+   "fonte": "awwwards",
+   "nome": "Palazzo Bridal by JaneWhite",
+   "pagina": "https://www.awwwards.com/sites/palazzo-bridal-by-janewhite",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/33121022124537.png",
+   "etiquetas": [],
+   "categoriaFonte": "bridal",
+   "tambemEm": []
+  },
+  {
+   "n": 30,
+   "fonte": "awwwards",
+   "nome": "Wedding Invitation | Y & T",
+   "pagina": "https://www.awwwards.com/sites/wedding-invitation-y-t",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac9cda806a05899812098.png",
+   "etiquetas": [
+    "Scrolling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 31,
+   "fonte": "awwwards",
+   "nome": "Avagyan Wedding Photography",
+   "pagina": "https://www.awwwards.com/sites/avagyan-wedding-photography",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/12/6945079882491483726699.png",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 32,
+   "fonte": "awwwards",
+   "nome": "Wedding invitation",
+   "pagina": "https://www.awwwards.com/sites/wedding-invitation",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/07/686cb82aec29a698892823.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 33,
+   "fonte": "awwwards",
+   "nome": "OBSESD - Wedding Photography",
+   "pagina": "https://www.awwwards.com/sites/obsesd-wedding-photography",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/05/681b711611fea417130628.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 34,
+   "fonte": "awwwards",
+   "nome": "Boutique Weddings",
+   "pagina": "https://www.awwwards.com/sites/boutique-weddings-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/05/681889e632fc4890248171.png",
+   "etiquetas": [
+    "Video",
+    "Storytelling"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 35,
+   "fonte": "awwwards",
+   "nome": "Wedding Magazine",
+   "pagina": "https://www.awwwards.com/sites/wedding-magazine",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/12/67686ead76398156396910.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 36,
+   "fonte": "awwwards",
+   "nome": "Mens Wedding Bands",
+   "pagina": "https://www.awwwards.com/sites/mens-wedding-bands",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/667cac1a846c2122645242.png",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 37,
+   "fonte": "awwwards",
+   "nome": "Marie's wedding gallery",
+   "pagina": "https://www.awwwards.com/sites/maries-wedding-gallery",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/04/643e6bc6e1bd8282872893.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 38,
+   "fonte": "awwwards",
+   "nome": "Bali Wedding",
+   "pagina": "https://www.awwwards.com/sites/bali-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/6412ca8187ac9972451417.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 39,
+   "fonte": "awwwards",
+   "nome": "Wedding to Sardinia",
+   "pagina": "https://www.awwwards.com/sites/wedding-to-sardinia",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/09/6315d9bc130ba997896425.jpg",
+   "etiquetas": [
+    "Parallax",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 40,
+   "fonte": "awwwards",
+   "nome": "WED, Inc. corporate site",
+   "pagina": "https://www.awwwards.com/sites/wed-inc-corporate-site",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/01/61e3b44c682d6698862227.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 41,
+   "fonte": "awwwards",
+   "nome": "Tatiana de Weber Weddings",
+   "pagina": "https://www.awwwards.com/sites/tatiana-de-weber-weddings",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/07/60ffd89cb9ba7388477248.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 42,
+   "fonte": "awwwards",
+   "nome": "Wedding Cinema Club",
+   "pagina": "https://www.awwwards.com/sites/wedding-cinema-club",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/06/60b8ea922597b279361263.png",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 43,
+   "fonte": "awwwards",
+   "nome": "Michelle & Tonye - Wedding Day",
+   "pagina": "https://www.awwwards.com/sites/michelle-tonye-wedding-day",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/02/6028a7a9b3f01399431877.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "Motion"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 44,
+   "fonte": "awwwards",
+   "nome": "Finally Sexton | Wedding",
+   "pagina": "https://www.awwwards.com/sites/finally-sexton-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/02/601c7dd51ee93840889007.jpg",
+   "etiquetas": [
+    "Animation",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 45,
+   "fonte": "awwwards",
+   "nome": "Diamond Cross Wedding",
+   "pagina": "https://www.awwwards.com/sites/diamond-cross-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/06/5ee78afd52940763201154.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Storytelling",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 46,
+   "fonte": "awwwards",
+   "nome": "Weddings by Nina",
+   "pagina": "https://www.awwwards.com/sites/weddings-by-nina",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/03/5e5ddb53acb7a077719891.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 47,
+   "fonte": "awwwards",
+   "nome": "Best Wedding Website Builder",
+   "pagina": "https://www.awwwards.com/sites/best-wedding-website-builder",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/02/5e396617ab6aa492414424.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 48,
+   "fonte": "awwwards",
+   "nome": "ABETEL  WEDDING",
+   "pagina": "https://www.awwwards.com/sites/abetel-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/09/5d8e6c50970ea930270815.png",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 49,
+   "fonte": "awwwards",
+   "nome": "Wedding Tales Santorini",
+   "pagina": "https://www.awwwards.com/sites/wedding-tales-santorini",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/09/5d6d16fea893a244879267.png",
+   "etiquetas": [
+    "Animation",
+    "WebGL"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 50,
+   "fonte": "awwwards",
+   "nome": "Bootstrap Wedding Template",
+   "pagina": "https://www.awwwards.com/sites/bootstrap-wedding-template",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/07/5b489cdfdb03d.jpg",
+   "etiquetas": [
+    "Scrolling"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 51,
+   "fonte": "awwwards",
+   "nome": "Andreas & Mathilde · Wedding",
+   "pagina": "https://www.awwwards.com/sites/andreas-mathilde-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/07/5b3c8910f2b7d.png",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 52,
+   "fonte": "awwwards",
+   "nome": "Seven Mile Weddings",
+   "pagina": "https://www.awwwards.com/sites/seven-mile-weddings",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/05/5b0e2f52cfd62.jpg",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 53,
+   "fonte": "awwwards",
+   "nome": "Wedding films - Tellinger",
+   "pagina": "https://www.awwwards.com/sites/wedding-films-tellinger",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/10/59e8ee570cb26.jpg",
+   "etiquetas": [
+    "Animation",
+    "Video"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 54,
+   "fonte": "awwwards",
+   "nome": "Wedding Fuchsia",
+   "pagina": "https://www.awwwards.com/sites/wedding-fuchsia",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/06/594de2b90d2f8.jpg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 55,
+   "fonte": "awwwards",
+   "nome": "My Wedding Day",
+   "pagina": "https://www.awwwards.com/sites/my-wedding-day",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/04/58f26f8fe4c86.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 56,
+   "fonte": "awwwards",
+   "nome": "Domino's Wedding Registry",
+   "pagina": "https://www.awwwards.com/sites/domino-s-wedding-registry",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/02/58b5bec089b1e.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 57,
+   "fonte": "awwwards",
+   "nome": "Italian Wedding Favours",
+   "pagina": "https://www.awwwards.com/sites/italian-wedding-favours",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/10/57f75c0d009e8.jpeg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 58,
+   "fonte": "awwwards",
+   "nome": "Karina & Agnes Wedding photography",
+   "pagina": "https://www.awwwards.com/sites/karina-agnes-wedding-photography",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/08/57adc0253165c.jpeg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 59,
+   "fonte": "awwwards",
+   "nome": "Beauty: Stationery, Cosmetics, Wedding, Mockup Scene Generator",
+   "pagina": "https://www.awwwards.com/sites/beauty-stationery-cosmetics-wedding-mockup-scene-generator",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/07/579733f96f0c6.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 60,
+   "fonte": "awwwards",
+   "nome": "Simonna Weddings",
+   "pagina": "https://www.awwwards.com/sites/simonna-weddings",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/05/572da5ae3afa1.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 61,
+   "fonte": "awwwards",
+   "nome": "PALAU Wedding \"A smile\"",
+   "pagina": "https://www.awwwards.com/sites/palau-wedding-a-smile",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/04/571d8baa0237c.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 62,
+   "fonte": "awwwards",
+   "nome": "Kelly and Jay's Wedding",
+   "pagina": "https://www.awwwards.com/sites/kelly-and-jay-s-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/03/56e3126f4173b.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 63,
+   "fonte": "awwwards",
+   "nome": "Zegist Weddings",
+   "pagina": "https://www.awwwards.com/sites/zegist-weddings",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/08/55d890d15c57c.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 64,
+   "fonte": "awwwards",
+   "nome": "Amelia & Steve Wedding",
+   "pagina": "https://www.awwwards.com/sites/amelia-steve-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/06/558961a3b114c.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 65,
+   "fonte": "awwwards",
+   "nome": "Your Perfect Wedding Photographer",
+   "pagina": "https://www.awwwards.com/sites/your-perfect-wedding-photographer",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/06/557065b1da34b.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 66,
+   "fonte": "awwwards",
+   "nome": "Hannah & Scott's Wedding",
+   "pagina": "https://www.awwwards.com/sites/hannah-scott-s-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/05/5563bf2a65c9c.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 67,
+   "fonte": "awwwards",
+   "nome": "Wedded Wonderland",
+   "pagina": "https://www.awwwards.com/sites/wedded-wonderland",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/05/5562d00427bff.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 68,
+   "fonte": "awwwards",
+   "nome": "Everline - Wedding WordPress Theme",
+   "pagina": "https://www.awwwards.com/sites/everline-wedding-wordpress-theme",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/03/54f5965fe5f62.jpeg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 69,
+   "fonte": "awwwards",
+   "nome": "Arpeeta & Arpan Wedding Website",
+   "pagina": "https://www.awwwards.com/sites/arpeeta-arpan-wedding-website",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/01/54b03b695cccd.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 70,
+   "fonte": "awwwards",
+   "nome": "Wedding Photographer in Tuscany, Florence Italy",
+   "pagina": "https://www.awwwards.com/sites/wedding-photographer-in-tuscany-florence-italy",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/01/54a65e0d8b196.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 71,
+   "fonte": "awwwards",
+   "nome": "Gilb Dyas Wedding",
+   "pagina": "https://www.awwwards.com/sites/gilb-dyas-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/11/545e88f378e6f.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 72,
+   "fonte": "awwwards",
+   "nome": "Justine Deiparine & Cory Parrish's Wedding Website",
+   "pagina": "https://www.awwwards.com/sites/justine-deiparine-cory-parrish-s-wedding-website",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/10/544985acabca1.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 73,
+   "fonte": "awwwards",
+   "nome": "Ankush & Richa Wedding Website",
+   "pagina": "https://www.awwwards.com/sites/ankush-richa-wedding-website",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/10/543faf3e76f84.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 74,
+   "fonte": "awwwards",
+   "nome": "Colin & Dewi's Wedding",
+   "pagina": "https://www.awwwards.com/sites/colin-dewi-s-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/07/53d81a591c5e6.jpeg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 75,
+   "fonte": "awwwards",
+   "nome": "TA Wedding",
+   "pagina": "https://www.awwwards.com/sites/ta-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/04/534f0bc447b3a.jpeg",
+   "etiquetas": [
+    "Video"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 76,
+   "fonte": "awwwards",
+   "nome": "A ruby hacker's wedding invitation",
+   "pagina": "https://www.awwwards.com/sites/a-ruby-hacker-s-wedding-invitation",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2013/12/52af04bd32e1e.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 77,
+   "fonte": "awwwards",
+   "nome": "SundusLive Wedding",
+   "pagina": "https://www.awwwards.com/sites/sunduslive-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2013/07/51e8649fe9e67.jpeg",
+   "etiquetas": [
+    "Scrolling"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 78,
+   "fonte": "awwwards",
+   "nome": "V&M Wedding- a wedding story.",
+   "pagina": "https://www.awwwards.com/sites/v-m-wedding-a-wedding-story",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2013/04/517f12584dc49.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 79,
+   "fonte": "awwwards",
+   "nome": "Too Young to Wed",
+   "pagina": "https://www.awwwards.com/sites/too-young-to-wed",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/images/2013/12/tooyoungtowed.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 80,
+   "fonte": "awwwards",
+   "nome": "VILLA ELIANA | LUXURY | RESORT |WEDDING",
+   "pagina": "https://www.awwwards.com/sites/villa-eliana-luxury-resort-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/33120802023851.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 81,
+   "fonte": "awwwards",
+   "nome": "The Wedding of Lucy and Si",
+   "pagina": "https://www.awwwards.com/sites/the-wedding-of-lucy-and-si",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/120618114243.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 82,
+   "fonte": "awwwards",
+   "nome": "Vermont Weddings",
+   "pagina": "https://www.awwwards.com/sites/vermont-weddings",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/33120510032757.png",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 83,
+   "fonte": "awwwards",
+   "nome": "Target - Wedding Catalog",
+   "pagina": "https://www.awwwards.com/sites/target-wedding-catalog",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/33120503052144.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 84,
+   "fonte": "awwwards",
+   "nome": "OurNine9 - Eric & Nikki's Wedding Website",
+   "pagina": "https://www.awwwards.com/sites/ournine9-eric-nikkis-wedding-website",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/33120423011723.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 85,
+   "fonte": "awwwards",
+   "nome": "Gopal Raju and Seema Wedding",
+   "pagina": "https://www.awwwards.com/sites/gopal-raju-and-seema-wedding",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/uploads/1313517325.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 86,
+   "fonte": "github",
+   "nome": "retros-id/simple-wedding-invitation",
+   "pagina": "https://github.com/retros-id/simple-wedding-invitation",
+   "site": "https://simple-wedding-invitation.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/retros-id/simple-wedding-invitation",
+   "licenca": "MIT",
+   "estrelas": 304,
+   "descricao": "Wedding Invitation Landing Page ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 87,
+   "fonte": "github",
+   "nome": "Novpix/free-html-templates",
+   "pagina": "https://github.com/Novpix/free-html-templates",
+   "site": "https://zumatools.com/website-templates/",
+   "mini": "https://opengraph.githubassets.com/1/Novpix/free-html-templates",
+   "licenca": "MIT",
+   "estrelas": 4,
+   "descricao": "17 free, responsive HTML/CSS website templates — landing pages, portfolios, business, blog, link-in-bio, wedding, events, error pages and HTML emails. MIT. Live",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 88,
+   "fonte": "github",
+   "nome": "bungambohlah/ar-wedding",
+   "pagina": "https://github.com/bungambohlah/ar-wedding",
+   "site": "https://wedding.afifcodes.dev",
+   "mini": "https://opengraph.githubassets.com/1/bungambohlah/ar-wedding",
+   "licenca": "MIT",
+   "estrelas": 3,
+   "descricao": "my wedding landing page website",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 89,
+   "fonte": "github",
+   "nome": "fershio20/wedding-landing-page",
+   "pagina": "https://github.com/fershio20/wedding-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/fershio20/wedding-landing-page",
+   "licenca": "MIT",
+   "estrelas": 2,
+   "descricao": "Website template for wedding invitation",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 90,
+   "fonte": "github",
+   "nome": "HorebZ/Wedding-site-front",
+   "pagina": "https://github.com/HorebZ/Wedding-site-front",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/HorebZ/Wedding-site-front",
+   "licenca": "MIT",
+   "estrelas": 2,
+   "descricao": "simple wedding site landing page working without back",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 91,
+   "fonte": "github",
+   "nome": "xergioalex/sergioykathe.com",
+   "pagina": "https://github.com/xergioalex/sergioykathe.com",
+   "site": "https://sergioykathe.com",
+   "mini": "https://opengraph.githubassets.com/1/xergioalex/sergioykathe.com",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Wedding landing page.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 92,
+   "fonte": "github",
+   "nome": "abdulhafiztarmizi16/wedding-Halim",
+   "pagina": "https://github.com/abdulhafiztarmizi16/wedding-Halim",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/abdulhafiztarmizi16/wedding-Halim",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Ini adalah wedding invitation yang berbentuk landing page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 93,
+   "fonte": "github",
+   "nome": "maavcode/landing-page-wedding-photography",
+   "pagina": "https://github.com/maavcode/landing-page-wedding-photography",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/maavcode/landing-page-wedding-photography",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Landing page for wedding photography web-site built with Astro, React & TailwindCss",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 94,
+   "fonte": "github",
+   "nome": "AtelierCapasso/Wedding",
+   "pagina": "https://github.com/AtelierCapasso/Wedding",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/AtelierCapasso/Wedding",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 95,
+   "fonte": "github",
+   "nome": "alexmarc-us/wedding",
+   "pagina": "https://github.com/alexmarc-us/wedding",
+   "site": "http://alexmarc.us/chelseakellogg",
+   "mini": "https://opengraph.githubassets.com/1/alexmarc-us/wedding",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "HTML5 Boilerplate-based landing site for wedding info and RSVP",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 96,
+   "fonte": "github",
+   "nome": "catacs/engaged",
+   "pagina": "https://github.com/catacs/engaged",
+   "site": "https://bodacatalinyamparo.catacs.com/",
+   "mini": "https://opengraph.githubassets.com/1/catacs/engaged",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Wedding Landing",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 97,
+   "fonte": "github",
+   "nome": "oriolgm94/wedding-page",
+   "pagina": "https://github.com/oriolgm94/wedding-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/oriolgm94/wedding-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Wedding landing page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 98,
+   "fonte": "github",
+   "nome": "devchapi/devchapi.github.io",
+   "pagina": "https://github.com/devchapi/devchapi.github.io",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/devchapi/devchapi.github.io",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "wedding landing page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 99,
+   "fonte": "github",
+   "nome": "najiite/jite-weds-jite",
+   "pagina": "https://github.com/najiite/jite-weds-jite",
+   "site": "https://jite-weds-jite.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/najiite/jite-weds-jite",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Wedding Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 100,
+   "fonte": "github",
+   "nome": "amirahyusof/LandingPage-Wedding",
+   "pagina": "https://github.com/amirahyusof/LandingPage-Wedding",
+   "site": "https://landingpage-weddingportfolio.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/amirahyusof/LandingPage-Wedding",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A wedding photography landing page built with React, Vite, and Tailwind CSS.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 101,
+   "fonte": "github",
+   "nome": "separatrixxx/wedding_landings",
+   "pagina": "https://github.com/separatrixxx/wedding_landings",
+   "site": "https://wedding-landings.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/separatrixxx/wedding_landings",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "💍 Wedding invitation landing pages",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 102,
+   "fonte": "github",
+   "nome": "invitation-weddinggg/invitation-weddinggg.github.io",
+   "pagina": "https://github.com/invitation-weddinggg/invitation-weddinggg.github.io",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/invitation-weddinggg/invitation-weddinggg.github.io",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 103,
+   "fonte": "github",
+   "nome": "rmit-s3617315-Katrine-Ren/landingPageWeddingPln",
+   "pagina": "https://github.com/rmit-s3617315-Katrine-Ren/landingPageWeddingPln",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/rmit-s3617315-Katrine-Ren/landingPageWeddingPln",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 104,
+   "fonte": "github",
+   "nome": "OussamaBentaouil70/wedding-landingpage",
+   "pagina": "https://github.com/OussamaBentaouil70/wedding-landingpage",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/OussamaBentaouil70/wedding-landingpage",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 105,
+   "fonte": "github",
+   "nome": "gaonkar1998/wedding_landing",
+   "pagina": "https://github.com/gaonkar1998/wedding_landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/gaonkar1998/wedding_landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 106,
+   "fonte": "github",
+   "nome": "aristidesstaffieri/wedding-landing",
+   "pagina": "https://github.com/aristidesstaffieri/wedding-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/aristidesstaffieri/wedding-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page while I build a wedding site.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 107,
+   "fonte": "github",
+   "nome": "Scotth72/Wedding-site",
+   "pagina": "https://github.com/Scotth72/Wedding-site",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Scotth72/Wedding-site",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "have a landing page for weddings",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 108,
+   "fonte": "github",
+   "nome": "kermox/max-and-nika-wedd.ing",
+   "pagina": "https://github.com/kermox/max-and-nika-wedd.ing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/kermox/max-and-nika-wedd.ing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page for our wedding <3",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 109,
+   "fonte": "github",
+   "nome": "bymilon/wedding-landing-page",
+   "pagina": "https://github.com/bymilon/wedding-landing-page",
+   "site": "https://wlanding.kernelmvp.com",
+   "mini": "https://opengraph.githubassets.com/1/bymilon/wedding-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Premium React wedding landing page template with RSVP, itinerary, venue, registry, and guest FAQ sections.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 110,
+   "fonte": "github",
+   "nome": "nguyenminhluandev/landing-page-wedding",
+   "pagina": "https://github.com/nguyenminhluandev/landing-page-wedding",
+   "site": "https://nguyenminhluanstu.github.io/landing-page-wedding/",
+   "mini": "https://opengraph.githubassets.com/1/nguyenminhluandev/landing-page-wedding",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A beautifully animated wedding landing page built with pure HTML, CSS, and custom CSS animations",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 111,
+   "fonte": "github",
+   "nome": "Alexander-Matte/Wedding-Landing-Page",
+   "pagina": "https://github.com/Alexander-Matte/Wedding-Landing-Page",
+   "site": "https://wedding-landing-page-gamma.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/Alexander-Matte/Wedding-Landing-Page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 112,
+   "fonte": "github",
+   "nome": "DocLivsey/Wedding-Invitation--Landing",
+   "pagina": "https://github.com/DocLivsey/Wedding-Invitation--Landing",
+   "site": "https://doclivsey.github.io/Wedding-Invitation--Landing/",
+   "mini": "https://opengraph.githubassets.com/1/DocLivsey/Wedding-Invitation--Landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Minimal event landing page with RSVP flow and lightweight backend for guest registration (Custom-designed event landing page with RSVP form, built with vanilla ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 113,
+   "fonte": "github",
+   "nome": "Silent343/wedding-landing-page",
+   "pagina": "https://github.com/Silent343/wedding-landing-page",
+   "site": "https://silent343.github.io/wedding-landing-page/",
+   "mini": "https://opengraph.githubassets.com/1/Silent343/wedding-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 114,
+   "fonte": "github",
+   "nome": "syifakamin/DTS-Weddingsite-A17.github.io",
+   "pagina": "https://github.com/syifakamin/DTS-Weddingsite-A17.github.io",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/syifakamin/DTS-Weddingsite-A17.github.io",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Wedding Landing Page digunakan untuk Teamwork Digitalent Scholarship Fresh Graduate Academy",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 115,
+   "fonte": "github",
+   "nome": "Algeps/wedding-landing",
+   "pagina": "https://github.com/Algeps/wedding-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Algeps/wedding-landing",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "wedding-landing",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 116,
+   "fonte": "github",
+   "nome": "nguyenhoangluong1/landing-page",
+   "pagina": "https://github.com/nguyenhoangluong1/landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/nguyenhoangluong1/landing-page",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Wedding Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 117,
+   "fonte": "github",
+   "nome": "DarioCabas/wedding-landing",
+   "pagina": "https://github.com/DarioCabas/wedding-landing",
+   "site": "https://wedding-landing-phi.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/DarioCabas/wedding-landing",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  },
+  {
+   "n": 118,
+   "fonte": "github",
+   "nome": "SAL-AI-1914/Uzi-Eli-Boda-Invitados",
+   "pagina": "https://github.com/SAL-AI-1914/Uzi-Eli-Boda-Invitados",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/SAL-AI-1914/Uzi-Eli-Boda-Invitados",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Uziel and Elitzama 's Wedding Guest List Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "wedding",
+   "tambemEm": []
+  }
+ ],
+ "manuais": [
+  {
+   "nome": "Godly",
+   "url": "https://godly.website/?q=bridal%20wedding%20dress",
+   "motivo": "robots.txt bloqueia o robô do Claude"
+  },
+  {
+   "nome": "Land-book",
+   "url": "https://land-book.com/search?q=bridal%20wedding%20dress",
+   "motivo": "termos proíbem coleta de dados"
+  },
+  {
+   "nome": "Lapa Ninja",
+   "url": "https://www.lapa.ninja",
+   "motivo": "permite robô, mas respondeu 403 ao script em 09/11/2026: abrir no navegador"
+  },
+  {
+   "nome": "SiteInspire",
+   "url": "https://www.siteinspire.com/websites?search=bridal%20wedding%20dress",
+   "motivo": "responde 429 a robô"
+  },
+  {
+   "nome": "Minimal Gallery",
+   "url": "https://minimal.gallery/?s=bridal%20wedding%20dress",
+   "motivo": "termos proíbem raspar"
+  },
+  {
+   "nome": "CSS Design Awards",
+   "url": "https://www.cssdesignawards.com/website-gallery",
+   "motivo": "termos proíbem copiar conteúdo"
+  },
+  {
+   "nome": "Awwwards (busca livre)",
+   "url": "https://www.awwwards.com/websites/?text=bridal%20wedding%20dress",
+   "motivo": "busca por texto fora do robots.txt"
+  },
+  {
+   "nome": "Framer Marketplace (modelos)",
+   "url": "https://www.framer.com/marketplace/templates/?search=bridal%20wedding%20dress",
+   "motivo": "modelo só roda dentro do Framer"
+  },
+  {
+   "nome": "Made in Webflow",
+   "url": "https://webflow.com/made-in-webflow",
+   "motivo": "modelo só roda dentro do Webflow"
+  }
+ ],
+ "pecas": [
+  {
+   "nome": "Aceternity UI (grátis)",
+   "url": "https://ui.aceternity.com/components",
+   "instalar": "npx shadcn@latest add @aceternity/<peça>",
+   "licenca": "licença própria: uso livre em site de cliente; modelos e blocos Pro são pagos"
+  },
+  {
+   "nome": "Magic UI",
+   "url": "https://magicui.design/docs/components",
+   "instalar": "npx shadcn@latest add @magicui/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "React Bits",
+   "url": "https://reactbits.dev",
+   "instalar": "npx shadcn@latest add @react-bits/<peça>",
+   "licenca": "MIT + Commons Clause (não revender a peça)"
+  },
+  {
+   "nome": "Motion Primitives",
+   "url": "https://motion-primitives.com",
+   "instalar": "npx shadcn@latest add @motion-primitives/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Animata",
+   "url": "https://animata.design",
+   "instalar": "npx shadcn@latest add https://animata.design/r/<grupo>/<peça>.json",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Uiverse",
+   "url": "https://uiverse.io",
+   "instalar": "copiar da página (sem registro)",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "21st.dev",
+   "url": "https://21st.dev/community/components",
+   "instalar": "pela página de cada peça",
+   "licenca": "varia por autor: conferir na página"
+  }
+ ]
+}

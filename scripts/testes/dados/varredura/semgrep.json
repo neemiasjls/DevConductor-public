@@ -1,0 +1,13 @@
+{
+  "version": "1.90.0",
+  "results": [
+    {
+      "check_id": "csharp.lang.security.sqli.csharp-sqli",
+      "path": "api/Servicos/Motoristas.cs",
+      "start": { "line": 21, "col": 9 },
+      "end": { "line": 21, "col": 70 },
+      "extra": { "message": "SQL montado com texto do usuario.", "severity": "ERROR", "metadata": {} }
+    }
+  ],
+  "errors": []
+}

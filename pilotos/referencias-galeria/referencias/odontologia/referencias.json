@@ -1,0 +1,1290 @@
+{
+ "categoria": "odontologia",
+ "nome": "Clínica odontológica e implantes",
+ "data": "2026-11-10",
+ "relatorio": {
+  "opl": {
+   "lidos": 11,
+   "pedidos": 3,
+   "parou": null,
+   "unicos": 11
+  },
+  "awwwards": {
+   "lidos": 46,
+   "pedidos": 5,
+   "parou": null,
+   "unicos": 45
+  },
+  "lapa": {
+   "lidos": 0,
+   "pedidos": 0,
+   "parou": null,
+   "unicos": 0
+  },
+  "github": {
+   "lidos": 30,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 30
+  }
+ },
+ "itens": [
+  {
+   "n": 1,
+   "fonte": "opl",
+   "nome": "LAVA dental Studio",
+   "pagina": "https://onepagelove.com/lava-dental-studio",
+   "site": "https://lavadental.lv/en",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/01/opl-master-13.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 2,
+   "fonte": "opl",
+   "nome": "Kinder Praxis",
+   "pagina": "https://onepagelove.com/kinder-praxis",
+   "site": "https://www.kinder-und-klinik.de/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/02/opl-master-kp.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 3,
+   "fonte": "opl",
+   "nome": "Six B",
+   "pagina": "https://onepagelove.com/six-b",
+   "site": "https://sixb-dentaire.fr/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2025/01/opl-master-6.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 4,
+   "fonte": "opl",
+   "nome": "Retainer Club",
+   "pagina": "https://onepagelove.com/retainer-club",
+   "site": "https://retainerclub.com/",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2018/02/opl-big-4.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 5,
+   "fonte": "opl",
+   "nome": "Jatex",
+   "pagina": "https://onepagelove.com/jatex",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/jatex-web.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 6,
+   "fonte": "opl",
+   "nome": "Arzt Millennium",
+   "pagina": "https://onepagelove.com/arzt-millennium",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/12/opl-big-2.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 7,
+   "fonte": "opl",
+   "nome": "Nutislab",
+   "pagina": "https://onepagelove.com/nutislab",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/07/opl-big5.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 8,
+   "fonte": "opl",
+   "nome": "DocT Zahnarzt",
+   "pagina": "https://onepagelove.com/doct-zahnarzt",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2015/05/opl-big.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 9,
+   "fonte": "opl",
+   "nome": "Annalyn Maure",
+   "pagina": "https://onepagelove.com/annalyn-maure",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/gravity/big-5.png",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 10,
+   "fonte": "opl",
+   "nome": "Dr Graham Parry",
+   "pagina": "https://onepagelove.com/dr-graham-parry",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2009/05/dentist.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 11,
+   "fonte": "opl",
+   "nome": "Bradburn Village Dentistry",
+   "pagina": "https://onepagelove.com/bradburn-village-dentistry",
+   "site": null,
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=222,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2008/03/bradburnvillagedentistry-co.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "tag/dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 12,
+   "fonte": "awwwards",
+   "nome": "Clínica Dental Dr. M. Esteve",
+   "pagina": "https://www.awwwards.com/sites/clinica-dental-dr-m-esteve",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6acd31fa0970f279005835.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 13,
+   "fonte": "awwwards",
+   "nome": "Nova Dental",
+   "pagina": "https://www.awwwards.com/sites/nova-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac408d8978fd404323494.png",
+   "etiquetas": [
+    "Scrolling"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 14,
+   "fonte": "awwwards",
+   "nome": "Tetri's Smile Dental Boutique",
+   "pagina": "https://www.awwwards.com/sites/tetris-smile-dental-boutique",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab8410f0219c929389189.png",
+   "etiquetas": [
+    "Interaction Design",
+    "Animation",
+    "WebGL"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 15,
+   "fonte": "awwwards",
+   "nome": "South Cliff Dental Group",
+   "pagina": "https://www.awwwards.com/sites/south-cliff-dental-group",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1ec639bc69b466510360.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Storytelling",
+    "Three.js",
+    "3D",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 16,
+   "fonte": "awwwards",
+   "nome": "Aventura Dental Arts",
+   "pagina": "https://www.awwwards.com/sites/aventura-dental-arts",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/02/698b6a2aeaefd707238900.png",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 17,
+   "fonte": "awwwards",
+   "nome": "LAVA dental",
+   "pagina": "https://www.awwwards.com/sites/lava-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/01/695f8ed916db2634647429.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 18,
+   "fonte": "awwwards",
+   "nome": "Arbor a Dental Concept",
+   "pagina": "https://www.awwwards.com/sites/arbor-a-dental-concept",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/10/68e4eb7c9b4e6114260400.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 19,
+   "fonte": "awwwards",
+   "nome": "Nova Dental Care",
+   "pagina": "https://www.awwwards.com/sites/nova-dental-care",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2025/05/682e04fc00a3b570147857.jpg",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 20,
+   "fonte": "awwwards",
+   "nome": "Sakai Kids Dental Clinic",
+   "pagina": "https://www.awwwards.com/sites/sakai-kids-dental-clinic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/12/676d0e57188a4127641823.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 21,
+   "fonte": "awwwards",
+   "nome": "MINEMAL DENTAL AESTHETICS",
+   "pagina": "https://www.awwwards.com/sites/minemal-dental-aesthetics",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/11/6728070b351ba223660454.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 22,
+   "fonte": "awwwards",
+   "nome": "Halo Dental",
+   "pagina": "https://www.awwwards.com/sites/halo-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/08/66ba2e7254cbd563504115.jpg",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 23,
+   "fonte": "awwwards",
+   "nome": "Natalie Herzel Dental Clinic",
+   "pagina": "https://www.awwwards.com/sites/natalie-herzel-dental-clinic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/6667095e7ae2a640894782.png",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 24,
+   "fonte": "awwwards",
+   "nome": "DENTAL IMPLANT SOLUTIONS",
+   "pagina": "https://www.awwwards.com/sites/dental-implant-solutions",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/05/664f1c5fc150b407940150.jpg",
+   "etiquetas": [
+    "Animation",
+    "3D"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 25,
+   "fonte": "awwwards",
+   "nome": "Atelier Dental",
+   "pagina": "https://www.awwwards.com/sites/atelier-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/11/6565b5d5ae0ac618050010.png",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 26,
+   "fonte": "awwwards",
+   "nome": "Harmony Dental - West Covina",
+   "pagina": "https://www.awwwards.com/sites/harmony-dental-west-covina",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/04/6442dfa17b4cf196978847.png",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 27,
+   "fonte": "awwwards",
+   "nome": "Alley Dental",
+   "pagina": "https://www.awwwards.com/sites/alley-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/03/641a9943164ed096872760.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Transitions"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 28,
+   "fonte": "awwwards",
+   "nome": "Lighthouse Dental Centre Redesign",
+   "pagina": "https://www.awwwards.com/sites/lighthouse-dental-centre-redesign-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/10/6350d9f48d15a015792002.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 29,
+   "fonte": "awwwards",
+   "nome": "Lotus Family Dental",
+   "pagina": "https://www.awwwards.com/sites/lotus-family-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2022/03/621e876a4b5e3558532603.png",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 30,
+   "fonte": "awwwards",
+   "nome": "Bryant Dental",
+   "pagina": "https://www.awwwards.com/sites/bryant-dental-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/11/6194b6e2c351e037932745.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 31,
+   "fonte": "awwwards",
+   "nome": "Dental & Implantology Unit",
+   "pagina": "https://www.awwwards.com/sites/dental-implantology-unit",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/07/60f7fb11045dd641465910.png",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 32,
+   "fonte": "awwwards",
+   "nome": "Blue Water Dental",
+   "pagina": "https://www.awwwards.com/sites/blue-water-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/04/608c6b3714b36379447835.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 33,
+   "fonte": "awwwards",
+   "nome": "Dental Inpuls Croatia",
+   "pagina": "https://www.awwwards.com/sites/dental-inpuls-croatia",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/02/602260f733c06034206014.jpg",
+   "etiquetas": [
+    "Animation",
+    "Storytelling"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 34,
+   "fonte": "awwwards",
+   "nome": "IDI - Institut Dental Inca",
+   "pagina": "https://www.awwwards.com/sites/idi-institut-dental-inca",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2021/01/6006d050001de549721226.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 35,
+   "fonte": "awwwards",
+   "nome": "St Pauls Dental & Implantology",
+   "pagina": "https://www.awwwards.com/sites/st-pauls-dental-implantology",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2020/11/5fa576c34674a832366433.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 36,
+   "fonte": "awwwards",
+   "nome": "Chopovskyi Dental",
+   "pagina": "https://www.awwwards.com/sites/chopovskyi-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/09/5d70ffc8610df910896259.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 37,
+   "fonte": "awwwards",
+   "nome": "Kishimoto Dental Clinic",
+   "pagina": "https://www.awwwards.com/sites/kishimoto-dental-clinic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2019/01/5c39d38c6eac5.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Three.js"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 38,
+   "fonte": "awwwards",
+   "nome": "Janeway Dental Clinic",
+   "pagina": "https://www.awwwards.com/sites/janeway-dental-clinic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/11/5be4ebefe533f.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 39,
+   "fonte": "awwwards",
+   "nome": "Lone Star Pediatric Dental",
+   "pagina": "https://www.awwwards.com/sites/lone-star-pediatric-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/07/5b5974b80bc37.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 40,
+   "fonte": "awwwards",
+   "nome": "Harvest Dental Products",
+   "pagina": "https://www.awwwards.com/sites/harvest-dental-products",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2018/04/5ac8152ac4fe4.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 41,
+   "fonte": "awwwards",
+   "nome": "ABC Dental",
+   "pagina": "https://www.awwwards.com/sites/abc-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/12/5a344dae04d36.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 42,
+   "fonte": "awwwards",
+   "nome": "TD - Premium Dental WordPress Theme",
+   "pagina": "https://www.awwwards.com/sites/td",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/11/5a101b9de6c8c.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 43,
+   "fonte": "awwwards",
+   "nome": "Dr.Madlen Gardus Dental Clinic",
+   "pagina": "https://www.awwwards.com/sites/dr-madlen-gardus-dental-clinic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/10/59eff48f52751.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 44,
+   "fonte": "awwwards",
+   "nome": "Greenspoint Dental",
+   "pagina": "https://www.awwwards.com/sites/greenspoint-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/04/58f6a32b25ac5.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 45,
+   "fonte": "awwwards",
+   "nome": "Clinica Dental Escariz",
+   "pagina": "https://www.awwwards.com/sites/clinica-dental-escariz",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/03/58d3ce3b3c070.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 46,
+   "fonte": "awwwards",
+   "nome": "Dental Brothers",
+   "pagina": "https://www.awwwards.com/sites/dental-brothers",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/01/587cc8509ac70.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 47,
+   "fonte": "awwwards",
+   "nome": "HD Dental Clinic",
+   "pagina": "https://www.awwwards.com/sites/hd-dental-clinic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2016/08/57b2d7a95d612.jpeg",
+   "etiquetas": [
+    "Parallax"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 48,
+   "fonte": "awwwards",
+   "nome": "Hanvit dental hospital",
+   "pagina": "https://www.awwwards.com/sites/hanvit-dental-hospital",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/06/557e8882f3aec.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 49,
+   "fonte": "awwwards",
+   "nome": "Archimed Dental",
+   "pagina": "https://www.awwwards.com/sites/archimed-dental",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/04/553104af1f32e.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 50,
+   "fonte": "awwwards",
+   "nome": "L'Avenir, Dental Clinic",
+   "pagina": "https://www.awwwards.com/sites/l-avenir-dental-clinic",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/04/552d4dd8a8389.jpeg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 51,
+   "fonte": "awwwards",
+   "nome": "Cozzolino Dental Office",
+   "pagina": "https://www.awwwards.com/sites/cozzolino-dental-office",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2015/03/550fe38fb093f.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 52,
+   "fonte": "awwwards",
+   "nome": "East Valley Dental Care",
+   "pagina": "https://www.awwwards.com/sites/east-valley-dental-care",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/10/544e6438d770d.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 53,
+   "fonte": "awwwards",
+   "nome": "Lighthouse Dental Centre",
+   "pagina": "https://www.awwwards.com/sites/lighthouse-dental-centre",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2014/09/541dc880426f0.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 54,
+   "fonte": "awwwards",
+   "nome": "Dental Group Practice Association",
+   "pagina": "https://www.awwwards.com/sites/dental-group-practice-association",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/screenshots/2013/08/521fb225a2496.jpeg",
+   "etiquetas": [],
+   "categoriaFonte": "dental",
+   "tambemEm": []
+  },
+  {
+   "n": 55,
+   "fonte": "awwwards",
+   "nome": "Klaas Dentist Webflow Template",
+   "pagina": "https://www.awwwards.com/sites/klaas-dentist-webflow-template",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2023/08/64f0d60fd329e250061800.jpg",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 56,
+   "fonte": "awwwards",
+   "nome": "Children's dentists",
+   "pagina": "https://www.awwwards.com/sites/children-s-dentists",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2017/04/58f78c2c315c7.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 57,
+   "fonte": "github",
+   "nome": "veer0p/devnayan-landing",
+   "pagina": "https://github.com/veer0p/devnayan-landing",
+   "site": "https://dental-template-rust.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/veer0p/devnayan-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Devnayan Dental Clinic - Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 58,
+   "fonte": "github",
+   "nome": "nnitiV/OdontoGranViana",
+   "pagina": "https://github.com/nnitiV/OdontoGranViana",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/nnitiV/OdontoGranViana",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page for a dental clinic",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 59,
+   "fonte": "github",
+   "nome": "patiberzin/dental-clinic",
+   "pagina": "https://github.com/patiberzin/dental-clinic",
+   "site": "https://dental-clinic-nine-dun.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/patiberzin/dental-clinic",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing Page de Clínica Dentária",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 60,
+   "fonte": "github",
+   "nome": "OleksandrZadvornyi/dental-clinic-landing",
+   "pagina": "https://github.com/OleksandrZadvornyi/dental-clinic-landing",
+   "site": "https://denticss.netlify.app",
+   "mini": "https://opengraph.githubassets.com/1/OleksandrZadvornyi/dental-clinic-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A multilingual landing page for a dental clinic built with HTML, CSS, and JavaScript using Webpack and i18next. Features responsive design, smooth animations, a",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 61,
+   "fonte": "github",
+   "nome": "Kauanavs/dental-clinic-landing-page",
+   "pagina": "https://github.com/Kauanavs/dental-clinic-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Kauanavs/dental-clinic-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "bom-sorriso-landing-page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 62,
+   "fonte": "github",
+   "nome": "GilbertoBispo/dental-clinic-landing-page",
+   "pagina": "https://github.com/GilbertoBispo/dental-clinic-landing-page",
+   "site": "https://dental-clinic-demo-page.vercel.app/",
+   "mini": "https://opengraph.githubassets.com/1/GilbertoBispo/dental-clinic-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A fictional landing page for a dental clinic.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 63,
+   "fonte": "github",
+   "nome": "AmandaLMR/dental-clinic-landing-page",
+   "pagina": "https://github.com/AmandaLMR/dental-clinic-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/AmandaLMR/dental-clinic-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 64,
+   "fonte": "github",
+   "nome": "alissonlittig/marfim-odontologia",
+   "pagina": "https://github.com/alissonlittig/marfim-odontologia",
+   "site": "https://alissonlittig.github.io/marfim-odontologia/",
+   "mini": "https://opengraph.githubassets.com/1/alissonlittig/marfim-odontologia",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Dental clinic landing page (Astro + Tailwind). Portfolio demo with fictional data.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 65,
+   "fonte": "github",
+   "nome": "Niko5886/Modern-Dental-Landing-Page",
+   "pagina": "https://github.com/Niko5886/Modern-Dental-Landing-Page",
+   "site": "https://modern-dental-clinic-nik.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/Niko5886/Modern-Dental-Landing-Page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "🦷 Modern, responsive dental clinic landing page built with React 19, TypeScript, Vite & Tailwind CSS — featuring a custom masked-card image mosaic.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 66,
+   "fonte": "github",
+   "nome": "hakanbudak/dentasist-web",
+   "pagina": "https://github.com/hakanbudak/dentasist-web",
+   "site": "https://dentasist-web.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/hakanbudak/dentasist-web",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Marketing landing page for Dentasist, a patient reminder and payment tracking system for dental clinics.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 67,
+   "fonte": "github",
+   "nome": "adrjmiranda/clinica-seu-sorriso",
+   "pagina": "https://github.com/adrjmiranda/clinica-seu-sorriso",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/adrjmiranda/clinica-seu-sorriso",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Professional dental clinic landing page built with React, TypeScript, and Vite — designed for portfolio showcase with responsive design, animations, and optimiz",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 68,
+   "fonte": "github",
+   "nome": "paragchauhan98/modern-mangla-dental",
+   "pagina": "https://github.com/paragchauhan98/modern-mangla-dental",
+   "site": "https://modern-mangla-dental.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/paragchauhan98/modern-mangla-dental",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "A modern and fluid take on a dental clinic landing page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dental clinic",
+   "tambemEm": []
+  },
+  {
+   "n": 69,
+   "fonte": "github",
+   "nome": "ThiagoGaitkoski/LandingPage-Dentista",
+   "pagina": "https://github.com/ThiagoGaitkoski/LandingPage-Dentista",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/ThiagoGaitkoski/LandingPage-Dentista",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Projeto de uma LandingPage para dentista, com o intuito de praticar.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 70,
+   "fonte": "github",
+   "nome": "raylanderguimaraes/Landing-Page-Dentista",
+   "pagina": "https://github.com/raylanderguimaraes/Landing-Page-Dentista",
+   "site": "https://raylanderguimaraes.github.io/Landing-Page-Dentista/",
+   "mini": "https://opengraph.githubassets.com/1/raylanderguimaraes/Landing-Page-Dentista",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 71,
+   "fonte": "github",
+   "nome": "julius-altmann-3333/dentist-landingpage",
+   "pagina": "https://github.com/julius-altmann-3333/dentist-landingpage",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/julius-altmann-3333/dentist-landingpage",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Dentist Landingpage",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 72,
+   "fonte": "github",
+   "nome": "ViniciusLozano/LandingPage_Dentista",
+   "pagina": "https://github.com/ViniciusLozano/LandingPage_Dentista",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/ViniciusLozano/LandingPage_Dentista",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Modelo Front-end de um site para dentistas desenvolvido no curso da Danki.code",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 73,
+   "fonte": "github",
+   "nome": "Lusca404/Landingpage-dentist",
+   "pagina": "https://github.com/Lusca404/Landingpage-dentist",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Lusca404/Landingpage-dentist",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 74,
+   "fonte": "github",
+   "nome": "soltobr/dentistas",
+   "pagina": "https://github.com/soltobr/dentistas",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/soltobr/dentistas",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Modelo de landing page para dentistas.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 75,
+   "fonte": "github",
+   "nome": "Mateus-Reis/dentist-landing",
+   "pagina": "https://github.com/Mateus-Reis/dentist-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Mateus-Reis/dentist-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 76,
+   "fonte": "github",
+   "nome": "pagonzalezmald/landing-dentist-demo",
+   "pagina": "https://github.com/pagonzalezmald/landing-dentist-demo",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/pagonzalezmald/landing-dentist-demo",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 77,
+   "fonte": "github",
+   "nome": "Shandiel/Landing-page-dentista",
+   "pagina": "https://github.com/Shandiel/Landing-page-dentista",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Shandiel/Landing-page-dentista",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page criada para aumentar o alcance e clientes.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 78,
+   "fonte": "github",
+   "nome": "chupeng0k/sq-dentist-landing",
+   "pagina": "https://github.com/chupeng0k/sq-dentist-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/chupeng0k/sq-dentist-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "SQ Dentist International landing page — Next.js, patient videos, doctor profiles and consultation forms.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 79,
+   "fonte": "github",
+   "nome": "rafa-bstavares/landing-page-dentista",
+   "pagina": "https://github.com/rafa-bstavares/landing-page-dentista",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/rafa-bstavares/landing-page-dentista",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Evento ficticio de dentista criado por mim para servir de portfólio",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 80,
+   "fonte": "github",
+   "nome": "apaciuk/artistic-dentistry",
+   "pagina": "https://github.com/apaciuk/artistic-dentistry",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/apaciuk/artistic-dentistry",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Bootstrap 4 HTML landing page template for dentist",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 81,
+   "fonte": "github",
+   "nome": "charlescolares/projeto-dentista",
+   "pagina": "https://github.com/charlescolares/projeto-dentista",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/charlescolares/projeto-dentista",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Projeto realizado de landing page realizado para uma dentista",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 82,
+   "fonte": "github",
+   "nome": "Shandiel/Dentista-Page",
+   "pagina": "https://github.com/Shandiel/Dentista-Page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Shandiel/Dentista-Page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page criada para aumentar o alcance e clientes.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 83,
+   "fonte": "github",
+   "nome": "kael-agency/elizabeth-sierra-dentistry-landing",
+   "pagina": "https://github.com/kael-agency/elizabeth-sierra-dentistry-landing",
+   "site": "https://elizabeth-sierra-dentistry-landing.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/kael-agency/elizabeth-sierra-dentistry-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 84,
+   "fonte": "github",
+   "nome": "NofaBC/cheatlayer-Generate-a-landing-page-for-a-dentist107348",
+   "pagina": "https://github.com/NofaBC/cheatlayer-Generate-a-landing-page-for-a-dentist107348",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/NofaBC/cheatlayer-Generate-a-landing-page-for-a-dentist107348",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 85,
+   "fonte": "github",
+   "nome": "Rguilherme09/PROJETO-DENTISTA",
+   "pagina": "https://github.com/Rguilherme09/PROJETO-DENTISTA",
+   "site": "https://projeto-dentista-xi.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/Rguilherme09/PROJETO-DENTISTA",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Site feito para simular uma landing page de uma clínica odontológica.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  },
+  {
+   "n": 86,
+   "fonte": "github",
+   "nome": "josemm97/django-landing",
+   "pagina": "https://github.com/josemm97/django-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/josemm97/django-landing",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "This a django landing page about dentist",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "dentist",
+   "tambemEm": []
+  }
+ ],
+ "manuais": [
+  {
+   "nome": "Godly",
+   "url": "https://godly.website/?q=dental",
+   "motivo": "robots.txt bloqueia o robô do Claude"
+  },
+  {
+   "nome": "Land-book",
+   "url": "https://land-book.com/search?q=dental",
+   "motivo": "termos proíbem coleta de dados"
+  },
+  {
+   "nome": "Lapa Ninja",
+   "url": "https://www.lapa.ninja",
+   "motivo": "permite robô, mas respondeu 403 ao script em 09/11/2026: abrir no navegador"
+  },
+  {
+   "nome": "SiteInspire",
+   "url": "https://www.siteinspire.com/websites?search=dental",
+   "motivo": "responde 429 a robô"
+  },
+  {
+   "nome": "Minimal Gallery",
+   "url": "https://minimal.gallery/?s=dental",
+   "motivo": "termos proíbem raspar"
+  },
+  {
+   "nome": "CSS Design Awards",
+   "url": "https://www.cssdesignawards.com/website-gallery",
+   "motivo": "termos proíbem copiar conteúdo"
+  },
+  {
+   "nome": "Awwwards (busca livre)",
+   "url": "https://www.awwwards.com/websites/?text=dental",
+   "motivo": "busca por texto fora do robots.txt"
+  },
+  {
+   "nome": "Framer Marketplace (modelos)",
+   "url": "https://www.framer.com/marketplace/templates/?search=dental",
+   "motivo": "modelo só roda dentro do Framer"
+  },
+  {
+   "nome": "Made in Webflow",
+   "url": "https://webflow.com/made-in-webflow",
+   "motivo": "modelo só roda dentro do Webflow"
+  }
+ ],
+ "pecas": [
+  {
+   "nome": "Aceternity UI (grátis)",
+   "url": "https://ui.aceternity.com/components",
+   "instalar": "npx shadcn@latest add @aceternity/<peça>",
+   "licenca": "licença própria: uso livre em site de cliente; modelos e blocos Pro são pagos"
+  },
+  {
+   "nome": "Magic UI",
+   "url": "https://magicui.design/docs/components",
+   "instalar": "npx shadcn@latest add @magicui/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "React Bits",
+   "url": "https://reactbits.dev",
+   "instalar": "npx shadcn@latest add @react-bits/<peça>",
+   "licenca": "MIT + Commons Clause (não revender a peça)"
+  },
+  {
+   "nome": "Motion Primitives",
+   "url": "https://motion-primitives.com",
+   "instalar": "npx shadcn@latest add @motion-primitives/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Animata",
+   "url": "https://animata.design",
+   "instalar": "npx shadcn@latest add https://animata.design/r/<grupo>/<peça>.json",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Uiverse",
+   "url": "https://uiverse.io",
+   "instalar": "copiar da página (sem registro)",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "21st.dev",
+   "url": "https://21st.dev/community/components",
+   "instalar": "pela página de cada peça",
+   "licenca": "varia por autor: conferir na página"
+  }
+ ]
+}

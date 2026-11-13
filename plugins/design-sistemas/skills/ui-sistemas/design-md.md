@@ -9,6 +9,10 @@ Formato do Google (`version: alpha`): valores exatos no cabeçalho YAML; no text
 - Tema escuro: confira `npx -y -p @google/design.md designmd spec`. Se não houver suporte, os valores do tema claro ficam nos
   tokens e os do escuro numa tabela `## Themes` depois de Colors.
 
+O `DESIGN.md` é o texto para pessoas. Junto dele, na raiz, vai o `design-sistemas.json` (modelo em
+`modelos/design-sistemas.json`), que a máquina lê para conferir as telas: os dois dizem a mesma coisa. Mudou um,
+mude o outro na mesma hora (tamanhos de letra, raio por superfície, tokens de cor, cores de negócio).
+
 Decida nesta ordem, com o cliente ou com a marca dele:
 1. **Neutros:** uma escala com leve matiz (stone, zinc ou slate do Tailwind), não cinza puro.
 2. **Destaque:** uma cor só, da marca, com contraste de 4,5:1 sobre o fundo quando for texto.

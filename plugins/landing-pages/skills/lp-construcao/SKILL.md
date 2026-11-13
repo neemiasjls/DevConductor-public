@@ -1,6 +1,6 @@
 ---
 name: lp-construcao
-description: Constrói a landing page de um cliente a partir da direção de arte aprovada - estrutura do projeto, conteúdo em dados, imagens otimizadas, fontes hospedadas e componentes restilizados. Use depois de lp-direcao-de-arte e lp-textos aprovados.
+description: Constrói a landing page de um cliente a partir da direção de arte aprovada - estrutura do projeto, conteúdo em dados, imagens otimizadas, fontes hospedadas e componentes restilizados; com referência escolhida, constrói seção por seção comparando com ela (laço visual, até 3 voltas). Use depois de lp-direcao-de-arte e lp-textos aprovados.
 ---
 
 # Construção
@@ -67,6 +67,55 @@ ScrollTrigger e seção presa. Nas outras seções GSAP também pode entrar, sem
 invisível em `lp-cenas`; as peças delas vêm prontas de `lp-assets` (com licença em `assets.md`). No celular a cena continua (DEV-34), com pin mais curto e peças mais leves; com movimento reduzido, tudo parado
 e visível.
 
+## Celular primeiro (os dois caminhos)
+Cada seção é construída **primeiro em 390 px** (a tela do raio-x de celular; nada corta em 360 px), seguindo a parte
+"No celular" do `direcao.md`, e só depois aberta para o computador (`md:`/`lg:`). Seção que passa no computador e
+não no celular não está pronta. Regras que evitam quebra conhecida no iPhone:
+- Altura de tela: `svh`/`dvh` (acompanham a barra do navegador) em vez de `100vh` ou altura da janela medida uma
+  vez. Em cena presa, `ScrollTrigger.config({ ignoreMobileResize: true })` evita o pulo quando a barra some.
+- Seção presa: o conteúdo cabe inteiro na tela menor (360×640), sem rolagem dentro dela; pin mais curto (DEV-34).
+- Vídeo: `muted` + `playsInline` (só assim toca sozinho), com `poster`; se não tocar, fica a imagem de reserva.
+- Nada depende de passar o mouse: o que surge no `hover` também surge por toque ou já vem visível.
+- Área de toque ≥ 44 px, com espaço entre botões; texto de leitura e campos de formulário ≥ 16 px (abaixo disso o
+  iPhone dá zoom sozinho no campo).
+- Sem rolagem para o lado: carrossel por toque usa rolagem nativa (`scroll-snap`) dentro do próprio contêiner, sem
+  prender a rolagem vertical da página.
+- Botão de contato fixo respeita a área segura (`env(safe-area-inset-bottom)`) e não cobre o último conteúdo.
+- O celular é desenhado **junto** com o computador, não adaptado depois: recorte de foto, ordem e tamanho de título
+  próprios. Detalhe (meta tags, área segura, toque, barra fixa, rolagem): `referencias/celular-de-verdade.md`.
+
+## Acabamento (o `acabamento.mjs` da `lp-revisao` confere; aqui se evita)
+- Título em caixa alta com acento, cedilha ou Q: entrelinha ≥ 1,15 (abaixo disso o acento encosta na linha de
+  cima); em qualquer título, nunca abaixo de 1,0.
+- Nada fixo sobre conteúdo: botão ou selo fixo não cruza texto, título nem foto em nenhuma posição da rolagem.
+  No celular o contato vira barra no pé, com folga no fim da página (`padding-bottom` da altura da barra).
+- Contorno de letra (`-webkit-text-stroke`) só com o preenchimento por cima (`paint-order: stroke fill`) ou em
+  fonte de traço único; senão as junções da letra aparecem.
+- Faixa em laço: a lista duplicada anda exatamente um período (itens + vãos); medir, não chutar `-50%`.
+- Um tratamento de cor por grupo de fotos (mesma grade, mesmo tom); foto no tamanho real, sem ampliar nem esticar.
+- `text-wrap: balance` em título e `pretty` em parágrafo; palavra sozinha na última linha se conserta no texto.
+
+## Laço visual (caminho por referência, `lp-maestro` passo E)
+- Antes de construir, ler o `custo.md` e o `custo-celular.md` do raio-x: cena que pede peça que não existe (modelo 3D próprio, filme) já
+  saiu trocada por equivalente e avisada ao usuário. Se não foi avisada, parar e avisar **antes** de construir.
+- Cena principal: `node <plugin>/skills/lp-cenas/buscar-efeito.mjs <tipo>` com o tipo que o raio-x deu à seção
+  (presa, paralaxe, revelacao-mascara, rolagem-lateral, zoom, pilha...); usar o efeito mais próximo (receitas do
+  kit primeiro; licença e peso em `efeitos.json`). Sem par: estudo novo no `estudio-design`, que entra no catálogo.
+- Medidas: copiar `referencia/medidas.css` (e `medidas-celular.css`) para o site e usar as variáveis `--ref-*`
+  (escala, respiro, colunas, vão, raio) em vez de digitar número; `duracaoMs` e `curva` de cada `movimento[]` do
+  raio-x vão para o `src/ritmo.ts`. Cores e fontes continuam as do cliente; o comparador acusa contraste e ritmo fora.
+- Por seção, na ordem do `roteiro.md`: 1) construir com o conteúdo do cliente, primeiro no celular; 2) comparar em
+  **agente separado** (ex.: `testador`), que roda `node <plugin>/skills/lp-revisao/scripts/comparar-referencia.mjs
+  <raio-x.json da base> <url local> <pasta>` e devolve só a lista de diferenças da `comparacao.md` (nada de imagem
+  na conversa; o `lado-a-lado.html` fica para o usuário); 3) corrigir pela lista. **No máximo 3 voltas por seção.**
+- O laço roda nos **dois tamanhos**: a mesma comparação com `<raio-x-celular.json da base> ... --celular`, em pasta
+  própria. A nota do olhar por seção (`olhar.md`, 0–10) vale nos dois com a mesma régua: abaixo de 9, em qualquer
+  um, a seção volta ao laço.
+- Código de saída 1 = ainda há divergência alta. Depois de 3 voltas com divergência alta: parar e avisar o usuário
+  com a lista. Diferença que vem de "mudou a pedido", de troca do `custo.md` ou do piso (conteúdo verdadeiro,
+  acessibilidade, movimento reduzido, peso) não se corrige: fica anotada no `plano.md`.
+- Nada de código, texto, foto ou marca do site estudado; só a forma e o movimento medidos.
+
 ## Consultoras desta etapa (ler o SKILL.md delas só na hora; quem decide é esta skill)
 - Celular primeiro: escreva o layout de 360px e depois amplie (`md:`/`lg:`); `responsive-design` para grade,
   tipografia fluida e container queries.
@@ -76,7 +125,9 @@ e visível.
 - `vercel-react-best-practices`: só a parte de cliente e renderização (o site é estático, sem servidor).
 
 ## Ao terminar cada bloco
-`npx tsc -b`, conferir no navegador do app (computador e 390px) e seguir para `lp-revisao` no fim.
+`npx tsc -b`, conferir no navegador do app (390px primeiro, depois computador) e seguir para `lp-revisao` no fim.
+Antes de mostrar: `lp-revisao/scripts/acabamento.mjs <url> <pasta> --larguras 1440,390` (saída 1 = conserta antes) e
+`lp-revisao/scripts/celular.mjs` (portão de 7 itens do celular); site que falha não é mostrado como pronto, e o relatório diz com todas as letras se o motor do Safari foi conferido ou não.
 
 ## Busca no Google
 Siga a `lp-seo` (parte D): texto e JSON-LD no HTML entregue (pré-renderizado), animação sem esconder texto
@@ -84,7 +135,8 @@ do HTML, título/descrição, imagens com `alt` e tamanho, velocidade do topo, `
 
 ## Bordas das imagens (o estilo decide; padrão arredondado)
 - Estilo que proíbe canto arredondado (ex.: `brutalista-grafico`) usa quina viva em fotos, cartões e botões; o
-  resto desta seção vale para os demais estilos.
+  resto desta seção vale para os demais estilos. No caminho por referência, o raio da base decide; se contrariar
+  este padrão, o conflito vai para o `plano.md` ("diferenças em relação às preferências anteriores").
 - Um raio padrão do site para fotos e cartões, definido como variável (ex.: `--raio-foto`): ≈20–28px no
   computador, 14–18px no celular. Botões em pílula. Não misturar quina viva com arredondado na mesma página.
 - Cartão com foto dentro: raio de dentro = raio de fora − espaçamento (senão a curva fica torta).

@@ -20,6 +20,42 @@ vercel-labs/skills — https://github.com/vercel-labs/skills
   find-skills em plugins/devconductor-core/skills/find-skills, reescrita em português e adaptada às regras do kit
   (ver fontes.json).
 
+usestrix/strix — https://github.com/usestrix/strix
+  Copyright 2025 OmniSecure Inc. Licença Apache-2.0 (cópia em plugins/devconductor-core/LICENSES/strix.txt).
+  A origem não tem arquivo NOTICE. Trechos adaptados (régua de gravidade, três estados de um achado e perguntas
+  de permissão) em plugins/devconductor-core/skills/orquestrador/referencias/portao-seguranca.md: traduzidos,
+  resumidos e alterados (ver fontes.json).
+
+anthropics/claude-code-security-review — https://github.com/anthropics/claude-code-security-review
+  Copyright (c) 2025 Anthropic. Licença MIT (cópia em
+  plugins/devconductor-core/LICENSES/claude-code-security-review.txt).
+  Lista do que não é achado, traduzida e reduzida, no mesmo portao-seguranca.md; as exclusões que contrariam o
+  kit ficaram de fora (ver fontes.json).
+
+adr/madr — https://github.com/adr/madr
+  Licença MIT OR CC0-1.0 (nota em plugins/devconductor-core/LICENSES/madr.txt).
+  Ordem e nomes das seções do modelo mínimo de decisão, traduzidos e reduzidos, em
+  plugins/devconductor-core/skills/arquitetura/referencias/modelo-decisao.md (ver fontes.json).
+
+emilkowalski/skills — https://github.com/emilkowalski/skills
+  Copyright (c) 2026 Emil Kowalski. Licença MIT (cópia em plugins/landing-pages/skills/review-animations/LICENSE).
+  Trechos de review-animations, animate, break-ui e mobile-native, traduzidos, resumidos e adaptados para
+  landing page em plugins/landing-pages/skills/lp-revisao/referencias/ (critica-de-movimento.md,
+  conteudo-extremo.md) e plugins/landing-pages/skills/lp-construcao/referencias/celular-de-verdade.md
+  (ver fontes.json).
+
+vercel-labs/web-interface-guidelines — https://github.com/vercel-labs/web-interface-guidelines
+  Copyright (c) 2025 Vercel Labs. Licença MIT (cópia em plugins/landing-pages/skills/web-design-guidelines/LICENSE).
+  Regras de command.md e AGENTS.md, traduzidas, resumidas e adaptadas, em
+  plugins/landing-pages/skills/lp-revisao/referencias/detalhes-de-interface.md e, as de toque e campos, em
+  celular-de-verdade.md (ver fontes.json).
+
+Ideias usadas sem copiar texto (palavras próprias ou só o link):
+  trailofbits/skills (CC BY-SA 4.0): risco pelo que a mudança toca, checagem removida, segredo com valor padrão.
+  OWASP Cheat Sheet Series (CC BY-SA 4.0): só os links, no portao-seguranca.md.
+  Modelo C4, de Simon Brown (CC BY 4.0): mapa em dois níveis da skill arquitetura.
+  Registro de decisões de arquitetura, de Michael Nygard: linha de situação da decisão.
+
 safishamsi/graphify — https://github.com/safishamsi/graphify
   Licença MIT.
   Não é copiado: a CLI é instalada da origem (pacote graphifyy) e o plugin grafo-codigo só a chama.
@@ -58,3 +94,13 @@ Fonte Saira (plugin estudio-design) — https://github.com/Omnibus-Type/Saira
 Demonstração Lastro: modelo de caixa com doze ovos, Innerscene original (CC0-1.0).
 https://www.innerscene.com/tools/library/3d-parts/twelve-egg-carton-moulded-pulp-open-with-eggs-65dc1d10
 Otimizado com glTF Transform; hashes e versão do arquivo em fontes.json.
+
+Bibliotecas indicadas pela skill lp-referencias (nada copiado no kit; instaladas no projeto do cliente,
+  detalhes em fontes.json, chave "bibliotecas"; conferido em 09/11/2026):
+  Aceternity UI — https://ui.aceternity.com — licença própria (uso em produto de cliente; não revender a peça).
+  Magic UI — https://github.com/magicuidesign/magicui — MIT.
+  Motion Primitives — https://github.com/ibelick/motion-primitives — MIT.
+  React Bits — https://github.com/DavidHDev/react-bits — MIT + Commons Clause.
+  Animata — https://github.com/codse/animata — MIT.
+  Uiverse — https://github.com/uiverse-io/galaxy — MIT.
+  Fontshare — https://www.fontshare.com — ITF Free Font License ou SIL OFL 1.1, conforme a fonte.

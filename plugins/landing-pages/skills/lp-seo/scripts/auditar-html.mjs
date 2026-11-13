@@ -58,12 +58,47 @@ export function auditarHtml(html, { demo = true, robots = '', headers = '', site
     limites: 'Checagem estática básica. Confirmar fatos, termos de busca, renderização, direitos, schema específico e cabeçalho HTTP real. Nenhuma promessa de posição ou pontuação de SEO.' }
 }
 
+// Conferência de rede (só --producao). Falha de rede vira aviso "não conferido", nunca erro.
+export function urlsDeConferencia(canonical) {
+  const u = new URL(canonical), host = u.host
+  const outro = host.startsWith('www.') ? host.slice(4) : `www.${host}`
+  return {
+    canonica: u.href, destino: u.host,
+    inexistente: `${u.origin}/pagina-que-nao-existe-${Date.now().toString(36)}`,
+    alternativa: `${u.protocol}//${outro}/`,
+    http: `http://${host}/`,
+  }
+}
+export async function conferirHttp(urls, { timeoutMs = 8000 } = {}) {
+  const erros = [], avisos = []
+  const pedir = async (url, seguir) => {
+    try { return await fetch(url, { redirect: seguir ? 'follow' : 'manual', signal: AbortSignal.timeout(timeoutMs) }) } catch { return null }
+  }
+  const destino = r => { try { return new URL(r.headers.get('location') || '', r.url || urls.canonica) } catch { return null } }
+  const ehRedirecao = r => r.status >= 300 && r.status < 400
+  const inexistente = await pedir(urls.inexistente, true)
+  if (!inexistente) avisos.push('Endereço inexistente: não conferido (sem resposta de rede)')
+  else if (inexistente.status === 200) erros.push('Endereço inexistente responde 200: página de erro deve responder 404')
+  const alternativa = await pedir(urls.alternativa, false)
+  if (!alternativa) avisos.push('www/sem www: não conferido (sem resposta de rede)')
+  else if (!ehRedirecao(alternativa)) erros.push(`www/sem www: o outro endereço responde ${alternativa.status} em vez de redirecionar para um só`)
+  else if (destino(alternativa)?.host !== urls.destino) erros.push('www/sem www: o redirecionamento não vai para o endereço da canonical')
+  const http = await pedir(urls.http, false)
+  if (!http) avisos.push('http para https: não conferido (sem resposta de rede)')
+  else if (!ehRedirecao(http) || destino(http)?.protocol !== 'https:') erros.push(`http:// não redireciona para https:// (resposta ${http.status})`)
+  return { erros, avisos }
+}
+
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   try {
     const [pasta, modo] = process.argv.slice(2)
     if (!pasta || !['--demo', '--producao'].includes(modo) || process.argv.length !== 4) throw Error('Uso: node auditar-html.mjs dist --demo|--producao')
     const ler = nome => fs.existsSync(path.join(pasta, nome)) ? fs.readFileSync(path.join(pasta, nome), 'utf8') : ''
     const r = auditarHtml(ler('index.html'), { demo: modo === '--demo', robots: ler('robots.txt'), headers: ler('_headers'), sitemap: ler('sitemap.xml') })
+    if (modo === '--producao' && /^https:\/\//.test(r.canonical) && !/localhost|127\.0\.0\.1|example\./.test(r.canonical)) {
+      const h = await conferirHttp(urlsDeConferencia(r.canonical))
+      r.erros.push(...h.erros); r.avisos.push(...h.avisos); r.aprovado = !r.erros.length
+    }
     console.log(JSON.stringify(r, null, 2)); process.exitCode = r.aprovado ? 0 : 1
   } catch (e) { console.error(e.message); process.exitCode = 1 }
 }

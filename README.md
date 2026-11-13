@@ -16,7 +16,7 @@ Guia completo (fluxo, mapas e detalhes de cada peça): [docs/guia-completo.md](d
 
 | Tema | Como aparece no código |
 |---|---|
-| **Agentes por função com roteamento de modelo** | 9 agentes em `plugins/devconductor-core/agents/`, cada um com modelo e esforço próprios: quem planeja, executa e revisa usa o Opus; pesquisa e mudanças já decididas usam o Sonnet; trabalho mecânico (buscar, rodar build, conferir deploy, testar no navegador) usa o Haiku. A skill `orquestrador` classifica o pedido (mecânico, já decidido ou com decisão) e escolhe o agente. |
+| **Agentes por função com roteamento de modelo** | 10 agentes em `plugins/devconductor-core/agents/`, cada um com modelo e esforço próprios: quem planeja, executa, revisa e decide a estrutura usa o Opus; pesquisa e mudanças já decididas usam o Sonnet; trabalho mecânico (buscar, rodar build, conferir deploy, testar no navegador) usa o Haiku. A skill `orquestrador` classifica o pedido (mecânico, já decidido ou com decisão) e escolhe o agente. |
 | **Contexto sob medida** | O hook `detectar-stack.mjs` lê os arquivos do projeto (`.csproj`, `package.json`, `pom.xml`, `.py`, Supabase...) e liga **só** os plugins daquela stack, no escopo local. Skills consultoras ficam travadas e só são lidas na etapa que precisa delas. |
 | **Medição de uso** | `scripts/medir-uso.mjs` lê o histórico local do Claude Code e soma tokens por sessão e por modelo (inclui subagentes), sem contar duas vezes a mesma resposta. `scripts/peso-plugins.mjs` mede quanto cada plugin pesa só por estar ligado; `scripts/comparar-medicoes.mjs` compara rodadas de um ensaio. |
 | **Verificador de segurança de skills** | Toda skill nova passa pelo `skill-scanner` (adaptado da Sentry: lê scripts em subpastas, Node, PowerShell e arquivos UTF-16). O hook `verificar-instalados.mjs` confere o que foi instalado ao abrir a sessão e avisa antes de usar; falsos positivos ficam registrados com o motivo. |
@@ -29,7 +29,7 @@ Guia completo (fluxo, mapas e detalhes de cada peça): [docs/guia-completo.md](d
 
 | Plugin | O que tem |
 |---|---|
-| `devconductor-core` | agentes por função (`planejador`, `executor`, `revisor`, `complex-tasks`, `simple-tasks`, `pesquisador`, `tarefas-mecanicas`, `testador`, `publicador`), skills `orquestrador`, `memoria`, `subir`, `skill-scanner`, `find-skills`, `codex-parceiro` e os hooks de detecção de stack e avisos |
+| `devconductor-core` | agentes por função (`planejador`, `executor`, `revisor`, `arquiteto`, `complex-tasks`, `simple-tasks`, `pesquisador`, `tarefas-mecanicas`, `testador`, `publicador`), skills `orquestrador`, `arquitetura`, `memoria`, `subir`, `skill-scanner`, `find-skills`, `codex-parceiro` e os hooks de detecção de stack e avisos |
 | `stack-dotnet`, `stack-java`, `stack-typescript`, `stack-python`, `stack-banco` | especialistas por linguagem e banco, selecionados do wshobson/agents e de outros projetos abertos |
 | `seguranca` | código seguro no backend e no frontend e auditoria (OWASP, dependências, segredos) |
 | `landing-pages` | fluxo completo de landing page, da coleta à publicação, com skills de design conhecidas travadas por etapa |

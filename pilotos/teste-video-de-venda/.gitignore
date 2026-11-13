@@ -1,0 +1,4 @@
+# Vídeos, relatórios e quadros são gerados: ficam fora do git.
+videos/
+quadros/
+*.mp4

@@ -45,7 +45,7 @@ test('todo agente do núcleo tem esforço fixo (nunca max) e a regra de tamanho 
     const esforco = a.match(/^effort: (\w+)$/m)?.[1]
     assert.ok(['low', 'medium', 'high'].includes(esforco), `${arq}: esforço ${esforco}`)
     assert.match(a, /~40 chamadas/, `${arq}: falta o limite de chamadas`)
-    assert.match(a, /até ~15 linhas/, `${arq}: falta o limite da resposta`)
+    assert.match(a, /até ~?(15|30) linhas/, `${arq}: falta o limite da resposta`)
   }
 })
 
@@ -69,4 +69,42 @@ test('pedido pequeno e fechado segue direto, sem carregar a skill nem ficha', ()
   const descricao = skill.match(/^description: (.*)$/m)[1].toLowerCase()
   assert.match(descricao, /pequeno e fechado/, 'descrição da skill não diz quando não usar')
   assert.doesNotMatch(descricao, /todo pedido/, 'descrição ainda pede a skill em todo pedido')
+})
+
+// Parte 3 do plano de segurança: o portão escrito no fluxo de sistema.
+test('fluxo de sistema lista os riscos na entrada e o portão na entrega', () => {
+  const ref = (...p) => fs.readFileSync(path.join(nucleo, 'skills', 'orquestrador', 'referencias', ...p), 'utf8')
+  const fluxo = ref('fluxo-sistema.md').replace(/\s+/g, ' ')
+  for (const c of ['login', 'permissões', 'dados pessoais', 'segredos', 'envio de arquivo', 'pagamento', 'regras de acesso do banco'])
+    assert.ok(fluxo.includes(c), `fluxo-sistema não cita a categoria: ${c}`)
+  for (const c of ['security-auditor', 'varredura-seguranca', 'portao-seguranca.md', 'model: "opus"', '--registrar-revisao'])
+    assert.ok(fluxo.includes(c), `fluxo-sistema não cita: ${c}`)
+  const portao = ref('portao-seguranca.md')
+  const linhas = portao.split(/\r?\n/).length
+  assert.ok(linhas <= 101, `portao-seguranca.md com ${linhas} linhas (limite 100)`)
+  for (const c of ['## Gravidade e fechamento', '## Não é achado', 'pendente de prova', 'confirmado', 'descartado',
+    'usestrix/strix', 'anthropics/claude-code-security-review', 'ver NOTICE', 'git log -S', 'achadosAbertos'])
+    assert.ok(portao.includes(c), `portao-seguranca.md não contém: ${c}`)
+  for (const s of ['## Login', '## Permissão', '## Regras de acesso do banco', '## Envio de arquivo', '## Pagamento', '## Dados pessoais', '## Segredos'])
+    assert.ok(portao.includes(s), `portao-seguranca.md sem a seção ${s}`)
+  const links = portao.match(/https:\/\/cheatsheetseries\.owasp\.org\/cheatsheets\/[A-Za-z_]+\.html/g) ?? []
+  assert.ok(links.length >= 6, `só ${links.length} links da OWASP`)
+  // nomes de ferramentas internas do Strix não podem sobrar no trecho adaptado
+  assert.doesNotMatch(portao, /create_vulnerability_report|record_coverage|agent_finish|open_proof_gap|ruled_out/)
+  // exclusões da origem que contrariam o kit continuam sendo achado (conflitos C1, C4, C13)
+  assert.match(portao, /Continuam sendo achado neste kit: segredo em arquivo versionado/)
+  assert.match(fs.readFileSync(path.join(nucleo, 'agents', 'planejador.md'), 'utf8'), /Riscos de segurança/)
+  assert.match(fs.readFileSync(path.join(nucleo, 'agents', 'revisor.md'), 'utf8'), /revisao-seguranca\.json/)
+  assert.match(fs.readFileSync(path.join(nucleo, 'skills', 'subir', 'SKILL.md'), 'utf8'), /varredura-seguranca/)
+  assert.ok(fs.existsSync(path.join(nucleo, 'hooks', 'mudanca-sensivel.mjs')), 'o fluxo cita um script que não existe')
+})
+
+// Parte 8: o arquiteto só lê e segue a skill de arquitetura.
+test('arquiteto é só leitura, no Opus, e não empurra peça distribuída', () => {
+  const a = fs.readFileSync(path.join(nucleo, 'agents', 'arquiteto.md'), 'utf8')
+  assert.match(a, /^---\r?\nname: arquiteto\r?\ndescription: "[^"]{60,500}"\r?\nmodel: opus\r?\neffort: high\r?\ntools: Read, Grep, Glob, Bash\r?\n---/)
+  for (const c of ['conferencia.md', 'modelo-decisao.md', '2 níveis', 'até 30 linhas', 'Não grave memória', 'dotnet-architect', 'database-architect'])
+    assert.ok(a.includes(c), `arquiteto não cita: ${c}`)
+  assert.match(a.replace(/\s+/g, ' '), /Não proponha microsserviço, fila, evento ou cache novo sem um problema/)
+  assert.ok(skill.includes('`arquiteto`'), 'orquestrador não cita o arquiteto')
 })

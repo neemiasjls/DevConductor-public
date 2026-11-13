@@ -1,0 +1,18 @@
+{
+  "proporcoes": [
+    "4:5",
+    "16:9",
+    "1:1"
+  ],
+  "focos": {},
+  "larguraMax": 1600,
+  "larguraMin": 800,
+  "contraste": 1.06,
+  "saturacao": 0.95,
+  "temperatura": 0.0,
+  "tinta": null,
+  "pretoEBranco": false,
+  "grao": 0.15,
+  "formato": "webp",
+  "qualidade": 82
+}

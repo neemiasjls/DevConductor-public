@@ -179,3 +179,36 @@ test('os limites de densidade não foram reabertos', async () => {
   const { LIMITES_PADRAO } = await import('../../plugins/landing-pages/skills/lp-revisao/scripts/densidade-regras.mjs')
   assert.deepEqual({ ...LIMITES_PADRAO }, { computador: 60, celular: 45 })
 })
+
+test('download de miniatura: 429 não grava, espera o Retry-After uma vez; HTML no lugar de imagem é recusado', async t => {
+  const { baixarImagem } = await import('../../plugins/landing-pages/skills/lp-assets/scripts/baixar-imagem.mjs')
+  const http = await import('node:http')
+  const pedidos = {}
+  const jpeg = Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.alloc(4000, 1)])
+  const servidor = http.createServer((req, res) => {
+    pedidos[req.url] = (pedidos[req.url] || 0) + 1
+    if (req.url === '/limite') { res.writeHead(429, { 'Retry-After': '0', 'Content-Type': 'text/html' }); return res.end('<html>too many requests</html>') }
+    if (req.url === '/limite-depois-ok') {
+      if (pedidos[req.url] === 1) { res.writeHead(429, { 'Retry-After': '1' }); return res.end('x') }
+      res.writeHead(200, { 'Content-Type': 'image/jpeg' }); return res.end(jpeg)
+    }
+    if (req.url === '/html') { res.writeHead(200, { 'Content-Type': 'text/html' }); return res.end('<html>' + 'a'.repeat(3000) + '</html>') }
+    if (req.url === '/falso-jpg') { res.writeHead(200, { 'Content-Type': 'image/jpeg' }); return res.end('<html>erro</html>') }
+    res.writeHead(200, { 'Content-Type': 'image/jpeg' }); res.end(jpeg)
+  })
+  await new Promise(r => servidor.listen(0, '127.0.0.1', r))
+  t.after(() => servidor.close())
+  const base = `http://127.0.0.1:${servidor.address().port}`
+  const limite = await baixarImagem(`${base}/limite`)
+  assert.equal(limite.ok, false)
+  assert.match(limite.motivo, /429/)
+  assert.equal(pedidos['/limite'], 2, 'uma nova tentativa só, sem insistir')
+  const depois = await baixarImagem(`${base}/limite-depois-ok`)
+  assert.equal(depois.ok, true)
+  assert.equal(depois.buffer.length, jpeg.length)
+  const html = await baixarImagem(`${base}/html`)
+  assert.equal(html.ok, false)
+  assert.match(html.motivo, /não é imagem/)
+  assert.equal((await baixarImagem(`${base}/falso-jpg`)).ok, false)
+  assert.equal((await baixarImagem(`${base}/boa`)).ok, true)
+})

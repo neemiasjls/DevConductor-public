@@ -68,10 +68,12 @@ if (raizItens.includes('clientes') || raizItens.includes('.landing-pages')) {
 if (raizItens.includes('.estudio-design')) stacks.add('estudio-design') // estudos em qualquer tipo de site
 
 // Sistema (painel, cadastro, área logada): React ou Next com roteador, formulário, tabela, consulta à API ou
-// login. A fábrica de landing pages fica de fora; o marcador .design-sistemas liga em qualquer projeto.
+// login; ou Blazor (arquivo .razor ou pacote Microsoft.AspNetCore.Components num .csproj). A fábrica de landing
+// pages fica de fora; o marcador .design-sistemas liga em qualquer projeto.
 const SINAIS_DE_SISTEMA = /"(react-router(-dom)?|@tanstack\/react-(router|table|query)|react-hook-form|@refinedev\/core|react-admin|next-auth|@auth\/core|@clerk\/[\w-]+|@supabase\/supabase-js)"\s*:/
-if (raizItens.includes('.design-sistemas') ||
-  (/"(react|next)"\s*:/.test(pacotes) && SINAIS_DE_SISTEMA.test(pacotes) && !stacks.has('landing-pages'))) {
+const reactDeSistema = /"(react|next)"\s*:/.test(pacotes) && SINAIS_DE_SISTEMA.test(pacotes)
+const blazor = tem(/\.razor$/) || /Include\s*=\s*"Microsoft\.AspNetCore\.Components[\w.]*"/.test(dotnet)
+if (raizItens.includes('.design-sistemas') || ((reactDeSistema || blazor) && !stacks.has('landing-pages'))) {
   stacks.add('design-sistemas')
 }
 

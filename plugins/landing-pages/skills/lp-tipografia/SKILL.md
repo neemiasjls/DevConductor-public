@@ -25,8 +25,10 @@ Confira qualquer candidata: `python -I <plugin>/skills/lp-tipografia/scripts/pop
 - `catalogo.md` (nesta pasta): famílias conferidas com ranking e personalidade.
 - Fontshare (api.fontshare.com): evite as 15 mais vistas; prefira Erode, Gambetta, Bespoke Serif, Recia, Rowan,
   Bonny, Boska, Melodrama, Bespoke Sans, Synonym, Plein, Author, Supreme, Excon.
-- Velvetyne (velvetyne.fr), Collletttivo (collletttivo.it), Uncut.wtf: experimentais e de autor; ótimas para
-  títulos de marca com personalidade.
+- Velvetyne (velvetyne.fr), Collletttivo (collletttivo.it), Uncut.wtf, The League of Moveable Type
+  (theleagueofmoveabletype.com): experimentais e de autor; ótimas para títulos de marca com personalidade.
+- Fora do catálogo comum a licença muda de família para família: **ler a licença de cada fonte** (uso comercial
+  na web, se pode hospedar e converter) e anotar no plano. Sempre hospedar no próprio site, nunca puxar de fora.
 - Referência de uso real: Typewolf, Fonts In Use (ver como marcas usam a fonte antes de adotar).
 
 ## 3. Como montar o sistema
@@ -36,7 +38,8 @@ Confira qualquer candidata: `python -I <plugin>/skills/lp-tipografia/scripts/pop
 3. Escala com razão fixa (1,25 para texto denso; 1,333–1,5 para editorial). Título de abertura grande o bastante
    para ser a imagem da página no celular (min. 44px em 375px).
 4. Corpo: 16–18px, entrelinha 1,5–1,7, 60–75 caracteres por linha. Português tem palavras longas:
-   teste hifenização e `text-wrap: balance` nos títulos.
+   teste hifenização, `text-wrap: balance` nos títulos e `pretty` nos parágrafos. Título em caixa alta com
+   acento, cedilha ou Q pede entrelinha ≥ 1,15 (o `acabamento.mjs` da `lp-revisao` reprova linhas que se tocam).
 5. Detalhes que tiram a cara de IA: itálico verdadeiro (não falso), algarismos de texto ou tabulares conforme o
    uso, versalete/letter-spacing só em rótulos curtos, aspas tipográficas “ ”, travessão — e reticências …
 6. Carregamento: hospede os arquivos no projeto (`@fontsource` ou `woff2` em `public/fonts`) com

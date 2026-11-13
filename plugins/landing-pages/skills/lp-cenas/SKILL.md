@@ -86,6 +86,10 @@ Toda receita nova que der certo num cliente entra aqui (etapa 9 do `lp-maestro`)
 - Exceção para linhas SVG: `strokeDashoffset` desenha o traço sem alterar layout.
 - Durações, curvas e `scrub` vêm do ritmo do estilo (`src/ritmo.ts`), não de número solto na receita.
 - **Celular:** equivalente ao computador (DEV-34): mesma cena com pin mais curto, câmera e tamanho ajustados, 3D com `dpr` limitado; cortar só o que medir travamento.
+  Decidir **antes de construir**, por cena (presa, rolagem lateral, paralaxe, 3D, vídeo), e anotar no `direcao.md`
+  ("No celular"): versão de toque **igual**, **simplificada** ou **trocada por equivalente** (`buscar-efeito.mjs`),
+  mais a versão com movimento reduzido. Proibido "desligar no celular" sem substituto que conte a mesma ideia.
+  Regras do iPhone em `lp-construcao` ("Celular primeiro").
 - **Movimento reduzido** (`prefers-reduced-motion: reduce`): nenhuma cena roda, nada começa escondido,
   nada fica preso. Usar `gsap.matchMedia()` e criar estados iniciais só dentro do bloco "com movimento".
 - O título principal nunca depende da cena para aparecer. Texto que o visitante precisa ler não fica preso
@@ -156,3 +160,7 @@ mede posição/opacidade dos elementos marcados com `data-*` e salva print. Copi
 site e ajustar os seletores. Para 3D, abrir o Edge com `--use-angle=swiftshader --enable-unsafe-swiftshader`.
 `<plugin>/skills/lp-cenas/testar-receitas.mjs`: o mesmo teste para as receitas de texto, camadas, sequência,
 shader e rolagem suave (usa os mesmos `data-*` das receitas), em computador, celular e movimento reduzido.
+
+## Catálogo de efeitos
+`efeitos.json` lista cada efeito com origem (receita do kit, registro shadcn, Codrops só como link), licença e peso.
+Consultar por tipo (presa, paralaxe, zoom, texto-letra, marquee, 3d...): `node <plugin>/skills/lp-cenas/buscar-efeito.mjs <tipo> [--origem x]`; receitas do kit vêm primeiro.

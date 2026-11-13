@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Teste de movimento: carregar e parado</title>
+<style>
+  html, body { margin: 0; font: 20px/1.4 sans-serif; background: #ffffff; color: #111111; }
+  section { height: 100vh; box-sizing: border-box; padding: 80px; position: relative; }
+  #abertura { background: #f2efe8; }
+  #tarde { visibility: hidden; width: 520px; padding: 30px; background: #1d3b8f; color: #ffffff; }
+  /* entrada curta de verdade: 200 ms, começa 900 ms depois de abrir (longe do texto de cima, que aparece perto dos 300 ms) e some da lista de animações quando acaba */
+  #curta { position: absolute; right: 80px; top: 80px; width: 300px; height: 200px; background: #0f766e; animation: surge 200ms ease-out 900ms backwards; }
+  @keyframes surge { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+  #laco { background: #e8f0ee; }
+  #caixa { width: 220px; height: 220px; margin-top: 60px; background: #c2410c; animation: pulsa 1.2s ease-in-out infinite alternate; }
+  @keyframes pulsa { from { transform: translateX(0); opacity: 1; } to { transform: translateX(260px); opacity: 0.35; } }
+  #quieta { background: #efe8f0; }
+  #pintura { background: #e8ecf5; }
+  canvas { display: block; margin-top: 40px; }
+</style>
+</head>
+<body>
+<section id="abertura"><h1>Página de teste</h1><p id="tarde">Texto que aparece 200 ms depois de carregar.</p><div id="curta"></div></section>
+<section id="laco"><h2>Caixa em laço</h2><div id="caixa"></div></section>
+<section id="quieta"><h2>Seção parada</h2><p>Nada se mexe aqui.</p></section>
+<section id="pintura"><h2>Canvas animado</h2><canvas id="tela" width="600" height="300"></canvas></section>
+<script>
+  addEventListener('load', () => setTimeout(() => { document.getElementById('tarde').style.visibility = 'visible' }, 200))
+  const g = document.getElementById('tela').getContext('2d')
+  let n = 0
+  setInterval(() => {
+    n = (n + 9) % 520
+    g.fillStyle = '#0f172a'; g.fillRect(0, 0, 600, 300)
+    g.fillStyle = '#facc15'; g.fillRect(n, 100, 80, 100)
+  }, 33)
+</script>
+</body>
+</html>

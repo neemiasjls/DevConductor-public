@@ -20,6 +20,7 @@ Um arquivo só, preenchido aos poucos pelas etapas abaixo: mapa de palavras-chav
 palavra), título e descrição, dados estruturados, checklist técnico com situação, pendências de publicação.
 
 ## A. Palavras-chave (logo depois da coleta, antes dos textos)
+0. **Linha de base antes de publicar:** preencher `modelos/linha-de-base.md` (buscas em janela anônima, números do Perfil, avaliações, contatos, Search Console), com data e fonte; sem dado, "não informado".
 1. **Intenção local primeiro.** Para negócio de bairro/cidade, a busca que vende é "serviço + cidade"
    ("salão de beleza em Marília", "maquiagem para noiva Marília", "manicure Banzato"). Liste:
    - 1 principal (o negócio + cidade) para o título da página e o H1;
@@ -111,7 +112,7 @@ O auditor retorna código 1 em falha, checa HTML inicial, metadados, H1, JSON-LD
 da demo. `--producao` exige canonical HTTPS real, sitemap coerente e retirada de bloqueios; usar só na
 publicação autorizada. `_headers` é configuração declarada, não prova de que o servidor aplicou o header.
 Conferir o HTTP real após hospedagem autorizada. Sem domínio confirmado, deixar canonical/sitemap pendentes,
-sem criar domínio fictício. Demo permanece local/noindex. Robots bloqueando rastreio pode impedir leitura
+sem criar domínio fictício. Em `--producao` o auditor também confere, pela rede, 404 real num endereço inexistente, redirecionamento único www/sem www e http para https; falha de rede vira aviso "não conferido". Demo permanece local/noindex. Robots bloqueando rastreio pode impedir leitura
 do noindex: não tratar essas regras como proteção de conteúdo privado. Autenticação é o controle de acesso.
 
 Fontes primárias verificadas: [JavaScript SEO](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics),
@@ -122,12 +123,13 @@ Fontes primárias verificadas: [JavaScript SEO](https://developers.google.com/se
 ## F. Publicação (na etapa `lp-publicar`, só quando o cliente comprar)
 - Tirar `noindex`/bloqueios, liberar `robots.txt`, enviar o `sitemap.xml` no **Google Search Console** (e no
   Bing Webmaster) e pedir indexação.
-- **Perfil da Empresa no Google:** categoria principal certa, horário exato (estar "aberto agora" pesa muito
+- **Perfil da Empresa no Google** (roteiro por ramo em `referencias/perfil-da-empresa.md`): categoria principal certa, horário exato (estar "aberto agora" pesa muito
   na busca local), link do site, WhatsApp, fotos; nome/endereço/telefone **idênticos** ao site e às redes.
 - Pedir avaliações reais e detalhadas aos clientes (o que mais move o mapa local), sem incentivar falsas.
 - IA (ChatGPT, Perplexity, respostas do Google): estar em listas locais de "melhores" e em diretórios do
   ramo, com os mesmos dados; `llms.txt` é opcional e de efeito incerto.
-- Medir: Search Console (palavras e cliques) e Cloudflare Web Analytics (sem cookies).
+- Medir: Search Console (palavras e cliques) e Cloudflare Web Analytics (sem cookies). Todo mês, entregar `modelos/relatorio-mensal.md` comparando com a linha de base.
+- **Regra de promessa:** nunca prometer posição, prazo fixo ou número de clientes; prometer fazer o que o Google documenta, medir antes e depois e mostrar os números.
 
 ## Não fazer
 Página por cidade com o mesmo texto trocando o nome (o Google pune como página-porta); encher de palavra-chave;

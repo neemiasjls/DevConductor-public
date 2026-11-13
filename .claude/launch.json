@@ -151,6 +151,34 @@
         "pilotos/prova-design/rodada-claude/prumo-barbearia-calibrado"
       ],
       "port": 5206
+    },
+    {
+      "name": "referencias-galeria",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5210",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "pilotos/referencias-galeria/referencias"
+      ],
+      "port": 5210
+    },
+    {
+      "name": "prova-referencia",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5211",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "pilotos/prova-referencia/marcenaria-aroeira/dist"
+      ],
+      "port": 5211
     }
   ]
 }

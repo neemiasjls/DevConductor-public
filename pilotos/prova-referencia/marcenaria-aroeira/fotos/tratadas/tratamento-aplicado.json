@@ -1,0 +1,170 @@
+{
+  "geradoEm": "2026-11-10T16:13:01.896352+00:00",
+  "tratamento": {
+    "proporcoes": [
+      "2:3",
+      "3:2",
+      "16:9"
+    ],
+    "focos": {},
+    "larguraMax": 2000,
+    "larguraMin": 1200,
+    "contraste": 1.08,
+    "saturacao": 0.88,
+    "temperatura": 0.25,
+    "tinta": {
+      "cor": "#b0623a",
+      "forca": 0.1
+    },
+    "pretoEBranco": false,
+    "grao": 0.12,
+    "formato": "jpg",
+    "qualidade": 90
+  },
+  "arquivos": [
+    {
+      "entrada": "banheiro.jpg",
+      "entradaSha256": "ed762c62295110f70a7e4df083138ab745079ee777fe88311c2cceba4acf99fd",
+      "tamanhoOriginal": [
+        681,
+        1024
+      ],
+      "saida": "banheiro.jpg",
+      "proporcao": "2:3",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "tamanho": [
+        681,
+        1022
+      ],
+      "bytes": 146441,
+      "aviso": "largura 681 px abaixo do mínimo 1200; não foi ampliada"
+    },
+    {
+      "entrada": "closet.jpg",
+      "entradaSha256": "23ec86b0c8030a87835ff3bafd7d1c4e3f7669f443319ebe43a7fc6e7d1a82a1",
+      "tamanhoOriginal": [
+        5009,
+        7513
+      ],
+      "saida": "closet.jpg",
+      "proporcao": "2:3",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "tamanho": [
+        2000,
+        3000
+      ],
+      "bytes": 1915248
+    },
+    {
+      "entrada": "cozinha.jpg",
+      "entradaSha256": "5f95b46be1f8a30d17c9ab35ea02a2ae9c1c2abe1cd67036d5abc207b55479bf",
+      "tamanhoOriginal": [
+        1024,
+        683
+      ],
+      "saida": "cozinha.jpg",
+      "proporcao": "3:2",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "tamanho": [
+        1024,
+        683
+      ],
+      "bytes": 151264,
+      "aviso": "largura 1024 px abaixo do mínimo 1200; não foi ampliada"
+    },
+    {
+      "entrada": "escritorio.jpg",
+      "entradaSha256": "249410c15b8498ebf9d8e00ae68dbfe4ce9b41062b7eb5aea79748f2b70fb956",
+      "tamanhoOriginal": [
+        2448,
+        3264
+      ],
+      "saida": "escritorio.jpg",
+      "proporcao": "2:3",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "tamanho": [
+        2000,
+        3000
+      ],
+      "bytes": 1258405
+    },
+    {
+      "entrada": "madeira.jpg",
+      "entradaSha256": "4478ec0c0509565f9c719ed320246c25a36b7138f7f66dd0e910f6263e49015d",
+      "tamanhoOriginal": [
+        960,
+        640
+      ],
+      "saida": "madeira.jpg",
+      "proporcao": "3:2",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "tamanho": [
+        960,
+        640
+      ],
+      "bytes": 247365,
+      "aviso": "largura 960 px abaixo do mínimo 1200; não foi ampliada"
+    },
+    {
+      "entrada": "quarto.jpg",
+      "entradaSha256": "fd5aabe2cf52e5b4eff3403f883f48f1adfc15c342acb49bbcddfbb5c50d85ab",
+      "tamanhoOriginal": [
+        4000,
+        2666
+      ],
+      "saida": "quarto.jpg",
+      "proporcao": "3:2",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "tamanho": [
+        2000,
+        1333
+      ],
+      "bytes": 487954
+    },
+    {
+      "entrada": "sala.jpg",
+      "entradaSha256": "57e41480350e0a1a06258bbc8d948e2d2687f8bad8163d6838e0166bda9ef21b",
+      "tamanhoOriginal": [
+        1024,
+        683
+      ],
+      "saida": "sala.jpg",
+      "proporcao": "3:2",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "tamanho": [
+        1024,
+        683
+      ],
+      "bytes": 276772,
+      "aviso": "largura 1024 px abaixo do mínimo 1200; não foi ampliada"
+    }
+  ],
+  "ignorados": [],
+  "avisos": [
+    "banheiro.jpg: largura 681 px abaixo do mínimo 1200; não foi ampliada",
+    "cozinha.jpg: largura 1024 px abaixo do mínimo 1200; não foi ampliada",
+    "madeira.jpg: largura 960 px abaixo do mínimo 1200; não foi ampliada",
+    "sala.jpg: largura 1024 px abaixo do mínimo 1200; não foi ampliada"
+  ]
+}

@@ -4,6 +4,7 @@
 // Só CC0, domínio público, CC BY e CC BY-SA; gravuras, pinturas e digitalizações antigas ficam fora
 // (--com-arte inclui). Conferir a página de cada foto antes de usar: a API não vê direito de imagem.
 import fs from 'node:fs'
+import { baixarImagem } from './baixar-imagem.mjs'
 
 const args = process.argv.slice(2)
 const minimoI = args.indexOf('--minimo')
@@ -41,8 +42,11 @@ for (const busca of buscas) {
   }
 }
 fs.writeFileSync(`${rotulo}.json`, JSON.stringify(lista, null, 1), { flag: 'wx' })
+let semMini = 0
 for (const foto of lista) {
-  const r = await fetch(foto.mini, { headers: cabecalho, signal: AbortSignal.timeout(20_000) })
-  if (r.ok) fs.writeFileSync(`${rotulo}-${String(foto.n).padStart(2, '0')}.jpg`, Buffer.from(await r.arrayBuffer()), { flag: 'wx' })
+  const r = await baixarImagem(foto.mini, { headers: cabecalho })
+  if (!r.ok) { semMini++; console.error(`Miniatura ${foto.n} (${foto.titulo}) não gravada: ${r.motivo}`); continue }
+  fs.writeFileSync(`${rotulo}-${String(foto.n).padStart(2, '0')}.jpg`, r.buffer, { flag: 'wx' })
 }
+if (semMini) console.error(`${semMini} miniatura(s) ficaram de fora da folha; a lista no .json continua completa.`)
 console.log(`${lista.length} fotos em ${rotulo}.json; folha: python -I folha-contato.py ${rotulo}`)

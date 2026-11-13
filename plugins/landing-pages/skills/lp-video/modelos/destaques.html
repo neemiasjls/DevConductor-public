@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vídeo de venda: destaques</title>
+<script src="motor.js"></script>
+<style>
+  /* Roteiro "destaques": abertura com a marca grande, que encolhe e vira o cabeçalho; depois um passeio por 3
+     destaques do site, cada um com número e título, numa janela grande; no fim a chamada e o contato.
+     Medidas em px de CSS (quadro 432 x 768, sai 2,5 vezes maior).
+     A janela de verdade (#cartao, com o site vivo) nunca sai do lugar. Quem sobe e desce é o dublê (#duble),
+     uma janela igual com uma foto do site; quando ele para, a de verdade aparece no mesmo ponto. */
+  #luz { position: absolute; inset: 0; background: radial-gradient(90% 55% at 30% 20%, color-mix(in srgb, var(--destaque) 16%, transparent) 0%, transparent 70%); }
+
+  #nome { position: absolute; left: 24px; top: 26px; font-size: 22px; line-height: 1.1; white-space: nowrap; transform-origin: 0 0; }
+  #nome .palavra { overflow: hidden; padding: .1em .03em .18em; margin: -.1em -.03em -.18em; vertical-align: top; }
+  #marca-fio { position: absolute; left: 184px; width: 64px; height: 1.5px; background: var(--destaque); }
+  #marca-sub { position: absolute; left: 0; right: 0; text-align: center; font-size: 13.5px; font-weight: 500; letter-spacing: .3em; text-transform: uppercase; }
+
+  .dest { position: absolute; left: 24px; right: 24px; top: 66px; height: 100px; display: flex; align-items: center; gap: 16px; }
+  .dest .num { font-size: 72px; line-height: 1; color: var(--destaque); flex: none; }
+  .dest .rot { flex: 1; font-size: 27px; line-height: 1.12; text-wrap: balance; }
+
+  .janela { position: absolute; left: 24px; top: 178px; width: 384px; height: 566px; border-radius: 20px;
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--texto) 24%, transparent), 0 26px 54px rgba(0, 0, 0, .48); }
+  #site, #foto { width: 384px; height: 566px; border-radius: 20px; }
+  #tampa { position: absolute; inset: 0; border-radius: 20px; background: var(--destaque); }
+
+  #fim { position: absolute; left: 24px; right: 24px; top: 150px; }
+  #fim-fio { width: 56px; height: 2px; background: var(--destaque); transform-origin: 0 50%; }
+  #fim-chamada { width: 384px; margin-top: 26px; font-size: 50px; line-height: 1.1; }
+  #fim-contato { margin-top: 34px; font-size: 20px; font-weight: 600; }
+  #fim-botao { display: inline-block; margin-top: 22px; padding: 14px 28px; border-radius: 999px; background: var(--texto); color: var(--fundo); font-size: 16px; font-weight: 600; letter-spacing: .04em; }
+  #fim-aviso { position: absolute; left: 24px; right: 24px; top: 700px; font-size: 12.5px; color: color-mix(in srgb, var(--texto) 82%, var(--fundo)); }
+</style>
+</head>
+<body>
+<div id="palco">
+  <div id="luz"></div>
+
+  <div id="nome" class="titulo"></div>
+  <div id="marca-fio"></div>
+  <div id="marca-sub"></div>
+
+  <div id="destaques"></div>
+
+  <div id="cartao" class="janela">
+    <iframe id="site" title="site"></iframe>
+    <div id="tampa" data-cobre></div>
+  </div>
+  <div id="duble" class="janela"><img id="foto" alt=""></div>
+
+  <div id="fim" data-fim>
+    <div id="fim-fio"></div>
+    <div id="fim-chamada" class="titulo"></div>
+    <div id="fim-contato"></div>
+    <div id="fim-botao"></div>
+  </div>
+  <div id="fim-aviso" data-fim></div>
+</div>
+
+<script>
+Video.modelo({
+  nome: 'destaques',
+  montar(v, d) {
+    // Três destaques: com mais de três seções, a primeira (o topo do site) fica de fora.
+    const todas = d.secoes.map((s, i) => ({ ...s, i }))
+    const escolhidas = (todas.length > 3 ? todas.slice(1, 4) : todas).slice(0, 3)
+    const n = escolhidas.length
+
+    // Marca: o mesmo elemento começa grande no meio e encolhe até o canto
+    const letras = v.letras('#nome', d.nome)
+    const nome = v.el('#nome')
+    const escala = Math.min(4.4, 384 / nome.offsetWidth)
+    const altoGrande = nome.offsetHeight * escala
+    const xGrande = (v.LARGURA - nome.offsetWidth * escala) / 2 - 24
+    const yGrande = 330 - altoGrande / 2 - 26
+    v.el('#marca-fio').style.top = Math.round(330 + altoGrande / 2 + 18) + 'px'
+    const sub = v.escreve('#marca-sub', d.sub)
+    if (sub) sub.style.top = Math.round(330 + altoGrande / 2 + 38) + 'px'
+
+    const blocos = escolhidas.map((s, k) => {
+      const b = document.createElement('div')
+      b.className = 'dest'
+      b.innerHTML = '<div class="num titulo mascara"><span></span></div><div class="rot titulo"></div>'
+      b.querySelector('.num span').textContent = String(k + 1).padStart(2, '0')
+      const rot = b.querySelector('.rot')
+      rot.textContent = s.rotulo
+      v.el('#destaques').append(b)
+      v.cabe(rot, { max: 27, min: 16, linhas: 3 })
+      return { num: b.querySelector('.num span'), linhas: v.linhas(rot) }
+    })
+
+    v.escreve('#fim-chamada', d.chamada)
+    v.cabe('#fim-chamada', { max: 50, min: 26, linhas: 5 })
+    const linhas = v.linhas('#fim-chamada')
+    v.escreve('#fim-contato', d.contato)
+    v.escreve('#fim-botao', d.botao)
+    v.escreve('#fim-aviso', d.aviso)
+
+    // Tempos (segundos)
+    const D0 = 2.5, CADA = 2.5, CHEGA = 2.9 // o dublê para e a janela de verdade assume
+    const TF = D0 + n * CADA, FIM = TF + 3.6
+
+    // Abertura
+    v.anima(letras, 0.12, 0.8, { yp: [140, 0] }, 'sai4', Math.min(0.05, 0.4 / letras.length))
+    v.anima('#nome', 1.7, 0.8, { x: [xGrande, 0], y: [yGrande, 0], escala: [escala, 1] }, 'vai3')
+    v.cena('#marca-fio, #marca-sub', 0, 2.05)
+    v.anima('#marca-fio', 0.4, 0.55, { escalaX: [0, 1] }, 'vai3')
+    v.anima('#marca-sub', 0.5, 0.45, { opacidade: [0, 1], y: [10, 0] }, 'sai3')
+    v.anima('#marca-fio, #marca-sub', 1.75, 0.25, { opacidade: 0 }, 'entra2')
+
+    // A janela sobe já no primeiro destaque: o site vai para a seção ainda sem aparecer, o dublê sobe com a
+    // foto dele e, ao parar, a janela de verdade assume
+    v.siteEm(1.3)
+    v.corta(1.3, { secao: escolhidas[0].i }, 350)
+    v.foto(1.9, '#foto')
+    v.congela(1.9, CHEGA)
+    v.cena('#duble', 1.9, CHEGA)
+    v.anima('#duble', 1.95, CHEGA - 1.95, { y: [640, 0] }, 'sai4')
+    v.anima('#cartao', CHEGA, 0, { opacidade: [0, 1] })
+    v.anima('#tampa', 0, 0, { recorte: [[100, 0, 0, 0], [100, 0, 0, 0]] })
+
+    escolhidas.forEach((s, k) => {
+      const t = D0 + k * CADA
+      const entra = k === 0 ? 2.3 : t - 0.2
+      if (k > 0) {
+        // Troca: uma faixa na cor de destaque cobre a janela, o site pula de seção e a faixa sai
+        v.anima('#tampa', t - 0.42, 0.36, { recorte: [[100, 0, 0, 0], [0, 0, 0, 0]] }, 'vai3')
+        v.corta(t - 0.05, { secao: s.i }, 300)
+        v.anima('#tampa', t, 0.42, { recorte: [[0, 0, 0, 0], [0, 0, 100, 0]] }, 'vai3')
+      }
+      v.rola(k === 0 ? CHEGA : t, k === 0 ? D0 + CADA - CHEGA : CADA, { secao: s.i, mais: 90 }, 'linear')
+      v.cena(v.el('#destaques').children[k], entra - 0.05, t + CADA + 0.1)
+      v.anima(blocos[k].num, entra, 0.6, { yp: [140, 0] }, 'sai4')
+      v.anima(blocos[k].linhas, entra + 0.08, 0.6, { yp: [140, 0] }, 'sai4', 0.07)
+      v.anima([blocos[k].num, ...blocos[k].linhas], t + CADA - 0.42, 0.3, { yp: -140 }, 'entra3', 0.03)
+    })
+
+    // Fecho: a janela desce e a chamada entra
+    v.foto(TF - 0.05, '#foto')
+    v.anima('#cartao', TF - 0.05, 0, { opacidade: 0 })
+    v.cena('#duble', TF - 0.05, TF + 0.8)
+    v.anima('#duble', TF - 0.05, 0.8, { y: [0, 660] }, 'vai3')
+    v.cena('#fim, #fim-aviso', TF + 0.25, FIM)
+    v.anima('#fim-fio', TF + 0.3, 0.6, { escalaX: [0, 1] }, 'vai3')
+    v.anima(linhas, TF + 0.4, 0.75, { yp: [140, 0] }, 'sai4', 0.09)
+    v.anima('#fim-contato', TF + 0.8, 0.5, { opacidade: [0, 1], y: [10, 0] }, 'sai3')
+    v.anima('#fim-botao', TF + 0.92, 0.6, { opacidade: [0, 1], y: [14, 0], escala: [0.95, 1] }, 'sai3')
+    v.anima('#fim-aviso', TF + 1.0, 0.5, { opacidade: [0, 1] }, 'sai2')
+    v.duracao(FIM)
+  },
+})
+</script>
+</body>
+</html>

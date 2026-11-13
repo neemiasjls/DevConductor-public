@@ -23,6 +23,15 @@ para o repositório original (tokens, exemplos e documentação); o conteúdo de
 | gsap-core, gsap-scrolltrigger, gsap-timeline, gsap-react, gsap-plugins, gsap-utils, gsap-performance | greensock/gsap-skills (oficial do GSAP, commit aed9cfd; `gsap-frameworks` ficou de fora: Vue/Svelte) | 16,4 mil | MIT |
 
 `vercel-react-best-practices` não é copiada aqui: vem do plugin `stack-typescript`.
+
+Referências adaptadas (não são cópia; texto em português, reduzido para landing page; commit em `fontes.json`):
+
+| Arquivo | Origem | Licença |
+|---|---|---|
+| lp-revisao/referencias/critica-de-movimento.md | emilkowalski/skills (review-animations, animate; commit 715c180) | MIT |
+| lp-revisao/referencias/conteudo-extremo.md | emilkowalski/skills (break-ui; commit 715c180) | MIT |
+| lp-construcao/referencias/celular-de-verdade.md | emilkowalski/skills (mobile-native) + vercel-labs/web-interface-guidelines (commit 434b7f9) | MIT |
+| lp-revisao/referencias/detalhes-de-interface.md | vercel-labs/web-interface-guidelines (command.md, AGENTS.md; commit 434b7f9) | MIT |
 Cada pasta copiada tem o LICENSE da origem; as Apache-2.0 alteradas têm aviso de modificação abaixo do cabeçalho.
 Ao atualizar uma consultora: baixar o original numa pasta separada, ler o SKILL.md novo, copiar e
 reaplicar a trava.

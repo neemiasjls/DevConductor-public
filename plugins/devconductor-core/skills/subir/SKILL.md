@@ -16,7 +16,9 @@ projeto": descobrir pelo repositório (scripts do package.json/.csproj/pom, `wra
 CLAUDE.md.
 
 1. **Conferir antes.** Build e testes sem erro e o que foi mexido testado (com arquivo ou dado real
-   quando houver). Falhou: NÃO sobe; explicar o problema.
+   quando houver). Falhou: NÃO sobe; explicar o problema. Com o plugin `seguranca` ligado e mudança em
+   código, rodar a varredura (`seguranca:varredura-seguranca`) antes do push: achado alto ou crítico para o
+   envio; ferramenta que faltou é dita ao usuário, não escondida.
 2. **Banco, se a mudança precisar** (Supabase, Postgres, SQLite ou outro). Só mudança segura:
    acrescentar tabela, coluna, view ou função (`if not exists`); nunca apagar nem alterar dado
    existente sem perguntar. Aplicar pelo caminho do projeto: conector do Supabase (`apply_migration`,

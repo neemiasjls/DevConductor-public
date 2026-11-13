@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "source": { "path": "web/package-lock.json", "type": "lockfile" },
+      "packages": [
+        {
+          "package": { "name": "lodash", "version": "4.17.20", "ecosystem": "npm" },
+          "vulnerabilities": [
+            {
+              "id": "GHSA-35jh-r3h4-6jhm",
+              "summary": "Command Injection in lodash",
+              "aliases": ["CVE-2021-23337"],
+              "affected": [
+                {
+                  "package": { "ecosystem": "npm", "name": "lodash" },
+                  "ranges": [{ "type": "SEMVER", "events": [{ "introduced": "0" }, { "fixed": "4.17.21" }] }]
+                }
+              ],
+              "database_specific": { "severity": "HIGH" }
+            }
+          ],
+          "groups": [{ "ids": ["GHSA-35jh-r3h4-6jhm"], "aliases": ["CVE-2021-23337", "GHSA-35jh-r3h4-6jhm"], "max_severity": "7.2" }]
+        },
+        {
+          "package": { "name": "pacote-sem-nota", "version": "1.0.0", "ecosystem": "npm" },
+          "vulnerabilities": [
+            { "id": "GHSA-xxxx-yyyy-zzzz", "summary": "Exemplo baixo", "database_specific": { "severity": "LOW" } }
+          ],
+          "groups": [{ "ids": ["GHSA-xxxx-yyyy-zzzz"], "aliases": [], "max_severity": "" }]
+        }
+      ]
+    }
+  ]
+}

@@ -66,7 +66,8 @@ só no plano, revisão final ou bug difícil. Ela não troca o próprio modelo: 
 | `.js`, `.mjs`, `.jsx` | `javascript-pro` |
 | `.py` | `python-pro` · `fastapi-pro` (API FastAPI) |
 | `.sql`, migrações, modelagem | `database-architect` · `sql-pro` · `database-optimizer` |
-| login, permissão, upload, segredo, pagamento | `backend-security-coder` / `frontend-security-coder`; revisão `security-auditor` |
+| login, permissão, upload, segredo, pagamento | `backend-`/`frontend-security-coder`; revisão `security-auditor` (opus), pelo portão do fluxo |
+| entre módulos, stack mista | `arquiteto` |
 Nomes podem vir com prefixo (`stack-dotnet:dotnet-architect`). A maioria é `sonnet`: em parte com regra ou
 decisão, passe `model: "opus"`. Sem especialista ligado: `executor` ou `complex-tasks`.
 

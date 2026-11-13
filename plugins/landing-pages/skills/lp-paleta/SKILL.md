@@ -8,7 +8,7 @@ description: Define a paleta de cores de uma landing page a partir do espaço f�
 ## 1. Extrair do mundo real
 Rode o extrator nas fotos do espaço, fachada, logo e trabalhos do cliente (de preferência fotos reais; renderização
 3D só como apoio):
-`python -I <plugin>/skills/lp-paleta/scripts/extrair_paleta.py clientes/<cliente>/fotos-originais/<pasta>`
+`python -I <plugin>/skills/lp-paleta/scripts/extrair_paleta.py clientes/<cliente>/fotos/originais/<pasta>`
 Ele mostra as cores dominantes em hex e OKLCH e sugere fundo, texto e acento com o contraste calculado.
 
 ## 2. Reinterpretar (o passo que tira a cara de IA)

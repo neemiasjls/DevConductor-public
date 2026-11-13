@@ -19,6 +19,7 @@ Método externo: superpowers (instalado à parte); não se copia seu processo pa
 | `design-sistemas:fixing-accessibility` | `design-sistemas:ui-sistemas` | pela etapa, sob demanda |
 | `design-sistemas:improve-ui` | `design-sistemas:ui-sistemas` | pela etapa, sob demanda |
 | `design-sistemas:ui-sistemas` | `design-sistemas:ui-sistemas` | na etapa atual |
+| `devconductor-core:arquitetura` | conversa principal | na tarefa pertinente |
 | `devconductor-core:codex-parceiro` | conversa principal | na tarefa pertinente |
 | `devconductor-core:faxina` | conversa principal | na tarefa pertinente |
 | `devconductor-core:find-skills` | conversa principal | na tarefa pertinente |
@@ -70,7 +71,9 @@ Método externo: superpowers (instalado à parte); não se copia seu processo pa
 | `landing-pages:web-design-guidelines` † | `landing-pages:lp-revisao` | pela etapa, sob demanda |
 | `landing-pages:web-perf` | `landing-pages:lp-revisao` | pela etapa, sob demanda |
 | `landing-pages:wrangler` | `landing-pages:lp-publicar` | pela etapa, sob demanda |
+| `seguranca:auditoria-projeto` | `seguranca:security-auditor` | na tarefa pertinente |
 | `seguranca:sast-configuration` | `seguranca:security-auditor` | na tarefa pertinente |
+| `seguranca:varredura-seguranca` | `seguranca:security-auditor` | na tarefa pertinente |
 | `stack-banco:postgresql-code-review` † | `stack-banco:sql-pro` | na tarefa pertinente |
 | `stack-banco:postgresql-table-design` | `stack-banco:database-architect` | na tarefa pertinente |
 | `stack-banco:supabase-postgres-best-practices` | `stack-banco:database-architect` | na tarefa pertinente |

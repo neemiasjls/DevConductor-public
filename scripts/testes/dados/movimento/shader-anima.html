@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>shader que se mexe de verdade</title>
+<!-- Página nossa (teste da Parte 3b). Canvas WebGL redesenhado a cada quadro com o uniforme uTempo: o canvas MUDA
+     entre dois prints, então o leitor pode afirmar "canvas animado". -->
+<style>body { margin: 0 } canvas { display: block }</style>
+</head>
+<body>
+<canvas id="vivo" width="160" height="120"></canvas>
+<script>
+var gl = document.getElementById('vivo').getContext('webgl')
+window.temWebgl = !!gl
+if (gl) {
+  var sh = function (tipo, txt) { var s = gl.createShader(tipo); gl.shaderSource(s, txt); gl.compileShader(s); return s }
+  var p = gl.createProgram()
+  gl.attachShader(p, sh(gl.VERTEX_SHADER, 'attribute vec2 posicao; void main() { gl_Position = vec4(posicao, 0.0, 1.0); }'))
+  gl.attachShader(p, sh(gl.FRAGMENT_SHADER, 'precision mediump float; uniform float uTempo; void main() { gl_FragColor = vec4(0.5 + 0.5 * sin(uTempo * 6.0), 0.3, 0.6, 1.0); }'))
+  gl.linkProgram(p); gl.useProgram(p)
+  var b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b)
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW)
+  var a = gl.getAttribLocation(p, 'posicao'); gl.enableVertexAttribArray(a); gl.vertexAttribPointer(a, 2, gl.FLOAT, false, 0, 0)
+  var u = gl.getUniformLocation(p, 'uTempo')
+  var quadro = function (t) { gl.uniform1f(u, t / 1000); gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4); requestAnimationFrame(quadro) }
+  requestAnimationFrame(quadro)
+}
+</script>
+</body>
+</html>

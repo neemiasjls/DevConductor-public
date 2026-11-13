@@ -4,10 +4,10 @@ Kit de plugins do Claude Code (skills, agentes, hooks) que junta projetos famoso
 qualquer projeto pelo marketplace `devconductor`. Plano: `docs/plano-de-acao.md` · decisões: `docs/decisoes.md` ·
 onde paramos: `docs/continuar.md` (ler antes de começar; atualizar ao terminar).
 
-## Próxima rodada de exemplos (DEV-36)
-Antes de continuar design, ler o topo de `docs/continuar.md` e `pilotos/prova-design/rodada-claude/README.md`.
-O usuário quer novos exemplos pelo Claude, separados da rodada Codex atual na pasta e na vitrine.
-Preservar originalidade e movimento, calibrando os exageros; não sobrescrever os três exemplos existentes.
+## Trabalho atual
+Plano e ordem: `docs/plano-de-acao.md` (porta de entrada), `docs/planos/README.md` (planos vigentes) e
+`docs/continuar.md` (onde paramos). Com referência escolhida pelo usuário, landing page segue o caminho por
+referência do `lp-maestro`.
 
 ## Antes de enviar
 1. `node --test "scripts/testes/*.test.mjs"` e conferir o **código de saída** (um `| grep` engole a falha).

@@ -5,6 +5,30 @@ description: Revisa uma landing page antes de mostrar ao usuário ou ao cliente 
 
 # Revisão antes de entregar
 
+## Ordem e portões (a máquina antes do juiz)
+Ordem da revisão final: `acabamento.mjs` → `celular.mjs` → Lighthouse → `rodadas.mjs` → comparador → painel de
+juízes + Codex. Nada vai a juiz nenhum com defeito que a máquina acha sozinha. Três níveis:
+- **Nunca passa** (conserta antes de mostrar a qualquer juiz): portão do celular, fixo sobre conteúdo, linhas de
+  título colidindo, imagem ampliada ou esticada, emenda de faixa em laço, queda de Lighthouse.
+- **Exige justificativa** (só fica com o motivo escrito no relatório, uma linha por achado): órfã, cor desigual
+  num grupo de fotos, sinais de site gerado.
+- **Não bloqueia:** sugestões e "aviso" (vão morto é aviso, como no `acabamento.mjs`). "Não medido" se confere no olho e **nunca conta como aprovado**.
+
+**Acabamento:** `node <plugin>/skills/lp-revisao/scripts/acabamento.mjs <url> <pasta-da-revisão>/acabamento --larguras 1440,390`
+(7 conferências; saída 1 = há "nunca passa"; 0 não quer dizer aprovado: ler `resumo.txt`).
+**Rodadas:** depois de cada rodada de prints,
+`node <plugin>/skills/lp-revisao/scripts/rodadas.mjs <pasta-anterior> <pasta-nova> <pasta-saida> --lighthouse-antes a.json --lighthouse-depois b.json`.
+A diferença de imagem só informa (a mudança ficou onde mexi?); o Lighthouse reprova se uma categoria cair mais de
+3 pontos, o LCP piorar 15% ou o CLS passar de 0,1. Guardar o relatório do Lighthouse de **cada** rodada.
+**Sinais de site gerado** (cada um se justifica ou sai): mesma grade de cartões em toda seção; degradê e brilho
+sem motivo; ícone genérico no lugar de foto; selo, número ou depoimento sem fonte; título que serviria a qualquer
+empresa; o mesmo "sobe e aparece" em tudo; nenhuma ideia do ofício do cliente.
+**Referências desta etapa** (ler na hora): `referencias/detalhes-de-interface.md` (lista de acabamento),
+`critica-de-movimento.md` (julgar animação quadro a quadro), `conteudo-extremo.md` (nome longo, número grande,
+sem foto), `juiz-as-cegas.md` (painel).
+**O kit aprende a cada site:** todo defeito que um juiz achar e a máquina não achou vira item em
+`problemas-do-kit`, para ser transformado em conferência automática. Consertar só na página não fecha o item.
+
 ## Rodada reproduzível (D6)
 Rodar no projeto que tem `puppeteer-core` instalado:
 ```bash
@@ -39,6 +63,21 @@ Nenhum print ou placar equivale à aprovação estética do usuário. Não escol
 
 Na entrega em vídeo, rotular a gravação e oferecer “Abrir o site” ao lado. Hover, toque, seleção de serviço
 e links só podem ser avaliados na página real; o vídeo da vitrine não é a superfície interativa do site.
+
+## Comparar com a referência (caminho por referência)
+A cada seção construída (máx. 3 voltas por seção) e na revisão final, com o raio-x da referência no mesmo formato:
+`node <plugin>/skills/lp-revisao/scripts/comparar-referencia.mjs <ref>/raio-x.json http://127.0.0.1:5173 comparacao/volta-1 [--secoes 1,2,4] [--copiar-prints] [--celular] [--lighthouse lh.json]`
+No laço seção por seção, `--secoes` leva os números da REFERÊNCIA (roteiro.md) já construídos: as outras não geram
+divergência e a fatia pode sair com código 0. Sem `--secoes`, compara a página inteira (revisão final).
+`--copiar-prints` põe os prints dentro da saída, para a pasta abrir em outro computador.
+Corrigir pela lista de `comparacao.md` (mais grave primeiro) e conferir em `lado-a-lado.html`. Código 0 = sem
+divergência alta; 1 = há alta, corrigir antes de seguir; 2 = erro de uso ou medição.
+**Olhar (obrigatório):** o número sozinho aprova fundo ruim. Quem compara (agente ou pessoa) DEVE abrir os prints de
+`olhar.md` e devolver, além da lista de divergências, a nota 0–10 por seção e o que denuncia "feito por gerador";
+seção que não passa nas réguas do juiz volta ao laço mesmo com código 0: régua A (nota 9 ou mais) ou régua B (na
+tela, nosso >= referência em toda seção e média do nosso >= média da referência + 0,5), as mesmas do `juiz.mjs` e
+de `referencias/juiz-as-cegas.md`; não mostrar como pronto sem passar numa delas. Na revisão final, juntar
+`--cegas <pasta> --outras a.json,b.json`: o material vai a um avaliador sem rótulo; o gabarito fica na saída.
 
 ## 0. Clareza (obrigatório, antes das auditorias técnicas)
 Um site que passa em todos os testes técnicos e confunde o visitante está reprovado (retorno de 04/11/2026:
@@ -83,6 +122,10 @@ como `#cabelo #noivas` geram prints dessas seções). Olhe cada print de verdade
 ## 1b. Responsividade (obrigatório)
 `node <plugin>/skills/lp-revisao/scripts/responsivo.mjs <url>` testa 360, 390, 414, 768, 1024 e 1440px:
 rolagem lateral, elementos vazando, toque < 44px e texto < 13px. Só entregar com todas as larguras OK.
+
+**Portão do celular (obrigatório):** `node <plugin>/skills/lp-revisao/scripts/celular.mjs <url> [pasta] [--larguras 360,390] [--deitado] [--json]`
+confere os 7 itens (opções e regras no cabeçalho do script) e sai 0 (passou), 1 (falhou) ou 2 (sem Chrome). Site que
+falha não é mostrado como pronto; o relatório diz "Safari conferido" ou "Safari não conferido".
 
 ## 2. Detector anti-IA (obrigatório)
 `node <plugin>/skills/taste-skill/scripts/lint.mjs <src>` (código) e
@@ -144,9 +187,18 @@ Conferir nos prints (computador e celular): raio consistente com o estilo e nenh
 a animação. `brutalista-grafico` e outras direções que peçam quinas vivas conservam essas quinas; não
 arredondar a página para satisfazer uma regra de outro estilo. Nos demais casos, seguir o raio do plano.
 
-## Várias rodadas, com um juiz de fora (pedido do usuário, 16/10)
+## Várias rodadas, com a nota vinda de fora (pedido do usuário, 16/10 e 11/11)
 Revisar em **3 rodadas** (ou até não sobrar falha grave): prints computador/celular + vídeo da rolagem →
-lista do mais grave ao menos → corrigir → repetir. Em cada rodada, se o Codex estiver instalado, pedir a ele um
-julgamento **só de leitura** (`codex exec -s read-only -o revisao/rodada-N/codex.md "<avaliar site/ e prints
-contra o plano: falhas e melhorias, mais grave primeiro, sem alterar nada>"`) e comparar com a própria crítica:
-o que os dois apontarem como grave vem primeiro. Registrar cada rodada no relatório.
+lista do mais grave ao menos → corrigir → repetir. Registrar cada rodada no relatório.
+**A nota vem do painel às cegas, nunca de quem fez** (`referencias/juiz-as-cegas.md`):
+1. `node <plugin>/skills/lp-revisao/scripts/juiz.mjs montar <prints-nosso> <prints-referencia> <pasta> [--juizes 4]`,
+   com os prints **originais** da referência. Cada juiz ganha um papel (direção de arte; tipografia e acabamento;
+   celular e uso; com 4, o dono do negócio). Sem referência, o alvo é a régua do dono (`lp-maestro`), se existir.
+2. O `montar` cria uma pasta neutra por juiz, fora do projeto, e imprime o caminho de cada uma (a lista fica em
+   `<pasta>/gabarito/pastas.json`). Um agente novo por pasta neutra, dizendo só: "Leia `<pasta neutra>/pedido.md`
+   e faça o que ele pede. Leia só essa pasta." Nunca passar ao juiz a pasta de saída nem o `gabarito/`. Variar o modelo entre os juízes quando houver (outra família vale mais que mais um juiz igual). Nunca
+   usar como juiz quem montou o material ou viu o gabarito.
+3. `juiz.mjs fechar <pasta>`: mediana, diferença maior-menor e o que só um papel apontou. Diferença acima de 1,5
+   sai como "dúvida: chamar o dono"; dúvida de gosto se mostra em duas opções lado a lado (A/B).
+4. O Codex entra sempre, só de leitura: pares nas duas ordens e prints + código (comandos na referência). O
+   movimento vai a um juiz próprio, com tira de quadros (`critica-de-movimento.md`).

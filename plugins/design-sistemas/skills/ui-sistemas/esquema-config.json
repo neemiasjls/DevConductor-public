@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-sistemas.json",
+  "title": "Configuração de design de sistema que a máquina lê (design-sistemas.json, na raiz do projeto)",
+  "description": "Caminhos relativos à pasta deste arquivo. O DESIGN.md continua sendo o texto para pessoas; os dois dizem a mesma coisa.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["versao", "pecas", "letra", "espaco", "raio", "cores"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "versao": { "enum": [1] },
+    "pecas": {
+      "description": "Peças base: nome da peça -> arquivo exato (ou lista de arquivos exatos). Pasta não vale: arquivo vizinho não declarado continua conferido.",
+      "type": "object",
+      "required": ["campo", "botao", "cabecalho-tela", "cabecalho-tabela", "estados"],
+      "propertyNames": { "$ref": "#/$defs/nome" },
+      "additionalProperties": {
+        "anyOf": [
+          { "$ref": "#/$defs/arquivo" },
+          { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/arquivo" } }
+        ]
+      }
+    },
+    "letra": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tamanhos", "titulos", "minimoPx", "minimoCampoCelularPx"],
+      "properties": {
+        "tamanhos": {
+          "description": "Escala fechada: até 5 tamanhos com nome -> classe (text-xs, text-sm, ... ou token próprio do tema). Nada de text-[Npx].",
+          "type": "object",
+          "minProperties": 2,
+          "maxProperties": 5,
+          "propertyNames": { "$ref": "#/$defs/nome" },
+          "additionalProperties": { "type": "string", "pattern": "^text-[a-z0-9-]+$" }
+        },
+        "titulos": {
+          "description": "Três níveis de título, cada um apontando um nome de 'tamanhos'.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["pagina", "secao", "grupo"],
+          "properties": {
+            "pagina": { "$ref": "#/$defs/nome" },
+            "secao": { "$ref": "#/$defs/nome" },
+            "grupo": { "$ref": "#/$defs/nome" }
+          }
+        },
+        "minimoPx": { "type": "integer", "minimum": 12 },
+        "minimoCampoCelularPx": { "type": "integer", "minimum": 16 }
+      }
+    },
+    "espaco": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unidadePx"],
+      "properties": { "unidadePx": { "enum": [4] } }
+    },
+    "raio": {
+      "description": "Um raio por superfície: nome da superfície -> classe (rounded-md, rounded-lg, rounded-full...).",
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "$ref": "#/$defs/nome" },
+      "additionalProperties": { "type": "string", "pattern": "^rounded(-[a-z0-9]+)?$" }
+    },
+    "cores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["funcao"],
+      "properties": {
+        "funcao": {
+          "description": "Cores por função: papel -> nome do token usado nas classes (primary, muted-foreground...).",
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": { "$ref": "#/$defs/nome" },
+          "additionalProperties": { "$ref": "#/$defs/nome" }
+        },
+        "negocio": {
+          "description": "Cores com sentido no negócio, fora da paleta de funções, cada uma com o motivo.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nome", "valor", "motivo"],
+            "properties": {
+              "nome": { "$ref": "#/$defs/nome" },
+              "valor": { "type": "string", "minLength": 1, "pattern": "\\S" },
+              "motivo": { "$ref": "#/$defs/texto" }
+            }
+          }
+        }
+      }
+    },
+    "telas": {
+      "description": "Telas que o conferidor do navegador abre: id -> endereço (caminho a partir da base, ou endereço completo).",
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/nome" },
+      "additionalProperties": { "type": "string", "pattern": "^(/|https?://)" }
+    },
+    "estados": {
+      "description": "Contrato de estados. {estado} é trocado pelo nome do estado. Padrão: ?estado={estado} e [data-estado=\"{estado}\"] na raiz da tela.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "pedir": { "$ref": "#/$defs/texto" },
+        "confirmar": { "$ref": "#/$defs/texto" },
+        "tentarDeNovo": { "$ref": "#/$defs/texto" },
+        "porTela": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/nome" },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["lista"],
+            "properties": {
+              "lista": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/nome" } },
+              "pedir": { "$ref": "#/$defs/texto" },
+              "confirmar": { "$ref": "#/$defs/texto" },
+              "tentarDeNovo": { "$ref": "#/$defs/texto" },
+              "janelas": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["nome", "seletor"],
+                  "properties": { "nome": { "$ref": "#/$defs/nome" }, "seletor": { "$ref": "#/$defs/texto" } }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "excecoes": {
+      "description": "Desvio aceito de uma regra 'exige justificativa' da régua, num local só. Regra 'nunca passa' não aceita exceção.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["regra", "arquivo", "local", "motivo"],
+        "properties": {
+          "regra": { "$ref": "#/$defs/nome" },
+          "arquivo": { "$ref": "#/$defs/texto" },
+          "local": {
+            "description": "Linha (no código) ou seletor (no navegador).",
+            "anyOf": [{ "type": "integer", "minimum": 1 }, { "$ref": "#/$defs/texto" }]
+          },
+          "motivo": { "$ref": "#/$defs/texto" },
+          "estado": {
+            "description": "Só no navegador: limita a exceção a um estado da tela (sem ele, vale para todos).",
+            "$ref": "#/$defs/nome"
+          },
+          "aparelho": {
+            "description": "Só no navegador: limita a exceção a um aparelho (sem ele, vale para os dois).",
+            "enum": ["computador", "celular"]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "nome": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "texto": { "type": "string", "minLength": 1, "pattern": "\\S" },
+    "arquivo": {
+      "description": "Arquivo exato, com extensão; nunca pasta nem curinga.",
+      "type": "string",
+      "pattern": "^[^*?]*[^/\\\\*?]\\.(tsx|jsx|ts|js|vue|svelte|razor|cshtml)$"
+    }
+  }
+}

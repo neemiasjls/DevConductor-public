@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vídeo de venda: cortes</title>
+<script src="motor.js"></script>
+<style>
+  /* Roteiro "cortes": o site em tela cheia, como quem grava a tela do celular, com cortes secos no ritmo.
+     Uma cortina na cor do site abre com o nome da empresa e fecha com a chamada e o contato.
+     Medidas em px de CSS (quadro 432 x 768, sai 2,5 vezes maior). */
+  #site { position: absolute; left: 0; top: 0; width: 432px; height: 768px; }
+
+  #barras { position: absolute; left: 12px; right: 12px; top: 10px; display: flex; gap: 4px; filter: drop-shadow(0 0 2px rgba(0, 0, 0, .5)); }
+  #barras i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255, 255, 255, .42); overflow: hidden; }
+  #barras b { display: block; height: 100%; background: #fff; transform-origin: 0 50%; }
+
+  .etiqueta { position: absolute; left: 14px; bottom: 86px; display: flex; align-items: baseline; gap: 9px; padding: 10px 16px 10px 13px; border-radius: 999px;
+    background: var(--fundo); color: var(--texto); font-size: 14.5px; font-weight: 600; letter-spacing: .02em; white-space: nowrap; box-shadow: 0 6px 18px rgba(0, 0, 0, .38); }
+  .etiqueta em { font-style: normal; font-size: 12px; letter-spacing: .1em; color: var(--destaque); font-variant-numeric: tabular-nums; }
+
+  .cortina { position: absolute; inset: 0; background: var(--fundo); }
+  .cortina::before { content: ''; position: absolute; inset: 0; background: radial-gradient(95% 60% at 50% 42%, color-mix(in srgb, var(--destaque) 18%, transparent) 0%, transparent 72%); }
+  .dentro { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 30px; }
+
+  #abre-nome { width: 372px; font-size: 96px; line-height: 1.08; }
+  #abre-fio { width: 64px; height: 1.5px; margin-top: 20px; background: var(--destaque); }
+  #abre-sub { margin-top: 20px; font-size: 13.5px; font-weight: 500; letter-spacing: .3em; text-transform: uppercase; }
+
+  #fecha-nome { font-size: 12.5px; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; color: var(--destaque); }
+  #fecha-chamada { width: 372px; margin-top: 22px; font-size: 46px; line-height: 1.12; text-wrap: balance; }
+  #fecha-botao { margin-top: 34px; padding: 14px 28px; border-radius: 999px; background: var(--texto); color: var(--fundo); font-size: 16px; font-weight: 600; letter-spacing: .04em; }
+  #fecha-contato { margin-top: 18px; font-size: 17px; font-weight: 500; }
+  #fecha-aviso { position: absolute; left: 30px; right: 30px; bottom: 54px; font-size: 12.5px; color: color-mix(in srgb, var(--texto) 82%, var(--fundo)); }
+</style>
+</head>
+<body>
+<div id="palco">
+  <iframe id="site" title="site"></iframe>
+
+  <div id="barras"></div>
+  <div id="etiquetas"></div>
+
+  <div id="abre" class="cortina" data-cobre>
+    <div id="abre-dentro" class="dentro">
+      <div id="abre-nome" class="titulo" data-texto></div>
+      <div id="abre-fio"></div>
+      <div id="abre-sub"></div>
+    </div>
+  </div>
+
+  <div id="fecha" class="cortina" data-cobre data-fim>
+    <div class="dentro">
+      <div id="fecha-nome"></div>
+      <div id="fecha-chamada" class="titulo"></div>
+      <div id="fecha-botao"></div>
+      <div id="fecha-contato"></div>
+      <div id="fecha-aviso"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+Video.modelo({
+  nome: 'cortes',
+  montar(v, d) {
+    const secoes = d.secoes.slice(0, 6)
+    const n = secoes.length
+
+    // Textos
+    v.escreve('#abre-nome', d.nome)
+    v.cabe('#abre-nome', { max: 96, min: 30, linhas: 3 })
+    v.escreve('#abre-sub', d.sub)
+    const barras = secoes.map(() => { const i = document.createElement('i'), b = document.createElement('b'); i.append(b); v.el('#barras').append(i); return b })
+    const etiquetas = secoes.map((s, i) => {
+      const e = document.createElement('div')
+      e.className = 'etiqueta'
+      e.setAttribute('data-texto', '')
+      const numero = document.createElement('em'), nome = document.createElement('span')
+      numero.textContent = String(i + 1).padStart(2, '0')
+      nome.textContent = s.rotulo
+      e.append(numero, nome)
+      v.el('#etiquetas').append(e)
+      return e
+    })
+    v.escreve('#fecha-nome', d.nome)
+    v.escreve('#fecha-chamada', d.chamada)
+    v.cabe('#fecha-chamada', { max: 46, min: 24, linhas: 4 })
+    const linhas = v.linhas('#fecha-chamada')
+    if (d.botao) { v.escreve('#fecha-botao', d.botao); v.escreve('#fecha-contato', d.contato) }
+    else { v.escreve('#fecha-botao', d.contato); v.escreve('#fecha-contato', '') }
+    v.escreve('#fecha-aviso', d.aviso)
+
+    // Tempos (segundos)
+    const T0 = 1.5, PASSEIO = 8.7, plano = PASSEIO / n
+    const TF = T0 + PASSEIO, FIM = TF + 3.5
+
+    // Abertura: o nome bate na tela e a cortina sobe
+    v.cena('#abre', 0, T0 + 0.8)
+    v.anima('#abre-nome', 0.1, 0.6, { opacidade: [0, 1], escala: [1.16, 1] }, 'sai4')
+    v.anima('#abre-fio', 0.45, 0.55, { escalaX: [0, 1] }, 'vai3')
+    v.anima('#abre-sub', 0.6, 0.5, { opacidade: [0, 1], y: [10, 0] }, 'sai3')
+    v.siteEm(T0 - 0.15)
+    v.anima('#abre', T0, 0.75, { recorte: [[0, 0, 0, 0], [0, 0, 100, 0]] }, 'vai4')
+    v.anima('#abre-dentro', T0, 0.75, { y: [0, -150] }, 'vai4')
+
+    // Cortes: cada seção é um plano, com o site descendo devagar
+    v.cena('#barras', T0 + 0.3, TF + 0.3)
+    v.anima('#barras', T0 + 0.3, 0.4, { opacidade: [0, 1] }, 'sai2')
+    secoes.forEach((s, i) => {
+      const t = T0 + i * plano
+      if (i > 0) v.corta(t, { secao: i }, 320)
+      v.rola(t, plano, { secao: i, mais: i === 0 ? 60 : 96 }, 'linear')
+      v.anima(barras[i], t, plano, { escalaX: [0, 1] }, 'linear')
+      const entra = i === 0 ? T0 + 0.45 : t
+      v.cena(etiquetas[i], entra, i === n - 1 ? TF + 0.3 : t + plano)
+      v.anima(etiquetas[i], entra, 0.32, { opacidade: [0, 1], x: [-14, 0] }, 'sai3')
+    })
+
+    // Fecho: a cortina desce com a chamada
+    v.anima('#barras', TF, 0.3, { opacidade: 0 }, 'entra2')
+    v.anima(etiquetas[n - 1], TF, 0.3, { opacidade: 0 }, 'entra2')
+    v.cena('#fecha', TF, FIM)
+    v.anima('#fecha', TF, 0.75, { recorte: [[0, 0, 100, 0], [0, 0, 0, 0]] }, 'vai4')
+    v.anima('#fecha-nome', TF + 0.45, 0.5, { opacidade: [0, 1], y: [-6, 0] }, 'sai3')
+    v.anima(linhas, TF + 0.5, 0.75, { yp: [140, 0] }, 'sai4', 0.09)
+    v.anima('#fecha-botao', TF + 0.85, 0.6, { opacidade: [0, 1], y: [14, 0], escala: [0.95, 1] }, 'sai3')
+    v.anima('#fecha-contato', TF + 0.97, 0.5, { opacidade: [0, 1], y: [10, 0] }, 'sai3')
+    v.anima('#fecha-aviso', TF + 1.05, 0.5, { opacidade: [0, 1] }, 'sai2')
+    v.duracao(FIM)
+  },
+})
+</script>
+</body>
+</html>

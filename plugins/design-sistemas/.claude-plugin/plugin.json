@@ -1,6 +1,6 @@
 {
   "name": "design-sistemas",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Design de telas de sistema (painel, cadastro, lista, formulário, dashboard) em React: skill ui-sistemas com DESIGN.md por projeto, regras de estado, erro e lista, padrões brasileiros testados (CPF, CNPJ alfanumérico, CEP, dinheiro, datas) e 5 consultoras travadas.",
   "author": {
     "name": "DevConductor"

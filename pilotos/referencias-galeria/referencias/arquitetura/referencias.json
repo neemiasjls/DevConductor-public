@@ -1,0 +1,3272 @@
+{
+ "categoria": "arquitetura",
+ "nome": "Arquitetura e interiores",
+ "data": "2026-11-10",
+ "relatorio": {
+  "opl": {
+   "lidos": 32,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 32
+  },
+  "awwwards": {
+   "lidos": 124,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 124
+  },
+  "lapa": {
+   "lidos": 0,
+   "pedidos": 1,
+   "parou": "403 em https://www.lapa.ninja/category/architecture/",
+   "unicos": 0
+  },
+  "github": {
+   "lidos": 70,
+   "pedidos": 4,
+   "parou": null,
+   "unicos": 66
+  }
+ },
+ "itens": [
+  {
+   "n": 1,
+   "fonte": "opl",
+   "nome": "Ilnaz Khasanshin",
+   "pagina": "https://onepagelove.com/ilnaz-khasanshin",
+   "site": "https://ntch.design",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/91606/79a6895ec0ebc9ace3b4180215a84017/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/91606/79a6895ec0ebc9ace3b4180215a84017/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 2,
+   "fonte": "opl",
+   "nome": "Oluwatobi Salawu",
+   "pagina": "https://onepagelove.com/oluwatobi-salawu",
+   "site": "https://oluwatobisalawu.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90284/7ce2c4ea9dcb89dfd8d609d13370bbc5/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90284/7ce2c4ea9dcb89dfd8d609d13370bbc5/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 3,
+   "fonte": "opl",
+   "nome": "JUNGLE",
+   "pagina": "https://onepagelove.com/jungle",
+   "site": "https://www.yanndo.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90266/4c3891fabfb6441bf0157dad33d26aae/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90266/4c3891fabfb6441bf0157dad33d26aae/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 4,
+   "fonte": "opl",
+   "nome": "Petrillo.studio",
+   "pagina": "https://onepagelove.com/petrillo-studio",
+   "site": "https://petrillo.studio",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90220/34090d3d3386195b8910ba3344c98d03/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90220/34090d3d3386195b8910ba3344c98d03/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 5,
+   "fonte": "opl",
+   "nome": "Made by Igor",
+   "pagina": "https://onepagelove.com/made-by-igor",
+   "site": "https://madebyigor.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90042/b76792f64571741b7157085fa57c3bf1/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/90042/b76792f64571741b7157085fa57c3bf1/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 6,
+   "fonte": "opl",
+   "nome": "Christoph Mandl",
+   "pagina": "https://onepagelove.com/christoph-mandl",
+   "site": "https://mandl.design",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89901/27e3d494c3b78d05ada27f4b2c90d3b6/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89901/27e3d494c3b78d05ada27f4b2c90d3b6/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 7,
+   "fonte": "opl",
+   "nome": "Mathias Adolfsson",
+   "pagina": "https://onepagelove.com/mathias-adolfsson",
+   "site": "https://mathiasadolfsson.dev",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89939/4cc369e122199d13712248537d0d3650/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89939/4cc369e122199d13712248537d0d3650/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 8,
+   "fonte": "opl",
+   "nome": "Angelo",
+   "pagina": "https://onepagelove.com/angelo",
+   "site": "https://angelo.so/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89985/115568cfdeb050c4c43c194853234a51/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89985/115568cfdeb050c4c43c194853234a51/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 9,
+   "fonte": "opl",
+   "nome": "Josh Puckett",
+   "pagina": "https://onepagelove.com/josh-puckett",
+   "site": "https://joshpuckett.me/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89825/8a930b97454d2ffbbe421a80dab5b25e/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89825/8a930b97454d2ffbbe421a80dab5b25e/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 10,
+   "fonte": "opl",
+   "nome": "Abdullah",
+   "pagina": "https://onepagelove.com/abdullah",
+   "site": "https://helloabdullah.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89807/d74d8c64720a6725ee35ba265e48fba3/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89807/d74d8c64720a6725ee35ba265e48fba3/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 11,
+   "fonte": "opl",
+   "nome": "Stolaze",
+   "pagina": "https://onepagelove.com/stolaze",
+   "site": "https://stolaze.com/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89575/8bfff18eee9fad9150b9e1ac85fbf834/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89575/8bfff18eee9fad9150b9e1ac85fbf834/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 12,
+   "fonte": "opl",
+   "nome": "Aniket",
+   "pagina": "https://onepagelove.com/aniket",
+   "site": "https://unfunnyket.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89501/c8eb6c8ba0f648a48b98db463de83cc0/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89501/c8eb6c8ba0f648a48b98db463de83cc0/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 13,
+   "fonte": "opl",
+   "nome": "Scout Graphics",
+   "pagina": "https://onepagelove.com/scout-graphics",
+   "site": "https://scoutgraphics.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89348/84f803b8aa14bf26ecbb41a682cb89a0/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89348/84f803b8aa14bf26ecbb41a682cb89a0/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 14,
+   "fonte": "opl",
+   "nome": "Melike Turgut",
+   "pagina": "https://onepagelove.com/melike-turgut",
+   "site": "https://meliketurgut.com/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89169/bdea81aad9eaa6a8a2373a4062fc25dc/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/89169/bdea81aad9eaa6a8a2373a4062fc25dc/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 15,
+   "fonte": "opl",
+   "nome": "Tim Van Damme (Max Voltar)",
+   "pagina": "https://onepagelove.com/tim-van-damme-max-voltar",
+   "site": "https://timvandamme.com/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88970/9654574e75515626163e0916d1957b09/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88970/9654574e75515626163e0916d1957b09/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 16,
+   "fonte": "opl",
+   "nome": "ByMayo",
+   "pagina": "https://onepagelove.com/bymayo-2",
+   "site": "https://bymayo.co.uk/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88989/2812d5d08d0a0ecdc3c5f18b927a7a26/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88989/2812d5d08d0a0ecdc3c5f18b927a7a26/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 17,
+   "fonte": "opl",
+   "nome": "Sam Peitz",
+   "pagina": "https://onepagelove.com/sam-peitz",
+   "site": "https://www.sam-peitz.com/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88951/6f4c53289f515e466e8c54277e826e2e/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88951/6f4c53289f515e466e8c54277e826e2e/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 18,
+   "fonte": "opl",
+   "nome": "Office Commun",
+   "pagina": "https://onepagelove.com/office-commun",
+   "site": "https://officecommun.com/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88879/3f3495b0a6e70d25128ec54b4dd33a44/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88879/3f3495b0a6e70d25128ec54b4dd33a44/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 19,
+   "fonte": "opl",
+   "nome": "Grilled Pixels Ecommerce",
+   "pagina": "https://onepagelove.com/grilled-pixels-ecommerce",
+   "site": "https://www.grilledpixels.com/ecommerce",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88706/821e427554e8907144d7d05585841b41/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88706/821e427554e8907144d7d05585841b41/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 20,
+   "fonte": "opl",
+   "nome": "Roy Jad",
+   "pagina": "https://onepagelove.com/roy-jad",
+   "site": "https://royjad.com/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88701/cc79faedd071df1bfe5c8044f474d68d/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88701/cc79faedd071df1bfe5c8044f474d68d/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 21,
+   "fonte": "opl",
+   "nome": "Flowjam",
+   "pagina": "https://onepagelove.com/flowjam-2",
+   "site": "https://flowjam.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88532/ddd4a4f3f78415a92177ecd2410e1966/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88532/ddd4a4f3f78415a92177ecd2410e1966/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 22,
+   "fonte": "opl",
+   "nome": "Artem Taradash",
+   "pagina": "https://onepagelove.com/artem-taradash",
+   "site": "https://taradash.me/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88213/c8a6588fcb9acd8021b3308b898c58f2/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88213/c8a6588fcb9acd8021b3308b898c58f2/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 23,
+   "fonte": "opl",
+   "nome": "Deeo Studio",
+   "pagina": "https://onepagelove.com/deeo-studio-2",
+   "site": "https://deeo.studio",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88248/a9714c979f5939f7469c5f5542804226/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88248/a9714c979f5939f7469c5f5542804226/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 24,
+   "fonte": "opl",
+   "nome": "Rafael Derolez",
+   "pagina": "https://onepagelove.com/rafael-derolez-2026",
+   "site": "https://derolez.dev/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88156/ecefd4684f143011f833c8128d925bf6/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88156/ecefd4684f143011f833c8128d925bf6/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 25,
+   "fonte": "opl",
+   "nome": "Shawn Golden",
+   "pagina": "https://onepagelove.com/shawn-golden",
+   "site": "https://shawngolden.org/",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88084/3bd876525a8ccfec7fc0ced147d12d33/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/88084/3bd876525a8ccfec7fc0ced147d12d33/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 26,
+   "fonte": "opl",
+   "nome": "April Leihuanani Evangelista",
+   "pagina": "https://onepagelove.com/april-leihuanani-evangelista",
+   "site": "https://aprilleihuanani.com",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/09/opl-screenshot-april-leihuanani-1788788327430-desktop.jpg",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 27,
+   "fonte": "opl",
+   "nome": "Nia Creative",
+   "pagina": "https://onepagelove.com/nia-creative",
+   "site": "https://niacreative.co",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87918/504fa97159a809762e137186eba51b42/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87918/504fa97159a809762e137186eba51b42/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 28,
+   "fonte": "opl",
+   "nome": "READYMAGIC Studio",
+   "pagina": "https://onepagelove.com/readymagic-studio",
+   "site": "https://rmc-studio.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87910/ddf88e248fafc8e4bf5c90a83c7352b1/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87910/ddf88e248fafc8e4bf5c90a83c7352b1/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 29,
+   "fonte": "opl",
+   "nome": "Protip Marketing",
+   "pagina": "https://onepagelove.com/protip-marketing",
+   "site": "https://protipmarketing.com",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/09/Protip-Marketing-Fullscreen-Preview.png",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 30,
+   "fonte": "opl",
+   "nome": "davesocozy",
+   "pagina": "https://onepagelove.com/davesocozy",
+   "site": "https://davesocozy.com",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87637/d8530983116affcce7b0feaecf849815/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87637/d8530983116affcce7b0feaecf849815/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 31,
+   "fonte": "opl",
+   "nome": "Brikken+Co",
+   "pagina": "https://onepagelove.com/brikkenco",
+   "site": "https://www.brikken.co",
+   "mini": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87544/65ba0a6db85b77b13c43d9bac1f77046/poster.jpg",
+   "video": "https://onepagelove.com/wp-content/uploads/opl-video/posts/87544/65ba0a6db85b77b13c43d9bac1f77046/loop.mp4",
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 32,
+   "fonte": "opl",
+   "nome": "Tiago Fragoso",
+   "pagina": "https://onepagelove.com/tiago-fragoso",
+   "site": "https://tiagofragoso.com",
+   "mini": "https://assets.onepagelove.com/cdn-cgi/image/width=420,height=560,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/08/taigo-fullpage-screenshot.png",
+   "video": null,
+   "etiquetas": [
+    "vídeo da rolagem"
+   ],
+   "categoriaFonte": "genre/portfolio",
+   "tambemEm": []
+  },
+  {
+   "n": 33,
+   "fonte": "awwwards",
+   "nome": "Dwell | A new way home",
+   "pagina": "https://www.awwwards.com/sites/dwell-a-new-way-home",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6adb1509a5354895397209.jpg",
+   "etiquetas": [
+    "Animation",
+    "WebGL",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 34,
+   "fonte": "awwwards",
+   "nome": "TERAKAWA Photo Office",
+   "pagina": "https://www.awwwards.com/sites/terakawa-photo-office",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/11/6ae9aef965f9a926714056.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 35,
+   "fonte": "awwwards",
+   "nome": "Pistacchio & Caffè",
+   "pagina": "https://www.awwwards.com/sites/pistacchio-caffe",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6adf34e967887524361596.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 36,
+   "fonte": "awwwards",
+   "nome": "oblik® Studio",
+   "pagina": "https://www.awwwards.com/sites/oblik-r-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad9e6ea0143d124486163.png",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 37,
+   "fonte": "awwwards",
+   "nome": "CITADEL Construction Group",
+   "pagina": "https://www.awwwards.com/sites/citadel-construction-group",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad1c0fae9ff2142009667.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Transitions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 38,
+   "fonte": "awwwards",
+   "nome": "STILL / FORM",
+   "pagina": "https://www.awwwards.com/sites/still-form",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6acfd757bd484632000806.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 39,
+   "fonte": "awwwards",
+   "nome": "NAKAGAWA Co., Ltd.",
+   "pagina": "https://www.awwwards.com/sites/nakagawa-co-ltd",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ace03b6cba32641202760.jpg",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 40,
+   "fonte": "awwwards",
+   "nome": "Edison Fang Workshop",
+   "pagina": "https://www.awwwards.com/sites/edison-fang-workshop",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ad03d9856a74851470725.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 41,
+   "fonte": "awwwards",
+   "nome": "PDA Architecture",
+   "pagina": "https://www.awwwards.com/sites/pda-architecture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6accd5a83202d399397219.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 42,
+   "fonte": "awwwards",
+   "nome": "Deebak Tamilmani Portfolio",
+   "pagina": "https://www.awwwards.com/sites/deebak-tamilmani-portfolio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac929cbc5df2298011088.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Scrolling",
+    "WebGL",
+    "GSAP",
+    "Three.js",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 43,
+   "fonte": "awwwards",
+   "nome": "BCG Building Design",
+   "pagina": "https://www.awwwards.com/sites/bcg-building-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac852df4e184319020519.png",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 44,
+   "fonte": "awwwards",
+   "nome": "Patmos",
+   "pagina": "https://www.awwwards.com/sites/patmos",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac6ef07cda58679495416.png",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 45,
+   "fonte": "awwwards",
+   "nome": "Palaraiffeisen",
+   "pagina": "https://www.awwwards.com/sites/palaraiffeisen",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6ac37426039cb612334099.png",
+   "etiquetas": [
+    "WebGL",
+    "Transitions",
+    "GSAP",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 46,
+   "fonte": "awwwards",
+   "nome": "AAT Architecten",
+   "pagina": "https://www.awwwards.com/sites/aat-architecten",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/10/6abf5e82f30b6446717166.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 47,
+   "fonte": "awwwards",
+   "nome": "Belgrade Arbor",
+   "pagina": "https://www.awwwards.com/sites/belgrade-arbor",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a71de2018b90440463756.png",
+   "etiquetas": [
+    "Video",
+    "Transitions",
+    "GSAP",
+    "Three.js",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 48,
+   "fonte": "awwwards",
+   "nome": "montarville",
+   "pagina": "https://www.awwwards.com/sites/montarville-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6abd6b94a0332293293436.jpg",
+   "etiquetas": [
+    "Parallax",
+    "GSAP",
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 49,
+   "fonte": "awwwards",
+   "nome": "UNDPLUS",
+   "pagina": "https://www.awwwards.com/sites/undplus",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6abce2456cdf6357423921.png",
+   "etiquetas": [
+    "Transitions",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 50,
+   "fonte": "awwwards",
+   "nome": "Structure Consulting Engineers",
+   "pagina": "https://www.awwwards.com/sites/structure-consulting-engineers",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6abb0c11af1eb144403317.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 51,
+   "fonte": "awwwards",
+   "nome": "Heron AI",
+   "pagina": "https://www.awwwards.com/sites/heron-ai",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a84573b2859f826389363.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 52,
+   "fonte": "awwwards",
+   "nome": "Estudio Bang",
+   "pagina": "https://www.awwwards.com/sites/estudio-bang",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab6b3172fb42440199183.png",
+   "etiquetas": [
+    "WebGL"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 53,
+   "fonte": "awwwards",
+   "nome": "LPAS",
+   "pagina": "https://www.awwwards.com/sites/lpas",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a834ca95e78f943693095.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 54,
+   "fonte": "awwwards",
+   "nome": "Lenval Properties",
+   "pagina": "https://www.awwwards.com/sites/lenval-properties",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab200b2b056f225208497.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Storytelling",
+    "GSAP",
+    "Animation",
+    "Microinteractions",
+    "Parallax"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 55,
+   "fonte": "awwwards",
+   "nome": "SANTAL",
+   "pagina": "https://www.awwwards.com/sites/santal",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab1e9b49c123112947598.png",
+   "etiquetas": [
+    "Scrolling",
+    "WebGL",
+    "Storytelling",
+    "GSAP",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 56,
+   "fonte": "awwwards",
+   "nome": "Rialto",
+   "pagina": "https://www.awwwards.com/sites/rialto",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab4a74f282a5223240868.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Storytelling",
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 57,
+   "fonte": "awwwards",
+   "nome": "Mejuma Tuscany",
+   "pagina": "https://www.awwwards.com/sites/mejuma-tuscany",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab3a2bcc0ff7819136598.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 58,
+   "fonte": "awwwards",
+   "nome": "Wiemer",
+   "pagina": "https://www.awwwards.com/sites/wiemer",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab29588e356d292621305.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "GSAP",
+    "3D"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 59,
+   "fonte": "awwwards",
+   "nome": "Rogers-O'Brien Construction",
+   "pagina": "https://www.awwwards.com/sites/rogers-obrien-construction",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab29207a5ef8510244972.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 60,
+   "fonte": "awwwards",
+   "nome": "Ray Corral - Personal Brand",
+   "pagina": "https://www.awwwards.com/sites/ray-corral-personal-brand",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab163acbb758135622718.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 61,
+   "fonte": "awwwards",
+   "nome": "Halcyon Lighting",
+   "pagina": "https://www.awwwards.com/sites/halcyon-lighting-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab992ecdeae8952700342.png",
+   "etiquetas": [
+    "Scrolling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 62,
+   "fonte": "awwwards",
+   "nome": "Virtually Ever After Studio",
+   "pagina": "https://www.awwwards.com/sites/virtually-ever-after-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6ab39b73d7e0d910411189.png",
+   "etiquetas": [
+    "WebGL",
+    "Storytelling",
+    "Three.js",
+    "3D",
+    "Interaction Design",
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 63,
+   "fonte": "awwwards",
+   "nome": "Azimute Residencial",
+   "pagina": "https://www.awwwards.com/sites/azimute-residencial",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aaaa676ddec6774605055.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 64,
+   "fonte": "awwwards",
+   "nome": "Randolph Scott Bell — AI-Built Contractor Hub",
+   "pagina": "https://www.awwwards.com/sites/randolph-scott-bell-ai-built-contractor-hub",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aaac370c79d3384457301.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 65,
+   "fonte": "awwwards",
+   "nome": "Hoyt Arts Center",
+   "pagina": "https://www.awwwards.com/sites/hoyt-arts-center",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aaa95b2a23a7648128792.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 66,
+   "fonte": "awwwards",
+   "nome": "MATHILDE DE CHIARA • PORTFOLIO",
+   "pagina": "https://www.awwwards.com/sites/mathilde-de-chiara-portfolio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aaa6696439a8278324338.png",
+   "etiquetas": [
+    "3D",
+    "Interaction Design",
+    "Microinteractions",
+    "Scrolling",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 67,
+   "fonte": "awwwards",
+   "nome": "Floor Planner",
+   "pagina": "https://www.awwwards.com/sites/floor-planner",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aaa470394409378623125.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 68,
+   "fonte": "awwwards",
+   "nome": "TARQ",
+   "pagina": "https://www.awwwards.com/sites/tarq",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aab3dab201ca780133754.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "GSAP",
+    "Interaction Design",
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 69,
+   "fonte": "awwwards",
+   "nome": "DVO",
+   "pagina": "https://www.awwwards.com/sites/dvo",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa4166eb6fa9601292496.jpg",
+   "etiquetas": [
+    "Video",
+    "Transitions",
+    "GSAP",
+    "Microinteractions",
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 70,
+   "fonte": "awwwards",
+   "nome": "GMX Digital",
+   "pagina": "https://www.awwwards.com/sites/gmx-digital-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa6a3629d00f097585666.jpg",
+   "etiquetas": [
+    "Scrolling",
+    "Video",
+    "WebGL",
+    "Transitions",
+    "Storytelling",
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 71,
+   "fonte": "awwwards",
+   "nome": "Mr. C Residences Boca Raton",
+   "pagina": "https://www.awwwards.com/sites/mr-c-residences-boca-raton",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa92997c3b01739023821.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 72,
+   "fonte": "awwwards",
+   "nome": "Loam House",
+   "pagina": "https://www.awwwards.com/sites/loam-house",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa32a614070d515108970.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling",
+    "Transitions",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 73,
+   "fonte": "awwwards",
+   "nome": "Bulbs Series",
+   "pagina": "https://www.awwwards.com/sites/bulbs-series",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa250d2e6f0d439941772.png",
+   "etiquetas": [
+    "GSAP",
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 74,
+   "fonte": "awwwards",
+   "nome": "Sobha Privy Collection",
+   "pagina": "https://www.awwwards.com/sites/sobha-privy-collection",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7b1c1bab843485299366.jpg",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "WebGL",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 75,
+   "fonte": "awwwards",
+   "nome": "See for yourself",
+   "pagina": "https://www.awwwards.com/sites/see-for-yourself",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a9eb30b897e0397562952.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 76,
+   "fonte": "awwwards",
+   "nome": "Driessen Architectuur",
+   "pagina": "https://www.awwwards.com/sites/driessen-architectuur",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6aa408a036b2f483132733.png",
+   "etiquetas": [
+    "Scrolling",
+    "Video",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 77,
+   "fonte": "awwwards",
+   "nome": "Kardev Feed Machinery",
+   "pagina": "https://www.awwwards.com/sites/kardev-feed-machinery",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a9acccdd6131555720017.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 78,
+   "fonte": "awwwards",
+   "nome": "Quinta D. Amália",
+   "pagina": "https://www.awwwards.com/sites/quinta-d-amalia",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a99ac4309878789491246.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 79,
+   "fonte": "awwwards",
+   "nome": "STANZZA design",
+   "pagina": "https://www.awwwards.com/sites/stanzza-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a993a7df0249631843461.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 80,
+   "fonte": "awwwards",
+   "nome": "M3 Planungsgruppe",
+   "pagina": "https://www.awwwards.com/sites/m3-planungsgruppe",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/09/6a97f040dbbd1788599105.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 81,
+   "fonte": "awwwards",
+   "nome": "Pinnacl",
+   "pagina": "https://www.awwwards.com/sites/pinnacl",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a928ef1e56ca733033950.png",
+   "etiquetas": [
+    "Animation",
+    "3D",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 82,
+   "fonte": "awwwards",
+   "nome": "Built Environs",
+   "pagina": "https://www.awwwards.com/sites/built-environs",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a94d1faeb95f269444954.png",
+   "etiquetas": [
+    "3D",
+    "Interaction Design",
+    "Microinteractions",
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 83,
+   "fonte": "awwwards",
+   "nome": "arcoglobal",
+   "pagina": "https://www.awwwards.com/sites/arcoglobal",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a9036987763f623274537.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Transitions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 84,
+   "fonte": "awwwards",
+   "nome": "dsgn Interior",
+   "pagina": "https://www.awwwards.com/sites/dsgn-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a8d6645e1bbc393614152.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 85,
+   "fonte": "awwwards",
+   "nome": "SENAWA",
+   "pagina": "https://www.awwwards.com/sites/senawa",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a87fa477d53e411066344.jpg",
+   "etiquetas": [
+    "Animation"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 86,
+   "fonte": "awwwards",
+   "nome": "MadamePolare",
+   "pagina": "https://www.awwwards.com/sites/madamepolare",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a86d3e9562c6044404508.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 87,
+   "fonte": "awwwards",
+   "nome": "Illoca",
+   "pagina": "https://www.awwwards.com/sites/illoca",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a4e7c52a3361478489664.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "WebGL",
+    "3D",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 88,
+   "fonte": "awwwards",
+   "nome": "ERA Residence",
+   "pagina": "https://www.awwwards.com/sites/era-residence",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a5c0a6f4a38a553556616.png",
+   "etiquetas": [
+    "Parallax",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 89,
+   "fonte": "awwwards",
+   "nome": "Ronnsquare",
+   "pagina": "https://www.awwwards.com/sites/ronnsquare",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a8dc11214ff4072071880.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 90,
+   "fonte": "awwwards",
+   "nome": "Wild AG",
+   "pagina": "https://www.awwwards.com/sites/wild-ag",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a883df9e109c849007340.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 91,
+   "fonte": "awwwards",
+   "nome": "Grounded",
+   "pagina": "https://www.awwwards.com/sites/grounded",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7acd915dbfc817692597.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 92,
+   "fonte": "awwwards",
+   "nome": "Louisiana Governor's Mansion",
+   "pagina": "https://www.awwwards.com/sites/louisiana-governors-mansion",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a7b584cdec56101613849.jpg",
+   "etiquetas": [
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 93,
+   "fonte": "awwwards",
+   "nome": "Kononenko Architectural Bureau",
+   "pagina": "https://www.awwwards.com/sites/kononenko-architectural-bureau",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a3392c61d24a165067178.png",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 94,
+   "fonte": "awwwards",
+   "nome": "Storey Architecture",
+   "pagina": "https://www.awwwards.com/sites/storey-architecture",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a75987887b16283056794.jpg",
+   "etiquetas": [
+    "Parallax",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 95,
+   "fonte": "awwwards",
+   "nome": "ecoLINEAR Studio",
+   "pagina": "https://www.awwwards.com/sites/ecolinear-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a711dd905d4c824569546.png",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 96,
+   "fonte": "awwwards",
+   "nome": "Masters Residence",
+   "pagina": "https://www.awwwards.com/sites/masters-residence",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a705b232d3eb704881914.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 97,
+   "fonte": "awwwards",
+   "nome": "Southern Lifts",
+   "pagina": "https://www.awwwards.com/sites/southern-lifts",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a6de46f01db7861016158.png",
+   "etiquetas": [
+    "Scrolling",
+    "Transitions",
+    "Three.js",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 98,
+   "fonte": "awwwards",
+   "nome": "Nabil Issa Architect",
+   "pagina": "https://www.awwwards.com/sites/nabil-issa-architect",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a712e5f96981167973868.png",
+   "etiquetas": [
+    "Parallax",
+    "Scrolling",
+    "Storytelling",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 99,
+   "fonte": "awwwards",
+   "nome": "Studio Foundry",
+   "pagina": "https://www.awwwards.com/sites/studio-foundry",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a6c2e5290a6c991826058.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Three.js",
+    "3D",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 100,
+   "fonte": "awwwards",
+   "nome": "CA Film Creatives",
+   "pagina": "https://www.awwwards.com/sites/ca-film-creatives",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a6a4683c67a6784032861.jpg",
+   "etiquetas": [
+    "Animation",
+    "Video",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 101,
+   "fonte": "awwwards",
+   "nome": "Mosby's Files",
+   "pagina": "https://www.awwwards.com/sites/mosbys-files",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a439343be70c234196985.png",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 102,
+   "fonte": "awwwards",
+   "nome": "Schyns Medizintechnik",
+   "pagina": "https://www.awwwards.com/sites/schyns-medizintechnik",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/08/6a75fb1e5855a979826107.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "Storytelling",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 103,
+   "fonte": "awwwards",
+   "nome": "250 Broadway",
+   "pagina": "https://www.awwwards.com/sites/250-broadway",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a610269c6e2d234664088.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 104,
+   "fonte": "awwwards",
+   "nome": "AS",
+   "pagina": "https://www.awwwards.com/sites/as",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a60973958141864144947.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 105,
+   "fonte": "awwwards",
+   "nome": "Tillberg Design of Sweden",
+   "pagina": "https://www.awwwards.com/sites/tillberg-design-of-sweden",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a606a0cad46a788608318.jpg",
+   "etiquetas": [
+    "Animation",
+    "Scrolling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 106,
+   "fonte": "awwwards",
+   "nome": "Tandjung Sari",
+   "pagina": "https://www.awwwards.com/sites/tandjung-sari",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a62ebd783258090676397.png",
+   "etiquetas": [
+    "Transitions",
+    "Storytelling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 107,
+   "fonte": "awwwards",
+   "nome": "Eladio Dieste",
+   "pagina": "https://www.awwwards.com/sites/eladio-dieste",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a5a51a7f16c4919228872.jpg",
+   "etiquetas": [
+    "Transitions",
+    "Storytelling",
+    "GSAP",
+    "Three.js"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 108,
+   "fonte": "awwwards",
+   "nome": "Reliable Paving, Inc.",
+   "pagina": "https://www.awwwards.com/sites/reliable-paving-inc",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a5a55dec9a4c960400684.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 109,
+   "fonte": "awwwards",
+   "nome": "Vibe3D",
+   "pagina": "https://www.awwwards.com/sites/vibe3d",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a5dc535db7a0794638316.png",
+   "etiquetas": [
+    "Transitions",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 110,
+   "fonte": "awwwards",
+   "nome": "NORMAL IS BORING",
+   "pagina": "https://www.awwwards.com/sites/normal-is-boring",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a09a6765a1f7925272406.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 111,
+   "fonte": "awwwards",
+   "nome": "Lacoste — Polo Factory",
+   "pagina": "https://www.awwwards.com/sites/lacoste-polo-factory",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a20590541be1401753648.png",
+   "etiquetas": [
+    "WebGL",
+    "Three.js",
+    "3D"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 112,
+   "fonte": "awwwards",
+   "nome": "Smeulders Interieurgroep",
+   "pagina": "https://www.awwwards.com/sites/smeulders-interieurgroep",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a42695140e44337136175.jpg",
+   "etiquetas": [
+    "Animation",
+    "Video",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 113,
+   "fonte": "awwwards",
+   "nome": "House of Honey",
+   "pagina": "https://www.awwwards.com/sites/house-of-honey-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a1c09bf6c5f3457361940.jpg",
+   "etiquetas": [
+    "Interaction Design",
+    "Microinteractions",
+    "Motion"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 114,
+   "fonte": "awwwards",
+   "nome": "For Living",
+   "pagina": "https://www.awwwards.com/sites/for-living",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a42b0c1e6c3c821562355.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 115,
+   "fonte": "awwwards",
+   "nome": "Tecnoarreda Interior Design",
+   "pagina": "https://www.awwwards.com/sites/tecnoarreda-interior-design",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a38ebe6cc164752879935.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 116,
+   "fonte": "awwwards",
+   "nome": "Kellerstöckl",
+   "pagina": "https://www.awwwards.com/sites/kellerstockl",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a39111102b48422666608.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 117,
+   "fonte": "awwwards",
+   "nome": "Bloom",
+   "pagina": "https://www.awwwards.com/sites/bloom-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a3808fc25066595995310.png",
+   "etiquetas": [
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 118,
+   "fonte": "awwwards",
+   "nome": "https://www.mosaicist.com/",
+   "pagina": "https://www.awwwards.com/sites/https-www-mosaicist-com",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a355420464bd254380947.png",
+   "etiquetas": [
+    "Animation",
+    "Storytelling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 119,
+   "fonte": "awwwards",
+   "nome": "Design Floor",
+   "pagina": "https://www.awwwards.com/sites/design-floor",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a33fd4dd8a48961874109.png",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 120,
+   "fonte": "awwwards",
+   "nome": "pur natur",
+   "pagina": "https://www.awwwards.com/sites/pur-natur-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a33ef28d0c33791793790.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 121,
+   "fonte": "awwwards",
+   "nome": "Eleos",
+   "pagina": "https://www.awwwards.com/sites/eleos",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a46128981925112330119.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 122,
+   "fonte": "awwwards",
+   "nome": "Cobloc",
+   "pagina": "https://www.awwwards.com/sites/cobloc",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a33862f4d9a3359260572.jpg",
+   "etiquetas": [
+    "Storytelling",
+    "Three.js",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 123,
+   "fonte": "awwwards",
+   "nome": "Pelizzari Studio",
+   "pagina": "https://www.awwwards.com/sites/pelizzari-studio-2",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a339ebe496d5451043281.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 124,
+   "fonte": "awwwards",
+   "nome": "Blå Station",
+   "pagina": "https://www.awwwards.com/sites/bla-station",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/07/6a46115c66dc8044251021.png",
+   "etiquetas": [
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 125,
+   "fonte": "awwwards",
+   "nome": "kettal.com",
+   "pagina": "https://www.awwwards.com/sites/kettal-com",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a42b94f8cc6f565299916.png",
+   "etiquetas": [
+    "Animation",
+    "Storytelling",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 126,
+   "fonte": "awwwards",
+   "nome": "Abvtek Interiors",
+   "pagina": "https://www.awwwards.com/sites/abvtek-interiors",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1ff86607d8f599311022.jpg",
+   "etiquetas": [
+    "Transitions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 127,
+   "fonte": "awwwards",
+   "nome": "Yoo Interior",
+   "pagina": "https://www.awwwards.com/sites/yoo-interior",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a281944a501b670864712.jpg",
+   "etiquetas": [
+    "Transitions",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 128,
+   "fonte": "awwwards",
+   "nome": "ACOR",
+   "pagina": "https://www.awwwards.com/sites/acor",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a27df6921559829991147.jpg",
+   "etiquetas": [
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 129,
+   "fonte": "awwwards",
+   "nome": "Pulze",
+   "pagina": "https://www.awwwards.com/sites/pulze",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a1998ca1dd43988787576.png",
+   "etiquetas": [
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 130,
+   "fonte": "awwwards",
+   "nome": "Van Praet",
+   "pagina": "https://www.awwwards.com/sites/van-praet",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1fc619af649072225909.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 131,
+   "fonte": "awwwards",
+   "nome": "Protection Technical Fabrics",
+   "pagina": "https://www.awwwards.com/sites/protection-technical-fabrics",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a229e67aaebd612869691.png",
+   "etiquetas": [
+    "Scrolling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 132,
+   "fonte": "awwwards",
+   "nome": "Loft 31",
+   "pagina": "https://www.awwwards.com/sites/loft-31",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1daea586625711139206.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 133,
+   "fonte": "awwwards",
+   "nome": "Arkansas Museum of Fine Art",
+   "pagina": "https://www.awwwards.com/sites/arkansas-museum-of-fine-art",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1da64753838305796423.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 134,
+   "fonte": "awwwards",
+   "nome": "Halston: Architecture template",
+   "pagina": "https://www.awwwards.com/sites/halston-architecture-template",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a19b40cef933833647808.jpg",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 135,
+   "fonte": "awwwards",
+   "nome": "Septiembre Arquitectura",
+   "pagina": "https://www.awwwards.com/sites/septiembre-arquitectura",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a180d7ad7e50952893833.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 136,
+   "fonte": "awwwards",
+   "nome": "ARETÈ IMMOBILIARE",
+   "pagina": "https://www.awwwards.com/sites/arete-immobiliare",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a1847da32db0913014106.jpg",
+   "etiquetas": [
+    "Animation",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 137,
+   "fonte": "awwwards",
+   "nome": "Zorge 9",
+   "pagina": "https://www.awwwards.com/sites/zorge-9",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a17260b85c94064409205.jpg",
+   "etiquetas": [
+    "Parallax",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 138,
+   "fonte": "awwwards",
+   "nome": "Haven Constructions",
+   "pagina": "https://www.awwwards.com/sites/haven-constructions",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a177d0311289118106672.png",
+   "etiquetas": [
+    "Animation",
+    "Parallax",
+    "Motion"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 139,
+   "fonte": "awwwards",
+   "nome": "Base Structures",
+   "pagina": "https://www.awwwards.com/sites/base-structures",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a15a79bad13c785139570.png",
+   "etiquetas": [
+    "Animation",
+    "GSAP",
+    "Interaction Design",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 140,
+   "fonte": "awwwards",
+   "nome": "GEBERIT CAMPUS GRAND OPENING",
+   "pagina": "https://www.awwwards.com/sites/geberit-campus-grand-opening",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0f24656b4a6909383906.png",
+   "etiquetas": [
+    "Parallax",
+    "Storytelling",
+    "GSAP",
+    "Microinteractions",
+    "Lottie"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 141,
+   "fonte": "awwwards",
+   "nome": "THE RED",
+   "pagina": "https://www.awwwards.com/sites/the-red",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/06/6a1db853d921f825300359.png",
+   "etiquetas": [
+    "Scrolling",
+    "WebGL",
+    "3D"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 142,
+   "fonte": "awwwards",
+   "nome": "Yazdani Studio",
+   "pagina": "https://www.awwwards.com/sites/yazdani-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0cd532722cd620745285.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 143,
+   "fonte": "awwwards",
+   "nome": "Vaulk",
+   "pagina": "https://www.awwwards.com/sites/vaulk",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69f1bfae1e5b1773184514.jpg",
+   "etiquetas": [
+    "Parallax",
+    "Video",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 144,
+   "fonte": "awwwards",
+   "nome": "Interiorglobe",
+   "pagina": "https://www.awwwards.com/sites/interiorglobe",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0b1040d070b639945551.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 145,
+   "fonte": "awwwards",
+   "nome": "GISI.com",
+   "pagina": "https://www.awwwards.com/sites/gisi-com",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a06249e4ec9c756447992.png",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "Microinteractions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 146,
+   "fonte": "awwwards",
+   "nome": "AIR",
+   "pagina": "https://www.awwwards.com/sites/air-1",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69f37defaf18f110436968.jpg",
+   "etiquetas": [
+    "WebGL",
+    "Three.js"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 147,
+   "fonte": "awwwards",
+   "nome": "Archi Green Design Studio",
+   "pagina": "https://www.awwwards.com/sites/archi-green-design-studio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a01f2e74244c152471822.png",
+   "etiquetas": [
+    "Transitions",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 148,
+   "fonte": "awwwards",
+   "nome": "ianaldous.com",
+   "pagina": "https://www.awwwards.com/sites/ianaldous-com",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/6a0bf81ed1bdf226216888.jpg",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 149,
+   "fonte": "awwwards",
+   "nome": "HBA",
+   "pagina": "https://www.awwwards.com/sites/hba",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69fbcce78ebdc615539448.jpg",
+   "etiquetas": [
+    "Video",
+    "Transitions"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 150,
+   "fonte": "awwwards",
+   "nome": "My Art Gallery | Portfolio",
+   "pagina": "https://www.awwwards.com/sites/my-art-gallery-portfolio",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69fa1a8d52844097668410.jpg",
+   "etiquetas": [
+    "Animation",
+    "Transitions",
+    "GSAP",
+    "Three.js",
+    "3D",
+    "Interaction Design"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 151,
+   "fonte": "awwwards",
+   "nome": "Pillars Of Seven",
+   "pagina": "https://www.awwwards.com/sites/pillars-of-seven",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69fbb8048dc0d800658193.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 152,
+   "fonte": "awwwards",
+   "nome": "Modus Projects",
+   "pagina": "https://www.awwwards.com/sites/modus-projects",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/05/69f9cb309e3ba721437610.png",
+   "etiquetas": [
+    "Animation",
+    "Scrolling",
+    "GSAP"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 153,
+   "fonte": "awwwards",
+   "nome": "WatchHouse.",
+   "pagina": "https://www.awwwards.com/sites/watchhouse-3",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69f07ee826e23359978694.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 154,
+   "fonte": "awwwards",
+   "nome": "Here & Away",
+   "pagina": "https://www.awwwards.com/sites/here-away",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69f118e36ff4c121564658.png",
+   "etiquetas": [
+    "Storytelling"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 155,
+   "fonte": "awwwards",
+   "nome": "HouseDesign",
+   "pagina": "https://www.awwwards.com/sites/housedesign",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69f1afa669ba4382485837.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 156,
+   "fonte": "awwwards",
+   "nome": "HousePlan",
+   "pagina": "https://www.awwwards.com/sites/houseplan",
+   "mini": "https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2026/04/69f1ab9044e10225359959.png",
+   "etiquetas": [],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 157,
+   "fonte": "github",
+   "nome": "Azure/Enterprise-Scale",
+   "pagina": "https://github.com/Azure/Enterprise-Scale",
+   "site": "https://aka.ms/alz",
+   "mini": "https://opengraph.githubassets.com/1/Azure/Enterprise-Scale",
+   "licenca": "MIT",
+   "estrelas": 1968,
+   "descricao": "The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles acros",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 158,
+   "fonte": "github",
+   "nome": "Blazity/next-saas-starter",
+   "pagina": "https://github.com/Blazity/next-saas-starter",
+   "site": "https://next-saas-starter-ashy.vercel.app/",
+   "mini": "https://opengraph.githubassets.com/1/Blazity/next-saas-starter",
+   "licenca": "MIT",
+   "estrelas": 1702,
+   "descricao": "⚡️ Free Next.js responsive landing page template for SaaS products made using JAMStack architecture.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 159,
+   "fonte": "github",
+   "nome": "Azure/ALZ-Bicep",
+   "pagina": "https://github.com/Azure/ALZ-Bicep",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Azure/ALZ-Bicep",
+   "licenca": "MIT",
+   "estrelas": 892,
+   "descricao": "This repository contains the Azure Landing Zones (ALZ) Bicep (Classic) modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 160,
+   "fonte": "github",
+   "nome": "Azure/AI-Landing-Zones",
+   "pagina": "https://github.com/Azure/AI-Landing-Zones",
+   "site": "https://azure.github.io/AI-Landing-Zones/",
+   "mini": "https://opengraph.githubassets.com/1/Azure/AI-Landing-Zones",
+   "licenca": "MIT",
+   "estrelas": 354,
+   "descricao": "The AI Landing Zone is a secure, resilient and scalable reference architecture and reference implementation in the form of bicep, terraform and portal",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 161,
+   "fonte": "github",
+   "nome": "nicolgit/hub-and-spoke-playground",
+   "pagina": "https://github.com/nicolgit/hub-and-spoke-playground",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/nicolgit/hub-and-spoke-playground",
+   "licenca": "MIT",
+   "estrelas": 212,
+   "descricao": "A collection of BICEP/ARM templates that deploys on Azure a hub & spoke net topology aligned with Microsoft Enterprise scale landing zone ref architecture to us",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 162,
+   "fonte": "github",
+   "nome": "Azure/Enterprise-Scale-for-AVS",
+   "pagina": "https://github.com/Azure/Enterprise-Scale-for-AVS",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Azure/Enterprise-Scale-for-AVS",
+   "licenca": "MIT",
+   "estrelas": 147,
+   "descricao": "Enterprise-scale for AVS represents the strategic design path and target technical state for an Azure VMware Solution (AVS) deployment. This solution provides a",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 163,
+   "fonte": "github",
+   "nome": "Azure/azure-openai-landing-zone",
+   "pagina": "https://github.com/Azure/azure-openai-landing-zone",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Azure/azure-openai-landing-zone",
+   "licenca": "MIT",
+   "estrelas": 118,
+   "descricao": "Azure Open AI Landing Zones Reference Architectures Repository",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 164,
+   "fonte": "github",
+   "nome": "mohamedsaif/ai-hub-gateway-landing-zone",
+   "pagina": "https://github.com/mohamedsaif/ai-hub-gateway-landing-zone",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/mohamedsaif/ai-hub-gateway-landing-zone",
+   "licenca": "MIT",
+   "estrelas": 24,
+   "descricao": "Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 165,
+   "fonte": "github",
+   "nome": "Azure/alzlib",
+   "pagina": "https://github.com/Azure/alzlib",
+   "site": "https://pkg.go.dev/github.com/Azure/alzlib",
+   "mini": "https://opengraph.githubassets.com/1/Azure/alzlib",
+   "licenca": "MIT",
+   "estrelas": 14,
+   "descricao": "A Go module containing the logic to process Azure Landing Zones architectures",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 166,
+   "fonte": "github",
+   "nome": "PerfectThymeTech/terraform-azurerm-data-landing-zone",
+   "pagina": "https://github.com/PerfectThymeTech/terraform-azurerm-data-landing-zone",
+   "site": "https://registry.terraform.io/modules/PerfectThymeTech/data-landing-zone/azurerm/latest",
+   "mini": "https://opengraph.githubassets.com/1/PerfectThymeTech/terraform-azurerm-data-landing-zone",
+   "licenca": "MIT",
+   "estrelas": 10,
+   "descricao": "Cloud Scale Analytics - Data Landing Zone Terraform Module",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 167,
+   "fonte": "github",
+   "nome": "PerfectThymeTech/CloudScaleAnalytics-v2-Terraform",
+   "pagina": "https://github.com/PerfectThymeTech/CloudScaleAnalytics-v2-Terraform",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/PerfectThymeTech/CloudScaleAnalytics-v2-Terraform",
+   "licenca": "MIT",
+   "estrelas": 10,
+   "descricao": "Cloud Scale Analytics (v2) to create a scalable data platform on Azure using a Data Management Zone, Data Landing Zones and Data Applications to build Data Prod",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 168,
+   "fonte": "github",
+   "nome": "rainbow1223/Next.js-example",
+   "pagina": "https://github.com/rainbow1223/Next.js-example",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/rainbow1223/Next.js-example",
+   "licenca": "MIT",
+   "estrelas": 8,
+   "descricao": " Free Next.js responsive landing page template for SaaS products made using JAMStack architecture.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 169,
+   "fonte": "github",
+   "nome": "NietoDeveloper/Cannoil-Ejemplo1",
+   "pagina": "https://github.com/NietoDeveloper/Cannoil-Ejemplo1",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/NietoDeveloper/Cannoil-Ejemplo1",
+   "licenca": "MIT",
+   "estrelas": 7,
+   "descricao": "Cannoil E-Commerce — a health and natural wellness online store example built with a modular React architecture and Tailwind CSS. Features responsive desktop/mo",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 170,
+   "fonte": "github",
+   "nome": "HelioASjunior/ads-performance-platform",
+   "pagina": "https://github.com/HelioASjunior/ads-performance-platform",
+   "site": "https://ads-performance-platform.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/HelioASjunior/ads-performance-platform",
+   "licenca": "MIT",
+   "estrelas": 5,
+   "descricao": "A high-performance, modern Landing Page developed for Strategic Traffic Manager Ismael Rodrigues. This project embodies the concept of \"Strategic Minimalism wit",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 171,
+   "fonte": "github",
+   "nome": "fusion-foo/zipo-frontend",
+   "pagina": "https://github.com/fusion-foo/zipo-frontend",
+   "site": "https://zipo.pics",
+   "mini": "https://opengraph.githubassets.com/1/fusion-foo/zipo-frontend",
+   "licenca": "MIT",
+   "estrelas": 4,
+   "descricao": "Browser-based image compression frontend architecture - SSG, i18n, programmatic landing pages, SEO",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 172,
+   "fonte": "github",
+   "nome": "emineugurlu/ASIA",
+   "pagina": "https://github.com/emineugurlu/ASIA",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/emineugurlu/ASIA",
+   "licenca": "MIT",
+   "estrelas": 4,
+   "descricao": "A high-impact landing page design exploring advanced CSS compositing. Features dynamic video masking, interactive 'mix-blend-mode' typography, and a hardware-ac",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 173,
+   "fonte": "github",
+   "nome": "CalinL/azure-architecture-guidance",
+   "pagina": "https://github.com/CalinL/azure-architecture-guidance",
+   "site": "https://calinl.github.io/azure-architecture-guidance/",
+   "mini": "https://opengraph.githubassets.com/1/CalinL/azure-architecture-guidance",
+   "licenca": "MIT",
+   "estrelas": 3,
+   "descricao": "Architecture guidance and best practices for building enterprise solutions on Microsoft Azure, covering landing zones, AI/ML platforms, mission-critical SaaS, a",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 174,
+   "fonte": "github",
+   "nome": "HlaliMedAmine/landingforge",
+   "pagina": "https://github.com/HlaliMedAmine/landingforge",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/HlaliMedAmine/landingforge",
+   "licenca": "MIT",
+   "estrelas": 3,
+   "descricao": "⚡ AI-powered Azure Landing Zone platform. Generate enterprise-grade Terraform, architecture, policies & FinOps insights in minutes — not months.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 175,
+   "fonte": "github",
+   "nome": "Azure/alzarchitectureeditor",
+   "pagina": "https://github.com/Azure/alzarchitectureeditor",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Azure/alzarchitectureeditor",
+   "licenca": "MIT",
+   "estrelas": 2,
+   "descricao": "A HTML / JavaScript tool to manage Azure Landing Zones architecture definitions",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 176,
+   "fonte": "github",
+   "nome": "bowe-td/bowe-cli",
+   "pagina": "https://github.com/bowe-td/bowe-cli",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/bowe-td/bowe-cli",
+   "licenca": "Apache-2.0",
+   "estrelas": 3,
+   "descricao": "A Command Line Interface to generate simple architectures for building landing pages",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 177,
+   "fonte": "github",
+   "nome": "IBM/customized-deployable-architecture",
+   "pagina": "https://github.com/IBM/customized-deployable-architecture",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/IBM/customized-deployable-architecture",
+   "licenca": "Apache-2.0",
+   "estrelas": 1,
+   "descricao": "An example of customizing secure landing zone",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 178,
+   "fonte": "github",
+   "nome": "anuragPadhy205/safe-drop-NN",
+   "pagina": "https://github.com/anuragPadhy205/safe-drop-NN",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/anuragPadhy205/safe-drop-NN",
+   "licenca": "Apache-2.0",
+   "estrelas": 1,
+   "descricao": "An 8 Layer ANN architecture which identifies a suitable landing zone based on a ost function and attributes of delivery.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 179,
+   "fonte": "github",
+   "nome": "codewith-salman/sunny-builders",
+   "pagina": "https://github.com/codewith-salman/sunny-builders",
+   "site": "https://sunny-builders.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/codewith-salman/sunny-builders",
+   "licenca": "Apache-2.0",
+   "estrelas": 1,
+   "descricao": "The **Sunny Builders Landing Page** is a professional UI concept created for construction companies, real estate developers, and architectural firms.   It focus",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 180,
+   "fonte": "github",
+   "nome": "standards-lab/architecture",
+   "pagina": "https://github.com/standards-lab/architecture",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/standards-lab/architecture",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Standards Lab documentation landing zone: architectures, standards, principles, and repository details",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 181,
+   "fonte": "github",
+   "nome": "terraform-ibm-modules/terraform-ibm-landing-zone-code-engine",
+   "pagina": "https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-code-engine",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/terraform-ibm-modules/terraform-ibm-landing-zone-code-engine",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "A deployment architecture that provisions an IBM Cloud Code Engine environment designed for scalable, serverless compute workloads.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 182,
+   "fonte": "github",
+   "nome": "vamsiramakrishnan/landing-zone",
+   "pagina": "https://github.com/vamsiramakrishnan/landing-zone",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/vamsiramakrishnan/landing-zone",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "landing-zone-architecture",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 183,
+   "fonte": "github",
+   "nome": "raffaeu/NetArchitecturesCommercial",
+   "pagina": "https://github.com/raffaeu/NetArchitecturesCommercial",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/raffaeu/NetArchitecturesCommercial",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "This is the landing website of Net Architectures ltd.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 184,
+   "fonte": "github",
+   "nome": "MapleSpire/maplespire-website",
+   "pagina": "https://github.com/MapleSpire/maplespire-website",
+   "site": "https://maplespire.ca",
+   "mini": "https://opengraph.githubassets.com/1/MapleSpire/maplespire-website",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Public multilingual MapleSpire landing site and dedicated AWS infrastructure",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 185,
+   "fonte": "github",
+   "nome": "SamPriyadarshi/gcp-cff-enterprise-landing-zone",
+   "pagina": "https://github.com/SamPriyadarshi/gcp-cff-enterprise-landing-zone",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/SamPriyadarshi/gcp-cff-enterprise-landing-zone",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Production-grade 3-Layer Infrastructure-as-Code (IaC) Reference Architecture for Google Cloud using Cloud Foundation Fabric (CFF)",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 186,
+   "fonte": "github",
+   "nome": "asergeev-venga/landing-context",
+   "pagina": "https://github.com/asergeev-venga/landing-context",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/asergeev-venga/landing-context",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "The definitive technical specification and context hub for the Landing project. Designed for AI-assisted development to ensure architectural consistency, coding",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 187,
+   "fonte": "github",
+   "nome": "IVaronaP/genai-shield",
+   "pagina": "https://github.com/IVaronaP/genai-shield",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/IVaronaP/genai-shield",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "GenAI Shield — runtime security architecture for generative AI systems. Project landing page.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 188,
+   "fonte": "github",
+   "nome": "itsharryshelton/CloudflareLandingZone",
+   "pagina": "https://github.com/itsharryshelton/CloudflareLandingZone",
+   "site": "https://cflz.harryshelton.com/",
+   "mini": "https://opengraph.githubassets.com/1/itsharryshelton/CloudflareLandingZone",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Cloudflare Landing Zone are for managing Cloudflare at enterprise scale: many accounts, many zones, one set of reviewed modules, fully built with reusable terra",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 189,
+   "fonte": "github",
+   "nome": "sushantaw/MeetSync-Landing-page",
+   "pagina": "https://github.com/sushantaw/MeetSync-Landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/sushantaw/MeetSync-Landing-page",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "A modern SaaS landing page built using React and TypeScript. Designed with a component-based architecture, responsive layout, and clear marketing sections such ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 190,
+   "fonte": "github",
+   "nome": "ziairetirado/AWS-Landing-Zone",
+   "pagina": "https://github.com/ziairetirado/AWS-Landing-Zone",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/ziairetirado/AWS-Landing-Zone",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Production-grade AWS Landing Zone built with Terraform implementing multi-account architecture, centralized logging, GuardDuty threat detection, and cross-accou",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 191,
+   "fonte": "github",
+   "nome": "studybook1/landing-page",
+   "pagina": "https://github.com/studybook1/landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/studybook1/landing-page",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "AI-native architecture for a hybrid education platform combining online courses, offline classes, personalized learning paths, and parent insights. The system a",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 192,
+   "fonte": "github",
+   "nome": "Sudikshaw7/CasaVero",
+   "pagina": "https://github.com/Sudikshaw7/CasaVero",
+   "site": "https://casa-vero.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/Sudikshaw7/CasaVero",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "A premium modern furniture brand landing page built with clean UI, responsive design, and scalable front-end architecture.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 193,
+   "fonte": "github",
+   "nome": "breakingthecloud/byaml-web",
+   "pagina": "https://github.com/breakingthecloud/byaml-web",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/breakingthecloud/byaml-web",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "byaml.org v2 (ByaML-005) — SOFE Architecture Graph landing: concept, demo interactiva (React Flow), docs schema/MCP, catalog browser (v0.4 live).",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 194,
+   "fonte": "github",
+   "nome": "muslim-kh09/NexusFi-Web",
+   "pagina": "https://github.com/muslim-kh09/NexusFi-Web",
+   "site": "https://nexusfi-web.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/muslim-kh09/NexusFi-Web",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "The official open-source promotional landing page and interactive portfolio for the NexusFi architecture. Built with pure HTML, JavaScript, and TailwindCSS for ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 195,
+   "fonte": "github",
+   "nome": "abhisheksharma2411/gcp-failure-driven-operations-lab",
+   "pagina": "https://github.com/abhisheksharma2411/gcp-failure-driven-operations-lab",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/abhisheksharma2411/gcp-failure-driven-operations-lab",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Runnable labs for Failure-Driven Architecture on Google Cloud: safe global releases, an out-of-band recovery plane, tested disaster recovery, a zero-trust landi",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 196,
+   "fonte": "github",
+   "nome": "Matt2454/helios-solarpower-avionics",
+   "pagina": "https://github.com/Matt2454/helios-solarpower-avionics",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Matt2454/helios-solarpower-avionics",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "Predictive thermal management and autonomous flight avionics ecosystem for a long-endurance solar-powered UAV. Features a dual-core architecture (Raspberry Pi +",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 197,
+   "fonte": "github",
+   "nome": "lucasinveninato/glue-project-cine-pipeline",
+   "pagina": "https://github.com/lucasinveninato/glue-project-cine-pipeline",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/lucasinveninato/glue-project-cine-pipeline",
+   "licenca": "Apache-2.0",
+   "estrelas": 0,
+   "descricao": "glue-project-cine-pipeline uses AWS Glue and Apache Airflow to build a data pipeline for IMDb data. It features a layered architecture: Landing (raw data), Raw ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "architecture",
+   "tambemEm": []
+  },
+  {
+   "n": 198,
+   "fonte": "github",
+   "nome": "RafaelGoulartB/interior-design-website",
+   "pagina": "https://github.com/RafaelGoulartB/interior-design-website",
+   "site": "https://interior-design-website.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/RafaelGoulartB/interior-design-website",
+   "licenca": "MIT",
+   "estrelas": 87,
+   "descricao": "🚪 This a landing page website made for interior home designers. Made with Next.js | Chakra UI.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 199,
+   "fonte": "github",
+   "nome": "spapiernik/Interno",
+   "pagina": "https://github.com/spapiernik/Interno",
+   "site": "https://interno-eta.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/spapiernik/Interno",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "Interior Design Landing Page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 200,
+   "fonte": "github",
+   "nome": "sheismo/interior-design-landing",
+   "pagina": "https://github.com/sheismo/interior-design-landing",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/sheismo/interior-design-landing",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "This is a landing page for an interior design company, as designed by Deraah(@stuhna on Twitter). I coded this with HTML & CSS with a sprinkle of my beloved Jav",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 201,
+   "fonte": "github",
+   "nome": "MuhammadShahsawar/CSS-AtelierForma",
+   "pagina": "https://github.com/MuhammadShahsawar/CSS-AtelierForma",
+   "site": "https://css-atelierforma.roboticela.com/",
+   "mini": "https://opengraph.githubassets.com/1/MuhammadShahsawar/CSS-AtelierForma",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "International Architecture & Interior Design Studio",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 202,
+   "fonte": "github",
+   "nome": "OxTEJIRI/Interior-design-loading-page",
+   "pagina": "https://github.com/OxTEJIRI/Interior-design-loading-page",
+   "site": "https://heistejiri.github.io/Interior-design-loading-page/",
+   "mini": "https://opengraph.githubassets.com/1/OxTEJIRI/Interior-design-loading-page",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "A landing page designed to replicate a interior designer portfolio page",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 203,
+   "fonte": "github",
+   "nome": "harish0489/bootCamp_iNeuron_10_landingPage_Interior_Design",
+   "pagina": "https://github.com/harish0489/bootCamp_iNeuron_10_landingPage_Interior_Design",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/harish0489/bootCamp_iNeuron_10_landingPage_Interior_Design",
+   "licenca": "MIT",
+   "estrelas": 1,
+   "descricao": "",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 204,
+   "fonte": "github",
+   "nome": "vetacode/design-interior",
+   "pagina": "https://github.com/vetacode/design-interior",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/vetacode/design-interior",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "mockup landing page for design interior basic depok",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 205,
+   "fonte": "github",
+   "nome": "olgababiarz/interior-design-landing-page",
+   "pagina": "https://github.com/olgababiarz/interior-design-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/olgababiarz/interior-design-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Responsywny landing page dla biura projektowania wnętrz, wykonany w czystym HTML5 i CSS3 (Flexbox)",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 206,
+   "fonte": "github",
+   "nome": "abdrzqsalihu/interior-design",
+   "pagina": "https://github.com/abdrzqsalihu/interior-design",
+   "site": "https://abdrzqsalihu.github.io/interior-design/",
+   "mini": "https://opengraph.githubassets.com/1/abdrzqsalihu/interior-design",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A Simple Product Landing Page. Created from my W3 CSS Tutorial. ✌",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 207,
+   "fonte": "github",
+   "nome": "Sakariash/InteriorProject",
+   "pagina": "https://github.com/Sakariash/InteriorProject",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Sakariash/InteriorProject",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "School project - Create a landing page for an interior design company",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 208,
+   "fonte": "github",
+   "nome": "pawar-harshal/Decora_Interior_Designer_Landing_page",
+   "pagina": "https://github.com/pawar-harshal/Decora_Interior_Designer_Landing_page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/pawar-harshal/Decora_Interior_Designer_Landing_page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Decora is a fully responsive interior design website built with HTML, CSS, and Bootstrap. It features sections like About Us, Gallery, Services, and FAQs, along",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 209,
+   "fonte": "github",
+   "nome": "yassersham09-max/Modern-Interior-Design-Landing-Page",
+   "pagina": "https://github.com/yassersham09-max/Modern-Interior-Design-Landing-Page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/yassersham09-max/Modern-Interior-Design-Landing-Page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A modern responsive interior design landing page built with HTML, CSS and JavaScript with smooth scroll animations.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 210,
+   "fonte": "github",
+   "nome": "Bashala307/interno-interior-design",
+   "pagina": "https://github.com/Bashala307/interno-interior-design",
+   "site": "https://bashala307.github.io/interno-interior-design/",
+   "mini": "https://opengraph.githubassets.com/1/Bashala307/interno-interior-design",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A modern interior design landing page built with HTML, Tailwind CSS, and desktop-first responsive design. Styled from a Figma Community template.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 211,
+   "fonte": "github",
+   "nome": "Git-Darkmoon/Interior-Consultant-Landing",
+   "pagina": "https://github.com/Git-Darkmoon/Interior-Consultant-Landing",
+   "site": "https://git-darkmoon.github.io/Interior-Consultant-Landing/",
+   "mini": "https://opengraph.githubassets.com/1/Git-Darkmoon/Interior-Consultant-Landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Challenge: Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:  User story: ",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 212,
+   "fonte": "github",
+   "nome": "zKirinz/Interiorize",
+   "pagina": "https://github.com/zKirinz/Interiorize",
+   "site": "https://interiorize.netlify.app/",
+   "mini": "https://opengraph.githubassets.com/1/zKirinz/Interiorize",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A landing page for interior design to have fun with Gatsby, Headless CMS and JAM stack.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 213,
+   "fonte": "github",
+   "nome": "dropsite2026/-interior-decor-affiliate",
+   "pagina": "https://github.com/dropsite2026/-interior-decor-affiliate",
+   "site": "https://interior-decor-affiliate.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/dropsite2026/-interior-decor-affiliate",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "​\"A landing page for curated interior design products and home decor affiliate marketing.\"",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 214,
+   "fonte": "github",
+   "nome": "lucascodelab/LANDING-PAGE-ARQUITETURA-INTERIORES",
+   "pagina": "https://github.com/lucascodelab/LANDING-PAGE-ARQUITETURA-INTERIORES",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/lucascodelab/LANDING-PAGE-ARQUITETURA-INTERIORES",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Landing page moderna e sofisticada para arquitetura e interiores, com design premium, layout responsivo e foco em experiência do usuário, estética visual e apre",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 215,
+   "fonte": "github",
+   "nome": "bledol-s/beyond-blueprint-ng",
+   "pagina": "https://github.com/bledol-s/beyond-blueprint-ng",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/bledol-s/beyond-blueprint-ng",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "An Interior design, furniture installation and Project management landing page.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 216,
+   "fonte": "github",
+   "nome": "SimpleLittleDev/ruang-rasa-landing-page",
+   "pagina": "https://github.com/SimpleLittleDev/ruang-rasa-landing-page",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/SimpleLittleDev/ruang-rasa-landing-page",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Warm, elegant and responsive React landing page for a fictional interior design studio",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 217,
+   "fonte": "github",
+   "nome": "SchwabTiago/landing-page-atlas-studio",
+   "pagina": "https://github.com/SchwabTiago/landing-page-atlas-studio",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/SchwabTiago/landing-page-atlas-studio",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Atlas Studios is a frontend project that simulates a website for a interior design studio",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 218,
+   "fonte": "github",
+   "nome": "kiselevde-commits/kiseleva-studio",
+   "pagina": "https://github.com/kiselevde-commits/kiseleva-studio",
+   "site": "https://kiselevde-commits.github.io/kiseleva-studio/",
+   "mini": "https://opengraph.githubassets.com/1/kiselevde-commits/kiseleva-studio",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Kiseleva - premium interior design studio landing page (HTML5 + Tailwind CDN + Vanilla JS)",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 219,
+   "fonte": "github",
+   "nome": "DanielCorb/diseno-landing",
+   "pagina": "https://github.com/DanielCorb/diseno-landing",
+   "site": "https://diseno.ro",
+   "mini": "https://opengraph.githubassets.com/1/DanielCorb/diseno-landing",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Diseno - premium interior design & showroom website with product catalogue. Next.js 15, TypeScript, HeroUI, Redux Toolkit, headless WordPress.",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 220,
+   "fonte": "github",
+   "nome": "heitorgandolfi/Bin-Interior",
+   "pagina": "https://github.com/heitorgandolfi/Bin-Interior",
+   "site": "https://bin-interior.vercel.app",
+   "mini": "https://opengraph.githubassets.com/1/heitorgandolfi/Bin-Interior",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "A Landing Page foi criada a partir do design abaixo, idealizado por um terceiro. Para tanto, foi feito uso de JavaScript, HTML e CSS. O projeto, além de respons",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 221,
+   "fonte": "github",
+   "nome": "Joseph-M-Tech/auralandingpage",
+   "pagina": "https://github.com/Joseph-M-Tech/auralandingpage",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/Joseph-M-Tech/auralandingpage",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Here's the interior design landing page, built as a single, self-contained React component using Tailwind CSS.  This file includes all the JSX, styling, and log",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  },
+  {
+   "n": 222,
+   "fonte": "github",
+   "nome": "rattukals27-eng/Homedecorfins-",
+   "pagina": "https://github.com/rattukals27-eng/Homedecorfins-",
+   "site": null,
+   "mini": "https://opengraph.githubassets.com/1/rattukals27-eng/Homedecorfins-",
+   "licenca": "MIT",
+   "estrelas": 0,
+   "descricao": "Homedecorfins is a modern and visually appealing landing page created for showcasing premium home decoration products with a focus on comfort, elegance, and aes",
+   "etiquetas": [
+    "base de código"
+   ],
+   "categoriaFonte": "interior design",
+   "tambemEm": []
+  }
+ ],
+ "manuais": [
+  {
+   "nome": "Godly",
+   "url": "https://godly.website/?q=architecture",
+   "motivo": "robots.txt bloqueia o robô do Claude"
+  },
+  {
+   "nome": "Land-book",
+   "url": "https://land-book.com/search?q=architecture",
+   "motivo": "termos proíbem coleta de dados"
+  },
+  {
+   "nome": "Lapa Ninja",
+   "url": "https://www.lapa.ninja/category/architecture/",
+   "motivo": "permite robô, mas respondeu 403 ao script em 09/11/2026: abrir no navegador"
+  },
+  {
+   "nome": "SiteInspire",
+   "url": "https://www.siteinspire.com/websites?search=architecture",
+   "motivo": "responde 429 a robô"
+  },
+  {
+   "nome": "Minimal Gallery",
+   "url": "https://minimal.gallery/?s=architecture",
+   "motivo": "termos proíbem raspar"
+  },
+  {
+   "nome": "CSS Design Awards",
+   "url": "https://www.cssdesignawards.com/website-gallery",
+   "motivo": "termos proíbem copiar conteúdo"
+  },
+  {
+   "nome": "Awwwards (busca livre)",
+   "url": "https://www.awwwards.com/websites/?text=architecture",
+   "motivo": "busca por texto fora do robots.txt"
+  },
+  {
+   "nome": "Framer Marketplace (modelos)",
+   "url": "https://www.framer.com/marketplace/templates/?search=architecture",
+   "motivo": "modelo só roda dentro do Framer"
+  },
+  {
+   "nome": "Made in Webflow",
+   "url": "https://webflow.com/made-in-webflow",
+   "motivo": "modelo só roda dentro do Webflow"
+  }
+ ],
+ "pecas": [
+  {
+   "nome": "Aceternity UI (grátis)",
+   "url": "https://ui.aceternity.com/components",
+   "instalar": "npx shadcn@latest add @aceternity/<peça>",
+   "licenca": "licença própria: uso livre em site de cliente; modelos e blocos Pro são pagos"
+  },
+  {
+   "nome": "Magic UI",
+   "url": "https://magicui.design/docs/components",
+   "instalar": "npx shadcn@latest add @magicui/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "React Bits",
+   "url": "https://reactbits.dev",
+   "instalar": "npx shadcn@latest add @react-bits/<peça>",
+   "licenca": "MIT + Commons Clause (não revender a peça)"
+  },
+  {
+   "nome": "Motion Primitives",
+   "url": "https://motion-primitives.com",
+   "instalar": "npx shadcn@latest add @motion-primitives/<peça>",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Animata",
+   "url": "https://animata.design",
+   "instalar": "npx shadcn@latest add https://animata.design/r/<grupo>/<peça>.json",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "Uiverse",
+   "url": "https://uiverse.io",
+   "instalar": "copiar da página (sem registro)",
+   "licenca": "MIT"
+  },
+  {
+   "nome": "21st.dev",
+   "url": "https://21st.dev/community/components",
+   "instalar": "pela página de cada peça",
+   "licenca": "varia por autor: conferir na página"
+  }
+ ]
+}

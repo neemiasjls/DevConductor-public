@@ -1,6 +1,6 @@
 """Gera as imagens WebP (3 larguras) e o manifesto de um site a partir de um mapa nome → original.
 
-Uso: python -I midias.py <pasta-fotos-originais> <pasta-do-site>
+Uso: python -I midias.py <pasta-das-fotos-originais> <pasta-do-site>
 O mapa fica em <pasta-do-site>/midias.json: { "nome-no-site": "subpasta/arquivo-sem-extensao", ... }
 Originais em "quadros/" (tirados de vídeo) recebem um leve aquecimento de cor.
 Saída: <site>/public/img/<nome>-<largura>.webp e <site>/src/data/imagens.json

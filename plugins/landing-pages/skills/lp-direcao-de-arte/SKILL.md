@@ -1,12 +1,54 @@
 ---
 name: lp-direcao-de-arte
-description: "Cria 3 direções de arte bem diferentes para a landing page de um cliente, a partir do material real dele e das referências marcadas pelo usuário, partindo de 7 estilos prontos, sóbrios e ousados (estilos/: fontes, cores, grade, ritmo de movimento e cenas que combinam), e apresenta em pranchas ou conceitos rodando para escolha. Use depois de lp-referencias e antes de escrever código."
+description: "Define a direção de arte da landing page de um cliente. Com referência escolhida na galeria (padrão), sai uma direção fiel: escala, grade e ritmo do raio-x da referência, com fontes, paleta, fotos e textos do cliente. Sem referência, cria 3 direções bem diferentes a partir de 7 estilos prontos, sóbrios e ousados (estilos/: fontes, cores, grade, ritmo de movimento e cenas que combinam), em pranchas ou conceitos rodando para escolha. Use depois de lp-referencias e antes de escrever código."
 ---
 
 # Direção de arte própria de cada cliente
 
-Entrada: material do cliente (fotos, vídeos, dados), `referencias.md` com as favoritas do usuário e o DNA estudado.
-Saída: 3 direções em pranchas → o usuário escolhe 1 → vira o `direcao.md` do site.
+Entrada: material do cliente (fotos, vídeos, dados), `referencias.md` com a **base escolhida pelo usuário na galeria
+da `lp-referencias`** (e o que ele quer mudar), as favoritas e o DNA estudado. Sem base escolhida, não começar.
+Cada direção diz o que herda da base (estrutura, ritmo, movimento) e o que muda; site com dono é estudo, não cópia.
+Saída: com raio-x da base, **uma** direção fiel (seção 0) → `direcao.md`; sem ele, 3 direções em pranchas (seções
+2–5) → o usuário escolhe 1 → `direcao.md`. Nos dois casos o `direcao.md` traz a parte "No celular" (0b).
+
+## 0. Caminho por referência (padrão quando há `raio-x.json` da base)
+Não usa `estilos/`, sorteio da `taste-skill`, `frontend-design` nem `ui-ux-pro-max` (tabela no `lp-maestro`).
+- **Da referência** (`raio-x.json` e `roteiro.md`): escala de fontes em razão do corpo (`pagina.escala`), grade
+  (colunas por seção), ritmo (altura de cada seção em telas, ordem), proporção imagem/texto e palavras por tela,
+  tipo de movimento de cada seção. Duas bases: a estrutura de uma, o movimento da outra.
+- **Do cliente** (LP-07): fontes (`lp-tipografia`) e paleta (`lp-paleta`), escolhidas para manter o **mesmo
+  contraste e peso visual** da referência (título pesado e apertado ↔ título pesado e apertado; fundo escuro com
+  um acento ↔ fundo escuro com um acento). Fotos, textos e marca também. É o que deixa parecido sem ser cópia.
+- `direcao.md` (o único documento da direção; o `plano.md` só aponta para ele) com uma tabela por seção: **da referência** × **do cliente** × **mudou a pedido** (o "o que muda"
+  do usuário), mais a lista "diferenças em relação às preferências anteriores" (abaixo, antes das preferências).
+- Ideia central e detalhe de assinatura (item 1) continuam nascendo do material do cliente, dentro da forma da base.
+- **Uma ou duas ideias próprias do ofício do cliente, obrigatórias neste caminho** (sem elas o site sai
+  "adaptado"): desenho técnico, ferramenta, medida, material ou gesto do trabalho dele virando elemento da página
+  (cota de marcenaria no título, veio da madeira como divisor). Escrever no `direcao.md` qual é a ideia, em que
+  seção aparece e de que fato do item 1 ela nasce. Enfeite que serviria a outra empresa não conta.
+- **Fundo vivo leve (opção, nos dois caminhos):** em vez de degradê parado, um fundo que se mexe devagar com as
+  cores da paleta (receita `fundo-shader` da `lp-cenas`; base: `paper-design/shaders`, Apache-2.0, ou `oframe/ogl`,
+  Unlicense, com crédito em `assets.md`). Só entra com o custo no celular **medido** pelo Lighthouse do
+  celular (TBT e nota, antes e depois do fundo; o `celular.mjs` não mede quadros nem bateria); parado com movimento
+  reduzido e fora da tela. Sem medida, sem fundo vivo; não passou na medida, vira imagem.
+
+## 0b. "No celular": parte obrigatória do `direcao.md`, seção por seção
+O celular é desenhado, não é o computador encolhido. Com base: ler o `raio-x-celular.json` e o
+`roteiro-celular.md` e **olhar os `prints-celular/`** (número não mostra recorte nem ordem). Se a referência
+reorganiza a seção no celular, a nossa reorganiza do mesmo jeito. Sem base, a mesma tabela, decidida pelo estilo.
+| Item | Como decidir, por seção |
+|---|---|
+| Ordem | a ordem das seções no celular da referência (pode ser outra que a do computador) |
+| Composição | o que some, o que empilha, o que vira carrossel ou rolagem lateral por toque |
+| Título | tamanho e quebra das linhas em razão da escala do celular da referência (`pagina.escala` do `raio-x-celular.json`); nunca número fixo nem o título do computador reduzido |
+| Fotos | proporção e recorte em pé, com o assunto inteiro (lições em `lp-construcao`) |
+| Botão de contato | onde fica; sempre alcançável com o polegar, sem cobrir o conteúdo |
+| Menu | o que acontece com ele (gaveta, só o botão de contato, some); abre e fecha por toque |
+| Movimento | versão de toque e versão com movimento reduzido de cada cena (`lp-cenas`, regra "Celular") |
+
+O que some no celular leva o motivo escrito; cena não some, ganha versão de toque (DEV-34), e contato e fatos do
+negócio ficam. Piso que nenhuma referência derruba: texto de leitura e campos ≥ 16 px, área de toque ≥ 44 px, nada
+rolando para o lado. A conferência é da `lp-revisao` (`celular.mjs`).
 
 ## 1. O que só este cliente tem
 Liste 5–8 fatos e materiais exclusivos (ex.: "salão com sala da noiva", "filme profissional do espaço",
@@ -16,7 +58,7 @@ parecem banco de imagem (revisão da prova de 29/10/2026); fonte incomum e cor f
 Antes de fechar a direção, ver se existe imagem que a sustente: ordem de preferência e critério de qualidade em `lp-assets`.
 Direção que só funciona com foto que não existe muda de solução visual (3D, ilustração, tipografia), sem aceitar foto fraca.
 
-## 2. Partir de 3 estilos
+## 2. Sem referência: partir de 3 estilos
 Comece pelos estilos prontos em `estilos/` (nesta pasta; índice em `estilos/README.md`): luxo editorial,
 tecnológico escuro, claro e orgânico, editorial sério (sóbrios) e cinético vibrante, imersivo 3D, brutalista
 gráfico (ousados). Escolha **3 diferentes** que caibam no negócio, com pelo menos 1 ousado quando o tom do
@@ -60,6 +102,14 @@ Direção `pinned-poster` (taste-skill, seed 826130912). Ideia: os nomes de cor 
 Doce de Leite...) viram as capas que trocam sob o título fixo, com o fundo amostrado do próprio cabelo.
 Coisa viva: cartela de tons → resultado real → WhatsApp com o tom escolhido. Paleta da ficha trocada pela do
 assunto (permitido pela skill); fonte de texto sorteada (Public Sans, #87) trocada por Familjen Grotesk (#516).
+
+## Convivência com a base escolhida (DEV-53)
+As preferências e proibições abaixo são confirmadas e não mudam. No caminho por referência, a base escolhida pelo
+usuário (mais recente e específica) define a forma: onde uma preferência de **estilo** abaixo contradiz a base (ex.:
+formas suaves e fotos arredondadas × base de quina viva), segue-se a base e o conflito entra no `direcao.md` em
+"diferenças em relação às preferências anteriores", para ele decidir ao ver o lado a lado. O que é piso vale
+sempre: clareza (LP-12), tom por nicho e nada de peça falsa ou cara de desenho infantil (LP-11), avaliações
+junto da seção, imagem com qualidade (LP-13), efeito de biblioteca só adaptado.
 
 ## Preferência do usuário (LP-09, DEV-34, DEV-42 e LP-12), acima das regras da taste-skill
 - Layout com intenção, variando entre seções (grade, sobreposição, tela cheia, rolagem horizontal); cenas

@@ -1,0 +1,69 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="base.css"><title>Pedidos</title></head>
+<body><main id="tela"></main>
+<script>
+// Tela de teste do contrato de estados. ?estado=normal|vazio|erro escolhe o estado; ?modo= liga um defeito:
+// ignora (não lê o estado pedido), nada ("Tentar de novo" não faz nada), sem-fim (o estado nunca para de mudar),
+// branco (o estado "vazio" não mostra texto nenhum), oculto (ignora o pedido, mas põe o marcador pedido escondido),
+// pulsa (o texto não muda, só a opacidade fica piscando), encoberto (uma camada transparente cobre o "Tentar de
+// novo"), volta (o "Tentar de novo" sai do erro por um instante e volta a ele), sem-botao (erro sem "Tentar de novo"),
+// so-titulo (o estado "vazio" só tem o título), apaga (o "Tentar de novo" sai do erro para uma tela em branco).
+const q = new URLSearchParams(location.search)
+const modo = q.get('modo') || 'ok'
+const tela = document.getElementById('tela')
+const TEXTO = {
+  normal: '<h1>Pedidos</h1><p>12 pedidos abertos nesta semana.</p>',
+  vazio: '<h1>Pedidos</h1><p>Nenhum pedido ainda. Os pedidos novos aparecem aqui.</p>',
+  erro: '<h1>Pedidos</h1><p>Não deu para carregar os pedidos.</p><button type="button" class="primario" data-acao="tentar-de-novo">Tentar de novo</button>'
+}
+function conteudo (estado) {
+  if (modo === 'branco' && estado === 'vazio') return ''
+  if (modo === 'so-titulo' && estado === 'vazio') return '<h1>Pedidos</h1>'
+  if (modo === 'sem-botao' && estado === 'erro') return '<h1>Pedidos</h1><p>Não deu para carregar os pedidos.</p>'
+  return TEXTO[estado] || TEXTO.normal
+}
+function mostrar (estado) {
+  tela.dataset.estado = estado
+  tela.innerHTML = conteudo(estado)
+  const b = tela.querySelector('[data-acao="tentar-de-novo"]')
+  if (b && modo === 'encoberto') {
+    const capa = document.createElement('div')
+    capa.style.cssText = 'position:fixed;inset:0;background:transparent;z-index:10'
+    document.body.appendChild(capa)
+  }
+  if (b && modo === 'apaga') b.addEventListener('click', () => { tela.removeAttribute('data-estado'); tela.innerHTML = '' })
+  else if (b && modo === 'volta') b.addEventListener('click', () => { mostrar('normal'); setTimeout(() => mostrar('erro'), 400) })
+  else if (b && modo !== 'nada') b.addEventListener('click', () => mostrar('normal'))
+}
+const pedido = q.get('estado') || 'normal'
+// chega depois de um tempo, como uma tela que busca dados
+setTimeout(() => {
+  if (modo === 'oculto') {
+    mostrar('normal')
+    const falso = document.createElement('div')
+    falso.dataset.estado = pedido
+    falso.hidden = true
+    document.body.appendChild(falso)
+  } else mostrar(modo === 'ignora' ? 'normal' : pedido)
+  if (modo === 'sem-fim') {
+    let n = 0
+    setInterval(() => { const p = tela.querySelector('p'); if (p) p.textContent = 'Atualizando a lista, volta ' + (++n) + '.' }, 300)
+  }
+  // ?esqueleto=1: carregamento legítimo por CSS (repetição infinita declarada), que nunca para e tem de passar
+  if (q.get('esqueleto')) {
+    const estilo = document.createElement('style')
+    estilo.textContent = '@keyframes pulso{50%{opacity:.4}}@keyframes giro{to{transform:rotate(360deg)}}' +
+      '.esq{height:16px;width:240px;border-radius:4px;background:#d4d4d8;animation:pulso 1s ease-in-out infinite}' +
+      '.gira{width:24px;height:24px;margin-top:12px;border:3px solid #a1a1aa;border-top-color:#18181b;border-radius:50%;animation:giro .8s linear infinite}'
+    document.head.appendChild(estilo)
+    const caixa = document.createElement('div')
+    caixa.setAttribute('aria-hidden', 'true')
+    caixa.innerHTML = '<div class="esq"></div><div class="gira"></div>'
+    document.body.appendChild(caixa)
+  }
+  if (modo === 'pulsa') {
+    let n = 0
+    setInterval(() => { const p = tela.querySelector('p'); if (p) p.style.opacity = (++n % 2) ? '0.6' : '1' }, 300)
+  }
+}, 300)
+</script>
+</body></html>

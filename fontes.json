@@ -27,6 +27,26 @@
     "ibelick-ui-skills": {
       "repo": "https://github.com/ibelick/ui-skills",
       "licenca": "MIT"
+    },
+    "strix": {
+      "repo": "https://github.com/usestrix/strix",
+      "licenca": "Apache-2.0"
+    },
+    "anthropic-security-review": {
+      "repo": "https://github.com/anthropics/claude-code-security-review",
+      "licenca": "MIT"
+    },
+    "madr": {
+      "repo": "https://github.com/adr/madr",
+      "licenca": "MIT OR CC0-1.0"
+    },
+    "emilkowalski-skills": {
+      "repo": "https://github.com/emilkowalski/skills",
+      "licenca": "MIT"
+    },
+    "vercel-web-interface-guidelines": {
+      "repo": "https://github.com/vercel-labs/web-interface-guidelines",
+      "licenca": "MIT"
     }
   },
   "arquivos": [
@@ -271,7 +291,55 @@
       "caminho": "plugins/security-scanning/skills/sast-configuration",
       "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
       "licenca": "MIT",
-      "alterado": "links de skills nao distribuidas apontam para a origem fixada no commit"
+      "alterado": "links de skills nao distribuidas apontam para a origem fixada no commit; nota no topo apontando para a skill varredura-seguranca"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/orquestrador/referencias/portao-seguranca.md",
+      "origem": "strix",
+      "caminho": "strix/skills/analysis/severity_calibration.md",
+      "commit": "03d2c6c168782d59f665de780db64c031e023571",
+      "licenca": "Apache-2.0",
+      "alterado": "regua de gravidade traduzida e resumida, com exemplos do kit; sem CVSS e sem nomes de ferramentas da origem"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/orquestrador/referencias/portao-seguranca.md",
+      "origem": "strix",
+      "caminho": "strix/skills/analysis/counterevidence.md",
+      "commit": "03d2c6c168782d59f665de780db64c031e023571",
+      "licenca": "Apache-2.0",
+      "alterado": "tres estados de fechamento traduzidos e resumidos; sem nomes de ferramentas da origem"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/orquestrador/referencias/portao-seguranca.md",
+      "origem": "strix",
+      "caminho": "strix/skills/vulnerabilities/idor.md",
+      "commit": "03d2c6c168782d59f665de780db64c031e023571",
+      "licenca": "Apache-2.0",
+      "alterado": "trecho traduzido e resumido, sem nomes de ferramentas da origem; so as perguntas de leitura de codigo"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/orquestrador/referencias/portao-seguranca.md",
+      "origem": "strix",
+      "caminho": "strix/skills/vulnerabilities/broken_function_level_authorization.md",
+      "commit": "03d2c6c168782d59f665de780db64c031e023571",
+      "licenca": "Apache-2.0",
+      "alterado": "trecho traduzido e resumido, sem nomes de ferramentas da origem; so as perguntas de leitura de codigo"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/orquestrador/referencias/portao-seguranca.md",
+      "origem": "anthropic-security-review",
+      "caminho": ".claude/commands/security-review.md",
+      "commit": "0c6a49f1fa56a1d472575da86a94dbc1edb78eda",
+      "licenca": "MIT",
+      "alterado": "so a lista de exclusoes, traduzida e resumida; retiradas as que contrariam o kit (segredo em arquivo, identificador dificil de adivinhar, limite de tentativas)"
+    },
+    {
+      "destino": "plugins/devconductor-core/skills/arquitetura/referencias/modelo-decisao.md",
+      "origem": "madr",
+      "caminho": "template/adr-template-minimal.md",
+      "commit": "ba75bb1b20d42af5746b246ad348c202419ae681",
+      "licenca": "MIT OR CC0-1.0",
+      "alterado": "traduzido e reduzido; campo Como desfazer e linha Situacao acrescentados"
     },
     {
       "destino": "plugins/devconductor-core/skills/skill-scanner",
@@ -384,6 +452,38 @@
       "commit": "73fb128d046d1f0d74c2909cd26eb616e3415567",
       "licenca": "MIT",
       "alterado": "trava disable-model-invocation; LICENSE incluída; comandos trocados para npx -y -p @google/design.md designmd (nome que roda no Windows)"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/lp-revisao/referencias/critica-de-movimento.md",
+      "origem": "emilkowalski-skills",
+      "caminho": "skills/review-animations/SKILL.md, skills/review-animations/STANDARDS.md, skills/animate/SKILL.md",
+      "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+      "licenca": "MIT",
+      "alterado": "traduzido e resumido para landing page (React + Tailwind + GSAP): equivalentes no GSAP, duracoes de cena de rolagem, sem Motion/springs/gestos"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/lp-revisao/referencias/conteudo-extremo.md",
+      "origem": "emilkowalski-skills",
+      "caminho": "skills/break-ui/SKILL.md, skills/break-ui/CATALOG.md",
+      "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+      "licenca": "MIT",
+      "alterado": "traduzido e resumido; exemplos trocados por campos de landing page brasileira (empresa, telefone, preco em reais, depoimento); sem RTL, fuso e permissoes"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/lp-construcao/referencias/celular-de-verdade.md",
+      "origem": "emilkowalski-skills",
+      "caminho": "skills/mobile-native/SKILL.md",
+      "commit": "715c1807e08c497cfd1dc4feb450a2a3300ef2a9",
+      "licenca": "MIT",
+      "alterado": "traduzido e resumido para landing page; altura com svh, barra fixa no pe com folga e area segura, rolagem de documento mantida; regras de toque e campos de vercel-labs/web-interface-guidelines (command.md, AGENTS.md, commit 434b7f91364665f2f733b310ec54809bf8f37937); sem PWA"
+    },
+    {
+      "destino": "plugins/landing-pages/skills/lp-revisao/referencias/detalhes-de-interface.md",
+      "origem": "vercel-web-interface-guidelines",
+      "caminho": "command.md, AGENTS.md",
+      "commit": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "licenca": "MIT",
+      "alterado": "traduzido e resumido para landing page em portugues; sem hidratacao, URL com estado e listas virtualizadas; Title Case trocado pela regra do portugues; formatos pt-BR"
     }
   ],
   "assets": [
@@ -398,5 +498,49 @@
       "sha256_original": "3892df672cb1ac5048cf6b0ddd4b5e0b8878d71ff45d5803c7d33c6422eb8543",
       "sha256_derivado": "9b6e517a1287b59ef9ca0c105fd1c0cb4cbc9c080f215a76094685c0d10a2ee1"
     }
-  ]
+  ],
+  "bibliotecas": {
+    "_nota": "Bibliotecas indicadas pela skill lp-referencias para sites de cliente; nada delas está copiado no kit. Instalação pelo shadcn CLI no projeto do cliente, que registra a origem lá. Conferido em 09/11/2026.",
+    "aceternity": {
+      "site": "https://ui.aceternity.com",
+      "licenca": "Aceternity UI License (própria): uso livre em produto de cliente; proíbe revender ou redistribuir a peça; Pro e modelos são pagos",
+      "licencaUrl": "https://ui.aceternity.com/licence",
+      "instalar": "npx shadcn@latest add @aceternity/<peça>"
+    },
+    "magicui": {
+      "site": "https://magicui.design",
+      "repo": "https://github.com/magicuidesign/magicui",
+      "licenca": "MIT",
+      "instalar": "npx shadcn@latest add @magicui/<peça>"
+    },
+    "motion-primitives": {
+      "site": "https://motion-primitives.com",
+      "repo": "https://github.com/ibelick/motion-primitives",
+      "licenca": "MIT",
+      "instalar": "npx shadcn@latest add @motion-primitives/<peça>"
+    },
+    "react-bits": {
+      "site": "https://reactbits.dev",
+      "repo": "https://github.com/DavidHDev/react-bits",
+      "licenca": "MIT + Commons Clause",
+      "instalar": "npx shadcn@latest add @react-bits/<peça>"
+    },
+    "animata": {
+      "site": "https://animata.design",
+      "repo": "https://github.com/codse/animata",
+      "licenca": "MIT",
+      "instalar": "npx shadcn@latest add https://animata.design/r/<grupo>/<peça>.json"
+    },
+    "uiverse": {
+      "site": "https://uiverse.io",
+      "repo": "https://github.com/uiverse-io/galaxy",
+      "licenca": "MIT",
+      "instalar": "copiar da página"
+    },
+    "fontshare": {
+      "site": "https://www.fontshare.com",
+      "licenca": "ITF Free Font License ou SIL OFL 1.1, conforme a fonte (campo license_type da API)",
+      "instalar": "api.fontshare.com/v2/fonts"
+    }
+  }
 }
